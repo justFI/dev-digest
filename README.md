@@ -45,12 +45,13 @@ python scripts/collect_digest.py
 
 编辑 [`config/sources.yaml`](config/sources.yaml) 可增删 RSS 源或分类。
 
-## GitHub Pages 启用
+## GitHub Pages 启用（解决 404）
 
-工作流使用 **GitHub Actions** 官方部署（`deploy-pages`）。首次访问 404 时：
+**404 原因**：仓库尚未启用 GitHub Pages。`gh-pages` 分支已有页面，只需一次性设置：
 
-1. 打开 **Actions → Daily Dev Digest → Run workflow** 手动触发一次
-2. 若仍 404，进入 **Settings → Pages**，Source 选择 **GitHub Actions**
-3. 再次运行工作流，访问 **https://justfi.github.io/dev-digest/**
+1. 打开 [Settings → Pages](https://github.com/justFI/dev-digest/settings/pages)
+2. **Source** 选 **Deploy from a branch**
+3. **Branch** 选 `gh-pages`，目录 **/ (root)**，保存
+4. 等待 1–2 分钟后访问 **https://justfi.github.io/dev-digest/**
 
-工作流会在首次运行时尝试自动启用 Pages；若无权限，需仓库管理员完成第 2 步。
+启用后，每日 cron 会自动更新 `gh-pages` 分支内容。

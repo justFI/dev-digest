@@ -25,8 +25,6 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    outputs:
-      has_changes: ${{ steps.commit.outputs.has_changes }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -49,65 +47,57 @@ jobs:
         run: python3 scripts/collect_digest.py
 
       - name: Commit data archive
-        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/ data/
           if git diff --staged --quiet; then
-            echo "has_changes=false" >> "$GITHUB_OUTPUT"
             echo "No changes to commit"
           else
             git commit -m "chore(digest): update daily dev news $(date -u +%Y-%m-%d)"
             git push
-            echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
   deploy-pages:
     needs: collect
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Enable GitHub Pages (first run)
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if gh api "repos/${{ github.repository }}/pages" >/dev/null 2>&1; then
-            echo "GitHub Pages already enabled"
-          else
-            echo "Trying to enable GitHub Pages (workflow source)..."
-            gh api --method POST "repos/${{ github.repository }}/pages" \
-              -f build_type=workflow || \
-            gh api --method POST "repos/${{ github.repository }}/pages" \
-              -f 'source[branch]=gh-pages' -f 'source[path]=/'
-          fi
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        continue-on-error: true
-
-      - name: Fallback deploy to gh-pages branch
-        if: steps.deployment.outcome != 'success'
+      - name: Publish to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: gh-pages
           commit_message: "deploy: daily digest pages"
+
+      - name: Try GitHub Actions Pages deploy
+        continue-on-error: true
+        id: actions_deploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! gh api "repos/${{ github.repository }}/pages" >/dev/null 2>&1; then
+            echo "Pages not enabled yet — skip Actions deploy"
+            exit 0
+          fi
+          echo "Pages enabled, attempting Actions deploy..."
+
+      - name: Setup Pages
+        if: steps.actions_deploy.outcome == 'success'
+        continue-on-error: true
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        if: steps.actions_deploy.outcome == 'success'
+        continue-on-error: true
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        if: steps.actions_deploy.outcome == 'success'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4

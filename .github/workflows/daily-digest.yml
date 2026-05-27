@@ -81,13 +81,17 @@ jobs:
           if gh api "repos/${{ github.repository }}/pages" >/dev/null 2>&1; then
             echo "GitHub Pages already enabled"
           else
-            echo "Enabling GitHub Pages with GitHub Actions source..."
+            echo "Trying to enable GitHub Pages (workflow source)..."
             gh api --method POST "repos/${{ github.repository }}/pages" \
-              -f build_type=workflow
+              -f build_type=workflow || \
+            gh api --method POST "repos/${{ github.repository }}/pages" \
+              -f 'source[branch]=gh-pages' -f 'source[path]=/'
           fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -97,3 +101,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Fallback deploy to gh-pages branch
+        if: steps.deployment.outcome != 'success'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
+          commit_message: "deploy: daily digest pages"

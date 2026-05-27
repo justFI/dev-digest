@@ -261,10 +261,41 @@ def enrich_with_ai(items_by_cat: dict[str, list[dict]]) -> None:
             )
 
 
+CAT_ICONS: dict[str, str] = {
+    "ai":       "🤖",
+    "ios":      "🍎",
+    "android":  "🤖",
+    "frontend": "🎨",
+    "backend":  "⚙️",
+    "general":  "📰",
+}
+
+_SVG_CLOCK = (
+    '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">'
+    '<circle cx="8" cy="8" r="6.5"/><path d="M8 5v3.5l2 1.5"/></svg>'
+)
+_SVG_LINK = (
+    '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">'
+    '<path d="M6.5 3.5H4A2.5 2.5 0 0 0 4 8.5h2"/>'
+    '<path d="M9.5 12.5H12A2.5 2.5 0 0 0 12 7.5h-2"/>'
+    '<line x1="5.5" y1="8" x2="10.5" y2="8"/></svg>'
+)
+_SVG_AI = (
+    '<svg viewBox="0 0 16 16" fill="currentColor">'
+    '<path d="M8 1a1 1 0 0 1 1 1v1.268a5 5 0 1 1-2 0V2a1 1 0 0 1 1-1zm0 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>'
+    '</svg>'
+)
+_SVG_ARROW = (
+    '<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8">'
+    '<path d="M2 6h8M6 2l4 4-4 4"/></svg>'
+)
+
+
 def render_html(items_by_cat: dict[str, list[dict]], config: dict) -> str:
     now = datetime.now(timezone.utc)
     date_str = now.strftime("%Y-%m-%d")
     total = sum(len(v) for v in items_by_cat.values())
+    cat_count = sum(1 for c in config["categories"] if items_by_cat.get(c["id"]))
 
     cat_meta = {c["id"]: c["name"] for c in config["categories"]}
 
@@ -275,49 +306,87 @@ def render_html(items_by_cat: dict[str, list[dict]], config: dict) -> str:
         if not items:
             continue
 
+        icon = CAT_ICONS.get(cid, "📌")
         cards = []
         for it in items:
             pub = it.get("published")
-            pub_str = pub.strftime("%Y-%m-%d %H:%M UTC") if pub else "—"
-            media_html = ""
+            pub_str = pub.strftime("%m-%d %H:%M") if pub else "—"
+
+            # media
+            has_img = False
             if it.get("media"):
                 thumbs = []
+                has_text_only = True
                 for i, murl in enumerate(it["media"][:4]):
                     esc = html.escape(murl)
                     if re.search(r"\.(jpg|jpeg|png|gif|webp|svg)(\?|$)", murl, re.I):
                         thumbs.append(
                             f'<a href="{esc}" target="_blank" rel="noopener">'
-                            f'<img src="{esc}" alt="media-{i}" loading="lazy" /></a>'
+                            f'<img src="{esc}" alt="media" loading="lazy" /></a>'
                         )
+                        has_text_only = False
+                        has_img = True
                     else:
-                        thumbs.append(f'<a href="{esc}" target="_blank" rel="noopener">{esc[:60]}…</a>')
-                media_html = f'<div class="media">{"".join(thumbs)}</div>'
+                        thumbs.append(
+                            f'<a href="{esc}" target="_blank" rel="noopener" title="{esc}">'
+                            f'{esc[:55]}…</a>'
+                        )
+                media_cls = "media" + (" has-text" if has_text_only else "")
+                media_html = f'<div class="{media_cls}">{"".join(thumbs)}</div>'
             else:
-                media_html = '<div class="media empty">暂无媒体资源</div>'
+                media_html = ""
+
+            ai_text = html.escape(it.get("ai_summary") or "")
+            describe_text = html.escape(it.get("describe") or "（无摘要）")
+            title_esc = html.escape(it["title"])
+            url_esc = html.escape(it["origin_url"])
+            src_esc = html.escape(it.get("source_label") or "")
+            badge_name = html.escape(cat_meta.get(cid, cid))
 
             cards.append(
                 f"""
-        <article class="card" data-category="{html.escape(cid)}">
-          <span class="badge">{html.escape(cat_meta.get(cid, cid))}</span>
-          <h3 class="title"><a href="{html.escape(it['origin_url'])}" target="_blank" rel="noopener">{html.escape(it['title'])}</a></h3>
-          <p class="meta">来源：{html.escape(it.get('source_label', ''))} · {html.escape(pub_str)}</p>
-          <p class="describe">{html.escape(it.get('describe') or '（无摘要）')}</p>
+        <article class="card" data-category="{cid}" data-title="{title_esc.lower()}" data-text="{describe_text[:120].lower()}">
+          <div class="card-top">
+            <span class="badge">{badge_name}</span>
+            <span class="card-meta">{_SVG_CLOCK} {html.escape(pub_str)}</span>
+          </div>
+          <h3 class="title"><a href="{url_esc}" target="_blank" rel="noopener">{title_esc}</a></h3>
+          <p class="describe">{describe_text}</p>
           <div class="ai-box">
-            <strong>AI 总结</strong>
-            <p>{html.escape(it.get('ai_summary', ''))}</p>
+            <div class="ai-label">{_SVG_AI} AI 总结</div>
+            <p>{ai_text}</p>
           </div>
           {media_html}
-          <p class="origin"><a href="{html.escape(it['origin_url'])}" target="_blank" rel="noopener">原文链接 →</a></p>
+          <div class="card-footer">
+            <span class="card-meta" style="margin-right:auto">{_SVG_LINK} {src_esc}</span>
+            <a class="read-link" href="{url_esc}" target="_blank" rel="noopener">
+              阅读原文 {_SVG_ARROW}
+            </a>
+          </div>
         </article>"""
             )
 
         sections_html.append(
             f"""
-      <section id="cat-{html.escape(cid)}">
-        <h2>{html.escape(cat['name'])} <span class="count">{len(items)}</span></h2>
-        <div class="grid">{''.join(cards)}</div>
+      <section id="cat-{cid}" data-section="{cid}">
+        <div class="cat-header">
+          <span class="cat-icon">{icon}</span>
+          <h2>{html.escape(cat["name"])}</h2>
+          <span class="count">{len(items)}</span>
+        </div>
+        <div class="grid" id="grid-{cid}">
+          {''.join(cards)}
+          <div class="no-results" id="nores-{cid}">该分类暂无匹配结果</div>
+        </div>
       </section>"""
         )
+
+    nav_pills = "".join(
+        f'<button class="nav-pill" data-filter="{c["id"]}">'
+        f'{CAT_ICONS.get(c["id"], "📌")} {html.escape(c["name"])}</button>'
+        for c in config["categories"]
+        if items_by_cat.get(c["id"])
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -326,24 +395,126 @@ def render_html(items_by_cat: dict[str, list[dict]], config: dict) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>开发资讯日报 · {date_str}</title>
   <meta name="description" content="AI、iOS、Android、前端、后端等领域每日开发技巧与行业干货聚合" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="progress-bar"></div>
+
+  <nav class="top-nav">
+    <span class="brand">⚡ <span>Dev Digest</span></span>
+    <div class="nav-pills">
+      <button class="nav-pill active" data-filter="all">全部</button>
+      {nav_pills}
+    </div>
+  </nav>
+
   <header class="hero">
+    <div class="hero-eyebrow">每日自动采集</div>
     <h1>开发资讯日报</h1>
     <p class="subtitle">AI · iOS · Android · 前端 · 后端 · 行业干货</p>
-    <p class="updated">更新于 {now.strftime("%Y-%m-%d %H:%M UTC")} · 共 {total} 条</p>
-    <nav class="toc">
-      {"".join(f'<a href="#cat-{html.escape(c["id"])}">{html.escape(c["name"])}</a>' for c in config["categories"])}
-    </nav>
+    <p class="updated">
+      🕐 更新于 {now.strftime("%Y-%m-%d %H:%M UTC")}
+    </p>
   </header>
-  <main>
+
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="num">{total}</div>
+      <div class="label">今日资讯</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">{cat_count}</div>
+      <div class="label">技术领域</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">{date_str}</div>
+      <div class="label">更新日期</div>
+    </div>
+  </div>
+
+  <div class="search-wrap">
+    <div class="search-box">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="6.5" cy="6.5" r="4.5"/><path d="M10.5 10.5l3 3"/>
+      </svg>
+      <input type="search" id="search-input" placeholder="搜索标题或摘要…" autocomplete="off" />
+    </div>
+  </div>
+
+  <main id="main-content">
     {''.join(sections_html) if sections_html else '<p class="empty">今日暂无新资讯，请稍后重试。</p>'}
   </main>
+
   <footer>
-    <p>由 <a href="https://github.com/justFI/dev-digest">dev-digest</a> 自动采集 · 
-    <a href="https://github.com/justFI/dev-digest/actions">GitHub Actions</a> 每日更新</p>
+    <p>
+      由 <a href="https://github.com/justFI/dev-digest" target="_blank" rel="noopener">dev-digest</a> 自动采集 ·
+      <a href="https://github.com/justFI/dev-digest/actions" target="_blank" rel="noopener">GitHub Actions</a> 每日 UTC 01:00 更新
+    </p>
   </footer>
+
+  <script>
+  (function () {{
+    // Reading progress bar
+    var bar = document.getElementById('progress-bar');
+    window.addEventListener('scroll', function () {{
+      var s = document.documentElement;
+      var pct = s.scrollTop / (s.scrollHeight - s.clientHeight) * 100;
+      bar.style.width = Math.min(pct, 100) + '%';
+    }}, {{ passive: true }});
+
+    // Category filter + search
+    var pills = document.querySelectorAll('.nav-pill');
+    var cards = document.querySelectorAll('.card');
+    var sections = document.querySelectorAll('[data-section]');
+    var searchInput = document.getElementById('search-input');
+    var activeFilter = 'all';
+    var searchQuery = '';
+
+    function applyFilters() {{
+      sections.forEach(function (sec) {{
+        var sid = sec.dataset.section;
+        var visible = 0;
+        sec.querySelectorAll('.card').forEach(function (card) {{
+          var catMatch = activeFilter === 'all' || card.dataset.category === activeFilter;
+          var q = searchQuery.trim();
+          var textMatch = !q ||
+            card.dataset.title.includes(q) ||
+            card.dataset.text.includes(q);
+          if (catMatch && textMatch) {{
+            card.classList.remove('hidden');
+            visible++;
+          }} else {{
+            card.classList.add('hidden');
+          }}
+        }});
+        var nores = document.getElementById('nores-' + sid);
+        if (nores) nores.classList.toggle('visible', visible === 0);
+        sec.style.display = (activeFilter !== 'all' && activeFilter !== sid) ? 'none' : '';
+      }});
+    }}
+
+    pills.forEach(function (pill) {{
+      pill.addEventListener('click', function () {{
+        pills.forEach(function (p) {{ p.classList.remove('active'); }});
+        pill.classList.add('active');
+        activeFilter = pill.dataset.filter;
+        applyFilters();
+        if (activeFilter !== 'all') {{
+          var target = document.getElementById('cat-' + activeFilter);
+          if (target) target.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+        }}
+      }});
+    }});
+
+    searchInput.addEventListener('input', function () {{
+      searchQuery = this.value.toLowerCase();
+      applyFilters();
+    }});
+  }})();
+  </script>
 </body>
 </html>"""
 

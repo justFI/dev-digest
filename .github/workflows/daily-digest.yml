@@ -5,13 +5,6 @@ on:
     # 每天 UTC 01:00（北京时间 09:00）
     - cron: "0 1 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "docs/**"
-      - "scripts/**"
-      - "config/**"
-      - ".github/workflows/daily-digest.yml"
 
 permissions:
   contents: write
@@ -23,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  collect:
+  collect-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -58,46 +51,11 @@ jobs:
             git push
           fi
 
-  deploy-pages:
-    needs: collect
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Publish to gh-pages branch
+      - name: Deploy GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
+        if: success()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: gh-pages
           commit_message: "deploy: daily digest pages"
-
-      - name: Try GitHub Actions Pages deploy
-        continue-on-error: true
-        id: actions_deploy
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if ! gh api "repos/${{ github.repository }}/pages" >/dev/null 2>&1; then
-            echo "Pages not enabled yet — skip Actions deploy"
-            exit 0
-          fi
-          echo "Pages enabled, attempting Actions deploy..."
-
-      - name: Setup Pages
-        if: steps.actions_deploy.outcome == 'success'
-        continue-on-error: true
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        if: steps.actions_deploy.outcome == 'success'
-        continue-on-error: true
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
-      - name: Deploy to GitHub Pages
-        if: steps.actions_deploy.outcome == 'success'
-        continue-on-error: true
-        uses: actions/deploy-pages@v4

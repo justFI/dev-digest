@@ -47,8 +47,10 @@ python scripts/collect_digest.py
 
 ## GitHub Pages 启用
 
-1. 仓库 **Settings → Pages**
-2. Source 选择 **Deploy from a branch**
-3. Branch 选 **gh-pages**，目录 **/ (root)**
+工作流使用 **GitHub Actions** 官方部署（`deploy-pages`）。首次访问 404 时：
 
-首次推送后由 `daily-digest.yml` 自动创建 `gh-pages` 分支。
+1. 打开 **Actions → Daily Dev Digest → Run workflow** 手动触发一次
+2. 若仍 404，进入 **Settings → Pages**，Source 选择 **GitHub Actions**
+3. 再次运行工作流，访问 **https://justfi.github.io/dev-digest/**
+
+工作流会在首次运行时尝试自动启用 Pages；若无权限，需仓库管理员完成第 2 步。

@@ -5,6 +5,13 @@ on:
     # 每天 UTC 01:00（北京时间 09:00）
     - cron: "0 1 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "scripts/**"
+      - "config/**"
+      - ".github/workflows/daily-digest.yml"
 
 permissions:
   contents: write
@@ -16,8 +23,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  collect-and-publish:
+  collect:
     runs-on: ubuntu-latest
+    outputs:
+      has_changes: ${{ steps.commit.outputs.has_changes }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,22 +49,51 @@ jobs:
         run: python3 scripts/collect_digest.py
 
       - name: Commit data archive
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/ data/
           if git diff --staged --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
             echo "No changes to commit"
           else
             git commit -m "chore(digest): update daily dev news $(date -u +%Y-%m-%d)"
             git push
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Deploy GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        if: success()
+  deploy-pages:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Enable GitHub Pages (first run)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh api "repos/${{ github.repository }}/pages" >/dev/null 2>&1; then
+            echo "GitHub Pages already enabled"
+          else
+            echo "Enabling GitHub Pages with GitHub Actions source..."
+            gh api --method POST "repos/${{ github.repository }}/pages" \
+              -f build_type=workflow
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          publish_branch: gh-pages
-          commit_message: "deploy: daily digest pages"
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

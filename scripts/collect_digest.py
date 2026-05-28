@@ -357,6 +357,10 @@ def render_html(items_by_cat: dict[str, list[dict]], config: dict) -> str:
             <p>{ai_text}</p>
           </div>
           {media_html}
+          <p class="origin-url" title="原文链接">
+            <span class="origin-label">Origin URL</span>
+            <a href="{url_esc}" target="_blank" rel="noopener">{url_esc}</a>
+          </p>
           <div class="card-footer">
             <span class="card-meta" style="margin-right:auto">{_SVG_LINK} {src_esc}</span>
             <a class="read-link" href="{url_esc}" target="_blank" rel="noopener">

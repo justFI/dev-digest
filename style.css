@@ -506,6 +506,27 @@ main {
 /* =============================================
    Card footer
    ============================================= */
+.origin-url {
+  margin: .65rem 0 0;
+  font-size: .72rem;
+  line-height: 1.45;
+  word-break: break-all;
+}
+.origin-url .origin-label {
+  display: block;
+  color: var(--text-faint);
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  margin-bottom: .2rem;
+}
+.origin-url a {
+  color: var(--text-muted);
+}
+.origin-url a:hover {
+  color: var(--accent);
+}
+
 .card-footer {
   margin-top: auto;
   display: flex;

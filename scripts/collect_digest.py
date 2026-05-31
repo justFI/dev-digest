@@ -9,6 +9,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -103,17 +104,37 @@ def strip_html(text: str) -> str:
     return re.sub(r"\s+", " ", soup.get_text(separator=" ")).strip()
 
 
-def fetch_feed(url: str, label: str) -> list[dict]:
-    try:
-        resp = requests.get(
-            url,
-            headers={"User-Agent": USER_AGENT},
-            timeout=25,
-        )
-        resp.raise_for_status()
-        parsed = feedparser.parse(resp.content)
-    except Exception as exc:  # noqa: BLE001
-        print(f"  [warn] {label}: {exc}", file=sys.stderr)
+def is_valid_describe(text: str) -> bool:
+    if not text or len(text.strip()) < 8:
+        return False
+    if re.search(r"\{\{.*?\}\}", text):
+        return False
+    if text.strip() in ("[link] [comments]", "[removed]", "[deleted]"):
+        return False
+    return True
+
+
+def fetch_feed(url: str, label: str, retries: int = 3) -> list[dict]:
+    last_exc: Exception | None = None
+    parsed = None
+    for attempt in range(retries):
+        try:
+            resp = requests.get(
+                url,
+                headers={"User-Agent": USER_AGENT},
+                timeout=30,
+            )
+            resp.raise_for_status()
+            parsed = feedparser.parse(resp.content)
+            break
+        except Exception as exc:  # noqa: BLE001
+            last_exc = exc
+            if attempt < retries - 1:
+                wait = 2**attempt
+                print(f"  [retry] {label} attempt {attempt + 2}/{retries} in {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+    if parsed is None:
+        print(f"  [warn] {label}: {last_exc}", file=sys.stderr)
         return []
 
     items: list[dict] = []
@@ -130,8 +151,12 @@ def fetch_feed(url: str, label: str) -> list[dict]:
             content_html = entry.get("summary", "")
 
         describe = strip_html(content_html) or strip_html(entry.get("summary", ""))
+        if not is_valid_describe(describe):
+            describe = strip_html(entry.get("title", ""))
         if len(describe) > 600:
             describe = describe[:597] + "..."
+        if not is_valid_describe(describe):
+            continue
 
         items.append(
             {

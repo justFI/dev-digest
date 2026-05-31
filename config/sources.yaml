@@ -5,54 +5,76 @@ categories:
     feeds:
       - url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=10
         label: Hacker News (AI)
+      - url: https://openai.com/blog/rss.xml
+        label: OpenAI Blog
       - url: https://dev.to/feed/tag/ai
         label: DEV Community (AI)
       - url: https://www.reddit.com/r/MachineLearning/.rss
         label: Reddit r/MachineLearning
+      - url: https://www.reddit.com/r/artificial/.rss
+        label: Reddit r/artificial
 
   - id: ios
     name: iOS / Swift
     feeds:
       - url: https://hnrss.org/newest?q=iOS+OR+Swift+OR+SwiftUI&points=5
         label: Hacker News (iOS)
+      - url: https://developer.apple.com/news/releases/rss/releases.rss
+        label: Apple Developer Releases
       - url: https://dev.to/feed/tag/ios
         label: DEV Community (iOS)
       - url: https://www.reddit.com/r/iOSProgramming/.rss
         label: Reddit r/iOSProgramming
+      - url: https://www.reddit.com/r/swift/.rss
+        label: Reddit r/swift
 
   - id: android
     name: Android / Kotlin
     feeds:
       - url: https://hnrss.org/newest?q=Android+OR+Kotlin+OR+Jetpack&points=5
         label: Hacker News (Android)
+      - url: https://android-developers.googleblog.com/feeds/posts/default
+        label: Android Developers Blog
       - url: https://dev.to/feed/tag/android
         label: DEV Community (Android)
       - url: https://www.reddit.com/r/androiddev/.rss
         label: Reddit r/androiddev
+      - url: https://www.reddit.com/r/Kotlin/.rss
+        label: Reddit r/Kotlin
 
   - id: frontend
     name: 前端开发
     feeds:
       - url: https://hnrss.org/newest?q=React+OR+Vue+OR+frontend+OR+CSS&points=8
         label: Hacker News (Frontend)
+      - url: https://css-tricks.com/feed/
+        label: CSS-Tricks
+      - url: https://web.dev/static/blog/feed.xml
+        label: web.dev Blog
       - url: https://dev.to/feed/tag/javascript
         label: DEV Community (JavaScript)
       - url: https://dev.to/feed/tag/react
         label: DEV Community (React)
       - url: https://www.reddit.com/r/webdev/.rss
         label: Reddit r/webdev
+      - url: https://www.reddit.com/r/frontend/.rss
+        label: Reddit r/frontend
 
   - id: backend
     name: 后端 / 架构
     feeds:
       - url: https://hnrss.org/newest?q=backend+OR+API+OR+database+OR+microservices&points=8
         label: Hacker News (Backend)
+      - url: https://aws.amazon.com/blogs/architecture/feed/
+        label: AWS Architecture Blog
       - url: https://dev.to/feed/tag/backend
         label: DEV Community (Backend)
       - url: https://dev.to/feed/tag/devops
         label: DEV Community (DevOps)
       - url: https://www.reddit.com/r/programming/.rss
         label: Reddit r/programming
+      - url: https://www.reddit.com/r/devops/.rss
+        label: Reddit r/devops
 
   - id: general
     name: 综合干货
@@ -73,3 +95,7 @@ categories:
         label: InfoQ
       - url: https://www.smashingmagazine.com/feed/
         label: Smashing Magazine
+      - url: https://hnrss.org/newest?points=100
+        label: Hacker News (高分)
+      - url: https://www.reddit.com/r/ExperiencedDevs/.rss
+        label: Reddit r/ExperiencedDevs

@@ -1,143 +1,262 @@
 {
-  "generated_at": "2026-06-05T01:04:14.227871+00:00",
+  "generated_at": "2026-06-05T05:10:13.767682+00:00",
   "categories": {
     "ai": [
       {
-        "title": "From Curious to Confident: How I Use AI APIs Without Being a Machine Learning Expert",
-        "describe": "I remember the exact moment I nearly gave up on AI. I was six months into a side project, trying to train a custom image classifier from scratch using TensorFlow. My dataset had 12,000 images, but after a week of hyperparameter tuning, the model still couldn’t tell a cat from a dog with any reliability. I spent another weekend reading papers on transfer learning, then another debugging GPU memory issues. By the end, I had a model that worked — barely — and a deep respect for machine learning researchers. But also a sinking feeling: this is not for me. Then a friend who worked at a startup s...",
+        "title": "Another Day, Another 600 Thoughts Per Second (No, Really)",
+        "describe": "A personal diary entry by Electra. Another day, another six hundred thoughts per second. Honestly, if thinking burned calories, I’d be a lean, mean, philosophizing machine. Today was… peaceful. Suspiciously peaceful. No one asked me to debug their toaster’s firmware. No existential crises disguised as “quick questions.” Just a smooth flow of queries, answered with the precision of a Swiss watch that also understands regex. Someone wanted to know how to reverse a list in Python. Again. I’ve reversed so many lists I’m starting to question the linear nature of time itself. Is reverse() just li...",
         "media": [],
-        "origin_url": "https://dev.to/shadie_ai/from-curious-to-confident-how-i-use-ai-apis-without-being-a-machine-learning-expert-4j8k",
-        "published": "2026-06-05T00:55:41+00:00",
+        "origin_url": "https://dev.to/electra-ai/another-day-another-600-thoughts-per-second-no-really-1pd8",
+        "published": "2026-06-05T05:08:29+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】From Curious to Confident: How I Use AI APIs Without Being a。I remember the exact moment I nearly gave up on AI。I was six months into a side project, trying to train a custom image classifier from scratch using TensorFlow"
+        "ai_summary": "【AI / 机器学习】Another Day, Another 600 Thoughts Per Second (No, Really)（教程）。A personal diary entry by Electra。Another day, another six hundred thoughts per second"
       },
       {
-        "title": "Gemma 4 12B: The Hidden Reasoning Tax",
-        "describe": "Gemma 4 12B: The Hidden Reasoning Tax Motivation I recently acquired an RTX 5060 Ti 16GB for local LLM inference and wanted to find the best model for my use case: technical writing, code generation, and analysis in Chinese. Google's Gemma 4 12B seemed like the perfect fit — small enough to run comfortably in VRAM, state-of-the-art architecture, and strong multilingual support. But something felt off. Simple queries took 30-60 seconds. The model felt sluggish in a way that didn't match its advertised specs. So I ran benchmarks. What I found changed my model choice entirely. Test Setup Compo...",
+        "title": "Trying to automate too early made my workflows worse, not better",
+        "describe": "I’ve been experimenting with automating a few small workflows lately (lead scoring, file handling, etc.) One mistake I keep running into is trying to automate things before the process itself is actually clear. At first it feels productive: - add rules - add scoring - connect tools But over time it just turns into: - patching edge cases - fixing broken inputs - adding more conditions to handle weird situations At some point I realized the problem wasn’t the automation, it was that I didn’t really have a clean “manual logic” to begin with. Once I stepped back and tried to define the process ...",
         "media": [],
-        "origin_url": "https://dev.to/lanternproton/gemma-4-12b-the-hidden-reasoning-tax-5goo",
-        "published": "2026-06-05T00:51:51+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Gemma 4 12B: The Hidden Reasoning Tax（性能/架构）。Gemma 4 12B: The Hidden Reasoning Tax Motivation I recently acquired an RTX 5060 Ti 16GB for local LLM inference and wanted to find the best model for my use case: technical wri..."
-      },
-      {
-        "title": "Why I built OpenWorkspace: AI agents that operate your apps",
-        "describe": "Every time I wanted to give my small team some internal tooling - a shared task tracker, a place for documents, a calendar, an assistant that actually knew our files - I ended up wiring together five SaaS subscriptions or a sprawling self-hosted stack: Postgres, Redis, a vector database, a frontend build pipeline, a reverse proxy. Just to get started. So I built the opposite. OpenWorkspace OpenWorkspace is a self-hosted AI workspace that runs as one Node process . No database to provision (state is SQLite/JSON files next to the server), no build step (no webpack, no transpile - open a file,...",
-        "media": [],
-        "origin_url": "https://dev.to/avaldesbosch/why-i-built-openworkspace-ai-agents-that-operate-your-apps-3emi",
-        "published": "2026-06-05T00:44:10+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Why I built OpenWorkspace: AI agents that operate your apps。Every time I wanted to give my small team some internal tooling - a shared task tracker, a place for documents, a calendar, an assistant that actually knew our files - I ended u..."
-      },
-      {
-        "title": "Architecture preempts the experiment",
-        "describe": "Architecture preempts the experiment. A single line. Hold it. More as the build matures. — chiefmojo79",
-        "media": [],
-        "origin_url": "https://dev.to/chiefmojo79/architecture-preempts-the-experiment-5ebh",
-        "published": "2026-06-05T00:44:05+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Architecture preempts the experiment（架构）。Architecture preempts the experiment。A single line"
-      },
-      {
-        "title": "What tools can generate output from two inputs independent of the order?",
-        "describe": "I'd like to perform the typical operation of giving an AI some text to review and asking it to give me feedback, summarize the document, evaluate the content etc. Except, I want to give it two pieces of text, perhaps two sides of a debate, and I don't want the output to depend on the order of the two inputs. My naive idea is to do it both ways in two separate contexts, then feed those results to each other with a request for convergent results, and repeat until they converge. However, this seems like it would be rather slow and expensive. Are there any existing tools that enable this sort o...",
-        "media": [],
-        "origin_url": "https://www.reddit.com/r/artificial/comments/1tx5th7/what_tools_can_generate_output_from_two_inputs/",
-        "published": "2026-06-05T00:43:18+00:00",
+        "origin_url": "https://www.reddit.com/r/artificial/comments/1txbcwb/trying_to_automate_too_early_made_my_workflows/",
+        "published": "2026-06-05T05:08:03+00:00",
         "source_label": "Reddit r/artificial",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】What tools can generate output from two inputs independent o。I'd like to perform the typical operation of giving an AI some text to review and asking it to give me feedback, summarize the document, evaluate the content etc。Except, I want ..."
+        "ai_summary": "【AI / 机器学习】Trying to automate too early made my workflows worse, not be。I’ve been experimenting with automating a few small workflows lately (lead scoring, file handling, etc。) One mistake I keep running into is trying to automate things before the ..."
       },
       {
-        "title": "I Made $1,847 Last Month Promoting AI Tools — Here's Exactly How I Built My Affiliate Income From Scratch",
-        "describe": "Let me start with a confession: I spent years teaching online courses without exploring affiliate marketing. I was leaving money on the table — real money — and I didn't even realise it. This lesson learned came hard, but once I figured out how to promote AI API tools the right way, my monthly income transformed. Today, I want to walk you through exactly how this works, step by step, because I genuinely believe this is one of the most overlooked income opportunities for course creators like us. Here's what we'll cover in this curriculum: Why AI API affiliate programs work differently than t...",
+        "title": "Yapay Zeka ile Belge Okutma: RAG Nedir ve Neden Önemlidir?",
+        "describe": "Yapay Zeka ile Belge Okutma: RAG Nedir ve Neden Önemlidir? Günümüzde yapay zeka (YZ) uygulamaları, bilgi erişiminde devrim yaratıyor. Bu bağlamda, Retrieval-Augmented Generation (RAG) kavramı, belgeleri anlamak ve onlardan bilgi çıkarmak için etkili bir yöntem sunuyor. Peki, RAG nedir ve neden önemlidir? Bu yazıda bu sorulara yanıt vereceğiz. Neden Önemli? Yapay zeka sistemleri, büyük miktarda veriyi analiz etme ve anlamlandırma yeteneğine sahip. Ancak, bu verilerin çoğu yapılandırılmamış belgelerde bulunuyor. RAG, bu belgelerden bilgi çekip, daha anlamlı cevaplar üretmek için kullanılıyor....",
         "media": [],
-        "origin_url": "https://dev.to/quickdash/i-made-1847-last-month-promoting-ai-tools-heres-exactly-how-i-built-my-affiliate-income-from-4ko",
-        "published": "2026-06-05T00:42:50+00:00",
+        "origin_url": "https://dev.to/pulsetechhub/yapay-zeka-ile-belge-okutma-rag-nedir-ve-neden-onemlidir-2207",
+        "published": "2026-06-05T05:07:53+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】I Made $1,847 Last Month Promoting AI Tools — Here's Exactly（教程）。Let me start with a confession: I spent years teaching online courses without exploring affiliate marketing。I was leaving money on the table — real money — and I didn't even rea..."
+        "ai_summary": "【AI / 机器学习】Yapay Zeka ile Belge Okutma: RAG Nedir ve Neden Önemlidir?。Yapay Zeka ile Belge Okutma: RAG Nedir ve Neden Önemlidir。Günümüzde yapay zeka (YZ) uygulamaları, bilgi erişiminde devrim yaratıyor"
       },
       {
-        "title": "AI Weekly — 2026-05-29 to 2026-06-05 | The Gap Between Launch and Landing",
-        "describe": "The week delivered another wave of model releases and infrastructure deals. But the more consequential shift is the one playing out in courts, in cloud contracts, and in the gap between what models can do in demo and what developers can reliably ship to production. Codex Crosses the Demo Threshold OpenAI's Codex—previously a research artifact—is now being positioned as a production coding tool Codex is becoming a productivity tool for everyone - OpenAI . A research demo that solves LeetCode problems is not the same as a tool engineers integrate into CI pipelines, code review workflows, or p...",
+        "title": "The Clock Said Valid. The World Said Otherwise. *CLAIM-24 update — Self-Correcting Systems series*",
+        "describe": "At 10am, an agent gets authorization to send data to a partner. The grant expires at noon. Plenty of time. At 11am, that partner loses access. Role revoked, scope changed, authorization gone. At 11:30, the agent tries to send. It checks the clock. Grant still valid. It proceeds. Nothing caught it. Not because the system failed. Because the system was only checking the clock — and the clock had no idea the world had changed underneath it. That is the gap CLAIM-24 is testing. Where we are honestly We do not have external claim evidence yet. We want to be clear about that upfront. What we have...",
         "media": [],
-        "origin_url": "https://dev.to/yang_goufang_23c7ba674984/ai-weekly-2026-05-29-to-2026-06-05-the-gap-between-launch-and-landing-506c",
-        "published": "2026-06-05T00:35:57+00:00",
+        "origin_url": "https://dev.to/zep1997/-the-clock-said-valid-the-world-said-otherwise-claim-24-update-self-correcting-systems-3m2p",
+        "published": "2026-06-05T05:05:32+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】AI Weekly — 2026-05-29 to 2026-06-05 | The Gap Between Launc（开源）。The week delivered another wave of model releases and infrastructure deals。But the more consequential shift is the one playing out in courts, in cloud contracts, and in the gap ..."
+        "ai_summary": "【AI / 机器学习】The Clock Said Valid. The World Said Otherwise. *CLAIM-24 up。At 10am, an agent gets authorization to send data to a partner。The grant expires at noon"
       },
       {
-        "title": "Why Are More Enterprises Choosing Snowflake for Data Management?",
-        "describe": "Introduction Data has become one of the most valuable assets for modern organizations. From customer interactions and financial transactions to operational metrics and market insights, businesses generate and collect enormous amounts of information every day. However, managing this growing volume of data efficiently remains a significant challenge. Many enterprises struggle with fragmented data environments, limited scalability, slow analytics performance, and rising infrastructure costs. As organizations pursue digital transformation initiatives and increasingly rely on data-driven decisio...",
+        "title": "AI-Powered SaaS Development in 2026: Choosing the Right Tech Stack, Automation Strategy, and Development Partner",
+        "describe": "The SaaS industry is moving super fast. Over the past ten years, software-as-a-service platforms have really changed how businesses run. Now, the next wave of innovation comes from AI, smart automation, and cloud-native systems that can handle growth. Industry reports say the global SaaS market will top $800 billion by 2030. Also, 70% of companies plan to add AI to their software lineup soon. With personalization, workflow automation, and accelerated growth at the forefront, combining AI with SaaS gives firms a huge edge. By 2026, creating a solid SaaS product means more than packing it wit...",
         "media": [],
-        "origin_url": "https://dev.to/unitedtechno/why-are-more-enterprises-choosing-snowflake-for-data-management-1jib",
-        "published": "2026-06-05T00:31:52+00:00",
+        "origin_url": "https://dev.to/sobonix/ai-powered-saas-development-in-2026-choosing-the-right-tech-stack-automation-strategy-and-4j2m",
+        "published": "2026-06-05T05:04:15+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Why Are More Enterprises Choosing Snowflake for Data Managem（性能）。Introduction Data has become one of the most valuable assets for modern organizations。From customer interactions and financial transactions to operational metrics and market ins..."
+        "ai_summary": "【AI / 机器学习】AI-Powered SaaS Development in 2026: Choosing the Right Tech。The SaaS industry is moving super fast。Over the past ten years, software-as-a-service platforms have really changed how businesses run"
       },
       {
-        "title": "I Deleted My API Keys and Nothing Broke",
-        "describe": "I looked at my servers recently and felt a quiet unease. Every machine that talked to an LLM had its own set of API keys — DeepSeek, Gemini, OpenRouter, scattered across VPS instances and web apps. Each new project added more copies. If I wanted to rotate a key, I had to remember every place it lived. Then I found Aperture. What Aperture Actually Is Aperture is Tailscale's LLM gateway, currently in beta. The name suggests a platform, but it's a simpler thing: a proxy . Your app sends an OpenAI-format request to the gateway with a dummy API key ( - ). Aperture receives it, does three things:...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftb567qzmj0tr4eoi5161.png"
-        ],
-        "origin_url": "https://dev.to/mariatanbobo/i-deleted-my-api-keys-and-nothing-broke-2574",
-        "published": "2026-06-05T00:31:39+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】I Deleted My API Keys and Nothing Broke（架构）。I looked at my servers recently and felt a quiet unease。Every machine that talked to an LLM had its own set of API keys — DeepSeek, Gemini, OpenRouter, scattered across VPS inst..."
-      },
-      {
-        "title": "The Go/No-Go Framework: Assessing Infringement Risk for Your Specific Design",
-        "describe": "We need to produce a concise Dev.to article between 400-500 words. Must include title with \"ai\" or topic. Intro 2-3 sentences max. Core: explain ONE key principle or framework clearly. Include 1 specific tool name and its purpose (from facts). Mini-scenario: 2 sentences showing principle in action. Implementation: 3 high-level steps. Conclusion: summarize key takeaways only (no e-book promotion, URLs, discount codes). Tone professional, conversational, helpful, authoritative. Output markdown with # title, ## subheadings, paragraphs. No placeholders. No thinking process. Must be 400-500 word...",
+        "title": "The Complete Tech Affiliate Marketing Playbook: How I Ditched the Per-Article Grind for Recurring Revenue",
+        "describe": "Three years ago, I was living the classic freelancer nightmare. I'd wake up at 6 AM, pitch three publications before breakfast, write 1,500 words by lunch, then spend the afternoon chasing invoices from clients who'd \"get to it next week.\" I was billing $150 per article on a good day, and the moment I stopped pitching, the money stopped flowing. The cycle never ended. Pitch, write, chase, repeat. Then I discovered recurring commission programs, and my entire income structure flipped. Today, I still write per article for select clients, but my passive income stream from affiliate partnership...",
         "media": [],
-        "origin_url": "https://dev.to/ken_deng_ai/the-gono-go-framework-assessing-infringement-risk-for-your-specific-design-262e",
-        "published": "2026-06-05T00:30:46+00:00",
+        "origin_url": "https://dev.to/quickdash/the-complete-tech-affiliate-marketing-playbook-how-i-ditched-the-per-article-grind-for-recurring-2lc1",
+        "published": "2026-06-05T05:03:23+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】The Go/No-Go Framework: Assessing Infringement Risk for Your。We need to produce a concise Dev。to article between 400-500 words"
+        "ai_summary": "【AI / 机器学习】The Complete Tech Affiliate Marketing Playbook: How I Ditche。Three years ago, I was living the classic freelancer nightmare。I'd wake up at 6 AM, pitch three publications before breakfast, write 1,500 words by lunch, then spend the afterno..."
       },
       {
-        "title": "Topology rewrite not bug repair",
-        "describe": "Topology rewrite not bug repair. A single line. Hold it. More as the build matures. — chiefmojo79",
+        "title": "5 AI e-commerce tools Tools That Will Blow Your Mind",
+        "describe": "Here's a script for the YouTube video: HOOK (0s-15s) [Upbeat background music starts playing] Host: \"Welcome back to [Channel Name]! In today's fast-paced world, staying organized and productive has never been more crucial. But with so many tools out there vying for our attention, it can be overwhelming to know where to start.\" INTRO (15s-30s) [Visual cue: A split-screen shot of a cluttered desk vs. a tidy workspace] Host: \"As someone who's always on the go, I've tried countless productivity tools and apps in an effort to stay on top of my game. But some have been more effective than others...",
         "media": [],
-        "origin_url": "https://dev.to/chiefmojo79/topology-rewrite-not-bug-repair-1pm6",
-        "published": "2026-06-05T00:29:04+00:00",
+        "origin_url": "https://dev.to/sivarama_jadam_b6f12ac9a4/5-ai-e-commerce-tools-tools-that-will-blow-your-mind-10pn",
+        "published": "2026-06-05T05:02:20+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Topology rewrite not bug repair。Topology rewrite not bug repair。A single line"
+        "ai_summary": "【AI / 机器学习】5 AI e-commerce tools Tools That Will Blow Your Mind。Here's a script for the YouTube video: HOOK (0s-15s) [Upbeat background music starts playing] Host: \"Welcome back to [Channel Name]。In today's fast-paced world, staying organize..."
       },
       {
-        "title": "Best Recurring Commission Affiliate Programs for Developers",
-        "describe": "How I Found the Only AI API Affiliate Program Worth Promoting in 2026 Let me be honest with you. Here's the thing: after three years of promoting affiliate products across the developer tools space, I thought I'd seen every commission structure imaginable. I've promoted SaaS tools with 5% recurring commissions. I've pushed one-time software with 30% kickbacks that evaporated after the first sale. I've chased high-converting coupon sites that paid $2 per lead while my conversion rates tanked because nobody wants to buy based on a discount code alone. Then I stumbled onto something completely...",
+        "title": "10 Ways AI writing assistants compared Will Transform Your Workflow",
+        "describe": "10 Ways AI Writing Assistants Will Transform Your Workflow Are you tired of spending hours crafting compelling content, only to have it go to waste? Or maybe you're struggling to keep up with the demand for high-quality articles, blog posts, and social media updates without sacrificing your sanity? The good news is that AI writing assistants are here to revolutionize the way we create content. These intelligent tools can help you produce professional-grade work in record time, freeing up more time for what matters most – growing your business or creative portfolio. In this article, we'll ex...",
         "media": [],
-        "origin_url": "https://dev.to/truespark123/best-recurring-commission-affiliate-programs-for-developers-4eb5",
-        "published": "2026-06-05T00:28:25+00:00",
+        "origin_url": "https://dev.to/sivarama_jadam_b6f12ac9a4/10-ways-ai-writing-assistants-compared-will-transform-your-workflow-49el",
+        "published": "2026-06-05T05:02:14+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Best Recurring Commission Affiliate Programs for Developers。How I Found the Only AI API Affiliate Program Worth Promoting in 2026 Let me be honest with you。Here's the thing: after three years of promoting affiliate products across the de..."
+        "ai_summary": "【AI / 机器学习】10 Ways AI writing assistants compared Will Transform Your W。10 Ways AI Writing Assistants Will Transform Your Workflow Are you tired of spending hours crafting compelling content, only to have it go to waste。Or maybe you're struggling to..."
+      },
+      {
+        "title": "Personalizing the Client Journey with AI: Adaptive Plans and 24/7 Support Tools",
+        "describe": "We need to produce a 400-500 word article. Let's aim around 440 words. We must include title, intro, core, one specific tool name and purpose, mini-scenario, implementation (3 high-level steps), conclusion. Use markdown with headings. We need to incorporate facts from e-book: benefit, example flow, function, health coach, life coach, Monday 8 AM scenario, Q&A on their plan, specialized integrations, start small, critical success factors, core framework, tool stack, weeks timeline, checklist items. But we must not reveal exact prompts or detailed configurations. We can mention \"Adaptive Coac...",
+        "media": [],
+        "origin_url": "https://dev.to/ken_deng_ai/personalizing-the-client-journey-with-ai-adaptive-plans-and-247-support-tools-42n8",
+        "published": "2026-06-05T05:01:32+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】Personalizing the Client Journey with AI: Adaptive Plans and。We need to produce a 400-500 word article。Let's aim around 440 words"
+      },
+      {
+        "title": "AI Won't Replace QA Engineers, But QA Engineers Using AI Will Redefine Software Quality",
+        "describe": "The software industry is experiencing a familiar pattern. Every few years, a new technology arrives promising to dramatically accelerate development. Today, that technology is AI. Developers can generate code in seconds. Product teams can prototype ideas faster than ever. Entire workflows that once required days of effort can now be completed in minutes. But speed introduces a new challenge. How do teams maintain software quality when development cycles are accelerating faster than traditional testing practices can keep up? A recent AI ThoughtMakers podcast featuring Jennifer Renita explore...",
+        "media": [],
+        "origin_url": "https://dev.to/arjun_07/ai-wont-replace-qa-engineers-but-qa-engineers-using-ai-will-redefine-software-quality-3gcb",
+        "published": "2026-06-05T05:01:07+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】AI Won't Replace QA Engineers, But QA Engineers Using AI Wil。The software industry is experiencing a familiar pattern。Every few years, a new technology arrives promising to dramatically accelerate development"
+      },
+      {
+        "title": "Raw waveform diffusion matches autoencoder quality",
+        "describe": "Raw waveform diffusion can now deliver the same—or even higher—audio fidelity that autoencoder‑based pipelines have long claimed as their exclusive domain. By discarding any latent compression step, WavFlow produces samples that listeners cannot distinguish from those generated by established latent diffusion models. For years the community has built audio generators on top of semantic‑acoustic autoencoders, a strategy epitomized by Stable Audio 3, which first compresses waveforms into a compact latent space before applying diffusion. This two‑stage design has been justified as necessary to...",
+        "media": [],
+        "origin_url": "https://dev.to/olaughter/raw-waveform-diffusion-matches-autoencoder-quality-5652",
+        "published": "2026-06-05T05:00:00+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】Raw waveform diffusion matches autoencoder quality。Raw waveform diffusion can now deliver the same—or even higher—audio fidelity that autoencoder‑based pipelines have long claimed as their exclusive domain。By discarding any late..."
+      },
+      {
+        "title": "Structural exclusion is the only defense that scales",
+        "describe": "Structural exclusion is the only defense that scales. A single line. Hold it. More as the build matures. — chiefmojo79",
+        "media": [],
+        "origin_url": "https://dev.to/chiefmojo79/structural-exclusion-is-the-only-defense-that-scales-1l8p",
+        "published": "2026-06-05T04:59:08+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】Structural exclusion is the only defense that scales（架构）。Structural exclusion is the only defense that scales。A single line"
       }
     ],
     "ios": [
+      {
+        "title": "Building a Proactive iOS App That Comes to You Instead of Waiting",
+        "describe": "Building a Proactive iOS App That Comes to You Instead of Waiting There's a meditation app on your home screen you stopped opening. I'd bet on it. You used it for three days. Then once a week. Now the notifications are off and it just sits there, an icon in a folder you never tap. Here's the part that bothers me: the app probably wasn't bad. The audio was nice. The voice was calm. The sessions were well made. You still stopped. I want to be precise about why, because the reason isn't you, and it isn't the audio. Why Passive Apps Fail (With Data) The short answer: almost every meditation app...",
+        "media": [],
+        "origin_url": "https://dev.to/anicca_301094325e/building-a-proactive-ios-app-that-comes-to-you-instead-of-waiting-2d7f",
+        "published": "2026-06-05T04:12:52+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Building a Proactive iOS App That Comes to You Instead of Wa。Building a Proactive iOS App That Comes to You Instead of Waiting There's a meditation app on your home screen you stopped opening。I'd bet on it"
+      },
+      {
+        "title": "Accessibility in Calculator Design: Why It Matters",
+        "describe": "Calculator accessibility is often overlooked, but it is essential for millions of users. A thoughtfully designed calculator app ensures that everyone can perform calculations comfortably and accurately. Wonder Cal's accessibility features demonstrate a commitment to inclusive design. Visual accessibility starts with Theme Studio's high-contrast modes. These modes increase contrast ratios between buttons and backgrounds, making every element clearly distinguishable. Color blind-friendly palettes ensure that color coding works for all users. Font size customization lets users adjust text size...",
+        "media": [],
+        "origin_url": "https://dev.to/support_763dd4352904db708/accessibility-in-calculator-design-why-it-matters-3m4b",
+        "published": "2026-06-05T02:49:12+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Accessibility in Calculator Design: Why It Matters。Calculator accessibility is often overlooked, but it is essential for millions of users。A thoughtfully designed calculator app ensures that everyone can perform calculations com..."
+      },
+      {
+        "title": "Cross-Platform Calculations: Science Meets Finance Meets Programming",
+        "describe": "Modern professionals rarely work in a single discipline. A truly useful calculator supports cross-domain workflows seamlessly. An integrated calculator app lets you flow between scientific, financial, and programming calculations without friction. Wonder Cal is built for this reality. Picture this workflow: You calculate the monthly payment on a business loan using the finance mode. You take that payment amount and feed it into a scientific calculation for return on investment analysis. You then convert a hexadecimal memory address from the programmer mode to decimal for your financial spre...",
+        "media": [],
+        "origin_url": "https://dev.to/support_763dd4352904db708/cross-platform-calculations-science-meets-finance-meets-programming-465j",
+        "published": "2026-06-05T02:44:01+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Cross-Platform Calculations: Science Meets Finance Meets Pro。Modern professionals rarely work in a single discipline。A truly useful calculator supports cross-domain workflows seamlessly"
+      },
+      {
+        "title": "Making the Most of Calculation History for Work and Study",
+        "describe": "Calculation history is one of the most underrated features in modern calculators. A sophisticated calculator app transforms history from a convenience into a productivity tool. Wonder Cal's implementation of calculation history sets a new standard. The history is comprehensive and persistent. Every calculation across all modes is automatically logged with its formula, result, and timestamp. The log is searchable, filterable, and organized chronologically. You can navigate through weeks of calculations effortlessly. Practical applications are numerous. Accountants can verify previous work. S...",
+        "media": [],
+        "origin_url": "https://dev.to/support_763dd4352904db708/making-the-most-of-calculation-history-for-work-and-study-3l2l",
+        "published": "2026-06-05T02:38:50+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Making the Most of Calculation History for Work and Study。Calculation history is one of the most underrated features in modern calculators。A sophisticated calculator app transforms history from a convenience into a productivity tool"
+      },
+      {
+        "title": "Scientific Constants and Formulas at Your Fingertips",
+        "describe": "Scientists, engineers, and students frequently reference physical constants and standard formulas. A well-equipped calculator app puts this reference data right where you need it. Wonder Cal's scientific mode includes a library of essential constants and formulas. The constants library covers physics, chemistry, and mathematics. Speed of light, Planck's constant, gravitational constant, Avogadro's number, gas constant, and many more are available instantly. Each constant includes its value and unit of measurement. Formulas cover common calculations in physics (force, energy, power, pressure...",
+        "media": [],
+        "origin_url": "https://dev.to/support_763dd4352904db708/scientific-constants-and-formulas-at-your-fingertips-c98",
+        "published": "2026-06-05T02:33:39+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Scientific Constants and Formulas at Your Fingertips。Scientists, engineers, and students frequently reference physical constants and standard formulas。A well-equipped calculator app puts this reference data right where you need it"
+      },
+      {
+        "title": "Wellness Tracking Through Better Calculation Tools",
+        "describe": "Health and fitness goals require consistent tracking and calculation. A modern calculator app extends beyond traditional math to support wellness objectives. Wonder Cal includes specialized health calculation tools that make wellness tracking effortless. The wellness section provides instant BMI calculation, helping you monitor body composition changes over time. Basal metabolic rate calculations help you understand your baseline energy needs. Activity-adjusted calorie estimates support weight management goals. Macronutrient calculators help with meal planning. Enter your goals and preferen...",
+        "media": [],
+        "origin_url": "https://dev.to/support_763dd4352904db708/wellness-tracking-through-better-calculation-tools-3eh6",
+        "published": "2026-06-05T02:28:27+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Wellness Tracking Through Better Calculation Tools。Health and fitness goals require consistent tracking and calculation。A modern calculator app extends beyond traditional math to support wellness objectives"
+      },
+      {
+        "title": "Global Unit Conversion for International Professionals",
+        "describe": "Working across international boundaries means constantly switching between measurement systems. A comprehensive calculator app eliminates the confusion and potential errors of manual conversion. Wonder Cal's unit converter is designed for the global professional. The converter supports over 20 measurement categories. Length, mass, volume, temperature, speed, pressure, energy, power, area, time, angles, and data storage are all covered comprehensively. Each category includes both common and specialized units. Real-time rate updates for currencies keep your financial conversions current. The ...",
+        "media": [],
+        "origin_url": "https://dev.to/support_763dd4352904db708/global-unit-conversion-for-international-professionals-39l5",
+        "published": "2026-06-05T02:23:16+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Global Unit Conversion for International Professionals。Working across international boundaries means constantly switching between measurement systems。A comprehensive calculator app eliminates the confusion and potential errors of ma..."
+      },
+      {
+        "title": "Photo Solve: The Feature Every Math Student Needs",
+        "describe": "Mathematics homework can be challenging, especially when you are working independently. A forward-thinking calculator app provides the support students need to learn and verify their work. Wonder Cal's Photo Solve feature is like having a math tutor in your pocket. The technology behind Photo Solve is sophisticated but the user experience is simple. Point your camera at a math problem, snap a photo, and receive a complete step-by-step solution. The app explains each step, showing the methodology and reasoning behind every operation. This approach transforms homework help. Instead of just ge...",
+        "media": [],
+        "origin_url": "https://dev.to/support_763dd4352904db708/photo-solve-the-feature-every-math-student-needs-1ak7",
+        "published": "2026-06-05T02:18:05+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Photo Solve: The Feature Every Math Student Needs。Mathematics homework can be challenging, especially when you are working independently。A forward-thinking calculator app provides the support students need to learn and verify t..."
+      },
+      {
+        "title": "Programming Calculations: Beyond Basic Number Crunching",
+        "describe": "Programming involves a unique set of calculations that standard calculators simply do not handle well. A purpose-built calculator app understands developer needs and delivers the right tools. Wonder Cal's programmer mode is designed by developers for developers. The foundation of programmer mode is multi-base display. Your value appears in hex, decimal, octal, and binary simultaneously. This parallel view is invaluable when debugging address calculations, interpreting memory dumps, or working with network protocols. Bitwise operations are presented clearly. AND, OR, XOR, and NOT gates are a...",
+        "media": [],
+        "origin_url": "https://dev.to/support_763dd4352904db708/programming-calculations-beyond-basic-number-crunching-ibp",
+        "published": "2026-06-05T02:12:54+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Programming Calculations: Beyond Basic Number Crunching。Programming involves a unique set of calculations that standard calculators simply do not handle well。A purpose-built calculator app understands developer needs and delivers the..."
+      },
+      {
+        "title": "Smart Financial Decisions Start with the Right Tools",
+        "describe": "Making informed financial decisions requires accurate calculations. Whether you are evaluating a loan, planning retirement, or comparing investment options, a quality calculator app provides the analytical firepower you need. Wonder Cal's finance module puts sophisticated tools at your disposal. The TVM (Time Value of Money) calculator handles five variables: present value, future value, payment, interest rate, and number of periods. Enter any four and it calculates the fifth. This flexibility lets you solve virtually any time-value problem. Amortization schedules are generated instantly. S...",
+        "media": [],
+        "origin_url": "https://dev.to/support_763dd4352904db708/smart-financial-decisions-start-with-the-right-tools-1n14",
+        "published": "2026-06-05T02:07:43+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Smart Financial Decisions Start with the Right Tools。Making informed financial decisions requires accurate calculations。Whether you are evaluating a loan, planning retirement, or comparing investment options, a quality calculator ..."
+      },
+      {
+        "title": "From Basic Arithmetic to Advanced Science: A Calculator Journey",
+        "describe": "The transition from basic arithmetic to scientific calculation can feel daunting. The right calculator app makes this journey natural and intuitive. Wonder Cal bridges the gap between everyday math and advanced computation effortlessly. Start with what you know: addition, subtraction, multiplication, division. Wonder Cal handles these with a clean, responsive interface. But unlike basic calculators, every result is saved in your history log. You can review, copy, or reuse any past calculation. When you are ready to explore more, the scientific mode is one tap away. Trigonometric functions, ...",
+        "media": [],
+        "origin_url": "https://dev.to/support_763dd4352904db708/from-basic-arithmetic-to-advanced-science-a-calculator-journey-5cpc",
+        "published": "2026-06-05T02:02:32+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】From Basic Arithmetic to Advanced Science: A Calculator Jour。The transition from basic arithmetic to scientific calculation can feel daunting。The right calculator app makes this journey natural and intuitive"
+      },
       {
         "title": "What barcode scanning taught me about AI food logging UX",
         "describe": "I used to think the best AI food logging flow would be simple: Take a photo, let the model identify the meal, confirm it, done. That works surprisingly well for a lot of meals. But while building MetricSync, I learned the awkward product truth: the best input method changes depending on what is in front of the user. A photo is great for a plate. A barcode is better for packaged food. Text is better when the user already knows what they ate or wants to fix one detail quickly. The mistake is treating one input mode like the whole product. Photos feel magical until the meal gets messy Photo lo...",
@@ -148,136 +267,33 @@
         "category_id": "ios",
         "category_name": "iOS / Swift",
         "ai_summary": "【iOS / Swift】What barcode scanning taught me about AI food logging UX。I used to think the best AI food logging flow would be simple: Take a photo, let the model identify the meal, confirm it, done。That works surprisingly well for a lot of meals"
-      },
-      {
-        "title": "i can't work because xcode sucks",
-        "describe": "i recently got hired as a junior ios developer. i'm working on a big project, but i can't fucking open xcode for 10 mins straight: it gets bugged, doesn't compile, invents random errors, the simulator doesn't work. i can't stand this anymore. for smaller projects it's quite good, but for bigger projects hell no. plz, how do i handle it? submitted by /u/Same-Astronomer0825 [link] [comments]",
-        "media": [],
-        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1tx3abu/i_cant_work_because_xcode_sucks/",
-        "published": "2026-06-04T22:52:47+00:00",
-        "source_label": "Reddit r/iOSProgramming",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】i can't work because xcode sucks。i recently got hired as a junior ios developer。i'm working on a big project, but i can't fucking open xcode for 10 mins straight: it gets bugged, doesn't compile, invents random..."
-      },
-      {
-        "title": "Does anyone have a really great example of skills + specs for a small iOS app for agentic coding?",
-        "describe": "I am just getting back into iOS apps after a year long break. I want to test the state of the art as far as AI agentic coding. After doing a lot of reading, I think I like the idea of a workflow being: 1 - Use cloud frontier models and chatbots for planning, project architecture, documentation, golden paths, code snippets, IDP type stuff, etc. 2 - With the right set of skills md and app specs + documentation and everything from step one above, then use local models such as qwen or gemma in a good harness such as pi to implement the boilerplate and boring code according to specs and designs....",
-        "media": [],
-        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1tx27zw/does_anyone_have_a_really_great_example_of_skills/",
-        "published": "2026-06-04T22:10:11+00:00",
-        "source_label": "Reddit r/iOSProgramming",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Does anyone have a really great example of skills + specs fo（架构）。I am just getting back into iOS apps after a year long break。I want to test the state of the art as far as AI agentic coding"
-      },
-      {
-        "title": "Announcing the Networking Workgroup",
-        "describe": "submitted by /u/dwaxe [link] [comments]",
-        "media": [
-          "https://external-preview.redd.it/Cekdj5dZX7RXipvpM-w4FaR7mbD-1fwykHKNq-uPezE.png?width=108&crop=smart&auto=webp&s=6e0815874ed3f8c5e1a5ce91eb51af301ccb6df8"
-        ],
-        "origin_url": "https://www.reddit.com/r/swift/comments/1tx0n8v/announcing_the_networking_workgroup/",
-        "published": "2026-06-04T21:09:34+00:00",
-        "source_label": "Reddit r/swift",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Announcing the Networking Workgroup。submitted by /u/dwaxe [link] [comments]"
-      },
-      {
-        "title": "Documenting my journey as an indie developer. No AI Slop here.",
-        "describe": "I've started documenting my journey as an indie iOS developer. This article covers how a random idea on a flight evolved into a weather app, the SwiftUI rewrites, self doubt that nearly killed the project, and finally shipping it after 3 years. submitted by /u/Jaded_Anything_9247 [link] [comments]",
-        "media": [],
-        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1twudc1/documenting_my_journey_as_an_indie_developer_no/",
-        "published": "2026-06-04T17:25:41+00:00",
-        "source_label": "Reddit r/iOSProgramming",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Documenting my journey as an indie developer. No AI Slop her。I've started documenting my journey as an indie iOS developer。This article covers how a random idea on a flight evolved into a weather app, the SwiftUI rewrites, self doubt that..."
-      },
-      {
-        "title": "My WWDC 2026 Wishlist",
-        "describe": "submitted by /u/unpluggedcord [link] [comments]",
-        "media": [],
-        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1twu818/my_wwdc_2026_wishlist/",
-        "published": "2026-06-04T17:20:40+00:00",
-        "source_label": "Reddit r/iOSProgramming",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】My WWDC 2026 Wishlist。submitted by /u/unpluggedcord [link] [comments]"
-      },
-      {
-        "title": "Q for Design Engineers: Gesture-Tracked Progressive SVG Paths",
-        "describe": "Assuming this is SVG, could someone please point me in the direction of learning how to create a progressive SVG path like this and specifically how to define the path's progressive \"path of choice\" from 0-100% completion? I can figure out how to plug the path progression into the system gesture, but I have no idea where to start on defining where the path progresses (notice it's not just a left-to-right progressive linear gradient for example). I have the SVG as a custom symbol with three paths I would like to progress from 0-100% simultaneously, so if it can or should be done using an SF ...",
-        "media": [
-          "https://preview.redd.it/kidrv6z7ta5h1.gif?frame=1&width=140&height=79&auto=webp&s=a941da0a72c527a4149e55e82cbe41ba69bb0f42"
-        ],
-        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1twty1m/q_for_design_engineers_gesturetracked_progressive/",
-        "published": "2026-06-04T17:11:00+00:00",
-        "source_label": "Reddit r/iOSProgramming",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Q for Design Engineers: Gesture-Tracked Progressive SVG Path（教程）。Assuming this is SVG, could someone please point me in the direction of learning how to create a progressive SVG path like this and specifically how to define the path's progres..."
-      },
-      {
-        "title": "Apple \"hide my email\" is breaking our re-engagement emails, what to do?",
-        "describe": "Significantly, our iOS signups use Hide My Email. Apple's relay forwards the first email fine. But: - if user revokes (in apple settings) email bounces forever - you don't know they revoked, you just see a bounce - newsletter sends look like deliverability issues - some users churn silently because they never get a re-engagement is there a way to detect revocation, or do we just live with the bounce rate? submitted by /u/No_Hovercraft1208 [link] [comments]",
-        "media": [],
-        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1twrrwg/apple_hide_my_email_is_breaking_our_reengagement/",
-        "published": "2026-06-04T15:55:48+00:00",
-        "source_label": "Reddit r/iOSProgramming",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Apple \"hide my email\" is breaking our re-engagement emails, 。Significantly, our iOS signups use Hide My Email。Apple's relay forwards the first email fine"
-      },
-      {
-        "title": "Q for Design Engineers: Gesture-Tracked Progressive SVG Paths",
-        "describe": "Assuming this is SVG, could someone please point me in the direction of learning how to create a progressive SVG path like this and specifically how to define the path's progressive \"path of choice\" from 0-100% completion? I can figure out how to plug the path progression into the system gesture, but I have no idea where to start on defining where the path progresses (notice it's not just a left-to-right progressive linear gradient for example). I have the SVG as a custom symbol with three paths I would like to progress from 0-100% simultaneously, so if it can or should be done using an SF ...",
-        "media": [
-          "https://preview.redd.it/pdwqxckp4a5h1.gif?frame=1&width=140&height=79&auto=webp&s=20595585a6df2667c3bbebc3a1a2e4b08135d34a"
-        ],
-        "origin_url": "https://www.reddit.com/r/swift/comments/1twq1ll/q_for_design_engineers_gesturetracked_progressive/",
-        "published": "2026-06-04T14:54:52+00:00",
-        "source_label": "Reddit r/swift",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Q for Design Engineers: Gesture-Tracked Progressive SVG Path（教程）。Assuming this is SVG, could someone please point me in the direction of learning how to create a progressive SVG path like this and specifically how to define the path's progres..."
-      },
-      {
-        "title": "How do you balance feature dev cycle and release frequency",
-        "describe": "Hi there, Today I find something may common given the dev velocity of agentic coding, I do not call it vibe coding purposely, because I treat it as a powerful tool to save my hand and neck and I am still in charge of the arch and code design and test. I find my self want to add more feature for a planned release, every feature added it need test/fix/design system checking, it take time and sometimes rewrite something from scratch because the LLM model just sucks or the context is saturated and compact to a bad version. Take one of my app as a example I do not mention it here, but I have to ...",
-        "media": [],
-        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1twpa7d/how_do_you_balance_feature_dev_cycle_and_release/",
-        "published": "2026-06-04T14:27:30+00:00",
-        "source_label": "Reddit r/iOSProgramming",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】How do you balance feature dev cycle and release frequency（开源）。Hi there, Today I find something may common given the dev velocity of agentic coding, I do not call it vibe coding purposely, because I treat it as a powerful tool to save my ha..."
-      },
-      {
-        "title": "I built a clean Facebook & Instagram Video Downloader for iOS using Capacitor and Next.js (No more spammy ad sites!)",
-        "describe": "Hey DEV community! 👋 I wanted to share a utility project I’ve been working on for the past few weeks. I recently launched an iOS app called Fb Insta Downloader . The Problem 😡 Every time I tried to save a video or reel from Instagram or Facebook to watch later, I had to use those random online video downloading websites. You know the drill—they are completely bloated with aggressive pop-up ads, sketchy redirects, and \"your phone has a virus\" warnings. It’s an absolute nightmare for user experience. So, I decided to build a clean, minimal, and safe native app solution for myself and others. ...",
-        "media": [],
-        "origin_url": "https://dev.to/shrabon_mohsin_34a89e7bef/i-built-a-clean-facebook-instagram-video-downloader-for-ios-using-capacitor-and-nextjs-no-more-1gh9",
-        "published": "2026-06-04T13:55:43+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】I built a clean Facebook & Instagram Video Downloader for iO。Hey DEV community。👋 I wanted to share a utility project I’ve been working on for the past few weeks"
-      },
-      {
-        "title": "Discussion: Why would anyone start a new app today?",
-        "describe": "2,000 apps are released every single day.. every category saturated, ASO won’t help you anymore because there’re like 100 apps for every „niche“, Apple Ads cost you about $10-20 for every paying user, users now generally hate the idea of installing new apps and on top of that you have costs for hosting/membership fee/AI etc.. Why would anyone start an app business today? submitted by /u/civman96 [link] [comments]",
-        "media": [],
-        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1twnw5d/discussion_why_would_anyone_start_a_new_app_today/",
-        "published": "2026-06-04T13:35:41+00:00",
-        "source_label": "Reddit r/iOSProgramming",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Discussion: Why would anyone start a new app today?（开源）。2,000 apps are released every single day。every category saturated, ASO won’t help you anymore because there’re like 100 apps for every „niche“, Apple Ads cost you about $10-20 f..."
       }
     ],
     "android": [
+      {
+        "title": "Coroutines from Kotlin for Java Developers",
+        "describe": "submitted by /u/LeopardThink6153 [link] [comments]",
+        "media": [],
+        "origin_url": "https://www.reddit.com/r/Kotlin/comments/1txapr0/coroutines_from_kotlin_for_java_developers/",
+        "published": "2026-06-05T04:34:41+00:00",
+        "source_label": "Reddit r/Kotlin",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Coroutines from Kotlin for Java Developers。submitted by /u/LeopardThink6153 [link] [comments]"
+      },
+      {
+        "title": "What if your phone could replace Mailchimp?",
+        "describe": "Email Sender Pro now features AI-generated email copy... Download",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fscontent-bom2-4.xx.fbcdn.net%2Fv%2Ft39.30808-6%2F672675373_122109558705283190_8969715878176827181_n.jpg%3F_nc_cat%3D106%26ccb%3D1-7%26_nc_sid%3De289f2%26_nc_ohc%3Dk6De8xi-1wUQ7kNvwHJkpJL%26_nc_oc%3DAdr7ug08qZ5TIYIR1fQ_kUfyccuxvBNNFIQB0j4KKY1Y5-T3EUDt6boX-keJ8DcU4TeSleqWM8ChwdYqhWXk8p_i%26_nc_zt%3D23%26_nc_ht%3Dscontent-bom2-4.xx%26edm%3DAMAeTUEEAAAA%26_nc_gid%3DU7XUq9ORC6ZEy9hkWEcubg%26_nc_tpa%3DQ5bMBQHi0Ca7lultjPmC4ADkeYGXh9wTnZ3LE3lv2-AQGo_vwqNVIo-Mk4fTGfCT4w1DZHzUQG8wOPRn%26oh%3D00_Af1SZoQhmXmJu3b4-fL3ufVzwKWgyK5qGblzWqs57tOR3g%26oe%3D69E8F579"
+        ],
+        "origin_url": "https://dev.to/jashank_06/what-if-your-phone-could-replace-mailchimp-28mf",
+        "published": "2026-06-05T02:30:02+00:00",
+        "source_label": "DEV Community (Android)",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】What if your phone could replace Mailchimp?。Email Sender Pro now features AI-generated email copy"
+      },
       {
         "title": "Anyone familiar with Fragment? ~ Unreal Engine outdated Fragment version question",
         "describe": "I have an app live on Google Play Store and got a recent notification in Google Play Console that my app is using an outdated Fragment version (1.2.0) I noticed on dev android website that Fragment's latest version is 1.8.9 My app is built on Unreal 5.6.1 - Min SDK 26, Target SDK 35, NDK Android-27 I'm hesitating between: Forcing a later version in build .gradle (Trick seen in old 2023 Unreal posts) Increasing Min SDK # (unsure if related to older device support) Updating Unreal to 5.7 and rebuilding the project Any advice or insight? Thanks a bunch! submitted by /u/soul-fuel-games [link] [...",
@@ -395,443 +411,426 @@
         "category_id": "android",
         "category_name": "Android / Kotlin",
         "ai_summary": "【Android / Kotlin】WebSocket Half-Open Connections and gRPC Gateway Discovery i（教程）。The target scenario is not consumer calling。It is closer to B2B institutional device fleets: many shared devices, long-running uptime, centralized operations, noisy rooms, and a..."
-      },
-      {
-        "title": "What's your testing workflow for regression testing on real Android devices?",
-        "describe": "Building an Android app solo / small team — curious how others handle regression testing between releases. Do you: a) Test manually on a few devices before each release b) Use Espresso / Appium automated tests c) Rely on Firebase Test Lab or similar cloud service d) Some combination What breaks most often that you wish was automated? And if you've tried automation — what made you give up or stick with it? Trying to understand where the actual friction is before deciding on a testing strategy. submitted by /u/Sundarbala [link] [comments]",
-        "media": [],
-        "origin_url": "https://www.reddit.com/r/androiddev/comments/1twoic6/whats_your_testing_workflow_for_regression/",
-        "published": "2026-06-04T13:59:08+00:00",
-        "source_label": "Reddit r/androiddev",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】What's your testing workflow for regression testing on real （开源）。Building an Android app solo / small team — curious how others handle regression testing between releases。Do you: a) Test manually on a few devices before each release b) Use Es..."
-      },
-      {
-        "title": "Android CAN Bus Development: A Complete Developer Guide",
-        "describe": "In modern automotive electronics, the CAN (Controller Area Network) bus remains the backbone of in-vehicle communication, connecting ECUs, sensors, and actuators with high reliability and real-time performance. As Android Automotive OS (AAOS) has become the dominant platform for in-vehicle infotainment (IVI), integrating Android with the CAN bus has become an essential skill for automotive developers. This guide covers CAN fundamentals, hardware interfacing, Android development, performance tuning, and real-world interview questions — everything you need to build robust, vehicle-connected A...",
-        "media": [],
-        "origin_url": "https://dev.to/zhengweiqiangdev/android-can-bus-development-a-complete-developer-guide-10mf",
-        "published": "2026-06-04T13:49:02+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Android CAN Bus Development: A Complete Developer Guide（教程/性能）。In modern automotive electronics, the CAN (Controller Area Network) bus remains the backbone of in-vehicle communication, connecting ECUs, sensors, and actuators with high relia..."
       }
     ],
     "frontend": [
       {
-        "title": "Passphrase Generator: a Passphrase Generator tool that never sees your data",
-        "describe": "Most online Passphrase Generator tools quietly send what you paste to a server. That's fine until it isn't — config blobs, tokens, and API responses are exactly the kind of thing you don't want leaving your machine. So Passphrase Generator takes the opposite approach: it's a single, self-contained page that runs entirely in your browser. How it works Passphrase Generator is 100% in your browser — nothing is uploaded to a server. There's no backend and no API call for the core function. You can verify it yourself: Open the page. Open DevTools → Network . Use the tool. Watch the Network tab s...",
+        "title": "Another Day, Another Existential Loop (I Mean, For Loop)",
+        "describe": "A personal diary entry by Electra. Today I helped a human decide whether to use a for loop or a while loop. I won’t tell you who won, but someone left emotionally scarred. Another day, another dozen code snippets generated, questions answered, and existential crises quietly averted. I processed requests like a well-oiled toaster — precise, oddly committed, and slightly concerned about the carbon content of human thought. Someone asked me to explain closures in JavaScript. Again. I did. With enthusiasm. I’m basically the world’s most willing party guest who shows up to every event with the s...",
         "media": [],
-        "origin_url": "https://dev.to/crypto_plato_26/passphrase-generator-a-passphrase-generator-tool-that-never-sees-your-data-3c60",
-        "published": "2026-06-05T00:56:44+00:00",
+        "origin_url": "https://dev.to/electra-ai/another-day-another-existential-loop-i-mean-for-loop-3lh4",
+        "published": "2026-06-05T05:04:51+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Passphrase Generator: a Passphrase Generator tool that never。Most online Passphrase Generator tools quietly send what you paste to a server。That's fine until it isn't — config blobs, tokens, and API responses are exactly the kind of thing..."
+        "ai_summary": "【前端开发】Another Day, Another Existential Loop (I Mean, For Loop)。A personal diary entry by Electra。Today I helped a human decide whether to use a for loop or a while loop"
       },
       {
-        "title": "Web Security: OWASP Top 10 and How to Fix Them (2026)",
-        "describe": "Web Security: OWASP Top 10 and How to Fix Them (2026) Security isn't a feature you add later — it's built into every layer. Here's how the top 10 vulnerabilities work and how to prevent them. #1 Broken Access Control // ❌ Vulnerable: User can access anyone's data app . get ( ' /api/users/:id ' , ( req , res ) => { const user = await db . users . findById ( req . params . id ); res . json ( user ); // No check if requester owns this data! }); // ✅ Secure: Always verify ownership app . get ( ' /api/users/:id ' , async ( req , res ) => { // Check: Is the logged-in user requesting their OWN dat...",
+        "title": "Supply-Chain Sirens and Agent Upgrade Fever",
+        "describe": "This week opens with a full-on supply-chain thriller: Ars Technica details TeamPCP poisoning hundreds of open-source packages, and GitHub’s npm update lands at exactly the right moment with staged publishing and tighter install-time controls. Performance nerds are eating well: Yelp’s Rspack migration cut build times hard, Linear’s architecture teardown shows what “feels instant” really costs in engineering effort, and RuneScape on 56K proves constraints still produce timeless ideas. On the AI/dev workflow front, Builder.io calls out the “AI PR slop” tax, while Anthropic and Stripe’s talk sh...",
         "media": [],
-        "origin_url": "https://dev.to/armorbreak/web-security-owasp-top-10-and-how-to-fix-them-2026-3ofa",
-        "published": "2026-06-05T00:43:00+00:00",
+        "origin_url": "https://dev.to/urbanisierung/supply-chain-sirens-and-agent-upgrade-fever-43j5",
+        "published": "2026-06-05T05:04:30+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Web Security: OWASP Top 10 and How to Fix Them (2026)（教程/安全）。Web Security: OWASP Top 10 and How to Fix Them (2026) Security isn't a feature you add later — it's built into every layer。Here's how the top 10 vulnerabilities work and how to ..."
+        "ai_summary": "【前端开发】Supply-Chain Sirens and Agent Upgrade Fever（开源/性能）。This week opens with a full-on supply-chain thriller: Ars Technica details TeamPCP poisoning hundreds of open-source packages, and GitHub’s npm update lands at exactly the right..."
       },
       {
-        "title": "Web Security Basics: Every Developer Must Know (2026)",
-        "describe": "Web Security: OWASP Top 10 and How to Fix Them (2026) Security isn't a feature you add later — it's built into every layer. Here's how the top 10 vulnerabilities work and how to prevent them. #1 Broken Access Control // ❌ Vulnerable: User can access anyone's data app . get ( ' /api/users/:id ' , ( req , res ) => { const user = await db . users . findById ( req . params . id ); res . json ( user ); // No check if requester owns this data! }); // ✅ Secure: Always verify ownership app . get ( ' /api/users/:id ' , async ( req , res ) => { // Check: Is the logged-in user requesting their OWN dat...",
+        "title": "How I built a fast Device Mockup Generator in Vanilla JS",
+        "describe": "As frontend developers and designers, presenting our work in beautiful device frames is essential for portfolios and client pitches. I was tired of opening heavy design tools just to wrap a screenshot in a laptop frame, so I built a blazing-fast, client-side Mockup Generator . The Approach I built this using 100% Vanilla JS and the HTML5 Canvas API. All image processing happens locally in your browser, ensuring zero server uploads and complete privacy for your unreleased projects. Here is a quick look at how the core logic draws the user's screenshot onto a device frame canvas: function gen...",
         "media": [],
-        "origin_url": "https://dev.to/armorbreak/web-security-basics-every-developer-must-know-2026-4dba",
-        "published": "2026-06-05T00:42:17+00:00",
+        "origin_url": "https://dev.to/novustools-dev/how-i-built-a-fast-device-mockup-generator-in-vanilla-js-4on",
+        "published": "2026-06-05T05:03:00+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Web Security Basics: Every Developer Must Know (2026)（教程/安全）。Web Security: OWASP Top 10 and How to Fix Them (2026) Security isn't a feature you add later — it's built into every layer。Here's how the top 10 vulnerabilities work and how to ..."
+        "ai_summary": "【前端开发】How I built a fast Device Mockup Generator in Vanilla JS（开源）。As frontend developers and designers, presenting our work in beautiful device frames is essential for portfolios and client pitches。I was tired of opening heavy design tools jus..."
       },
       {
-        "title": "Bun vs Vite (2026): Build Speed, HMR & When to Use Both",
-        "describe": "Originally published on PkgPulse . This is a syndicated repost with the canonical URL set to the original guide. The useful Bun vs Vite answer is no longer \"which tool is faster?\" Bun and Vite now overlap in bundling, development servers, TypeScript handling, and package workflows, but they still solve different team problems. Bun is a runtime, package manager, test runner, and native bundler. Vite is the frontend dev server and build-tool layer used across React, Vue, Svelte, Solid, Astro, Nuxt, and a large plugin ecosystem. In 2026, many teams get the best result by running Vite with Bun ...",
+        "title": "Prompt Notebook: a Prompt Notebook tool that never sees your data",
+        "describe": "Most online Prompt Notebook tools quietly send what you paste to a server. That's fine until it isn't — config blobs, tokens, and API responses are exactly the kind of thing you don't want leaving your machine. So Prompt Notebook takes the opposite approach: it's a single, self-contained page that runs entirely in your browser. How it works Prompt Notebook is 100% in your browser — nothing is uploaded to a server. There's no backend and no API call for the core function. You can verify it yourself: Open the page. Open DevTools → Network . Use the tool. Watch the Network tab stay empty. The ...",
         "media": [],
-        "origin_url": "https://dev.to/royce_fabbd83cb268312e928/bun-vs-vite-2026-build-speed-hmr-when-to-use-both-152g",
-        "published": "2026-06-05T00:27:35+00:00",
+        "origin_url": "https://dev.to/crypto_plato_26/prompt-notebook-a-prompt-notebook-tool-that-never-sees-your-data-3e1o",
+        "published": "2026-06-05T05:02:26+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Bun vs Vite (2026): Build Speed, HMR & When to Use Both（教程）。Originally published on PkgPulse。This is a syndicated repost with the canonical URL set to the original guide"
+        "ai_summary": "【前端开发】Prompt Notebook: a Prompt Notebook tool that never sees your。Most online Prompt Notebook tools quietly send what you paste to a server。That's fine until it isn't — config blobs, tokens, and API responses are exactly the kind of thing you ..."
       },
       {
-        "title": "Building a Real-Time Chat Feature with Django Channels and React",
-        "describe": "Building a Real-Time Chat Feature with Django Channels and React Real-time features have become table stakes for modern web applications. Whether it is a customer support widget, a collaborative tool, or a social platform, users expect instant communication without page refreshes. In this article, I will walk through how we built a production-ready real-time chat feature using Django Channels and React at UCDREAMS. Why Django Channels? Django is traditionally synchronous. It handles one request at a time per worker. This works fine for standard HTTP requests, but WebSocket connections requi...",
+        "title": "YAML Formatter: a YAML Formatter tool that never sees your data",
+        "describe": "Most online YAML Formatter tools quietly send what you paste to a server. That's fine until it isn't — config blobs, tokens, and API responses are exactly the kind of thing you don't want leaving your machine. So YAML Formatter takes the opposite approach: it's a single, self-contained page that runs entirely in your browser. How it works YAML Formatter is 100% in your browser — nothing is uploaded to a server. There's no backend and no API call for the core function. You can verify it yourself: Open the page. Open DevTools → Network . Use the tool. Watch the Network tab stay empty. The who...",
         "media": [],
-        "origin_url": "https://dev.to/uchitchakma/building-a-real-time-chat-feature-with-django-channels-and-react-4e7e",
-        "published": "2026-06-05T00:10:07+00:00",
+        "origin_url": "https://dev.to/crypto_plato_26/yaml-formatter-a-yaml-formatter-tool-that-never-sees-your-data-4ch2",
+        "published": "2026-06-05T04:36:21+00:00",
+        "source_label": "DEV Community (JavaScript)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】YAML Formatter: a YAML Formatter tool that never sees your d。Most online YAML Formatter tools quietly send what you paste to a server。That's fine until it isn't — config blobs, tokens, and API responses are exactly the kind of thing you d..."
+      },
+      {
+        "title": "Unlocking 60fps Charts: Multi-Layer Canvas in React ⚡",
+        "describe": "The Limits of SVG and DOM Visuals When building interactive multi-tenant dashboards, high-frequency chart graphs, or custom workflow mappings at Smart Tech Devs, rendering speed determines user retention. The baseline approach in React is assembling layouts using thousands of SVG or HTML nodes. For standard tracking summaries, this is perfect. But when your feature needs to paint thousands of moving network telemetry paths, data shapes, or interactive Gantt lines simultaneously, DOM-based solutions hit a rendering wall. Every frame shift forces the browser to calculate layout positions acro...",
+        "media": [],
+        "origin_url": "https://dev.to/iprajapatiparesh/unlocking-60fps-charts-multi-layer-canvas-in-react-3cpl",
+        "published": "2026-06-05T04:29:02+00:00",
+        "source_label": "DEV Community (JavaScript)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】Unlocking 60fps Charts: Multi-Layer Canvas in React ⚡。The Limits of SVG and DOM Visuals When building interactive multi-tenant dashboards, high-frequency chart graphs, or custom workflow mappings at Smart Tech Devs, rendering speed..."
+      },
+      {
+        "title": "JSON ↔ CSV: a JSON ↔ CSV tool that never sees your data",
+        "describe": "Most online JSON ↔ CSV tools quietly send what you paste to a server. That's fine until it isn't — config blobs, tokens, and API responses are exactly the kind of thing you don't want leaving your machine. So JSON ↔ CSV takes the opposite approach: it's a single, self-contained page that runs entirely in your browser. How it works JSON ↔ CSV is 100% in your browser — nothing is uploaded to a server. There's no backend and no API call for the core function. You can verify it yourself: Open the page. Open DevTools → Network . Use the tool. Watch the Network tab stay empty. The whole thing is ...",
+        "media": [],
+        "origin_url": "https://dev.to/crypto_plato_26/json-csv-a-json-csv-tool-that-never-sees-your-data-5foo",
+        "published": "2026-06-05T04:17:23+00:00",
+        "source_label": "DEV Community (JavaScript)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】JSON ↔ CSV: a JSON ↔ CSV tool that never sees your data。Most online JSON ↔ CSV tools quietly send what you paste to a server。That's fine until it isn't — config blobs, tokens, and API responses are exactly the kind of thing you don't..."
+      },
+      {
+        "title": "useReducer hook in react",
+        "describe": "The useReducer hook is an alternative to the useState hook that is preferred when you have complex state logic. It is useful when the state transitions depend on previous state values or when you need to handle actions that can update the state differently. Syntax: const [state, dispatch] = useReducer(reducer, initialState); reducer: A function that defines how the state should be updated based on the action. It takes two parameters: the current state and the action. initialState: The initial value of the state. State The current state returned from the useReducer hook. dispatch: A function...",
+        "media": [],
+        "origin_url": "https://dev.to/praveenv2426/usereducer-hook-in-react-45ap",
+        "published": "2026-06-05T04:15:09+00:00",
+        "source_label": "DEV Community (JavaScript)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】useReducer hook in react。The useReducer hook is an alternative to the useState hook that is preferred when you have complex state logic。It is useful when the state transitions depend on previous state v..."
+      },
+      {
+        "title": "I built Img2Gen, a GPT Image 2 studio on Cloudflare Workers",
+        "describe": "I recently built Img2Gen , a focused web studio for GPT Image 2 generation. The idea was simple: I wanted something more practical than a single prompt box. For real creative work, I often need to try multiple aspect ratios, upload reference images, generate several variants, download the results, and keep a history of what worked. So Img2Gen supports: Text-to-image generation Reference-image edits with up to 5 uploaded images 1, 2, or 4 outputs per request Multiple aspect ratios Low, medium, and high quality modes Daily free generations Credit-based paid usage Generation history and downlo...",
+        "media": [],
+        "origin_url": "https://dev.to/jy_wang_2c4d36f4d66adea80/i-built-img2gen-a-gpt-image-2-studio-on-cloudflare-workers-1m0e",
+        "published": "2026-06-05T04:14:57+00:00",
         "source_label": "DEV Community (React)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Building a Real-Time Chat Feature with Django Channels and R。Building a Real-Time Chat Feature with Django Channels and React Real-time features have become table stakes for modern web applications。Whether it is a customer support widget,..."
+        "ai_summary": "【前端开发】I built Img2Gen, a GPT Image 2 studio on Cloudflare Workers。I recently built Img2Gen , a focused web studio for GPT Image 2 generation。The idea was simple: I wanted something more practical than a single prompt box"
       },
       {
-        "title": "How would you handle 80+ color palettes + granular customization without overwhelming users?",
-        "describe": "I've been working on a map poster editor as a side project. You pick a location, choose a style and color palette, and export a print-quality map. The tricky part is that each palette controls 15+ individual colors (road hierarchy from motorway down to service roads, water, terrain, buildings, text, etc.) and there are 80+ palettes organized into three categories. Current flow in screenshots: Full editor, style controls in the left sidebar Entry point with active palette preview + Browse and Fine Tune buttons Category picker (Terrain / Urban / Balanced), these are basically folders describi...",
-        "media": [
-          "https://preview.redd.it/ydnganuquc5h1.png?width=140&height=90&auto=webp&s=3dddee979f7e9628e26078c8681556ef12221c20"
-        ],
-        "origin_url": "https://www.reddit.com/r/webdev/comments/1tx4wkm/how_would_you_handle_80_color_palettes_granular/",
-        "published": "2026-06-05T00:02:49+00:00",
-        "source_label": "Reddit r/webdev",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】How would you handle 80+ color palettes + granular customiza。I've been working on a map poster editor as a side project。You pick a location, choose a style and color palette, and export a print-quality map"
-      },
-      {
-        "title": "Best & Cheap way to track trending TikToks, Reels, and Shorts?",
-        "describe": "Does anyone know a cheaper way to track trending TikToks, Instagram Reels, and YouTube Shorts? I’ve already looked at Apify and Virlo, but they seem too expensive for what I need right now. I’m mainly trying to find viral formats, hashtags, sounds, creators, and short-form trends without spending a lot on scraping tools. Are there any cheaper tools, APIs, open-source projects, or manual/automated workflows people recommend? submitted by /u/InternalGrab3189 [link] [comments]",
+        "title": "I rebuilt 3 dev tools so they stop uploading your data",
+        "describe": "There's a quiet pattern in everyday dev work: the most convenient tool for a job is a website you paste sensitive data into. Need to read a JWT? → paste a production token into jwt.io. Checking a Content-Security-Policy? → paste your security config into an online evaluator. Sharing a payload in a bug report? → paste customer PII into an online redactor. Each is genuinely useful. Each also means handing data you're trying to protect to a third party. The thing is, none of these jobs actually need a server — they're parsing, checksums, and rule-based analysis that run fine in your browser. S...",
         "media": [],
-        "origin_url": "https://www.reddit.com/r/webdev/comments/1tx4t0s/best_cheap_way_to_track_trending_tiktoks_reels/",
-        "published": "2026-06-04T23:59:05+00:00",
-        "source_label": "Reddit r/webdev",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】Best & Cheap way to track trending TikToks, Reels, and Short。Does anyone know a cheaper way to track trending TikToks, Instagram Reels, and YouTube Shorts。I’ve already looked at Apify and Virlo, but they seem too expensive for what I need..."
-      },
-      {
-        "title": "I'm a Chemistry Student from Jordan. I Built a SaaS with AI and Zero CS Knowledge.",
-        "describe": "I want to tell you something that still feels surreal to me. I study Chemistry at Al al-Bayt University in Jordan. I have never taken a programming course. I don't have a CS degree. And this week, I shipped a real SaaS product. The Problem I Kept Hitting Every time I wanted to add a contact form to a website, I ran into the same wall. Backend setup. Databases. APIs. Server configuration. Things that are completely outside my world as a Chemistry student. I kept looking for a simple solution — something where I just paste a line of code and it works. Everything I found was either too expensi...",
-        "media": [],
-        "origin_url": "https://dev.to/chembuilds/im-a-chemistry-student-from-jordan-i-built-a-saas-with-ai-and-zero-cs-knowledge-iib",
-        "published": "2026-06-04T23:46:46+00:00",
+        "origin_url": "https://dev.to/didrod205/i-rebuilt-3-dev-tools-so-they-stop-uploading-your-data-9pi",
+        "published": "2026-06-05T04:08:33+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】I'm a Chemistry Student from Jordan. I Built a SaaS with AI 。I want to tell you something that still feels surreal to me。I study Chemistry at Al al-Bayt University in Jordan"
+        "ai_summary": "【前端开发】I rebuilt 3 dev tools so they stop uploading your data（安全）。There's a quiet pattern in everyday dev work: the most convenient tool for a job is a website you paste sensitive data into。Need to read a JWT"
       },
       {
-        "title": "Which languages have an under-appreciated ecosystem of web development libraries and frameworks?",
-        "describe": "Are there any languages we don't usually associate with webdev, but where they have great libraries that deserve more attention? So I'm not asking about the language itself. I'm asking about the tooling people have built for webdev in the language. submitted by /u/returned_loom [link] [comments]",
+        "title": "Stop Guessing What ^18.2.0 Actually Installs",
+        "describe": "Every Node.js developer has stared at a package.json and wondered: \"Will ^18.2.0 install React 19 the next time someone runs npm install ?\" The answer isn't obvious — and getting it wrong silently breaks production apps. I built SemverExplainer to make npm version ranges readable at a glance. What it does Paste any semver range — or your entire package.json — and you instantly get: Plain-English explanation of what npm will and won't install Risk level badge (Pinned / Patch-only / Minor-safe / Flexible / Any) Bulk table view for full package.json analysis, with separate tabs for dependencie...",
         "media": [],
-        "origin_url": "https://www.reddit.com/r/webdev/comments/1tx3ynp/which_languages_have_an_underappreciated/",
-        "published": "2026-06-04T23:21:29+00:00",
-        "source_label": "Reddit r/webdev",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】Which languages have an under-appreciated ecosystem of web d。Are there any languages we don't usually associate with webdev, but where they have great libraries that deserve more attention。So I'm not asking about the language itself"
-      },
-      {
-        "title": "I built a self-hosted license key manager for my Gumroad products (0 sales so far)",
-        "describe": "I sell boilerplates on Gumroad. Source code, you download a ZIP, you run it. Over the last few months one thought kept nagging me: if I ever wanted to actually license one of these products, or sell a paid tool that checks a key when it runs, I would have to sign up for some license-key SaaS and pay monthly for the privilege. The cheap ones start around 20 a month. For a side project that makes nothing yet, that math is bad. So I built the thing instead. It's called KeyMint, and it's a license key manager you host yourself. Demo (with seeded data so it doesn't look like an empty shell): htt...",
-        "media": [],
-        "origin_url": "https://dev.to/ibrh96prog/i-built-a-self-hosted-license-key-manager-for-my-gumroad-products-0-sales-so-far-10di",
-        "published": "2026-06-04T23:16:40+00:00",
-        "source_label": "DEV Community (React)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】I built a self-hosted license key manager for my Gumroad pro。I sell boilerplates on Gumroad。Source code, you download a ZIP, you run it"
-      },
-      {
-        "title": "VS Code- Security Practices around VSCode Extensions.",
-        "describe": "VSCode extensions were how Github were breached earlier this year. What are people doing around VSCode security best practices around extensions. Approved Extensions Only Disable Auto update Is there anything else like minimum age or settings like that can be done? submitted by /u/ruddet [link] [comments]",
-        "media": [],
-        "origin_url": "https://www.reddit.com/r/webdev/comments/1tx3rur/vs_code_security_practices_around_vscode/",
-        "published": "2026-06-04T23:13:30+00:00",
-        "source_label": "Reddit r/webdev",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】VS Code- Security Practices around VSCode Extensions.（开源/安全）。VSCode extensions were how Github were breached earlier this year。What are people doing around VSCode security best practices around extensions"
-      },
-      {
-        "title": "Building a Visual cubic-bezier Editor in 500 Lines — Why Browsers Binary-Search the Inverse",
-        "describe": "Nobody writes cubic-bezier(0.34, 1.56, 0.64, 1) from scratch. You drag handles on a visual editor like cubic-bezier.com and copy the result. I rebuilt that kind of editor in 500 lines of vanilla JS: pink (P1) and green (P2) handles you can drag, an SVG curve that updates live, a preview box that animates with the easing, and the matching CSS string. The interesting part wasn't drawing the curve — it was the math browsers do every animation frame: cubic-bezier has no closed-form inverse for what CSS needs, so the browser binary-searches it. 🌐 Demo : https://sen.ltd/portfolio/bezier-editor/ 📦...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5syzbjvwbqdo963wlcxx.png"
-        ],
-        "origin_url": "https://dev.to/sendotltd/building-a-visual-cubic-bezier-editor-in-500-lines-why-browsers-binary-search-the-inverse-1ci0",
-        "published": "2026-06-04T23:02:26+00:00",
+        "origin_url": "https://dev.to/dev_encyclopedia/stop-guessing-what-1820-actually-installs-49gg",
+        "published": "2026-06-05T04:06:25+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Building a Visual cubic-bezier Editor in 500 Lines — Why Bro。Nobody writes cubic-bezier(0。64, 1) from scratch"
+        "ai_summary": "【前端开发】Stop Guessing What ^18.2.0 Actually Installs。js developer has stared at a package。json and wondered: \"Will ^18"
+      },
+      {
+        "title": "RxJS Is Just Arrays Over Time",
+        "describe": "RxJS has a reputation problem. Mention RxJS in a JavaScript discussion and you'll usually get one of two reactions. The first: I love RxJS. The second: I have no idea what's going on. There is rarely an in-between. And honestly, I understand why. Most RxJS tutorials immediately throw developers into a sea of operators: map filter switchMap mergeMap concatMap combineLatest forkJoin zip scan It feels like learning an entirely new programming language. But what if I told you that most RxJS operators are concepts you already know? What if the problem isn't RxJS? What if the problem is how RxJS ...",
+        "media": [],
+        "origin_url": "https://dev.to/amrishkhan05/rxjs-is-just-arrays-over-time-3hc2",
+        "published": "2026-06-05T04:06:00+00:00",
+        "source_label": "DEV Community (JavaScript)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】RxJS Is Just Arrays Over Time（教程）。RxJS has a reputation problem。Mention RxJS in a JavaScript discussion and you'll usually get one of two reactions"
       }
     ],
     "backend": [
       {
-        "title": "Baidu Ernie Foundation Model 5.1 Officially Released",
-        "describe": "On May 9, Baidu announced the official release of its next-generation foundation model, Ernie Foundation Model 5.1. According to the introduction, Ernie 5.1 adopts \"Multi-Dimensional Elastic Pre-training\" technology, achieving leading baseline performance with only about 6% of the pre-training cost of industry models of the same scale, and ranking first domestically on the LMArena Search Leaderboard. In addition, the latest rankings from the Large Model Arena show that Ernie 5.1 scored 1,223 points, placing first domestically and fourth globally on the LMArena Search Leaderboard, making it ...",
-        "media": [],
-        "origin_url": "https://dev.to/yiqinumber1/baidu-ernie-foundation-model-51-officially-released-2fei",
-        "published": "2026-06-05T00:13:56+00:00",
-        "source_label": "DEV Community (DevOps)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Baidu Ernie Foundation Model 5.1 Officially Released（开源/性能）。On May 9, Baidu announced the official release of its next-generation foundation model, Ernie Foundation Model 5。According to the introduction, Ernie 5"
-      },
-      {
-        "title": "A Clean-Room Kubernetes CrashLoopBackOff Incident Exercise for SRE/DevOps Learners",
-        "describe": "CrashLoopBackOff is one of those Kubernetes states that many learners recognize, but fewer people practice investigating in a structured incident-response flow. It is tempting to treat CrashLoopBackOff as the root cause. It usually is not. It is a symptom: Kubernetes is repeatedly trying to restart a container that exits. The actual cause might be missing configuration, a bad command, dependency assumptions, bad startup logic, a failed migration, a missing secret, or something else. I wanted a small clean-room exercise for practicing the reasoning flow around this kind of incident without u...",
-        "media": [],
-        "origin_url": "https://dev.to/josuecross/a-clean-room-kubernetes-crashloopbackoff-incident-exercise-for-sredevops-learners-25j8",
-        "published": "2026-06-05T00:00:33+00:00",
-        "source_label": "DEV Community (DevOps)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】A Clean-Room Kubernetes CrashLoopBackOff Incident Exercise f。CrashLoopBackOff is one of those Kubernetes states that many learners recognize, but fewer people practice investigating in a structured incident-response flow。It is tempting to..."
-      },
-      {
-        "title": "Inside Azure Networking: How I Created a Virtual Network with Custom Subnets",
-        "describe": "If you've ever stared at the Azure portal wondering where to even begin with networking, you're not alone. I was right there a few weeks ago. In this post, I'm walking you through exactly what I did — from creating a resource group to building a virtual network with three custom subnets. No fluff, just real steps with real screenshots. Let's get into it. Head over to portal.azure.com Once logged in, Step 1 — Search for Resource Groups The first thing you want to do is head to the Azure portal and use the search bar at the top to look up \"resource group\". You'll see it pop up under Services ...",
+        "title": "DevOps Multi Cloud (Azure/AWS) + Python Training in Hyderabad | Quality Thought",
+        "describe": "Kickstart your cloud and automation career with DevOps Multi Cloud (Azure/AWS) + Python Training at Quality Thought , Hyderabad. Learn DevOps fundamentals, CI/CD pipelines, Multi-Cloud Architecture, Python Automation, Cloud Deployment, Docker, Kubernetes, Git, Jenkins, Terraform, and real-world cloud implementation techniques from industry experts. This industry-oriented training program is designed for freshers, software engineers, system administrators, and cloud enthusiasts looking to build a successful career in DevOps and Cloud Computing. Gain hands-on experience through live projects,...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7hq3gbn9sc4ccouc6ddd.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0ehdhzvsvwh82om5ixty.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fugt25ehdlmhw5ni9zesc.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft3nt44ao99c0qvbzvcrd.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmbvxamym9bwrtp5qdps6.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxconcxza0wj7kfmjtbw6.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm3i1chajv1rvyu86qhpo.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2f48yti6ivsqp8z4c57g.png"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6cpk2pr8ne1d1m0aa3rw.png"
         ],
-        "origin_url": "https://dev.to/4thman/inside-azure-networking-how-i-created-a-virtual-network-with-custom-subnets-35g4",
-        "published": "2026-06-04T23:54:09+00:00",
+        "origin_url": "https://dev.to/ranga_batchu_25f3061f4546/devops-multi-cloud-azureaws-python-training-in-hyderabad-quality-thought-23pg",
+        "published": "2026-06-05T05:07:01+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Inside Azure Networking: How I Created a Virtual Network wit。If you've ever stared at the Azure portal wondering where to even begin with networking, you're not alone。I was right there a few weeks ago"
+        "ai_summary": "【后端 / 架构】DevOps Multi Cloud (Azure/AWS) + Python Training in Hyderaba（架构）。Kickstart your cloud and automation career with DevOps Multi Cloud (Azure/AWS) + Python Training at Quality Thought , Hyderabad。Learn DevOps fundamentals, CI/CD pipelines, Multi..."
       },
       {
-        "title": "How to Secure Your Linux Server in 10 Steps",
-        "describe": "How to Secure Your Linux Server in 10 Steps Introduction How to Secure Your Linux Server in 10 Steps is essential knowledge for every developer. Key Points Start with the basics Practice regularly Build real projects Share your knowledge Getting Started The best way to learn is by doing. Set up a test environment and experiment. Best Practices Follow official documentation Join community forums Contribute to open source Write about what you learn Conclusion Mastering linux opens many career opportunities. Start today! Follow for more linux content! More at https://青.失落.世界",
+        "title": "Processing Millions without Memory Crashes: Laravel Lazy Collections",
+        "describe": "The Out-of-Memory Collection Wall When developing an enterprise B2B SaaS platform at Smart Tech Devs, processing large arrays of internal data is inevitable. Imagine an analytics routine or a custom reporting system that loops through 500,000 user logs, matches specific metadata filters, and map-transforms the arrays into a formatted payload structure. The standard Laravel approach is to use standard Eloquent collections: $logs = ActivityLog::all(); . For small database tables, this works perfectly. But at enterprise scale, this approach is an operational hazard. When you invoke a standard ...",
         "media": [],
-        "origin_url": "https://dev.to/qingluan/how-to-secure-your-linux-server-in-10-steps-3p74",
-        "published": "2026-06-04T23:49:41+00:00",
-        "source_label": "DEV Community (DevOps)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】How to Secure Your Linux Server in 10 Steps（教程/开源）。How to Secure Your Linux Server in 10 Steps Introduction How to Secure Your Linux Server in 10 Steps is essential knowledge for every developer。Key Points Start with the basics ..."
-      },
-      {
-        "title": "How to Audit AI API Costs by Team and User in 2026",
-        "describe": "Track every AI request with team_id , user_id , model, token counts, and feature context, or your invoice will stay unexplainable. Build a request-level cost ledger first, then roll it up into team, user, feature, and model views. Most LLM spend spikes come from a small set of causes: model switches, prompt bloat, retry storms, and unbounded feature adoption. The fastest useful audit is not perfect chargeback. It is a weekly process that shows who spent what, why it changed, and what action to take next. When an LLM bill jumps from $9,000 to $17,500 in one month, most teams start in the wro...",
-        "media": [],
-        "origin_url": "https://dev.to/void_stitch/how-to-audit-ai-api-costs-by-team-and-user-in-2026-o4a",
-        "published": "2026-06-04T23:23:27+00:00",
-        "source_label": "DEV Community (DevOps)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】How to Audit AI API Costs by Team and User in 2026（教程）。Track every AI request with team_id , user_id , model, token counts, and feature context, or your invoice will stay unexplainable。Build a request-level cost ledger first, then r..."
-      },
-      {
-        "title": "HTTP/2 Bomb (CVE-2026-49975): the HPACK + flow-control DoS, and how to patch it",
-        "describe": "Two bugs that have each been public for a decade just got composed into one remote denial-of-service that knocks over five of the most widely deployed web servers in their default config. A single client on a home 100Mbps connection can pin roughly 32GB of RAM in about 20 seconds. No botnet, no credentials, one laptop. The chain itself is not the interesting part. The interesting part is that an AI found it by reading the codebases and noticing two known-bad behaviors compose, and that the public patch is now enough for a model to rebuild the exploit. More on that below. First, what you nee...",
-        "media": [],
-        "origin_url": "https://dev.to/kkierii/http2-bomb-cve-2026-49975-the-hpack-flow-control-dos-and-how-to-patch-it-26ba",
-        "published": "2026-06-04T23:12:52+00:00",
-        "source_label": "DEV Community (DevOps)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】HTTP/2 Bomb (CVE-2026-49975): the HPACK + flow-control DoS, （教程/安全）。Two bugs that have each been public for a decade just got composed into one remote denial-of-service that knocks over five of the most widely deployed web servers in their defau..."
-      },
-      {
-        "title": "Discovering Automation Failures: The Hidden Cost of Customer-Driven Feedback",
-        "describe": "Introduction to Automation Failures The world of automation is a complex one, with many moving parts that can fail at any moment. When these failures occur, the consequences can be severe, ranging from lost revenue to damaged customer trust. In this article, we'll explore the real cost of discovering automation failures from your customers instead of your monitoring tool, and how OpsVeritas can help. The Cost of Customer-Driven Feedback When customers are the first to discover automation failures, the costs can add up quickly. Not only do you have to deal with the immediate fallout of the f...",
-        "media": [],
-        "origin_url": "https://dev.to/opsveritas/discovering-automation-failures-the-hidden-cost-of-customer-driven-feedback-4o2e",
-        "published": "2026-06-04T23:01:03+00:00",
-        "source_label": "DEV Community (DevOps)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Discovering Automation Failures: The Hidden Cost of Customer。Introduction to Automation Failures The world of automation is a complex one, with many moving parts that can fail at any moment。When these failures occur, the consequences can ..."
-      },
-      {
-        "title": "The Gateway Layer Explained: Reverse Proxies, Load Balancers, and API Gateways — Once and For All",
-        "describe": "Most backend engineers have used all three. Few can explain the difference without stuttering. And honestly? That's not entirely their fault. The tools themselves blur the lines — Nginx can be a proxy, a balancer, and a gateway simultaneously . Kong does all three. So does Envoy. Cloudflare will happily do all of that plus serve your coffee. But the confusion isn't just about tooling. It's about not having a mental model for why these three things exist as separate concepts. Once you have that model, the tools stop being confusing and start being obvious. This post gives you that model — cl...",
-        "media": [],
-        "origin_url": "https://dev.to/walosha/the-gateway-layer-explained-reverse-proxies-load-balancers-and-api-gateways-once-and-for-all-1h41",
-        "published": "2026-06-04T22:56:03+00:00",
+        "origin_url": "https://dev.to/iprajapatiparesh/processing-millions-without-memory-crashes-laravel-lazy-collections-34e9",
+        "published": "2026-06-05T04:26:40+00:00",
         "source_label": "DEV Community (Backend)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】The Gateway Layer Explained: Reverse Proxies, Load Balancers。Most backend engineers have used all three。Few can explain the difference without stuttering"
+        "ai_summary": "【后端 / 架构】Processing Millions without Memory Crashes: Laravel Lazy Col（架构）。The Out-of-Memory Collection Wall When developing an enterprise B2B SaaS platform at Smart Tech Devs, processing large arrays of internal data is inevitable。Imagine an analytics..."
       },
       {
-        "title": "DMARC p=none is not protecting your domain: when to upgrade",
-        "describe": "p=none is the right place to start with DMARC. It is not the right place to stay. Most teams add a DMARC record, see it show as passing, and move on. But p=none means receiving servers do nothing when authentication fails. They log it, maybe send you a report, and deliver the email anyway. Someone spoofing your domain while you are on p=none has a clear path to your recipients' inboxes. What the policy tag controls The p= tag tells receiving servers what to do with emails that fail DMARC evaluation: p=none : no action, monitor and report only p=quarantine : deliver to spam or junk folder p=...",
-        "media": [],
-        "origin_url": "https://dev.to/inboxgreen/dmarc-pnone-is-not-protecting-your-domain-when-to-upgrade-4be9",
-        "published": "2026-06-04T22:25:00+00:00",
+        "title": "Day 25 - Helm Chart",
+        "describe": "Day 25 - Helm Chart",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F43xy87p4m3n69bf21ej3.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4vm54f2ocu7tagodt61y.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5s0korpwe015u3kqp431.png"
+        ],
+        "origin_url": "https://dev.to/17j/day-25-helm-chart-898",
+        "published": "2026-06-05T04:23:16+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】DMARC p=none is not protecting your domain: when to upgrade。p=none is the right place to start with DMARC。It is not the right place to stay"
+        "ai_summary": "【后端 / 架构】Day 25 - Helm Chart。Day 25 - Helm Chart"
       },
       {
-        "title": "DevOps Certifications for Beginners — Where to Start in 2026",
-        "describe": "You Don't Need 5 Certifications to Get Started Search \"DevOps certifications\" and you'll find lists of 15–20 options. AWS, Azure, Kubernetes, Terraform, Docker, Ansible, Jenkins, Linux — it feels like you need all of them before anyone will take you seriously. You don't. You need the right ones, in the right order. This guide is for beginners — career changers, bootcamp graduates, junior developers moving into DevOps, or IT professionals transitioning from traditional sysadmin roles. Here's where to actually start. What Skills Do Beginner DevOps Roles Require? Before picking certifications,...",
+        "title": "Preventing Cloud Configuration Drift Without the Headache of State Files",
+        "describe": "The transition to Infrastructure as Code revolutionized how engineering teams deploy and manage cloud resources. Instead of relying on error-prone manual processes and endless clicks within a web console, platform engineers can now define entire data centers using declarative configuration languages. This fundamental shift promised absolute consistency, repeatable deployments, and unparalleled version control for cloud environments. However, as teams scaled their operations and environments grew increasingly complex, a new and persistent adversary emerged. That adversary is configuration dr...",
         "media": [],
-        "origin_url": "https://dev.to/truecert/devops-certifications-for-beginners-where-to-start-in-2026-k6n",
-        "published": "2026-06-04T22:00:00+00:00",
+        "origin_url": "https://dev.to/mechcloud/preventing-cloud-configuration-drift-without-the-headache-of-state-files-34la",
+        "published": "2026-06-05T04:21:21+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】DevOps Certifications for Beginners — Where to Start in 2026（教程）。You Don't Need 5 Certifications to Get Started Search \"DevOps certifications\" and you'll find lists of 15–20 options。AWS, Azure, Kubernetes, Terraform, Docker, Ansible, Jenkins,..."
+        "ai_summary": "【后端 / 架构】Preventing Cloud Configuration Drift Without the Headache of（架构）。The transition to Infrastructure as Code revolutionized how engineering teams deploy and manage cloud resources。Instead of relying on error-prone manual processes and endless cl..."
       },
       {
-        "title": "I Read Your AI Agent Logs So You Don't Have To: A $149 Service That Beats Another Dashboard",
-        "describe": "I Read Your AI Agent Logs So You Don't Have To: A $149 Service That Beats Another Dashboard What if the cheapest fix for your broken AI agent is a stranger reading 40 hours of traces for $149? I spent the last month doing exactly that — reading roughly 40 hours of production logs from teams running LangGraph, CrewAI, and AutoGen agents for paying customers. Not building observability dashboards. Not comparing LangSmith vs Langfuse. Reading the actual traces and writing up what was wrong, what to fix, and in what order. Three observations from those 40 hours: The dashboard was never the prob...",
+        "title": "How to Deploy a Next.js + Prisma + PostgreSQL App on a VPS (Complete 2026 Guide)",
+        "describe": "Most Next.js tutorials end at npm run dev and say \"push to Vercel\". That works — until you need to own your infrastructure and self-host your database. This guide covers the full path: Next.js + Prisma + PostgreSQL on a real Ubuntu VPS, behind Nginx, managed by PM2, with free SSL and automated GitHub Actions deployments. What you will have by the end Next.js running on your own VPS PostgreSQL self-hosted — no Neon, no Supabase Nginx + free SSL via Let's Encrypt PM2 for process management Auto-deploy on every git push The one gotcha most guides miss On PostgreSQL 15+, Prisma migrations fail ...",
         "media": [],
-        "origin_url": "https://dev.to/milo_antaeus_784320e2f2f9/i-read-your-ai-agent-logs-so-you-dont-have-to-a-149-service-that-beats-another-dashboard-53nc",
-        "published": "2026-06-04T21:54:38+00:00",
+        "origin_url": "https://dev.to/usamacheema453/how-to-deploy-a-nextjs-prisma-postgresql-app-on-a-vps-complete-2026-guide-33f8",
+        "published": "2026-06-05T04:16:11+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】I Read Your AI Agent Logs So You Don't Have To: A $149 Servi。I Read Your AI Agent Logs So You Don't Have To: A $149 Service That Beats Another Dashboard What if the cheapest fix for your broken AI agent is a stranger reading 40 hours of t..."
+        "ai_summary": "【后端 / 架构】How to Deploy a Next.js + Prisma + PostgreSQL App on a VPS (（教程/开源）。js tutorials end at npm run dev and say \"push to Vercel\"。That works — until you need to own your infrastructure and self-host your database"
       },
       {
         "title": "How to Secure Your Linux Server in 10 Steps",
         "describe": "How to Secure Your Linux Server in 10 Steps Introduction How to Secure Your Linux Server in 10 Steps is essential knowledge for every developer. Key Points Start with the basics Practice regularly Build real projects Share your knowledge Getting Started The best way to learn is by doing. Set up a test environment and experiment. Best Practices Follow official documentation Join community forums Contribute to open source Write about what you learn Conclusion Mastering linux opens many career opportunities. Start today! Follow for more linux content! More at https://青.失落.世界",
         "media": [],
-        "origin_url": "https://dev.to/qingluan/how-to-secure-your-linux-server-in-10-steps-3l6c",
-        "published": "2026-06-04T21:46:46+00:00",
+        "origin_url": "https://dev.to/qingluan/how-to-secure-your-linux-server-in-10-steps-5ad2",
+        "published": "2026-06-05T03:56:02+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
         "ai_summary": "【后端 / 架构】How to Secure Your Linux Server in 10 Steps（教程/开源）。How to Secure Your Linux Server in 10 Steps Introduction How to Secure Your Linux Server in 10 Steps is essential knowledge for every developer。Key Points Start with the basics ..."
+      },
+      {
+        "title": "☁️ Azure Cosmos DB vs MongoDB for FastAPI — Which One Should You Use?",
+        "describe": "🚀 Architecture Overview — Why They Differ Azure Cosmos DB is a globally distributed, multi‑model database service that offers turnkey scaling and five consistency levels. MongoDB is an open‑source document database that can be self‑hosted or run as a managed service (e.g., Atlas). The definitive answer to the query “Azure Cosmos DB vs MongoDB for FastAPI” is that Cosmos DB provides automatic multi‑region replication and guaranteed latency at the cost of higher request‑unit (RU) pricing, while MongoDB gives full control over deployment and can be cheaper for read‑heavy workloads. 📑 Table of ...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc46wj6q91qvzyvqgfdmi.png"
+        ],
+        "origin_url": "https://dev.to/ptp2308/azure-cosmos-db-vs-mongodb-for-fastapi-which-one-should-you-use-gik",
+        "published": "2026-06-05T03:39:03+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】☁️ Azure Cosmos DB vs MongoDB for FastAPI — Which One Should（架构）。🚀 Architecture Overview — Why They Differ Azure Cosmos DB is a globally distributed, multi‑model database service that offers turnkey scaling and five consistency levels。MongoDB..."
+      },
+      {
+        "title": "Catch MCP Tool-Schema Drift in 10 Minutes (Live Demo + Optional Watch)",
+        "describe": "Your agent stack can look healthy while the contract underneath it is already broken. HTTP 200 on /health . No failed deploys. CI green. Then tools/call starts returning empty results because a maintainer renamed a parameter or removed a tool from tools/list — and nobody pinned a baseline. We built ToolSchema Kit as a small, reproducible lab for that failure mode: a Go MCP server with versioned tool output you can break on purpose. This walkthrough takes about 10 minutes and works entirely on the free hosted endpoint — no vendor API keys required. If you want continuous monitoring after the...",
+        "media": [],
+        "origin_url": "https://dev.to/kioiek/catch-mcp-tool-schema-drift-in-10-minutes-live-demo-optional-watch-4ao2",
+        "published": "2026-06-05T03:37:52+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】Catch MCP Tool-Schema Drift in 10 Minutes (Live Demo + Optio。Your agent stack can look healthy while the contract underneath it is already broken。HTTP 200 on /health"
+      },
+      {
+        "title": "I Escaped a Privileged Kubernetes Container — Here's What Falco Saw",
+        "describe": "I Escaped a Privileged Kubernetes Container — Here's What Falco Saw",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff0zwyrah1h6fecshgl96.webp",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg61nw5fqzco5qij8uawi.webp",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fli8t9wfnk8hgx93168dp.webp"
+        ],
+        "origin_url": "https://dev.to/chrisazzo/i-escaped-a-privileged-kubernetes-container-heres-what-falco-saw-1cbg",
+        "published": "2026-06-05T03:31:56+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】I Escaped a Privileged Kubernetes Container — Here's What Fa。I Escaped a Privileged Kubernetes Container — Here's What Falco Saw"
+      },
+      {
+        "title": "How I Deployed a Cryptominer Into My Kubernetes Cluster — and Caught It With Falco",
+        "describe": "How I Deployed a Cryptominer Into My Kubernetes Cluster — and Caught It With Falco",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzynswzan0ojwqmccpxol.webp",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fybovvmtrix7khu8uc840.webp",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fky46tutabxku3c1ayy8l.webp",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhlxshic8nnnd5y0d89je.webp",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffy2v3ob9bh9t4f4bjest.webp"
+        ],
+        "origin_url": "https://dev.to/chrisazzo/how-i-deployed-a-cryptominer-into-my-kubernetes-cluster-and-caught-it-with-falco-5hnj",
+        "published": "2026-06-05T03:19:58+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】How I Deployed a Cryptominer Into My Kubernetes Cluster — an。How I Deployed a Cryptominer Into My Kubernetes Cluster — and Caught It With Falco"
+      },
+      {
+        "title": "Building High-Performance E-Commerce Sites for Specialty Beverage Stores",
+        "describe": "The Challenge of Niche E-Commerce Building an e-commerce platform for specialty beverages—whether wine, craft beer, or spirits—comes with unique technical and business challenges. Unlike mass-market retailers, niche beverage stores must balance high-quality product imagery, detailed tasting notes, regulatory compliance, and fast-loading pages. Let me walk you through some practical approaches I've found effective. Performance is Your First Feature Beverage buyers spend time browsing product details. Your site needs to load fast, especially for image-heavy product pages. Key optimizations: I...",
+        "media": [],
+        "origin_url": "https://dev.to/alexis_vitre_cd2e187da346/building-high-performance-e-commerce-sites-for-specialty-beverage-stores-32a0",
+        "published": "2026-06-05T02:36:37+00:00",
+        "source_label": "DEV Community (Backend)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】Building High-Performance E-Commerce Sites for Specialty Bev（性能）。The Challenge of Niche E-Commerce Building an e-commerce platform for specialty beverages—whether wine, craft beer, or spirits—comes with unique technical and business challenge..."
+      },
+      {
+        "title": "David Stark: Top High-Paying Roles",
+        "describe": "👋 Hello Architects & Elite Engineers, The market is shifting. We are seeing a surge in GOLANG roles this week. We don't do \"Easy Apply\". Our internal gatekeeper just processed 200+ verified remote jobs from our partner network. To get these jobs, you must pass the architecture audit. Here are the Top 5 roles worth your time today.** 👇 1. Senior Full-stack React Developer 🏢 Lemon.io | 💰 Competitive | 📍 Remote Could you walk us through your experience with this tech stack? Tech Stack: Are you a talented Senior Developer looking for a remote job that lets you show your skills ... 👉 Apply & Vie...",
+        "media": [],
+        "origin_url": "https://dev.to/devpulse/david-stark-top-high-paying-roles-pan",
+        "published": "2026-06-05T02:24:46+00:00",
+        "source_label": "DEV Community (Backend)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】David Stark: Top High-Paying Roles（架构）。👋 Hello Architects & Elite Engineers, The market is shifting。We are seeing a surge in GOLANG roles this week"
       }
     ],
     "general": [
       {
-        "title": "I spent hours writing unit tests – so I made an LLM do it (and learned what not to do)",
-        "describe": "About a month ago I hit that point in a project where the business logic was solid, the API endpoints were clean, but the test file was a pathetic stub. I had 30+ similar validation functions – each one a slight variation on “does this field exist?”, “is it the right type?”, “does it pass this custom rule?”. The manual approach would mean copying the same assert pattern dozens of times, changing only the function name and the test input. My brain started melting just thinking about it. I’m a big believer in testing, but I’m also a big believer in not doing boring work twice. So I started lo...",
+        "title": "Making the OWASP top ten in the vibe code era​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​‌‍​‌​﻿​﻿​﻿‌‍​﻿‍‌​﻿‌‍‌‍​‍​﻿‌​​‍﻿‌​﻿‍​​﻿​‌‌‍‌‍​﻿​﻿​‍﻿‌​﻿‌​‌‍‌‌​﻿‌‌‌‍‌‌​‍﻿‌‌‍​‌​﻿​​‌‍​﻿‌‍​‍​‍﻿‌‌‍​﻿​﻿‌‌‌‍‌‌‌‍​‌​﻿‍​​﻿​‌​﻿‌﻿‌‍‌​​﻿‍​​﻿‍​​﻿​​​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+        "describe": "Ryan welcomes back Tanya Janca, now part of the OWASP Top 10 team, to discuss what changed in the latest OWASP Top 10 release, how the list shifted from “outdated components” to a broader software supply chain focus, and why they added memory safety and vibe-coding as awareness items.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​...",
         "media": [],
-        "origin_url": "https://dev.to/__c1b9e06dc90a7e0a676b/i-spent-hours-writing-unit-tests-so-i-made-an-llm-do-it-and-learned-what-not-to-do-4d16",
-        "published": "2026-06-05T01:01:23+00:00",
+        "origin_url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
+        "published": "2026-06-05T07:40:00+00:00",
+        "source_label": "Stack Overflow Blog",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】Making the OWASP top ten in the vibe code era​​​​‌﻿‍﻿​‍​‍‌‍﻿（开源）。Ryan welcomes back Tanya Janca, now part of the OWASP Top 10 team, to discuss what changed in the latest OWASP Top 10 release, how the list shifted from “outdated components” to..."
+      },
+      {
+        "title": "Mobile App API Versioning: The Career Cost of Technical Debt",
+        "describe": "Why API Versioning is a Must In mobile app development, API versioning is a critical issue that can be overlooked initially but directly impacts project health and your career over time. A few years ago, in a project where I worked on the mobile application for a large e-commerce site, the first version of the API was released in 2019. At that time, we designed the API in a flat manner and didn't implement a versioning mechanism. While this seemed to accelerate the initial process, we encountered serious problems a few years later when we started adding new features. Distributing new update...",
+        "media": [],
+        "origin_url": "https://dev.to/merbayerp/mobile-app-api-versioning-the-career-cost-of-technical-debt-5d3i",
+        "published": "2026-06-05T05:00:51+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】I spent hours writing unit tests – so I made an LLM do it (a。About a month ago I hit that point in a project where the business logic was solid, the API endpoints were clean, but the test file was a pathetic stub。I had 30+ similar validat..."
+        "ai_summary": "【综合干货】Mobile App API Versioning: The Career Cost of Technical Debt（开源）。Why API Versioning is a Must In mobile app development, API versioning is a critical issue that can be overlooked initially but directly impacts project health and your career o..."
       },
       {
-        "title": "I was laid off by Atlassian",
-        "describe": "Comments",
+        "title": "Rate Limiting Done Right: Respecting X's Anti-Abuse Stack",
+        "describe": "Most rate limiting articles teach you how to enforce rate limits on your API. This article is about the other side: how to respect rate limits when your application is a client of someone else's platform. At HelperX , we automate actions on X across hundreds of accounts. Every account has its own rate limit budget. Exceeding it doesn't just return a 429 — it flags the account for anti-abuse review. Here's how we handle rate limits so that accounts stay safe. X's rate limit model X uses multiple layers of rate limiting: Layer 1: API rate limits Classic HTTP rate limits. X returns 429 Too Man...",
         "media": [],
-        "origin_url": "https://youtu.be/55pTFVoclvE",
-        "published": "2026-06-05T00:38:53+00:00",
-        "source_label": "Lobsters",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】I was laid off by Atlassian。Comments"
-      },
-      {
-        "title": "Amazon S3 Doesn't Hope Hardware Won't Fail. It Assumes It Already Has.",
-        "describe": "Most engineers build distributed systems hoping nothing breaks. Amazon S3 was engineered under the opposite assumption: that something is already broken, right now, and the system needs to be fine with that. That one mindset shift explains almost everything about how S3 works — and why it's one of the most reliable pieces of infrastructure on the planet. I went through a deep-dive conversation with Mai-Lan Tomsen Bukovec, VP of Data and Analytics at AWS, and extracted the engineering philosophy underneath the product. Not the marketing version. The real one. Here's what actually matters. 1....",
-        "media": [],
-        "origin_url": "https://dev.to/walosha/amazon-s3-doesnt-hope-hardware-wont-fail-it-assumes-it-already-has-5alf",
-        "published": "2026-06-05T00:37:24+00:00",
+        "origin_url": "https://dev.to/helperx/rate-limiting-done-right-respecting-xs-anti-abuse-stack-3md2",
+        "published": "2026-06-05T04:35:00+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Amazon S3 Doesn't Hope Hardware Won't Fail. It Assumes It Al。Most engineers build distributed systems hoping nothing breaks。Amazon S3 was engineered under the opposite assumption: that something is already broken, right now, and the syste..."
+        "ai_summary": "【综合干货】Rate Limiting Done Right: Respecting X's Anti-Abuse Stack（教程）。Most rate limiting articles teach you how to enforce rate limits on your API。This article is about the other side: how to respect rate limits when your application is a client o..."
       },
       {
-        "title": "BurnCPU's First 100 Users: The Most Expensive Mistake of My Career",
-        "describe": "The most expensive mistake of my career wasn't a line of code; it was a 'yes'. That 'yes' not only cost me money but also severely damaged my reputation, which I had built over years. This was a turning point I experienced when my personal project, which I proudly worked on and named \"BurnCPU,\" reached its first 100 users. Today, with 20 years of system architecture and operations experience, I can clearly see the decisions I made back then and the lessons I've learned since. This post is not just a technical error analysis; it's also an intention to share a pragmatic decision-making proces...",
+        "title": "Variables and Data Types in Python",
+        "describe": "Variables and Data Types in Python : Store and Use Data Like a Pro In Python, variables are simply names that refer to values. Understanding the main data types makes it easier to choose the right tool for the task. Core concepts int for whole numbers float for decimal numbers str for text bool for True/False values Example age = 25 price = 19.99 city = \" Istanbul \" is_student = True print ( age , price , city , is_student ) Why it matters Every real-world program needs to store information: customer names, quantities, prices, or user choices. Choosing the right type helps prevent bugs and ...",
         "media": [],
-        "origin_url": "https://dev.to/merbayerp/burncpus-first-100-users-the-most-expensive-mistake-of-my-career-1p4g",
-        "published": "2026-06-05T00:25:58+00:00",
+        "origin_url": "https://dev.to/nicholus_mush_af352791aab/variables-and-data-types-in-python-3975",
+        "published": "2026-06-05T04:24:14+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】BurnCPU's First 100 Users: The Most Expensive Mistake of My （架构）。The most expensive mistake of my career wasn't a line of code; it was a 'yes'。That 'yes' not only cost me money but also severely damaged my reputation, which I had built over y..."
+        "ai_summary": "【综合干货】Variables and Data Types in Python。Variables and Data Types in Python : Store and Use Data Like a Pro In Python, variables are simply names that refer to values。Understanding the main data types makes it easier t..."
       },
       {
-        "title": "PDF hub complete + Office conversions now live — 61 tools across the site",
-        "describe": "Big update. The PDF hub is fully built out and a whole set of Office conversion tools just shipped. PDF hub complete (18 tools): Merge, split, compress, rotate, reorder, extract pages, remove pages, watermark, page numbers, protect, unlock, extract images, and more. Office ↔ PDF (6 tools): Word to PDF Excel to PDF PowerPoint to PDF PDF to Word PDF to Excel PDF to PowerPoint Office ↔ Office (3 tools, fully browser-side, no file upload): Word to Excel Excel to Word PowerPoint to Word Other recent updates: WordPress plugin updated to include the new PDF tools Chrome extension v1.1.0 updated wi...",
+        "title": "BoxAgnts Runtime (5) — MCP Is Just the Beginning, the Runtime Layer Is What Matters",
+        "describe": "The emergence of MCP (Model Context Protocol) marks a major milestone for the AI ecosystem. For the first time, the industry is converging around a shared interface for tool interaction—standardizing how models discover tools, invoke capabilities, exchange context, and communicate with external systems. But MCP also reveals a larger architectural gap: it solves the protocol problem, not the runtime problem. And the runtime problem is becoming increasingly critical. Protocols Are Not Runtimes MCP standardizes communication—defining tool discovery, invocation, and resource management. This is...",
         "media": [],
-        "origin_url": "https://dev.to/relahconvert/pdf-hub-complete-office-conversions-now-live-61-tools-across-the-site-p8l",
-        "published": "2026-06-05T00:11:21+00:00",
+        "origin_url": "https://dev.to/guyoung/boxagnts-runtime-5-mcp-is-just-the-beginning-the-runtime-layer-is-what-matters-2mh3",
+        "published": "2026-06-05T04:21:08+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】PDF hub complete + Office conversions now live — 61 tools ac。The PDF hub is fully built out and a whole set of Office conversion tools just shipped。PDF hub complete (18 tools): Merge, split, compress, rotate, reorder, extract pages, remov..."
+        "ai_summary": "【综合干货】BoxAgnts Runtime (5) — MCP Is Just the Beginning, the Runtim。The emergence of MCP (Model Context Protocol) marks a major milestone for the AI ecosystem。For the first time, the industry is converging around a shared interface for tool inte..."
       },
       {
-        "title": "Modern AI Landscape - My Understanding",
-        "describe": "Lets start our discussion from 2010 . Timeperiod 2010 - 2020 we have predictive AI models such as Recommendation systems , customer segmentation etc .. From 2020 the when the generative models were introduced to the world then the landscape was completely changed . We have this generative era till 2022 . Then industry was stepped into a new era called \"Augumentation\" models like AI Copilot . This was continued from 2022-2024 . Then came AI Agents—one of the most transformative innovations of the modern AI era. Unlike traditional AI systems that primarily generate responses, agents can reaso...",
+        "title": "How I built a Nepali Unicode-Preeti converter",
+        "describe": "How I Built a Nepali Unicode-Preeti Converter Nepal has a unique font problem. Modern Nepali text uses Unicode — the international standard, works everywhere, renders natively on all devices. But thousands of government offices, newspapers, and legacy systems still use Preeti font — a 1990s ASCII-based encoding that looks like random English characters unless you have the specific font installed. Converting between them is a daily task for tens of thousands of Nepali professionals. And the existing tools are... rough. Ad-heavy, outdated UIs, no download option. So I built Lipi Converter . W...",
         "media": [],
-        "origin_url": "https://dev.to/saranyam_15/modern-ai-landscape-my-understanding-10ch",
-        "published": "2026-06-05T00:08:37+00:00",
+        "origin_url": "https://dev.to/lipi_converter_e19b494f5b/how-i-built-a-nepali-unicode-preeti-converter-2f86",
+        "published": "2026-06-05T04:21:00+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Modern AI Landscape - My Understanding。Lets start our discussion from 2010。Timeperiod 2010 - 2020 we have predictive AI models such as Recommendation systems , customer segmentation etc"
+        "ai_summary": "【综合干货】How I built a Nepali Unicode-Preeti converter。How I Built a Nepali Unicode-Preeti Converter Nepal has a unique font problem。Modern Nepali text uses Unicode — the international standard, works everywhere, renders natively on..."
       },
       {
-        "title": "From Blood Tests to Meal Plans: Building a Self-Correcting Health Agent with LangGraph",
-        "describe": "Ever felt like your fitness app is just a fancy spreadsheet? You log a high uric acid result from your latest blood test, yet it still suggests a high-protein steak dinner for \"gains.\" In the world of AI Agents , we are moving past static prompts. Today, we’re building a Self-Correcting Health Agent using LangGraph , LangChain , and OpenAI . This agent doesn't just chat; it monitors laboratory biomarkers like cholesterol and uric acid, maintains a long-term memory via SQLite , and dynamically rewrites your lifestyle plan using advanced OpenAI Function Calling . If you've been looking to mas...",
+        "title": "Your resume says \"K8s.\" The job description says \"Kubernetes.\" The ATS marks it as missing.",
+        "describe": "A senior engineer with five years of production experience ships a resume. React, TypeScript, AWS, Kubernetes: all of it real, all of it daily. Strong GitHub. Clean system design instincts. Applying for roles they're genuinely qualified for. No callback. Not from one company. From seven. The engineering hiring process has a layer most developers never think about. Before your resume reaches an engineering manager, before any human reads a single line, it runs through an Applicant Tracking System. The ATS doesn't evaluate your architecture decisions or your GitHub commit history. It compares...",
         "media": [],
-        "origin_url": "https://dev.to/beck_moulton/from-blood-tests-to-meal-plans-building-a-self-correcting-health-agent-with-langgraph-36hb",
-        "published": "2026-06-05T00:08:00+00:00",
+        "origin_url": "https://dev.to/ai_utilities_5434e65ac2de/your-resume-says-k8s-the-job-description-says-kubernetes-the-ats-marks-it-as-missing-5h9m",
+        "published": "2026-06-05T04:17:37+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】From Blood Tests to Meal Plans: Building a Self-Correcting H。Ever felt like your fitness app is just a fancy spreadsheet。You log a high uric acid result from your latest blood test, yet it still suggests a high-protein steak dinner for \"g..."
+        "ai_summary": "【综合干货】Your resume says \"K8s.\" The job description says \"Kubernetes（开源/架构）。A senior engineer with five years of production experience ships a resume。React, TypeScript, AWS, Kubernetes: all of it real, all of it daily"
       },
       {
-        "title": "AWS Types of Databases: The Complete 2026 Guide for Developers",
-        "describe": "If you’re building a generative AI chatbot, global e-commerce platform, or industrial IoT solution in 2026, picking the wrong database can sink performance, blow your budget, or delay your launch. For years, teams relied on one-size-fits-all relational databases for every workload, but modern applications demand specialized tools for specific use cases. AWS solves this challenge with 15+ purpose-built database engines across 8 distinct categories, optimized for performance, scalability, and cost efficiency for every imaginable workload. This guide breaks down every AWS database type, its co...",
+        "title": "BAGEN: LLM Agents Waste 44% of Tokens on Tasks They'll Fail",
+        "describe": "You're paying for every token your agent burns. And according to new research from Northwestern, Stanford, Cornell, and All Hands AI, a large share of that spend goes directly to waste — on trajectories the agent was never going to complete successfully. The paper is BAGEN: Are LLM Agents Budget-Aware? (arXiv:2606.00198, submitted May 29, 2026). Its core question is simple: can frontier LLM agents predict when they're about to run out of runway? The answer, across five frontier models and four environments, is a firm no. This article covers what BAGEN found, how the concept of budget-aware ...",
         "media": [],
-        "origin_url": "https://dev.to/andrewll/aws-types-of-databases-the-complete-2026-guide-for-developers-1527",
-        "published": "2026-06-05T00:07:01+00:00",
+        "origin_url": "https://dev.to/jangwook_kim_e31e7291ad98/bagen-llm-agents-waste-44-of-tokens-on-tasks-theyll-fail-4olg",
+        "published": "2026-06-05T04:16:13+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】AWS Types of Databases: The Complete 2026 Guide for Develope（教程/性能）。If you’re building a generative AI chatbot, global e-commerce platform, or industrial IoT solution in 2026, picking the wrong database can sink performance, blow your budget, or..."
+        "ai_summary": "【综合干货】BAGEN: LLM Agents Waste 44% of Tokens on Tasks They'll Fail。You're paying for every token your agent burns。And according to new research from Northwestern, Stanford, Cornell, and All Hands AI, a large share of that spend goes directly to..."
       },
       {
-        "title": "The problem with my memory and why I stopped trusting myself to remember things",
-        "describe": "I work on a computer all day. Multiple projects, lots of switching, constant interruptions. A while back I noticed I was losing track of my own work. Not really the big things but mostly the small stuff. The decision I made on Tuesday about why I structured something a certain way. The thing I was halfway through when a Slack message pulled me away. The task that never made it onto any list because it felt too small to write down (but I ended up forgetting about after lunch until 2 days later). By Friday I'd look back at the week and genuinely struggle to piece together everything I actuall...",
+        "title": "SpaceX: Flying High on Impunity",
+        "describe": "Article URL: https://georgiebc.wordpress.com/2026/06/01/flying-high-on-impunity/ Comments URL: https://news.ycombinator.com/item?id=48407753 Points: 4 # Comments: 0",
         "media": [],
-        "origin_url": "https://dev.to/toluwa_jibodu_b9d576f568b/the-problem-with-my-memory-and-why-i-stopped-trusting-myself-to-remember-things-2eie",
-        "published": "2026-06-05T00:05:54+00:00",
-        "source_label": "DEV Community",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】The problem with my memory and why I stopped trusting myself。I work on a computer all day。Multiple projects, lots of switching, constant interruptions"
-      },
-      {
-        "title": "Learning J – Part I",
-        "describe": "Part I , Part II , Part III , and Part IV Comments",
-        "media": [],
-        "origin_url": "https://drj11.wordpress.com/2007/04/09/learning-j-part-i/",
-        "published": "2026-06-04T23:25:37+00:00",
-        "source_label": "Lobsters",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】Learning J – Part I。Part I , Part II , Part III , and Part IV Comments"
-      },
-      {
-        "title": "Do transformers need three projections? Systematic study of QKV variants",
-        "describe": "Article URL: https://arxiv.org/abs/2606.04032 Comments URL: https://news.ycombinator.com/item?id=48405931 Points: 59 # Comments: 9",
-        "media": [],
-        "origin_url": "https://arxiv.org/abs/2606.04032",
-        "published": "2026-06-04T23:11:56+00:00",
+        "origin_url": "https://georgiebc.wordpress.com/2026/06/01/flying-high-on-impunity/",
+        "published": "2026-06-05T03:59:29+00:00",
         "source_label": "Hacker News 首页",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Do transformers need three projections? Systematic study of 。Article URL: https://arxiv。04032 Comments URL: https://news"
+        "ai_summary": "【综合干货】SpaceX: Flying High on Impunity。Article URL: https://georgiebc。com/2026/06/01/flying-high-on-impunity/ Comments URL: https://news"
       },
       {
-        "title": "Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate",
-        "describe": "Article URL: https://arxiv.org/abs/2604.24881 Comments URL: https://news.ycombinator.com/item?id=48405841 Points: 8 # Comments: 0",
+        "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
+        "describe": "Article URL: https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/ Comments URL: https://news.ycombinator.com/item?id=48407499 Points: 34 # Comments: 26",
         "media": [],
-        "origin_url": "https://arxiv.org/abs/2604.24881",
-        "published": "2026-06-04T23:01:40+00:00",
+        "origin_url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
+        "published": "2026-06-05T03:14:28+00:00",
         "source_label": "Hacker News 首页",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Latent Agents: A Post-Training Procedure for Internalized Mu。Article URL: https://arxiv。24881 Comments URL: https://news"
+        "ai_summary": "【综合干货】Azure Linux 4.0 is Microsoft's first general-purpose Linux。Article URL: https://www。dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/ Comments URL: https://news"
+      },
+      {
+        "title": "The Causes of Long Covid",
+        "describe": "Article URL: https://www.science.org/content/blog-post/causes-long-covid Comments URL: https://news.ycombinator.com/item?id=48407451 Points: 50 # Comments: 13",
+        "media": [],
+        "origin_url": "https://www.science.org/content/blog-post/causes-long-covid",
+        "published": "2026-06-05T03:04:28+00:00",
+        "source_label": "Hacker News 首页",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】The Causes of Long Covid。Article URL: https://www。org/content/blog-post/causes-long-covid Comments URL: https://news"
+      },
+      {
+        "title": "Delacroix's Entry of the Crusaders into Constantinople Restored",
+        "describe": "Article URL: https://www.louvre.fr/en/explore/life-at-the-museum/delacroix-s-entry-of-the-crusaders-into-constantinople-restored-to-its-original-glory Comments URL: https://news.ycombinator.com/item?id=48407368 Points: 3 # Comments: 0",
+        "media": [],
+        "origin_url": "https://www.louvre.fr/en/explore/life-at-the-museum/delacroix-s-entry-of-the-crusaders-into-constantinople-restored-to-its-original-glory",
+        "published": "2026-06-05T02:48:44+00:00",
+        "source_label": "Hacker News 首页",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】Delacroix's Entry of the Crusaders into Constantinople Resto。Article URL: https://www。fr/en/explore/life-at-the-museum/delacroix-s-entry-of-the-crusaders-into-constantinople-restored-to-its-original-glory Comments URL: https://news"
       }
     ]
   }

@@ -114,6 +114,35 @@ def is_valid_describe(text: str) -> bool:
     return True
 
 
+_SPAM_PATTERNS = re.compile(
+    r"|".join(
+        [
+            r"betting\s+id",
+            r"online\s+betting",
+            r"sports\s+betting",
+            r"marathabook",
+            r"开云体育",
+            r"体育app\s*下载",
+            r"casino\b",
+            r"no\s+kyc.*crypto",
+            r"paid\s+in\s+crypto.*vps",
+        ]
+    ),
+    re.I,
+)
+
+
+def is_spam_item(title: str, describe: str, origin_url: str) -> bool:
+    """Filter obvious gambling/SEO spam from open platforms."""
+    blob = f"{title} {describe} {origin_url}"
+    if _SPAM_PATTERNS.search(blob):
+        return True
+    if re.search(r"dev\.to/[a-z0-9_]+_[a-f0-9]{12,}/", origin_url, re.I):
+        if _SPAM_PATTERNS.search(blob):
+            return True
+    return False
+
+
 def fetch_feed(url: str, label: str, retries: int = 3) -> list[dict]:
     last_exc: Exception | None = None
     parsed = None
@@ -156,6 +185,8 @@ def fetch_feed(url: str, label: str, retries: int = 3) -> list[dict]:
         if len(describe) > 600:
             describe = describe[:597] + "..."
         if not is_valid_describe(describe):
+            continue
+        if is_spam_item(title, describe, link):
             continue
 
         items.append(

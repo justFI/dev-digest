@@ -3,7 +3,7 @@ categories:
   - id: ai
     name: AI / 机器学习
     feeds:
-      - url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=10
+      - url: https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT
         label: Hacker News (AI)
       - url: https://openai.com/blog/rss.xml
         label: OpenAI Blog
@@ -17,7 +17,7 @@ categories:
   - id: ios
     name: iOS / Swift
     feeds:
-      - url: https://hnrss.org/newest?q=iOS+OR+Swift+OR+SwiftUI&points=5
+      - url: https://hnrss.org/newest?q=iOS+OR+Swift+OR+SwiftUI
         label: Hacker News (iOS)
       - url: https://developer.apple.com/news/releases/rss/releases.rss
         label: Apple Developer Releases
@@ -31,7 +31,7 @@ categories:
   - id: android
     name: Android / Kotlin
     feeds:
-      - url: https://hnrss.org/newest?q=Android+OR+Kotlin+OR+Jetpack&points=5
+      - url: https://hnrss.org/newest?q=Android+OR+Kotlin+OR+Jetpack
         label: Hacker News (Android)
       - url: https://android-developers.googleblog.com/feeds/posts/default
         label: Android Developers Blog
@@ -45,7 +45,7 @@ categories:
   - id: frontend
     name: 前端开发
     feeds:
-      - url: https://hnrss.org/newest?q=React+OR+Vue+OR+frontend+OR+CSS&points=8
+      - url: https://hnrss.org/newest?q=React+OR+Vue+OR+frontend+OR+CSS
         label: Hacker News (Frontend)
       - url: https://css-tricks.com/feed/
         label: CSS-Tricks
@@ -63,7 +63,7 @@ categories:
   - id: backend
     name: 后端 / 架构
     feeds:
-      - url: https://hnrss.org/newest?q=backend+OR+API+OR+database+OR+microservices&points=8
+      - url: https://hnrss.org/newest?q=backend+OR+API+OR+database+OR+microservices
         label: Hacker News (Backend)
       - url: https://aws.amazon.com/blogs/architecture/feed/
         label: AWS Architecture Blog
@@ -81,6 +81,8 @@ categories:
     feeds:
       - url: https://hnrss.org/frontpage
         label: Hacker News 首页
+      - url: https://news.ycombinator.com/rss
+        label: Hacker News (官方 RSS)
       - url: https://dev.to/feed
         label: DEV Community
       - url: https://lobste.rs/rss

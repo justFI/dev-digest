@@ -37,6 +37,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DIGEST_MAX_AGE_HOURS: "48"
           DIGEST_MAX_PER_CATEGORY: "12"
+          DIGEST_FEED_DELAY_SEC: "1.5"
+          DIGEST_REDDIT_DELAY_SEC: "5.0"
         run: python3 scripts/collect_digest.py
 
       - name: Commit data archive

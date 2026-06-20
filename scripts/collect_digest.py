@@ -27,6 +27,8 @@ DOCS_DIR = ROOT / "docs"
 DATA_DIR = ROOT / "data"
 MAX_AGE_HOURS = int(os.environ.get("DIGEST_MAX_AGE_HOURS", "48"))
 MAX_PER_CATEGORY = int(os.environ.get("DIGEST_MAX_PER_CATEGORY", "12"))
+FEED_DELAY_SEC = float(os.environ.get("DIGEST_FEED_DELAY_SEC", "1.5"))
+REDDIT_DELAY_SEC = float(os.environ.get("DIGEST_REDDIT_DELAY_SEC", "5.0"))
 USER_AGENT = "dev-digest-bot/1.0 (+https://github.com/justFI/dev-digest)"
 
 
@@ -114,6 +116,14 @@ def is_valid_describe(text: str) -> bool:
     return True
 
 
+def feed_backoff_seconds(exc: Exception, attempt: int, url: str) -> int:
+    """Longer waits for rate limits and Reddit throttling."""
+    msg = str(exc).lower()
+    if "429" in msg or "reddit.com" in url:
+        return min(30, 8 + attempt * 6)
+    return 2**attempt
+
+
 def fetch_feed(url: str, label: str, retries: int = 3) -> list[dict]:
     last_exc: Exception | None = None
     parsed = None
@@ -130,7 +140,7 @@ def fetch_feed(url: str, label: str, retries: int = 3) -> list[dict]:
         except Exception as exc:  # noqa: BLE001
             last_exc = exc
             if attempt < retries - 1:
-                wait = 2**attempt
+                wait = feed_backoff_seconds(exc, attempt, url)
                 print(f"  [retry] {label} attempt {attempt + 2}/{retries} in {wait}s...", file=sys.stderr)
                 time.sleep(wait)
     if parsed is None:
@@ -265,6 +275,9 @@ def collect_all(config: dict) -> dict[str, list[dict]]:
                     continue
                 seen_fp.add(fp)
                 collected.append({**raw, "category_id": cat_id, "category_name": cat_name})
+
+            delay = REDDIT_DELAY_SEC if "reddit.com" in url else FEED_DELAY_SEC
+            time.sleep(delay)
 
         collected.sort(
             key=lambda x: x.get("published") or datetime.min.replace(tzinfo=timezone.utc),

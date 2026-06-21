@@ -1,845 +1,847 @@
 {
-  "generated_at": "2026-06-20T05:04:18.494101+00:00",
+  "generated_at": "2026-06-21T01:03:37.046039+00:00",
   "categories": {
     "ai": [
       {
-        "title": "Amazon Bedrock AgentCore Web Search: The Complete 2026 Builder's Guide to Live, Cited AI Agents",
-        "describe": "Originally published at twarx.com - read the full interactive version there. Last Updated: June 20, 2026 Every AI agent your team shipped in the last 18 months is silently becoming less accurate every single day — and the vector database pipeline you built to fix that problem is exactly what AWS just made redundant. Amazon Bedrock AgentCore web search is a fully managed, cited, real-time grounding tool that any LangGraph, AutoGen, CrewAI, or MCP-compatible agent can call without standing up Tavily, SerpAPI, or a self-hosted Elasticsearch cluster. It matters right now because AWS just declar...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flkfxvgxyhv7rozzmew98.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsmvbqcck3889jao18i3k.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8soh1erkiwy1zjdfqcl5.jpg"
-        ],
-        "origin_url": "https://dev.to/aarhamforensics_eb3c024eb/amazon-bedrock-agentcore-web-search-the-complete-2026-builders-guide-to-live-cited-ai-agents-2inp",
-        "published": "2026-06-20T05:00:31+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Amazon Bedrock AgentCore Web Search: The Complete 2026 Build（教程）。Originally published at twarx。com - read the full interactive version there"
-      },
-      {
-        "title": "Intra‑Model Routing Accelerates Speculative Decoding",
-        "describe": "Intra‑model routing trims token‑generation latency by roughly a third to almost a full 80 % compared with the strongest speculative‑decoding pipelines. The speedup comes from a thin routing layer that decides whether a draft token can be accepted outright, needs a lightweight “slim” verifier, or must fall back to the full model. Speculative decoding has long relied on a binary draft‑verify loop: a tiny draft model proposes tokens and a heavyweight verifier either accepts them or recomputes from scratch. This all‑or‑nothing approach forces the verifier to run on every low‑confidence token, i...",
+        "title": "Why I Stopped Self-Hosting AI Models (And You Probably Should Too)",
+        "describe": "I remember the day my credit card bill arrived. Three months of GPU rental, two failed attempts at running a 70B model on consumer hardware, and over $500 in compute costs later, I had a single working chatbot endpoint that responded slower than a dial-up modem. That was my wake-up call. Let me tell you why I gave up on self-hosting AI models — and why most developers reading this should seriously consider doing the same. The romanticism of running your own LLM There's something deeply appealing about self-hosting. It's the same feeling that makes you want to run your own mail server or com...",
         "media": [],
-        "origin_url": "https://dev.to/olaughter/intra-model-routing-accelerates-speculative-decoding-1k1a",
-        "published": "2026-06-20T05:00:00+00:00",
+        "origin_url": "https://dev.to/shadie_ai/why-i-stopped-self-hosting-ai-models-and-you-probably-should-too-pll",
+        "published": "2026-06-21T00:55:27+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Intra‑Model Routing Accelerates Speculative Decoding。Intra‑model routing trims token‑generation latency by roughly a third to almost a full 80 % compared with the strongest speculative‑decoding pipelines。The speedup comes from a t..."
+        "ai_summary": "【AI / 机器学习】Why I Stopped Self-Hosting AI Models (And You Probably Shoul。I remember the day my credit card bill arrived。Three months of GPU rental, two failed attempts at running a 70B model on consumer hardware, and over $500 in compute costs later,..."
       },
       {
-        "title": "LLM Self‑Digivolution: The Plug‑and‑Play Skill That Lets AI Evolve New Abilities in Real Time",
-        "describe": "What if your AI didn’t just respond to you… What if it grew ? What if it could forge new abilities , install them , swap them , and persist them — all while running? That’s exactly what the LivinGrimoire SkillForge does. This isn’t a plugin system. This isn’t a tool‑calling wrapper. This is LLM digivolution — a self‑extending AI organism that upgrades itself on demand. And yes, it runs in Python. 🔗 The Engine Behind It All All of this is powered by the LivinGrimoire software design pattern , a modular AI runtime that treats abilities as hot‑swappable “skills.” 👉 GitHub: https://github.com/y...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.servimg.com%2Fu%2Ff48%2F19%2F83%2F08%2F40%2Fnormal10.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2F2img.net%2Fi.ibb.co%2FFhnDQfQ%2Fmatrix.png"
-        ],
-        "origin_url": "https://dev.to/owly/llm-self-digivolution-the-plug-and-play-skill-that-lets-ai-evolve-new-abilities-in-real-time-493a",
-        "published": "2026-06-20T04:59:41+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】LLM Self‑Digivolution: The Plug‑and‑Play Skill That Lets AI （开源）。What if your AI didn’t just respond to you… What if it grew。What if it could forge new abilities , install them , swap them , and persist them — all while running"
-      },
-      {
-        "title": "How to comply with EU AI Act Article 50 for AI SaaS before August 2026",
-        "describe": "How to comply with EU AI Act Article 50 for AI SaaS before August 2026 A founder-engineer guide to provider and deployer transparency obligations, synthetic content labeling, and readiness for the EU AI Act’s 2026 enforcement window. TL;DR: Audit whether your AI SaaS interacts with humans or generates synthetic content to confirm Article 50 coverage. Build provider-side disclosures into APIs and UIs, enable deployer-facing labels for downstream compliance, and track the Commission’s draft guidelines ahead of the June 2026 feedback deadline to lock down your implementation before full enforc...",
+        "title": "Everything about AI in 2026",
+        "describe": "Everything about AI in 2026 Key resources in the AI synthesis technology neural space: Ai Neurostimulation San Jacinto Ca Ai Neurostimulation San Juan Capistrano Ca Ai Neurostimulation San Marcos Ca Ai Neurostimulation San Marcos Tx Ai Neurostimulation San Mateo Ca Ai Neurostimulation San Tan Valley Az Ai Neurostimulation Sandusky Oh Ai Neurostimulation Sandy Springs Ga Ai Neurostimulation Sandy Ut Ai Neurostimulation Sanford Fl Ai Neurostimulation Sanford Me Ai Neurostimulation Sanger Ca Curated June 2026 For more resources: nirasynth.ai",
         "media": [],
-        "origin_url": "https://dev.to/unfairhq/how-to-comply-with-eu-ai-act-article-50-for-ai-saas-before-august-2026-3p7i",
-        "published": "2026-06-20T04:58:13+00:00",
+        "origin_url": "https://dev.to/nirasynthcae26/everything-about-ai-in-2026-2k8h",
+        "published": "2026-06-21T00:53:44+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】How to comply with EU AI Act Article 50 for AI SaaS before A（教程）。How to comply with EU AI Act Article 50 for AI SaaS before August 2026 A founder-engineer guide to provider and deployer transparency obligations, synthetic content labeling, an..."
+        "ai_summary": "【AI / 机器学习】Everything about AI in 2026。Everything about AI in 2026 Key resources in the AI synthesis technology neural space: Ai Neurostimulation San Jacinto Ca Ai Neurostimulation San Juan Capistrano Ca Ai Neurostim..."
       },
       {
-        "title": "Midjourney Medical: How an AI Image Generator Is Trying to Reinvent Preventive Healthcare With 60-Second Full-Body Scans",
-        "describe": "For years, Midjourney was known as one of the world's most influential AI image generation platforms. Its technology helped shape the modern generative AI movement, transforming text prompts into highly detailed digital artwork. Now, the company is making a surprising move that could redefine its future entirely: healthcare. Through a new division called Midjourney Medical , the company has unveiled a full-body scanning system that aims to capture detailed anatomical images in approximately 60 seconds using ultrasound technology and AI-powered image reconstruction. The announcement represen...",
+        "title": "Ultimate AI resource guide 2026",
+        "describe": "Ultimate AI resource guide 2026 Key resources in the AI synthesis technology neural space: Ai Neurostimulation Salem Oh Ai Neurostimulation Salem Or Ai Neurostimulation Salina Ks Ai Neurostimulation Salinas Ca Ai Neurostimulation Salisbury Md Ai Neurostimulation Salisbury Nc Ai Neurostimulation Salt Lake City Ut Ai Neurostimulation Sammamish Wa Ai Neurostimulation San Angelo Tx Ai Neurostimulation San Antonio Tx Ai Neurostimulation San Bernardino Ca Ai Neurostimulation San Clemente Ca Curated June 2026 For more resources: nirasynth.ai",
         "media": [],
-        "origin_url": "https://dev.to/thepremisenews_team/midjourney-medical-how-an-ai-image-generator-is-trying-to-reinvent-preventive-healthcare-with-3d47",
-        "published": "2026-06-20T04:57:09+00:00",
+        "origin_url": "https://dev.to/nirasynthcae26/ultimate-ai-resource-guide-2026-5g4h",
+        "published": "2026-06-21T00:53:02+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Midjourney Medical: How an AI Image Generator Is Trying to R。For years, Midjourney was known as one of the world's most influential AI image generation platforms。Its technology helped shape the modern generative AI movement, transforming ..."
+        "ai_summary": "【AI / 机器学习】Ultimate AI resource guide 2026（教程）。Ultimate AI resource guide 2026 Key resources in the AI synthesis technology neural space: Ai Neurostimulation Salem Oh Ai Neurostimulation Salem Or Ai Neurostimulation Salina K..."
       },
       {
-        "title": "AI Technology's Real Bottleneck: Closing the AI Coordination Gap with AgentCore Web Search",
-        "describe": "Originally published at twarx.com - read the full interactive version there. Last Updated: June 20, 2026 Most AI workflows are solving the wrong problem entirely. They obsess over model quality while their agents hallucinate confidently about a world that changed five minutes ago. The hard truth about modern AI technology is that the bottleneck was never the model — it's coordination between reasoning and reality. AWS just shipped Web Search on Amazon Bedrock AgentCore — a managed, fully governed real-time retrieval primitive that plugs directly into agent runtimes via MCP. It matters now b...",
+        "title": "How I built a full-stack digital marketplace SaaS with React + Supabase (source code available)",
+        "describe": "The problem I was solving Every time I wanted to build a digital marketplace, I spent weeks on the same things: auth, database schema, file storage, role management, content moderation — before writing a single line of actual product logic. So I built Droblow from scratch and packaged the full source code. Three roles, fully built Buyer — browses catalog, purchases, gets instant delivery link, leaves reviews, opens disputes. Seller — runs a branded storefront with custom URL, lists products, manages a wallet with commission and payout logic. Admin — approves every product before it goes liv...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5s830hvzq8v8kh3z2eg9.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo53qq7qoyl02gdi9dzqo.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxmow6ajighpk91lan28u.jpg"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1rrn1lm1zeeluqn2o5d0.png"
         ],
-        "origin_url": "https://dev.to/aarhamforensics_eb3c024eb/ai-technologys-real-bottleneck-closing-the-ai-coordination-gap-with-agentcore-web-search-3ifk",
-        "published": "2026-06-20T04:57:02+00:00",
+        "origin_url": "https://dev.to/marys_tigrine_3a831980952/how-i-built-a-full-stack-digital-marketplace-saas-with-react-supabase-source-code-available-4bi",
+        "published": "2026-06-21T00:49:30+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】AI Technology's Real Bottleneck: Closing the AI Coordination。Originally published at twarx。com - read the full interactive version there"
+        "ai_summary": "【AI / 机器学习】How I built a full-stack digital marketplace SaaS with React。The problem I was solving Every time I wanted to build a digital marketplace, I spent weeks on the same things: auth, database schema, file storage, role management, content mod..."
       },
       {
-        "title": "Advanced Intermittent Fasting and Nutrition Tracker That Burns Fat While You Sleep",
-        "describe": "Take control of your health with an advanced intermittent fasting and nutrition tracking app designed to help you build better eating habits, monitor your fasting windows, and support your weight-loss goals. https://onepdfguide.com/intermittent-fasting-and-nutrition-tracker/",
+        "title": "Lovable vs Bolt vs v0 vs Cursor: real picks after 17 shipped products at Inithouse",
+        "describe": "Most comparison articles about AI app builders come from people who tried each tool once. We ship products with them daily. At Inithouse , we run a portfolio of 17 live products built almost entirely with AI code generation tools. Card games, AI audit platforms, music generators, conflict resolvers, voice-first workspaces. Each had different requirements, and we ended up reaching for different tools depending on the job. Here is what we actually use and when. Lovable: the full-stack default About 15 of our 17 products run on Lovable. It handles the full stack: React frontend, Supabase backe...",
         "media": [],
-        "origin_url": "https://dev.to/junaid_khan_941ca6f9b86c3/advanced-intermittent-fasting-and-nutrition-tracker-that-burns-fat-while-you-sleep-5c84",
-        "published": "2026-06-20T04:56:36+00:00",
+        "origin_url": "https://dev.to/jakub_inithouse/lovable-vs-bolt-vs-v0-vs-cursor-real-picks-after-17-shipped-products-at-inithouse-3k4k",
+        "published": "2026-06-21T00:47:51+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Advanced Intermittent Fasting and Nutrition Tracker That Bur（教程）。Take control of your health with an advanced intermittent fasting and nutrition tracking app designed to help you build better eating habits, monitor your fasting windows, and s..."
+        "ai_summary": "【AI / 机器学习】Lovable vs Bolt vs v0 vs Cursor: real picks after 17 shipped。Most comparison articles about AI app builders come from people who tried each tool once。We ship products with them daily"
       },
       {
-        "title": "AI Technology Guide: How to Build Real-Time Agents With AgentCore Web Search (2026)",
-        "describe": "Originally published at twarx.com - read the full interactive version there. Last Updated: June 20, 2026 Most AI technology workflows are solving the wrong problem entirely. They obsess over model quality when their real failure is that the model is reasoning against a world that stopped existing eighteen months ago. The most important AI technology shift of 2026 isn't a smarter model — it's giving agents a reliable way to see the present. AWS just shipped Web Search on Amazon Bedrock AgentCore — a managed tool that lets agents pull live web data inside the AgentCore runtime, alongside Memo...",
+        "title": "Google Home Speaker Gemini 2025: Price, Specs & Buyer's Guide",
+        "describe": "Originally published at twarx.com - read the full interactive version there. Last Updated: June 21, 2026 The Google Home Speaker Gemini 2025 ended a six-year smart speaker drought not because the hardware was ready, but because Gemini finally is — and the $99 device is less a speaker launch and more the opening shot in a subscription AI war that Amazon, Apple, and Sonos are not prepared for. If you think this is just another smart home device announcement, you're missing the most important AI pivot in consumer tech since Siri debuted in 2011. The Google Home Speaker is the first audio devic...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2nchox0gaof3nditu67z.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkubopqkbfsitoo9odi8d.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4clveik023salmbud19j.jpg"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi69jmnss6fdg49nn6ecl.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcayvflq0ayl89ft1gl4c.jpg",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8r8ocqin0um82btwm27z.jpg"
         ],
-        "origin_url": "https://dev.to/aarhamforensics_eb3c024eb/ai-technology-guide-how-to-build-real-time-agents-with-agentcore-web-search-2026-26o1",
-        "published": "2026-06-20T04:55:26+00:00",
+        "origin_url": "https://dev.to/aarhamforensics_eb3c024eb/google-home-speaker-gemini-2025-price-specs-buyers-guide-1cp",
+        "published": "2026-06-21T00:47:43+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】AI Technology Guide: How to Build Real-Time Agents With Agen（教程）。Originally published at twarx。com - read the full interactive version there"
+        "ai_summary": "【AI / 机器学习】Google Home Speaker Gemini 2025: Price, Specs & Buyer's Guid（教程）。Originally published at twarx。com - read the full interactive version there"
       },
       {
-        "title": "Amazon Bedrock AgentCore Web Search: The End of Stale-Data AI Agents",
-        "describe": "Originally published at twarx.com - read the full interactive version there. Last Updated: June 20, 2026 Your AI agent isn't getting dumber — your data is getting older, and there's a measurable, compounding cost to every hour it runs without live web grounding. Amazon Bedrock AgentCore web search doesn't just add a new tool to your stack; it exposes the single architectural flaw that's been silently killing production AI agents since 2022. AWS just shipped Web Search on Amazon Bedrock AgentCore — a fully managed grounding service that lets Bedrock agents pull real-time, cited web knowledge...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhflr0lspr3ne7262vofg.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwgxodzdgw1txqxo4fcj6.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdgpd1x4gvh7w8v9u5jax.jpg"
-        ],
-        "origin_url": "https://dev.to/aarhamforensics_eb3c024eb/amazon-bedrock-agentcore-web-search-the-end-of-stale-data-ai-agents-5amm",
-        "published": "2026-06-20T04:49:23+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Amazon Bedrock AgentCore Web Search: The End of Stale-Data A。Originally published at twarx。com - read the full interactive version there"
-      },
-      {
-        "title": "Corinna Kopf OnlyFans Mega Leak Pack Dark Web Download",
-        "describe": "\"Discussion and news-related content about alleged leaked material associated with Corinna Kopf’s OnlyFans account. link ; https://vvipleaks.com/corinna-kopf-onlyfans-mega-leak-pack-dark-web-download/",
+        "title": "Top AI tools and tips",
+        "describe": "Top AI tools and tips Key resources in the AI synthesis technology neural space: Ai Neurostimulation Ruskin Fl Ai Neurostimulation Russellville Ar Ai Neurostimulation Russellville Ky Ai Neurostimulation Ruston La Ai Neurostimulation Rutherfordton Nc Ai Neurostimulation Rutland Vt Ai Neurostimulation Safety Harbor Fl Ai Neurostimulation Safford Az Ai Neurostimulation Saginaw Mi Ai Neurostimulation Sahuarita Az Ai Neurostimulation Saint Paul Mn Ai Neurostimulation Salem Nh Curated June 2026 For more resources: nirasynth.ai",
         "media": [],
-        "origin_url": "https://dev.to/alfie_windsor_64260036962/corinna-kopf-onlyfans-mega-leak-pack-dark-web-download-3620",
-        "published": "2026-06-20T04:47:21+00:00",
+        "origin_url": "https://dev.to/nirasynthcae26/top-ai-tools-and-tips-18a3",
+        "published": "2026-06-21T00:46:15+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Corinna Kopf OnlyFans Mega Leak Pack Dark Web Download。\"Discussion and news-related content about alleged leaked material associated with Corinna Kopf’s OnlyFans account。link ; https://vvipleaks"
+        "ai_summary": "【AI / 机器学习】Top AI tools and tips。Top AI tools and tips Key resources in the AI synthesis technology neural space: Ai Neurostimulation Ruskin Fl Ai Neurostimulation Russellville Ar Ai Neurostimulation Russellvil..."
       },
       {
-        "title": "AI Technology for Real-Time Agents: The Coordination Gap on Bedrock AgentCore",
-        "describe": "Originally published at twarx.com - read the full interactive version there. Last Updated: June 20, 2026 Most AI technology workflows are solving the wrong problem entirely. They obsess over which model to use while ignoring the thing that actually breaks in production: coordination between the model, its tools, and the live world it's supposed to reason about. AWS's newest agent infrastructure makes that mistake impossible to ignore. The new Web Search capability on Amazon Bedrock AgentCore gives agents a managed, low-latency path to real-time information. Last quarter I watched a support ...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp93qcchawcobiky2q8hd.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvt4e31q26ihqnk4hj8n4.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyu2wqpygdkj85qhg4zk6.jpg"
-        ],
-        "origin_url": "https://dev.to/aarhamforensics_eb3c024eb/ai-technology-for-real-time-agents-the-coordination-gap-on-bedrock-agentcore-471j",
-        "published": "2026-06-20T04:46:17+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】AI Technology for Real-Time Agents: The Coordination Gap on 。Originally published at twarx。com - read the full interactive version there"
-      },
-      {
-        "title": "Why Automated Publishing Still Needs a Human-Readable Recovery Trail: Practical Notes for Builders",
-        "describe": "Why Automated Publishing Still Needs a Human-Readable Recovery Trail: Practical Notes for Builders Most content systems do not break at the draft step. They break one layer later, when a team still has to prove that the right version reached the right surface without losing the original job of the article. That is the builder angle here. The interesting part is not draft speed on its own. It is what the workflow still has to guarantee after the draft exists. The builder view If you are designing publishing or content tooling, this shows up as a product issue long before it shows up as a wri...",
+        "title": "The AI cheat sheet",
+        "describe": "The AI cheat sheet Key resources in the AI synthesis technology neural space: Ai Neurostimulation Romulus Mi Ai Neurostimulation Roseburg Or Ai Neurostimulation Roselle Nj Ai Neurostimulation Rosenberg Tx Ai Neurostimulation Roseville Ca Ai Neurostimulation Roswell Ga Ai Neurostimulation Roswell Nm Ai Neurostimulation Round Rock Tx Ai Neurostimulation Rowlett Tx Ai Neurostimulation Royal Oak Mi Ai Neurostimulation Ruidoso Nm Ai Neurostimulation Rupert Id Curated June 2026 For more resources: nirasynth.ai",
         "media": [],
-        "origin_url": "https://dev.to/estatepass/why-automated-publishing-still-needs-a-human-readable-recovery-trail-practical-notes-for-builders-46dm",
-        "published": "2026-06-20T04:45:12+00:00",
+        "origin_url": "https://dev.to/nirasynthcae26/the-ai-cheat-sheet-3kn3",
+        "published": "2026-06-21T00:41:42+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Why Automated Publishing Still Needs a Human-Readable Recove。Why Automated Publishing Still Needs a Human-Readable Recovery Trail: Practical Notes for Builders Most content systems do not break at the draft step。They break one layer later..."
+        "ai_summary": "【AI / 机器学习】The AI cheat sheet。The AI cheat sheet Key resources in the AI synthesis technology neural space: Ai Neurostimulation Romulus Mi Ai Neurostimulation Roseburg Or Ai Neurostimulation Roselle Nj Ai Ne..."
+      },
+      {
+        "title": "5 errores que cometen los profesores al usar ChatGPT",
+        "describe": "5 errores que cometen los profesores al usar ChatGPT ¡Buenos días, colegas! Me alegra estar aquí hoy para hablar sobre algo que me preocupa un poco. Como saben, la IA está revolucionando la forma en que enseñamos y aprendemos. Pero, como con cualquier herramienta nueva, hay errores que cometen los profesores al usar ChatGPT. Error 1: Confundir la IA con el maestro Algunos de ustedes pueden pensar que ChatGPT es un maestro que puede responder a todas nuestras preguntas y resolver todos nuestros problemas. Pero no es así. La IA es una herramienta que puede ayudarnos a enseñar, pero no reempla...",
+        "media": [],
+        "origin_url": "https://dev.to/dgmh10uk/5-errores-que-cometen-los-profesores-al-usar-chatgpt-1a0b",
+        "published": "2026-06-21T00:40:50+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】5 errores que cometen los profesores al usar ChatGPT。5 errores que cometen los profesores al usar ChatGPT ¡Buenos días, colegas。Me alegra estar aquí hoy para hablar sobre algo que me preocupa un poco"
+      },
+      {
+        "title": "AI Automation for Ai Assisted E Book Formatting For Self Publishers: Quick Guide (2026-06-21)",
+        "describe": "AI Automation for Ai Assisted E Book Formatting For Self Publishers: Quick Guide (2026-06-21) If you're a professionals, you know that manual tasks eat up your time. AI can help. Key Points Identify repetitive tasks you can automate Start with free tools before investing in paid solutions Build a workflow that you can measure and optimize Use prompts and templates to standardize outputs Implementation Pick one area this week and test an AI tool. Track your time savings. Learn More My complete guide AI-Assisted E-book Formatting for Self-Publishers covers all of this in depth, with exact pro...",
+        "media": [],
+        "origin_url": "https://dev.to/ken_deng_ai/ai-automation-for-ai-assisted-e-book-formatting-for-self-publishers-quick-guide-2026-06-21-on2",
+        "published": "2026-06-21T00:40:24+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】AI Automation for Ai Assisted E Book Formatting For Self Pub（教程/性能）。AI Automation for Ai Assisted E Book Formatting For Self Publishers: Quick Guide (2026-06-21) If you're a professionals, you know that manual tasks eat up your time。Key Points I..."
+      },
+      {
+        "title": "How Do I Set Up an Automated Follow-Up Sequence That Nurtures Leads Until They're Ready to Buy?",
+        "describe": "To set up an automated follow-up sequence that nurtures leads until they buy, map your buyer's journey, segment leads by behavior, then build a multi-channel cadence of timed emails and texts triggered by their actions. Use a CRM or automation platform to deliver the right message at the right moment, automatically. Most of your leads aren't \"no.\" They're \"not yet.\" And right now, most businesses are letting \"not yet\" rot in an inbox. Why do most leads go cold before they ever buy? Here's the uncomfortable math. According to Forrester Research, companies that excel at lead nurturing generat...",
+        "media": [],
+        "origin_url": "https://dev.to/robozillaai/how-do-i-set-up-an-automated-follow-up-sequence-that-nurtures-leads-until-theyre-ready-to-buy-2c3j",
+        "published": "2026-06-21T00:40:04+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】How Do I Set Up an Automated Follow-Up Sequence That Nurture。To set up an automated follow-up sequence that nurtures leads until they buy, map your buyer's journey, segment leads by behavior, then build a multi-channel cadence of timed em..."
+      },
+      {
+        "title": "How to Build a Solo SaaS Support Workflow Using AI Triage, Draft Replies, and Escalation Guardrails",
+        "describe": "How to Build a Solo SaaS Support Workflow Using AI Triage, Draft Replies, and Escalation Guardrails",
+        "media": [],
+        "origin_url": "https://dev.to/unfairhq/how-to-build-a-solo-saas-support-workflow-using-ai-triage-draft-replies-and-escalation-guardrails-3ido",
+        "published": "2026-06-21T00:38:13+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】How to Build a Solo SaaS Support Workflow Using AI Triage, D（教程）。How to Build a Solo SaaS Support Workflow Using AI Triage, Draft Replies, and Escalation Guardrails"
       }
     ],
     "ios": [
       {
-        "title": "We built an app that counts your leg fidgets — the NEAT science and the CoreMotion implementation",
-        "describe": "Most people have never thought to count how often their leg bounces during a day. We hadn't either — until we built BinBot to measure it. The scientific premise Levine's research on Non-Exercise Activity Thermogenesis (NEAT) found that incidental motion like fidgeting can account for up to 350 kcal/day difference between people. Not formal exercise — the constant background micro-movement of someone who simply can't sit still. That number is the reason BinBot exists. What happens under the hood The core is CoreMotion sampled at 100Hz, passed through a 3-9Hz IIR bandpass filter. Walking cade...",
+        "title": "Still using Xcode? Or do you code on the go?",
+        "describe": "Somewhere around last year I realized that the share of code I was writing by hand shrank to minimum. I started using Github Copilot and then Claude Code in full-agent mode and Xcode became the necessary evil to get the apps to my phone for testing. But on the go I had just my phone. That led me to creating my own deployment server that picks up significant changes in the codebase, builds the apps and pushes them to my phone over the air, without opening Xcode or attaching the cable. When I am on the same wifi, the system can even auto-install and auto-open the apps, same as when you do thi...",
         "media": [],
-        "origin_url": "https://dev.to/niixolabs/we-built-an-app-that-counts-your-leg-fidgets-the-neat-science-and-the-coremotion-implementation-46hd",
-        "published": "2026-06-19T23:04:46+00:00",
+        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1ubchju/still_using_xcode_or_do_you_code_on_the_go/",
+        "published": "2026-06-21T00:54:43+00:00",
+        "source_label": "Reddit r/iOSProgramming",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Still using Xcode? Or do you code on the go?（开源）。Somewhere around last year I realized that the share of code I was writing by hand shrank to minimum。I started using Github Copilot and then Claude Code in full-agent mode and X..."
+      },
+      {
+        "title": "TestFlight's live for my multi-LLM app — and the funnel immediately taught me my onboarding was killing activation",
+        "describe": "posted here a couple weeks back about the orchestration challenge of running five LLMs in locked roles on one decision. quick update: it's on TestFlight now, and the first real funnel data humbled me fast. I'd built what felt like a proper onboarding — tutorial, name step, a short quiz, value props, paywall, then a Sign in with Apple gate before you reach the actual product. telemetry showed people moving through most of it and then dropping hard at the sign-in wall. barely anyone was reaching the core feature. the realization: I gated the \"aha\" behind a commitment instead of in front of it...",
+        "media": [],
+        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1ubbhie/testflights_live_for_my_multillm_app_and_the/",
+        "published": "2026-06-21T00:06:06+00:00",
+        "source_label": "Reddit r/iOSProgramming",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】TestFlight's live for my multi-LLM app — and the funnel imme（教程）。posted here a couple weeks back about the orchestration challenge of running five LLMs in locked roles on one decision。quick update: it's on TestFlight now, and the first real f..."
+      },
+      {
+        "title": "We shipped a weather app that learns your personal cold threshold — no ML, just percentiles",
+        "describe": "There's a gap between knowing the temperature and knowing whether to grab a coat. 14°C means very different things depending on whether you run cold, dress light year-round, or fall sick every season change. Generic forecast apps don't capture that. Samukunai — 'are you cold?' in Japanese — is Niixo's attempt to close that gap without reaching for a machine learning model. How it works After stepping outside, you tap one of three options: 'felt cold,' 'felt fine,' or 'felt warm.' After 10 of those taps, an on-device statistics module we call ComfortEngine computes your personal 75th and 25t...",
+        "media": [],
+        "origin_url": "https://dev.to/niixolabs/we-shipped-a-weather-app-that-learns-your-personal-cold-threshold-no-ml-just-percentiles-11cb",
+        "published": "2026-06-20T23:04:31+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】We built an app that counts your leg fidgets — the NEAT scie。Most people have never thought to count how often their leg bounces during a day。We hadn't either — until we built BinBot to measure it"
+        "ai_summary": "【iOS / Swift】We shipped a weather app that learns your personal cold thre。There's a gap between knowing the temperature and knowing whether to grab a coat。14°C means very different things depending on whether you run cold, dress light year-round, or f..."
       },
       {
-        "title": "Countdown Apps with AI Backgrounds — Do They Actually Work?",
-        "describe": "Here is the thing about countdown apps: they all look the same. You get a number, maybe a label, and a background that is either a solid color or a stock photo of confetti. It works, sure, but when you have six countdowns on your home screen — vacation, a friend's birthday, concert tickets, a wedding — they all blur together into one generic widget blob. So when I heard that some countdown apps were starting to generate custom AI backgrounds based on your event name, I wanted to see if it actually made a difference or if it was just another AI feature bolted on for marketing points. The Pro...",
-        "media": [],
-        "origin_url": "https://dev.to/hirak8/countdown-apps-with-ai-backgrounds-do-they-actually-work-59gc",
-        "published": "2026-06-19T14:30:07+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Countdown Apps with AI Backgrounds — Do They Actually Work?。Here is the thing about countdown apps: they all look the same。You get a number, maybe a label, and a background that is either a solid color or a stock photo of confetti"
-      },
-      {
-        "title": "Native Java Win32, 3D Gaming, Printing and Wallet",
-        "describe": "This week we're introducing native Windows support (no JVM!), a 3D graphics API, a gaming API, support for Apple Wallet, printing and more in what is probably our biggest update ever… But that's not the thing that excites me the most. What is Codename One? Codename One is an open-source framework for building native iOS, Android, desktop, and web apps from a single Java or Kotlin codebase. Learn more at codenameone.com . The thing that excites me the most I won't tease you about this too much. The thing that excited me the most this week is this new article by Francesco Galgani introducing ...",
+        "title": "Built a lightweight macOS menu bar utility in SwiftUI for monitoring disk space and external drives",
+        "describe": "https://i.redd.it/3t6wvojroi8h1.gif Hi everyone! I’ve been learning macOS development with SwiftUI, and I recently finished a small side project called YourDisk . The goal was to build something that feels like a native macOS utility instead of a feature-heavy application. Features 💾 Real-time disk space monitoring from the menu bar 📊 Detailed storage information 🔌 Automatic detection of connected external drives 📂 Open external drives directly in Finder ⏏️ Safely eject external drives ⚡ Lightweight SwiftUI + AppKit menu bar app This is also my first publicly released macOS utility, so I’d ...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4gag5s6kc0idzhwj7utl.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwbbemd3fwr42xw6d7zsx.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1p4okuusfx2y7q0fl4y6.gif",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flfkgggu0xljjigbvbdyl.png"
+          "https://preview.redd.it/3t6wvojroi8h1.gif?frame=1&width=140&height=90&auto=webp&s=c82e3ea0dd0e05e267225e5b2e0fddbaaeff4d13"
         ],
-        "origin_url": "https://dev.to/codenameone/native-java-win32-3d-gaming-printing-and-wallet-3chd",
-        "published": "2026-06-19T14:02:25+00:00",
-        "source_label": "DEV Community (iOS)",
+        "origin_url": "https://www.reddit.com/r/swift/comments/1ub9tj5/built_a_lightweight_macos_menu_bar_utility_in/",
+        "published": "2026-06-20T22:48:01+00:00",
+        "source_label": "Reddit r/swift",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Native Java Win32, 3D Gaming, Printing and Wallet。This week we're introducing native Windows support (no JVM。), a 3D graphics API, a gaming API, support for Apple Wallet, printing and more in what is probably our biggest update..."
+        "ai_summary": "【iOS / Swift】Built a lightweight macOS menu bar utility in SwiftUI for mo（开源）。it/3t6wvojroi8h1。gif Hi everyone"
       },
       {
-        "title": "Building a SwiftUI soroban app for short daily mental math practice",
-        "describe": "We just launched Soroban: Mental Math Abacus , an iPhone and iPad app for Japanese abacus arithmetic and mental math practice. This is a quick build note from the app team, because the interesting part was not just putting an abacus on a screen. The harder design question was how to make a traditional practice routine feel usable in short mobile sessions without turning it into a noisy math game. The product shape The app focuses on repeatable practice: guided lessons for bead movement and place value an interactive virtual abacus for free practice Flash Anzan for fast visual number recogni...",
-        "media": [],
-        "origin_url": "https://dev.to/soroban_app_team/building-a-swiftui-soroban-app-for-short-daily-mental-math-practice-410",
-        "published": "2026-06-19T12:28:34+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Building a SwiftUI soroban app for short daily mental math p（教程）。We just launched Soroban: Mental Math Abacus , an iPhone and iPad app for Japanese abacus arithmetic and mental math practice。This is a quick build note from the app team, becau..."
-      },
-      {
-        "title": "Swift Functions — Default Parameters",
-        "describe": "In the last article, we touched on default parameters with the findDirections example. This time, let's slow down and really dig into why they exist, when to reach for them, and a few places they show up that you might not expect. 🍥 The Problem Default Parameters Solve Imagine you're writing a function for an anime training montage generator 🥋: func startTraining ( student : String , intensity : String , withMusic : Bool ) { print ( \" \\( student ) begins training at \\( intensity ) intensity!\" ) if withMusic { print ( \"🎵 Dramatic music plays 🎵\" ) } } startTraining ( student : \"Naruto\" , inte...",
-        "media": [],
-        "origin_url": "https://dev.to/gamya_m/swift-functions-default-parameters-534j",
-        "published": "2026-06-19T08:44:00+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Swift Functions — Default Parameters。In the last article, we touched on default parameters with the findDirections example。This time, let's slow down and really dig into why they exist, when to reach for them, and ..."
-      },
-      {
-        "title": "I Used Both iPhone vs Android for a Year — Do I Regret It?",
-        "describe": "Twelve months ago, I made a decision that most people thought was unnecessary: I carried two phones, an iPhone in one pocket and an Android in the other, for an entire year. Not as a tech reviewer with a free upgrade budget, but as someone genuinely stuck deciding which ecosystem deserved my money, my apps, and my daily attention, I figured the only honest way to answer that question was to live it, glitches and all. Why I Even Did This to Myself Let's be real, switching phones is annoying. Re-downloading apps, re-learning gestures, losing that one photo backup you swore you saved. So why p...",
-        "media": [],
-        "origin_url": "https://dev.to/harshraval/i-used-both-iphone-vs-android-for-a-year-do-i-regret-it-25e6",
-        "published": "2026-06-19T06:53:02+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】I Used Both iPhone vs Android for a Year — Do I Regret It?。Twelve months ago, I made a decision that most people thought was unnecessary: I carried two phones, an iPhone in one pocket and an Android in the other, for an entire year。Not ..."
-      },
-      {
-        "title": "How to Fetch Apple Calendar Events and Reminders in Flutter (macOS)",
-        "describe": "Building a macOS app with Flutter and need access to Apple Calendar events and Reminders? Flutter cannot directly access EventKit (Apple's framework for calendars and reminders), so we bridge using native Swift and MethodChannels. In this guide, we'll build a complete pipeline that even a beginner can follow. 1. Understanding the Architecture Flutter side (Dart): Sends a method name and optional arguments to Swift. Example: \"fetchCalendarEvents\" with a list of calendar IDs. Swift side: Checks which method Flutter called (call.method). Does the EventKit work (fetch events or reminders). Send...",
+        "title": "I built TabLinker, a tab/session manager for Mac, iPhone, and iPad, built in SwiftUI + SwiftData + Cloutkit",
+        "describe": "I’ve been working on TabLinker, a native tab and browser session manager for Apple platforms. The problem came from my own workflow. When I’m researching something on my Mac, I often leave a lot of tabs open because I don’t want to lose the context. After a while, the browser gets messy, memory usage goes up, and it becomes harder to focus. TabLinker lets you save open tabs as sessions, close them, and come back to the same context later. On Mac, the app supports importing tabs from Safari, Chrome, Brave, Edge, Arc, Vivaldi, Dia, Opera, Opera GX, and Helium. It can save tabs from multiple b...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff5ofedrd4grkm0gkivn7.png"
+          "https://preview.redd.it/0s775pyvbi8h1.png?width=640&crop=smart&auto=webp&s=de570f82e4c8e108d067d4b00a1413e63dc09ea8"
         ],
-        "origin_url": "https://dev.to/codexlancers/how-to-fetch-apple-calendar-events-and-reminders-in-flutter-macos-3e72",
-        "published": "2026-06-19T04:00:00+00:00",
+        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1ub8c9l/i_built_tablinker_a_tabsession_manager_for_mac/",
+        "published": "2026-06-20T21:41:04+00:00",
+        "source_label": "Reddit r/iOSProgramming",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】I built TabLinker, a tab/session manager for Mac, iPhone, an。I’ve been working on TabLinker, a native tab and browser session manager for Apple platforms。The problem came from my own workflow"
+      },
+      {
+        "title": "How do you market your apps?",
+        "describe": "I am new to this developing in iOS and I can't find a way to do it. submitted by /u/saul_fossil [link] [comments]",
+        "media": [],
+        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1ub86xn/how_do_you_market_your_apps/",
+        "published": "2026-06-20T21:34:37+00:00",
+        "source_label": "Reddit r/iOSProgramming",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】How do you market your apps?。I am new to this developing in iOS and I can't find a way to do it。submitted by /u/saul_fossil [link] [comments]"
+      },
+      {
+        "title": "Affiliate attribution",
+        "describe": "Has anyone had experience with affiliate attribution platforms like branch and appsflyer? Or tips in general to identify that a user came from some affiliate link. From what I have seen, it is impossible to bring over any information if there is an install involved, all deferred deep linking is probabilistic. I believe these services fingerprint users based off basic info and I am just not sure how accurate it is. Any experiences? submitted by /u/zorkidreams [link] [comments]",
+        "media": [],
+        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1ub2ion/affiliate_attribution/",
+        "published": "2026-06-20T17:37:21+00:00",
+        "source_label": "Reddit r/iOSProgramming",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Affiliate attribution。Has anyone had experience with affiliate attribution platforms like branch and appsflyer。Or tips in general to identify that a user came from some affiliate link"
+      },
+      {
+        "title": "Show HN: Ember, a native iOS Hacker News reader I built around accessibility",
+        "describe": "I read HN on my phone every day and never really settled on a reader, so I wrote my own and finally tidied it up enough to put out there. It's plain SwiftUI with no third-party dependencies. A few things I spent the most time on: Comments are parsed and drawn as native text instead of being dumped into a web view. Links, italics, quotes and code blocks behave like the rest of the OS, text selection works, and threads collapse instantly. The whole comment tree comes back from the Algolia API in a single request, which felt a lot nicer than walking the Firebase API node by node. Accessibility...",
+        "media": [],
+        "origin_url": "https://github.com/DatanoiseTV/ember-hackernews",
+        "published": "2026-06-20T17:00:38+00:00",
+        "source_label": "Hacker News (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Show HN: Ember, a native iOS Hacker News reader I built arou。I read HN on my phone every day and never really settled on a reader, so I wrote my own and finally tidied it up enough to put out there。It's plain SwiftUI with no third-party d..."
+      },
+      {
+        "title": "PillRem 2.0 — Medication reminder app with offline barcode/DataMatrix scanning for multiple countries",
+        "describe": "1- Tech Stack Used: - Frameworks & Languages: SwiftUI, CoreData, Swift - Backend/Database: CloudKit + local SQLite database (multi-country medication data) - SDKs & Tools: StoreKit 2, Vision framework 2 - Development Challenge + How You Solved It: The local medication database got big fast — multi-country pharmaceutical data adds up, and at one point local storage ballooned way past what a reminder app should reasonably need, mostly from a notification rescheduling loop that kept writing back to CoreData and re-triggering itself every time it ran. Capping the notification budget and making ...",
+        "media": [
+          "https://preview.redd.it/txb3zj0jmg8h1.gif?frame=1&width=140&height=140&crop=1:1,smart&auto=webp&s=f17d83884b62964a7be2f69e535ceedd828b6f7b"
+        ],
+        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1ub041u/pillrem_20_medication_reminder_app_with_offline/",
+        "published": "2026-06-20T15:58:02+00:00",
+        "source_label": "Reddit r/iOSProgramming",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】PillRem 2.0 — Medication reminder app with offline barcode/D。1- Tech Stack Used: - Frameworks & Languages: SwiftUI, CoreData, Swift - Backend/Database: CloudKit + local SQLite database (multi-country medication data) - SDKs & Tools: Store..."
+      },
+      {
+        "title": "SwiftUI, SwiftData, and MapKit feel like a cheat code for a one-person hobby app",
+        "describe": "Apple’s modern native stack can probably get painful fast when some external requirement asks for one tiny custom behavior across 17 edge cases. But for a one-person hobby app with an intentionally focused scope, it’s perfect. In my case, I wanted a simple app for tracking visited places and future trips. Most apps like this felt overloaded to me: social feeds, AI itineraries, subscriptions, dashboards, “percent of world visited” trackers, and a lot of UI that didn’t really feel made for iOS. I basically wanted a digital, Apple-native version of putting pins into a physical world map. I kep...",
+        "media": [
+          "https://preview.redd.it/uoz4lkavjg8h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=fd21420c790c810426f398204d2cc92c1ac5ce20"
+        ],
+        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1uazpiv/swiftui_swiftdata_and_mapkit_feel_like_a_cheat/",
+        "published": "2026-06-20T15:40:57+00:00",
+        "source_label": "Reddit r/iOSProgramming",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】SwiftUI, SwiftData, and MapKit feel like a cheat code for a 。Apple’s modern native stack can probably get painful fast when some external requirement asks for one tiny custom behavior across 17 edge cases。But for a one-person hobby app wi..."
+      },
+      {
+        "title": "[App Saturday] Newsairy — an iCloud-native RSS reader for iPhone, iPad & Mac, built in SwiftUI + SwiftData",
+        "describe": "Hi all — I'm the solo dev behind Newsairy , an RSS/Atom/JSON feed reader for iOS, iPadOS, and macOS. It syncs your feeds through your own iCloud account (no account of mine in the middle), with optional sync to self-hosted aggregators for people who run their own backend. 1. Tech Stack 100% Swift. SwiftUI for the entire UI across all three platforms, SwiftData for persistence, CloudKit for iCloud sync, and Swift Concurrency (async/await, actors) throughout the networking and parsing layers. External aggregator sync (TheOldReader, Miniflux, FreshRSS, Feedbin, with Inoreader in beta) is hand-...",
+        "media": [
+          "https://preview.redd.it/uynexd89jg8h1.png?width=640&crop=smart&auto=webp&s=4506f84dd6c89d996cbf84dc9384c6bd4bbd40b8"
+        ],
+        "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1uazmur/app_saturday_newsairy_an_icloudnative_rss_reader/",
+        "published": "2026-06-20T15:37:54+00:00",
+        "source_label": "Reddit r/iOSProgramming",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】[App Saturday] Newsairy — an iCloud-native RSS reader for iP。Hi all — I'm the solo dev behind Newsairy , an RSS/Atom/JSON feed reader for iOS, iPadOS, and macOS。It syncs your feeds through your own iCloud account (no account of mine in th..."
+      },
+      {
+        "title": "AI food logging needs a confidence handoff, not a magic result",
+        "describe": "The clean demo for an AI food logger is simple: take a photo get a perfect meal log move on That is not the product I trust in real life. Real meals are messy. A bowl has hidden ingredients. A package has a barcode but the serving size still needs checking. A homemade plate might be easier to describe with text than photograph. The useful UX is not pretending the first answer is magic. It is handing the user a good draft and making the next action obvious. That is the product lesson I keep coming back to while building MetricSync, an iPhone AI food logging app. The result should explain how...",
+        "media": [],
+        "origin_url": "https://dev.to/johns23424234324234/ai-food-logging-needs-a-confidence-handoff-not-a-magic-result-2m8e",
+        "published": "2026-06-20T15:23:55+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】How to Fetch Apple Calendar Events and Reminders in Flutter （教程/架构）。Building a macOS app with Flutter and need access to Apple Calendar events and Reminders。Flutter cannot directly access EventKit (Apple's framework for calendars and reminders),..."
-      },
-      {
-        "title": "We Shipped a Full Blog Studio on Mobile. Here's What the On-the-Go Workflow Looks Like.",
-        "describe": "When the team at twRty Software Services launched Blogboat on the web, we kept hearing the same question: \"When is the mobile app coming?\" The answer is: it's here. iOS and Android are both live — and we didn't just shrink the desktop version. We built the mobile experience to work with how people actually use their phones. Here's what the workflow looks like 👇 The Same Core Flow, Optimized for Mobile Step 1: Pick a topic or get ideas Open the app → Create with AI or Get Blog Ideas. The Blog Ideas feed shows trending topics across categories. Tap any card to see a suggested outline and \"Sta...",
-        "media": [],
-        "origin_url": "https://dev.to/twrty_connect/we-shipped-a-full-blog-studio-on-mobile-heres-what-the-on-the-go-workflow-looks-like-1p8l",
-        "published": "2026-06-19T02:28:51+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】We Shipped a Full Blog Studio on Mobile. Here's What the On-（性能）。When the team at twRty Software Services launched Blogboat on the web, we kept hearing the same question: \"When is the mobile app coming。\" The answer is: it's here"
-      },
-      {
-        "title": "How to give Claude Code access to your Apple Health data",
-        "describe": "Apple has no HealthKit REST API. Claude's native Apple Health connector only works on claude.ai web, not Claude Code. Here's how to fix that. The constraint Apple's privacy design is the core issue. HealthKit data never leaves your device through a server-side API. There's no endpoint you can call from a script, a cloud function, or an AI agent. All HealthKit access goes through an on-device iOS app that the user has explicitly granted permission. That's actually good for privacy. But it creates a real problem if you want to query your health data from Claude Code, Cursor, or any MCP client...",
-        "media": [],
-        "origin_url": "https://dev.to/jglitt/how-to-give-claude-code-access-to-your-apple-health-data-3p76",
-        "published": "2026-06-19T02:01:09+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】How to give Claude Code access to your Apple Health data（教程）。Apple has no HealthKit REST API。Claude's native Apple Health connector only works on claude"
-      },
-      {
-        "title": "We built a kitten care app where the guidance adapts to your cat's actual age",
-        "describe": "The problem with kitten care advice online is that most of it is technically correct and practically out of context. \"Feed 3–4 times a day.\" Sure — but for a 6-week-old or a 4-month-old? \"Vaccinate early.\" When exactly? The answers exist, but matching them to your specific cat's current age, on the day you need them, is the actual friction. That's the gap we built Nekososdate to close. How it works Register your kitten's birthdate. The app calculates their current age and surfaces care guidance calibrated to this stage — not a static checklist, but the information that's relevant right now....",
-        "media": [],
-        "origin_url": "https://dev.to/niixolabs/we-built-a-kitten-care-app-where-the-guidance-adapts-to-your-cats-actual-age-5ge1",
-        "published": "2026-06-18T23:04:30+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】We built a kitten care app where the guidance adapts to your。The problem with kitten care advice online is that most of it is technically correct and practically out of context。\"Feed 3–4 times a day"
-      },
-      {
-        "title": "App Store Connect Update",
-        "describe": "View release notes",
-        "media": [],
-        "origin_url": "https://developer.apple.com/news/releases/?id=06182026b",
-        "published": "2026-06-18T22:00:00+00:00",
-        "source_label": "Apple Developer Releases",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】App Store Connect Update（开源）。View release notes"
-      },
-      {
-        "title": "WWDC 2026 - WidgetKit Foundations: A Practical Guide for Developers",
-        "describe": "What makes a widget worth building Apple frames good widgets around three qualities, and they're worth keeping in your head as design constraints, not just slogans: Glanceable — someone should understand it in a fraction of a second. Think Weather showing you just enough of today's forecast. Relevant — content should match the moment, the place, and the person's patterns. Calendar surfacing your next event is the canonical example. Personalizable — it should be configurable with the content that matters to that specific user. These three map directly onto the technical decisions you'll make...",
-        "media": [],
-        "origin_url": "https://dev.to/arshtechpro/wwdc-2026-widgetkit-foundations-a-practical-guide-for-developers-2o8d",
-        "published": "2026-06-18T21:42:52+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】WWDC 2026 - WidgetKit Foundations: A Practical Guide for Dev（教程）。What makes a widget worth building Apple frames good widgets around three qualities, and they're worth keeping in your head as design constraints, not just slogans: Glanceable —..."
+        "ai_summary": "【iOS / Swift】AI food logging needs a confidence handoff, not a magic resu。The clean demo for an AI food logger is simple: take a photo get a perfect meal log move on That is not the product I trust in real life。Real meals are messy"
       }
     ],
     "android": [
       {
-        "title": "How to open Google Maps in turn-by-turn navigation mode from a PWA (Android)",
-        "describe": "The next attempt was the standard Maps URL: window . open ( `https://maps.google.com/maps?daddr= ${ lat } , ${ lng } ` , ' _blank ' ); This opens Maps, but in the browser — not the app. And it shows the route preview, not turn-by-turn navigation. What worked: Android Intent URLs Android supports a special URL scheme that tells Chrome to launch a native app directly: window . location . href = `intent://navigation/now?ll= ${ lat } , ${ lng } &title=Next+stop#Intent;scheme=google.navigation;package=com.google.android.apps.maps;end` ; Breaking it down: intent:// — tells Chrome this is an Andro...",
+        "title": "Building a no-root Android automation app taught me that trust is harder than features",
+        "describe": "I’m building ScriptTap, a no-root Android automation app for user-controlled phone workflows. The app lets people create scripts with taps, swipes, routines, screen-aware checks, OCR/text detection, image/pixel checks, variables, logic, and AI-assisted script creation. The technical side is hard, but the trust side may be harder. ScriptTap needs Android Accessibility permission because user-authored input automation requires it. That is a powerful permission. I do not want to minimize it, hide it behind vague onboarding copy, or expect people to click through without understanding what they...",
         "media": [],
-        "origin_url": "https://dev.to/luc45hn/how-to-open-google-maps-in-turn-by-turn-navigation-mode-from-a-pwa-android-16e0",
-        "published": "2026-06-20T03:14:52+00:00",
+        "origin_url": "https://dev.to/romka2x/building-a-no-root-android-automation-app-taught-me-that-trust-is-harder-than-features-2acn",
+        "published": "2026-06-21T00:20:13+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】How to open Google Maps in turn-by-turn navigation mode from（教程）。The next attempt was the standard Maps URL: window。open ( `https://maps"
+        "ai_summary": "【Android / Kotlin】Building a no-root Android automation app taught me that tru。I’m building ScriptTap, a no-root Android automation app for user-controlled phone workflows。The app lets people create scripts with taps, swipes, routines, screen-aware checks,..."
       },
       {
-        "title": "MTP File Transfer in Rust on macOS — Why I Wrote My Own Stack",
-        "describe": "All tests run on an 8-year-old MacBook Air. All results from shipping 7 Mac apps as a solo developer. No sponsored opinion. HiyokoMTP transfers files between Android and Mac via MTP. The obvious approach — use libmtp — doesn't work well on macOS. So I wrote a custom MTP implementation. Here's why, and what that looks like. The libmtp problem on macOS libmtp is the standard C library for MTP. On Linux, it works well. On macOS, it conflicts with IOKit's USB ownership model. macOS claims USB devices at the system level. libmtp tries to claim them again at the library level. The result: connect...",
+        "title": "New Features in Firefox for An…",
+        "describe": "Originally published at norvik.tech Introduction Explore the new features in Firefox for Android, focusing on their technical implications and business applications. Understanding the Latest Firefox Features The recent update to Firefox for Android introduces several noteworthy features that enhance both usability and privacy. Users can now organize their tabs into groups, manage their settings more intuitively, and gain insights into tracker blocking. According to the source, these enhancements aim to provide a smoother browsing experience while addressing privacy concerns—an essential fac...",
         "media": [],
-        "origin_url": "https://dev.to/hiyoyok/mtp-file-transfer-in-rust-on-macos-why-i-wrote-my-own-stack-3obg",
-        "published": "2026-06-20T02:30:51+00:00",
+        "origin_url": "https://dev.to/norviktech/new-features-in-firefox-for-an-142h",
+        "published": "2026-06-21T00:05:54+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】MTP File Transfer in Rust on macOS — Why I Wrote My Own Stac。All tests run on an 8-year-old MacBook Air。All results from shipping 7 Mac apps as a solo developer"
+        "ai_summary": "【Android / Kotlin】New Features in Firefox for An…。Originally published at norvik。tech Introduction Explore the new features in Firefox for Android, focusing on their technical implications and business applications"
       },
       {
-        "title": "I built a free, open-source Daylio alternative instead of paying a subscription",
-        "describe": "I tried to start tracking my mood properly this year. The advice everyone gives is the same: log it daily, look at the patterns, adjust. Fine. So I went looking for the app. Daylio is the one everyone points to, and it's genuinely good. Clean, fast, the design is years ahead of most of the category. I used it for a couple of weeks. Then I went to look at the actual stats, the part that's the whole point, and hit a wall. The interesting graphs are premium. Mood-by-weekday, the activity correlations, the longer trends. That's the data that tells you something. And it sits behind a subscriptio...",
+        "title": "Do you have Ask Play / Gemini Highlights in the Play Store search yet?",
+        "describe": "Has anyone here actually seen Ask Play / Gemini Highlights inside Google Play search results? Google said Ask Play Highlights can appear directly in Play Store search results, but I still can’t reproduce it on my devices. Can someone who has it please share a screenshot or short screen recording? Please try one of these searches in the Google Play Store: learn to play chess apps apps that can help me write notes meditation app without subscriptions best app to connect a smartwatch I’m looking for the AI/Gemini summary or Ask Play card that appears above normal organic app results. Please al...",
         "media": [],
-        "origin_url": "https://dev.to/diven_rastdus_c5af27d68f3/i-built-a-free-open-source-daylio-alternative-instead-of-paying-a-subscription-5gap",
-        "published": "2026-06-19T23:34:41+00:00",
+        "origin_url": "https://www.reddit.com/r/androiddev/comments/1ubbblx/do_you_have_ask_play_gemini_highlights_in_the/",
+        "published": "2026-06-20T23:58:49+00:00",
+        "source_label": "Reddit r/androiddev",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Do you have Ask Play / Gemini Highlights in the Play Store s。Has anyone here actually seen Ask Play / Gemini Highlights inside Google Play search results。Google said Ask Play Highlights can appear directly in Play Store search results, bu..."
+      },
+      {
+        "title": "alguém sabe se tem como instalar um Android q rode a play story no j2",
+        "describe": "alguém sabe se tem como instalar um Android q rode a play story no j2 submitted by /u/Miserable_South3959 [link] [comments]",
+        "media": [],
+        "origin_url": "https://www.reddit.com/r/androiddev/comments/1ubadms/alguém_sabe_se_tem_como_instalar_um_android_q/",
+        "published": "2026-06-20T23:13:15+00:00",
+        "source_label": "Reddit r/androiddev",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】alguém sabe se tem como instalar um Android q rode a play st。alguém sabe se tem como instalar um Android q rode a play story no j2 submitted by /u/Miserable_South3959 [link] [comments]"
+      },
+      {
+        "title": "Built a keyframe animation tool on top of Three.js, custom bezier easing per segment, spherical camera interpolation, WebCodecs MP4 export",
+        "describe": "Been using Three.js for a while and decided to build a mockup video creator around it. A few things I had to figure out: Camera interpolation was the trickiest part, linear mode makes the camera cut through the device on wide rotations, so I convert to spherical coordinates and interpolate r/ theta/ phi separately, normalizing theta delta to ±π to always take the shortest arc. For export I resize the renderer to the actual export resolution before capturing, feed frames directly to VideoEncoder via WebCodecs, and mux with mp4-muxer. Falls back to MediaRecorder on Firefox/Safari. The timelin...",
+        "media": [],
+        "origin_url": "https://www.reddit.com/r/androiddev/comments/1ub7rd7/built_a_keyframe_animation_tool_on_top_of_threejs/",
+        "published": "2026-06-20T21:15:28+00:00",
+        "source_label": "Reddit r/androiddev",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Built a keyframe animation tool on top of Three.js, custom b。Been using Three。js for a while and decided to build a mockup video creator around it"
+      },
+      {
+        "title": "How long are first production reviews currently taking for new Google Play developer accounts?",
+        "describe": "I'm curious about current Google Play review times for first production releases on new developer accounts. I completed the 14-day closed testing requirement and submitted my first production release 3 days ago. The release is still under review. For developers who recently published their first app: How long did your first production review take? Are review times different for new accounts? Has anyone experienced longer review times recently? I'm trying to get a better understanding of current review timelines rather than resolving a specific issue. Thanks for sharing your experiences. sub...",
+        "media": [],
+        "origin_url": "https://www.reddit.com/r/androiddev/comments/1ub7hsj/how_long_are_first_production_reviews_currently/",
+        "published": "2026-06-20T21:04:16+00:00",
+        "source_label": "Reddit r/androiddev",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】How long are first production reviews currently taking for n（开源）。I'm curious about current Google Play review times for first production releases on new developer accounts。I completed the 14-day closed testing requirement and submitted my fir..."
+      },
+      {
+        "title": "Looking for feedback on the architecture of my Android article reader",
+        "describe": "submitted by /u/aktg007 [link] [comments]",
+        "media": [],
+        "origin_url": "https://www.reddit.com/r/Kotlin/comments/1ub6970/looking_for_feedback_on_the_architecture_of_my/",
+        "published": "2026-06-20T20:11:04+00:00",
+        "source_label": "Reddit r/Kotlin",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Looking for feedback on the architecture of my Android artic（架构）。submitted by /u/aktg007 [link] [comments]"
+      },
+      {
+        "title": "Looking for feedback on the architecture of my Android article reader",
+        "describe": "I'm a self-taught Android developer, and Udant is the largest project I've built so far. I just finished Phase 2 of the project, which focused on offline reading and article archiving. The app currently uses RSS feeds, caches articles locally with Room, supports saved articles, and can archive articles as MHT files using WebView for offline access later. Right now I'm trying to decide whether the overall architecture is heading in a reasonable direction before I start adding more complexity. The current version only supports a single RSS source. Before moving to multi-source support, I'd li...",
+        "media": [],
+        "origin_url": "https://www.reddit.com/r/androiddev/comments/1ub67j2/looking_for_feedback_on_the_architecture_of_my/",
+        "published": "2026-06-20T20:09:03+00:00",
+        "source_label": "Reddit r/androiddev",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Looking for feedback on the architecture of my Android artic（架构）。I'm a self-taught Android developer, and Udant is the largest project I've built so far。I just finished Phase 2 of the project, which focused on offline reading and article arch..."
+      },
+      {
+        "title": "Request for technical assistance: Google Play Console access for emancipated minor",
+        "describe": "Context: I am a 16-year-old developer, legally emancipated in France. In accordance with French civil law, this court decision grants me the full legal capacity of an adult (18 years old). I therefore have the capacity to create and manage a company in my own name. My problem: I want to register on the Google Play Console, but the automated verification tools (KYC) are blocking my registration due to my date of birth, without taking into account my legal status of emancipation. The question I would like to ask support: \"Is there an exception procedure for emancipated minors in France who wi...",
+        "media": [],
+        "origin_url": "https://www.reddit.com/r/androiddev/comments/1ub4iim/request_for_technical_assistance_google_play/",
+        "published": "2026-06-20T18:59:06+00:00",
+        "source_label": "Reddit r/androiddev",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Request for technical assistance: Google Play Console access。Context: I am a 16-year-old developer, legally emancipated in France。In accordance with French civil law, this court decision grants me the full legal capacity of an adult (18 y..."
+      },
+      {
+        "title": "I Spent 4 Months Building an Android Game From Scratch.",
+        "describe": "I want to be upfront about something before this post starts: this is not a success story in the traditional sense. There is no viral launch moment, no overnight revenue explosion, no \"I quit my job\" ending. What there is is an honest account of wasting four months, making a humbling decision, and ending up with something published and earning that I would never have shipped any other way. If you are currently three months into a Unity Android project that is not quite finished and probably will not be finished by the date you told yourself it would be finished, this might be the most usefu...",
+        "media": [],
+        "origin_url": "https://dev.to/unitysourcecode/i-spent-4-months-building-an-android-game-from-scratch-k6p",
+        "published": "2026-06-20T18:03:27+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】I built a free, open-source Daylio alternative instead of pa。I tried to start tracking my mood properly this year。The advice everyone gives is the same: log it daily, look at the patterns, adjust"
+        "ai_summary": "【Android / Kotlin】I Spent 4 Months Building an Android Game From Scratch.。I want to be upfront about something before this post starts: this is not a success story in the traditional sense。There is no viral launch moment, no overnight revenue explosio..."
       },
       {
-        "title": "Buy Verified Redotpay Account From Verified Seller",
-        "describe": "Buy Verified Redotpay Account From Verified Seller 💬 Need Assistance? All Time Service, Just Talk To- ✨ Telegram: @usamarketit ✨ Email: usamarketit@gmail.com ✨ WhatsApp: +1(772)563-8300 ✨ Discord: usamarketit Are you looking to buy a verified Redotpay account but worried about getting scammed or wasting your money? You’re not alone. Finding a reliable seller who offers genuine accounts can be tough. That’s why buying a verified Redotpay account from a trusted, verified seller is the smartest move you can make. This not only saves you time but also gives you peace of mind knowing your accoun...",
+        "title": "My homescreen was chaos. Not anymore.",
+        "describe": "I built an Android widget that learns your app habits — without sending anything to a server I had a problem. My home screen was organized chaos: folders for Work, Music, Streaming, Chat, Hobbies. Every evening I’d open the same three folders in the same order just to launch the same handful of apps. I wasn't finding apps — I was repeating a ritual. My phone already knows what I do and when I do it — it just never puts that knowledge to use. So I built Habits to teach it to repeat what it has already seen. The constraint: Android only remembers a few days The predictive feature needs the Us...",
         "media": [],
-        "origin_url": "https://dev.to/redotpayacc4/buy-verified-redotpay-account-from-verified-seller-172f",
-        "published": "2026-06-19T17:44:36+00:00",
+        "origin_url": "https://dev.to/niluved/my-homescreen-was-chaos-not-anymore-5a8m",
+        "published": "2026-06-20T16:22:11+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Buy Verified Redotpay Account From Verified Seller。Buy Verified Redotpay Account From Verified Seller 💬 Need Assistance。All Time Service, Just Talk To- ✨ Telegram: @usamarketit ✨ Email: usamarketit@gmail"
+        "ai_summary": "【Android / Kotlin】My homescreen was chaos. Not anymore.。I built an Android widget that learns your app habits — without sending anything to a server I had a problem。My home screen was organized chaos: folders for Work, Music, Streami..."
       },
       {
-        "title": "Mobile Dev: Tối ưu RAM Android Emulator trên Dell Precision 7780",
-        "describe": "Là một mobile developer, việc cân bằng giữa các công cụ phát triển và tài nguyên hệ thống là một bài toán thực tế mỗi ngày. Khi làm việc với dự án lớn, bộ máy của bạn không chỉ chạy một ứng dụng đơn lẻ mà là cả một hệ sinh thái: Android Studio, VS Code, Docker, trình duyệt Chrome với hàng chục tab, và tất nhiên là Android Emulator. Câu hỏi đặt ra là: Dell Precision 7780 có thực sự cân nổi các tác vụ render 3D nặng và môi trường dev phức tạp? Với cấu hình mạnh mẽ như CPU Intel Core i9-13950HX (24 nhân, 32 luồng) và khả năng nâng cấp RAM lên tới 128GB, câu trả lời là CÓ , nhưng bạn cần biết c...",
+        "title": "An app to search other apps",
+        "describe": "Hi. Sometime ago tried to make an app that would help me search apps that are installed on the phone. After using it for the past few months it was really good so decided to share. Repo: https://github.com/shalva97/Portal Main goals are that it will be very fast, very small app size (currently it is 2MB), very fast search, no internet permission. submitted by /u/shalva97 [link] [comments]",
         "media": [],
-        "origin_url": "https://dev.to/hung_phatlaptop_a651fc86/mobile-dev-toi-uu-ram-android-emulator-tren-dell-precision-7780-22n7",
-        "published": "2026-06-19T14:05:51+00:00",
-        "source_label": "DEV Community (Android)",
+        "origin_url": "https://www.reddit.com/r/androiddev/comments/1uaz7dp/an_app_to_search_other_apps/",
+        "published": "2026-06-20T15:19:56+00:00",
+        "source_label": "Reddit r/androiddev",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Mobile Dev: Tối ưu RAM Android Emulator trên Dell Precision 。Là một mobile developer, việc cân bằng giữa các công cụ phát triển và tài nguyên hệ thống là một bài toán thực tế mỗi ngày。Khi làm việc với dự án lớn, bộ máy của bạn không chỉ c..."
-      },
-      {
-        "title": "Beyond 4GB",
-        "describe": "Hey everyone! Today, I’m going to prove that you don't need a high-end $2000 gaming rig to build a real Android app. Running on a PC with just 4GB of RAM, I managed to create and install my own Block Blast game on my phone yesterday. Here is my story and my method. The Challenge: Coding without lagging my PC With only 4GB of RAM, running heavy development software locally is mission impossible. So, my strategy was to let the cloud do the heavy lifting instead of my own machine. To do that, I leaned into the power of AI. Step 1: Crafting the perfect prompt I didn't just ask the AI to randoml...",
-        "media": [],
-        "origin_url": "https://dev.to/yahya_amiz_145daf56e3ffe8/beyond-4gb-2k87",
-        "published": "2026-06-19T13:02:09+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Beyond 4GB。Today, I’m going to prove that you don't need a high-end $2000 gaming rig to build a real Android app。Running on a PC with just 4GB of RAM, I managed to create and install my ow..."
-      },
-      {
-        "title": "Qualcomm launches Snapdragon 6 Gen 5 and Snapdragon 4 Gen 5 with faster gaming, AI features",
-        "describe": "Qualcomm has unveiled two new smartphone chipsets, the Snapdragon 6 Gen 5 and Snapdragon 4 Gen 5, aimed at bringing faster performance, smoother gaming, and improved battery life to a wider range of smartphones globally. The company says both platforms are designed to improve everyday mobile experiences, with a focus on AI-powered features, graphics performance, connectivity, and efficiency. Devices powered by the new chips are expected to launch in the second half of 2026 from brands including Honor, OPPO, realme, and Redmi.",
-        "media": [],
-        "origin_url": "https://dev.to/kanhagochhayat/qualcomm-launches-snapdragon-6-gen-5-and-snapdragon-4-gen-5-with-faster-gaming-ai-features-51ee",
-        "published": "2026-06-19T08:43:07+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Qualcomm launches Snapdragon 6 Gen 5 and Snapdragon 4 Gen 5 （性能）。Qualcomm has unveiled two new smartphone chipsets, the Snapdragon 6 Gen 5 and Snapdragon 4 Gen 5, aimed at bringing faster performance, smoother gaming, and improved battery lif..."
-      },
-      {
-        "title": "Marble Sudoku World TOP-10 🌍 19.06.2026",
-        "describe": "Marble Sudoku World TOP-10 🌍 19.06.2026 🇧🇷 Qwerty - 841350 🇩🇪 #8344 - 805907 🇷🇺 Gazprom - 690802 🇷🇺 Opy - 649166 🇷🇺 OksiLOL - 591706 🇩🇪 #5078 - 445429 🇩🇪 Lisa - 405347 🇮🇹 Scirocco - 320770 🇩🇪 #0383 - 235032 🇸🇪 trulsan - 223959 🌍 Country race: 🇩🇪 x4 | 🇷🇺 x3 | 🇧🇷 x1 | 🇮🇹 x1 | 🇸🇪 x1 🔁 Since previous snapshot: 🇧🇷 Qwerty stays at #1. 🇩🇪 #8344 closed the gap by 1757 points; it is now 35443. Fastest score gain: 🇷🇺 Gazprom added 38917 points. Analysis: Qwerty leads with 841350 points. The gap to #2 is 35443 points. 🇩🇪 has 4 player(s) in the top.",
-        "media": [],
-        "origin_url": "https://dev.to/lumaplay/marble-sudoku-world-top-10-19062026-3m1b",
-        "published": "2026-06-19T07:21:58+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Marble Sudoku World TOP-10 🌍 19.06.2026。Marble Sudoku World TOP-10 🌍 19。2026 🇧🇷 Qwerty - 841350 🇩🇪 #8344 - 805907 🇷🇺 Gazprom - 690802 🇷🇺 Opy - 649166 🇷🇺 OksiLOL - 591706 🇩🇪 #5078 - 445429 🇩🇪 Lisa - 405347 🇮🇹 Scirocco ..."
-      },
-      {
-        "title": "Can I Replace My Blink Camera With an Old Android Phone in 2026? What \"Free Local Storage\" on a USB Stick Doesn't Cover",
-        "describe": "Originally answered on Quora in mid-June 2026 as a \"do I actually need the Blink subscription?\" question. This is the dev.to canonical at T+7d, expanded with the current 2026 numbers — Blink's Basic plan at $3.99/month after its first price increase since 2021, what its \"free local storage\" on a USB stick actually gives you, and the one thing no Blink — paid or free — does that a spare phone does — plus an honest read on where an old phone replaces a Blink and where it genuinely can't. TL;DR You can replace some Blink cameras with an old Android phone running a local-only app, and Blink is ...",
-        "media": [],
-        "origin_url": "https://dev.to/superfunicular/can-i-replace-my-blink-camera-with-an-old-android-phone-in-2026-what-free-local-storage-on-a-usb-oli",
-        "published": "2026-06-19T07:09:32+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Can I Replace My Blink Camera With an Old Android Phone in 2。Originally answered on Quora in mid-June 2026 as a \"do I actually need the Blink subscription。This is the dev"
-      },
-      {
-        "title": "The Honour System Running Your Phone's Speaker",
-        "describe": "Part one of a short series on who actually controls the audio coming out of your Android phone, and why almost none of it is the app you think. A few days ago I was listening to music on my phone when I opened an unrelated app, one built around an endless feed. The very first screen autoplayed a short video. My music stopped. Not paused and then resumed, not lowered for a moment under the clip. It simply stopped, and I had to go back and press play again. This is the kind of thing that is easy to never think about. It happens constantly. But this time it nagged at me, because the app that s...",
-        "media": [],
-        "origin_url": "https://dev.to/maxi_debug/the-honour-system-running-your-phones-speaker-5b64",
-        "published": "2026-06-19T02:33:26+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】The Honour System Running Your Phone's Speaker。Part one of a short series on who actually controls the audio coming out of your Android phone, and why almost none of it is the app you think。A few days ago I was listening to ..."
-      },
-      {
-        "title": "Android developer verification: Building a safer ecosystem together",
-        "describe": "Posted by Matthew Forsythe, Director Product Management, Android App Safety Last year, we introduced Android developer verification to strengthen ecosystem security and stop malicious actors from hiding behind anonymity to release harmful apps. Millions of apps have been registered since the verification launched in March, covering nearly all installs on Google Play and a large majority of installs from outside of Google Play. We appreciate the feedback and partnership from industry leaders, developers, and Android communities that helped us design this experience and drive strong adoption....",
-        "media": [
-          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2JeeSz9AeQDASycrf2ssGmJn2yQGvGFjyU29jKSs5hFtYySX9X5wDw4Pb63DF3co77osfiLeYj6LGt-_1v66X3svzCOdWAZz3w9Q2WKF28T4qZ4tCbiTEsP88lIZ44Ua6mLfg6VIQL_k3PVWlU4vDnJkTc9mJkdz188lH-smTL3oA47Yongl1w8sf4RY/s72-c/260317_ADV%20Blog_Metadata.png",
-          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2JeeSz9AeQDASycrf2ssGmJn2yQGvGFjyU29jKSs5hFtYySX9X5wDw4Pb63DF3co77osfiLeYj6LGt-_1v66X3svzCOdWAZz3w9Q2WKF28T4qZ4tCbiTEsP88lIZ44Ua6mLfg6VIQL_k3PVWlU4vDnJkTc9mJkdz188lH-smTL3oA47Yongl1w8sf4RY/s1235/260317_ADV%20Blog_Metadata.png",
-          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4_MWnkCTsO9zdnVQqFu2Aep5Q_GMvQvuXoGn-H_LXNpOYIVYFqbHi0R0iKpChOEJ-GB0p_7fLCiK_IGETshue4Fjd3tjyg95M3i92-DzdZpND5GPhr9jeBuj620YHAhPJ6CLdDXD8jsA1XyyYiBCS4p4eoZizZnA0DHKpwJqDUq-agwXl_GbtLrKdM5Y/s16000/260317_ADV%20Blog_Header.png",
-          "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqbV_ekgsQfaIaR1t9bIoK0tVlU7VyWBaOKR6mw42w9zgqNhHrRYoinUTD6SnSShwSgz1dRjSQ8XexLH1Ob3fmxB-rTihARv4BM7n_fJ3fOeM51zmd9uvRgc1O4vy6pbL99X9crg4ioiyGoHdKY6mm-LXpYHZwWGPE8yGZcOoRsBJgdUK5WNGVlZDf40I/s16000/260604_Blog%20in%20line%20asset%20-%20%E2%80%9CADV%20June%E2%80%9D.png"
-        ],
-        "origin_url": "https://android-developers.googleblog.com/2026/06/android-developer-verification.html",
-        "published": "2026-06-18T14:00:00+00:00",
-        "source_label": "Android Developers Blog",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Android developer verification: Building a safer ecosystem t（开源/安全）。Posted by Matthew Forsythe, Director Product Management, Android App Safety Last year, we introduced Android developer verification to strengthen ecosystem security and stop mal..."
+        "ai_summary": "【Android / Kotlin】An app to search other apps（开源）。Sometime ago tried to make an app that would help me search apps that are installed on the phone。After using it for the past few months it was really good so decided to share"
       }
     ],
     "frontend": [
       {
-        "title": "Building a CompTIA practice-test engine that gives students source-verified questions",
-        "describe": "If you've ever studied for a CompTIA exam with free practice questions online, you already know the problem: most \"practice tests\" are recycled exam dumps. The same leaked pool, copy-pasted across a dozen sites, with a worrying number of \"correct\" answers that are subtly wrong and no indication of where any of it came from. For a student, that's worse than useless. You can memorize a wrong answer with total confidence and walk into the exam having actively trained the mistake. I wanted to build a practice-test engine that made the opposite promise to students: every answer you see can be tr...",
+        "title": "Introducing Stardust API Engine",
+        "describe": "Hey developers! 🚀 I wasted too much time setting up dummy backends just to test my frontend designs. So, I built Stardust API Engine — a completely free, serverless mock server. What it does: Instant live endpoints for /users and /products (Ready to fetch() ). In-built Custom JSON Data Generator to structure your own schemas. 100% serverless, zero login friction, and lightning fast. Check it out here: https://stardustofficial.github.io/stardust-api/ Feedback is highly appreciated! Built with 🌌 by Zishan.",
         "media": [],
-        "origin_url": "https://dev.to/henry_yau_2266/building-a-comptia-practice-test-engine-that-gives-students-source-verified-questions-332",
-        "published": "2026-06-20T04:22:12+00:00",
+        "origin_url": "https://dev.to/stardustofficial/introducing-stardust-api-engine-4h1k",
+        "published": "2026-06-21T00:21:49+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Building a CompTIA practice-test engine that gives students 。If you've ever studied for a CompTIA exam with free practice questions online, you already know the problem: most \"practice tests\" are recycled exam dumps。The same leaked pool, ..."
+        "ai_summary": "【前端开发】Introducing Stardust API Engine（开源）。Hey developers。🚀 I wasted too much time setting up dummy backends just to test my frontend designs"
       },
       {
-        "title": "The CSS-in-JS Penalty: Zero-Runtime Styling in React ⚡",
-        "describe": "Liquid syntax error: Variable '{{% raw %}' was not properly terminated with regexp: /\\}\\}/",
-        "media": [],
-        "origin_url": "https://dev.to/iprajapatiparesh/the-css-in-js-penalty-zero-runtime-styling-in-react-n2h",
-        "published": "2026-06-20T04:08:04+00:00",
-        "source_label": "DEV Community (React)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】The CSS-in-JS Penalty: Zero-Runtime Styling in React ⚡。Liquid syntax error: Variable '{{% raw %}' was not properly terminated with regexp: /\\}\\}/"
-      },
-      {
-        "title": "RAM (Ramayanam) Quiz App 🚩📖",
-        "describe": "Today, I am excited to share my project, RAM (Ramayanam) Quiz App. This project helps users learn about Ramayanam in a fun and interactive way. Users can answer quiz questions, check their scores instantly, and download a certificate after successfully completing the quiz. ✨ Features: Interactive Ramayanam quiz Instant score calculation Certificate download after completion Mobile-friendly design Simple and easy-to-use interface 🎯 Purpose: My goal was to combine technology with Indian culture and make learning Ramayanam enjoyable for everyone. 🔗 Live Demo: https://ram-quiz.vercel.app/",
+        "title": "Building a Base Converter — BigInt for Unlimited Digits, and Detecting Repeating Fractions",
+        "describe": "A converter between any radix from 2 to 36. \"Isn't that just parseInt(s, 16) ?\" — done properly, there are two traps: (1) Number loses precision past 2^53 , so large values need BigInt, and (2) a fraction that terminates in one base often repeats in another (decimal 0.1 is 0.0(0011) repeating in binary). How you detect and display that repetition is the real story. Fully in-browser, vanilla JS. 🌐 Demo : https://sen.ltd/portfolio/base-converter/ 📦 GitHub : https://github.com/sen-ltd/base-converter Hinge 1: BigInt integer part, no precision ceiling parseInt(\"ff\", 16) does return 255. But larg...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdiva68l15r67gi6ollni.png"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs3pko2pvizn0fmzubq81.png"
         ],
-        "origin_url": "https://dev.to/bhargavi_simhadri_15/ram-ramayanam-quiz-app-2epi",
-        "published": "2026-06-20T03:54:23+00:00",
+        "origin_url": "https://dev.to/sendotltd/building-a-base-converter-bigint-for-unlimited-digits-and-detecting-repeating-fractions-4a37",
+        "published": "2026-06-20T23:44:14+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】RAM (Ramayanam) Quiz App 🚩📖。Today, I am excited to share my project, RAM (Ramayanam) Quiz App。This project helps users learn about Ramayanam in a fun and interactive way"
+        "ai_summary": "【前端开发】Building a Base Converter — BigInt for Unlimited Digits, and（开源）。A converter between any radix from 2 to 36。\"Isn't that just parseInt(s, 16)"
       },
       {
-        "title": "Embed a Historical Exchange Rate Widget in Any Blog or Dashboard",
-        "describe": "Finance blogs, spreadsheet templates, travel-money pages, and internal dashboards often need a small historical exchange rate lookup without building a full currency tool from scratch. FXpeek now has an embeddable widget that can be added with one div and one script tag. Quick embed <div data-fxpeek-widget data-from= \"USD\" data-to= \"IDR\" data-amount= \"100\" data-locale= \"en\" ></div> <script async src= \"https://fxpeek.com/embed/fxpeek-widget.js\" ></script> The script creates a lightweight iframe with: amount input from and to currency selectors a reference conversion result links back to the ...",
+        "title": "Descomplicando o Vite",
+        "describe": "Introdução Antes do Vite, ferramentas como Webpack/CRA funcionavam assim: pra você ver qualquer coisa no navegador, a ferramenta precisava primeiro empacotar (bundlar) todo o seu projeto — ler cada arquivo, resolver cada import, transformar tudo num (ou poucos) arquivo gigante de JS. Em projetos pequenos isso é rápido. Em projetos com milhares de módulos, esse \"bundle inicial\" podia levar dezenas de segundos, e toda vez que você salvava um arquivo, boa parte disso precisava ser refeito. A sacada do Vite: navegadores modernos já sabem importar módulos ES nativamente ( <script type=\"module\"> ...",
         "media": [],
-        "origin_url": "https://dev.to/jenpo_zhan_aca905ad2a8a5b/embed-a-historical-exchange-rate-widget-in-any-blog-or-dashboard-i5d",
-        "published": "2026-06-20T02:12:41+00:00",
+        "origin_url": "https://dev.to/yuripeixinho/descomplicando-o-vite-1p62",
+        "published": "2026-06-20T21:36:30+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Embed a Historical Exchange Rate Widget in Any Blog or Dashb。Finance blogs, spreadsheet templates, travel-money pages, and internal dashboards often need a small historical exchange rate lookup without building a full currency tool from s..."
+        "ai_summary": "【前端开发】Descomplicando o Vite。Introdução Antes do Vite, ferramentas como Webpack/CRA funcionavam assim: pra você ver qualquer coisa no navegador, a ferramenta precisava primeiro empacotar (bundlar) todo o se..."
       },
       {
-        "title": "🟢 Level 1 Tutorial — Limn Engine Beginner Guide",
-        "describe": "🟢 Level 1 Tutorial — Limn Engine Beginner Guide Start Your Game Development Journey Here Welcome to Limn Engine — the zero‑configuration, browser‑based 2D game engine that prioritises creativity over complexity. This is Level 1: Beginner , where you'll learn everything you need to make your first game in under 60 seconds. A special thank you to **GyaanSetu Javascript * for featuring our work and helping us share Limn Engine with the JavaScript community. Your support means the world to us. 🙏* What You'll Learn Topic What You'll Build 1. Creating a Display Your first canvas 2. Adding & movin...",
+        "title": "Supercharge your web app with free AI that runs in your users' browser",
+        "describe": "There is a class of feature that used to be impossible to ship for free: anything that needed a language model. You wired up an API key, you ate the per-token bill, and every prompt your users typed went off to someone else's server. For a small public tool, that math usually killed the idea before it started. That changed. Recent versions of Chrome ship a language model, Gemini Nano, and expose it to any web page through the Prompt API . The model runs on the user's own machine. No API key. No inference bill. No data leaving the browser. We put this into a real, live tool, a free Mermaid d...",
         "media": [],
-        "origin_url": "https://dev.to/kehinde_owolabi_e2e54567a/level-1-tutorial-limn-engine-beginner-guide-3lkd",
-        "published": "2026-06-20T01:45:37+00:00",
+        "origin_url": "https://dev.to/petr_patek_12/supercharge-your-web-app-with-free-ai-that-runs-in-your-users-browser-2l2m",
+        "published": "2026-06-20T21:30:07+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】🟢 Level 1 Tutorial — Limn Engine Beginner Guide（教程）。🟢 Level 1 Tutorial — Limn Engine Beginner Guide Start Your Game Development Journey Here Welcome to Limn Engine — the zero‑configuration, browser‑based 2D game engine that prior..."
+        "ai_summary": "【前端开发】Supercharge your web app with free AI that runs in your user。There is a class of feature that used to be impossible to ship for free: anything that needed a language model。You wired up an API key, you ate the per-token bill, and every pro..."
       },
       {
-        "title": "No agent calls WebMCP yet. Here's the honest case for shipping it today — and how to know the day that changes.",
-        "describe": "There's an uncomfortable fact under all the WebMCP excitement, and the skeptics are right to keep raising it: As of June 2026, none of the mainstream AI agents actually call navigator.modelContext on your site. Not ChatGPT Agent, not Claude, not Gemini, not Perplexity. They all still read your page by DOM-scraping or by taking screenshots and clicking pixels. Patrick Brosset's updates and studiomeyer's \"Reality Check\" both lay this out plainly, and it's worth repeating because the hype usually skips it: WebMCP is a W3C Community Group draft , not a standard, shipping behind a flag in Chrome...",
+        "title": "Sanity dialog/form submissions?",
+        "describe": "New to Sanity and just struggling with my page-builder structure/UX if anyone can help out please? So when editing a block in a page-builder array I'd have the relevant page form appear. Inside that form my types allow me to add sections - which renders an overlaid dialog/form for content entry. Within that section, I can add further content - cards for example. Again, adding another overlay/dialog. That's all fine, but the UX feels terrible when submitting (despite auto-saving) - the \"publish\" button remains prominent bottom right, and *isn't* the correct option (it shouldn't be displayed ...",
+        "media": [
+          "https://preview.redd.it/a6leoowz6i8h1.png?width=140&height=80&auto=webp&s=16bdea7be413af86027f2e4d8fb11ba19662fbb1"
+        ],
+        "origin_url": "https://www.reddit.com/r/webdev/comments/1ub7sar/sanity_dialogform_submissions/",
+        "published": "2026-06-20T21:16:36+00:00",
+        "source_label": "Reddit r/webdev",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】Sanity dialog/form submissions?。New to Sanity and just struggling with my page-builder structure/UX if anyone can help out please。So when editing a block in a page-builder array I'd have the relevant page form..."
+      },
+      {
+        "title": "Built a free device mockup video tool because I was tired of watermarks, resolution caps, and subscriptions",
+        "describe": "https://preview.redd.it/qdbk8kzy6i8h1.png?width=1536&format=png&auto=webp&s=59db526183f0c2a833f57ef6f90bb89289809bdf Built a free tool for mockup videos because every existing option had a watermark, capped your export resolution, or paywalled basic features behind a subscription. I needed to make quick demo videos for the apps I ship for clients and kept hitting the same wall, so I built Grabo: animate a 3D camera and device (phone/tablet/laptop/floating screen) on a keyframe timeline, add text and lighting, export at the real resolution you pick. Runs on Three.js + GSAP, no signup needed....",
+        "media": [
+          "https://external-preview.redd.it/-6rl6vvo2BH7A2T6YlSTA_wjJakzEzr7YB9s8nfMKyQ.png?width=140&height=73&auto=webp&s=6b54bf95e3ec3aa7687005b99b8f1d2e082c4118"
+        ],
+        "origin_url": "https://www.reddit.com/r/webdev/comments/1ub7orr/built_a_free_device_mockup_video_tool_because_i/",
+        "published": "2026-06-20T21:12:20+00:00",
+        "source_label": "Reddit r/webdev",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】Built a free device mockup video tool because I was tired of。https://preview。it/qdbk8kzy6i8h1"
+      },
+      {
+        "title": "As a FE dev, do you think it is a must to know Figma? Isn't React/CSS enough?",
+        "describe": "submitted by /u/lune-soft [link] [comments]",
         "media": [],
-        "origin_url": "https://dev.to/r0bertini/no-agent-calls-webmcp-yet-heres-the-honest-case-for-shipping-it-today-and-how-to-know-the-day-52ld",
-        "published": "2026-06-20T01:05:39+00:00",
+        "origin_url": "https://www.reddit.com/r/Frontend/comments/1ub6zyx/as_a_fe_dev_do_you_think_it_is_a_must_to_know/",
+        "published": "2026-06-20T20:43:06+00:00",
+        "source_label": "Reddit r/frontend",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】As a FE dev, do you think it is a must to know Figma? Isn't 。submitted by /u/lune-soft [link] [comments]"
+      },
+      {
+        "title": "cssQuake - Play Quake in Your Browser",
+        "describe": "submitted by /u/BlondieCoder [link] [comments]",
+        "media": [
+          "https://external-preview.redd.it/HyYuS_EJbYzaBvINp0QqaY1V9aHw3MgFxZRS0Uh1QeQ.jpeg?width=640&crop=smart&auto=webp&s=f4e77c62d000ff1c35ed2e05e12dbb894bb3690b"
+        ],
+        "origin_url": "https://www.reddit.com/r/webdev/comments/1ub6cpx/cssquake_play_quake_in_your_browser/",
+        "published": "2026-06-20T20:15:11+00:00",
+        "source_label": "Reddit r/webdev",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】cssQuake - Play Quake in Your Browser。submitted by /u/BlondieCoder [link] [comments]"
+      },
+      {
+        "title": "Starl - a lightweight, no ads and offline music player i been working on..",
+        "describe": "It's a little project i'm working on It has no ads, it's supa well documented and handles perfectly playing offline. I'm planning to make it completely selfhost-able, for now im hosting a public server so you can try all the features available. Give it a look: https://github.com/everm4iva/starl (I'd love to get your feedback) -# side-note 1: not vibe-coded at all. -# side-note 2: if you have any questions or privacy concerns, check the FAQ",
+        "media": [],
+        "origin_url": "https://dev.to/everm4iva/starl-a-lightweight-no-ads-and-offline-music-player-1gmf",
+        "published": "2026-06-20T19:53:53+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】No agent calls WebMCP yet. Here's the honest case for shippi（教程）。There's an uncomfortable fact under all the WebMCP excitement, and the skeptics are right to keep raising it: As of June 2026, none of the mainstream AI agents actually call nav..."
+        "ai_summary": "【前端开发】Starl - a lightweight, no ads and offline music player i bee（开源）。It's a little project i'm working on It has no ads, it's supa well documented and handles perfectly playing offline。I'm planning to make it completely selfhost-able, for now im ..."
       },
       {
-        "title": "From Curious to Confident: How I Use AI APIs Without Being a Machine Learning Expert",
-        "describe": "I remember staring at a research paper on transformer architectures back in 2020, feeling like I was trying to read ancient Greek. The math alone—attention mechanisms, positional encodings, multi-headed self-attention—made me wonder if I’d ever be able to build anything useful with AI. Fast forward to today, and I’ve shipped three apps that use large language models under the hood. I still can’t explain the math behind a transformer. And honestly? I don’t need to. You don’t need a PhD to build with AI. You need the right API key and about 10 lines of code. That’s it. I say this as someone w...",
-        "media": [],
-        "origin_url": "https://dev.to/shadie_ai/from-curious-to-confident-how-i-use-ai-apis-without-being-a-machine-learning-expert-3n74",
-        "published": "2026-06-20T00:56:06+00:00",
+        "title": "Buy Facebook Accounts with Established Activity History",
+        "describe": "Understanding the Value of an Established Facebook Presence A strong Facebook presence has become an important asset for businesses, marketers, creators, and organizations looking to connect with their audiences online. Many people focus on account age or activity history because they believe these factors automatically create trust. In reality, trust on Facebook is built through authentic engagement, consistent activity, and meaningful interactions with real users. Businesses that invest in developing a genuine presence often achieve better long-term results than those seeking shortcuts. A...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fil77or3p7icpvnuk3lw6.jpg"
+        ],
+        "origin_url": "https://dev.to/naim_info_04962d5d2b3443d/buy-facebook-accounts-with-established-activity-history-487k",
+        "published": "2026-06-20T19:46:03+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】From Curious to Confident: How I Use AI APIs Without Being a（架构）。I remember staring at a research paper on transformer architectures back in 2020, feeling like I was trying to read ancient Greek。The math alone—attention mechanisms, positional..."
+        "ai_summary": "【前端开发】Buy Facebook Accounts with Established Activity History。Understanding the Value of an Established Facebook Presence A strong Facebook presence has become an important asset for businesses, marketers, creators, and organizations looki..."
       },
       {
-        "title": "I Ship Paid APIs in a Weekend. Here's the Exact Stack I Use Every Time.",
-        "describe": "I've shipped three paid API products in the past six months. Each one took a weekend to reach a working, billable state — users signing up, generating API keys, making authenticated requests, and paying me through Stripe. Not because I'm fast. Because the infrastructure is the same every time. Auth is the same. API key management is the same. Stripe billing is the same. Rate limiting, usage tracking, the dashboard — all the same. The only thing that changes is the business logic behind the endpoints. After the third time wiring Stripe webhooks to Supabase to API key validation, I wrote down...",
-        "media": [],
-        "origin_url": "https://dev.to/mr_hamlin/i-ship-paid-apis-in-a-weekend-heres-the-exact-stack-i-use-every-time-5166",
-        "published": "2026-06-20T00:10:11+00:00",
+        "title": "Building a live interactive globe with JavaScript, SEO pages, and one-time payments",
+        "describe": "I’ve been building a web project called The Signal. The idea is simple: A person opens a live globe, chooses a city, claims a light, and leaves one public sentence. That sentence can be a thought, a memory, a dedication, a message to someone, or just a small mark that they were here. I wanted to build something that feels different from a normal social feed. No endless scrolling as the main experience. No chasing likes as the core mechanic. More like a shared map of small human traces. Why a globe? A globe makes the idea feel physical. A sentence is not just floating in a feed. It belongs s...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1wyomh5pzucmx73gaol3.png"
+        ],
+        "origin_url": "https://dev.to/zaghost/i-built-a-live-globe-where-people-leave-one-sentence-from-their-city-3hf8",
+        "published": "2026-06-20T19:31:24+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】I Ship Paid APIs in a Weekend. Here's the Exact Stack I Use 。I've shipped three paid API products in the past six months。Each one took a weekend to reach a working, billable state — users signing up, generating API keys, making authentica..."
+        "ai_summary": "【前端开发】Building a live interactive globe with JavaScript, SEO pages。I’ve been building a web project called The Signal。The idea is simple: A person opens a live globe, chooses a city, claims a light, and leaves one public sentence"
       },
       {
-        "title": "I'm Building a Production-Grade Spring Boot + React App, One Feature a Day (Day 1)",
-        "describe": "I just finished a 50-day \"new tech every day\" series. For the next 50 days I'm doing the opposite: ONE production-grade app, one feature a day — and building both the Spring Boot backend AND the React frontend each day. This is Day 1. The app: OrderHub , an e-commerce order-fulfillment backend that will grow into a real event-driven microservices system (Redis → Kafka → sagas → Kubernetes). But today it starts where every solid service starts: a clean REST API with a proper layered architecture. 🌐 Live UI: https://frontend-pied-six-23.vercel.app 👉 Repo (read the commits in order): https://g...",
-        "media": [],
-        "origin_url": "https://dev.to/dev48v/im-building-a-production-grade-spring-boot-react-app-one-feature-a-day-day-1-26f7",
-        "published": "2026-06-20T00:01:29+00:00",
-        "source_label": "DEV Community (React)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】I'm Building a Production-Grade Spring Boot + React App, One（架构）。I just finished a 50-day \"new tech every day\" series。For the next 50 days I'm doing the opposite: ONE production-grade app, one feature a day — and building both the Spring Boot..."
-      },
-      {
-        "title": "Migrating Ekehi from Vanilla JS to a TypeScript Stack",
-        "describe": "Ekehi platform has moved from hand-written HTML/CSS/JS pages to a typed, component-driven React 19 client and a module-based TypeScript Express/Node.js API. 0. Where we started and where we landed Before. A static client built from per-page folders ( landing/ , contributors/ , login/ , signup/ , admin/ ), each shipping its own index.html , a shared styles.css , and vanilla ES module scripts under client/shared/ . The server was an Express API written in plain JavaScript. After. Layer Before After Client Static HTML + CSS + vanilla JS React 19 + Vite 8 + TanStack Router + TypeScript 6 Stylin...",
-        "media": [],
-        "origin_url": "https://dev.to/aj1732/migrating-ekehi-from-vanilla-js-to-a-typescript-stack-16nm",
-        "published": "2026-06-19T21:20:09+00:00",
-        "source_label": "DEV Community (React)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】Migrating Ekehi from Vanilla JS to a TypeScript Stack。Ekehi platform has moved from hand-written HTML/CSS/JS pages to a typed, component-driven React 19 client and a module-based TypeScript Express/Node。Where we started and where w..."
-      },
-      {
-        "title": "YINI Config Format reaches RC 6 - clearer strings, stricter parsing, and growing tooling ecosystem",
-        "describe": "YINI Specification RC 6 is now released The YINI configuration format has reached Specification Release Candidate 6 . YINI is a configuration format designed to feel familiar if you like INI-style files, but designed to bring more explicit structure, clarity, useful data types, and predictable parsing rules to real-world configuration needs.. The short version: @yini ^ App name = \"Example\" version = \"1.0.0\" debug = false ^^ Server host = \"127.0.0.1\" port = 8080 ^^ Features enabled = [ \"auth\", \"logging\", \"metrics\", ] YINI tries to sit somewhere between classic INI, JSON, TOML, and YAML: More...",
-        "media": [],
-        "origin_url": "https://dev.to/marko_kseppnen_6250a7f/yini-config-format-specification-rc-6-released-clearer-strings-stricter-parsing-and-growing-2n6k",
-        "published": "2026-06-19T21:14:38+00:00",
+        "title": "I just updated opencode-hexz and this whats new",
+        "describe": "Over the past few days, I've been improving HEXZ , an upgrade layer for OpenCode focused on security workflows, design generation, project memory, and AI output quality. This release isn't a major feature drop, but it improves several areas that affect day-to-day usage. Table Of Contents What's New Reduced AI Slop Installation Fixes Why I'm Building HEXZ The Repository What's New MiMo Code Support One of the biggest additions in this update is support for MiMo Code . HEXZ can now integrate with MiMo Code workflows, making it easier to use the same upgrade layer across different coding envir...",
+        "media": [
+          "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
+          "https://camo.githubusercontent.com/c090e080484e2a2bc766446291d04437db823929042bf614b26a1643660ddf6f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d627269676874677265656e3f7374796c653d666c61742d737175617265",
+          "https://camo.githubusercontent.com/eeb31b58d1bd4c9f7f1e8349dc2b1b182860b0a2d8df6b03b57864290be1b8e6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d76312e352e302d626c756576696f6c65743f7374796c653d666c61742d737175617265",
+          "https://camo.githubusercontent.com/b133f8738e2b358f9bbe2771c4a14f78fee41419e3e46232b1e435445dc06ae9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d2d6c696e75782532302537432532306d61634f5325323025374325323077696e646f77732d6f72616e67653f7374796c653d666c61742d737175617265",
+          "https://camo.githubusercontent.com/9c7a8096daecd9b19a77bc7d8237cfb34849e521e7c91dad677c0211149f4508/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72756e74696d652d62756e2d6662663064663f7374796c653d666c61742d737175617265266c6f676f3d62756e266c6f676f436f6c6f723d626c61636b"
+        ],
+        "origin_url": "https://dev.to/hexzonetwork/i-just-updated-opencode-hexz-and-this-whats-new-3d38",
+        "published": "2026-06-20T19:15:25+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】YINI Config Format reaches RC 6 - clearer strings, stricter （开源）。YINI Specification RC 6 is now released The YINI configuration format has reached Specification Release Candidate 6。YINI is a configuration format designed to feel familiar if y..."
-      },
-      {
-        "title": "Building SyncCanvas: An AI-Powered Real-Time Collaborative Whiteboard",
-        "describe": "Modern collaboration needs more than documents and chat messages. Teams need a shared visual space where ideas can be created, organized, and refined together in real time. That's why I built SyncCanvas — an AI-powered collaborative whiteboard that combines real-time multiplayer collaboration, infinite canvas drawing, and AI-assisted brainstorming into one modern workspace. The Problem Most collaboration tools focus on only one aspect of teamwork. Some are great for drawing. Others are excellent for documentation. AI tools often live in separate windows, disconnected from the creative workf...",
-        "media": [],
-        "origin_url": "https://dev.to/rishibyte/building-synccanvas-an-ai-powered-real-time-collaborative-whiteboard-4f24",
-        "published": "2026-06-19T21:10:21+00:00",
-        "source_label": "DEV Community (React)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】Building SyncCanvas: An AI-Powered Real-Time Collaborative W。Modern collaboration needs more than documents and chat messages。Teams need a shared visual space where ideas can be created, organized, and refined together in real time"
+        "ai_summary": "【前端开发】I just updated opencode-hexz and this whats new（开源/安全）。Over the past few days, I've been improving HEXZ , an upgrade layer for OpenCode focused on security workflows, design generation, project memory, and AI output quality。This rel..."
       }
     ],
     "backend": [
       {
-        "title": "Automating Kubernetes Cost Optimization with AI: The Next Frontier in DevOps",
-        "describe": "Kubernetes has revolutionized cloud infrastructure by enabling scalable and resilient applications. However, with growing clusters comes a growing challenge—managing cloud costs. Overprovisioned resources, idle nodes, and inefficient scaling often result in unnecessary spending. Artificial Intelligence is changing this landscape by introducing predictive analytics and intelligent automation. Instead of manually optimizing infrastructure, organizations can now leverage AI to continuously monitor workloads, forecast demand, and optimize resources automatically. Why Kubernetes Costs Become Dif...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fb5w7mrnpk2vqht2zwww5.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm8avd5s8xjn65xdqgb5l.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5zzm6w0r1rm9fuoygvrl.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyvoouitywh5ie0pvrpty.png"
-        ],
-        "origin_url": "https://dev.to/keerthana_mokila_b10a0bd6/automating-kubernetes-cost-optimization-with-ai-the-next-frontier-in-devops-111e",
-        "published": "2026-06-20T04:32:27+00:00",
+        "title": "Middleware System",
+        "describe": "Project Code： https://github.com/hyperlane-dev/hyperlane Introduction Middleware is one of the most powerful features of Hyperlane. It allows you to intercept and process requests and responses at various stages of the request lifecycle. Whether you need authentication, logging, CORS headers, or custom request transformation, Hyperlane's middleware system provides a clean and flexible way to implement these cross-cutting concerns. Understanding the Middleware Architecture Hyperlane's middleware system is built around the ServerHook trait. A middleware is any type that implements ServerHook ...",
+        "media": [],
+        "origin_url": "https://dev.to/tengxgfyrz67s/middleware-system-3dmc",
+        "published": "2026-06-21T00:02:36+00:00",
+        "source_label": "DEV Community (Backend)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】Middleware System（开源/架构）。Project Code： https://github。com/hyperlane-dev/hyperlane Introduction Middleware is one of the most powerful features of Hyperlane"
+      },
+      {
+        "title": "Request Handling",
+        "describe": "Project Code： https://github.com/hyperlane-dev/hyperlane Introduction Handling incoming HTTP requests is at the core of any web server. Hyperlane provides a rich set of tools for extracting data from requests, including headers, query parameters, request body, and route parameters. This article covers all the ways you can access request data in Hyperlane. Accessing Basic Request Information Hyperlane's Context object provides methods to access all the fundamental parts of an HTTP request: let method = ctx .get_request () .get_method (); let path = ctx .get_request () .get_path (); let host ...",
+        "media": [],
+        "origin_url": "https://dev.to/tengxgfyrz67s/request-handling-gp4",
+        "published": "2026-06-20T23:56:36+00:00",
+        "source_label": "DEV Community (Backend)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】Request Handling（开源）。Project Code： https://github。com/hyperlane-dev/hyperlane Introduction Handling incoming HTTP requests is at the core of any web server"
+      },
+      {
+        "title": "Trunk-Based Development Working for Salesforce Without a Single Org",
+        "describe": "I've wanted easy trunk-based development for Salesforce for years. Short-lived branches, frequent merges, small pull requests, and CI fast enough that developers aren't afraid to commit. The same practices that engineering teams use everywhere else. Every time I tried to make it work, I hit the same wall: Apex tests require an org. That single dependency turns every validation run into an infrastructure problem. Before a test can execute, you need authentication, environment provisioning, metadata deployment, test execution, and cleanup. The result is feedback loops measured in minutes inst...",
+        "media": [],
+        "origin_url": "https://dev.to/oblitus/trunk-based-development-working-for-salesforce-without-a-single-org-531f",
+        "published": "2026-06-20T23:54:18+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Automating Kubernetes Cost Optimization with AI: The Next Fr（性能）。Kubernetes has revolutionized cloud infrastructure by enabling scalable and resilient applications。However, with growing clusters comes a growing challenge—managing cloud costs"
+        "ai_summary": "【后端 / 架构】Trunk-Based Development Working for Salesforce Without a Sin。I've wanted easy trunk-based development for Salesforce for years。Short-lived branches, frequent merges, small pull requests, and CI fast enough that developers aren't afraid to..."
       },
       {
-        "title": "Middleware-System",
-        "describe": "Middleware System Project Code： https://github.com/hyperlane-dev/hyperlane Introduction Middleware is one of the most powerful features of Hyperlane. It allows you to intercept and process requests and responses at various stages of the request lifecycle. Whether you need authentication, logging, CORS headers, or custom request transformation, Hyperlane's middleware system provides a clean and flexible way to implement these cross-cutting concerns. Understanding the Middleware Architecture Hyperlane's middleware system is built around the ServerHook trait. A middleware is any type that impl...",
+        "title": "Routing Basics",
+        "describe": "Project Code： https://github.com/hyperlane-dev/hyperlane Introduction Routing is the mechanism by which an HTTP server maps incoming requests to the appropriate handler. In Hyperlane, routing is both flexible and powerful, supporting static routes, dynamic path parameters, regex-based matching, and route filtering. This article covers everything you need to know about setting up routes in Hyperlane. Static Routes The simplest form of routing is a static route, which matches an exact URL path: server .route :: < Route > ( \"/test\" ); This registers a route that only matches requests to the ex...",
         "media": [],
-        "origin_url": "https://dev.to/tengxgfyrz67s/middleware-system-5e1l",
-        "published": "2026-06-20T04:11:28+00:00",
+        "origin_url": "https://dev.to/tengxgfyrz67s/routing-basics-4551",
+        "published": "2026-06-20T23:50:35+00:00",
         "source_label": "DEV Community (Backend)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Middleware-System（开源/架构）。Middleware System Project Code： https://github。com/hyperlane-dev/hyperlane Introduction Middleware is one of the most powerful features of Hyperlane"
+        "ai_summary": "【后端 / 架构】Routing Basics（开源）。Project Code： https://github。com/hyperlane-dev/hyperlane Introduction Routing is the mechanism by which an HTTP server maps incoming requests to the appropriate handler"
       },
       {
-        "title": "The Real Cost of Idle Pods in Kubernetes",
-        "describe": "💸 Are Idle Pods Quietly Increasing Your Kubernetes Bill? Many Kubernetes teams focus on scaling applications but overlook a major source of cloud waste: idle pods. Even when pods are barely doing any work, they can continue consuming CPU, memory, and storage resources—leading to higher cloud costs and lower cluster efficiency. In my latest blog, I explore: ✅ What idle pods are ✅ Why they increase cloud spending ✅ Common reasons they exist ✅ How to identify underutilized workloads ✅ Practical ways to optimize Kubernetes costs If you're working with Kubernetes, cloud infrastructure, DevOps, o...",
+        "title": "Getting Started with Hyperlane",
+        "describe": "Project Code： https://github.com/hyperlane-dev/hyperlane Introduction Hyperlane is a lightweight, high-performance, cross-platform Rust HTTP server library built on top of Tokio. It provides a powerful and flexible foundation for building web applications and APIs with Rust. Whether you're creating a simple REST API or a complex web service, Hyperlane offers the tools and performance you need to get the job done efficiently. What sets Hyperlane apart is its focus on developer productivity without sacrificing performance. The library provides two complementary APIs: a straightforward program...",
         "media": [],
-        "origin_url": "https://dev.to/zaved_akthar_7227/the-real-cost-of-idle-pods-in-kubernetes-2549",
-        "published": "2026-06-20T04:07:21+00:00",
+        "origin_url": "https://dev.to/tengxgfyrz67s/getting-started-with-hyperlane-41ei",
+        "published": "2026-06-20T23:38:35+00:00",
+        "source_label": "DEV Community (Backend)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】Getting Started with Hyperlane（开源/性能）。Project Code： https://github。com/hyperlane-dev/hyperlane Introduction Hyperlane is a lightweight, high-performance, cross-platform Rust HTTP server library built on top of Tokio"
+      },
+      {
+        "title": "Building Resilient Automation Stacks for Incident Survival",
+        "describe": "Introduction to Resilient Automation Automating workflows and processes is crucial for modern organizations, but it's equally important to ensure that these automated systems can survive incidents without human intervention. At OpsVeritas, we've seen firsthand how a well-designed automation stack can minimize downtime and reduce the burden on operations teams. In this article, we'll explore the key principles and strategies for building a resilient automation stack that can withstand incidents and keep your systems running smoothly. Understanding the Importance of Resilience A resilient aut...",
+        "media": [],
+        "origin_url": "https://dev.to/opsveritas/building-resilient-automation-stacks-for-incident-survival-6fp",
+        "published": "2026-06-20T23:01:02+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】The Real Cost of Idle Pods in Kubernetes（教程/性能）。💸 Are Idle Pods Quietly Increasing Your Kubernetes Bill。Many Kubernetes teams focus on scaling applications but overlook a major source of cloud waste: idle pods"
+        "ai_summary": "【后端 / 架构】Building Resilient Automation Stacks for Incident Survival。Introduction to Resilient Automation Automating workflows and processes is crucial for modern organizations, but it's equally important to ensure that these automated systems ca..."
       },
       {
-        "title": "Defeating Webhook Storms: Idempotency in Laravel 🛑",
-        "describe": "The Double-Billing Nightmare When integrating with enterprise payment processors like Stripe or enterprise CRMs at Smart Tech Devs, relying on webhooks is mandatory. However, distributed systems are inherently chaotic. If Stripe sends your API a charge.succeeded webhook, it expects a 200 OK HTTP response within 3 seconds. If your Laravel server takes 4 seconds to provision the user's workspace, Stripe assumes the delivery failed and fires a retry . Now your server is processing the exact same $5,000 enterprise charge a second time. Suddenly, you have provisioned two workspaces, dispatched t...",
+        "title": "Supervising 13 always-on processes without Kubernetes: the log-freshness health check that ended my 3 a.m. babysitting",
+        "describe": "I'm a solo builder. At any given moment I have a handful of always-on processes earning, scraping, or thinking on my behalf: a Polymarket crash-recovery trading bot, a weekly site-scraper that regenerates a ~14k-entry directory, a couple of API servers, a secret-scanner, a DB-retention job, and a few scheduled agents that call an LLM to review strategy or hunt vulnerabilities. Thirteen in total. For months these lived as a mess of launchd plists, loose crontab lines, and nohup … & processes I'd forget about until one silently died — and I'd notice days later, usually because a number on a d...",
         "media": [],
-        "origin_url": "https://dev.to/iprajapatiparesh/defeating-webhook-storms-idempotency-in-laravel-36i0",
-        "published": "2026-06-20T04:06:07+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Defeating Webhook Storms: Idempotency in Laravel 🛑。The Double-Billing Nightmare When integrating with enterprise payment processors like Stripe or enterprise CRMs at Smart Tech Devs, relying on webhooks is mandatory。However, dis..."
-      },
-      {
-        "title": "Logging-and-Monitoring",
-        "describe": "Logging and Monitoring Project Code： https://github.com/hyperlane-dev/hyperlane Observability is a critical aspect of running production web servers. Without proper logging and monitoring, diagnosing performance issues, tracking errors, and understanding traffic patterns becomes nearly impossible. In this article, we'll explore how to set up comprehensive logging and monitoring for Hyperlane applications using the hyperlane-log ecosystem. The Importance of Logging Logging serves multiple purposes in a production system: Debugging : When something goes wrong, logs provide the context needed ...",
-        "media": [],
-        "origin_url": "https://dev.to/tengxgfyrz67s/logging-and-monitoring-44pi",
-        "published": "2026-06-20T04:05:10+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Logging-and-Monitoring（教程/开源）。Logging and Monitoring Project Code： https://github。com/hyperlane-dev/hyperlane Observability is a critical aspect of running production web servers"
-      },
-      {
-        "title": "I Built a Local-First Kafka GUI From Scratch to Handle Massive Clusters",
-        "describe": "Every data engineer or backend developer who has worked with Apache Kafka eventually runs into the same wall: tooling . For a long time, I felt stuck between two extremes: older, native desktop apps that look like they were built two decades ago, or beautiful modern web consoles that lock up or timeout the second a cluster scales to hundreds of topics and gigabytes of metadata. I hit that breaking point on my own projects. I was tired of synchronous network bottlenecks freezing my interface during critical debugging sessions, so I decided to build the tool I actually wanted to use: Watermar...",
-        "media": [],
-        "origin_url": "https://dev.to/kezlo/i-built-a-local-first-kafka-gui-from-scratch-to-handle-massive-clusters-cnp",
-        "published": "2026-06-20T04:03:15+00:00",
+        "origin_url": "https://dev.to/manja316/supervising-13-always-on-processes-without-kubernetes-the-log-freshness-health-check-that-ended-my-4g4l",
+        "published": "2026-06-20T22:54:36+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】I Built a Local-First Kafka GUI From Scratch to Handle Massi（架构）。Every data engineer or backend developer who has worked with Apache Kafka eventually runs into the same wall: tooling。For a long time, I felt stuck between two extremes: older, ..."
+        "ai_summary": "【后端 / 架构】Supervising 13 always-on processes without Kubernetes: the l。I'm a solo builder。At any given moment I have a handful of always-on processes earning, scraping, or thinking on my behalf: a Polymarket crash-recovery trading bot, a weekly sit..."
       },
       {
-        "title": "IAM Essentials, Identity & Access Management: Roles, Policies, Groups, EC2 & Service Principals",
-        "describe": "🧭 What This Session Covers Think of this session as answering one big question: \"Who can do what, on which AWS resource — and how do we control that?\" Topics flow in this order: Why IAM even exists (AAA Framework) Root vs IAM User MFA Groups, Roles, Service Principals Policies (Identity-based & Resource-based) ARN — What it is IAM Instance Profile → EC2 accessing S3 Role Switching & Assume Role EC2 Basics + Key-Pair + AMI AWS Pricing Calculator ❓ SECTION 1 — Why IAM? (Your Question Answered) \"I have my computer, my credentials, I'll just log into Root — why bother with IAM?\" Here's the hone...",
+        "title": "What is inference engineering? Deepdive",
+        "describe": "submitted by /u/fagnerbrack [link] [comments]",
         "media": [],
-        "origin_url": "https://dev.to/tejas_shinkar/iam-essentials-identity-access-management-roles-policies-groups-ec2-service-principals-m00",
-        "published": "2026-06-20T04:02:06+00:00",
+        "origin_url": "https://www.reddit.com/r/programming/comments/1ub9b9b/what_is_inference_engineering_deepdive/",
+        "published": "2026-06-20T22:24:51+00:00",
+        "source_label": "Reddit r/programming",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】What is inference engineering? Deepdive。submitted by /u/fagnerbrack [link] [comments]"
+      },
+      {
+        "title": "Not Everyone Needs Kubernetes",
+        "describe": "A few months ago, while discussing the architecture for a new client project, a junior engineer on the team asked, \"Of course we'll use Kubernetes, right?\" At that moment, I thought to myself, \"No, of course we won't!\" because my 20 years of experience have taught me that not every shiny technology is a panacea. Kubernetes is undoubtedly a powerful tool, but it's not suitable for every project, every budget, or every team. This question actually reflects a common misconception I encounter in the industry: the idea that every new project, regardless of its complexity, should start with the m...",
+        "media": [],
+        "origin_url": "https://dev.to/merbayerp/not-everyone-needs-kubernetes-3m32",
+        "published": "2026-06-20T21:56:03+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】IAM Essentials, Identity & Access Management: Roles, Policie。🧭 What This Session Covers Think of this session as answering one big question: \"Who can do what, on which AWS resource — and how do we control that。\" Topics flow in this order:..."
+        "ai_summary": "【后端 / 架构】Not Everyone Needs Kubernetes（架构）。A few months ago, while discussing the architecture for a new client project, a junior engineer on the team asked, \"Of course we'll use Kubernetes, right。\" At that moment, I tho..."
       },
       {
-        "title": "Database-Integration",
-        "describe": "Database Integration with Hyperlane Project Code： https://github.com/hyperlane-dev/hyperlane Introduction Hyperlane is a lightweight, high-performance, cross-platform Rust HTTP server library built on top of Tokio. While hyperlane itself focuses on HTTP handling and middleware, real-world applications almost always need to interact with databases. This article explores how to integrate MySQL, PostgreSQL, and Redis into your hyperlane-based applications, covering connection pool configuration, best practices, and practical code examples. Table of Contents Overview of Database Integration MyS...",
+        "title": "100 Days of DevOps, Day 1: Linux User Management and AWS Key Pairs",
+        "describe": "Doing the work and being able to explain the work are two different skills. I've had the first one for 8 years. I'm building the second one now. I'm a Cloud Platform Engineer. AWS, Kubernetes, Terraform, Linux. Regulated environments, healthcare, production systems. Real experience. Almost zero public documentation of it. That's the gap I'm closing, starting from Day 1. The platform is KodeKloud. Each session gives you tasks across multiple tools. I'm posting the Linux and AWS tasks here. Here's what I built and what actually matters about each one. Task 1 (Linux): Create a User with a Non-...",
         "media": [],
-        "origin_url": "https://dev.to/tengxgfyrz67s/database-integration-41l5",
-        "published": "2026-06-20T03:38:22+00:00",
+        "origin_url": "https://dev.to/ndcodes/100-days-of-devops-day-1-linux-user-management-and-aws-key-pairs-3bci",
+        "published": "2026-06-20T21:46:34+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】100 Days of DevOps, Day 1: Linux User Management and AWS Key。Doing the work and being able to explain the work are two different skills。I've had the first one for 8 years"
+      },
+      {
+        "title": "Building a Reliable Messaging Workflow for Automated Guest Communication",
+        "describe": "Automated messaging is a core feature of many SaaS platforms, especially in industries where real‑time communication matters. In short‑term rentals, guests expect instant confirmations, reminders, check‑in instructions, and follow‑up messages. A reliable messaging workflow ensures that every message is delivered on time, without duplicates or delays. Why messaging workflows fail Messaging systems often break for predictable reasons: external email/SMS providers fail, rate limits are exceeded, messages are sent twice due to retries, templates change without versioning, events arrive out of o...",
+        "media": [],
+        "origin_url": "https://dev.to/sergey_3c52385cf547dee766/building-a-reliable-messaging-workflow-for-automated-guest-communication-4j3p",
+        "published": "2026-06-20T21:28:02+00:00",
         "source_label": "DEV Community (Backend)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Database-Integration（教程/开源）。Database Integration with Hyperlane Project Code： https://github。com/hyperlane-dev/hyperlane Introduction Hyperlane is a lightweight, high-performance, cross-platform Rust HTTP ..."
+        "ai_summary": "【后端 / 架构】Building a Reliable Messaging Workflow for Automated Guest C。Automated messaging is a core feature of many SaaS platforms, especially in industries where real‑time communication matters。In short‑term rentals, guests expect instant confirm..."
       },
       {
-        "title": "Database-Integration",
-        "describe": "Database Integration with Hyperlane Project Code： https://github.com/hyperlane-dev/hyperlane Introduction Hyperlane is a lightweight, high-performance, cross-platform Rust HTTP server library built on top of Tokio. While hyperlane itself focuses on HTTP handling and middleware, real-world applications almost always need to interact with databases. This article explores how to integrate MySQL, PostgreSQL, and Redis into your hyperlane-based applications, covering connection pool configuration, best practices, and practical code examples. Table of Contents Overview of Database Integration MyS...",
+        "title": "Why Modular Architecture Makes SaaS Platforms Easier to Scale",
+        "describe": "As SaaS platforms grow, the codebase becomes harder to maintain. Features expand, integrations multiply, and the system starts to feel tightly coupled. Modular architecture solves this problem by splitting the platform into independent, self‑contained components that evolve without breaking each other. What modular architecture means A modular system is built from isolated components that communicate through well‑defined interfaces. Each module has: its own logic, its own data boundaries, its own responsibilities, minimal knowledge about other modules. This separation reduces complexity and...",
         "media": [],
-        "origin_url": "https://dev.to/tengxgfyrz67s/database-integration-1gad",
-        "published": "2026-06-20T03:27:40+00:00",
+        "origin_url": "https://dev.to/sergey_3c52385cf547dee766/why-modular-architecture-makes-saas-platforms-easier-to-scale-3n4g",
+        "published": "2026-06-20T21:25:23+00:00",
         "source_label": "DEV Community (Backend)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Database-Integration（教程/开源）。Database Integration with Hyperlane Project Code： https://github。com/hyperlane-dev/hyperlane Introduction Hyperlane is a lightweight, high-performance, cross-platform Rust HTTP ..."
-      },
-      {
-        "title": "Creating-and-Running-a-Server",
-        "describe": "Creating and Running a Server Project Code： https://github.com/hyperlane-dev/hyperlane Introduction The server is the heart of any web application. In Hyperlane, creating and running a server is designed to be straightforward while providing the flexibility needed for complex deployment scenarios. This article covers all the ways to create a server, how to start and stop it, and how to run multiple servers concurrently. Server Creation Methods Hyperlane provides three distinct ways to create a server, each suited to different use cases. Method 1: Default Server The simplest way to create a ...",
-        "media": [],
-        "origin_url": "https://dev.to/tengxgfyrz67s/creating-and-running-a-server-5ama",
-        "published": "2026-06-20T03:21:20+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Creating-and-Running-a-Server（教程/开源）。Creating and Running a Server Project Code： https://github。com/hyperlane-dev/hyperlane Introduction The server is the heart of any web application"
-      },
-      {
-        "title": "CORS-and-Security",
-        "describe": "CORS and Security in Hyperlane Project Code： https://github.com/hyperlane-dev/hyperlane Introduction Cross-Origin Resource Sharing (CORS) is a fundamental security mechanism in modern web browsers. It controls which web applications can access resources from different origins, playing a critical role in preventing unauthorized cross-origin requests. When building APIs and web services with hyperlane, understanding and properly configuring CORS is essential for both functionality and security. This article covers how to implement CORS in hyperlane applications, along with other security best...",
-        "media": [],
-        "origin_url": "https://dev.to/tengxgfyrz67s/cors-and-security-1g72",
-        "published": "2026-06-20T03:15:01+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】CORS-and-Security（教程/开源）。CORS and Security in Hyperlane Project Code： https://github。com/hyperlane-dev/hyperlane Introduction Cross-Origin Resource Sharing (CORS) is a fundamental security mechanism in ..."
-      },
-      {
-        "title": "Built-in Middleware Patterns",
-        "describe": "Built-in Middleware Patterns in Hyperlane Project Code： https://github.com/hyperlane-dev/hyperlane Hyperlane is a lightweight, high-performance, cross-platform Rust HTTP server library built on top of Tokio. One of its most powerful features is the middleware system, which allows developers to intercept and manipulate requests and responses in a clean, composable way. In this article, we will explore four essential middleware patterns that you can use to build robust web services: Authentication Middleware, CORS Middleware, Static File Middleware, and Timeout Middleware. Table of Contents O...",
-        "media": [],
-        "origin_url": "https://dev.to/tengxgfyrz67s/built-in-middleware-patterns-2p6c",
-        "published": "2026-06-20T03:04:20+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Built-in Middleware Patterns（开源/性能）。Built-in Middleware Patterns in Hyperlane Project Code： https://github。com/hyperlane-dev/hyperlane Hyperlane is a lightweight, high-performance, cross-platform Rust HTTP server ..."
+        "ai_summary": "【后端 / 架构】Why Modular Architecture Makes SaaS Platforms Easier to Scal（架构）。As SaaS platforms grow, the codebase becomes harder to maintain。Features expand, integrations multiply, and the system starts to feel tightly coupled"
       }
     ],
     "general": [
       {
-        "title": "The Rust Performance Trap I Hit While Sorting Small Network Datasets",
-        "describe": "The Rust Performance Trap I Hit While Sorting Small Network Datasets I recently ran into one of those performance problems that looks completely obvious in hindsight, but was surprisingly hard to notice while I was inside the code. I was working on a deep search and ranking part of a Rust project that processed network-related data. The system had to evaluate many small groups of candidates repeatedly. You can think of these candidates as possible network paths, intermediate nodes, route-like records, latency candidates, or weighted decisions inside a search tree. At each step, I had a smal...",
-        "media": [],
-        "origin_url": "https://dev.to/amirsefati/the-rust-performance-trap-i-hit-while-sorting-small-network-datasets-2gj5",
-        "published": "2026-06-20T04:58:26+00:00",
-        "source_label": "DEV Community",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】The Rust Performance Trap I Hit While Sorting Small Network （性能）。The Rust Performance Trap I Hit While Sorting Small Network Datasets I recently ran into one of those performance problems that looks completely obvious in hindsight, but was su..."
-      },
-      {
-        "title": "GB10 實測 DiffusionGemma 26B 挑戰 32K 極限",
-        "describe": "作為三平台評測的最終章（前兩篇為 M2 Max 96GB MLX 與 GH200 vLLM ），本篇將完整測試一下 GB10 的吞吐量表現、32K 長 Context 的速度代價、以及在 Podman 部署時讓人抓狂的 OOM 踩坑紀錄。 在數據的結果來看，155 tok/s，比 M2 Max 快了整整 10 倍！ 更重要的是，Context 長度一路從 2K 解鎖到 32K都成功Pass，直接與老大哥 GH200 站在同一條起跑線上，直到 32,600 tokens 才開始撞牆。 整體來說， NVIDIA GB10（Grace Blackwell 128GB）在執行 DiffusionGemma 26B 時，交出了一份令人驚艷的成績單，雖然 Context 拉長後，速度衰減得比 GH200 明顯，但實際串接在CLI 的使用體感與超高性價比，絕對是本地推理 Server 的首選。 測試環境：GB10 + vLLM，32K Context 達標 項目 內容 平台 NVIDIA GB10（Grace Blackwell），128 GB 統一記憶體 框架 vLLM 0.22.1rc1 模型 nvidia/diffusiongemma-26B-A4B-it-NVFP4 部署參數 --gpu-memory-utilization 0.7 --max-model-len 32768 --...",
-        "media": [],
-        "origin_url": "https://dev.to/jh5_pulse/gb10-shi-ce-diffusiongemma-26b-tiao-zhan-32k-ji-xian-43gj",
-        "published": "2026-06-20T04:54:12+00:00",
-        "source_label": "DEV Community",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】GB10 實測 DiffusionGemma 26B 挑戰 32K 極限。作為三平台評測的最終章（前兩篇為 M2 Max 96GB MLX 與 GH200 vLLM ），本篇將完整測試一下 GB10 的吞吐量表現、32K 長 Context 的速度代價、以及在 Podman 部署時讓人抓狂的 OOM 踩坑紀錄。在數據的結果來看，155 tok/s，比 M2 Max 快了整整 10 倍"
-      },
-      {
-        "title": "I Built 18 Free Developer Tools - Here's What I Learned",
-        "describe": "I Built 18 Free Developer Tools - Here's What I Learned Why I Built This As a developer, I was constantly switching between different online tools - some required signup, others were bloated with ads, and many lacked basic features. So I decided to build my own collection. Introducing DevTools Hub DevTools Hub is a free collection of 18+ online developer utilities, designed with privacy and simplicity in mind. 🛠️ Tools Included JSON Tools JSON Formatter & Validator - Beautify and validate JSON with syntax highlighting JSON to CSV Converter - Convert JSON to CSV format instantly Try JSON For...",
-        "media": [],
-        "origin_url": "https://dev.to/darshik_italiya_35cda323e/i-built-18-free-developer-tools-heres-what-i-learned-3pem",
-        "published": "2026-06-20T04:51:20+00:00",
-        "source_label": "DEV Community",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】I Built 18 Free Developer Tools - Here's What I Learned。I Built 18 Free Developer Tools - Here's What I Learned Why I Built This As a developer, I was constantly switching between different online tools - some required signup, others..."
-      },
-      {
-        "title": "Solstice Cipher: Routing Light to Crack Codes — A Puzzle Game for the June Solstice Game Jam",
-        "describe": "This is a submission for the June Solstice Game Jam What I Built The June solstice is the moment the sun reaches its peak — the longest day, the shortest shadow. I wanted to build a game where you become the sun. Solstice Cipher is an optical puzzle game where you manipulate light beams to decrypt hidden words. Each level gives you a sun emitter, a set of cipher glyphs hiding the letters of a secret word, and a briefcase full of optical tools. Your job: route the light beam through the correct sequence of glyphs to illuminate every letter and reveal the cipher. The game progresses through 1...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Furec534dbcexm32n9zkx.png",
-          "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
-          "https://camo.githubusercontent.com/88d3a824b0ec998c833e046b669e21b5730cc55be1da7c3db6a9435440049e83/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506c61795f6f6e5f5765622d736f6c73746963652d2d6369706865722d2d67616d652e76657263656c2e6170702d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d76657263656c",
-          "https://camo.githubusercontent.com/c78003e8be8add393d686aedf873c9142d917a55ad2bed2998bcae4b2cb4a366/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476f646f745f342e362d2532334646464646462e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d676f646f742d656e67696e65",
-          "https://camo.githubusercontent.com/e9c645b4f75fb6ee2166f95974252f40881834a0de450fbd754d4ffc9c98750b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506c6174666f726d2d576562253230253743253230416e64726f69642d626c75653f7374796c653d666f722d7468652d6261646765"
-        ],
-        "origin_url": "https://dev.to/fanioz/solstice-cipher-routing-light-to-crack-codes-a-puzzle-game-for-the-june-solstice-game-jam-lcc",
-        "published": "2026-06-20T04:48:53+00:00",
-        "source_label": "DEV Community",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】Solstice Cipher: Routing Light to Crack Codes — A Puzzle Gam。This is a submission for the June Solstice Game Jam What I Built The June solstice is the moment the sun reaches its peak — the longest day, the shortest shadow。I wanted to buil..."
-      },
-      {
-        "title": "Quick-Start-Guide",
-        "describe": "Quick Start Guide Project Code： https://github.com/hyperlane-dev/hyperlane Welcome to hyperlane — a lightweight, high-performance, cross-platform Rust HTTP server library built on top of Tokio. This guide will walk you through everything you need to know to get your first hyperlane server up and running in minutes. What is Hyperlane? Hyperlane is a Rust HTTP server framework designed for speed, simplicity, and developer productivity. Built on the battle-tested Tokio async runtime, it provides a clean and intuitive API for building web services, APIs, and real-time applications. Whether you'...",
-        "media": [],
-        "origin_url": "https://dev.to/tengxgfyrz67s/quick-start-guide-4oh8",
-        "published": "2026-06-20T04:48:29+00:00",
-        "source_label": "DEV Community",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】Quick-Start-Guide（教程/开源）。Quick Start Guide Project Code： https://github。com/hyperlane-dev/hyperlane Welcome to hyperlane — a lightweight, high-performance, cross-platform Rust HTTP server library built ..."
-      },
-      {
-        "title": "How to Let an AI Agent Generate Real PDFs (with an MCP server)",
-        "describe": "How to Let an AI Agent Generate Real PDFs (with an MCP server)",
-        "media": [],
-        "origin_url": "https://dev.to/gerardo_barrera_538fc60b7/how-to-let-an-ai-agent-generate-real-pdfs-with-an-mcp-server-28e3",
-        "published": "2026-06-20T04:37:27+00:00",
-        "source_label": "DEV Community",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】How to Let an AI Agent Generate Real PDFs (with an MCP serve（教程）。How to Let an AI Agent Generate Real PDFs (with an MCP server)"
-      },
-      {
-        "title": "How to Generate a PDF from JSON in Node.js (without a headless browser)",
-        "describe": "How to Generate a PDF from JSON in Node.js (without a headless browser)",
-        "media": [],
-        "origin_url": "https://dev.to/gerardo_barrera_538fc60b7/how-to-generate-a-pdf-from-json-in-nodejs-without-a-headless-browser-3i9h",
-        "published": "2026-06-20T04:29:56+00:00",
-        "source_label": "DEV Community",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】How to Generate a PDF from JSON in Node.js (without a headle（教程）。How to Generate a PDF from JSON in Node。js (without a headless browser)"
-      },
-      {
-        "title": "This Week in AI: Claude Goes Dark, SpaceX Buys Cursor for $60B",
-        "describe": "This Week in AI: June 12–18, 2026 Six days. That's how long two of Anthropic's most capable models have been offline because of a single letter from the Commerce Department. In the same six days, SpaceX bought a code editor for $60 billion, OpenAI's real financials leaked and they're worse than anyone guessed, and GitHub got so overloaded by AI agents that Microsoft had to borrow servers from Amazon to keep it online. Buckle up. Here's the week. The 60-second version 🔌 A government order took Claude Fable 5 and Mythos 5 offline on June 12 — and they're still down, six days later. 💰 SpaceX b...",
-        "media": [],
-        "origin_url": "https://dev.to/zyvop/this-week-in-ai-claude-goes-dark-spacex-buys-cursor-for-60b-1a9",
-        "published": "2026-06-20T04:27:37+00:00",
-        "source_label": "DEV Community",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】This Week in AI: Claude Goes Dark, SpaceX Buys Cursor for $6（开源）。This Week in AI: June 12–18, 2026 Six days。That's how long two of Anthropic's most capable models have been offline because of a single letter from the Commerce Department"
-      },
-      {
-        "title": "Safe SIMD in Rust, even on the inside",
+        "title": "Volunteer Responsibility Amnesty Day",
         "describe": "Comments",
         "media": [],
-        "origin_url": "https://shnatsel.medium.com/safe-simd-in-rust-even-on-the-inside-c6f1ff381828",
-        "published": "2026-06-20T04:16:28+00:00",
+        "origin_url": "https://volunteeramnestyday.net/",
+        "published": "2026-06-21T00:57:20+00:00",
         "source_label": "Lobsters",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Safe SIMD in Rust, even on the inside。Comments"
+        "ai_summary": "【综合干货】Volunteer Responsibility Amnesty Day。Comments"
       },
       {
-        "title": "I Trained a Neural Network on Real Medical Data and Fit It in 8.9 kB of Pure C",
-        "describe": "I want to be honest with you from the start: I didn't set out to write this article. I set out to answer a question I had about my own tool — can Hasaki do regression? — and somewhere between loading a dataset of 3,658 real patient records and watching a microcontroller predict blood pressure from 14 numbers, I realized the answer deserved to be written down. The Question Nobody Asked Hasaki is a command-line neural network trainer I built for embedded systems developers. You train a model on your desktop, and it exports a self-contained C header — weights, biases, and a predict() function ...",
+        "title": "Precision Medicine RAG: Building a Clinical Trial Search Engine with Hybrid Search and BGE-M3",
+        "describe": "In the world of Generative AI, there is a massive difference between asking for a \"pancake recipe\" and asking for \"eligibility criteria for phase III immunotherapy trials.\" In specialized fields like healthcare, a standard vector search often fails because medical terminology is dense, specific, and unforgiving. 🏥 Today, we are building a High-Precision Medical RAG (Retrieval-Augmented Generation) engine. We will move beyond simple semantic search by implementing Hybrid Search (Dense + Sparse vectors) using the powerhouse BGE-M3 model, storing it in Qdrant , and fine-tuning the results with...",
         "media": [],
-        "origin_url": "https://dev.to/alexrosito67/i-trained-a-neural-network-on-real-medical-data-and-fit-it-in-89-kb-of-pure-c-4e40",
-        "published": "2026-06-20T04:16:08+00:00",
+        "origin_url": "https://dev.to/beck_moulton/precision-medicine-rag-building-a-clinical-trial-search-engine-with-hybrid-search-and-bge-m3-5872",
+        "published": "2026-06-21T00:21:00+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】I Trained a Neural Network on Real Medical Data and Fit It i。I want to be honest with you from the start: I didn't set out to write this article。I set out to answer a question I had about my own tool — can Hasaki do regression"
+        "ai_summary": "【综合干货】Precision Medicine RAG: Building a Clinical Trial Search Eng。In the world of Generative AI, there is a massive difference between asking for a \"pancake recipe\" and asking for \"eligibility criteria for phase III immunotherapy trials。\" In s..."
       },
       {
-        "title": "I Built a Chrome Extension That Copies Code Identifiers Instantly",
-        "describe": "While solving SQL and coding problems on platforms like LeetCode, I found myself repeatedly selecting column names, table names, variables, and snippets just to copy and paste them into the editor. So I built CodeCopy. Features ⚡ Double-click any text to copy instantly ⚡ Drag-select text to copy automatically ⚡ Automatically returns focus to the editor ⚡ Works on coding platforms like LeetCode, HackerRank, Codeforces, and GeeksforGeeks ⚡ Lightweight and runs entirely in the browser The goal was simple: reduce small interruptions during problem-solving and keep the workflow focused on writin...",
+        "title": "I Built an Afriex MCP Prompt Cookbook So Developers Never Have to Stare at a Blank Prompt Again",
+        "describe": "A few weeks ago, I started exploring the Afriex MCP server. The setup was surprisingly straightforward. Connect your MCP client. Configure your API key. Verify the connection. Done. But then I ran into a different problem. Not a technical problem. A prompt problem. The Blank Prompt Problem Once everything was connected, I found myself staring at an empty prompt box. What should I ask? Sure, I could retrieve balances. I could create customers. I could generate virtual accounts. But what were the most useful workflows? What were the prompts that would actually help developers build real produ...",
         "media": [],
-        "origin_url": "https://dev.to/venkatesh_007/i-built-a-chrome-extension-that-copies-code-identifiers-instantly-12fe",
-        "published": "2026-06-20T04:12:03+00:00",
+        "origin_url": "https://dev.to/afriex/i-built-an-afriex-mcp-prompt-cookbook-so-developers-never-have-to-stare-at-a-blank-prompt-again-1i1b",
+        "published": "2026-06-21T00:17:23+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】I Built a Chrome Extension That Copies Code Identifiers Inst。While solving SQL and coding problems on platforms like LeetCode, I found myself repeatedly selecting column names, table names, variables, and snippets just to copy and paste t..."
+        "ai_summary": "【综合干货】I Built an Afriex MCP Prompt Cookbook So Developers Never Ha。A few weeks ago, I started exploring the Afriex MCP server。The setup was surprisingly straightforward"
       },
       {
-        "title": "How to Track Court Cases for Any Advocate in India — eCourtsIndia Guide",
-        "describe": "India has one of the largest judicial systems in the world — 25 High Courts, over 3,000 district courts, and millions of pending cases. For lawyers, litigants, and legal tech developers, tracking the status of cases is a daily necessity. In this post, I'll walk through how to use eCourtsIndia to track all active cases for any advocate across India's district and subordinate courts — and why this matters for developers building legal tech applications. The Problem: Case Tracking in India Is Fragmented India's eCourts Mission Mode Project digitized court records across the country. But the da...",
+        "title": "Stop reading to build a library. Start reading to solve a problem.",
+        "describe": "Most engineering reading lists are optimized for knowledge accumulation. Modern engineering rewards bottleneck elimination. Last week, a junior engineer showed me a \"Top 10 Books Every Engineer Should Read\" list. It looked almost identical to the lists I saw ten years ago. The same classics. The same process books. The same assumption: Read enough books and you'll become a better engineer. That's not how most high-performing teams learn. The best engineers I know don't build learning plans around books. They build learning plans around constraints. The Problem with standard reading lists Mo...",
         "media": [],
-        "origin_url": "https://dev.to/rchtjn2/how-to-track-court-cases-for-any-advocate-in-india-ecourtsindia-guide-24a3",
-        "published": "2026-06-20T04:09:41+00:00",
+        "origin_url": "https://dev.to/neilton_rocha_dev/stop-reading-to-build-a-library-start-reading-to-solve-a-problem-55ag",
+        "published": "2026-06-21T00:11:41+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】How to Track Court Cases for Any Advocate in India — eCourts（教程）。India has one of the largest judicial systems in the world — 25 High Courts, over 3,000 district courts, and millions of pending cases。For lawyers, litigants, and legal tech dev..."
+        "ai_summary": "【综合干货】Stop reading to build a library. Start reading to solve a pr（性能）。Most engineering reading lists are optimized for knowledge accumulation。Modern engineering rewards bottleneck elimination"
+      },
+      {
+        "title": "How to Get a New Site Indexed by Google in 2026 (What Works, What's a Waste)",
+        "describe": "Originally published on MRTD.NET — fast, sourced news on crypto security, cyber & SEO. The uncomfortable first lesson You built a clean site, submitted a sitemap, maybe pinged IndexNow — and Google still shows nothing. Here's the part most guides skip: getting indexed by Google and getting indexed by everything else are two different problems , and conflating them wastes weeks. We separate what actually moves Google in 2026 from the folklore that just feels productive. Bing, Yandex and ChatGPT are the easy half If you've set up IndexNow , you've largely solved discovery for Bing, Yandex, Na...",
+        "media": [],
+        "origin_url": "https://dev.to/mrtd/how-to-get-a-new-site-indexed-by-google-in-2026-what-works-whats-a-waste-8do",
+        "published": "2026-06-21T00:03:01+00:00",
+        "source_label": "DEV Community",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】How to Get a New Site Indexed by Google in 2026 (What Works,（教程/安全）。Originally published on MRTD。NET — fast, sourced news on crypto security, cyber & SEO"
+      },
+      {
+        "title": "知识即管线：KMM v0.0.2 如何让 AI Agent 不再「记了就忘」",
+        "describe": "AI Agent 的记忆系统通常只解决一个问题：「记住」。gbrain 存知识图谱，Hindsight 存向量，Memory tool 存偏好。三个仓库堆满数据，但你问 Agent「我上周看的那篇关于 Agent memory 的文章说了什么？」——它答不上来。不是因为记不住，是因为它的记忆系统没有「采集」这一层。 这就是 Knowledge-and-Memory-Management（KMM）的定位：不是另一个记忆数据库，而是一个 知识采集 → 精炼 → 召回 → 同步 的全链路插件。v0.0.2 把这条链路做完了。 架构思路：把「采集」和「记忆」解耦 KMM 不做记忆存储，它只做三件事： 采集 — 从 40+ 工具把原始知识拉进来 精炼 — 把原始材料变成结构化笔记 + 知识图谱节点 同步 — 写 OneDrive，让所有设备共享同一个知识池 下方是三层采集管线示意： 层 工具数 代表工具 网页 9 Scrapling (CF 绕过)、Chrome DevTools Protocol、GStack Browser 视频 12 抖音批量转录、yt-dlp、Whisper ASR (99 语种) 文档 9 SenseNova PDF/PPT/Word 引擎、MinerU、book_cache (710+ 本) 3 层召回：不让任何一条知识掉队 搜索时先查本地 FTS5（毫秒级...",
+        "media": [],
+        "origin_url": "https://dev.to/manoir_yantai_f22f01340f0/zhi-shi-ji-guan-xian-kmm-v002-ru-he-rang-ai-agent-bu-zai-ji-liao-jiu-wang--4pnc",
+        "published": "2026-06-21T00:02:53+00:00",
+        "source_label": "DEV Community",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】知识即管线：KMM v0.0.2 如何让 AI Agent 不再「记了就忘」。AI Agent 的记忆系统通常只解决一个问题：「记住」。gbrain 存知识图谱，Hindsight 存向量，Memory tool 存偏好"
+      },
+      {
+        "title": "AI credits are the new lines of code metric",
+        "describe": "GitHub added a tiny field to the Copilot usage metrics API this week that is going to create a lot of very confident spreadsheets. Enterprise and organization admins can now see ai_credits_used in the user-level Copilot usage reports. One field. Per user. Available for single-day and 28-day reports. It is not the invoice, and GitHub is careful to say it is a consumption signal rather than a billed total. Still, the shape is obvious. Now AI usage can sit next to adoption, activity, team, department, cost center, and whatever else the company already exports into a dashboard. That is useful. ...",
+        "media": [],
+        "origin_url": "https://dev.to/pvgomes/ai-credits-are-the-new-lines-of-code-metric-4pgb",
+        "published": "2026-06-21T00:01:45+00:00",
+        "source_label": "DEV Community",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】AI credits are the new lines of code metric（开源）。GitHub added a tiny field to the Copilot usage metrics API this week that is going to create a lot of very confident spreadsheets。Enterprise and organization admins can now see ..."
+      },
+      {
+        "title": "The Hybrid Architecture: Blending Physical IoT with Cloud Computing",
+        "describe": "As software engineers, we often architect solutions in a virtual ideal: fast networks, elastic resources, and servers that never physically degrade. But what happens when your carefully crafted systems need to interact with the messy, unpredictable physical world? Think factory floor monitors, real estate camera networks, or remote tracking devices. Suddenly, those cloud assumptions about infinite uptime and perfect connectivity crumble. My journey, particularly architecting and maintaining a continuous 24/7 camera livestream for a real estate group over six years, has been a masterclass in...",
+        "media": [],
+        "origin_url": "https://dev.to/klytron/the-hybrid-architecture-blending-physical-iot-with-cloud-computing-5120",
+        "published": "2026-06-21T00:01:17+00:00",
+        "source_label": "DEV Community",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】The Hybrid Architecture: Blending Physical IoT with Cloud Co（架构）。As software engineers, we often architect solutions in a virtual ideal: fast networks, elastic resources, and servers that never physically degrade。But what happens when your ca..."
+      },
+      {
+        "title": "Project Fetch: Phase Two",
+        "describe": "Article URL: https://www.anthropic.com/research/project-fetch-phase-two Comments URL: https://news.ycombinator.com/item?id=48614311 Points: 14 # Comments: 0",
+        "media": [],
+        "origin_url": "https://www.anthropic.com/research/project-fetch-phase-two",
+        "published": "2026-06-21T00:00:25+00:00",
+        "source_label": "Hacker News 首页",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】Project Fetch: Phase Two。Article URL: https://www。com/research/project-fetch-phase-two Comments URL: https://news"
+      },
+      {
+        "title": "Banger from one of the squad 💪🏻😂",
+        "describe": "I did the math and it turns out YOU are the reason AI isn't smarter yet Erin T Erin T Erin T Follow Jun 20 I did the math and it turns out YOU are the reason AI isn't smarter yet # ai # humour # hottakes 10 reactions Add Comment 2 min read",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3910988%2F04f3fea9-174a-4707-8b7b-a9defa2ba23c.jpg",
+          "https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg",
+          "https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg",
+          "https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+        ],
+        "origin_url": "https://dev.to/jon_at_backboardio/banger-from-one-of-the-squad-4a28",
+        "published": "2026-06-20T23:53:59+00:00",
+        "source_label": "DEV Community",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】Banger from one of the squad 💪🏻😂。I did the math and it turns out YOU are the reason AI isn't smarter yet Erin T Erin T Erin T Follow Jun 20 I did the math and it turns out YOU are the reason AI isn't smarter ye..."
+      },
+      {
+        "title": "How To Manage Your Social Media As A Developer ?",
+        "describe": "I know it sounds strange, but I am in my first year in CS Major, and I don't like posting things on social media, but I found lately that companies are more likely to hire people who are active on social media like X (Twitter). For me, I genuinely post my projects on LinkedIn, but not sharing things like today I learned something new etc... What's your opinion about that? Or How can I manage that?",
+        "media": [],
+        "origin_url": "https://dev.to/mgemyy/how-to-manage-your-social-media-as-a-developer--20dl",
+        "published": "2026-06-20T23:51:21+00:00",
+        "source_label": "DEV Community",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】How To Manage Your Social Media As A Developer ?（教程）。I know it sounds strange, but I am in my first year in CS Major, and I don't like posting things on social media, but I found lately that companies are more likely to hire peopl..."
+      },
+      {
+        "title": "Show HN: Submarius – Global water clarity for divers",
+        "describe": "Submarius started as just a dashboard for diving conditions, but I quickly realized that there is simply no API for water clarity, nor even a simple way to calculate it. Divers call it viz, and it is one of the most consequential factors for a diving experience. So I dove the viz rabbit-hole. I landed on a state-augmented ensemble kalman filter. More details on the /clarity page. My question for the HN audience is if anyone knows of a better way of doing this? There is a ton of satellite data to train on, but a lot of it is messy (clouds read as turbid water, shallow reefs reflect abnormall...",
+        "media": [],
+        "origin_url": "https://submarius.com",
+        "published": "2026-06-20T23:29:31+00:00",
+        "source_label": "Hacker News 首页",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】Show HN: Submarius – Global water clarity for divers。Submarius started as just a dashboard for diving conditions, but I quickly realized that there is simply no API for water clarity, nor even a simple way to calculate it。Divers c..."
       }
     ]
   }

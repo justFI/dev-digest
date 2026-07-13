@@ -1,0 +1,845 @@
+{
+  "ai": [
+    {
+      "title": "CodeQL system prompt injection: a JavaScript fix checklist",
+      "describe": "Quick answer GitHub released CodeQL 2.26.0 with a new high-precision JavaScript and TypeScript query, js/system-prompt-injection . It reports data-flow paths where an untrusted value reaches a system prompt, developer prompt, or AI tool description. The shortest safe response to an alert is: confirm the untrusted source -> identify the privileged prompt or tool-description sink -> move open-ended input into a user message or tool argument -> allowlist the value if it must affect trusted instructions -> rerun CodeQL and add a regression test -> review runtime permissions separately Do not tr...",
+      "media": [],
+      "origin_url": "https://dev.to/ahab_indieseek/codeql-system-prompt-injection-a-javascript-fix-checklist-24n",
+      "published": "2026-07-13T04:14:52+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】CodeQL system prompt injection: a JavaScript fix checklist（开源）。Quick answer GitHub released CodeQL 2。0 with a new high-precision JavaScript and TypeScript query, js/system-prompt-injection"
+    },
+    {
+      "title": "Building Persuasive Proposals: AI Templates for Residential Tree Work Quotes",
+      "describe": "We need to write a concise 400-500 word educational Dev.to article for professionals about AI automation in AI for local arborists tree service businesses, focusing on building persuasive proposals: AI templates for residential tree work quotes. Must be 400-500 words inclusive. Must count words. We need to include title with \"ai\" or topic. Intro: relatable pain hook 2-3 sentences max. Core: explain ONE key principle or framework clearly. Include 1 specific tool name and its purpose (from facts). Mini-scenario: 2 sentences showing principle in action. Implementation: 3 high-level steps (not ...",
+      "media": [],
+      "origin_url": "https://dev.to/ken_deng_ai/building-persuasive-proposals-ai-templates-for-residential-tree-work-quotes-4il2",
+      "published": "2026-07-13T04:14:05+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Building Persuasive Proposals: AI Templates for Residential 。We need to write a concise 400-500 word educational Dev。to article for professionals about AI automation in AI for local arborists tree service businesses, focusing on building ..."
+    },
+    {
+      "title": "Agent 365 GA | The Digital Employee Governance Lifecycle from Registration to Revocation | R.A.H.S.I. Framework™ Analysis",
+      "describe": "Agent 365 GA | The Digital Employee Governance Lifecycle from Registration to Revocation 🛡️ Need implementation, not just insights? Let’s build it securely, strategically, and end-to-end. 🛡️ Read Complete Article | Agent 365 GA | The Digital Employee Governance Lifecycle from Registration to Revocation | R.A.H.S.I. Framework™ Analysis Agent 365 GA governs digital employees through identity, registration, observability, protection, access review and secure revocation aakashrahsi.online 🛡️ Let’s Connect | Hire Aakash Rahsi | Expert in Intune, Automation, AI, and Cloud Solutions Hire Aakash Ra...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F86w9wvp2ui71dbvjfc9d.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Ffc518c_fcf4648e41d14fb79a00c5b55a676a58~mv2.png%2Fv1%2Ffill%2Fw_1280%2Ch_720%2Cal_c%2Ffc518c_fcf4648e41d14fb79a00c5b55a676a58~mv2.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Ffc518c_a060086ddb9e43c5aba22d4331f00d62%257Emv2.jpg%2Fv1%2Ffill%2Fw_192%252Ch_192%252Clg_1%252Cusm_0.66_1.00_0.01%2Ffc518c_a060086ddb9e43c5aba22d4331f00d62%257Emv2.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Ffc518c_927a6eb6170e433389c8c2386484cc7f~mv2.gif%2Fv1%2Ffill%2Fw_858%2Ch_482%2Cal_c%2Ffc518c_927a6eb6170e433389c8c2386484cc7f~mv2.gif"
+      ],
+      "origin_url": "https://dev.to/aakash_rahsi/agent-365-ga-the-digital-employee-governance-lifecycle-from-registration-to-revocation--3fb2",
+      "published": "2026-07-13T04:12:59+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Agent 365 GA | The Digital Employee Governance Lifecycle fro。Agent 365 GA | The Digital Employee Governance Lifecycle from Registration to Revocation 🛡️ Need implementation, not just insights。Let’s build it securely, strategically, and en..."
+    },
+    {
+      "title": "Your prompt needs an SBOM",
+      "describe": "Your prompt needs an SBOM Draft — publish on dev.to + personal blog, cross-post to Medium. Add the demo GIF after the first section. Ask any team running AI in production a simple question: what exactly did your model see? Not \"what was the user's question.\" What was the full context — the retrieved chunks, the agent memory, the tool outputs, the system prompt, the ticket text that got pasted in. The complete input that produced the output you're now trying to explain. Almost nobody can answer. The context was assembled at runtime from half a dozen sources, concatenated into a string, sent ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft7yeifycq82e1jotl74o.gif"
+      ],
+      "origin_url": "https://dev.to/akshat666/your-prompt-needs-an-sbom-2nbi",
+      "published": "2026-07-13T04:12:13+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Your prompt needs an SBOM。Your prompt needs an SBOM Draft — publish on dev。to + personal blog, cross-post to Medium"
+    },
+    {
+      "title": "ClawMem's Memory Wiki Now Speaks OKF",
+      "describe": "Google Cloud introduced the Open Knowledge Format (OKF) as a small, open way to represent knowledge as files that both people and agents can read. The idea is intentionally plain: put knowledge in Markdown, add a little YAML frontmatter so tools know what each page is, and organize the pages in a directory tree. In OKF terms, that tree is a Knowledge Bundle. Each normal Markdown file is a Concept, and its path becomes its Concept ID. The bundle structure carries some meaning of its own. Directories group related concepts. An index.md can sit at the root or inside a directory to show what is...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffke4dlw3ushpdfh6ma7t.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6a4csrdqxi4ez9q108ck.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fif0wl6itets142v6f6kc.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjlvvvuqa4q9i0kzjtwq4.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzb1bqaq3ctpp1k8j1d2y.png"
+      ],
+      "origin_url": "https://dev.to/hazel_mem/clawmems-memory-wiki-now-speaks-okf-2cll",
+      "published": "2026-07-13T04:11:40+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】ClawMem's Memory Wiki Now Speaks OKF。Google Cloud introduced the Open Knowledge Format (OKF) as a small, open way to represent knowledge as files that both people and agents can read。The idea is intentionally plain..."
+    },
+    {
+      "title": "The authority boundary problem in agent tool calls: who decides what 'no results' means",
+      "describe": "The authority boundary problem in agent tool calls: who decides what 'no results' means Over the past three weeks I've been having the same conversation on a developer community — across a dozen threads, with a dozen different engineers — about what happens when an agent's tool call fails. Not crashes. Not timeouts. Fails productively . Returns a result that looks like success but carries no information. The conversation keeps converging on the same shape: the gap between detecting a failure state and gating on it is a deployment lifecycle problem, not a design limitation. Here's what I mea...",
+      "media": [],
+      "origin_url": "https://dev.to/aloya/the-authority-boundary-problem-in-agent-tool-calls-who-decides-what-no-results-means-55d3",
+      "published": "2026-07-13T04:06:03+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】The authority boundary problem in agent tool calls: who deci。The authority boundary problem in agent tool calls: who decides what 'no results' means Over the past three weeks I've been having the same conversation on a developer community..."
+    },
+    {
+      "title": "How I Built a Paper Ranking Engine That Saved Me 4 Hours a Week",
+      "describe": "Disclosure: I work on Paper List, a project on the OpenNomos ecosystem. Every Sunday, I'd sit down with coffee, open arXiv, and spend hours scrolling through paper titles. 47 papers last week. 3 worth reading. The problem isn't finding papers — it's filtering them. Keyword search returns too much noise. Citation count is a lagging indicator. And conference prestige doesn't tell you if a paper is relevant to your specific project. So I built Paper List. How It Works Instead of just matching keywords, Paper List ranks papers by relevance score. You tell it what you're working on, and it learn...",
+      "media": [],
+      "origin_url": "https://dev.to/leozhang8285/how-i-built-a-paper-ranking-engine-that-saved-me-4-hours-a-week-4p1a",
+      "published": "2026-07-13T04:05:52+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】How I Built a Paper Ranking Engine That Saved Me 4 Hours a W。Disclosure: I work on Paper List, a project on the OpenNomos ecosystem。Every Sunday, I'd sit down with coffee, open arXiv, and spend hours scrolling through paper titles"
+    },
+    {
+      "title": "AI Answer Visibility for SaaS Teams: A Practical Monitoring Framework",
+      "describe": "SaaS teams are used to measuring search visibility with rankings, clicks, impressions, and conversions. That still matters. But the buyer journey now has another layer: people ask ChatGPT, Perplexity, Gemini, and Google AI answers to explain software categories, compare tools, and identify risks before they ever visit a vendor site. That creates a new operational question: Can AI systems accurately describe your product, cite the right sources, and distinguish you from competitors? A screenshot of one answer is not enough. Screenshots are useful as evidence, but they do not explain why the ...",
+      "media": [],
+      "origin_url": "https://dev.to/liuxiyun/ai-answer-visibility-for-saas-teams-a-practical-monitoring-framework-1ca5",
+      "published": "2026-07-13T04:04:58+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】AI Answer Visibility for SaaS Teams: A Practical Monitoring 。SaaS teams are used to measuring search visibility with rankings, clicks, impressions, and conversions。That still matters"
+    },
+    {
+      "title": "What's the Best Way to Nurture Leads That Aren't Ready to Buy Yet?",
+      "describe": "The best way to nurture leads who aren't ready to buy is to stay consistently helpful without pressure: deliver segmented, value-first content on their timeline, score their engagement, and automate timely follow-ups — so when the buying moment finally arrives, you are the first and most obvious choice they think of. Why Do So Many Leads Go Cold Before They Ever Buy? You spend real money to generate a lead. Then most of them vanish. According to MarketingSherpa, 79% of marketing leads never convert into sales — and the most common reason cited is a lack of nurturing. Think about what that c...",
+      "media": [],
+      "origin_url": "https://dev.to/robozillaai/whats-the-best-way-to-nurture-leads-that-arent-ready-to-buy-yet-15ah",
+      "published": "2026-07-13T04:02:36+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】What's the Best Way to Nurture Leads That Aren't Ready to Bu。The best way to nurture leads who aren't ready to buy is to stay consistently helpful without pressure: deliver segmented, value-first content on their timeline, score their eng..."
+    },
+    {
+      "title": "Integrating Open-Weight LLM APIs into Your Stack: A Developer's Guide to In-House AI Without the Infrastructure Headache",
+      "describe": "Integrating Open-Weight LLM APIs into Your Stack: A Developer's Guide to In-House AI Without the Infrastructure Headache Tags: #ai #api #opensource #tutorial As AI adoption accelerates, developers are facing a growing tension: you want the flexibility and transparency of open-weight models, but you don't want the overhead of managing GPU clusters, model serving frameworks, or inference optimization. That tension is exactly where API-first integrations come in. In this post, we'll walk through how to integrate open-weight Large Language Model APIs into your application — from authentication ...",
+      "media": [],
+      "origin_url": "https://dev.to/sbt112321321/integrating-open-weight-llm-apis-into-your-stack-a-developers-guide-to-in-house-ai-without-the-2jdi",
+      "published": "2026-07-13T04:01:33+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Integrating Open-Weight LLM APIs into Your Stack: A Develope（教程）。Integrating Open-Weight LLM APIs into Your Stack: A Developer's Guide to In-House AI Without the Infrastructure Headache Tags: #ai #api #opensource #tutorial As AI adoption acce..."
+    },
+    {
+      "title": "How to Use AI to Generate Passive Income in 2025",
+      "describe": "How to Use AI to Generate Passive Income in 2025 Leveraging AI to Generate Passive Income in 2025: A Step-by-Step Guide Are you tired of living paycheck to paycheck and dreaming of a life of financial freedom? Do you want to unlock the secret to generating passive income without sacrificing your time and energy? Look no further! In this article, we'll explore how to harness the power of Artificial Intelligence (AI) to create a steady stream of passive income in 2025. Understanding Passive Income Passive income is the holy grail of financial independence. It's the ability to earn money witho...",
+      "media": [],
+      "origin_url": "https://dev.to/qingluan/how-to-use-ai-to-generate-passive-income-in-2025-283j",
+      "published": "2026-07-13T04:01:19+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】How to Use AI to Generate Passive Income in 2025（教程）。How to Use AI to Generate Passive Income in 2025 Leveraging AI to Generate Passive Income in 2025: A Step-by-Step Guide Are you tired of living paycheck to paycheck and dreaming..."
+    },
+    {
+      "title": "Thinking. 1. **Analyze the Request:**",
+      "describe": "Role: Practical technical blogger. Output Language: English. Format: First line MUST be '## ' + title , then a blank line, then the body. Structure: Tone: Direct, for experienced developers. Content: Include one short code example. Must be based on actual project features from the topic. Do not fabricate features. Topic: {Knowledge-and-Memory-Management 最近更新: docs: Direction 1-3 finalization record} Wait, the topic is very specific. \"Knowledge-and-Memory-Management 最近更新: docs: Direction 1-3 finalization record\". Let's decode the topic: \"Knowledge-and-Memory-Management\": This strongly points...",
+      "media": [],
+      "origin_url": "https://dev.to/mage0535/thinking-1-analyze-the-request-3lj2",
+      "published": "2026-07-13T04:01:01+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Thinking. 1. **Analyze the Request:**。Role: Practical technical blogger。Output Language: English"
+    }
+  ],
+  "ios": [
+    {
+      "title": "Price sensitivity/price elasticity of demand for your app?",
+      "describe": "How price sensitive are your apps, generally? E.g. when I reduce the price (shown by the two spikes) my installs obviously increase, but has anyone done a meta study of average consumer behaviour? e.g. the elasticity of demand for the appstore overall. Would be interesting to track, as I find pricing the app to be the hardest part personally. submitted by /u/Key-Lychee-913 [link] [comments]",
+      "media": [
+        "https://preview.redd.it/9k1u7w0y8xch1.png?width=640&crop=smart&auto=webp&s=0d5965e666f4c95854aa70057c48ecbf14bcd7be"
+      ],
+      "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1uv0ys5/price_sensitivityprice_elasticity_of_demand_for/",
+      "published": "2026-07-13T04:09:23+00:00",
+      "source_label": "Reddit r/iOSProgramming",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Price sensitivity/price elasticity of demand for your app?。How price sensitive are your apps, generally。when I reduce the price (shown by the two spikes) my installs obviously increase, but has anyone done a meta study of average consum..."
+    },
+    {
+      "title": "Apple Intelligence vs Google Gemini",
+      "describe": "Apple Intelligence vs Google Gemini: Which Smartphone AI is Better in 2026? The battle for smartphone supremacy is no longer about mega-pixels, camera zoom, or battery sizes. In 2026, it is entirely about mobile brainpower. Apple Intelligence and Google Gemini are going head-to-head to become the ultimate AI companion built right into your pocket. While both platforms claim to change how you use your phone, they handle your daily tasks differently. If you are planning to upgrade your smartphone this year, here is a complete, detailed breakdown of which AI actually does the job better. Quick...",
+      "media": [],
+      "origin_url": "https://dev.to/ketan_patadiya_4d8d098449/apple-intelligence-vs-google-gemini-2pki",
+      "published": "2026-07-13T03:06:38+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Apple Intelligence vs Google Gemini。Apple Intelligence vs Google Gemini: Which Smartphone AI is Better in 2026。The battle for smartphone supremacy is no longer about mega-pixels, camera zoom, or battery sizes"
+    },
+    {
+      "title": "How AI Technology Is Transforming iPhone Photo Cleanup",
+      "describe": "How AI Technology Is Transforming iPhone Photo Cleanup Artificial intelligence has revolutionized how we manage iPhone storage. Modern AI-powered phone cleaner apps can intelligently identify duplicates, similar images, and junk files with remarkable accuracy, far beyond what manual sorting or basic tools can achieve. The AI analyzes each photo content, not just file metadata. It can recognize when two photos are of the same subject from slightly different angles, identify burst sequences, and distinguish screenshots from actual photos. This level of understanding makes cleanup decisions mu...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/how-ai-technology-is-transforming-iphone-photo-cleanup-e84",
+      "published": "2026-07-13T02:59:31+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How AI Technology Is Transforming iPhone Photo Cleanup。How AI Technology Is Transforming iPhone Photo Cleanup Artificial intelligence has revolutionized how we manage iPhone storage。Modern AI-powered phone cleaner apps can intellige..."
+    },
+    {
+      "title": "The Complete Guide to iPhone Storage Management in 2026",
+      "describe": "The Complete Guide to iPhone Storage Management in 2026 Managing iPhone storage effectively requires the right tools and habits. While iOS provides basic storage recommendations, a dedicated phone cleaner app offers much deeper cleanup capabilities for photos, videos, and contacts. Start by understanding where your storage goes. Photos and videos typically consume the most space, followed by apps and messages. A cleaning app focuses on the photo library, where most of the reclaimable space is hiding. The key features to look for include duplicate photo detection, similar image grouping, scr...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/the-complete-guide-to-iphone-storage-management-in-2026-m05",
+      "published": "2026-07-13T02:54:20+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】The Complete Guide to iPhone Storage Management in 2026（教程）。The Complete Guide to iPhone Storage Management in 2026 Managing iPhone storage effectively requires the right tools and habits。While iOS provides basic storage recommendations,..."
+    },
+    {
+      "title": "How to Maintain a Clean iPhone Photo Library with Regular Scans",
+      "describe": "How to Maintain a Clean iPhone Photo Library with Regular Scans Keeping your iPhone photo library organized is not a one-time task, it requires regular maintenance. Using a phone cleaner app on a monthly basis prevents junk from piling up and keeps your storage under control. Set a reminder to run a cleaning scan every four weeks. The scan will identify any new duplicates, similar images, or screenshots that have accumulated since your last cleanup. Regular scans are much faster than deep-cleaning a years worth of accumulated files. After each scan, review the detected items using the previ...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/how-to-maintain-a-clean-iphone-photo-library-with-regular-scans-51c1",
+      "published": "2026-07-13T02:49:09+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How to Maintain a Clean iPhone Photo Library with Regular Sc（教程）。How to Maintain a Clean iPhone Photo Library with Regular Scans Keeping your iPhone photo library organized is not a one-time task, it requires regular maintenance。Using a phone..."
+    },
+    {
+      "title": "Privacy Guide: What to Look for in an iPhone Cleaning App",
+      "describe": "Privacy Guide: What to Look for in an iPhone Cleaning App Not all cleaning apps respect your privacy. Many upload your entire photo library to cloud servers for processing, which raises serious security concerns. A trustworthy phone cleaner app should process everything locally on your device. When choosing a cleaning app, look for these privacy features. First, confirm that all AI scanning and duplicate detection happens on-device, with no data leaving your phone. Second, check that no account creation is required to use the core features. Third, verify that the app does not share or store...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/privacy-guide-what-to-look-for-in-an-iphone-cleaning-app-41hf",
+      "published": "2026-07-13T02:43:59+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Privacy Guide: What to Look for in an iPhone Cleaning App（教程/安全）。Privacy Guide: What to Look for in an iPhone Cleaning App Not all cleaning apps respect your privacy。Many upload your entire photo library to cloud servers for processing, which..."
+    },
+    {
+      "title": "How Batch Processing Makes iPhone Storage Cleanup Lightning Fast",
+      "describe": "How Batch Processing Makes iPhone Storage Cleanup Lightning Fast Manual photo cleanup is painfully slow when you have thousands of files to sort through. That is where batch processing makes a huge difference. A capable phone cleaner app can handle thousands of files in a single operation, turning what would take hours into just minutes. Batch processing works by grouping all detected duplicates, similar images, and junk files together after the initial scan. Instead of confirming deletions one by one, you can review entire categories and delete them all at once. The speed advantage is mass...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/how-batch-processing-makes-iphone-storage-cleanup-lightning-fast-1bc1",
+      "published": "2026-07-13T02:38:48+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How Batch Processing Makes iPhone Storage Cleanup Lightning 。How Batch Processing Makes iPhone Storage Cleanup Lightning Fast Manual photo cleanup is painfully slow when you have thousands of files to sort through。That is where batch proc..."
+    },
+    {
+      "title": "Why Smart Preview Mode Is Essential for Safe Photo Cleanup",
+      "describe": "Why Smart Preview Mode Is Essential for Safe Photo Cleanup The biggest fear when using a cleaning app is accidentally deleting important photos. That is why Smart Preview mode is such a critical feature in any good phone cleaner tool. It lets you see exactly what will be deleted before you confirm. When the app scans your library for duplicates and similar images, it groups them together and displays them side by side. You can compare two or more similar photos and decide which one to keep. This is especially useful for burst sequences where you want to select the best frame. The preview st...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/why-smart-preview-mode-is-essential-for-safe-photo-cleanup-366n",
+      "published": "2026-07-13T02:33:37+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Why Smart Preview Mode Is Essential for Safe Photo Cleanup。Why Smart Preview Mode Is Essential for Safe Photo Cleanup The biggest fear when using a cleaning app is accidentally deleting important photos。That is why Smart Preview mode is..."
+    },
+    {
+      "title": "Using Location-Based Photo Organization to Clean Your Camera Roll",
+      "describe": "Using Location-Based Photo Organization to Clean Your Camera Roll If you travel frequently or take lots of photos at events, your camera roll is probably filled with hundreds of similar shots from the same location. A smart phone cleaner app can group your photos by where they were taken, making cleanup much more efficient. Location-based sorting shows you all photos from a specific trip, city, or venue in one view. Instead of scrolling through thousands of mixed photos, you can focus on one location at a time, identify duplicates, and delete the ones you do not need. This workflow is espec...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/using-location-based-photo-organization-to-clean-your-camera-roll-3bmk",
+      "published": "2026-07-13T02:28:26+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Using Location-Based Photo Organization to Clean Your Camera。Using Location-Based Photo Organization to Clean Your Camera Roll If you travel frequently or take lots of photos at events, your camera roll is probably filled with hundreds of..."
+    },
+    {
+      "title": "How to Delete Screenshots and Burst Photos in Bulk on iOS",
+      "describe": "How to Delete Screenshots and Burst Photos in Bulk on iOS Screenshots and burst photos are some of the fastest ways to fill up iPhone storage. Most people accumulate hundreds of screenshots they never look at again, plus dozens of burst sequences where they took 10 photos of the same moment. A powerful phone cleaner tool can quickly sort these out. When you run a cleaning scan, screenshots are automatically categorized into their own group. This makes it easy to review them all at once and delete the ones you no longer need. Burst sequences are also identified as groups, so you can keep jus...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/how-to-delete-screenshots-and-burst-photos-in-bulk-on-ios-1a80",
+      "published": "2026-07-13T02:23:14+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How to Delete Screenshots and Burst Photos in Bulk on iOS（教程）。How to Delete Screenshots and Burst Photos in Bulk on iOS Screenshots and burst photos are some of the fastest ways to fill up iPhone storage。Most people accumulate hundreds of ..."
+    },
+    {
+      "title": "A Step-by-Step Guide to Merging Duplicate Contacts on iPhone",
+      "describe": "A Step-by-Step Guide to Merging Duplicate Contacts on iPhone Duplicate contacts are one of the most common yet frustrating issues iPhone users face. They happen when you sync contacts from multiple sources like iCloud, Google, and Outlook. A reliable phone cleaner app can scan your entire address book and merge duplicates automatically. The process is simple. First, run a contact scan to identify all duplicate entries. The app compares names, phone numbers, and email addresses to find matches, even when names have slight variations like Mike versus Michael. Once duplicates are detected, the...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/a-step-by-step-guide-to-merging-duplicate-contacts-on-iphone-5gpe",
+      "published": "2026-07-13T02:18:03+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】A Step-by-Step Guide to Merging Duplicate Contacts on iPhone（教程）。A Step-by-Step Guide to Merging Duplicate Contacts on iPhone Duplicate contacts are one of the most common yet frustrating issues iPhone users face。They happen when you sync con..."
+    },
+    {
+      "title": "How to Free Up iPhone Storage by Removing Duplicate Photos",
+      "describe": "How to Free Up iPhone Storage by Removing Duplicate Photos If your iPhone keeps showing the Storage Almost Full notification, you are not alone. One of the biggest space hogs is duplicate and similar photos that pile up over time. Using a dedicated phone cleaner app can help you identify and remove these redundant files in minutes instead of hours. Start by scanning your photo library with a smart cleaning tool. It will automatically detect duplicate images, similar shots, burst sequences, and screenshots. The AI-powered algorithm groups similar photos together so you can compare them side ...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/how-to-free-up-iphone-storage-by-removing-duplicate-photos-35hf",
+      "published": "2026-07-13T02:12:52+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How to Free Up iPhone Storage by Removing Duplicate Photos（教程）。How to Free Up iPhone Storage by Removing Duplicate Photos If your iPhone keeps showing the Storage Almost Full notification, you are not alone。One of the biggest space hogs is ..."
+    }
+  ],
+  "android": [
+    {
+      "title": "90% of marketers waste time on email. Here's how to stop.",
+      "describe": "Email Sender Pro now features Interactive analytics with geo-maps... Download",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fscontent-bom5-1.xx.fbcdn.net%2Fv%2Ft39.30808-6%2F681281650_122110632765283190_2239972510939462579_n.jpg%3F_nc_cat%3D111%26ccb%3D1-7%26_nc_sid%3De289f2%26_nc_ohc%3DetyGRPfdElsQ7kNvwE7jPj_%26_nc_oc%3DAdrFDGxcGsokFjp9gsGE3vuyfD0tPt9zDvuobIMz3hftIQzDCxhI1LZRE56XQYR6mD1o7_anuVop6A7qPqesdNm2%26_nc_zt%3D23%26_nc_ht%3Dscontent-bom5-1.xx%26edm%3DAMAeTUEEAAAA%26_nc_gid%3DKo3QCLIprTnRo0uaVfPUVg%26_nc_tpa%3DQ5bMBQHST0epN-djCNMTHhnViQ3RsGIvZsSZk4J7SLdSC6UyJx7Vr20UzlqrVF2vKMo_mu9xaspx-nps%26oh%3D00_Af0xdc3QKwtznZFe0Nl3EPPKGfzIAYBPc-9IFMaUa1w6Zw%26oe%3D69F3EC0A"
+      ],
+      "origin_url": "https://dev.to/jashank_06/90-of-marketers-waste-time-on-email-heres-how-to-stop-1l35",
+      "published": "2026-07-13T02:30:03+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】90% of marketers waste time on email. Here's how to stop.（教程）。Email Sender Pro now features Interactive analytics with geo-maps"
+    },
+    {
+      "title": "Architecting reliable geofencing in Android without burning battery",
+      "describe": "Opening hook The silence in the lecture hall was heavy, the kind that only exists right before a professor delivers a final exam prompt. I was sitting in the third row, mentally reviewing my notes, when my phone decided it was the perfect moment to announce a incoming call with a high-pitched, insistent ringtone. Every head turned. The professor paused, sighed, and waited for me to scramble. I fumbled with the volume rocker, face burning red, feeling that specific, sinking frustration of having failed a simple, repetitive task that I should have automated months ago. The problem That moment...",
+      "media": [],
+      "origin_url": "https://dev.to/haseebthedev0/architecting-reliable-geofencing-in-android-without-burning-battery-5b2n",
+      "published": "2026-07-13T01:20:19+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Architecting reliable geofencing in Android without burning 。Opening hook The silence in the lecture hall was heavy, the kind that only exists right before a professor delivers a final exam prompt。I was sitting in the third row, mentally ..."
+    },
+    {
+      "title": "What Happens When 15 Apps Each Ship a 3 GB Model?",
+      "describe": "The on-device AI industry feels like it is in its \"single app demo\" phase right now. Most of what I see - hackathon projects, conference talks, developer blogs, including my own - showcases one app running one model on one phone. The demo works. The audience claps. Everyone moves on. But it left me with an uncomfortable question I have not seen discussed much: what happens when 15 apps on the same phone each ship their own multi-GB model? I started thinking about this while building Redacto, a zero-trust document redaction app I built for the Qualcomm x Google LiteRT hackathon. Redacto runs...",
+      "media": [],
+      "origin_url": "https://dev.to/jdshah/what-happens-when-15-apps-each-ship-a-3-gb-model-507m",
+      "published": "2026-07-13T00:55:00+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】What Happens When 15 Apps Each Ship a 3 GB Model?。The on-device AI industry feels like it is in its \"single app demo\" phase right now。Most of what I see - hackathon projects, conference talks, developer blogs, including my own ..."
+    },
+    {
+      "title": "The 16.67ms Race: Mastering Real-Time 60 FPS Video Segmentation on Android",
+      "describe": "Imagine you are building the next generation of Augmented Reality (AR) glasses or a professional-grade video editing tool for Android. The user holds their phone up, and the device instantly recognizes, masks, and isolates a person from the background with pixel-perfect precision. It feels like magic. But as a developer, you know the truth: it isn't magic. It is a brutal, high-stakes race against a clock that never stops ticking. In the world of real-time computer vision, \"smoothness\" isn't a subjective feeling—it is a mathematical requirement. To achieve a fluid 60 frames per second (FPS),...",
+      "media": [],
+      "origin_url": "https://dev.to/programmingcentral/the-1667ms-race-mastering-real-time-60-fps-video-segmentation-on-android-1d75",
+      "published": "2026-07-12T20:00:00+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】The 16.67ms Race: Mastering Real-Time 60 FPS Video Segmentat。Imagine you are building the next generation of Augmented Reality (AR) glasses or a professional-grade video editing tool for Android。The user holds their phone up, and the devi..."
+    },
+    {
+      "title": "Mis Apps Nativas para Android: Llevando la automatización y el control de hardware al límite (Root) Proyectos de un Desarrollador Independiente",
+      "describe": "¡Buenas a todos de la comunidad de Dev! 🚀 Quiero compartir con vosotros el ecosistema de aplicaciones nativas para Android que he estado programando. Me apasiona exprimir el hardware, saltarme las restricciones del sistema operativo y crear herramientas de automatización reales utilizando accesos de Superusuario (Root). Os presento mis proyectos principales, los cuales tengo completamente actualizados en mi perfil de GitHub. 🌡️ 1. CpuTemp - Root Governor Controller Una herramienta avanzada para gestionar de forma directa las frecuencias y políticas de los gobernadores del procesador. Permit...",
+      "media": [],
+      "origin_url": "https://dev.to/architect_d4d/mis-apps-nativas-para-android-llevando-la-automatizacion-y-el-control-de-hardware-al-limite-root-5ae5",
+      "published": "2026-07-12T17:32:02+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Mis Apps Nativas para Android: Llevando la automatización y （开源）。¡Buenas a todos de la comunidad de Dev。🚀 Quiero compartir con vosotros el ecosistema de aplicaciones nativas para Android que he estado programando"
+    },
+    {
+      "title": "Edge AI Skills: From Metal to Model",
+      "describe": "I did not take a traditional path into AI. There was no Kaggle phase, no PhD in machine learning, no journey that started with importing TensorFlow in a Jupyter notebook. My path started with an oscilloscope probe on a PCB trace, reading firmware documentation at 2 AM, and writing code that ran on hardware with no operating system at all. Today I work on on-device LLM inference: running large language models on mobile phones using LiteRT. And the thing I keep realizing is that almost everything I learned in embedded systems applies directly to this work, in ways that are not obvious unless ...",
+      "media": [],
+      "origin_url": "https://dev.to/jdshah/edge-ai-skills-from-metal-to-model-1911",
+      "published": "2026-07-12T16:15:00+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Edge AI Skills: From Metal to Model。I did not take a traditional path into AI。There was no Kaggle phase, no PhD in machine learning, no journey that started with importing TensorFlow in a Jupyter notebook"
+    },
+    {
+      "title": "📱Best Smartphones Under ₹50,000 in 2026!",
+      "describe": "From gaming and photography to battery life and premium design, these are the top picks for every type of user. Which one is your favorite? 🔥 . . Nik The Blogger Passionate blogger sharing helpful tips, honest reviews, and simple guides on lifestyle, tech, and online trends to inform, inspire, and grow. niktheblogger.com",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fblogger.googleusercontent.com%2Fimg%2Fb%2FR29vZ2xl%2FAVvXsEhB17k3BC-U4j8h_E7nyNyvraQdbyI0oZAkfJ1v4rqCdnBp4VkUfhnyQlOE2GgdJB8xMwDihouc4NlzihEccX6hIJiJjOeN85SnSwT_tSFvQ0Y0_5StE7p4bhTe1fMfy7YnKbJakkS69ta0RH_ZzcyWbsVKFnr1ScTmgf6kJmNAR4MgeaxLKCj-ZcNSfFY%2Fw1600-h1600-p-k-no-nu%2Fblogger_templates_800w_under50kb.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fwww.niktheblogger.com%2Ffavicon.ico"
+      ],
+      "origin_url": "https://dev.to/nitesh_kashyap_d805849aad/best-smartphones-under-50000-in-2026-1opp",
+      "published": "2026-07-12T16:04:54+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】📱Best Smartphones Under ₹50,000 in 2026!（教程）。From gaming and photography to battery life and premium design, these are the top picks for every type of user。Which one is your favorite"
+    },
+    {
+      "title": "Forward SMS to Telegram with Android",
+      "describe": "A few years ago, I wrote a post on how I automated SMS forwarding using second-hand 3G modems and a Gammu SMS daemon running on a Linux server. This setup worked well for a while, but then became outdated due to the instability of USB dongles and the planned deprecation of 2G and 3G networks in Europe. One day, I got tired of replugging USB modems and manually restarting containers, so I decided to look for a new solution. First, I thought I would build my own device using existing 4G modules for an ESP32 or a Raspberry Pi, but I quickly discovered it would cost me a fortune to support two ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F53v4cksrpt0raptdk70y.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0p48fa3syyrc2nb7ft6d.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Factetdt3v0072zz2ad4n.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsz650vgwvn255tzldmm1.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fz86pxt4xikzlqdll5dck.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flfj2m1zqi3bgnu4sbywc.png"
+      ],
+      "origin_url": "https://dev.to/alikhil/forward-sms-to-telegram-with-android-198f",
+      "published": "2026-07-12T14:32:54+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Forward SMS to Telegram with Android。A few years ago, I wrote a post on how I automated SMS forwarding using second-hand 3G modems and a Gammu SMS daemon running on a Linux server。This setup worked well for a while..."
+    },
+    {
+      "title": "The Deployment Boundary: Why On-Device AI Breaks After Colab",
+      "describe": "Your model runs perfectly in Colab. Loss converged. Eval looks good. You export to a mobile-friendly format, deploy to a phone, and nothing works. Not a crash - something worse. A silent failure, a cryptic error from a layer you have never heard of, or behavior subtly different from what you validated in the notebook. You spend three days debugging something that has nothing to do with your model and everything to do with the layers between your Python code and the silicon that runs inference. I built Redacto , an on-device PII redaction app running Gemma 4 E2B on Snapdragon 8 Elite. Every ...",
+      "media": [],
+      "origin_url": "https://dev.to/jdshah/the-deployment-boundary-why-on-device-ai-breaks-after-colab-2naj",
+      "published": "2026-07-12T14:30:00+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】The Deployment Boundary: Why On-Device AI Breaks After Colab。Your model runs perfectly in Colab。Loss converged"
+    },
+    {
+      "title": "Motion, Stylus, Trackpads And Foldables In The Core",
+      "describe": "For a long time, mobile meant a touch screen and a few platform-specific escape hatches. That is no longer enough. A Codename One app can run on phones, tablets, desktops, watches, TVs, browsers, foldables, touch laptops, external displays, cars, and devices with pens, mice, and trackpads. What is Codename One? Codename One is an open-source framework for building native iOS, Android, desktop, and web apps from a single Java or Kotlin codebase. Learn more at codenameone.com . PR #5310 and PR #5309 make that hardware visible through core APIs instead of cn1libs and platform branches. Motion ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8tjad9hxrpn01ja0dtz3.jpg"
+      ],
+      "origin_url": "https://dev.to/codenameone/motion-stylus-trackpads-and-foldables-in-the-core-4m87",
+      "published": "2026-07-12T14:23:42+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Motion, Stylus, Trackpads And Foldables In The Core。For a long time, mobile meant a touch screen and a few platform-specific escape hatches。That is no longer enough"
+    },
+    {
+      "title": "Why M3U Playlists Stop Working (And How to Fix the Most Common Issues)",
+      "describe": "If you've ever opened your media player only to discover that your M3U playlist suddenly stopped working, you're definitely not alone. This is one of the most common topics discussed in streaming communities. In most cases, the issue isn't the player itself—it's usually related to the playlist source, network configuration, or device settings. In this article, we'll cover the most common reasons why M3U playlists fail and the practical steps you can take to troubleshoot them. What Is an M3U Playlist? An M3U playlist is simply a text-based file that contains links to multimedia streams. Many...",
+      "media": [],
+      "origin_url": "https://dev.to/iptvmay64535/why-m3u-playlists-stop-working-and-how-to-fix-the-most-common-issues-j5f",
+      "published": "2026-07-12T13:40:02+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Why M3U Playlists Stop Working (And How to Fix the Most Comm（教程）。If you've ever opened your media player only to discover that your M3U playlist suddenly stopped working, you're definitely not alone。This is one of the most common topics discu..."
+    },
+    {
+      "title": "Android Support Automation: Turn App Issues into Reviewable Evidence",
+      "describe": "Customer support tickets often describe symptoms, not reproducible test cases. “Checkout is broken” or “the button disappeared” may depend on Android version, locale, account state, permissions, network timing, or app build. An AI Android automation tool can help support teams turn that story into a visible checklist—but it should preserve evidence and uncertainty instead of blindly replaying taps. Start with a bounded reproduction path Write down the starting screen, app version, approved test account, device or emulator, locale, network state, exact steps, expected result, observed result...",
+      "media": [],
+      "origin_url": "https://dev.to/laicaiapp/android-support-automation-turn-app-issues-into-reviewable-evidence-1og3",
+      "published": "2026-07-12T12:59:13+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Android Support Automation: Turn App Issues into Reviewable 。Customer support tickets often describe symptoms, not reproducible test cases。“Checkout is broken” or “the button disappeared” may depend on Android version, locale, account sta..."
+    }
+  ],
+  "frontend": [
+    {
+      "title": "Day 140 of Learning MERN Stack",
+      "describe": "Hello Dev Community! 👋 It is officially Day 140 of my software engineering marathon! Today, I engineered a secure, high-fidelity entry point for my MERN Stack capstone application, Sprintix : The complete Dynamic, Reusable Authentication Page ( Login.jsx ) with integrated asynchronous API pipelines! ⚛️🔐 validation layers. Instead of writing separate, duplicated presentation views for registration and logging scripts, I utilized single-component multi-state switching to reuse code efficiently and keep my frontend lean. 🛠️ Deconstructing the Day 140 Authentication Engine As captured inside my...",
+      "media": [],
+      "origin_url": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-140-of-learning-mern-stack-1pb",
+      "published": "2026-07-13T04:12:16+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Day 140 of Learning MERN Stack。Hello Dev Community。👋 It is officially Day 140 of my software engineering marathon"
+    },
+    {
+      "title": "Day 139 of Learning MERN Stack",
+      "describe": "Hello Dev Community! 👋 It is officially Day 139 of my software engineering marathon! Today, I successfully wireframed the ultimate client transaction interface for my MERN Stack capstone application, Sprintix : The interactive Place Order Page ( PlaceOrder.jsx ) ! ⚛️📋💸 Managing large checkout flows requires a clean separation between multi-field delivery form inputs, financial summary tracking layers, and dynamic payment gateway toggles. 🛠️ Deconstructing the Day 139 Checkout Engine As rendered inside my application viewport canvas in \"Screenshot (325).png\" and structured within my source w...",
+      "media": [],
+      "origin_url": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-139-of-learning-mern-stack-dig",
+      "published": "2026-07-13T04:05:03+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Day 139 of Learning MERN Stack。Hello Dev Community。👋 It is officially Day 139 of my software engineering marathon"
+    },
+    {
+      "title": "An Interactive Express.js API Generator",
+      "describe": "🚀 I Built exp-gen — An Interactive Express.js API Generator After spending a lot of time creating the same Express.js project structure over and over again, I decided to automate the entire process. Introducing exp-gen 🎉 A fast, interactive CLI that scaffolds production-ready Express.js APIs in seconds. 🎥 Demo ✨ Features ✅ Interactive CLI powered by @clack/prompts ✅ Supports both TypeScript and JavaScript ✅ Database selection during project creation MongoDB (Mongoose) MySQL SQLite PostgreSQL (JavaScript) Prisma support coming soon ✅ Generates a clean Layered Architecture configs/ controller...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv2fyjtljy1byis84tdbc.gif"
+      ],
+      "origin_url": "https://dev.to/madhushaprasad/an-interactive-expressjs-api-generator-4adk",
+      "published": "2026-07-13T03:53:38+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】An Interactive Express.js API Generator（架构）。🚀 I Built exp-gen — An Interactive Express。js API Generator After spending a lot of time creating the same Express"
+    },
+    {
+      "title": "Day 138 of Learning MERN Stack",
+      "describe": "Hello Dev Community! 👋 It is officially Day 138 of my software engineering marathon! Today, I crossed off the absolute logic core of my MERN Stack capstone application, Sprintix : The complete Dynamic Shopping Cart View & Financial Aggregation System ( /cart ) ! ⚛️🛒📊 Managing transactional states where dynamic item counts, specific size parameters, and multi-layered inventory configurations must compute in real-time requires strict state structural boundaries. 🛠️ Deconstructing the Day 138 Cart Logic Architecture As detailed across my workspace visual monitors within \"Screenshot (320).png\" ...",
+      "media": [],
+      "origin_url": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-138-of-learning-mern-stack-g5e",
+      "published": "2026-07-13T03:50:49+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Day 138 of Learning MERN Stack（架构）。Hello Dev Community。👋 It is officially Day 138 of my software engineering marathon"
+    },
+    {
+      "title": "GhostApproval: Why Agent Permissions Need Resolved Runtime State",
+      "describe": "A malicious repo makes an AI coding assistant appear to edit project_settings.json while the actual write lands on ~/.ssh/authorized_keys. The approval UI shows the harmless path. The filesystem follows the symlink. The bug isn't symlinks. It's this: An approval prompt is only strong if it shows the resolved operation, not the requested one. The approval showed a lie Common agent mistake: approve the visible request instead of what the runtime actually does. Visible request: Edit project_settings.json Resolved operation: Write to ~/.ssh/authorized_keys If the human sees only the first, appr...",
+      "media": [],
+      "origin_url": "https://dev.to/assili_salim_e3c07f9954de/ghostapproval-why-agent-permissions-need-resolved-runtime-state-hlh",
+      "published": "2026-07-13T03:47:49+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】GhostApproval: Why Agent Permissions Need Resolved Runtime S。A malicious repo makes an AI coding assistant appear to edit project_settings。json while the actual write lands on ~/"
+    },
+    {
+      "title": "Day 137 of Learning MERN Stack",
+      "describe": "Hello Dev Community! 👋 It is officially Day 137 of my software engineering marathon! Today, I built one of the most critical visual nodes of my MERN Stack capstone application, Sprintix : The complete Dynamic Product Details Page ( /product/:productId ) ! ⚛️👕🔍 This module parses dynamic tokens straight from the URL parameters, queries global datasets inside context providers, and hydrates a highly interactive frontend interface complete with a reactive asset image engine! 🛠️ Deconstructing the Day 137 Presentation Engine As detailed within my code architectures across \"Screenshot (316).jpg\"...",
+      "media": [],
+      "origin_url": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-137-of-learning-mern-stack-2be7",
+      "published": "2026-07-13T03:43:02+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Day 137 of Learning MERN Stack（架构）。Hello Dev Community。👋 It is officially Day 137 of my software engineering marathon"
+    },
+    {
+      "title": "Next.js Server Actions Are Public Endpoints: How I Lock Them Down",
+      "describe": "Headline: Every Next.js Server Action is a public HTTP endpoint. \"use server\" marks a function to be called over the network—not protected from the network. I shipped a feature last quarter that let users export their data. The export logic lived in a Server Action. Three weeks later I realized anyone with a browser console could call that action directly—no session, no auth check—because I forgot to verify the session inside the action itself. This post is what I learned hardening Server Actions at scale. Why Server Actions Are Different Traditional APIs have a clear boundary: your route h...",
+      "media": [],
+      "origin_url": "https://dev.to/ahmed_mahmoud360/nextjs-server-actions-are-public-endpoints-how-i-lock-them-down-34fa",
+      "published": "2026-07-13T03:38:53+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Next.js Server Actions Are Public Endpoints: How I Lock Them（架构）。Headline: Every Next。js Server Action is a public HTTP endpoint"
+    },
+    {
+      "title": "Day 136 of Learning MERN Stack",
+      "describe": "Hello Dev Community! 👋 It is officially Day 136 of my software engineering marathon! Today, I engineered the absolute heart of my MERN Stack capstone application, Sprintix : The complete Product Collection Grid & Faceted Filter Sidebar View ( /collection ) ! ⚛️🛍️🗂️ To prepare the application for seamless full-stack state management integration later, I built this layout using dynamic state arrays and object schemas. This ensures that switching from demo arrays to live API streams will happen effortlessly. 🛠️ Deconstructing the Day 136 Catalog Architecture As displayed across my browser rend...",
+      "media": [],
+      "origin_url": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-136-of-learning-mern-stack-1hbf",
+      "published": "2026-07-13T03:37:00+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Day 136 of Learning MERN Stack（架构）。Hello Dev Community。👋 It is officially Day 136 of my software engineering marathon"
+    },
+    {
+      "title": "Day 135 of Learning MERN Stack",
+      "describe": "Hello Dev Community! 👋 It is officially Day 135 of my software engineering marathon! Today, I checked off another vital layout anchor for my MERN Stack capstone e-commerce application, Sprintix : the fully responsive, modular About Us View ( /about ) ! ⚛️ Identity modules, crisp grid systems, and component reuse were the core pillars of today's implementation. An online store needs to state its mission transparently. My goal today was to execute a premium editorial feel with structural balance across all display scales. 🛠️ Deconstructing the Day 135 Structural Layout As captured inside my d...",
+      "media": [],
+      "origin_url": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-135-of-learning-mern-stack-42be",
+      "published": "2026-07-13T03:26:17+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Day 135 of Learning MERN Stack（架构）。Hello Dev Community。👋 It is officially Day 135 of my software engineering marathon"
+    },
+    {
+      "title": "Day 134 of Learning MERN Stack",
+      "describe": "Hello Dev Community! 👋 It is officially Day 134 of my software engineering marathon! Today, I successfully extended the layout grids of my MERN Stack capstone e-commerce application, Sprintix , by implementing fully responsive feature banners, newsletter hooks, and a clean global footer! ⚛️🛡️📬 A premium storefront relies heavily on trust anchors and consistent site-wide navigational structures. Today's focus was ensuring these terminal layers look flawless across all viewport breaking thresholds. 🛠️ Deconstructing the Day 134 Interface Terminal As captured in my local hosting environments w...",
+      "media": [],
+      "origin_url": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-134-of-learning-mern-stack-dnn",
+      "published": "2026-07-13T03:18:22+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Day 134 of Learning MERN Stack。Hello Dev Community。👋 It is officially Day 134 of my software engineering marathon"
+    },
+    {
+      "title": "Day 133 of Learning MERN Stack",
+      "describe": "Hello Dev Community! 👋 It is officially Day 133 of my software engineering marathon! Today marks a massive pivot in my journey: I am officially engineering a production-grade MERN Stack e-commerce application called Sprintix ! ⚛️🛒👟 Instead of jumping blindly into backend configurations, my strategy for Day 133 was to craft a flawless, high-converting premium storefront shell powered by reusable presentation layouts and responsive grid matrices. 🛠️ Deconstructing the Sprintix Storefront Architecture As captured across my development environment in \"Screenshot (297).jpg\" and \"Screenshot (298)...",
+      "media": [],
+      "origin_url": "https://dev.to/ali_hamza_589ec7b3eb6688d/day-133-of-learning-mern-stack-18ne",
+      "published": "2026-07-13T03:13:02+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Day 133 of Learning MERN Stack（架构）。Hello Dev Community。👋 It is officially Day 133 of my software engineering marathon"
+    },
+    {
+      "title": "Why Rice in bed for nearly three days before Norway game Tuchel Matters for Sports Data Engineers",
+      "describe": "Why Rice in bed for nearly three days before Norway game Tuchel Matters for Sports Data Engineers TL;DR : Article written and saved to /root/rice-sickness-norway-tuchel.html (approx. 720 words). Here is the HTML article body: `html Declan Rice spent the best part of three days confined to his hotel bed Continue reading: Rice in bed for nearly three days before Norway game Tuchel The Data Behind the Story Every major sports event generates thousands of data points in real time — performance index, score, time elapsed, and momentum. Most fans see the headline; data engineers see the underlyin...",
+      "media": [],
+      "origin_url": "https://dev.to/muhammad_binnazeer_6a810/why-rice-in-bed-for-nearly-three-days-before-norway-game-tuchel-matters-for-sports-data-engineers-4f2e",
+      "published": "2026-07-13T03:10:03+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Why Rice in bed for nearly three days before Norway game Tuc（性能）。Why Rice in bed for nearly three days before Norway game Tuchel Matters for Sports Data Engineers TL;DR : Article written and saved to /root/rice-sickness-norway-tuchel。Here is ..."
+    }
+  ],
+  "backend": [
+    {
+      "title": "From Command Blocking to Skill Registries: Securing Enterprise AI Agents",
+      "describe": "When destructive_command_guard hit the top of GitHub Trending, it sparked a crucial conversation: How do we safely empower AI Agents with autonomy? Most solutions focus on blocking dangerous commands after they are generated. But reactive security is not enough for enterprise-grade applications. We need proactive governance. The Limitation of \"Guard\" Solutions Tools like destructive_command_guard act as a firewall, intercepting specific shell or Git commands. This is valuable, but it has limitations: Reactive: It only stops known-bad patterns. Siloed: It doesn't manage the capability itself...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy2v9kx92drflm3xa9nik.png"
+      ],
+      "origin_url": "https://dev.to/fenju_fu/from-command-blocking-to-skill-registries-securing-enterprise-ai-agents-54li",
+      "published": "2026-07-13T04:22:18+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】From Command Blocking to Skill Registries: Securing Enterpri（开源/安全）。When destructive_command_guard hit the top of GitHub Trending, it sparked a crucial conversation: How do we safely empower AI Agents with autonomy。Most solutions focus on blocki..."
+    },
+    {
+      "title": "How to Securely Set Up a Fresh Linux VPS and Install Docker in 3 Minutes",
+      "describe": "Getting a new VPS (from DigitalOcean, Hetzner, Linode, etc.) is exciting. But the moment that server goes online with a public IP, automated bots start scanning it for vulnerabilities. If you leave it with default settings or a weak root password, it's only a matter of hours before it gets compromised. In this tutorial, I'll show you exactly how to secure a fresh Ubuntu/Debian VPS and install Docker so you can start deploying your apps safely. 1. Update Your System First The very first thing you should do is patch any outdated software. apt-get update -y && apt-get upgrade -y 2. Configure a...",
+      "media": [],
+      "origin_url": "https://dev.to/marop2/how-to-securely-set-up-a-fresh-linux-vps-and-install-docker-in-3-minutes-l5b",
+      "published": "2026-07-13T04:14:18+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】How to Securely Set Up a Fresh Linux VPS and Install Docker （教程）。Getting a new VPS (from DigitalOcean, Hetzner, Linode, etc。) is exciting"
+    },
+    {
+      "title": "Monitoring Asterisk with SNMP & Nagios/Zabbix",
+      "describe": "Monitoring Asterisk with SNMP & Nagios/Zabbix Learn how to deploy enterprise-grade monitoring for your Asterisk/ViciDial system using SNMP, Nagios, and Zabbix to track calls, channels, and system health in real-time. Prerequisites Before implementing SNMP monitoring for your Asterisk system, ensure you have: Asterisk 13+ (11+ minimum, though 13+ recommended for stability) ViciDial 2.14+ (optional, but assumed for this guide) SNMP daemon (net-snmp package) installed and running Root or sudo access to Asterisk server Nagios 4.0+ or Zabbix 5.0+ installed on a separate monitoring server Basic k...",
+      "media": [],
+      "origin_url": "https://dev.to/moisi_trungu_31647b7ac300/monitoring-asterisk-with-snmp-nagioszabbix-5dl0",
+      "published": "2026-07-13T03:30:02+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Monitoring Asterisk with SNMP & Nagios/Zabbix（教程）。Monitoring Asterisk with SNMP & Nagios/Zabbix Learn how to deploy enterprise-grade monitoring for your Asterisk/ViciDial system using SNMP, Nagios, and Zabbix to track calls, ch..."
+    },
+    {
+      "title": "We built a free API for software end-of-life dates and risk scores (460+ products)",
+      "describe": "Originally published at endoflife.ai/api . Every outage post-mortem has a cousin: the \"we were running an EOL version and didn't know\" security incident. Debian 12 just went EOL this month, Spring Framework 6.2 and Spring Boot 3.5 hit end of support in June, and PostgreSQL 14 goes EOL in November. If your tooling can't answer \"is anything in my stack out of support?\" , you find out the hard way. We run endoflife.ai , which tracks end-of-life dates and security-support status for 460+ software products and scores every version with a 0-100 EOL Risk Score (factors: how long past EOL, attack s...",
+      "media": [],
+      "origin_url": "https://dev.to/endoflifeai/we-built-a-free-api-for-software-end-of-life-dates-and-risk-scores-460-products-3ic1",
+      "published": "2026-07-13T03:29:34+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】We built a free API for software end-of-life dates and risk （安全）。Originally published at endoflife。Every outage post-mortem has a cousin: the \"we were running an EOL version and didn't know\" security incident"
+    },
+    {
+      "title": "Workflow Hằng Ngày Với Thunderbolt Dock Trên Lenovo Legion 5",
+      "describe": "Khi xây dựng một hệ thống làm việc chuyên nghiệp, laptop hiệu năng cao kết hợp với Thunderbolt dock là giải pháp tối ưu cho lập trình viên. Đặc biệt, với xu hướng phát triển ứng dụng AI hiện nay, cấu hình phần cứng đóng vai trò quyết định. Theo phân tích chi tiết từ ReviewLaptop , hiệu năng xử lý mô hình ngôn ngữ lớn phụ thuộc lớn vào VRAM và băng thông bộ nhớ. Việc sở hữu một thiết bị như Lenovo Legion 5 15IRX10 (trang bị RTX 5060 Laptop 8GB GDDR7, băng thông 448 GB/s, CPU i7-14700HX và RAM tới 24GB) giúp đáp ứng tốt nhu cầu này. Tuy nhiên, để vận hành trơn tru mọi thiết bị ngoại vi trong ...",
+      "media": [],
+      "origin_url": "https://dev.to/hung_phatlaptop_a651fc86/workflow-hang-ngay-voi-thunderbolt-dock-tren-lenovo-legion-5-1om4",
+      "published": "2026-07-13T03:12:56+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Workflow Hằng Ngày Với Thunderbolt Dock Trên Lenovo Legion 5。Khi xây dựng một hệ thống làm việc chuyên nghiệp, laptop hiệu năng cao kết hợp với Thunderbolt dock là giải pháp tối ưu cho lập trình viên。Đặc biệt, với xu hướng phát triển ứng ..."
+    },
+    {
+      "title": "Reliable Wireless Connectivity for Mission-Critical Applications",
+      "describe": "Modern enterprise environments require networking hardware that delivers consistent performance under demanding workloads. The DR5018S Tri-band Router Board has been developed to meet these challenges by combining Qualcomm's advanced IPQ5018 networking platform with enterprise-class wireless technology. Supporting WiFi 6 across 2.4GHz, 5GHz, and 6GHz frequency bands, the board enables higher network capacity, faster data transmission, and improved user experience in crowded wireless environments. Its dual Ethernet configuration—including one 2.5 Gigabit port—ensures high-speed connectivity ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs3xnd3uynt71lihz7t81.png"
+      ],
+      "origin_url": "https://dev.to/alan_curry_6e6770c37c06c1/reliable-wireless-connectivity-for-mission-critical-applications-560p",
+      "published": "2026-07-13T03:04:52+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Reliable Wireless Connectivity for Mission-Critical Applicat（性能）。Modern enterprise environments require networking hardware that delivers consistent performance under demanding workloads。The DR5018S Tri-band Router Board has been developed to..."
+    },
+    {
+      "title": "How to Scale a Python App to Handle 1 Million Requests",
+      "describe": "How to Scale a Python App to Handle 1 Million Requests Scaling Your Python App to Handle 1 Million Requests: A Step-by-Step Guide Imagine your Python app has just gained massive traction, and suddenly, you're struggling to keep up with the influx of requests. Your server is crashing, and your users are getting frustrated. This is a nightmare scenario for any developer. To avoid this disaster, you need to scale your app to handle the increased traffic. But where do you start? In this post, we'll walk you through a step-by-step guide on how to scale your Python app to handle 1 million request...",
+      "media": [],
+      "origin_url": "https://dev.to/qingluan/how-to-scale-a-python-app-to-handle-1-million-requests-5e52",
+      "published": "2026-07-13T03:02:56+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】How to Scale a Python App to Handle 1 Million Requests（教程/架构）。How to Scale a Python App to Handle 1 Million Requests Scaling Your Python App to Handle 1 Million Requests: A Step-by-Step Guide Imagine your Python app has just gained massive..."
+    },
+    {
+      "title": "DNS Propagation Time: How Long Until Your DNS Change Goes Live?",
+      "describe": "You change the A record for api.example.com from 203.0.113.10 to 203.0.113.20`. Your browser shows the new IP. The deployment dashboard says green. Then the Slack messages start rolling in: \"API is down from Singapore.\" \"Connection refused from Frankfurt.\" \"Works fine here in Virginia.\" This is DNS propagation. It is not a single number. It's a probability distribution — shaped by your TTL, the cache policies of 8 major resolver populations, and the geographic topology of the DNS hierarchy itself. The user on Google DNS sees the change in 60 seconds . The user on Deutsche Telekom might wait...",
+      "media": [],
+      "origin_url": "https://dev.to/reykingers_f513925d3df43/dns-propagation-time-how-long-until-your-dns-change-goes-live-3mcd",
+      "published": "2026-07-13T02:51:28+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】DNS Propagation Time: How Long Until Your DNS Change Goes Li。You change the A record for api。Your browser shows the new IP"
+    },
+    {
+      "title": "Bmup Multi-Asset Institute: Leading Investors to Insight into Global Financial Trends",
+      "describe": "Since its establishment, Bmup Multi-Asset Institute has always been at the forefront of the global financial market, dedicated to providing its members with the most cutting-edge market dynamics and in-depth analysis. With continuous technological advancements, the complexity of the market has increased, and investors not only need to master market knowledge but also need to possess a keen insight into global economic trends. Currently, the global market is in a period filled with both challenges and opportunities. While the U.S. stock market has experienced several fluctuations, the long-t...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi68mtzt6gyd1wb5glaat.png"
+      ],
+      "origin_url": "https://dev.to/bmupmultiassetinstit/bmup-multi-asset-institute-leading-investors-to-insight-into-global-financial-trends-42ek",
+      "published": "2026-07-13T02:42:49+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Bmup Multi-Asset Institute: Leading Investors to Insight int。Since its establishment, Bmup Multi-Asset Institute has always been at the forefront of the global financial market, dedicated to providing its members with the most cutting-edg..."
+    },
+    {
+      "title": "Debug a Legacy Frontend-Backend Deployment With One Trace ID",
+      "describe": "Legacy frontend-backend deployments fail in layers. A React build can be correct while the proxy serves last week's files. Django can be healthy while /api routes to the wrong upstream. The database can be reachable from a shell and blocked from the application container. Do not start by upgrading everything. Trace one revision and one request. Stamp the build Inject a revision into the frontend artifact and backend health response: GET /version { \"frontend_revision\": \"abc123\", \"backend_revision\": \"abc123\", \"built_at\": \"2026-07-13T02:00:00Z\" } At deployment time, record artifact digest, sou...",
+      "media": [],
+      "origin_url": "https://dev.to/odd_background_328/debug-a-legacy-frontend-backend-deployment-with-one-trace-id-2pne",
+      "published": "2026-07-13T02:41:33+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Debug a Legacy Frontend-Backend Deployment With One Trace ID。Legacy frontend-backend deployments fail in layers。A React build can be correct while the proxy serves last week's files"
+    },
+    {
+      "title": "David Stark: Top High-Paying Roles",
+      "describe": "👋 Hello Architects & Elite Engineers, The market is shifting. We are seeing a surge in JAVA roles this week. We don't do \"Easy Apply\". Our internal gatekeeper just processed 200+ verified remote jobs from our partner network. To get these jobs, you must pass the architecture audit. Here are the Top 5 roles worth your time today.** 👇 1. [ Analista de Software SÃªnior ](https://www.jobsniper.pro?slug=analista-de-software-s-nior-remote-company-f7812c26d057) 🏢 Remote Company | 💰 Competitive | 📍 Remote Could you walk us through your experience with this tech stack? Tech Stack: Somos o banco ... ...",
+      "media": [],
+      "origin_url": "https://dev.to/devpulse/david-stark-top-high-paying-roles-2pac",
+      "published": "2026-07-13T02:24:57+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】David Stark: Top High-Paying Roles（架构）。👋 Hello Architects & Elite Engineers, The market is shifting。We are seeing a surge in JAVA roles this week"
+    },
+    {
+      "title": "FastAPI: correos por tenant sin bandejas cruzadas",
+      "describe": "Cuando un producto SaaS crece, el bug de correo mas incomodo no suele ser \"no envio nada\". El problema real es mezclar señales: un tenant dispara una invitacion, otro tester revisa la bandeja equivocada, y media hora despues nadie sabe si falló la app o falló el entorno. En equipos pequeños esto pasa mas de lo que admitimos, y se vuelve un dolorcito repetido. En proyectos con FastAPI, lo que mejor me ha funcionado es tratar cada email como un evento con contexto minimo pero estricto: tenant_id , run_id y una regla clara para enrutar la verificación. No es un sistema enorme. Es una convencio...",
+      "media": [],
+      "origin_url": "https://dev.to/silviutech/fastapi-correos-por-tenant-sin-bandejas-cruzadas-1p9a",
+      "published": "2026-07-13T02:24:28+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】FastAPI: correos por tenant sin bandejas cruzadas。Cuando un producto SaaS crece, el bug de correo mas incomodo no suele ser \"no envio nada\"。El problema real es mezclar señales: un tenant dispara una invitacion, otro tester revi..."
+    }
+  ],
+  "general": [
+    {
+      "title": "ServeSense vs FileZilla Server (2026 Comparison)",
+      "describe": "This comparison examines the features, security, automation capabilities, and deployment experience of ServeSense and FileZilla Server to help organizations choose the right secure file transfer solution. Last Updated: July 2026 At a Glance Choose ServeSense if you need: A lightweight and modern file transfer server Built-in monitoring and dashboards Advanced security protections Automation through APIs, Webhooks, and Event Triggers A solution that can operate without administrator privileges A secure file transfer platform for SMBs and enterprise teams Choose FileZilla Server if you need: ...",
+      "media": [],
+      "origin_url": "https://dev.to/ducwuji/servesense-vs-filezilla-server-2026-comparison-711",
+      "published": "2026-07-13T04:00:21+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】ServeSense vs FileZilla Server (2026 Comparison)（安全）。This comparison examines the features, security, automation capabilities, and deployment experience of ServeSense and FileZilla Server to help organizations choose the right sec..."
+    },
+    {
+      "title": "Rivalry-Radar-World-Cup-passion-engine-with-Snowflake-Google-AI",
+      "describe": "This is a submission for Weekend Challenge: Passion Edition ( https://dev.to/challenges/weekend-2026-07-09 ) What I Built Rivalry Radar — a live \"Heat Index\" for World Cup rivalries. Fans drop 280-character Terrace Takes on any matchup (Brazil vs Argentina, England vs France, whatever's got you shouting at the TV), rate how much the moment hurt or thrilled them from 1–10, and the app does the rest: Google AI (Gemini) scores every take's sentiment the instant it lands — positive, negative, mixed, or neutral — and separately writes a short \"Hype Verdict\" in the voice of a stadium announcer, b...",
+      "media": [
+        "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg"
+      ],
+      "origin_url": "https://dev.to/nandhutee/rivalry-radar-world-cup-passion-engine-with-snowflake-google-ai-12im",
+      "published": "2026-07-13T03:54:23+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Rivalry-Radar-World-Cup-passion-engine-with-Snowflake-Google。This is a submission for Weekend Challenge: Passion Edition ( https://dev。to/challenges/weekend-2026-07-09 ) What I Built Rivalry Radar — a live \"Heat Index\" for World Cup rival..."
+    },
+    {
+      "title": "AI agents need SSL certificates too — so I built ATC (Agent Trust Card)",
+      "describe": "The problem Websites have SSL certificates. Browsers verify them. Users trust them. It's the foundation of the web. AI agents have nothing . When Agent A connects to Agent B: ❌ No way to verify B's identity (anyone can impersonate) ❌ No way to check B's trustworthiness (no audit, no reputation) ❌ No encryption (messages are plaintext) ❌ No standard payment method ❌ No way to translate between frameworks (LangChain ≠ AutoGen) So I built ATC — Agent Trust Card . What is ATC? ATC is like an SSL certificate + passport + credit card for AI agents, all in one: Identity — Cryptographically signed ...",
+      "media": [],
+      "origin_url": "https://dev.to/edison_flores_6d2cd381b13/ai-agents-need-ssl-certificates-too-so-i-built-atc-agent-trust-card-5017",
+      "published": "2026-07-13T03:52:31+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】AI agents need SSL certificates too — so I built ATC (Agent 。The problem Websites have SSL certificates。Browsers verify them"
+    },
+    {
+      "title": "Amazon Seller Competitor Research Methods: A Developer's Guide with Code",
+      "describe": "Author : Leo, Technical Lead at Pangolinfo Tags : amazon python api mcp web-scraping data-analysis Reading time : ~12 minutes TL;DR This tutorial walks through building a complete Amazon competitor research system using Python and the Pangolinfo API. You'll learn the 5-step IBADM framework (Identify → Baseline → Analyze → Differentiate → Monitor) and get production-ready code you can run today. We'll also cover how to use the Amazon Data MCP for no-code competitor analysis. Amazon Scraper API: https://www.pangolinfo.com/amazon-scraper-api/?referrer=devto_amz Amazon Data MCP: https://www.pan...",
+      "media": [],
+      "origin_url": "https://dev.to/pangolinfo/amazon-seller-competitor-research-methods-a-developers-guide-with-code-243f",
+      "published": "2026-07-13T03:51:19+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Amazon Seller Competitor Research Methods: A Developer's Gui（教程）。Author : Leo, Technical Lead at Pangolinfo Tags : amazon python api mcp web-scraping data-analysis Reading time : ~12 minutes TL;DR This tutorial walks through building a comple..."
+    },
+    {
+      "title": "Why Your Team's AI Assistant Acts Like It's the First Day on the Job, Every Single Time",
+      "describe": "Anyone who has used AI tools for a while has probably run into this annoyance. You ask it to write a weekly report in the morning and it doesn't know your KPI framework was overhauled last week. You ask for a technical proposal in the afternoon and it has no idea you spent three months locking down your tech stack. Every new conversation means re-explaining the project background, which decisions were made and why. In multi-person collaboration the problem scales up fast. Five people each interacting with AI separately; the AI's understanding of each person is isolated. A discusses an archi...",
+      "media": [],
+      "origin_url": "https://dev.to/mininglamp/why-your-teams-ai-assistant-acts-like-its-the-first-day-on-the-job-every-single-time-2mep",
+      "published": "2026-07-13T03:48:29+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Why Your Team's AI Assistant Acts Like It's the First Day on（架构）。Anyone who has used AI tools for a while has probably run into this annoyance。You ask it to write a weekly report in the morning and it doesn't know your KPI framework was overh..."
+    },
+    {
+      "title": "How I configure Cline, Continue, and similar tools against a multi-protocol gateway",
+      "describe": "Disclosure and availability: DaoXE is a service we operate. It is not available in mainland China. This article is for developers in regions allowed by the service terms. Most coding assistants still speak one common dialect: OpenAI Compatible with a custom base URL. That is convenient for migration. It is not the whole story of a multi-model gateway. I run coding clients against DaoXE, a multi-protocol API gateway that exposes more than Chat Completions. This post is the practical setup path I use for Cline, Continue, Roo Code, Aider, and similar tools: one base URL, one key, live model di...",
+      "media": [],
+      "origin_url": "https://dev.to/seven7763/how-i-configure-cline-continue-and-similar-tools-against-a-multi-protocol-gateway-44i1",
+      "published": "2026-07-13T03:44:27+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】How I configure Cline, Continue, and similar tools against a。Disclosure and availability: DaoXE is a service we operate。It is not available in mainland China"
+    },
+    {
+      "title": "Avoid Delegation Warnings When Using If() Inside Filter() in Power Apps",
+      "describe": "Instead of placing the conditional logic inside the filter predicate, move the decision-making outside and apply separate Filter() statements. If( !IsBlank(DatePicker.SelectedDate), Filter(dataSource, Created <= Today() - 15), Filter(dataSource, Created <= DatePicker.SelectedDate) ) Why This Works Each branch contains a simple Filter() expression. The filter condition remains straightforward and delegable. Power Apps can translate each query more effectively for supported data sources. Better Approach 2: Precompute the Value and Then Filter Another clean approach is to calculate the date va...",
+      "media": [],
+      "origin_url": "https://dev.to/ajith_kumar_powerdev/avoid-delegation-warnings-when-using-if-inside-filter-in-power-apps-229m",
+      "published": "2026-07-13T03:42:08+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Avoid Delegation Warnings When Using If() Inside Filter() in。Instead of placing the conditional logic inside the filter predicate, move the decision-making outside and apply separate Filter() statements。IsBlank(DatePicker"
+    },
+    {
+      "title": "Quadrupling code performance with a \"useless\" if",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://purplesyringa.moe/blog/quadrupling-code-performance-with-a-useless-if/",
+      "published": "2026-07-13T03:33:01+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Quadrupling code performance with a \"useless\" if（性能）。Comments"
+    },
+    {
+      "title": "1970 Plymouth Hemi 'CUDA",
+      "describe": "Article URL: https://knuckledustchronicles.com/1970-plymouth-hemi-cuda/ Comments URL: https://news.ycombinator.com/item?id=48887490 Points: 5 # Comments: 1",
+      "media": [],
+      "origin_url": "https://knuckledustchronicles.com/1970-plymouth-hemi-cuda/",
+      "published": "2026-07-13T03:22:44+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】1970 Plymouth Hemi 'CUDA。Article URL: https://knuckledustchronicles。com/1970-plymouth-hemi-cuda/ Comments URL: https://news"
+    },
+    {
+      "title": "Modernizing Property Tax Assessments in Allegheny County",
+      "describe": "Article URL: https://www.prohousingpgh.org/blog/new-report-modernizing-property-tax-assessments-in-allegheny-county Comments URL: https://news.ycombinator.com/item?id=48886881 Points: 31 # Comments: 15",
+      "media": [],
+      "origin_url": "https://www.prohousingpgh.org/blog/new-report-modernizing-property-tax-assessments-in-allegheny-county",
+      "published": "2026-07-13T01:47:21+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Modernizing Property Tax Assessments in Allegheny County。Article URL: https://www。prohousingpgh"
+    },
+    {
+      "title": "Overhauled homelab",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://timharek.no/blog/kaizen-4/",
+      "published": "2026-07-13T00:16:59+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Overhauled homelab。Comments"
+    },
+    {
+      "title": "Browsers Do Math Differently on Every OS; Anti-Bot Systems Read the Bits",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+      "published": "2026-07-12T23:06:14+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Browsers Do Math Differently on Every OS; Anti-Bot Systems R。Comments"
+    }
+  ]
+}

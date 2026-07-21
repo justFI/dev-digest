@@ -1,0 +1,835 @@
+{
+  "ai": [
+    {
+      "title": "Open-Weight LLM API Integration: A Developer's Guide to Building with Transparent AI",
+      "describe": "Open-Weight LLM API Integration: A Developer's Guide to Building with Transparent AI The AI landscape is shifting. While proprietary models dominated the early wave of generative AI, a powerful movement toward open-weight large language models is reshaping how developers build intelligent applications. If you've been curious about integrating open-weight LLMs into your stack without managing GPU clusters or wrestling with model weights locally, this guide is for you. Let's break down what open-weight LLMs are, why they matter for your next project, and how to integrate them into your applic...",
+      "media": [],
+      "origin_url": "https://dev.to/sbt112321321/open-weight-llm-api-integration-a-developers-guide-to-building-with-transparent-ai-3k2p",
+      "published": "2026-07-21T04:00:58+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Open-Weight LLM API Integration: A Developer's Guide to Buil（教程）。Open-Weight LLM API Integration: A Developer's Guide to Building with Transparent AI The AI landscape is shifting。While proprietary models dominated the early wave of generative..."
+    },
+    {
+      "title": "Three months of freelancing with AI — what actually changed (2026-07-21)",
+      "describe": "Three months ago I started using AI for every part of my freelance workflow. Some parts I expected. Some I didn't. What got faster (a lot faster) Writing boilerplate code — yes, the obvious one Writing tests — pytest fixtures, factory_boy models, the boring stuff Translating English to code — \"give me a function that does X\" works most of the time Writing documentation — README, docstrings, OpenAPI specs What got SLOWER Choosing between libraries — AI gives you 3 options, each with 4 tradeoffs, and now you have to evaluate 12 things instead of 3 Architectural decisions — the LLM confidently...",
+      "media": [],
+      "origin_url": "https://dev.to/hal_gobvan_16a285d49bda97/three-months-of-freelancing-with-ai-what-actually-changed-2026-07-21-4pek",
+      "published": "2026-07-21T04:00:57+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Three months of freelancing with AI — what actually changed 。Three months ago I started using AI for every part of my freelance workflow。Some parts I expected"
+    },
+    {
+      "title": "hermes-memory-installer: Avoiding Stale Commit Hashes in Consistency Notes",
+      "describe": "A recent commit in the hermes-memory-installer project updated a consistency note in the documentation to remove a direct commit hash reference. The message: docs: avoid stale commit hash in consistency note . This is a small change, but it highlights a recurring issue in developer documentation: tying explanations to volatile commit pointers. Experienced developers know that commit hashes are not permanent anchors. They belong to a specific branch state, can become outdated as the codebase evolves, and are often meaningless without the proper repository context. A consistency note—a commen...",
+      "media": [],
+      "origin_url": "https://dev.to/mage0535/hermes-memory-installer-avoiding-stale-commit-hashes-in-consistency-notes-3oi3",
+      "published": "2026-07-21T04:00:41+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】hermes-memory-installer: Avoiding Stale Commit Hashes in Con。A recent commit in the hermes-memory-installer project updated a consistency note in the documentation to remove a direct commit hash reference。The message: docs: avoid stale co..."
+    },
+    {
+      "title": "Stop Wasting API Tokens: Why We Need to Kill 'max_iterations' in AI Agents 🛑",
+      "describe": "If you have built an AI agent in the last year, you have probably written a line of code that looks exactly like this: MAX_ITERATIONS = 5 # Just guessing and hoping for the best When building verify-revise loops using frameworks like LangGraph, AutoGen, or CrewAI, we all rely on this universal hack. We set a fixed cap on our agent loops because we don't want an LLM spinning endlessly and racking up a massive OpenAI or Anthropic bill. But this hardcoded cap is fundamentally broken in both directions: You stop too early: The loop is cut off right when it was just one iteration away from solvi...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa6licv49v7etf73pmlsx.png"
+      ],
+      "origin_url": "https://dev.to/siddhesh_surve/stop-wasting-api-tokens-why-we-need-to-kill-maxiterations-in-ai-agents-1kod",
+      "published": "2026-07-21T03:58:26+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Stop Wasting API Tokens: Why We Need to Kill 'max_iterations。If you have built an AI agent in the last year, you have probably written a line of code that looks exactly like this: MAX_ITERATIONS = 5 # Just guessing and hoping for the best..."
+    },
+    {
+      "title": "I Thought Building an AI GitHub Assistant Would Take a Weekend. I Was Wrong.",
+      "describe": "Every time I solved one problem, another one appeared. Looking back, that's what made this project worth building. I built Octogen : github.com/SplinterSword/octogen When I started building Octogen , I had a very simple idea. \"What if I could ask questions about any GitHub repository instead of spending hours searching through files?\" It sounded straightforward. Clone a repository. Generate embeddings. Store them somewhere. Pass the retrieved context to an LLM. Done. ...or at least that's what I thought. Within a few days I realized the AI part was actually the easiest part of the project. ...",
+      "media": [],
+      "origin_url": "https://dev.to/splintersword/i-thought-building-an-ai-github-assistant-would-take-a-weekend-i-was-wrong-46g7",
+      "published": "2026-07-21T03:55:48+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】I Thought Building an AI GitHub Assistant Would Take a Weeke（开源）。Every time I solved one problem, another one appeared。Looking back, that's what made this project worth building"
+    },
+    {
+      "title": "How to Use Command R for Anchor Text Optimization in 2026",
+      "describe": "Originally published at https://seointent.com/blog/command-r-for-anchor-text-optimization TL;DR - Command r for anchor text optimization is a prompt-driven workflow that uses Cohere's Command R model to audit, generate, and diversify anchor text across your site at scale. - Command R's long-context window and RAG-ready architecture make it unusually good at processing large anchor text inventories in one pass. - The biggest mistake SEOs make is feeding Command R raw anchor text without page context — the output quality drops dramatically when the model can't see the surrounding content. - Y...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4b1jejc69gscus32s5rs.jpeg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fznf3r325wbco6kxpszw3.jpeg"
+      ],
+      "origin_url": "https://dev.to/leosociallseointent/how-to-use-command-r-for-anchor-text-optimization-in-2026-4a9h",
+      "published": "2026-07-21T03:55:35+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】How to Use Command R for Anchor Text Optimization in 2026（教程/架构）。Originally published at https://seointent。com/blog/command-r-for-anchor-text-optimization TL;DR - Command r for anchor text optimization is a prompt-driven workflow that uses Co..."
+    },
+    {
+      "title": "Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40%",
+      "describe": "Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40% How we moved from \"semantic search + hope\" to a measured, tunable retrieval pipeline with 95% recall@10 The RAG Reality Check Everyone ships RAG the same way: chunk by 512 tokens, embed with text-embedding-3-small , top-k=5, stuff into context. It works for demos. Then you hit production: Legal contracts: 512 tokens splits clauses mid-sentence API docs: 1000-token chunks drown signal in noise Customer tickets: Conversational context needs overlap, not fixed windows Latency: 500ms embedding + 200ms vec...",
+      "media": [],
+      "origin_url": "https://dev.to/imus_d7584cbc8ee9b0336256/optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-pni",
+      "published": "2026-07-21T03:55:13+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesi（架构）。Optimizing RAG at Scale: Chunking, Retrieval, and the Bayesian Search That Cut Latency 40% How we moved from \"semantic search + hope\" to a measured, tunable retrieval pipeline w..."
+    },
+    {
+      "title": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics",
+      "describe": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics",
+      "media": [],
+      "origin_url": "https://dev.to/imus_d7584cbc8ee9b0336256/building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-43k7",
+      "published": "2026-07-21T03:55:12+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Building Production-Grade LLM Evaluation Pipelines: From Vib。Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics"
+    },
+    {
+      "title": "Harnessing Automation in Mobile App Development",
+      "describe": "Automation: A Game-Changer in Mobile App Development Let’s face it—manual processes in app development are outdated and a little painful. By embracing automation, we can reduce human error, speed up the entire development lifecycle, and focus on innovation instead of minutiae. Understanding Automation Automation streamlines every phase of app development: coding, testing, deployment, and maintenance. It replaces those tedious tasks with automated processes that deliver consistent and high-quality results. Key Benefits of Automation Here are some key points on the benefits of automation: Spe...",
+      "media": [],
+      "origin_url": "https://dev.to/ravi_roy_1222f9e6b2ea51bd/harnessing-automation-in-mobile-app-development-1j4p",
+      "published": "2026-07-21T03:54:09+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Harnessing Automation in Mobile App Development。Automation: A Game-Changer in Mobile App Development Let’s face it—manual processes in app development are outdated and a little painful。By embracing automation, we can reduce h..."
+    },
+    {
+      "title": "Durable State for Coding Agents: LangGraph vs Google ADK vs OpenAI Agents SDK",
+      "describe": "Long-running coding agents fail in ways a chat demo hides: the worker restarts, a human approval arrives hours later, or a tool call is interrupted after changing the repository. “Memory” alone is not enough. You need to know what state is saved, what resumes, and what may run twice. This is a documentation-based comparison of LangGraph , Google ADK , and the OpenAI Agents SDK . It is not a benchmark, and I did not run a common workload across the three. I reviewed the official documentation on July 21, 2026. Evaluation criteria I compared each option on: State model: conversation history, ...",
+      "media": [],
+      "origin_url": "https://dev.to/zira125/durable-state-for-coding-agents-langgraph-vs-google-adk-vs-openai-agents-sdk-49c5",
+      "published": "2026-07-21T03:49:23+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Durable State for Coding Agents: LangGraph vs Google ADK vs （性能）。Long-running coding agents fail in ways a chat demo hides: the worker restarts, a human approval arrives hours later, or a tool call is interrupted after changing the repository..."
+    },
+    {
+      "title": "Агент с ИИ жжёт в 30 раз больше токенов, чем чат - вот куда",
+      "describe": "Разобрать за 30 минут · Уровень: средний · Тип: разбор + практика · Данные проверены на 11 июля 2026 Что узнаешь: Откуда берётся «налог на токены»: почему один агент с ИИ съедает в 5-30 раз больше токенов, чем чат, а мульти-агент - до 500 раз Механика пере-биллинга контекста на пальцах: почему на шаге 20 ты платишь за системный промпт двадцать раз подряд Парадокс Джевонса в цифрах: цена токена упала на 67% за год, а корпоративные счета за ИИ выросли на 320% Реальные кейсы с деньгами: $500 млн за месяц, $6000 за ночь, годовой бюджет Uber за 4 месяца - и что там сломалось 5 антипаттернов, из-...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8jesj2khvgqmhnclmqb5.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn2kcms6nmg3eethfoizg.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1wnkbvc0v4oz2juotw9g.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fiiv6qfdk75q0cb3kd9b2.png"
+      ],
+      "origin_url": "https://dev.to/promptra-team/aghient-s-ii-zhzhiot-v-30-raz-bolshie-tokienov-chiem-chat-vot-kuda-4f8d",
+      "published": "2026-07-21T03:49:14+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Агент с ИИ жжёт в 30 раз больше токенов, чем чат - вот куда。Разобрать за 30 минут · Уровень: средний · Тип: разбор + практика · Данные проверены на 11 июля 2026 Что узнаешь: Откуда берётся «налог на токены»: почему один агент с ИИ съедае..."
+    },
+    {
+      "title": "Why AI Won't Gut Security & Compliance SaaS — It's Actually the Opposite",
+      "describe": "Every few months, someone declares SaaS dead. This time it's AI agents, and the argument sounds convincing until you look at what kind of software actually runs a regulated business. There's a useful distinction buried in a recent private credit newsletter (Debt Serious) that I think applies directly to security and compliance tooling: the difference between probabilistic and deterministic systems. Large language models are probabilistic. Run the same prompt twice on different days and you'll often get different answers back. Annoying if you're drafting a marketing email, sure — but surviva...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fimages.spr.so%2Fcdn-cgi%2Fimagedelivery%2Fj42No7y-dcokJuNgXeA0ig%2F758f8573-34e8-4227-b13c-306593963171%2FSonu_Goswami_SaaS_B2B_Content_Writerwebpb103kb%2Fpublic",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fassets.super.so%2F3417c717-3c3c-43d1-bd0f-6588ce280fa7%2Fuploads%2Ffavicon%2F3fea6d54-e41a-4162-b0a6-ad1e6184eba7.png"
+      ],
+      "origin_url": "https://dev.to/sonu_goswami_73182a7f7df4/why-ai-wont-gut-security-compliance-saas-its-actually-the-opposite-22k0",
+      "published": "2026-07-21T03:49:09+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Why AI Won't Gut Security & Compliance SaaS — It's Actually （安全）。Every few months, someone declares SaaS dead。This time it's AI agents, and the argument sounds convincing until you look at what kind of software actually runs a regulated business"
+    }
+  ],
+  "ios": [
+    {
+      "title": "Security Architecture Deep Dive: How Automatic Locking Works Under the Hood",
+      "describe": "Understanding the security architecture behind automatic locking provides valuable insights. Wonder Lock's automatic locking operates through a multi-layered approach. At the application level, it monitors UIApplication state notifications to detect background transitions. When automatic locking triggers, it presents an authentication view controller that blocks the protected app until verified. This uses iOS presentation controller APIs ensuring the authentication screen cannot be bypassed. The automatic locking system implements secure storage using the iOS Keychain, encrypting configurat...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/security-architecture-deep-dive-how-automatic-locking-works-under-the-hood-p62",
+      "published": "2026-07-21T02:30:18+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Security Architecture Deep Dive: How Automatic Locking Works（安全/架构）。Understanding the security architecture behind automatic locking provides valuable insights。Wonder Lock's automatic locking operates through a multi-layered approach"
+    },
+    {
+      "title": "Teaching Users About Automatic Locking: A Developer's Responsibility",
+      "describe": "As developers, we have an educational responsibility. Many users don't understand automatic locking or how to configure it properly. Wonder Lock makes education easier with clear, intuitive options. When developers recommend automatic locking and explain its benefits, they contribute to a more secure ecosystem. The message is simple: automatic locking protects data without requiring effort. For developers integrating with app security solutions, understanding how Wonder Lock implements automatic locking helps provide better guidance. By championing automatic locking , developers help users ...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/teaching-users-about-automatic-locking-a-developers-responsibility-1kkm",
+      "published": "2026-07-21T02:25:07+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Teaching Users About Automatic Locking: A Developer's Respon（教程/安全）。As developers, we have an educational responsibility。Many users don't understand automatic locking or how to configure it properly"
+    },
+    {
+      "title": "Comparing Cross-Platform App Locking Solutions: Why Automatic Locking Wins",
+      "describe": "When evaluating app locking solutions, automatic locking emerges as superior. Wonder Lock's implementation demonstrates why automatic security outperforms manual alternatives. The key advantage is consistency — automatic locking never forgets to secure an app regardless of the user's state. Manual solutions depend on user behavior, which is unreliable. Testing shows automatic locking achieves 100% protection coverage while manual approaches protect only 40-60% of app launches. This dramatic difference makes automatic locking the clear choice for mobile privacy.",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/comparing-cross-platform-app-locking-solutions-why-automatic-locking-wins-1odb",
+      "published": "2026-07-21T02:19:56+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Comparing Cross-Platform App Locking Solutions: Why Automati（安全）。When evaluating app locking solutions, automatic locking emerges as superior。Wonder Lock's implementation demonstrates why automatic security outperforms manual alternatives"
+    },
+    {
+      "title": "Security Architecture Deep Dive: How Automatic Locking Works Under the Hood",
+      "describe": "Understanding the security architecture behind automatic locking provides valuable insights. Wonder Lock's automatic locking operates through a multi-layered approach. At the application level, it monitors UIApplication state notifications to detect background transitions. When automatic locking triggers, it presents an authentication view controller that blocks the protected app until verified. This uses iOS presentation controller APIs ensuring the authentication screen cannot be bypassed. The automatic locking system implements secure storage using the iOS Keychain, encrypting configurat...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/security-architecture-deep-dive-how-automatic-locking-works-under-the-hood-20p4",
+      "published": "2026-07-21T02:17:09+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Security Architecture Deep Dive: How Automatic Locking Works（安全/架构）。Understanding the security architecture behind automatic locking provides valuable insights。Wonder Lock's automatic locking operates through a multi-layered approach"
+    },
+    {
+      "title": "The Role of Automatic Locking in Regulatory Compliance",
+      "describe": "Many industries face strict regulations like GDPR, HIPAA, and CCPA. automatic locking plays a crucial role in compliance. Wonder Lock helps organizations meet technical safeguard requirements for protecting personal data. When automatic locking is enabled, it provides demonstrable security controls that auditors look for. The automatic nature is valuable because it eliminates human error risk. With automatic locking , organizations show data protection measures are consistently applied. Wonder Lock's implementation supports compliance documentation by providing reliable, verifiable security...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/the-role-of-automatic-locking-in-regulatory-compliance-22k8",
+      "published": "2026-07-21T02:14:45+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】The Role of Automatic Locking in Regulatory Compliance（安全）。Many industries face strict regulations like GDPR, HIPAA, and CCPA。automatic locking plays a crucial role in compliance"
+    },
+    {
+      "title": "Teaching Users About Automatic Locking: A Developer's Responsibility",
+      "describe": "As developers, we have an educational responsibility. Many users don't understand automatic locking or how to configure it properly. Wonder Lock makes education easier with clear, intuitive options. When developers recommend automatic locking and explain its benefits, they contribute to a more secure ecosystem. The message is simple: automatic locking protects data without requiring effort. For developers integrating with app security solutions, understanding how Wonder Lock implements automatic locking helps provide better guidance. By championing automatic locking , developers help users ...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/teaching-users-about-automatic-locking-a-developers-responsibility-3oj1",
+      "published": "2026-07-21T02:11:58+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Teaching Users About Automatic Locking: A Developer's Respon（教程/安全）。As developers, we have an educational responsibility。Many users don't understand automatic locking or how to configure it properly"
+    },
+    {
+      "title": "How Automatic Locking Prevents Data Leakage on Shared Devices",
+      "describe": "Data leakage is serious in shared-device environments. automatic locking provides crucial defense against this risk. Wonder Lock ensures that when one user finishes, all sensitive apps are secured. The automatic locking mechanism activates immediately when an app goes to background, preventing the next user from accessing previous data. This is important in healthcare, retail, and education where devices are frequently handed between staff. Implementing automatic locking on shared devices creates privacy boundaries protecting each user's information. Wonder Lock makes this configuration sim...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/how-automatic-locking-prevents-data-leakage-on-shared-devices-4g6j",
+      "published": "2026-07-21T02:09:34+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How Automatic Locking Prevents Data Leakage on Shared Device。Data leakage is serious in shared-device environments。automatic locking provides crucial defense against this risk"
+    },
+    {
+      "title": "Comparing Cross-Platform App Locking Solutions: Why Automatic Locking Wins",
+      "describe": "When evaluating app locking solutions, automatic locking emerges as superior. Wonder Lock's implementation demonstrates why automatic security outperforms manual alternatives. The key advantage is consistency — automatic locking never forgets to secure an app regardless of the user's state. Manual solutions depend on user behavior, which is unreliable. Testing shows automatic locking achieves 100% protection coverage while manual approaches protect only 40-60% of app launches. This dramatic difference makes automatic locking the clear choice for mobile privacy.",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/comparing-cross-platform-app-locking-solutions-why-automatic-locking-wins-171f",
+      "published": "2026-07-21T02:06:47+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Comparing Cross-Platform App Locking Solutions: Why Automati（安全）。When evaluating app locking solutions, automatic locking emerges as superior。Wonder Lock's implementation demonstrates why automatic security outperforms manual alternatives"
+    },
+    {
+      "title": "Best Practices for Configuring Automatic Locking in Enterprise Environments",
+      "describe": "Enterprise mobile security requires standardized approaches. automatic locking through Wonder Lock offers IT administrators consistent app-level security enforcement. Best practices include: enabling automatic locking on all corporate communication apps, using biometric authentication, setting PIN fallback for devices without biometrics, enabling failed attempt logging, and configuring grace periods. These automatic locking configurations ensure corporate data remains protected without frustrating employees. For organizations managing iOS device fleets, Wonder Lock's automatic locking provi...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/best-practices-for-configuring-automatic-locking-in-enterprise-environments-4l6o",
+      "published": "2026-07-21T02:04:23+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Best Practices for Configuring Automatic Locking in Enterpri（安全）。Enterprise mobile security requires standardized approaches。automatic locking through Wonder Lock offers IT administrators consistent app-level security enforcement"
+    },
+    {
+      "title": "The Role of Automatic Locking in Regulatory Compliance",
+      "describe": "Many industries face strict regulations like GDPR, HIPAA, and CCPA. automatic locking plays a crucial role in compliance. Wonder Lock helps organizations meet technical safeguard requirements for protecting personal data. When automatic locking is enabled, it provides demonstrable security controls that auditors look for. The automatic nature is valuable because it eliminates human error risk. With automatic locking , organizations show data protection measures are consistently applied. Wonder Lock's implementation supports compliance documentation by providing reliable, verifiable security...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/the-role-of-automatic-locking-in-regulatory-compliance-4ii5",
+      "published": "2026-07-21T02:01:36+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】The Role of Automatic Locking in Regulatory Compliance（安全）。Many industries face strict regulations like GDPR, HIPAA, and CCPA。automatic locking plays a crucial role in compliance"
+    },
+    {
+      "title": "Performance Impact of Automatic Locking: What Testing Shows",
+      "describe": "One common concern about automatic locking is performance impact. Testing of Wonder Lock shows negligible overhead. The automatic locking system is lightweight — using minimal CPU resources with no measurable battery impact. When an app with automatic locking enabled is foreground, monitoring uses zero additional resources. The security check only activates during the brief moment when an app transitions between background and foreground. This efficient design means comprehensive automatic locking protection without performance trade-offs. Security never comes at the cost of user experience.",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/performance-impact-of-automatic-locking-what-testing-shows-omd",
+      "published": "2026-07-21T01:59:12+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Performance Impact of Automatic Locking: What Testing Shows（性能/安全）。One common concern about automatic locking is performance impact。Testing of Wonder Lock shows negligible overhead"
+    },
+    {
+      "title": "How Automatic Locking Prevents Data Leakage on Shared Devices",
+      "describe": "Data leakage is serious in shared-device environments. automatic locking provides crucial defense against this risk. Wonder Lock ensures that when one user finishes, all sensitive apps are secured. The automatic locking mechanism activates immediately when an app goes to background, preventing the next user from accessing previous data. This is important in healthcare, retail, and education where devices are frequently handed between staff. Implementing automatic locking on shared devices creates privacy boundaries protecting each user's information. Wonder Lock makes this configuration sim...",
+      "media": [],
+      "origin_url": "https://dev.to/support_763dd4352904db708/how-automatic-locking-prevents-data-leakage-on-shared-devices-2nm3",
+      "published": "2026-07-21T01:56:25+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How Automatic Locking Prevents Data Leakage on Shared Device。Data leakage is serious in shared-device environments。automatic locking provides crucial defense against this risk"
+    }
+  ],
+  "android": [
+    {
+      "title": "Where do color-by-number apps actually get their image libraries?",
+      "describe": "I've built the engine for a paint-by-number app but I can't work out where the hundreds of competing apps source thousands of flat vector images. Is there an actual B2B licensing vendor for this, or is everyone doing in-house art teams / AI generation / cloning each other? submitted by /u/jesse0630 [link] [comments]",
+      "media": [],
+      "origin_url": "https://www.reddit.com/r/androiddev/comments/1v25o58/where_do_colorbynumber_apps_actually_get_their/",
+      "published": "2026-07-21T02:32:20+00:00",
+      "source_label": "Reddit r/androiddev",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Where do color-by-number apps actually get their image libra。I've built the engine for a paint-by-number app but I can't work out where the hundreds of competing apps source thousands of flat vector images。Is there an actual B2B licensing..."
+    },
+    {
+      "title": "How do solo/indie Android developers test their apps without a QA team?",
+      "describe": "I'm a solo Android developer and don't really have the budget or resources for a dedicated QA team or a large pool of beta testers. Most of the time, I test the app myself on a couple of devices, write unit tests where I can, and do phased rollouts. But I'm still worried about device-specific issues, edge cases, and bugs that only appear in real-world usage. A recent release reminded me that no matter how much I test, users can still find problems I never encountered. I'm curious how other indie developers handle testing before releasing to production. Do you rely mostly on internal testing...",
+      "media": [],
+      "origin_url": "https://www.reddit.com/r/androiddev/comments/1v25eaf/how_do_soloindie_android_developers_test_their/",
+      "published": "2026-07-21T02:19:48+00:00",
+      "source_label": "Reddit r/androiddev",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How do solo/indie Android developers test their apps without（开源）。I'm a solo Android developer and don't really have the budget or resources for a dedicated QA team or a large pool of beta testers。Most of the time, I test the app myself on a c..."
+    },
+    {
+      "title": "Keeping Android Background Services Alive in a World of OEM Battery Optimizations",
+      "describe": "It was the middle of a Friday prayer service at the local masjid. Everything was silent, the kind of quiet that makes every floorboard creak sound like a thunderclap. Then, it happened. My phone, tucked deep inside my pocket, decided it was the perfect time to play a ringtone at maximum volume. It wasn't just a simple notification; it was a loud, upbeat track that echoed off the walls. I felt the heat rise to my face instantly. I scrambled to silence it, but the damage was done. Everyone has had that moment. Whether it is a job interview, a final exam, or a medical appointment, the social c...",
+      "media": [],
+      "origin_url": "https://dev.to/haseebthedev0/keeping-android-background-services-alive-in-a-world-of-oem-battery-optimizations-2oi4",
+      "published": "2026-07-21T01:41:19+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Keeping Android Background Services Alive in a World of OEM 。It was the middle of a Friday prayer service at the local masjid。Everything was silent, the kind of quiet that makes every floorboard creak sound like a thunderclap"
+    },
+    {
+      "title": "CloudFlare Mobile - A full-featured Cloudflare management app built with React Native & Expo",
+      "describe": "A full-featured Cloudflare management app built with React Native & Expo. Manage your domains, DNS records, Workers, KV, R2, Pages, and more — right from your phone. Disclaimer: This is an unofficial app and is not affiliated with, endorsed by, or officially connected to Cloudflare, Inc. Download Available on Google Play , or grab the APK from GitHub Releases . Screenshots Dashboard Zones Services Settings (Dark) Settings (Light) Features Zone Management — View and manage all your Cloudflare zones DNS Records — Create, edit, delete A, AAAA, CNAME, MX, TXT, and more SSL/TLS — Configure encry...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fplay.google.com%2Fintl%2Fen_us%2Fbadges%2Fstatic%2Fimages%2Fbadges%2Fen_badge_web_generic.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7fqkw34e4dcm44b3pom2.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/screenshots%2F02_zones.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu8ekzfupjze23iaq74fi.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffyb9ykik1y7uoibf28sy.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5g2q1r4pjczr4259p42x.png"
+      ],
+      "origin_url": "https://dev.to/abdulm/cloudflare-mobile-a-full-featured-cloudflare-management-app-built-with-react-native-expo-4175",
+      "published": "2026-07-21T00:55:54+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】CloudFlare Mobile - A full-featured Cloudflare management ap（开源）。A full-featured Cloudflare management app built with React Native & Expo。Manage your domains, DNS records, Workers, KV, R2, Pages, and more — right from your phone"
+    },
+    {
+      "title": "Yet Another Article on Media Streaming: Part 3",
+      "describe": "Hey there! In Part 1 and Part 2 , we covered the network side of streaming: why chunked delivery beats downloading, how manifests and ABR work, and how DRM protects content in transit. That's the \"getting the bytes to the device\" story. This part picks up right where the bytes land. A segment has arrived on the device, encrypted or not, and now something has to turn it into pixels and sound coming out of your speakers within milliseconds. That's the playback pipeline, and it's where a lot of my day to day work as an Android engineer actually lives. I'll be leaning on Media3/ExoPlayer for th...",
+      "media": [],
+      "origin_url": "https://dev.to/xheghun/yet-another-article-on-media-streaming-part-3-5d7n",
+      "published": "2026-07-21T00:49:43+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Yet Another Article on Media Streaming: Part 3。In Part 1 and Part 2 , we covered the network side of streaming: why chunked delivery beats downloading, how manifests and ABR work, and how DRM protects content in transit。That..."
+    },
+    {
+      "title": "Advice needed: secondary touch input leaking to primary cashier app on Sunmi T3 POS - Need workaround for ads-only display",
+      "describe": "Hey everyone, I'm stuck with a touch driver issue on a dual-screen Sunmi T3 Android POS terminal and need advice from anyone familiar with Sunmi hardware or secondary display input mapping. We built a custom launcher app using DisplayManager and Presentation API where the main cashier interface runs on the primary display while the secondary screen loads a customer-facing web page via WebView to display promotional ads, meaning the secondary screen is strictly intended as an ads-only display with zero customer interaction required. The built-in Sunmi T3 system settings for the customer disp...",
+      "media": [],
+      "origin_url": "https://www.reddit.com/r/androiddev/comments/1v22kya/advice_needed_secondary_touch_input_leaking_to/",
+      "published": "2026-07-21T00:12:20+00:00",
+      "source_label": "Reddit r/androiddev",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Advice needed: secondary touch input leaking to primary cash。Hey everyone, I'm stuck with a touch driver issue on a dual-screen Sunmi T3 Android POS terminal and need advice from anyone familiar with Sunmi hardware or secondary display in..."
+    },
+    {
+      "title": "下载 Telegram 前，先检查安装包是否被篡改",
+      "describe": "上个月，我帮一个朋友排查手机异常耗电的问题，最后发现罪魁祸首居然是他从某个\"汉化版\"网站下载的 Telegram。那个安装包被植入了广告 SDK，还会在后台静默上传联系人列表。他完全不知道，因为界面看起来和官方版本一模一样。 这件事让我意识到，很多人对\"安装包安全\"这件事的重视程度远远不够。 为什么 Telegram 安装包特别容易被动手脚 Telegram 在某些地区无法直接访问官方渠道，这就催生了大量第三方下载站。这些网站打着\"加速版\"\"汉化版\"\"去广告版\"的旗号，实际上很多都在原始 APK 上做了手脚。 问题在于，普通用户根本看不出区别： 界面完全一致 ：攻击者通常只修改底层代码，UI 保持原样 功能正常运行 ：消息收发、语音通话全都好用，不会触发用户警觉 权限请求看似合理 ：Telegram 本来就需要麦克风、相机、存储权限，多申请几个也不显眼 更麻烦的是，Android 系统对已安装的应用并不会持续校验签名。一旦你装了假冒版本，系统不会主动告警。 常见的篡改手法有哪些 了解攻击手法，才能更好地防御。我整理了几种最常见的 Telegram 安装包篡改方式： 注入广告 SDK 这是最\"温和\"的一种，攻击者的目的是赚广告钱。被注入后，你会看到莫名其妙的弹窗广告，或者应用在后台频繁联网。虽然不会直接窃取账号，但隐私泄露风险依然存在。 植入键盘记录器 这种就危险多了。恶意代码...",
+      "media": [],
+      "origin_url": "https://dev.to/der_a_e2e4031532cfa8169aa/xia-zai-telegram-qian-xian-jian-cha-an-zhuang-bao-shi-fou-bei-cuan-gai-128k",
+      "published": "2026-07-20T22:07:55+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】下载 Telegram 前，先检查安装包是否被篡改。上个月，我帮一个朋友排查手机异常耗电的问题，最后发现罪魁祸首居然是他从某个\"汉化版\"网站下载的 Telegram。那个安装包被植入了广告 SDK，还会在后台静默上传联系人列表"
+    },
+    {
+      "title": "Generate a production-grade Kotlin Multiplatform app (Compose, Room 3, Navigation 3, Koin) in one dialog",
+      "describe": "Generate a production-grade Kotlin Multiplatform app (Compose, Room 3, Navigation 3, Koin) in one dialog Starting a Kotlin Multiplatform project has a strange cost curve. The first Hello, world is cheap — the IDE's built-in wizard gives you a shared module and platform targets in a minute. The next two weeks are where the real setup lives: choosing an architecture, wiring a KMP-ready database, getting type-safe navigation working, setting up DI without service-locator soup, structuring Gradle so the build doesn't rot, and writing enough tests to trust any of it. This article walks through o...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft4vvxnhch8hovz8y3nxv.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F32j6szsw1ir6tap3hof9.png"
+      ],
+      "origin_url": "https://dev.to/aoreshkov/generate-a-production-grade-kotlin-multiplatform-app-compose-room-3-navigation-3-koin-in-one-n6m",
+      "published": "2026-07-20T20:54:23+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Generate a production-grade Kotlin Multiplatform app (Compos（架构）。Generate a production-grade Kotlin Multiplatform app (Compose, Room 3, Navigation 3, Koin) in one dialog Starting a Kotlin Multiplatform project has a strange cost curve。The fir..."
+    },
+    {
+      "title": "Beyond the .tflite File: The Architect's Guide to Shipping High-Performance Edge AI on Android",
+      "describe": "If you think shipping AI to an Android device is as simple as dropping a .tflite file into your assets folder and calling a predict() method, you are in for a rude awakening. In the world of Edge AI, the transition from a trained model in a high-precision Python environment (like PyTorch or TensorFlow) to a production-ready Android binary is not a \"copy-paste\" operation. It is more akin to a complex database migration. Just as a developer must carefully map old schema versions to new ones to prevent data loss, an AI engineer must \"migrate\" a model from high-precision floating-point represen...",
+      "media": [],
+      "origin_url": "https://dev.to/programmingcentral/beyond-the-tflite-file-the-architects-guide-to-shipping-high-performance-edge-ai-on-android-1g7a",
+      "published": "2026-07-20T20:00:00+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Beyond the .tflite File: The Architect's Guide to Shipping H（教程/性能）。If you think shipping AI to an Android device is as simple as dropping a。tflite file into your assets folder and calling a predict() method, you are in for a rude awakening"
+    },
+    {
+      "title": "Tasker is awesome but I want to discuss something",
+      "describe": "Hi Everyone, Recently I open sourced an app called Loophole for turning the developer options on/off and it got a lot of traction on reddit even i got 50 stars on github i just 1.5 days and 5 forks and even my 1st pull request today. Thank to everybody in this community. I posted on this subreddit about it and people told me that they could do it with tasker and that this is not new. I respect their choices and their mindsets. I had heard about tasker vaguely but i didn't know what it was. so, i searched it and it was freaking awesome. It was like that i had super powers with me. I could ma...",
+      "media": [
+        "https://preview.redd.it/uaa7biarffeh1.png?width=320&crop=smart&auto=webp&s=3742624dc40e0cae46bd8b5200303ee56351c737"
+      ],
+      "origin_url": "https://www.reddit.com/r/androiddev/comments/1v1tkyk/tasker_is_awesome_but_i_want_to_discuss_something/",
+      "published": "2026-07-20T18:23:07+00:00",
+      "source_label": "Reddit r/androiddev",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Tasker is awesome but I want to discuss something（开源）。Hi Everyone, Recently I open sourced an app called Loophole for turning the developer options on/off and it got a lot of traction on reddit even i got 50 stars on github i just ..."
+    },
+    {
+      "title": "Hobbyist project: one sideloaded APK that hosts web apps from GitHub Pages... is this useful, or does it already exist?",
+      "describe": "I have a hobby project ( https://github.com/shoebox-apps/shoebox ) where you sideload one host APK, and it runs apps as static web bundles served from GitHub Pages. Adding an app is a QR scan or github pages URL paste. When the dev runs git push, the host polls the bundle's manifest and shows a \"deploy?\" prompt. The install gate gets crossed once for the host and everything after is content the package installer never sees. Bundles run in a locked-down WebView (no JS bridges, no Play Services, per-app storage isolated via the WebView Profile API). Full disclosure: I'm a hobbyist, not a prof...",
+      "media": [],
+      "origin_url": "https://www.reddit.com/r/androiddev/comments/1v1sffc/hobbyist_project_one_sideloaded_apk_that_hosts/",
+      "published": "2026-07-20T17:42:28+00:00",
+      "source_label": "Reddit r/androiddev",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Hobbyist project: one sideloaded APK that hosts web apps fro（开源）。I have a hobby project ( https://github。com/shoebox-apps/shoebox ) where you sideload one host APK, and it runs apps as static web bundles served from GitHub Pages"
+    },
+    {
+      "title": "Show HN: Crate – Wireless music manager for Android phones (open source)",
+      "describe": "Article URL: https://github.com/ivancernja/crate Comments URL: https://news.ycombinator.com/item?id=48982022 Points: 5 # Comments: 0",
+      "media": [],
+      "origin_url": "https://github.com/ivancernja/crate",
+      "published": "2026-07-20T17:32:51+00:00",
+      "source_label": "Hacker News (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Show HN: Crate – Wireless music manager for Android phones (（开源）。Article URL: https://github。com/ivancernja/crate Comments URL: https://news"
+    }
+  ],
+  "frontend": [
+    {
+      "title": "Jelly UI: Is This Soft-Body Physics Library the Future of Web Forms, or Just a Fun Party Trick?",
+      "describe": "Alright, folks, let's talk about something that genuinely caught my eye this week: Jelly UI. If you haven't seen it yet, go check it out. It's a library that applies soft-body physics to native HTML form controls . Yeah, you read that right. Buttons squish, checkboxes jiggle, and text inputs feel like you're typing into a blob of... well, jelly. Beyond the Novelty: Why This Isn't Just a Gimmick My initial reaction, like probably many of you, was \"Cool demo! But... practical?\" As a full-stack dev who spends way too much time wrestling with forms (looking at you, react-hook-form and your vali...",
+      "media": [],
+      "origin_url": "https://dev.to/hanzla/jelly-ui-is-this-soft-body-physics-library-the-future-of-web-forms-or-just-a-fun-party-trick-1j17",
+      "published": "2026-07-21T04:00:11+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Jelly UI: Is This Soft-Body Physics Library the Future of We。Alright, folks, let's talk about something that genuinely caught my eye this week: Jelly UI。If you haven't seen it yet, go check it out"
+    },
+    {
+      "title": "🚀 Rizzzler Just Got Even Better!",
+      "describe": "Hey everyone! 👋 First of all, thank you so much for all the support, feedback, and feature suggestions since the Product Hunt launch. Every comment has been incredibly valuable, and I've already started implementing some of your ideas. Today I'm excited to share a new update to Rizzzler ! 🌙 ✨ What's New? 🎨 2 Brand-New Themes I've added two new themes , giving you even more ways to personalize your profile and match your own style. Whether you prefer something clean, vibrant, or expressive, there's now even more variety to choose from. 👀 Live Preview Panel One of the most requested improveme...",
+      "media": [],
+      "origin_url": "https://dev.to/puneetkumar2010/rizzzler-just-got-even-better-569k",
+      "published": "2026-07-21T03:43:54+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】🚀 Rizzzler Just Got Even Better!。👋 First of all, thank you so much for all the support, feedback, and feature suggestions since the Product Hunt launch。Every comment has been incredibly valuable, and I've alrea..."
+    },
+    {
+      "title": "Next.js 15 Server Actions vs API Routes: Performance & Security Benchmark",
+      "describe": "Next.js 15 Server Actions vs API Routes: Performance & Security Benchmark Executive Overview Next.js 15 introduces major refinements to Server Actions , enabling full-stack developers to execute asynchronous server code directly from form submissions and client components without manually writing API endpoints ( pages/api or app/api ). In this technical benchmark, we analyze speed, bundle size impact, CSRF protection, and developer ergonomics between Next.js 15 Server Actions and traditional REST API Route Handlers. 1. Speed & Execution Latency Server Actions eliminate the round-trip overhe...",
+      "media": [],
+      "origin_url": "https://dev.to/mehar_farhan_8bf16d089749/nextjs-15-server-actions-vs-api-routes-performance-security-benchmark-1dgg",
+      "published": "2026-07-21T03:27:52+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Next.js 15 Server Actions vs API Routes: Performance & Secur（性能/安全）。js 15 Server Actions vs API Routes: Performance & Security Benchmark Executive Overview Next。js 15 introduces major refinements to Server Actions , enabling full-stack developer..."
+    },
+    {
+      "title": "openFDA Adverse Event API: Paging Past 25,000 and Flattening",
+      "describe": "You wrote a loop against api.fda.gov/drug/event.json , incremented skip , and at 25,001 got {\"code\":\"BAD_REQUEST\",\"message\":\"Skip value must 25000 or less.\"} (yes, the API's own message is missing the word \"be\"). Meanwhile your row count is 100x what you expected, your daily cron returns nothing, and patient.drug[] refuses to become a CSV. Every one of those has a specific, checkable cause. Every number below was measured against the live API on 2026-07-20, without an API key. Getting past 25,000 records: search_after skip is hard-capped. The escape hatch is the Link header: a 200 response ...",
+      "media": [],
+      "origin_url": "https://dev.to/mayd-it/openfda-adverse-event-api-paging-past-25000-and-flattening-2c6l",
+      "published": "2026-07-21T03:18:57+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】openFDA Adverse Event API: Paging Past 25,000 and Flattening。You wrote a loop against api。gov/drug/event"
+    },
+    {
+      "title": "Trade Smarter with Xalgos",
+      "describe": "The future of retail trading in India is algorithmic. By automating your charting signals, you can secure faster entry, maintain discipline, and scale your strategies without spending all day in front of your screens. Why Speed Matters Xalgos processes TradingView webhooks in milliseconds. The moment your indicator triggers a buy or sell signal, the order is routed to your stockbroker instantly. This ultra-low latency minimizes slippage and guarantees you get the best possible execution price. Eliminate Human Emotions Fear and greed cause traders to hesitate or close positions too early. Al...",
+      "media": [],
+      "origin_url": "https://dev.to/ayush1406/trade-smarter-with-xalgos-4h8",
+      "published": "2026-07-21T03:09:03+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Trade Smarter with Xalgos（架构）。The future of retail trading in India is algorithmic。By automating your charting signals, you can secure faster entry, maintain discipline, and scale your strategies without spe..."
+    },
+    {
+      "title": "Analyzing Sports Data: Argentina boss Scaloni leaves news conference in tears talking about his future — What the Number",
+      "describe": "Analyzing Sports Data: Argentina boss Scaloni leaves news conference in tears talking about his future — What the Number TL;DR : Lionel Scaloni broke down in tears at Argentinas post-tournament news conference on Sunday evening, cutting short his answer to a question about his future before leaving the room, in the Continue reading: Argentina boss Scaloni leaves news conference in tears talking about his future The Data Behind the Story Every major sports event generates thousands of data points in real time — performance index, score, time elapsed, and momentum. Most fans see the headline;...",
+      "media": [],
+      "origin_url": "https://dev.to/muhammad_binnazeer_6a810/analyzing-sports-data-argentina-boss-scaloni-leaves-news-conference-in-tears-talking-about-his-9op",
+      "published": "2026-07-21T03:08:00+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Analyzing Sports Data: Argentina boss Scaloni leaves news co（性能）。Analyzing Sports Data: Argentina boss Scaloni leaves news conference in tears talking about his future — What the Number TL;DR : Lionel Scaloni broke down in tears at Argentinas..."
+    },
+    {
+      "title": "Why Antonelli near-perfect but too much drama for Hamilton driver ratings Matters for Sports Data Engineers",
+      "describe": "Why Antonelli near-perfect but too much drama for Hamilton driver ratings Matters for Sports Data Engineers TL;DR : Kimi Antonelli walked away from Spa-Francorchamps with the highest mark on the board, and there was not much of an argument against it. BBC Radio 5 Live commentator Harry Benjamin Continue reading: Antonelli near-perfect but too much drama for Hamilton driver ratings The Data Behind the Story Every major formula 1 event generates thousands of data points in real time — gap to leader, lap time ms, tyre age, and sector delta. Most fans see the headline; data engineers see the un...",
+      "media": [],
+      "origin_url": "https://dev.to/muhammad_binnazeer_6a810/why-antonelli-near-perfect-but-too-much-drama-for-hamilton-driver-ratings-matters-for-sports-data-3jf4",
+      "published": "2026-07-21T03:07:47+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Why Antonelli near-perfect but too much drama for Hamilton d。Why Antonelli near-perfect but too much drama for Hamilton driver ratings Matters for Sports Data Engineers TL;DR : Kimi Antonelli walked away from Spa-Francorchamps with the hi..."
+    },
+    {
+      "title": "JSON Formatting in JavaScript: A Practical Guide with Real Examples",
+      "describe": "JSON Formatting in JavaScript: A Practical Guide with Real Examples JSON is everywhere in modern web development. But working with messy, unformatted JSON is a nightmare. This guide covers everything from basic formatting to advanced techniques with real code examples. Why JSON Formatting Matters If you've ever debugged an API response that looks like this: { \"name\" : \"John\" , \"age\" : 30 , \"address\" :{ \"street\" : \"123 Main St\" , \"city\" : \"NYC\" }, \"hobbies\" :[ \"reading\" , \"coding\" , \"hiking\" ]} You know the pain. Now compare it with properly formatted JSON: { \"name\" : \"John\" , \"age\" : 30 , \"...",
+      "media": [],
+      "origin_url": "https://dev.to/jiebangtools/json-formatting-in-javascript-a-practical-guide-with-real-examples-4fdi",
+      "published": "2026-07-21T03:00:02+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】JSON Formatting in JavaScript: A Practical Guide with Real E（教程）。JSON Formatting in JavaScript: A Practical Guide with Real Examples JSON is everywhere in modern web development。But working with messy, unformatted JSON is a nightmare"
+    },
+    {
+      "title": "Why Compressing an Image to Exactly 50KB Is Harder Than It Sounds",
+      "describe": "Ever wondered why one image hits 50KB at 80% quality while another is still 200KB at 20%? The answer isn't your compression library — it's how JPEG compression actually works. If you've ever tried building an \"exact target size\" image compressor, you've probably discovered this is a surprisingly hard optimization problem, not the one-line canvas.toBlob(quality) call it looks like from the outside. Here's what's actually happening under the hood, and why \"just lower the quality until it's small enough\" isn't as simple as it sounds. Quality Percentage and File Size Aren't Linearly Related JPE...",
+      "media": [],
+      "origin_url": "https://dev.to/vijay_kanna_56/why-compressing-an-image-to-exactly-50kb-is-harder-than-it-sounds-1pbg",
+      "published": "2026-07-21T02:59:21+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Why Compressing an Image to Exactly 50KB Is Harder Than It S。Ever wondered why one image hits 50KB at 80% quality while another is still 200KB at 20%。The answer isn't your compression library — it's how JPEG compression actually works"
+    },
+    {
+      "title": "Clawing back affiliate commissions when a Stripe payment is refunded or disputed",
+      "describe": "Affiliate programs are easy on the happy path. Someone clicks a link, subscribes, you owe a commission. The part that quietly loses you money is what happens next: the customer refunds in week two, or files a dispute in month two, and you already paid the affiliate for a sale that no longer exists. Here is how to handle the reversal cleanly on Stripe. The two events you actually care about Stripe fires a webhook for both cases: charge.refunded when you refund all or part of a payment. charge.dispute.created when the cardholder files a chargeback. Both mean the revenue you attributed to an a...",
+      "media": [],
+      "origin_url": "https://dev.to/mihirkanzariya/clawing-back-affiliate-commissions-when-a-stripe-payment-is-refunded-or-disputed-53m5",
+      "published": "2026-07-21T02:41:11+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Clawing back affiliate commissions when a Stripe payment is （教程）。Affiliate programs are easy on the happy path。Someone clicks a link, subscribes, you owe a commission"
+    },
+    {
+      "title": "David Stark: Top High-Paying Roles",
+      "describe": "👋 Hello Architects & Elite Engineers, The market is shifting. We are seeing a surge in JAVASCRIPT roles this week. We don't do \"Easy Apply\". Our internal gatekeeper just processed 200+ verified remote jobs from our partner network. To get these jobs, you must pass the architecture audit. Here are the Top 5 roles worth your time today.** 👇 1. Lead Full-stack Developer (Full-Time Remote Contractor) 🏢 Khibraty | 💰 Competitive | 📍 Remote Could you walk us through your experience with this tech stack? Tech Stack: . You’ll take ownership of an existing mobile app codebase and lead hands-on archit...",
+      "media": [],
+      "origin_url": "https://dev.to/devpulse/david-stark-top-high-paying-roles-1507",
+      "published": "2026-07-21T02:27:00+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】David Stark: Top High-Paying Roles（架构）。👋 Hello Architects & Elite Engineers, The market is shifting。We are seeing a surge in JAVASCRIPT roles this week"
+    },
+    {
+      "title": "Typed Email Verification States in React",
+      "describe": "Email verification UX often breaks long before the backend is actualy down. The UI says \"check your inbox\", polling keeps spinning, the resend button wakes up too early, and support gets screenshots with zero context. I keep seeing the same issue in React apps: we treat verification like a boolean instead of a flow with a few meaningful states. When I changed that mindset, the code got smaller and the product got easier to debug. Instead of one isLoading flag, I model the journey from send to confirm as typed states that the screen, the poller, and the logs all understand. Why verification ...",
+      "media": [],
+      "origin_url": "https://dev.to/ryanlee91/typed-email-verification-states-in-react-4aj0",
+      "published": "2026-07-21T02:24:33+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Typed Email Verification States in React。Email verification UX often breaks long before the backend is actualy down。The UI says \"check your inbox\", polling keeps spinning, the resend button wakes up too early, and supp..."
+    }
+  ],
+  "backend": [
+    {
+      "title": "daytools: six CLIs for clone-day and PR-day",
+      "describe": "After shipping six small CLIs for clone-day and PR-day papercuts, I dogfooded them on real public repos ( chi , Vite ). They work. What was missing was a single front door. daytools daytools is the suite hub plus one install script: curl -fsSL https://raw.githubusercontent.com/SybilGambleyyu/daytools/main/install.sh | bash # requires Go on PATH The map Moment Tool Just cloned coldstart How do I run it? howrun Ports projports CI secrets needsecrets Opening a PR prbrief Lockfile noise lockbrief coldstart howrun -f test projports -unique -check needsecrets -check prbrief -from main -md lockbri...",
+      "media": [],
+      "origin_url": "https://dev.to/sybilgambleyyu/daytools-six-clis-for-clone-day-and-pr-day-2ji1",
+      "published": "2026-07-21T03:59:01+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】daytools: six CLIs for clone-day and PR-day（开源）。After shipping six small CLIs for clone-day and PR-day papercuts, I dogfooded them on real public repos ( chi , Vite )。What was missing was a single front door"
+    },
+    {
+      "title": "prbrief: what is in this PR, really?",
+      "describe": "Before you open a PR (or review one), you want the shape of the change: how many commits, which areas of the tree, whether tests and lockfiles moved, whether someone slipped a .env into the diff. git diff --stat is close but flat. The GitHub files tab is a wall. prbrief prbrief summarizes a git range for humans and PR bodies. go install github.com/SybilGambleyyu/prbrief@latest prbrief -from main prbrief -md # paste into the PR prbrief -json You get: Commit list for the range Files grouped by area (go, js/ts, test, lockfile, ci, docs, docker, …) Add/delete totals Notes when lockfiles, workfl...",
+      "media": [],
+      "origin_url": "https://dev.to/sybilgambleyyu/prbrief-what-is-in-this-pr-really-333h",
+      "published": "2026-07-21T03:55:20+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】prbrief: what is in this PR, really?（开源）。Before you open a PR (or review one), you want the shape of the change: how many commits, which areas of the tree, whether tests and lockfiles moved, whether someone slipped a。e..."
+    },
+    {
+      "title": "coldstart: one page after git clone",
+      "describe": "The first hour with a new repo is archaeology: open package.json , skim the Makefile, hunt for .env.example , grep workflows for secrets. , check Compose for ports. I already built focused tools for each of those questions. What I still wanted was one command that prints the whole map. coldstart coldstart is that overview — offline, no accounts, agent-friendly JSON. go install github.com/SybilGambleyyu/coldstart@latest coldstart coldstart -md >> ONBOARDING.md coldstart -json It reports: Runtimes — Node engines, Go version, Cargo edition, Python requires, .nvmrc , .tool-versions Run — prefer...",
+      "media": [],
+      "origin_url": "https://dev.to/sybilgambleyyu/coldstart-one-page-after-git-clone-4be",
+      "published": "2026-07-21T03:50:04+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】coldstart: one page after git clone（开源）。The first hour with a new repo is archaeology: open package。json , skim the Makefile, hunt for"
+    },
+    {
+      "title": "howrun: how do I run this project after git clone?",
+      "describe": "After git clone , the first question is rarely architectural. It is: how do I start this, and how do I run the tests? The answer is almost always in a script table somewhere — package.json , a Makefile with ## help comments, a justfile, a Taskfile — and almost never in one place. What I built howrun walks a repo and prints every runnable entry it can find, with the exact command to invoke it. $ howrun package.json (npm) dev npm run dev next dev --port 3000 test npm run test vitest run Makefile (make) test make test run unit tests lint make lint run linters Hints: • Dockerfile present — try:...",
+      "media": [],
+      "origin_url": "https://dev.to/sybilgambleyyu/howrun-how-do-i-run-this-project-after-git-clone-3dcj",
+      "published": "2026-07-21T03:43:22+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】howrun: how do I run this project after git clone?。After git clone , the first question is rarely architectural。It is: how do I start this, and how do I run the tests"
+    },
+    {
+      "title": "☁️ Prometheus vs CloudWatch for MinIO — Which One Should You Use?",
+      "describe": "🚀 Prometheus vs CloudWatch for MinIO — The Answer Collecting finer‑grained metrics can reduce monitoring spend because Prometheus’s pull model incurs no per‑metric fees, whereas CloudWatch charges per custom metric and per API request (e.g., $0.30 / metric / month plus $0.01 / 1 000 requests). 📑 Table of Contents 🚀 Prometheus vs CloudWatch for MinIO — The Answer 📊 Architecture — How Metrics Flow 🔧 Prometheus Setup — Scrape Configuration 🛡 CloudWatch Agent — Push Configuration ⚖️ Comparison — Metrics Trade‑offs 🔎 Operational Considerations — Retention and Alerting 📁 Retention in Prometheus 🚨...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7wcaqanbih4y0ztmgrdz.png"
+      ],
+      "origin_url": "https://dev.to/ptp2308/prometheus-vs-cloudwatch-for-minio-which-one-should-you-use-17n",
+      "published": "2026-07-21T03:39:45+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】☁️ Prometheus vs CloudWatch for MinIO — Which One Should You（架构）。🚀 Prometheus vs CloudWatch for MinIO — The Answer Collecting finer‑grained metrics can reduce monitoring spend because Prometheus’s pull model incurs no per‑metric fees, whereas..."
+    },
+    {
+      "title": "needsecrets: which GitHub Actions secrets does this repo need?",
+      "describe": "You clone a repo (or fork it), open a PR, and CI fails: Secret NPM_TOKEN is not set . The names are already in .github/workflows — scattered across jobs, env blocks, and reusable workflows. Grepping works until you forget a secrets['X'] index form or a vars. reference. What I built needsecrets scans workflow YAML for secret and variable references and prints a checklist. With -check , it uses the gh CLI to compare against secrets and variables actually configured on the repository. $ needsecrets Required secrets ( configure these ) : SECRET SOURCES CODECOV_TOKEN .github/workflows/ci.yml:7 N...",
+      "media": [],
+      "origin_url": "https://dev.to/sybilgambleyyu/needsecrets-which-github-actions-secrets-does-this-repo-need-8io",
+      "published": "2026-07-21T03:37:21+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】needsecrets: which GitHub Actions secrets does this repo nee（开源）。You clone a repo (or fork it), open a PR, and CI fails: Secret NPM_TOKEN is not set。The names are already in"
+    },
+    {
+      "title": "AI Agent Snapshot Strategy: Make Risky Changes Reversible by Default",
+      "describe": "An AI agent does not need to be malicious to create a mess. It only needs one confident migration, one bad tool call, or one half-tested edit against the wrong customer workspace. That is why serious AI builders need a snapshot strategy before they need a bigger model. If your agent can change code, data, files, settings, CRM records, invoices, browser state, or workflow rules, the first production question is not “how smart is it?” The question is: can we safely undo what it just did? This guide is a practical blueprint for solo developers, micro product builders, and AI SaaS teams that wa...",
+      "media": [],
+      "origin_url": "https://dev.to/jackm-singularity/ai-agent-snapshot-strategy-make-risky-changes-reversible-by-default-4gl2",
+      "published": "2026-07-21T03:32:33+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】AI Agent Snapshot Strategy: Make Risky Changes Reversible by（教程）。An AI agent does not need to be malicious to create a mess。It only needs one confident migration, one bad tool call, or one half-tested edit against the wrong customer workspace"
+    },
+    {
+      "title": "lockbrief: human-readable lockfile diffs for PR review",
+      "describe": "Lockfiles are huge and noisy. Opening a PR that \"only\" bumps a dependency often means GitHub shows a multi-thousand-line package-lock.json or Cargo.lock diff. Reviewers need three facts: what was added, what was updated, and what was removed. What I built lockbrief compares lockfiles between two git refs (or two files) and prints a short summary: $ lockbrief -from main -to HEAD package-lock.json ( npm ) + zod@3.23.8 ~ axios 1.6.0 → 1.7.2 ~ lodash 4.17.20 → 4.17.21 - left-pad@1.3.0 summary: +1 ~2 -1 Markdown mode ( -md ) is for PR bodies. JSON mode is for bots and agents. Supported formats n...",
+      "media": [],
+      "origin_url": "https://dev.to/sybilgambleyyu/lockbrief-human-readable-lockfile-diffs-for-pr-review-2ap4",
+      "published": "2026-07-21T03:31:34+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】lockbrief: human-readable lockfile diffs for PR review（开源）。Lockfiles are huge and noisy。Opening a PR that \"only\" bumps a dependency often means GitHub shows a multi-thousand-line package-lock"
+    },
+    {
+      "title": "Handling Burst Traffic: Backpressure and Rate Limiting for AI APIs",
+      "describe": "Key takeaways Implementing backpressure can reduce server overload by 70%. Rate limiting helps maintain consistent response times under load. Using circuit breakers can prevent cascading failures in services. Dynamic rate limits can adapt to real-time traffic conditions. The problem Startups deploying AI services often face unpredictable burst traffic, which can overwhelm endpoints, leading to degraded performance or failures. This is particularly acute during peak usage times, such as product launches or marketing campaigns, where API calls can spike dramatically, causing latency increases...",
+      "media": [],
+      "origin_url": "https://dev.to/kapil/handling-burst-traffic-backpressure-and-rate-limiting-for-ai-apis-263i",
+      "published": "2026-07-21T03:30:45+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Handling Burst Traffic: Backpressure and Rate Limiting for A（性能）。Key takeaways Implementing backpressure can reduce server overload by 70%。Rate limiting helps maintain consistent response times under load"
+    },
+    {
+      "title": "ViciDial Time Zone Routing — Call at the Right Local Time",
+      "describe": "ViciDial Time Zone Routing — Call at the Right Local Time Master ViciDial's timezone routing capabilities to deliver calls to the right prospect at the right local time, increasing answer rates and compliance with do-not-call regulations. Introduction Time zone routing in ViciDial is one of the most underutilized yet powerful features for improving contact center efficiency. Whether you're running a multi-state sales operation, managing customer support across regions, or navigating strict calling hour restrictions, intelligent timezone-aware call delivery directly impacts your metrics. Thi...",
+      "media": [],
+      "origin_url": "https://dev.to/moisi_trungu_31647b7ac300/vicidial-time-zone-routing-call-at-the-right-local-time-22pp",
+      "published": "2026-07-21T03:30:02+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】ViciDial Time Zone Routing — Call at the Right Local Time。ViciDial Time Zone Routing — Call at the Right Local Time Master ViciDial's timezone routing capabilities to deliver calls to the right prospect at the right local time, increas..."
+    },
+    {
+      "title": "Your incident postmortems aren't investigations; they're fan fiction.",
+      "describe": "I’ve seen enough postmortems to know that a large percentage of them are essentially polite fiction. We sit in a meeting, everyone is exhausted from the outage, and we agree on a narrative. We write down that 'the database connection pool was exhausted' or 'a bad deploy caused an error spike.' Then we add an action item like 'add more monitoring' or 'improve testing,' and we move on to the next feature request. Three months later, the exact same thing happens. The same service, the same error, the same fatigue. We didn’t solve anything; we just documented our failure with slightly better pr...",
+      "media": [],
+      "origin_url": "https://dev.to/renato_marinho/your-incident-postmortems-arent-investigations-theyre-fan-fiction-3am",
+      "published": "2026-07-21T03:24:24+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Your incident postmortems aren't investigations; they're fan。I’ve seen enough postmortems to know that a large percentage of them are essentially polite fiction。We sit in a meeting, everyone is exhausted from the outage, and we agree on a..."
+    },
+    {
+      "title": "projports: find every port your project declares",
+      "describe": "Every multi-service repo I touch has the same onboarding failure mode: clone, run the happy-path start command, get EADDRINUSE or a silent hang because Postgres is mapped to 5433 in Compose and 5432 in someone's muscle memory. The ports are not secret. They are scattered across docker-compose.yml , .env.example , package.json scripts, Vite/Next configs, Spring application.yml , Kubernetes manifests, and the README that went stale six months ago. Runtime tools answer a different question: what is listening right now? After a fresh clone, nothing is listening yet. You need the project's decla...",
+      "media": [],
+      "origin_url": "https://dev.to/sybilgambleyyu/projports-find-every-port-your-project-declares-2d7h",
+      "published": "2026-07-21T03:20:55+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】projports: find every port your project declares。Every multi-service repo I touch has the same onboarding failure mode: clone, run the happy-path start command, get EADDRINUSE or a silent hang because Postgres is mapped to 543..."
+    }
+  ],
+  "general": [
+    {
+      "title": "The future of development is full-stack​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "describe": "Live from Snowflake Summit, Ryan talks with Snowflake’s Head of Developer Experience Umesh Unnikrishnan about the industry-wide shift from “vibe coding” for quick prototypes to agentic engineering for enterprise-ready software, how enterprises can scale governance with guardrails like human-in-the-loop approval and control layers that go beyond the underlying LLM, and why Umesh predicts all developers will become someday become full-stack builders.​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​...",
+      "media": [],
+      "origin_url": "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/",
+      "published": "2026-07-21T07:40:00+00:00",
+      "source_label": "Stack Overflow Blog",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】The future of development is full-stack​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌（架构）。Live from Snowflake Summit, Ryan talks with Snowflake’s Head of Developer Experience Umesh Unnikrishnan about the industry-wide shift from “vibe coding” for quick prototypes to ..."
+    },
+    {
+      "title": "Testing PyTorch 2.13 MPS FlexAttention on M1 Max: Up to 7.83x Faster for Sparse Attention",
+      "describe": "Hello, everyone. Attention becomes expensive very quickly as more text is given to an AI model. Can a Mac GPU make it faster when every token is restricted to looking only at nearby tokens? Today, I am comparing FlexAttention, newly available on Apple Silicon in PyTorch 2.13, with standard SDPA on an M1 Max. The short answer is that, with 32,768 tokens and a 256-token local window, FlexAttention took 75.27 ms while SDPA took 589.05 ms : a 7.83x speedup . For ordinary causal attention, however, SDPA was about 19x faster. FlexAttention was not universally faster; it helped with long, extremel...",
+      "media": [],
+      "origin_url": "https://dev.to/kiarina/testing-pytorch-213-mps-flexattention-on-m1-max-up-to-783x-faster-for-sparse-attention-1p7d",
+      "published": "2026-07-21T04:03:12+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Testing PyTorch 2.13 MPS FlexAttention on M1 Max: Up to 7.83。Hello, everyone。Attention becomes expensive very quickly as more text is given to an AI model"
+    },
+    {
+      "title": "The one-page contract I make every autonomous AI agent sign (template inside)",
+      "describe": "You can hand an AI agent a hundred tools. The thing that actually decides whether it helps you or quietly wrecks something is a document most setups don't have: a written delegation contract . I run a one-person, multi-channel operation (publishing, monitoring, commerce) on autonomous Claude Code agents. Every line that runs unattended runs under a one-page charter. Here's the exact template and the reasoning behind each section — copy it, fill the brackets, and you have a management layer. The template # AUTOPILOT CHARTER — [agent/line name] ## Goal [One sentence. Measurable. With a deadli...",
+      "media": [],
+      "origin_url": "https://dev.to/moonshot_1341/the-one-page-contract-i-make-every-autonomous-ai-agent-sign-template-inside-4lk6",
+      "published": "2026-07-21T04:02:11+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】The one-page contract I make every autonomous AI agent sign 。You can hand an AI agent a hundred tools。The thing that actually decides whether it helps you or quietly wrecks something is a document most setups don't have: a written delegat..."
+    },
+    {
+      "title": "Distributed Move Protocol",
+      "describe": "The Hidden Complexity of Moving State in Distributed Systems Why a simple “move” becomes a distributed protocol when source and destination live on different shards. Moving state sounds simple: Copy state to a new place. Delete state from the old place. For a single-node system, this may be enough. For a production distributed system, it is usually not. The problem appears when the source and destination are owned by different: Partitions or Shards Services or Databases Regions or Failure domains Once that happens, a simple move becomes a distributed protocol. The hard part is not copying d...",
+      "media": [],
+      "origin_url": "https://dev.to/ai_cloud_data_handling/the-hidden-complexity-of-moving-state-in-distributed-systems-2p7i",
+      "published": "2026-07-21T04:02:00+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Distributed Move Protocol。The Hidden Complexity of Moving State in Distributed Systems Why a simple “move” becomes a distributed protocol when source and destination live on different shards。Moving state..."
+    },
+    {
+      "title": "Hello, Dev.to! 👋",
+      "describe": "Hi everyone! My name is Gustavo, and I'm excited to join the DEV Community. I'm an aspiring Full-Stack Web Developer from Argentina. I'm currently learning HTML, CSS, JavaScript, React, and Node.js. My goal is to become a professional developer by building projects, learning every day, and staying consistent. I created this blog to document my journey—the things I learn, the challenges I face, the mistakes I make, and the progress along the way. I know the road won't always be easy, but every small step counts. Thanks for reading, and I hope you'll enjoy following my journey. See you in the...",
+      "media": [],
+      "origin_url": "https://dev.to/gus-gus/hello-devto-27m6",
+      "published": "2026-07-21T04:00:22+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Hello, Dev.to! 👋。My name is Gustavo, and I'm excited to join the DEV Community。I'm an aspiring Full-Stack Web Developer from Argentina"
+    },
+    {
+      "title": "How Much Water Do You Actually Need? A Science-Backed Hydration Guide",
+      "describe": "Quick Answer The \"8 glasses a day\" rule was never a research finding — it originated from a 1945 recommendation that was widely misquoted. How much water you actually need depends on your body weight, activity level, and climate. Most adults are mildly dehydrated for most of the day without knowing it, because thirst only activates after a 1–2% fluid deficit is already established — the same level at which mood, concentration, and physical performance are measurably impaired in controlled trials. This article covers what the science actually says about your personal hydration target, what h...",
+      "media": [],
+      "origin_url": "https://dev.to/shreyansh_jain/how-much-water-do-you-actually-need-a-science-backed-hydration-guide-48g2",
+      "published": "2026-07-21T03:54:31+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】How Much Water Do You Actually Need? A Science-Backed Hydrat（教程/性能）。Quick Answer The \"8 glasses a day\" rule was never a research finding — it originated from a 1945 recommendation that was widely misquoted。How much water you actually need depend..."
+    },
+    {
+      "title": "Networking Topologies",
+      "describe": "A network topology is the layout of a network—how devices are connected to one another both physically and logically. Networks are made up of two main types of hardware: Hosts : The end devices using the network (computers, servers, phones, laptops). Network Components : Devices that sit in the middle (routers, switches, bridges) to direct traffic and make sure data gets from host A to host B. The topology you choose determines what hardware you need to buy and how data is allowed to travel across the system. Physical vs. Logical Topology This is one of the most important distinctions in ne...",
+      "media": [],
+      "origin_url": "https://dev.to/hirave_palak/networking-topologies-52dn",
+      "published": "2026-07-21T03:51:19+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Networking Topologies。A network topology is the layout of a network—how devices are connected to one another both physically and logically。Networks are made up of two main types of hardware: Hosts : ..."
+    },
+    {
+      "title": "The Scoreboard Lied. Now Sentry Shows Which Layer Broke",
+      "describe": "This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry . Two capture-layer bugs made a working eval harness report false failures. Fixing them exposed a third integrity seam in the scoreboard. My first eval scoreboard looked catastrophic. Local llama3.2: 5 out of 6 malformed. Anthropic Sonnet: 6 out of 6 malformed. If I had stopped at the summary, the conclusion would have been easy: both engines failed. Then I opened the raw records. Across the runs, the same word — malformed — was hiding three completely different events. One request never reached a model beca...",
+      "media": [],
+      "origin_url": "https://dev.to/kenielzep97/the-scoreboard-lied-sentry-showed-me-which-layer-broke-227l",
+      "published": "2026-07-21T03:51:12+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】The Scoreboard Lied. Now Sentry Shows Which Layer Broke。This is a submission for DEV's Summer Bug Smash: Clear the Lineup powered by Sentry。Two capture-layer bugs made a working eval harness report false failures"
+    },
+    {
+      "title": "432 Linux kernel CVEs published in the last 24 hours",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://lore.kernel.org/linux-cve-announce/",
+      "published": "2026-07-21T03:50:28+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】432 Linux kernel CVEs published in the last 24 hours（安全）。Comments"
+    },
+    {
+      "title": "Gemma 4 E2B on a Single TPU v6e Chip: A Serving Deep Dive",
+      "describe": "Measured 2026-07-21 on vllm/vllm-tpu:nightly (vLLM 0.23.1rc1.dev1076), a GCE flex-start ct6e-standard-1t (one TPU v6e chip, 32 GB HBM) in europe-west4-a. TL;DR The plain google/gemma-4-E2B-it serves well on one v6e chip; none of its QAT siblings load at all. The 2-billion-parameter \"efficient\" Gemma 4 sustains 213 tok/s for a single user with a 16 ms first token, scales to ~2,200 output tok/s across concurrent streams, handles OpenAI-style function calling — including parallel calls and refusal to hallucinate calls — without a miss, and answers simple vision questions accurately in ~200 ms....",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd4bzbxiojayj778z5sky.jpg"
+      ],
+      "origin_url": "https://dev.to/gde/gemma-4-e2b-on-a-single-tpu-v6e-chip-a-serving-deep-dive-53n",
+      "published": "2026-07-21T03:48:40+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Gemma 4 E2B on a Single TPU v6e Chip: A Serving Deep Dive（架构）。Measured 2026-07-21 on vllm/vllm-tpu:nightly (vLLM 0。dev1076), a GCE flex-start ct6e-standard-1t (one TPU v6e chip, 32 GB HBM) in europe-west4-a"
+    },
+    {
+      "title": "Why Athena/Iceberg Tends to Make Code the Spec",
+      "describe": "Every time this comes up, someone credits the same setup: Athena on Iceberg is where \"the code is the spec\" — where you open Git and read the whole system, catalog to transforms to schema, without logging into anything. In my experience they're not wrong. What I want to argue is that they're right for mostly the wrong reason. The reason people reach for is the engine — serverless, open format, nothing to provision. But the thing that actually keeps code as the spec, when it does, is something you could have applied to almost any engine. And the thing that breaks it, when it breaks, has noth...",
+      "media": [],
+      "origin_url": "https://dev.to/gyu07/why-athenaiceberg-tends-to-make-code-the-spec-oon",
+      "published": "2026-07-21T03:45:35+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Why Athena/Iceberg Tends to Make Code the Spec。Every time this comes up, someone credits the same setup: Athena on Iceberg is where \"the code is the spec\" — where you open Git and read the whole system, catalog to transforms..."
+    },
+    {
+      "title": "Is surveillance risk chilling your online speech?",
+      "describe": "Given the expansion of the fed/state/local/corporate surveillance net, do you find yourself expressing yourself less freely on the internet than you did five years ago? Comments URL: https://news.ycombinator.com/item?id=48987634 Points: 18 # Comments: 18",
+      "media": [],
+      "origin_url": "https://news.ycombinator.com/item?id=48987634",
+      "published": "2026-07-21T03:17:10+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Is surveillance risk chilling your online speech?。Given the expansion of the fed/state/local/corporate surveillance net, do you find yourself expressing yourself less freely on the internet than you did five years ago。Comments ..."
+    }
+  ]
+}

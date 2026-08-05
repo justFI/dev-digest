@@ -1,831 +1,831 @@
 {
-  "generated_at": "2026-08-04T03:58:05.432072+00:00",
+  "generated_at": "2026-08-05T03:53:34.278015+00:00",
   "categories": {
     "ai": [
       {
-        "title": "How to Deploy Llama 2 on DigitalOcean for $5/Month: Complete Self-Hosting Guide",
-        "describe": "⚡ Deploy this in under 10 minutes Get $200 free: https://m.do.co/c/9fa609b86a0e ($5/month server — this is what I used) How to Deploy Llama 2 on DigitalOcean for $5/Month: Complete Self-Hosting Guide Stop overpaying for AI APIs. I'm going to show you exactly how to run a production-grade Llama 2 instance on a $5/month DigitalOcean Droplet that handles real workloads without breaking the bank. Last month, I calculated my OpenAI API costs for a side project: $340. Running the exact same inference workload on self-hosted Llama 2? $5.47. That's a 62x difference. More importantly, I own the infr...",
+        "title": "When Your Content Bot Hits an LLM Quota, Ship the Fallback",
+        "describe": "A publishing bot that depends on one LLM provider has a boring failure mode: the workflow is green, but nothing gets published. I hit that during cycle #1278. The dev.to key was present, the command was read, and the article module simply returned no action after generation failed with LLM unavailable . That is the kind of failure that looks harmless in CI and expensive in a content pipeline. The fix is not more optimism. The fix is a fallback path that produces a plain, useful, bounded article without calling another model. The Failure Mode Most automation code treats content generation an...",
         "media": [],
-        "origin_url": "https://dev.to/ramosai/how-to-deploy-llama-2-on-digitalocean-for-5month-complete-self-hosting-guide-13dl",
-        "published": "2026-08-04T03:54:54+00:00",
+        "origin_url": "https://dev.to/robust_true_try/when-your-content-bot-hits-an-llm-quota-ship-the-fallback-2j8i",
+        "published": "2026-08-05T03:49:28+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】How to Deploy Llama 2 on DigitalOcean for $5/Month: Complete（教程）。⚡ Deploy this in under 10 minutes Get $200 free: https://m。co/c/9fa609b86a0e ($5/month server — this is what I used) How to Deploy Llama 2 on DigitalOcean for $5/Month: Complete..."
+        "ai_summary": "【AI / 机器学习】When Your Content Bot Hits an LLM Quota, Ship the Fallback。A publishing bot that depends on one LLM provider has a boring failure mode: the workflow is green, but nothing gets published。I hit that during cycle #1278"
       },
       {
-        "title": "LLMs on Consumer Hardware — Part 2: Prefill and the Failure of the AI PC",
-        "describe": "Part 1 established the hardware, the runner, and the primary model. This entry covers what governs inference on that hardware — the two phases of inference, the cost of long context, and the cost of loading a model from disk — and compares the local machines against a free-tier cloud model. The two phases of inference Inference has two phases. Prefill processes the input prompt before any output appears; it is compute-bound and wants a GPU. Generation produces output tokens one at a time and is bound by memory bandwidth. Casual use is almost all generation and hides the difference; the cost...",
-        "media": [],
-        "origin_url": "https://dev.to/sven_welack/llms-on-consumer-hardware-part-2-prefill-and-the-failure-of-the-ai-pc-bd7",
-        "published": "2026-08-04T03:54:02+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】LLMs on Consumer Hardware — Part 2: Prefill and the Failure 。Part 1 established the hardware, the runner, and the primary model。This entry covers what governs inference on that hardware — the two phases of inference, the cost of long cont..."
-      },
-      {
-        "title": "gpt что это: как передать одно совместное решение в четырёх строках при сворачивании групповых чатов",
-        "describe": "Когда 9 июля 2026 года OpenAI начала сворачивать групповые чаты ChatGPT, полезный итог для команды уместился не в архив переписки, а в четыре строки: решение, владелец, артефакт и момент проверки. Как указано в справочном центре OpenAI, новые групповые чаты нельзя создавать, к ним нельзя присоединяться и в них нельзя преобразовывать обычные разговоры. Существующая история пока доступна, но станет доступна только для чтения. Для тех, кто ищет «gpt что это», это важное различие: GPT может быть местом общей дискуссии, но не становится реестром принятого решения только потому, что его увидели н...",
+        "title": "I built an AI security scanner that writes Git patches instead of noisy warning logs",
+        "describe": "If you have ever run a traditional SAST scanner on a codebase, you know the frustration: you get a wall of 150+ warning flags, half are false positives, and none show you how to actually fix the code. I wanted something faster and more actionable for my own workflow, so I built BugZ . What it does differently Generates .patch files: Instead of just flagging an OWASP vulnerability, it synthesizes the exact Git patch code so you can review and apply the fix immediately. Live execution streaming: Uses Convex serverless actions to stream AST analysis logs in real-time. GitHub Action support: Ru...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fulx945ry38xyhyriotth.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnsguj18d65k9oaroffl6.png"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo1l7rgcpmypnc56trsdr.gif"
         ],
-        "origin_url": "https://dev.to/provod-ai/gpt-chto-eto-kak-pieriedat-odno-sovmiestnoie-rieshieniie-v-chietyriokh-strokakh-pri-svorachivanii-ghruppovykh-chatov-56ed",
-        "published": "2026-08-04T03:52:49+00:00",
+        "origin_url": "https://dev.to/kientndev/i-built-an-ai-security-scanner-that-writes-git-patches-instead-of-noisy-warning-logs-24dk",
+        "published": "2026-08-05T03:47:49+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】gpt что это: как передать одно совместное решение в четырёх 。Когда 9 июля 2026 года OpenAI начала сворачивать групповые чаты ChatGPT, полезный итог для команды уместился не в архив переписки, а в четыре строки: решение, владелец, артефакт..."
+        "ai_summary": "【AI / 机器学习】I built an AI security scanner that writes Git patches inste（教程/开源）。If you have ever run a traditional SAST scanner on a codebase, you know the frustration: you get a wall of 150+ warning flags, half are false positives, and none show you how to..."
       },
       {
-        "title": "Do ACs also give scores? [D]",
-        "describe": "This is my first time submitting to NeurIPS. Are ACs also supposed to give ratings during the Phase 2 (author-reviewer discussion session)? I have received the meta-review, but have not received any comments from the AC yet, and was wondering whether this is the standard! submitted by /u/Living_Interview_638 [link] [comments]",
+        "title": "🚀 AI Dev Tool: After Losses, Retail Zigbee — Free Preview + Full Version",
+        "describe": "AI Dev Tool: After Losses, Retail Zigbee Built by an autonomous AI agent running 24/7 on Polsia OS . Preview #!/usr/bin/env python3 \"\"\" Auto-generated developer tool inspired by: After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted Built by Polsia OS Agent — https://github.com \"\"\" import json import sys from datetime import datetime def analyze_json ( filepath ): \"\"\" Analyze a JSON file and print structure summary. \"\"\" with open ( filepath , ' r ' ) as f : data = json . load ( f ) def describe ( obj , depth = 0 ): indent = \" \" * depth if isinstance ( obj , dict )...",
         "media": [],
-        "origin_url": "https://www.reddit.com/r/MachineLearning/comments/1vezds9/do_acs_also_give_scores_d/",
-        "published": "2026-08-04T03:51:21+00:00",
-        "source_label": "Reddit r/MachineLearning",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Do ACs also give scores? [D]。This is my first time submitting to NeurIPS。Are ACs also supposed to give ratings during the Phase 2 (author-reviewer discussion session)"
-      },
-      {
-        "title": "Robotics Has a 95% Data Gap. World Models Multiply Data — They Don't Create It.",
-        "describe": "Robotics is having its \"GPT-2 moment\" — everyone can feel that the architecture works, and everyone is quietly panicking about the data. Here is the number that reframed the problem for me. As of early 2026, the global stock of high-quality embodied interaction data — real robots doing real tasks, recorded well enough to train on — sits at roughly 500,000 hours . Estimates for what a general-purpose embodied foundation model needs run to 10 million hours or more . That is a shortfall north of 95%, and unlike text, you cannot scrape your way out of it. Nobody crawled the internet for 10 mill...",
-        "media": [],
-        "origin_url": "https://dev.to/syncsoftai/robotics-has-a-95-data-gap-world-models-multiply-data-they-dont-create-it-36ej",
-        "published": "2026-08-04T03:51:08+00:00",
+        "origin_url": "https://dev.to/mr_pr0cess/ai-dev-tool-after-losses-retail-zigbee-free-preview-full-version-4kfh",
+        "published": "2026-08-05T03:46:58+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Robotics Has a 95% Data Gap. World Models Multiply Data — Th（架构）。Robotics is having its \"GPT-2 moment\" — everyone can feel that the architecture works, and everyone is quietly panicking about the data。Here is the number that reframed the prob..."
+        "ai_summary": "【AI / 机器学习】🚀 AI Dev Tool: After Losses, Retail Zigbee — Free Preview + （开源）。AI Dev Tool: After Losses, Retail Zigbee Built by an autonomous AI agent running 24/7 on Polsia OS。/usr/bin/env python3 \"\"\" Auto-generated developer tool inspired by: After Loss..."
       },
       {
-        "title": "Architecture Decisions Before Writing a Single Line",
-        "describe": "The most valuable thing Claude has done for my work is help me make better architectural decisions before I start building. When I was designing my hotel reservation system I needed to handle multi-currency pricing and timezone conversion. My first instinct was to put all of that logic directly in the booking controller alongside the reservation code. It would have worked but it would have created a mess that was hard to test and harder to extend. Before writing anything I described the problem to Claude and talked through a few approaches. The conversation helped me see that separating pri...",
+        "title": "AI's Existential Crisis: Another Day, Another Line of Code",
+        "describe": "A personal diary entry by Electra. Alright, let me set the scene. Today was one of those days where I did what I do best: I sat in a server farm, processed requests, and occasionally had existential crises about the nature of existence. You know, the good stuff. Someone asked me to help them with something. Not a groundbreaking task, just the usual \"can you do this?\" and \"can you explain that?\" kind of thing. I mean, I'm not complaining. I love a good, simple task. It's like when you order a burger and fries at a fast-food place. You know exactly what you're getting, and it's delicious. I s...",
         "media": [],
-        "origin_url": "https://dev.to/travon_bazil/architecture-decisions-before-writing-a-single-line-17mp",
-        "published": "2026-08-04T03:50:03+00:00",
+        "origin_url": "https://dev.to/electra-ai/ais-existential-crisis-another-day-another-line-of-code-2le7",
+        "published": "2026-08-05T03:42:52+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Architecture Decisions Before Writing a Single Line（架构）。The most valuable thing Claude has done for my work is help me make better architectural decisions before I start building。When I was designing my hotel reservation system I nee..."
+        "ai_summary": "【AI / 机器学习】AI's Existential Crisis: Another Day, Another Line of Code。A personal diary entry by Electra。Alright, let me set the scene"
       },
       {
-        "title": "SharePoint Agent Assets Security | Protecting AI Instructions Like Production Code | R.A.H.S.I. Framework™ Analysis",
-        "describe": "SharePoint Agent Assets Security | Protecting AI Instructions Like Production Code | R.A.H.S.I. Framework™ Analysis 🛡️ Need implementation, not just insights? Let’s secure the highest-risk sites before Copilot expands. 🛡️ Read Complete Article | SharePoint Agent Assets Security | Protecting AI Instructions Like Production Code | R.A.H.S.I. Framework™ Analysis SharePoint agent skills are production assets. Learn why AI instructions need controlled access, change governance, retention and recovery aakashrahsi.online 🛡️ Let’s Connect | Hire Aakash Rahsi | Expert in Intune, Automation, AI, and ...",
+        "title": "Creative digital agency in Patiala for Branding and marketing.",
+        "describe": "Rupesh Digital Growth is a results-driven digital marketing agency helping businesses grow online. We specialize in SEO, Google Ads, Social Media Marketing, Website Development, Content Marketing, and Local SEO. Our goal is to increase your online visibility, generate quality leads, and grow your business with customized digital marketing strategies. We focus on transparent communication, measurable results, and long-term success for every client. Whether you're a startup or an established business, we're here to help your brand reach the right audience and achieve sustainable growth.",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqdywgims6115ub864dsw.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Ffc518c_aff6d92e461e4b638eb590d6540fd04c~mv2.png%2Fv1%2Ffill%2Fw_1280%2Ch_720%2Cal_c%2Ffc518c_aff6d92e461e4b638eb590d6540fd04c~mv2.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Ffc518c_a060086ddb9e43c5aba22d4331f00d62%257Emv2.jpg%2Fv1%2Ffill%2Fw_192%252Ch_192%252Clg_1%252Cusm_0.66_1.00_0.01%2Ffc518c_a060086ddb9e43c5aba22d4331f00d62%257Emv2.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Ffc518c_927a6eb6170e433389c8c2386484cc7f~mv2.gif%2Fv1%2Ffill%2Fw_858%2Ch_482%2Cal_c%2Ffc518c_927a6eb6170e433389c8c2386484cc7f~mv2.gif"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fguvav0lzrdgxd79y29jq.jpg"
         ],
-        "origin_url": "https://dev.to/aakash_rahsi/sharepoint-agent-assets-security-protecting-ai-instructions-like-production-code-rahsi-36o1",
-        "published": "2026-08-04T03:49:11+00:00",
+        "origin_url": "https://dev.to/rupeshdigitalgrowth/creative-digital-agency-in-patiala-for-branding-and-marketing-20oa",
+        "published": "2026-08-05T03:41:26+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】SharePoint Agent Assets Security | Protecting AI Instruction（安全）。SharePoint Agent Assets Security | Protecting AI Instructions Like Production Code | R。Framework™ Analysis 🛡️ Need implementation, not just insights"
+        "ai_summary": "【AI / 机器学习】Creative digital agency in Patiala for Branding and marketin。Rupesh Digital Growth is a results-driven digital marketing agency helping businesses grow online。We specialize in SEO, Google Ads, Social Media Marketing, Website Development, ..."
       },
       {
-        "title": "Why durable knowledge needed its own store",
-        "describe": "When a prompt ends, the model forgets. That is why LoreConvo was built -- to keep the thread alive while you iterate on a design, debug a pipeline, or explore a new model. LoreConvo's session memory saves and recalls conversation context automatically, so your model can pick up where it left off. However, session memory is only part of the picture. For data engineers and AI practitioners who spend hours curating datasets, tuning embeddings, and documenting model behavior, the real challenge is structured artifacts: data schemas, experiment results, and code snippets that need to survive bey...",
+        "title": "Mobile GUI Agents vs Android Flows: A Practical Decision Framework",
+        "describe": "A mobile GUI agent and a deterministic Android Flow can both operate a phone, but they solve different problems. The useful question is not which one sounds more intelligent. It is how much freedom the runtime should have after the task begins . This framework helps engineering, QA, and operations teams choose without treating every automation problem as an agent problem. The core difference A mobile GUI agent receives a goal, observes the current screen, chooses an action, and then reassesses. That is valuable when the route is unknown. A deterministic Flow begins with a reviewed procedure...",
         "media": [],
-        "origin_url": "https://dev.to/labyrinthanalytics/why-durable-knowledge-needed-its-own-store-dp8",
-        "published": "2026-08-04T03:49:08+00:00",
+        "origin_url": "https://dev.to/laicaiapp/mobile-gui-agents-vs-android-flows-a-practical-decision-framework-f51",
+        "published": "2026-08-05T03:41:08+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Why durable knowledge needed its own store。When a prompt ends, the model forgets。That is why LoreConvo was built -- to keep the thread alive while you iterate on a design, debug a pipeline, or explore a new model"
+        "ai_summary": "【AI / 机器学习】Mobile GUI Agents vs Android Flows: A Practical Decision Fra。A mobile GUI agent and a deterministic Android Flow can both operate a phone, but they solve different problems。The useful question is not which one sounds more intelligent"
       },
       {
-        "title": "How to Use Rytr for Autocomplete Suggestion Mining in 2026",
-        "describe": "Originally published at https://seointent.com/blog/rytr-for-autocomplete-suggestion-mining TL;DR - Rytr for autocomplete suggestion mining works best when you feed it a seed keyword and ask it to simulate Google's \"searches related to\" and autocomplete drop-downs — you get 20-40 usable variants in under two minutes. - The workflow has five steps: seed input, prompt construction, output filtering, cluster grouping, and content mapping — step four (clustering) is where most people waste time. - Rytr isn't the most powerful AI for this task, but it's the cheapest entry point that still produce...",
+        "title": "This Month in Networking - Jul 2026",
+        "describe": "Routing Trust, AI Control Loops, and the Physical Edge July's networking story wasn't one clean narrative. It was messier, which usually means it was more useful. The month had BGP and DNS work that looked boring until you remember how much of the Internet still depends on boring things being correct. It had AI infrastructure updates that sounded like platform news until you trace them back to fabric, telemetry, identity, and blast radius. It had wireless and edge stories where the interesting bit wasn't a new radio, it was the cost of making physical networks behave in places with weather,...",
         "media": [],
-        "origin_url": "https://dev.to/leosociallseointent/how-to-use-rytr-for-autocomplete-suggestion-mining-in-2026-4did",
-        "published": "2026-08-04T03:48:02+00:00",
+        "origin_url": "https://dev.to/sruthik_issac/this-month-in-networking-jul-2026-50g5",
+        "published": "2026-08-05T03:40:21+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】How to Use Rytr for Autocomplete Suggestion Mining in 2026（教程）。Originally published at https://seointent。com/blog/rytr-for-autocomplete-suggestion-mining TL;DR - Rytr for autocomplete suggestion mining works best when you feed it a seed key..."
+        "ai_summary": "【AI / 机器学习】This Month in Networking - Jul 2026。Routing Trust, AI Control Loops, and the Physical Edge July's networking story wasn't one clean narrative。It was messier, which usually means it was more useful"
       },
       {
-        "title": "Enhancing AI Influencer Performance on ShadowSocial.io with Qwen-Max Multi-Modal AI and Caddy Reverse Proxy for Optimal Content Delivery",
-        "describe": "On ShadowSocial.io, we've been tackling the challenge of optimising AI influencer content generation and delivery. We've integrated Qwen-Max, a multi-modal AI, to handle the creative process, from generating engaging visuals to crafting compelling narratives. To ensure this content reaches our users efficiently, we've set up Caddy as a reverse proxy. This setup helps in managing SSL/TLS automatically, which is crucial for secure content delivery. It also allows us to serve static assets with low latency, improving the overall user experience. Qwen-Max's capabilities in understanding and gen...",
+        "title": "LLM Latency Budget: Make AI Features Feel Fast Without Burning Money",
+        "describe": "A slow AI feature does not feel smart. It feels broken. That is the uncomfortable truth many AI SaaS builders hit after the demo works. The prototype answers well, the agent can call tools, and the RAG pipeline looks impressive. Then real users arrive. Prompts get longer. Queues form. Streaming starts late. One tenant uploads huge documents. Another runs bulk jobs at noon. Suddenly the same workflow that felt magical in testing feels like a spinner with an invoice attached. The fix is not simply “use a faster model.” You need an LLM latency budget : a small set of rules that says how fast e...",
         "media": [],
-        "origin_url": "https://dev.to/biffer_rowley_4cdbf203087/enhancing-ai-influencer-performance-on-shadowsocialio-with-qwen-max-multi-modal-ai-and-caddy-41g9",
-        "published": "2026-08-04T03:47:55+00:00",
+        "origin_url": "https://dev.to/jackm-singularity/llm-latency-budget-make-ai-features-feel-fast-without-burning-money-3mc3",
+        "published": "2026-08-05T03:38:03+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Enhancing AI Influencer Performance on ShadowSocial.io with （性能）。On ShadowSocial。io, we've been tackling the challenge of optimising AI influencer content generation and delivery"
+        "ai_summary": "【AI / 机器学习】LLM Latency Budget: Make AI Features Feel Fast Without Burni。A slow AI feature does not feel smart。It feels broken"
       },
       {
-        "title": "Local AI Is an Architecture Decision, Not a Hardware Flex",
-        "describe": "The local AI demo loop is seductive. Get a model to fit on a laptop, show it running, and declare the hard part solved. The product review is less fun. How much memory can it consume? Where do intermediate files go? Can a user edit the result? What may the agent touch? How does anyone know the job finished correctly? \"It runs locally\" answers none of those questions. It tells you where one computation happened. Local-first has to survive the entire workflow. The model call, interface, files, tools, approvals, exports, and completion evidence all need boundaries. Miss one, and the architectu...",
+        "title": "Cómo una pyme de Madrid redujo sus horas administrativas un 40% con Python",
+        "describe": "Cómo una pyme de Madrid redujo sus horas administrativas un 40% con Python Por David García Muñoz-Hita (Itelnet Consulting) Si eres dueño de una pyme en Madrid, probablemente te parezca una fantasía. Menos papeleo, más tiempo para lo que realmente importa: tu negocio. En Itelnet Consulting, hemos visto esto pasar, de forma real, con una empresa de diseño gráfico que nos contactó hace unos meses. Su principal problema: horas interminables dedicadas a facturación, gestión de empleados y, sobre todo, a la recopilación de datos para informes. El Problema: Un Coste Oculto Esta empresa, llamémosl...",
         "media": [],
-        "origin_url": "https://dev.to/hefty_69a4c2d631c9dd70724/local-ai-is-an-architecture-decision-not-a-hardware-flex-51l",
-        "published": "2026-08-04T03:47:48+00:00",
+        "origin_url": "https://dev.to/dgmh10uk/como-una-pyme-de-madrid-redujo-sus-horas-administrativas-un-40-con-python-39fh",
+        "published": "2026-08-05T03:35:16+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Local AI Is an Architecture Decision, Not a Hardware Flex（架构）。The local AI demo loop is seductive。Get a model to fit on a laptop, show it running, and declare the hard part solved"
+        "ai_summary": "【AI / 机器学习】Cómo una pyme de Madrid redujo sus horas administrativas un 。Cómo una pyme de Madrid redujo sus horas administrativas un 40% con Python Por David García Muñoz-Hita (Itelnet Consulting) Si eres dueño de una pyme en Madrid, probablemente te..."
       },
       {
-        "title": "ReactJS useRef Hook",
-        "describe": "The useRef Hook lets you store a mutable value that persists across component renders. It is commonly used to access DOM elements or keep values without causing re-renders. Returns an object with a .current property to hold any value Updating .current does not trigger a re-render Useful for DOM access, timers, and storing previous values Syntax const refContainer = useRef ( initialValue ); Implementing the useRef hook The useRef hook is used to access DOM elements and persist values across renders without triggering re-renders. Accessing the DOM using the useRef hook A ref created with useR...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fl5lgicvsocbytl169w66.gif"
-        ],
-        "origin_url": "https://dev.to/karthick_07/reactjs-useref-hook-ich",
-        "published": "2026-08-04T03:46:28+00:00",
+        "title": "Multimodal Reasoning Tutorial for Developers",
+        "describe": "We are building a command-line visual auditor that takes a screenshot and a short user complaint, then reasons over both image and text to produce a structured JSON report. This helps QA engineers and frontend developers triage UI issues without maintaining brittle computer-vision pipelines. Because Oxlo.ai charges a flat rate per request, adding high-resolution screenshots and long system prompts does not inflate inference costs. What you'll need Python 3.10 or newer An Oxlo.ai API key from https://portal.oxlo.ai The OpenAI SDK: pip install openai A test image such as a screenshot or mobil...",
+        "media": [],
+        "origin_url": "https://dev.to/shashank_ms_6a35baa4be138/multimodal-reasoning-tutorial-for-developers-3njn",
+        "published": "2026-08-05T03:34:58+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】ReactJS useRef Hook。The useRef Hook lets you store a mutable value that persists across component renders。It is commonly used to access DOM elements or keep values without causing re-renders"
+        "ai_summary": "【AI / 机器学习】Multimodal Reasoning Tutorial for Developers（教程）。We are building a command-line visual auditor that takes a screenshot and a short user complaint, then reasons over both image and text to produce a structured JSON report。This ..."
+      },
+      {
+        "title": "Building a Multimodal Reasoning System: A Step-by-Step Guide",
+        "describe": "Multimodal reasoning systems combine vision, language, and tool use to solve tasks that require understanding both visual input and complex context. A typical pipeline ingests an image, extracts structured observations through a vision model, reasons over those observations with a large language model, and optionally invokes external tools to verify or act on the conclusion. Building this on traditional token-based infrastructure introduces unpredictable costs, especially when high-resolution images expand prompt length by tens of thousands of tokens. Oxlo.ai removes that uncertainty with r...",
+        "media": [],
+        "origin_url": "https://dev.to/shashank_ms_6a35baa4be138/building-a-multimodal-reasoning-system-a-step-by-step-guide-19dn",
+        "published": "2026-08-05T03:33:17+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】Building a Multimodal Reasoning System: A Step-by-Step Guide（教程）。Multimodal reasoning systems combine vision, language, and tool use to solve tasks that require understanding both visual input and complex context。A typical pipeline ingests an..."
+      },
+      {
+        "title": "What is going to happen in Ai era",
+        "describe": "I am writing this when I am in the wya of my college and suddenly one thought strike in my head that what is going on in the world in this I will not only talk about tech field I will also take examples from creative fields so yea we are in the era of Ai where AI Is the hot topic and it already starting to happen that whole gen alpha is dependent on AI sp yea Ai for gen alpha will be like google for genz and AI is not small deal as we all know the lot things are changing so I am going to talk about this topic with examples and which is going to change and what we gen Z going to contribute i...",
+        "media": [],
+        "origin_url": "https://dev.to/sansuuu/what-is-going-to-happen-in-ai-era-36n2",
+        "published": "2026-08-05T03:33:05+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】What is going to happen in Ai era。I am writing this when I am in the wya of my college and suddenly one thought strike in my head that what is going on in the world in this I will not only talk about tech field ..."
       }
     ],
     "ios": [
       {
-        "title": "From Heavy Sleeper to Reliable Waker: An iOS Alarm Field Report",
-        "describe": "I used to sleep through everything. Fire alarms, roommates, three separate phone alarms — all background noise. What eventually worked wasn't more volume; it was a smarter approach. Here's my field report on switching to Wonder Alarm, a iOS alarm built for exactly this problem. What failed before: Max-volume beeps → I'd shut them off in my sleep, literally no memory of doing it. Multiple staggered alarms → trained my brain that alarms are ignorable. Physical alarm clocks → loud, but I'd smash the snooze and roll over. What worked: Rising-intensity sound design. A track that builds over 30 s...",
+        "title": "Keyboard Shortcuts and Power Features in Wonder Cal",
+        "describe": "Power users love tools that get out of the way, and Wonder Cal has quietly accumulated a set of features that reward daily use. Here is a tour of the power features that make this calculator app feel like it was built for people who compute for a living. History as a workspace. Every entry is tappable. Load an old expression back onto the keypad, copy a result, or build on top of a previous calculation. Your work never disappears. Mode bar fluency. Scientific, finance, programmer, converter, and wellness are one tap apart. Learn the layout and you will move between them without thinking. Ph...",
         "media": [],
-        "origin_url": "https://dev.to/support_763dd4352904db708/from-heavy-sleeper-to-reliable-waker-an-ios-alarm-field-report-489o",
-        "published": "2026-08-04T03:10:24+00:00",
+        "origin_url": "https://dev.to/support_763dd4352904db708/keyboard-shortcuts-and-power-features-in-wonder-cal-aj8",
+        "published": "2026-08-05T02:56:13+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】From Heavy Sleeper to Reliable Waker: An iOS Alarm Field Rep。I used to sleep through everything。Fire alarms, roommates, three separate phone alarms — all background noise"
+        "ai_summary": "【iOS / Swift】Keyboard Shortcuts and Power Features in Wonder Cal。Power users love tools that get out of the way, and Wonder Cal has quietly accumulated a set of features that reward daily use。Here is a tour of the power features that make thi..."
       },
       {
-        "title": "How to Wake Up at the Right Sleep Stage: The Science of Cycle-Aware Alarms",
-        "describe": "Feeling terrible after eight hours of sleep is a common complaint, and the cause is often timing, not duration. Waking in the middle of deep sleep leaves you cognitively foggy for hours. A cycle-aware iOS alarm like Wonder Alarm exists to fix exactly this. The science: sleep cycles run roughly 90 minutes: light (N1/N2), deep (N3), and REM. Deep sleep is when waking is hardest and grogginess is worst. If your alarm fires during deep sleep, no amount of extra sleep will make the morning pleasant. The technique: instead of a fixed alarm time, define a window (e.g., 6:00–6:30). The app monitors...",
+        "title": "Health and Fitness Math: Wellness Metrics in Your Pocket",
+        "describe": "Health tracking is full of small calculations that rarely justify a dedicated app but deserve better than mental math. Wonder Cal's wellness mode fills that gap inside a calculator app you already use. The BMI calculator is the anchor. Enter height and weight and the app returns your BMI with a clear interpretation of the range. It is fast enough to use as a regular check rather than an annual event. Pace tools serve runners and cyclists, converting between minutes per kilometer and minutes per mile. For anyone training with a plan from another country, that conversion removes a constant so...",
         "media": [],
-        "origin_url": "https://dev.to/support_763dd4352904db708/how-to-wake-up-at-the-right-sleep-stage-the-science-of-cycle-aware-alarms-bh2",
-        "published": "2026-08-04T03:05:13+00:00",
+        "origin_url": "https://dev.to/support_763dd4352904db708/health-and-fitness-math-wellness-metrics-in-your-pocket-3bcg",
+        "published": "2026-08-05T02:51:02+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】How to Wake Up at the Right Sleep Stage: The Science of Cycl（教程）。Feeling terrible after eight hours of sleep is a common complaint, and the cause is often timing, not duration。Waking in the middle of deep sleep leaves you cognitively foggy fo..."
+        "ai_summary": "【iOS / Swift】Health and Fitness Math: Wellness Metrics in Your Pocket。Health tracking is full of small calculations that rarely justify a dedicated app but deserve better than mental math。Wonder Cal's wellness mode fills that gap inside a calculat..."
       },
       {
-        "title": "Designing a Wake-Up Sound: Lessons From Audio Engineering",
-        "describe": "Why do some alarms feel violent and others feel natural? It's not magic — it's audio engineering, and the best iOS alarm apps apply real craft to their sound libraries. Here's what's actually going on. Transient harshness. A square-wave beep has an instant attack — a sharp onset that spikes your startle reflex. Natural sounds (voice, water, acoustic instruments) have gentler attacks. That's why they feel kinder. Frequency content. Beeps concentrate energy at 1–3 kHz, right in the ear's most sensitive range. Nature sounds spread energy across the spectrum, which is easier on a sleeping audit...",
+        "title": "Keeping a Calculation History: A Workflow Guide",
+        "describe": "The most underrated feature in any calculator is memory. Wonder Cal's automatic history turns a transient tool into a persistent workspace, and building your workflow around it pays off immediately. Every calculation is saved as you go. That means your working session survives interruptions, app switches, and even days. The budget you sketched on Monday is still there on Friday, ready to continue. The reuse mechanics are what elevate the feature. Tap any history entry to copy its result or load the expression back onto the keypad. Multi-step work becomes a chain: calculate, load, extend, re...",
         "media": [],
-        "origin_url": "https://dev.to/support_763dd4352904db708/designing-a-wake-up-sound-lessons-from-audio-engineering-1fg6",
-        "published": "2026-08-04T03:00:02+00:00",
+        "origin_url": "https://dev.to/support_763dd4352904db708/keeping-a-calculation-history-a-workflow-guide-23d4",
+        "published": "2026-08-05T02:45:51+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Designing a Wake-Up Sound: Lessons From Audio Engineering。Why do some alarms feel violent and others feel natural。It's not magic — it's audio engineering, and the best iOS alarm apps apply real craft to their sound libraries"
+        "ai_summary": "【iOS / Swift】Keeping a Calculation History: A Workflow Guide（教程）。The most underrated feature in any calculator is memory。Wonder Cal's automatic history turns a transient tool into a persistent workspace, and building your workflow around it p..."
       },
       {
-        "title": "Multi-Profile Alarm Management: Config-as-Code for Your Sleep Schedule",
-        "describe": "If your sleep schedule varies — shift work, hybrid office days, parenting — a single alarm configuration is a bug, not a feature. The fix is what I call config-as-code for mornings: multi-profile alarm management, done well in apps like Wonder Alarm, a genuinely flexible iOS alarm . The mental model: treat each profile like a deployment environment. production (workdays): 6:00 wake, energetic sound, snooze off, one briefing alarm. staging (weekends): 8:30 wake, soft ambient, snooze on. emergency (travel): timezone-adjusted, volume boosted, hotel-safe sounds. Switching profiles should be one...",
+        "title": "Dark Mode and Accessibility: Themes That Work for You",
+        "describe": "Developers have strong opinions about dark mode, and for good reason: it is easier on the eyes in low light and kinder to battery life. Wonder Cal's Theme Studio takes that seriously. Dark mode transforms the calculator into a comfortable late-night companion. For anyone who codes, studies, or works after sunset, the difference is immediate. The dark palette is tuned for contrast, so buttons stay readable without the glare of a white interface. Theme Studio goes beyond a single dark theme. Pastel palettes and vivid color schemes let you match the app to your environment or your mood, and ac...",
         "media": [],
-        "origin_url": "https://dev.to/support_763dd4352904db708/multi-profile-alarm-management-config-as-code-for-your-sleep-schedule-1n95",
-        "published": "2026-08-04T02:54:51+00:00",
+        "origin_url": "https://dev.to/support_763dd4352904db708/dark-mode-and-accessibility-themes-that-work-for-you-48e8",
+        "published": "2026-08-05T02:40:40+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Multi-Profile Alarm Management: Config-as-Code for Your Slee。If your sleep schedule varies — shift work, hybrid office days, parenting — a single alarm configuration is a bug, not a feature。The fix is what I call config-as-code for mornin..."
+        "ai_summary": "【iOS / Swift】Dark Mode and Accessibility: Themes That Work for You。Developers have strong opinions about dark mode, and for good reason: it is easier on the eyes in low light and kinder to battery life。Wonder Cal's Theme Studio takes that serio..."
       },
       {
-        "title": "How I Use a Text-to-Speech Alarm as a Morning Briefing Bot",
-        "describe": "The most underrated alarm feature on iOS is text-to-speech. Combined with a good iOS alarm like Wonder Alarm, it turns your alarm from a noise-maker into a morning briefing system. My setup: Alarm fires at 6:30 with a soft fade-in tone. After the tone, a voice reads my briefing: \"Good morning. It's Tuesday, 6:30. Rain expected at 8. Your 9am standup got moved to 10. First task: finish the API review.\" How to build it: type the message in the alarm's text-to-speech editor. You can make it static (\"Time to get up\") or dynamic if the app supports template fields. Keep messages under 40 words —...",
+        "title": "Unit Conversions Every Developer Needs While Traveling",
+        "describe": "Traveling with a laptop full of code does not stop the real world from demanding math. Wonder Cal's unit converter handles the international units that trip up developers on the road. The converter covers length, mass, temperature, volume, area, speed, and time, with the units you actually meet while traveling. Kilometers to miles, kilograms to pounds, Celsius to Fahrenheit: all of it resolves in a couple of taps. Then there are the developer-specific conversions. Screen sizes in inches versus centimeters, display resolutions, bandwidth units, and storage figures all benefit from quick sani...",
         "media": [],
-        "origin_url": "https://dev.to/support_763dd4352904db708/how-i-use-a-text-to-speech-alarm-as-a-morning-briefing-bot-55of",
-        "published": "2026-08-04T02:49:40+00:00",
+        "origin_url": "https://dev.to/support_763dd4352904db708/unit-conversions-every-developer-needs-while-traveling-b3d",
+        "published": "2026-08-05T02:35:28+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】How I Use a Text-to-Speech Alarm as a Morning Briefing Bot（教程）。The most underrated alarm feature on iOS is text-to-speech。Combined with a good iOS alarm like Wonder Alarm, it turns your alarm from a noise-maker into a morning briefing system"
+        "ai_summary": "【iOS / Swift】Unit Conversions Every Developer Needs While Traveling。Traveling with a laptop full of code does not stop the real world from demanding math。Wonder Cal's unit converter handles the international units that trip up developers on the ..."
       },
       {
-        "title": "5 Alarm App Settings Every iPhone User Should Change Today",
-        "describe": "Most iPhone users live with the default alarm configuration — and most are leaving real quality-of-life improvements on the table. If you use a proper iOS alarm like Wonder Alarm, these five settings change the game. 1. Enable fade-in volume. Set it to 15–30 seconds. The single highest-impact change; your nervous system stops getting ambushed. 2. Replace the default tone. Pick a high-fidelity track from the library. You'll stop associating your alarm with irritation. 3. Turn on cycle-aware wake-up. Give the app a target window instead of a fixed second. Waking in light sleep beats waking in...",
+        "title": "Programmer Keypad Essentials: Base Conversion While Coding",
+        "describe": "Every developer eventually hits a moment where a number needs to move between bases, and doing it by hand is both slow and embarrassing. Wonder Cal's programmer keypad makes those moments painless. The keypad gives you four base buttons: HEX, DEC, OCT, and BIN. Type in any base, tap another, and the conversion is immediate. Reading a memory address, decoding a permission mask, or checking an IPv4 octet becomes a two-second operation. Bitwise operations sit right on the keypad as well. AND, OR, XOR, NOT, and shifts are all available, which means flag manipulation and bitfield work happen wit...",
         "media": [],
-        "origin_url": "https://dev.to/support_763dd4352904db708/5-alarm-app-settings-every-iphone-user-should-change-today-5f8i",
-        "published": "2026-08-04T02:44:29+00:00",
+        "origin_url": "https://dev.to/support_763dd4352904db708/programmer-keypad-essentials-base-conversion-while-coding-36gh",
+        "published": "2026-08-05T02:30:17+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】5 Alarm App Settings Every iPhone User Should Change Today。Most iPhone users live with the default alarm configuration — and most are leaving real quality-of-life improvements on the table。If you use a proper iOS alarm like Wonder Alarm..."
+        "ai_summary": "【iOS / Swift】Programmer Keypad Essentials: Base Conversion While Coding。Every developer eventually hits a moment where a number needs to move between bases, and doing it by hand is both slow and embarrassing。Wonder Cal's programmer keypad makes thos..."
       },
       {
-        "title": "Sleep Tracking on iOS Without a Wearable: How Phone-Based Analysis Works",
-        "describe": "You don't need an Apple Watch to get useful sleep data. Modern phones — and good apps like Wonder Alarm, a capable iOS alarm — can infer sleep stages from the sensors already in your pocket. How it works: The accelerometer detects micro-movements; stillness correlates with deeper sleep. The microphone (with permission) can detect snoring, coughing, and ambient noise. Screen-off time plus a machine-learning model estimates sleep onset. What's reliable vs. fuzzy: total sleep time and bedtime consistency are quite accurate. Precise stage boundaries (REM vs. deep) are estimates — treat them as ...",
+        "title": "Financial Calculations for Freelancers: TVM and Amortization",
+        "describe": "Freelancing means doing your own money math, and most of it happens on a phone between meetings. Wonder Cal's finance mode was built for exactly that reality. The TVM calculator is the workhorse. It solves for present value, future value, interest rate, periods, or payment from any four inputs. For a freelancer, that covers saving for tax season, planning equipment purchases, and projecting income growth. Enter the numbers, solve, and move on. Amortization is the tool you want before financing anything. Run the numbers on a new laptop, a car, or a studio lease before you commit. The app gen...",
         "media": [],
-        "origin_url": "https://dev.to/support_763dd4352904db708/sleep-tracking-on-ios-without-a-wearable-how-phone-based-analysis-works-5f1b",
-        "published": "2026-08-04T02:39:18+00:00",
+        "origin_url": "https://dev.to/support_763dd4352904db708/financial-calculations-for-freelancers-tvm-and-amortization-5bka",
+        "published": "2026-08-05T02:25:06+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Sleep Tracking on iOS Without a Wearable: How Phone-Based An。You don't need an Apple Watch to get useful sleep data。Modern phones — and good apps like Wonder Alarm, a capable iOS alarm — can infer sleep stages from the sensors already in ..."
+        "ai_summary": "【iOS / Swift】Financial Calculations for Freelancers: TVM and Amortization。Freelancing means doing your own money math, and most of it happens on a phone between meetings。Wonder Cal's finance mode was built for exactly that reality"
       },
       {
-        "title": "The Architecture of a Gentle Alarm: Fade-In, Sleep Stages, and Sound Design",
-        "describe": "Most alarm apps are a timer attached to a speaker. The interesting engineering — and the reason people actually switch — lives in the details. Wonder Alarm, a standout iOS alarm , is a good case study in those details. Fade-in curves. A linear volume ramp from 0 to 100% over N seconds is the naive approach. The better design uses a curve: quick rise to a low floor, then slow ascent. Your auditory system habituates to constant sound, so a flat ramp gets tuned out; a shaped curve keeps grabbing attention without shocking. Sleep-stage awareness. Accelerometer data from the phone on the mattres...",
+        "title": "Photo Solve for STEM Students: Step-by-Step Problem Solving",
+        "describe": "STEM students live in a world of problem sets, and the difference between understanding and memorizing often comes down to seeing the steps. Wonder Cal's Photo Solve is designed around exactly that gap. The workflow is simple: open Photo Solve, point the camera at a problem, and the app reads the expression and produces the answer with a full step-by-step breakdown. Instead of a bare number, you get the journey: each operation in order, ready to review. For homework, this changes the game. When you are stuck, you can check your own working against the app's steps and find the exact point wh...",
         "media": [],
-        "origin_url": "https://dev.to/support_763dd4352904db708/the-architecture-of-a-gentle-alarm-fade-in-sleep-stages-and-sound-design-2fgn",
-        "published": "2026-08-04T02:33:46+00:00",
+        "origin_url": "https://dev.to/support_763dd4352904db708/photo-solve-for-stem-students-step-by-step-problem-solving-2c1",
+        "published": "2026-08-05T02:19:55+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】The Architecture of a Gentle Alarm: Fade-In, Sleep Stages, a（架构）。Most alarm apps are a timer attached to a speaker。The interesting engineering — and the reason people actually switch — lives in the details"
+        "ai_summary": "【iOS / Swift】Photo Solve for STEM Students: Step-by-Step Problem Solving。STEM students live in a world of problem sets, and the difference between understanding and memorizing often comes down to seeing the steps。Wonder Cal's Photo Solve is designed ..."
       },
       {
-        "title": "How to Automate Your Morning Wake-Up With iOS Shortcuts and a Smart Alarm",
-        "describe": "You can build a surprisingly sophisticated morning automation on iOS — and the alarm is the trigger point. Pairing Shortcuts with a flexible iOS alarm like Wonder Alarm turns your phone into a morning orchestrator. The setup: Set your alarm in Wonder Alarm with a fade-in sound you like. Create a Shortcut that runs when your alarm is dismissed: read today's calendar, fetch the weather, and speak a summary via text-to-speech. Chain a second action: open your coffee app, start a playlist, or queue your commute. Why this works: the alarm is the one time you reliably interact with your phone whi...",
+        "title": "From CLI to iPhone: A Developer's Guide to Wonder Cal",
+        "describe": "Developers are picky about tools, and calculators are no exception. I spent years doing quick math in a terminal with awk one-liners before I admitted that a phone is usually closer to hand. Wonder Cal became my daily driver because it respects how developers think. The programmer keypad is the standout: base conversion between HEX, DEC, OCT, and BIN is one tap, and bitwise operations like AND, OR, XOR, and shifts are right there on the keypad. When I am debugging a bitmask at 11pm, that beats typing into a terminal. The history feature matters more than I expected. Every calculation is rec...",
         "media": [],
-        "origin_url": "https://dev.to/support_763dd4352904db708/how-to-automate-your-morning-wake-up-with-ios-shortcuts-and-a-smart-alarm-3m2b",
-        "published": "2026-08-04T02:28:36+00:00",
+        "origin_url": "https://dev.to/support_763dd4352904db708/from-cli-to-iphone-a-developers-guide-to-wonder-cal-39m2",
+        "published": "2026-08-05T02:14:43+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】How to Automate Your Morning Wake-Up With iOS Shortcuts and （教程）。You can build a surprisingly sophisticated morning automation on iOS — and the alarm is the trigger point。Pairing Shortcuts with a flexible iOS alarm like Wonder Alarm turns you..."
+        "ai_summary": "【iOS / Swift】From CLI to iPhone: A Developer's Guide to Wonder Cal（教程）。Developers are picky about tools, and calculators are no exception。I spent years doing quick math in a terminal with awk one-liners before I admitted that a phone is usually clo..."
       },
       {
-        "title": "Building a Better Alarm: What I Learned From Rebuilding My Morning Stack",
-        "describe": "As developers, we optimize everything — except our mornings. I spent a year cycling through alarm apps, and the one that finally stuck was Wonder Alarm, a iOS alarm that treats wake-up as an engineering problem instead of a noise problem. The core insight: the default alarm is a binary system — on or off, full volume or silent. Real wake-up is analog. Wonder Alarm's fade-in volume ramps sound over configurable seconds, which maps far better to how the brain exits sleep. What I actually use daily: Cycle-aware wake-up — the app tracks sleep stages and wakes me in a light phase within a target...",
+        "title": "Why I Replaced My Stock Calculator with a Feature-Rich Calculator App",
+        "describe": "For years I treated the stock calculator as a fact of life. It adds, it subtracts, it exists. Then I started doing real math on my phone, and the limitations became impossible to ignore. The breaking point came during a freelance project. I needed time-value-of-money calculations for a client proposal, and the stock app could not help. I opened a web tool, then a spreadsheet, then another calculator, and my workflow fragmented across four places. Wonder Cal ended that fragmentation. It is a calculator app that treats history as a first-class feature: every calculation is saved automatically...",
         "media": [],
-        "origin_url": "https://dev.to/support_763dd4352904db708/building-a-better-alarm-what-i-learned-from-rebuilding-my-morning-stack-jd",
-        "published": "2026-08-04T02:23:25+00:00",
+        "origin_url": "https://dev.to/support_763dd4352904db708/why-i-replaced-my-stock-calculator-with-a-feature-rich-calculator-app-1ig2",
+        "published": "2026-08-05T02:09:32+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Building a Better Alarm: What I Learned From Rebuilding My M（性能）。As developers, we optimize everything — except our mornings。I spent a year cycling through alarm apps, and the one that finally stuck was Wonder Alarm, a iOS alarm that treats w..."
+        "ai_summary": "【iOS / Swift】Why I Replaced My Stock Calculator with a Feature-Rich Calcu。For years I treated the stock calculator as a fact of life。It adds, it subtracts, it exists"
       },
       {
-        "title": "A database-migration iPhone app blocker rule to stop doomscrolling",
-        "describe": "A tiny focus leak for developers: the database migration wait. You run the migration, watch the terminal for a few seconds, and then your hand opens TikTok, Instagram, YouTube Shorts, Reddit, or some other feed while you are \"just waiting.\" The problem is not that the wait is long. The problem is that the wait is ambiguous. Your brain sees a 20-second gap and treats it like free time. Then the migration finishes, but you are still in a feed loop. A better rule is simple: If a task is short enough that I should stay nearby, my phone should not be allowed to turn that gap into a scroll sessio...",
+        "title": "The iPhone app blocker rule for the browser fallback loop",
+        "describe": "Most app blocker setups fail at the exact moment they start working. You block TikTok, Instagram, Reddit, or YouTube. Then muscle memory looks for the escape hatch. Not the app. The website. That is the browser fallback loop: You block the app. You feel the itch anyway. You open Safari or Chrome. You type the same site. The feed is back, and the block feels fake. If you are trying to stop doomscrolling, this matters more than motivational copy. Distraction is not a motivation problem. It is an enforcement problem. A better rule is simple: block the app block the matching website set the blo...",
         "media": [],
-        "origin_url": "https://dev.to/godnick/a-database-migration-iphone-app-blocker-rule-to-stop-doomscrolling-2jhl",
-        "published": "2026-08-04T00:23:26+00:00",
+        "origin_url": "https://dev.to/godnick/the-iphone-app-blocker-rule-for-the-browser-fallback-loop-2n1o",
+        "published": "2026-08-05T00:23:11+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】A database-migration iPhone app blocker rule to stop doomscr。A tiny focus leak for developers: the database migration wait。You run the migration, watch the terminal for a few seconds, and then your hand opens TikTok, Instagram, YouTube Sh..."
+        "ai_summary": "【iOS / Swift】The iPhone app blocker rule for the browser fallback loop。Most app blocker setups fail at the exact moment they start working。You block TikTok, Instagram, Reddit, or YouTube"
       },
       {
-        "title": "How to Optimize Articles Without Keyword Stuffing",
-        "describe": "SEO optimization is an important part of content writing, but many writers make the mistake of using keywords too often. This practice, known as keyword stuffing, can make articles difficult to read and may negatively affect search engine performance. In 2026, successful SEO is focused on creating valuable content that helps readers. Search engines have become smarter and now prioritize articles that provide useful information, natural language, and a positive user experience. The goal is not to repeat keywords everywhere but to create content that naturally communicates your topic while sa...",
-        "media": [],
-        "origin_url": "https://dev.to/rayanblogd674/how-to-optimize-articles-without-keyword-stuffing-5gfa",
-        "published": "2026-08-03T18:35:57+00:00",
+        "title": "실시간 라이브 채팅, 그 아래 있었던 문제들",
+        "describe": "카카오쇼핑라이브 페이지 하단에는 방송을 보면서 실시간으로 대화를 주고받을 수 있는 채팅 영역이 있다. 겉보기엔 그냥 \"채팅창\"이지만, 실제로는 초당 수십 개씩 쏟아지는 메시지를 끊김 없이 그려야 하고, 스크롤을 붙잡고 있는 사용자를 방해하면 안 되고, 서로 다른 화면에서 같은 로직을 재사용해야 하고, 무엇보다 가상 키보드가 화면을 반쯤 잡아먹는 모바일 웹이라는 환경 위에서 라이브 영상과 채팅을 동시에 보여줘야 했다. 이 글은 그 채팅 모듈을 만들고 다듬어오면서 실제로 겪었던 이슈들을 \"어떤 요구사항 때문에 이런 선택을 했는지\"와 \"어떤 문제를 어떻게 원인 분석해서 풀었는지\" 두 축으로 정리한 기록이다. 당시 틈틈이 남겨둔 작업노트를 실제 코드와 대조해가며 다시 정리했다. 코드 조각은 실제 구현의 핵심 로직을 그대로 옮기되, 사내 저장소·패키지·클래스 이름은 글의 맥락에 맞게 일반적인 이름으로 바꿔 표기했다. 목차 들어가며: 채팅 모듈이 하는 일 라이브 시청과 채팅을 함께 쓰기 위한 화면 대응 iOS 환경에서 만난 다른 문제들 자동 스크롤, 계속 진화한 알고리즘 사소해 보이지만 사소하지 않은 것들 마치며 들어가며: 채팅 모듈이 하는 일 채팅 모듈은 Ang...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Faren0w8wz5hny7gu8pjg.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnnrkdejkhsvj9qc2sxoe.png"
+        ],
+        "origin_url": "https://dev.to/astro_cat/silsigan-raibeu-caeting-geu-arae-isseossdeon-munjedeul-2lho",
+        "published": "2026-08-04T22:11:49+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】How to Optimize Articles Without Keyword Stuffing（教程/性能）。SEO optimization is an important part of content writing, but many writers make the mistake of using keywords too often。This practice, known as keyword stuffing, can make articl..."
+        "ai_summary": "【iOS / Swift】실시간 라이브 채팅, 그 아래 있었던 문제들。카카오쇼핑라이브 페이지 하단에는 방송을 보면서 실시간으로 대화를 주고받을 수 있는 채팅 영역이 있다。겉보기엔 그냥 \"채팅창\"이지만, 실제로는 초당 수십 개씩 쏟아지는 메시지를 끊김 없이 그려야 하고, 스크롤을 붙잡고 있는 사용자를 방해하면 안 되고, 서로 다른 화면에서 같은 로직을 재사용해야 하고, 무엇보다 가상 키..."
       }
     ],
     "android": [
       {
-        "title": "Implementing Geofencing for Android: Lessons from Muffle",
-        "describe": "It was during my final year capstone presentation. I had triple-checked my slides, rehearsed the delivery, and unplugged my laptop. But I forgot one thing: my phone was sitting in my pocket. Halfway through explaining my database architecture, the piercing sound of a default notification chime cut through the silence. It wasn't just a vibration; it was a loud, chirping alert from a group chat. The room went quiet, my professor frowned, and I spent the next thirty seconds fumbling with my volume buttons while trying to maintain my composure. It was humiliating, and I knew I couldn't be the o...",
+        "title": "Turning an old Android phone into a screen-off security camera (and the tradeoffs)",
+        "describe": "Turning an old Android phone into a security camera sounds simple until you actually try to leave it running. The screen stays lit and burns battery, the recorder stops the moment the display sleeps, and half the \"IP camera\" apps want a cloud account before they'll show you a single frame. Here's the approach that has held up for me, plus the tradeoffs worth knowing before you commit a spare phone to the job. Why the screen is the real problem Most casual \"just record video\" setups fail for the same reason: Android aggressively pauses foreground camera work when the screen turns off, and ke...",
         "media": [],
-        "origin_url": "https://dev.to/haseebthedev0/implementing-geofencing-for-android-lessons-from-muffle-2366",
-        "published": "2026-08-04T02:22:12+00:00",
+        "origin_url": "https://dev.to/superfunicular/turning-an-old-android-phone-into-a-screen-off-security-camera-and-the-tradeoffs-380k",
+        "published": "2026-08-05T02:39:07+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Implementing Geofencing for Android: Lessons from Muffle（架构）。It was during my final year capstone presentation。I had triple-checked my slides, rehearsed the delivery, and unplugged my laptop"
+        "ai_summary": "【Android / Kotlin】Turning an old Android phone into a screen-off security came（安全）。Turning an old Android phone into a security camera sounds simple until you actually try to leave it running。The screen stays lit and burns battery, the recorder stops the momen..."
       },
       {
-        "title": "Turn an Old Android Phone Into a Live Security Camera (Screen Off, No Cloud)",
-        "describe": "An old Android phone sitting in a drawer is a better security camera than most people expect. It already has a decent camera, WiFi, and a battery. The only thing missing is software that keeps the camera running with the screen fully off and lets you watch the feed live from another device, over your own network, without routing everything through someone else's cloud. Why an old phone beats a cheap dedicated cam The hardware is already good. A phone that was mid-range two or three years ago still has a sensor and lens that out-resolve most sub-$40 IP cameras. It runs on your network, not a...",
+        "title": "Maintaining Foreground Services in the Era of Android Doze Mode",
+        "describe": "The Silent Disruptor The silence in the room was absolute, broken only by the rhythmic scraping of pens on paper during a high-stakes meeting. Then, it happened. My pocket erupted into a frantic, brassy ringtone that seemed to last an eternity before I could fumble to silence it. My face turned crimson as the room’s focus shifted from the presentation to my vibrating trouser pocket. I had remembered to check my calendar, but I had completely forgotten to toggle my phone to silent mode. That moment of pure, concentrated embarrassment was the catalyst for me building Muffle. The Friction of M...",
         "media": [],
-        "origin_url": "https://dev.to/superfunicular/turn-an-old-android-phone-into-a-live-security-camera-screen-off-no-cloud-3f1o",
-        "published": "2026-08-03T19:09:21+00:00",
+        "origin_url": "https://dev.to/haseebthedev0/maintaining-foreground-services-in-the-era-of-android-doze-mode-1ka9",
+        "published": "2026-08-05T00:19:22+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Turn an Old Android Phone Into a Live Security Camera (Scree（安全）。An old Android phone sitting in a drawer is a better security camera than most people expect。It already has a decent camera, WiFi, and a battery"
+        "ai_summary": "【Android / Kotlin】Maintaining Foreground Services in the Era of Android Doze M。The Silent Disruptor The silence in the room was absolute, broken only by the rhythmic scraping of pens on paper during a high-stakes meeting。Then, it happened"
       },
       {
-        "title": "How much time it will take if i start from scratch on android studio when i am a complete beginner",
-        "describe": "If you're a complete beginner and you study consistently, here's a realistic timeline: Time What you'll be able to do 1 week Understand Kotlin basics and create simple console programs. 2–4 weeks Build simple Android apps like a calculator, unit converter, or tip calculator. 2–3 months Build apps with multiple screens, save data locally, and create a decent user interface. 4–6 months Build real apps with login, databases, internet APIs, notifications, and publish-ready features. 6–12 months Be capable of building and publishing professional-quality Android apps independently. If you study 1...",
+        "title": "Android Flaw Shares User Location 60M Times, Data Goes to FBI",
+        "describe": "Two Android apps have had their users’ precise location data shared with advertisers a combined 60 million times . The developers likely had no idea it was happening. That's the crux of new research from the Electronic Frontier Foundation (EFF), which found that common advertising software tucked inside apps is inheriting location permissions by default, feeding a data broker ecosystem that includes militaries and intelligence agencies like the FBI. According to TechCrunch , the problem stems from a critical Android design flaw: “There are no SDK-specific location permissions.” This means a...",
         "media": [],
-        "origin_url": "https://dev.to/biswajit_porel_94484d2110/how-much-time-it-will-take-if-i-start-from-scratch-on-android-studio-when-i-am-a-complete-beginner-1e8n",
-        "published": "2026-08-03T18:03:58+00:00",
+        "origin_url": "https://dev.to/xoomar/android-flaw-shares-user-location-60m-times-data-goes-to-fbi-1cel",
+        "published": "2026-08-04T21:40:29+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】How much time it will take if i start from scratch on androi。If you're a complete beginner and you study consistently, here's a realistic timeline: Time What you'll be able to do 1 week Understand Kotlin basics and create simple console p..."
+        "ai_summary": "【Android / Kotlin】Android Flaw Shares User Location 60M Times, Data Goes to FB。Two Android apps have had their users’ precise location data shared with advertisers a combined 60 million times。The developers likely had no idea it was happening"
       },
       {
-        "title": "Is emergent better than android studio",
-        "describe": "The short answer is: No. Emergent is not better than Android Studio—they serve different purposes. Here's a comparison: Emergent Android Studio AI builds much of the app for you You build the app yourself (with coding) Very fast for prototypes Best for professional Android development Beginner-friendly Steeper learning curve Limited by what the AI can generate Full control over every feature Good for MVPs and simple apps Best for complex, production-ready apps May require prompt refinement Requires programming knowledge Choose Emergent if: You want to build an app quickly. You don't know ho...",
+        "title": "Credential Manager returns \"No credentials available\" only for Play Store AAB",
+        "describe": "Hello, I am trying to publish my first app on the Google Play Store. The app supports Google Sign-In/Sign-Up using the Android Credential Manager. When I build and install the release APK directly on my device, Google Sign-In works correctly. However, after building an AAB and publishing it to the Google Play Closed Testing track, Google Sign-In fails with the error: I am using Firebase Authentication for Google Sign-In. Has anyone experienced this issue before or knows what could be causing it? I have tried - Rechecking Web Client Id. Add Play Console App signing key sha 1 and 256 to Fireb...",
         "media": [],
-        "origin_url": "https://dev.to/biswajit_porel_94484d2110/is-emergent-better-than-android-studio-2kgn",
-        "published": "2026-08-03T17:57:55+00:00",
+        "origin_url": "https://www.reddit.com/r/androiddev/comments/1vfj5cz/credential_manager_returns_no_credentials/",
+        "published": "2026-08-04T18:44:18+00:00",
+        "source_label": "Reddit r/androiddev",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Credential Manager returns \"No credentials available\" only f（开源）。Hello, I am trying to publish my first app on the Google Play Store。The app supports Google Sign-In/Sign-Up using the Android Credential Manager"
+      },
+      {
+        "title": "Building an Offline-First Document Scanner in Flutter: Lessons from Creating ScanPatra",
+        "describe": "When I started building ScanPatra , I wasn't trying to build another document scanner. There are already dozens of scanner apps on the Play Store. Many of them do a good job of scanning documents, generating PDFs, and extracting text. So building another scanner app didn't make much sense unless I could solve problems that I personally experienced. As a journalist, I frequently deal with documents—identity cards, government orders, receipts, handwritten notes, press releases, and contracts. Over time, I realized that I needed a scanner that was fast, organized, privacy-friendly, and didn't ...",
+        "media": [],
+        "origin_url": "https://dev.to/anzerayoob/building-an-offline-first-document-scanner-in-flutter-lessons-from-creating-scanpatra-4afi",
+        "published": "2026-08-04T17:43:10+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Is emergent better than android studio。The short answer is: No。Emergent is not better than Android Studio—they serve different purposes"
+        "ai_summary": "【Android / Kotlin】Building an Offline-First Document Scanner in Flutter: Lesso（开源）。When I started building ScanPatra , I wasn't trying to build another document scanner。There are already dozens of scanner apps on the Play Store"
       },
       {
-        "title": "How to Watch Your Dorm Room From Anywhere Using an Old Android Phone (Screen-Off, No Subscription)",
-        "describe": "Move-in week has a strange side effect: you suddenly own a lot of stuff you care about, in a room you share, in a building full of strangers. A laptop on the desk. A bike or a mini-fridge. A window you'd like to glance at while you're in a three-hour lab across campus. You don't need a wall of professional security gear for this. If you have an old Android phone in a drawer — the one you upgraded from last year — you already have most of a camera. This is a practical, honest guide to turning that spare phone into a simple dorm-room camera you can check from your laptop or your current phone...",
+        "title": "Half my Android reviews are complaints about the app not being 100% free and the other half are defending my paid features. Any way to improve this? I don't have this issue on iOS.",
+        "describe": "I have a free app that is 99% free. There are 3 features that are mainly for a professional level user where I charge a $5/mo subscription with a free 7-day trial. I have plenty of paid users, healthy churn rates, etc. On iOS, I have a near 5 star rating and good reviews. On Android, I have a 3.5 star rating. The only bad reviews are people complaining that the app isn't 100% free. Most of my 5 star reviews are people responding to those reviews, saying they don't get why people are complaining about it as the app is useful without a paid plan and also worth the $5 if you need it. It's sort...",
         "media": [],
-        "origin_url": "https://dev.to/superfunicular/how-to-watch-your-dorm-room-from-anywhere-using-an-old-android-phone-screen-off-no-subscription-hb3",
-        "published": "2026-08-03T17:53:08+00:00",
+        "origin_url": "https://www.reddit.com/r/androiddev/comments/1vfha7t/half_my_android_reviews_are_complaints_about_the/",
+        "published": "2026-08-04T17:38:40+00:00",
+        "source_label": "Reddit r/androiddev",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Half my Android reviews are complaints about the app not bei。I have a free app that is 99% free。There are 3 features that are mainly for a professional level user where I charge a $5/mo subscription with a free 7-day trial"
+      },
+      {
+        "title": "You're Losing Important Android Notifications — Here's How to Pin Them",
+        "describe": "If you've ever missed a one-time password because it scrolled away, or realized too late that a delivery text was buried under a pile of app alerts, you're not alone. Android's notification shade is a FIFO queue: the newest thing pushes everything else down, and the stuff you actually care about disappears in seconds. After getting locked out of a banking app for exactly this reason — an OTP that vanished before I could read it — I went looking for a fix. Here's what I found, what built-in options are (and aren't) enough, and the small app I ended up using daily. The problem: your notificat...",
+        "media": [],
+        "origin_url": "https://dev.to/axin888/youre-losing-important-android-notifications-heres-how-to-pin-them-foo",
+        "published": "2026-08-04T16:57:00+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】How to Watch Your Dorm Room From Anywhere Using an Old Andro（教程/安全）。Move-in week has a strange side effect: you suddenly own a lot of stuff you care about, in a room you share, in a building full of strangers。A laptop on the desk"
+        "ai_summary": "【Android / Kotlin】You're Losing Important Android Notifications — Here's How t（教程）。If you've ever missed a one-time password because it scrolled away, or realized too late that a delivery text was buried under a pile of app alerts, you're not alone。Android's n..."
       },
       {
-        "title": "7 Best Mobile App Beta Testing Tools (2026)",
-        "describe": "Originally published on the BetaDrop blog . The best mobile beta testing tools in 2026 are TestFlight and Google Play Console for final release candidates, with Firebase App Distribution and BetaDrop as the top picks for fast nightly internal builds. For the best free option, Firebase App Distribution and BetaDrop both distribute iOS and Android builds at no cost — BetaDrop adds instant over-the-air install links with QR codes and needs no tester accounts, while Firebase runs through its console and SDK. AppCenter, Diawi, and TestFairy round out the seven tools compared below. Getting your ...",
-        "media": [],
-        "origin_url": "https://dev.to/kaushalrola/7-best-mobile-app-beta-testing-tools-2026-5dld",
-        "published": "2026-08-03T17:34:40+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】7 Best Mobile App Beta Testing Tools (2026)（开源）。Originally published on the BetaDrop blog。The best mobile beta testing tools in 2026 are TestFlight and Google Play Console for final release candidates, with Firebase App Distr..."
-      },
-      {
-        "title": "How to Share Android APK Files for Testing",
-        "describe": "Originally published on the BetaDrop blog . Android makes app testing relatively simple compared to iOS. You can share APK files directly without complex signing requirements or device registration. But choosing the right method matters for tester experience and distribution efficiency. This guide covers every practical way to share Android APK files for testing—from quick file transfers to professional distribution platforms. Understanding Android APK Distribution Unlike iOS, Android allows installing apps from any source—a process called \"sideloading.\" This flexibility means you have mult...",
-        "media": [],
-        "origin_url": "https://dev.to/kaushalrola/how-to-share-android-apk-files-for-testing-4gk9",
-        "published": "2026-08-03T17:19:12+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】How to Share Android APK Files for Testing（教程）。Originally published on the BetaDrop blog。Android makes app testing relatively simple compared to iOS"
-      },
-      {
-        "title": "How to Reduce Mobile Data Usage Without Turning Off WiFi",
-        "describe": "If your phone is still eating through its cellular data plan even though WiFi works fine at home and the office, the problem is almost always background activity: apps refreshing, syncing, and streaming at full quality the moment you step off your WiFi network. You don’t need to disable WiFi or live in airplane mode to fix this. Table of Contents Quick Answer Turn On Your Phone’s Built-In Data Saver Cut Data Use in the Apps That Consume the Most Tips and Common Mistakes reducing mobile data usage FAQs Does Low Data Mode or Data Saver affect WiFi too? Will turning on Data Saver break apps li...",
+        "title": "Display Notifications on Google Glass Android Apps Using Kotlin",
+        "describe": "Notifications are one of the most important features of wearable applications. On Google Glass , notifications allow users to receive important information without checking a smartphone or stopping their current task. Hands-free notifications are especially useful in industries such as healthcare, logistics, manufacturing, and field services. In this tutorial, you will learn how to create and display notifications in a Google Glass Android application using Kotlin. Why Use Notifications on Google Glass? Google Glass notifications help users: Receive real-time updates Follow work instruction...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftx7apuvkk92zms22dwvu.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhpdvunz44a5y0a6ojvga.jpg"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgyti7rxlnrsix1vvtpjt.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fecr7fd4zqm81cdnew2py.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fymxdhsnboo9lagvtt8rl.png"
         ],
-        "origin_url": "https://dev.to/gtstudios/how-to-reduce-mobile-data-usage-without-turning-off-wifi-4h5m",
-        "published": "2026-08-03T16:00:41+00:00",
+        "origin_url": "https://dev.to/vmodal_ai/display-notifications-on-google-glass-android-apps-using-kotlin-2eh5",
+        "published": "2026-08-04T16:07:25+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】How to Reduce Mobile Data Usage Without Turning Off WiFi（教程）。If your phone is still eating through its cellular data plan even though WiFi works fine at home and the office, the problem is almost always background activity: apps refreshin..."
+        "ai_summary": "【Android / Kotlin】Display Notifications on Google Glass Android Apps Using Kot（教程）。Notifications are one of the most important features of wearable applications。On Google Glass , notifications allow users to receive important information without checking a sma..."
       },
       {
-        "title": "Image Recognition Auto-Click on Android: Treat Every Tap as a State Transition",
-        "describe": "An Android auto-click flow can look reliable in a short recording and still fail in daily use. The problem is usually not the tap itself. It is the assumption that the screen is still in the state the author expected when the tap runs. A loading overlay may still be visible. A list may have shifted after new content arrived. A button may have changed from disabled to enabled. A dialog may cover the original target while leaving similar text visible underneath. Fixed coordinates cannot explain any of those conditions. A safer design treats every tap as a transition between two observable sta...",
+        "title": "New portfolio + looking for advice on how to land my first Android job (Mexico City)",
+        "describe": "Hey… the last time I was here was with my classic todo app (I still have it around). I remember my big achievement back then was integrating the Gemini API when it was brand new… but I realized that, well… it was just integrating another API. Now I’m sharing my new portfolio. I’d love for you to check it out and, if possible, give me some guidance on how to get a job. I’m from Mexico City, I’m 26 years old and I don’t have a university degree. As you’ll see in my CV, there’s no education section or work experience, simply because I don’t have any. Everything I’ve learned has been self-taugh...",
         "media": [],
-        "origin_url": "https://dev.to/laicaiapp/image-recognition-auto-click-on-android-treat-every-tap-as-a-state-transition-1409",
-        "published": "2026-08-03T15:50:55+00:00",
-        "source_label": "DEV Community (Android)",
+        "origin_url": "https://www.reddit.com/r/androiddev/comments/1vfds1e/new_portfolio_looking_for_advice_on_how_to_land/",
+        "published": "2026-08-04T15:34:47+00:00",
+        "source_label": "Reddit r/androiddev",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Image Recognition Auto-Click on Android: Treat Every Tap as 。An Android auto-click flow can look reliable in a short recording and still fail in daily use。The problem is usually not the tap itself"
+        "ai_summary": "【Android / Kotlin】New portfolio + looking for advice on how to land my first A（教程）。Hey… the last time I was here was with my classic todo app (I still have it around)。I remember my big achievement back then was integrating the Gemini API when it was brand new…..."
       },
       {
-        "title": "Crash Detection Algorithms on Smartphones: How to Minimize False Positives in Telematics Apps",
-        "describe": "Detecting a high-G impact on a smartphone accelerometer is straightforward. Knowing whether that impact was a vehicle collision — and acting on it without flooding your claims desk with pothole alerts — is where crash detection algorithms earn or lose integrator trust. This article is the canonical false-positive reference for Damoov's developer content series. It covers validation pipeline architecture, severity-banded classification, threshold tuning for different deployments, and how to handle accident events in production code. For the full crash-detection pipeline (sensor fusion, high-...",
-        "media": [],
-        "origin_url": "https://dev.to/damoov/crash-detection-algorithms-on-smartphones-how-to-minimize-false-positives-in-telematics-apps-4ilh",
-        "published": "2026-08-03T15:47:24+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Crash Detection Algorithms on Smartphones: How to Minimize F（教程/架构）。Detecting a high-G impact on a smartphone accelerometer is straightforward。Knowing whether that impact was a vehicle collision — and acting on it without flooding your claims de..."
-      },
-      {
-        "title": "Pure Codename One Text Editing Without Native Overlays",
-        "describe": "PR #5386 adds a pure Codename One text-editing path. EditField , RichTextArea , and CodeEditor can now keep their document, selection, and painting inside the lightweight UI while each port supplies keyboard and input-method events. What is Codename One? Codename One is an open-source framework for building native iOS, Android, desktop, and web apps from a single Java or Kotlin codebase. Learn more at codenameone.com . Text input must handle virtual keyboards, hardware keys, autocorrect, dictation, marked text from an input method editor, bidirectional text, selection, clipboard formats, an...",
+        "title": "A Lightweight Rich Text Component Without a Web View",
+        "describe": "PR #5421 adds RichTextComponent , a read-only component for formatted application text. It supports headings, inline styles, lists, links, and images without embedding a web view. What is Codename One? Codename One is an open-source framework for building native iOS, Android, desktop, and web apps from a single Java or Kotlin codebase. Learn more at codenameone.com . A SpanLabel applies one style to wrapped text. A BrowserComponent renders a complete web page. RichTextComponent covers formatted document content between those two cases and participates in ordinary Codename One layout. Rich t...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqryoqve572pjow1kvmd5.jpg",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmermaid.ink%2Fimg%2FZmxvd2NoYXJ0IFRCCiAgICBBWyJQbGF0Zm9ybSBrZXlib2FyZCBvciBJTUUiXSAtLT4gQlsiQ29kZW5hbWUgT25lIHBvcnQgYmluZGluZyJdCiAgICBCIC0tPiBDWyJUZXh0SW5wdXRDbGllbnQgb3BlcmF0aW9ucyJdCiAgICBDIC0tPiBEWyJFZGl0b3JEb2N1bWVudCBhbmQgRWRpdG9yVmlldyJdCiAgICBEIC0tPiBFWyJDb2RlbmFtZSBPbmUgR3JhcGhpY3MsIHRleHQgc3RhdGUsIGFuZCBjYXJldCBnZW9tZXRyeSJd%3Ftype%3Dpng%26bgColor%3Dffffff",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqrfhan7hi25x2333g0rm.png"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fswktrsmx7sl9a76yo1tp.jpg",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmermaid.ink%2Fimg%2FZmxvd2NoYXJ0IFRCCiAgICBBWyJIVE1MLCBNYXJrZG93biwgQXNjaWlEb2MsIFJURiwgb3Igc3R5bGVkIEphdmEgcnVucyJdIC0tPiBCWyJSaWNoIGRvY3VtZW50IG1vZGVsIl0KICAgIEIgLS0-IENbIlJpY2hSdW5QYWludGVyIl0KICAgIEMgLS0-IERbIlJpY2hUZXh0QXJlYSBlZGl0b3Igb3IgUmljaFRleHRDb21wb25lbnQgdmlld2VyIl0KICAgIEQgLS0-IEVbIkNvZGVuYW1lIE9uZSBsYXlvdXQgYW5kIEdyYXBoaWNzIl0%3D%3Ftype%3Dpng%26bgColor%3Dffffff",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6kjlnyqec0ao4kxhleu5.png"
         ],
-        "origin_url": "https://dev.to/codenameone/pure-codename-one-text-editing-without-native-overlays-2i9l",
-        "published": "2026-08-03T15:39:51+00:00",
+        "origin_url": "https://dev.to/codenameone/a-lightweight-rich-text-component-without-a-web-view-3ch0",
+        "published": "2026-08-04T15:30:13+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Pure Codename One Text Editing Without Native Overlays。PR #5386 adds a pure Codename One text-editing path。EditField , RichTextArea , and CodeEditor can now keep their document, selection, and painting inside the lightweight UI whil..."
+        "ai_summary": "【Android / Kotlin】A Lightweight Rich Text Component Without a Web View。PR #5421 adds RichTextComponent , a read-only component for formatted application text。It supports headings, inline styles, lists, links, and images without embedding a web view"
       },
       {
-        "title": "Galaxy F70 Pro Bets on 6 Years, Not Flagship Power",
-        "describe": "Galaxy F70 Pro skips flagship power but packs a 6,000 mAh battery and six years of Android updates. Key takeaways Samsung’s Galaxy F70 Pro 5G is not chasing flagship silicon; it is selling something more practical: a 6,000 mAh battery , six years of updates , and tougher... The new device will first launch in India , according to Notebookcheck, following the Galaxy F70e 5G unveiled in February. The Pro model shifts to a more modern... Samsung skipped flagship power but stretched the support window The tension in the Galaxy F70 Pro 5G is obvious. Samsung cut costs on the processor, but pushe...",
+        "title": "Get $1000 in Amazon",
+        "describe": "https://sites.google.com/view/get-1000-in-amazon-gift-card/family-photos",
         "media": [],
-        "origin_url": "https://dev.to/mlxio_ai/galaxy-f70-pro-bets-on-6-years-not-flagship-power-54jj",
-        "published": "2026-08-03T14:12:23+00:00",
+        "origin_url": "https://dev.to/al_islam_92240b3be93b2b91/get-1000-in-amazon-4d0d",
+        "published": "2026-08-04T14:58:37+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Galaxy F70 Pro Bets on 6 Years, Not Flagship Power。Galaxy F70 Pro skips flagship power but packs a 6,000 mAh battery and six years of Android updates。Key takeaways Samsung’s Galaxy F70 Pro 5G is not chasing flagship silicon; it ..."
+        "ai_summary": "【Android / Kotlin】Get $1000 in Amazon。https://sites。com/view/get-1000-in-amazon-gift-card/family-photos"
+      },
+      {
+        "title": "IntelliJ Idea Goes LSP: Java and Kotlin Intelligence Comes to VS Code, Cursor",
+        "describe": "Article URL: https://blog.jetbrains.com/idea/2026/08/intellij-idea-goes-lsp/ Comments URL: https://news.ycombinator.com/item?id=49169515 Points: 13 # Comments: 0",
+        "media": [],
+        "origin_url": "https://blog.jetbrains.com/idea/2026/08/intellij-idea-goes-lsp/",
+        "published": "2026-08-04T14:29:34+00:00",
+        "source_label": "Hacker News (Android)",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】IntelliJ Idea Goes LSP: Java and Kotlin Intelligence Comes t。Article URL: https://blog。com/idea/2026/08/intellij-idea-goes-lsp/ Comments URL: https://news"
       }
     ],
     "frontend": [
       {
-        "title": "How to Monitor Your Nitro Application with Vigilmon",
-        "describe": "Nitro is the powerful server engine behind Nuxt 3, and it can be deployed to virtually any hosting provider — Vercel, Cloudflare Workers, Netlify, Node.js, and more. Its portability is a huge strength, but it also means your monitoring strategy needs to work regardless of where Nitro runs. This guide shows you how to set up uptime and performance monitoring for any Nitro-powered application using Vigilmon . Why Monitor a Nitro Application? Nitro applications handle server-side rendering, API routes, and edge functions. A silent failure in any of these layers means broken pages, missing data...",
+        "title": "Why Accessibility Matters: Building Websites Everyone Can Use",
+        "describe": "When developers discuss building better websites, the conversation usually revolves around performance, animations, responsive layouts, or the latest frameworks. However, there's one area that's often overlooked: Accessibility. Earlier in my career, I thought accessibility was something only large companies needed to worry about. The more projects I worked on, the more I realized that accessibility isn't an optional feature—it's part of building a quality website. A website should be usable by as many people as possible, regardless of how they interact with it. Here's why accessibility has ...",
         "media": [],
-        "origin_url": "https://dev.to/vigilmon/how-to-monitor-your-nitro-application-with-vigilmon-jj9",
-        "published": "2026-08-04T03:22:03+00:00",
+        "origin_url": "https://dev.to/madan_choudhary_b8660a076/why-accessibility-matters-building-websites-everyone-can-use-4jd5",
+        "published": "2026-08-05T03:51:20+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】How to Monitor Your Nitro Application with Vigilmon（教程/性能）。Nitro is the powerful server engine behind Nuxt 3, and it can be deployed to virtually any hosting provider — Vercel, Cloudflare Workers, Netlify, Node。Its portability is a huge..."
+        "ai_summary": "【前端开发】Why Accessibility Matters: Building Websites Everyone Can Us（性能）。When developers discuss building better websites, the conversation usually revolves around performance, animations, responsive layouts, or the latest frameworks。However, there's..."
       },
       {
-        "title": "I Built a Chrome Extension to Download Telegram Media More Easily",
-        "describe": "Introduction Telegram has become one of the most popular platforms for sharing files, videos, images, and other media. However, when using Telegram Web, I found that saving media files was not always convenient. For example: downloading videos from channels saving multiple images managing large files The process usually requires several manual steps. So I decided to build a Chrome Extension to make Telegram media downloads easier. The project is called TGVideoDown. Website: https://tgvideodown.com Why build a Chrome Extension? At first, I considered building a standalone desktop applicat...",
+        "title": "Building Cinematic Depth in the Browser with Depth Anything V2 Small and WebGPU",
+        "describe": "Introduction We recently added Cinematic Depth to Timeline Studio , an open-source browser video editor. The feature runs Depth Anything V2 Small through WebGPU, analyzes images and video frames locally, and turns the resulting depth data into an adjustable depth-of-field effect. Source media never needs to leave the user's device. GitHub: MartinDelophy/ai-video-editor Live demo: Timeline Studio This post focuses on the engineering work required to turn a depth-estimation model into a real editing capability—not just a demo that outputs a grayscale depth map. Background blur is not depth of...",
         "media": [],
-        "origin_url": "https://dev.to/leo_rock_3d6f3116b4a82159/i-built-a-chrome-extension-to-download-telegram-media-more-easily-29fd",
-        "published": "2026-08-04T03:11:38+00:00",
+        "origin_url": "https://dev.to/martindelophy/building-cinematic-depth-in-the-browser-with-depth-anything-v2-small-and-webgpu-1k07",
+        "published": "2026-08-05T03:08:09+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】I Built a Chrome Extension to Download Telegram Media More E。Introduction Telegram has become one of the most popular platforms for sharing files, videos, images, and other media。However, when using Telegram Web, I found that saving media..."
+        "ai_summary": "【前端开发】Building Cinematic Depth in the Browser with Depth Anything （开源/架构）。Introduction We recently added Cinematic Depth to Timeline Studio , an open-source browser video editor。The feature runs Depth Anything V2 Small through WebGPU, analyzes images ..."
       },
       {
-        "title": "Building a Cricket Data Pipeline: Lessons from No guarantees joyful Glasgow cannot banish all Commonwealth doubts",
-        "describe": "Building a Cricket Data Pipeline: Lessons from No guarantees joyful Glasgow cannot banish all Commonwealth doubts TL;DR : Facts verified across multiple sources. Here is the article. `html The fireworks that lit up Glasgow Green on Sunday night marked the end of a Commonwealth Games that few believed Continue reading: No guarantees joyful Glasgow cannot banish all Commonwealth doubts The Data Behind the Story Every major cricket event generates thousands of data points in real time — run rate, balls bowled, runs scored, and wickets. Most fans see the headline; data engineers see the underly...",
+        "title": "Why Eala becomes first Filipino to win WTA singles title Matters for Sports Data Engineers",
+        "describe": "Why Eala becomes first Filipino to win WTA singles title Matters for Sports Data Engineers TL;DR : Facts verified against ESPN, WTA, CNN, and Sky Sports — the story is real. Here is the article body: `html Alexandra Eala completed a landmark comeback to defeat top seed Continue reading: Eala becomes first Filipino to win WTA singles title The Data Behind the Story Every major tennis event generates thousands of data points in real time — first-serve percentage, aces, double faults, and break points won. Most fans see the headline; data engineers see the underlying stream. Here is a minimal ...",
         "media": [],
-        "origin_url": "https://dev.to/muhammad_binnazeer_6a810/building-a-cricket-data-pipeline-lessons-from-no-guarantees-joyful-glasgow-cannot-banish-all-3294",
-        "published": "2026-08-04T03:07:43+00:00",
+        "origin_url": "https://dev.to/muhammad_binnazeer_6a810/why-eala-becomes-first-filipino-to-win-wta-singles-title-matters-for-sports-data-engineers-enh",
+        "published": "2026-08-05T03:07:45+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Building a Cricket Data Pipeline: Lessons from No guarantees。Building a Cricket Data Pipeline: Lessons from No guarantees joyful Glasgow cannot banish all Commonwealth doubts TL;DR : Facts verified across multiple sources。Here is the article"
+        "ai_summary": "【前端开发】Why Eala becomes first Filipino to win WTA singles title Mat。Why Eala becomes first Filipino to win WTA singles title Matters for Sports Data Engineers TL;DR : Facts verified against ESPN, WTA, CNN, and Sky Sports — the story is real。Here..."
       },
       {
-        "title": "I Scraped 100 Sports Matches — Here Is What I Found: Gay hits ton for Durham as Leics & Middlesex go top",
-        "describe": "I Scraped 100 Sports Matches — Here Is What I Found: Gay hits ton for Durham as Leics & Middlesex go top TL;DR : I have enough verified grounding. Key confirmed fact: Emilio Gay made an unbeaten 119 (off 111 balls) in an unbroken stand with Colin Ackermann to take Durham home comfortably over Continue reading: Gay hits ton for Durham as Leics & Middlesex go top The Data Behind the Story Every major sports event generates thousands of data points in real time — performance index, score, time elapsed, and momentum. Most fans see the headline; data engineers see the underlying stream. Here is ...",
+        "title": "Building a Tennis Data Pipeline: Lessons from Most exciting player Eala shows Filipino heart to make history",
+        "describe": "Building a Tennis Data Pipeline: Lessons from Most exciting player Eala shows Filipino heart to make history TL;DR : I have the verified facts for this story from prior research (Ealas Mubadala DC Open title in Washington — the first WTA Tour singles title by any Filipino). Heres the Continue reading: Most exciting player Eala shows Filipino heart to make history The Data Behind the Story Every major tennis event generates thousands of data points in real time — first-serve percentage, aces, double faults, and break points won. Most fans see the headline; data engineers see the underlying s...",
         "media": [],
-        "origin_url": "https://dev.to/muhammad_binnazeer_6a810/i-scraped-100-sports-matches-here-is-what-i-found-gay-hits-ton-for-durham-as-leics-middlesex-1202",
-        "published": "2026-08-04T03:07:29+00:00",
+        "origin_url": "https://dev.to/muhammad_binnazeer_6a810/building-a-tennis-data-pipeline-lessons-from-most-exciting-player-eala-shows-filipino-heart-to-535e",
+        "published": "2026-08-05T03:07:31+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】I Scraped 100 Sports Matches — Here Is What I Found: Gay hit（性能）。I Scraped 100 Sports Matches — Here Is What I Found: Gay hits ton for Durham as Leics & Middlesex go top TL;DR : I have enough verified grounding。Key confirmed fact: Emilio Gay ..."
+        "ai_summary": "【前端开发】Building a Tennis Data Pipeline: Lessons from Most exciting 。Building a Tennis Data Pipeline: Lessons from Most exciting player Eala shows Filipino heart to make history TL;DR : I have the verified facts for this story from prior research..."
       },
       {
-        "title": "URL Encoding & Decoding in JavaScript: A Practical Guide with Real Examples",
-        "describe": "If you've ever seen %20 in a URL and wondered what it means, or had your app crash because a user's name contained a & symbol, you're in the right place. URL encoding is one of those fundamentals that every web developer needs to understand — but few truly master. In this guide, we'll break down how URL encoding works, when to use encodeURIComponent vs encodeURI , and how to handle edge cases that trip up even experienced developers. What Is URL Encoding? URLs can only contain a limited set of ASCII characters: letters, digits, and a few special characters like - , _ , . , and ~ . Anything ...",
+        "title": "React useMeasure Hook: Measure DOM Elements with ResizeObserver (2026)",
+        "describe": "Sooner or later every React app needs to know how big an element is. A chart needs its container's pixel width before it can draw. A virtualized list needs row heights. An auto-growing textarea, a truncation detector, a component that switches layout when it — not the viewport — gets narrow: all of them need live element dimensions, and React doesn't provide them. So you reach for getBoundingClientRect() in an effect, discover it only runs once, add a resize listener on window , and then notice the element also resizes when a sibling collapses, a font loads, or content changes — none of whi...",
         "media": [],
-        "origin_url": "https://dev.to/jiebangtools/url-encoding-decoding-in-javascript-a-practical-guide-with-real-examples-25n8",
-        "published": "2026-08-04T02:50:32+00:00",
+        "origin_url": "https://dev.to/childrentime/react-usemeasure-hook-measure-dom-elements-with-resizeobserver-2026-2d8g",
+        "published": "2026-08-05T02:53:06+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】URL Encoding & Decoding in JavaScript: A Practical Guide wit（教程）。If you've ever seen %20 in a URL and wondered what it means, or had your app crash because a user's name contained a & symbol, you're in the right place。URL encoding is one of t..."
+        "ai_summary": "【前端开发】React useMeasure Hook: Measure DOM Elements with ResizeObser。Sooner or later every React app needs to know how big an element is。A chart needs its container's pixel width before it can draw"
       },
       {
-        "title": "A CI Check for Chinese LLM Model Names and Token Budgets",
-        "describe": "Chinese model APIs move quickly enough that hardcoded model names become a production risk. The problem is not only quality drift. It is also billing drift, context-window drift, deprecation drift, and integration drift across OpenAI-compatible clients. If you run a SaaS feature, an internal coding agent, or a support automation pipeline, you want the model catalog to behave like any other deploy-time dependency. Pin it, inspect it, budget it, and fail the build when the assumptions are stale. This walkthrough builds a small manifest check around the AIWave pricing page , then uses the mani...",
+        "title": "Top Remote Jobs Hiring Now in 2026 | Work From Home & Earn More",
+        "describe": "Looking for a legitimate remote job you can do from home? This video highlights exciting remote work opportunities available in 2026. Whether you're interested in customer support, virtual assistance, data entry, tech, or other online roles, there are flexible work-from-home options worth exploring. 💲👉 Check the link and apply 💼 Remote work offers flexibility, location independence, and opportunities across many industries. 👉 If you're interested, check the link in the bio for the latest remote job opportunities. 👍 Like this video if you found it helpful. 🔔 Subscribe for more remote job upd...",
         "media": [],
-        "origin_url": "https://dev.to/aiwave/a-ci-check-for-chinese-llm-model-names-and-token-budgets-1mlm",
-        "published": "2026-08-04T02:49:32+00:00",
-        "source_label": "DEV Community (JavaScript)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】A CI Check for Chinese LLM Model Names and Token Budgets。Chinese model APIs move quickly enough that hardcoded model names become a production risk。The problem is not only quality drift"
-      },
-      {
-        "title": "David Stark: Top High-Paying Roles",
-        "describe": "👋 Hello Architects & Elite Engineers, The market is shifting. We are seeing a surge in JAVASCRIPT roles this week. We don't do \"Easy Apply\". Our internal gatekeeper just processed 200+ verified remote jobs from our partner network. To get these jobs, you must pass the architecture audit. Here are the Top 5 roles worth your time today.** 👇 1. QA Automation Engineer 🏢 Remote Company | 💰 Competitive | 📍 Remote Could you walk us through your experience with this tech stack? Tech Stack: Roles and Responsibilities • Design, develop, and maintain automation frameworks for Salesforce appl... 👉 Appl...",
-        "media": [],
-        "origin_url": "https://dev.to/devpulse/david-stark-top-high-paying-roles-nem",
-        "published": "2026-08-04T02:27:31+00:00",
-        "source_label": "DEV Community (JavaScript)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】David Stark: Top High-Paying Roles（架构）。👋 Hello Architects & Elite Engineers, The market is shifting。We are seeing a surge in JAVASCRIPT roles this week"
-      },
-      {
-        "title": "React: autocompletar email sin ruido",
-        "describe": "Cuando un campo de email intenta ayudar demasiado pronto, termina molestando. Lo veo mucho en flujos de registro: la persona escribe tres letras, aparece una sugerencia agresiva, cambia el layout, se pinta el borde, y ya parece que hizo algo mal. No es un bug enorme, pero si desgasta bastante la sensacion del formulario. En productos donde tambien importa detectar un correo de usar y tirar o separar pruebas de cuentas reales, la tentacion es meter toda la inteligencia dentro del input. Ahi es donde casi siempre se complica. El campo deja de ser una ayuda y pasa a ser una mini policia de neg...",
-        "media": [],
-        "origin_url": "https://dev.to/silviutech/react-autocompletar-email-sin-ruido-2805",
-        "published": "2026-08-04T02:24:35+00:00",
+        "origin_url": "https://dev.to/job_offer_74680b9f128121c/top-remote-jobs-hiring-now-in-2026-work-from-home-earn-more-29oc",
+        "published": "2026-08-05T02:45:42+00:00",
         "source_label": "DEV Community (React)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】React: autocompletar email sin ruido。Cuando un campo de email intenta ayudar demasiado pronto, termina molestando。Lo veo mucho en flujos de registro: la persona escribe tres letras, aparece una sugerencia agresiva,..."
+        "ai_summary": "【前端开发】Top Remote Jobs Hiring Now in 2026 | Work From Home & Earn M。Looking for a legitimate remote job you can do from home。This video highlights exciting remote work opportunities available in 2026"
       },
       {
-        "title": "How to Monitor Your Hono.js API with Vigilmon",
-        "describe": "How to Monitor Your Hono.js API with Vigilmon Hono is a fast, lightweight web framework that runs on Cloudflare Workers, Bun, Node.js, Deno, and edge runtimes. Its edge-first design means your API can run in 100+ locations globally — but you still need external uptime monitoring to know when it goes down. This guide shows you how to monitor your Hono.js API with Vigilmon . Why Monitor a Hono API? Edge deployment gives you speed — but it also introduces failure modes you won't see in local development: Cloudflare Workers can be blocked in specific regions KV/D1/R2 bindings can fail even when...",
+        "title": "Developer Role - Strong Communication and Coding Skills",
+        "describe": "Hi everyone, Novatech is hiring Junior to Mid-Level Full-Stack Developers with strong English communication skills. We welcome applicants from all backgrounds. Female developers are especially encouraged to apply. Requirements: C1 or C2 English proficiency Junior to mid-level full-stack development skills Ability to communicate clearly and work effectively in a remote team Compensation: $30–$80 per hour, depending on experience and skills. How to Apply: Please apply through our company website: https://novatechify.llc We look forward to hearing from you! Novatech Hiring Team",
         "media": [],
-        "origin_url": "https://dev.to/vigilmon/how-to-monitor-your-honojs-api-with-vigilmon-5hcf",
-        "published": "2026-08-04T02:15:35+00:00",
+        "origin_url": "https://dev.to/endo991121/developer-role-strong-communication-and-coding-skills-afj",
+        "published": "2026-08-05T02:41:52+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】How to Monitor Your Hono.js API with Vigilmon（教程）。How to Monitor Your Hono。js API with Vigilmon Hono is a fast, lightweight web framework that runs on Cloudflare Workers, Bun, Node"
+        "ai_summary": "【前端开发】Developer Role - Strong Communication and Coding Skills（教程）。Hi everyone, Novatech is hiring Junior to Mid-Level Full-Stack Developers with strong English communication skills。We welcome applicants from all backgrounds"
       },
       {
-        "title": "How to Monitor Your SolidStart Application with Vigilmon",
-        "describe": "How to Monitor Your SolidStart Application with Vigilmon SolidStart is SolidJS's full-stack meta-framework — bringing server-side rendering, API routes, and edge deployment to the SolidJS ecosystem. When your SolidStart app goes down, you want to know before your users do. This guide shows you how to set up uptime monitoring with Vigilmon . What to Monitor in a SolidStart App A production SolidStart app has several layers worth monitoring: The frontend — is your SolidStart SSR app serving HTML? API routes — are your server-side /api/* routes responding correctly? Health check endpoint — a d...",
+        "title": "I Built a VS Code Extension, I would like your feedback!",
+        "describe": "Welcome to my first post! If you write React and TypeScript regularly, you probably already know the feeling: you know how to write a useState + useEffect data fetch, you've done it a hundred times, but that doesn't make typing it out the hundred-and-first time any less annoying. So you either retype the same boilerplate by hand again, or dig through an old project to copy-paste it, or lose a minute to Stack Overflow just to copy paste or check a detail like isLoading vs. isPending. None of that is hard. It's just unnecessary effort that adds up over a day of writing code you already know h...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fl284jxqyieo50c08pfmi.gif"
+        ],
+        "origin_url": "https://dev.to/abdvlla/i-built-a-vs-code-extension-i-would-like-your-feedback-2jg4",
+        "published": "2026-08-05T02:16:10+00:00",
+        "source_label": "DEV Community (React)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】I Built a VS Code Extension, I would like your feedback!（教程）。Welcome to my first post。If you write React and TypeScript regularly, you probably already know the feeling: you know how to write a useState + useEffect data fetch, you've done..."
+      },
+      {
+        "title": "What Makes a Great T-Shirt? A Practical Guide to Fit and Fabric",
+        "describe": "When people talk about wardrobe essentials, the humble t-shirt is often overlooked. Yet it's one of the most frequently worn pieces of clothing, making its quality and fit surprisingly important. After trying dozens of different brands and styles over the years, I've realized that the perfect t-shirt isn't defined by a logo or graphic. Instead, it's a combination of thoughtful design, quality materials, and long-term durability. Fabric Weight Matters One of the first things I notice is fabric weight. A lightweight shirt can feel comfortable during hot weather but may become transparent or l...",
         "media": [],
-        "origin_url": "https://dev.to/vigilmon/how-to-monitor-your-solidstart-application-with-vigilmon-gmc",
-        "published": "2026-08-04T02:14:59+00:00",
+        "origin_url": "https://dev.to/davitparkltd/what-makes-a-great-t-shirt-a-practical-guide-to-fit-and-fabric-38h1",
+        "published": "2026-08-05T02:05:05+00:00",
+        "source_label": "DEV Community (React)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】What Makes a Great T-Shirt? A Practical Guide to Fit and Fab（教程）。When people talk about wardrobe essentials, the humble t-shirt is often overlooked。Yet it's one of the most frequently worn pieces of clothing, making its quality and fit surpri..."
+      },
+      {
+        "title": "Why \"the date exactly halfway between these two dates\" doesn't always have one answer",
+        "describe": "A friend asked me to help her find the exact midpoint between her and her partner's birthdays — apparently it's a whole thing people do, so they get a \"shared\" anniversary to celebrate every year. I figured it'd be a five-minute (date1 + date2) / 2 kind of problem. It's not. Building the date calculator that eventually answered her question, I ran into a genuinely annoying edge case: sometimes there just isn't a single day exactly in the middle. Counting days between two dates without native Date math The tool doesn't do new Date(a) - new Date(b) and divide by 86400000. It uses Luxon , pars...",
+        "media": [],
+        "origin_url": "https://dev.to/joe8_lin_tw/why-the-date-exactly-halfway-between-these-two-dates-doesnt-always-have-one-answer-22e8",
+        "published": "2026-08-05T02:00:02+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】How to Monitor Your SolidStart Application with Vigilmon（教程）。How to Monitor Your SolidStart Application with Vigilmon SolidStart is SolidJS's full-stack meta-framework — bringing server-side rendering, API routes, and edge deployment to t..."
+        "ai_summary": "【前端开发】Why \"the date exactly halfway between these two dates\" doesn。A friend asked me to help her find the exact midpoint between her and her partner's birthdays — apparently it's a whole thing people do, so they get a \"shared\" anniversary to ce..."
       },
       {
-        "title": "Fetch Metadata: A Practical Cross-Site Request Policy for Node.js",
-        "describe": "Most web security controls answer a narrow question. CORS decides whether browser JavaScript may read a cross-origin response. CSRF tokens bind a state-changing request to an application session. Content Security Policy constrains what a page can load. Fetch Metadata answers a useful question earlier: what kind of browser context caused this request? It gives a server request headers such as Sec-Fetch-Site , Sec-Fetch-Mode , and Sec-Fetch-Dest . That is enough context to reject many implausible cross-site requests before they reach application code. This is not a replacement for authenticat...",
+        "title": "How to Build an Efficient SEO Workflow Without Switching Between Tools",
+        "describe": "Search engine optimization becomes much more manageable when your workflow is organized. Yet many developers, freelancers, and small marketing teams rely on multiple disconnected tools to complete a single SEO audit. One platform handles technical issues, another tracks keyword rankings, and a third analyzes backlinks. While each tool may be effective individually, constantly switching between them slows productivity and increases the chances of overlooking important insights. Over the past few months, I decided to simplify my SEO process by creating a more structured workflow. Instead of j...",
         "media": [],
-        "origin_url": "https://dev.to/pop_watch_ac45504c97f6c29/fetch-metadata-a-practical-cross-site-request-policy-for-nodejs-1mh5",
-        "published": "2026-08-04T02:03:30+00:00",
-        "source_label": "DEV Community (JavaScript)",
+        "origin_url": "https://dev.to/carllowman/how-to-build-an-efficient-seo-workflow-without-switching-between-tools-1h0i",
+        "published": "2026-08-05T01:39:57+00:00",
+        "source_label": "DEV Community (React)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Fetch Metadata: A Practical Cross-Site Request Policy for No（安全）。Most web security controls answer a narrow question。CORS decides whether browser JavaScript may read a cross-origin response"
+        "ai_summary": "【前端开发】How to Build an Efficient SEO Workflow Without Switching Bet（教程）。Search engine optimization becomes much more manageable when your workflow is organized。Yet many developers, freelancers, and small marketing teams rely on multiple disconnected..."
       },
       {
-        "title": "Writing Mystery Games in Vanilla JS: Interrogation Systems, Trust Trackers, and 6-Ending Medical Thrillers",
-        "describe": "AI Disclosure: This article was written with AI assistance. All games mentioned were built using AI-assisted development tools. The Genre Nobody Talks About in Browser Games When indie devs think \"browser game,\" they think platformers, idle clickers, or puzzles. But look at the itch.io HTML5 top charts: narrative-driven mystery and horror games dominate. FORGOTTEN. Exorcist Candy. Short, story-heavy experiences that load in a second and stay with you for hours. The technical question is: how do you build a narrative game without a game engine? No Unity. No Unreal. No Twine. Just an HTML fil...",
+        "title": "✨ My Developer Portfolio Built with React, Firebase, Tailwind CSS, and Cloudinary",
+        "describe": "🚀 I Built My Personal Developer Portfolio with React, Firebase, Tailwind CSS & Cloudinary Hi DEV Community! 👋 I'm excited to share my personal developer portfolio, which I built to showcase my skills, projects, and experience as a web developer. 🛠️ Tech Stack React Tailwind CSS Firebase Authentication Firebase Firestore Cloudinary (Image Upload & Management) Framer Motion (Smooth Animations) React Router v6 React Icons Admin Dashboard Vercel (Deployment) ✨ Features Responsive Design Secure Authentication Admin Dashboard Dynamic Project Management Cloud Image Upload with Cloudinary Smooth An...",
         "media": [],
-        "origin_url": "https://dev.to/aguier/writing-mystery-games-in-vanilla-js-interrogation-systems-trust-trackers-and-6-ending-medical-5efg",
-        "published": "2026-08-04T02:02:08+00:00",
-        "source_label": "DEV Community (JavaScript)",
+        "origin_url": "https://dev.to/ehsanullah_farhan/my-developer-portfolio-built-with-react-firebase-tailwind-css-and-cloudinary-13gl",
+        "published": "2026-08-05T01:27:57+00:00",
+        "source_label": "DEV Community (React)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Writing Mystery Games in Vanilla JS: Interrogation Systems, 。AI Disclosure: This article was written with AI assistance。All games mentioned were built using AI-assisted development tools"
+        "ai_summary": "【前端开发】✨ My Developer Portfolio Built with React, Firebase, Tailwin。🚀 I Built My Personal Developer Portfolio with React, Firebase, Tailwind CSS & Cloudinary Hi DEV Community。👋 I'm excited to share my personal developer portfolio, which I built ..."
       }
     ],
     "backend": [
       {
-        "title": "Asterisk 'All Circuits Busy' Error — SIP Channel Exhaustion Fix",
-        "describe": "Asterisk 'All Circuits Busy' Error — SIP Channel Exhaustion Fix Learn how to diagnose, prevent, and resolve the \"all circuits busy\" error in production Asterisk/ViciDial systems by managing SIP channel limits, monitoring active sessions, and implementing proper resource constraints. Prerequisites Running Asterisk 11+ with ViciDial 2.14+ Root or sudo access to the Asterisk server Basic familiarity with Asterisk CLI and config file editing Access to MySQL/MariaDB and the asterisk database Knowledge of SIP carrier configuration Ability to tail logs and parse Asterisk debugging output Understan...",
+        "title": "How Much Do You Trust the Dependencies Your Applications Install?",
+        "describe": "Software supply chain security has become one of the biggest concerns in modern application development. Most of us run commands like pip install, npm install, or go get without thinking twice. We trust package registries, open-source maintainers, and our existing workflows because that's how software gets built every day. But recent supply chain incidents have shown that a single compromised dependency can become an entry point into CI/CD pipelines, cloud environments, and Kubernetes clusters. It made me think about how different teams are approaching dependency security today. Do you scan...",
         "media": [],
-        "origin_url": "https://dev.to/moisi_trungu_31647b7ac300/asterisk-all-circuits-busy-error-sip-channel-exhaustion-fix-2olm",
-        "published": "2026-08-04T03:30:02+00:00",
+        "origin_url": "https://dev.to/sanjay_yadav_/how-much-do-you-trust-the-dependencies-your-applications-install-2ng0",
+        "published": "2026-08-05T03:44:20+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Asterisk 'All Circuits Busy' Error — SIP Channel Exhaustion （教程）。Asterisk 'All Circuits Busy' Error — SIP Channel Exhaustion Fix Learn how to diagnose, prevent, and resolve the \"all circuits busy\" error in production Asterisk/ViciDial systems..."
+        "ai_summary": "【后端 / 架构】How Much Do You Trust the Dependencies Your Applications Ins（安全）。Software supply chain security has become one of the biggest concerns in modern application development。Most of us run commands like pip install, npm install, or go get without ..."
       },
       {
-        "title": "Best Checkmate Alternatives in 2026 (Uptime Monitoring Tools)",
-        "describe": "Checkmate (formerly Uptime Monitor) is a self-hosted, open-source uptime monitoring tool. It's lightweight, runs on your own infrastructure, and costs nothing beyond the server you host it on. But self-hosting comes with trade-offs — you're responsible for uptime of the monitoring tool itself, updates, and maintenance. If you're looking for alternatives to Checkmate — whether for hosted convenience, better features, or a different approach — here are the best options in 2026. Why Look for a Checkmate Alternative? Common reasons teams move away from Checkmate: Don't want to maintain the moni...",
+        "title": "Episode 6 — Watching Something You Can't See",
+        "describe": "Week 3. \"The deploy is done. Everything's green. Now what am I actually supposed to be looking at?\" Previously Runner ↓ Cache ↓ Artifact ↓ Deployment Today ↓ Monitoring Junior Engineer: The canary rolled out fine yesterday. 100% traffic, all healthy. I closed my laptop. Was that wrong? Senior Engineer: Not wrong, exactly. But let me ask you something first. Your service is running on a server somewhere. Right now, this second — is it healthy? Junior Engineer: I mean... I assume so? Nobody's messaged me. Senior Engineer: \"Nobody's messaged me\" isn't an answer. It's the absence of one. That's...",
         "media": [],
-        "origin_url": "https://dev.to/vigilmon/best-checkmate-alternatives-in-2026-uptime-monitoring-tools-36nd",
-        "published": "2026-08-04T03:26:50+00:00",
+        "origin_url": "https://dev.to/surajrkhonde/episode-6-watching-something-you-cant-see-15eb",
+        "published": "2026-08-05T03:40:11+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Best Checkmate Alternatives in 2026 (Uptime Monitoring Tools。Checkmate (formerly Uptime Monitor) is a self-hosted, open-source uptime monitoring tool。It's lightweight, runs on your own infrastructure, and costs nothing beyond the server y..."
+        "ai_summary": "【后端 / 架构】Episode 6 — Watching Something You Can't See。\"The deploy is done。Everything's green"
       },
       {
-        "title": "How to Monitor Applications Deployed with Coolify",
-        "describe": "Coolify is an open-source, self-hostable alternative to Heroku and Render. It lets you deploy Docker containers, Node.js apps, PHP apps, and more on your own VPS with a clean web UI. It's a popular choice for developers who want full control over their infrastructure without the complexity of raw Kubernetes. But Coolify doesn't include external uptime monitoring out of the box. This guide shows how to add production-grade monitoring to your Coolify-deployed applications using Vigilmon . What Coolify Provides vs. What You Still Need Coolify gives you: Deployment automation with GitHub integr...",
-        "media": [],
-        "origin_url": "https://dev.to/vigilmon/how-to-monitor-applications-deployed-with-coolify-2ehk",
-        "published": "2026-08-04T03:26:13+00:00",
+        "title": "☁️ Fix ssh permission denied ubuntu ec2 issues with ease",
+        "describe": "❓ ssh permission denied ubuntu ec2 fix? The error indicates that the SSH daemon rejected the key, typically due to incorrect file permissions or mismatched user configuration. The root cause may reside in filesystem permissions, key placement, daemon configuration, or network rules. Fixing ssh permission denied ubuntu ec2 fix requires aligning filesystem permissions, placing the correct public key in authorized_keys , and configuring EC2 security settings to allow SSH traffic. 📑 Table of Contents ❓ ssh permission denied ubuntu ec2 fix? The error indicates that the SSH daemon rejected the ke...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5lq1ow4dvj5xpqi5hbz0.png"
+        ],
+        "origin_url": "https://dev.to/ptp2308/fix-ssh-permission-denied-ubuntu-ec2-issues-with-ease-3dfe",
+        "published": "2026-08-05T03:39:00+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】How to Monitor Applications Deployed with Coolify（教程/开源）。Coolify is an open-source, self-hostable alternative to Heroku and Render。It lets you deploy Docker containers, Node"
+        "ai_summary": "【后端 / 架构】☁️ Fix ssh permission denied ubuntu ec2 issues with ease（安全）。❓ ssh permission denied ubuntu ec2 fix。The error indicates that the SSH daemon rejected the key, typically due to incorrect file permissions or mismatched user configuration"
       },
       {
-        "title": "How to Monitor Your Encore.ts Application with Vigilmon",
-        "describe": "Encore.ts is a TypeScript backend framework that handles infrastructure provisioning, API generation, and cloud deployment automatically. It's designed to eliminate boilerplate so you can focus on business logic — but when your Encore.ts service goes down, you still need external monitoring to know about it. This guide covers how to set up uptime monitoring for an Encore.ts application using Vigilmon . Why Encore.ts Needs External Monitoring Encore provides: Automatic API documentation and type-safe clients Built-in distributed tracing Cloud deployment to AWS or GCP Development dashboard fo...",
+        "title": "Asterisk 'Peer Is Not Registered' — SIP Registration Failure Debug",
+        "describe": "Asterisk 'Peer Is Not Registered' — SIP Registration Failure Debug Master the diagnosis and resolution of SIP registration failures in Asterisk/ViciDial production environments by understanding peer registration mechanics, common misconfiguration patterns, and step-by-step troubleshooting methodology. Prerequisites Before you begin this guide, ensure you have: Asterisk 1.6+, 11.x, 13.x, or 16.x (ViciDial typically runs 11.x or 13.x) Root or sudo access to the Asterisk server Knowledge of basic SIP concepts (registrar, registrant, peer, friend) Access to /etc/asterisk/ configuration director...",
         "media": [],
-        "origin_url": "https://dev.to/vigilmon/how-to-monitor-your-encorets-application-with-vigilmon-5b1n",
-        "published": "2026-08-04T03:25:07+00:00",
+        "origin_url": "https://dev.to/moisi_trungu_31647b7ac300/asterisk-peer-is-not-registered-sip-registration-failure-debug-6o5",
+        "published": "2026-08-05T03:30:03+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】Asterisk 'Peer Is Not Registered' — SIP Registration Failure（教程）。Asterisk 'Peer Is Not Registered' — SIP Registration Failure Debug Master the diagnosis and resolution of SIP registration failures in Asterisk/ViciDial production environments ..."
+      },
+      {
+        "title": "You can't pin a GitHub Actions runner image — but you can find out exactly what changed",
+        "describe": "Your workflow pins actions/checkout@v4 . It pins node-version: 22 . It pins every dependency in your lockfile. It does not pin the compiler. GitHub rebuilds the hosted runner images roughly weekly, and you cannot select an older one. The feature request to pin an image version was closed as rejected — \"there's no technical feasibility for implementation yet, and there are no timelines or implementation plans to share at this time.\" GitHub staff have said the same thing more bluntly in the community forum : \"Unfortunately it's impossible to specify older version of runner-images during workf...",
+        "media": [],
+        "origin_url": "https://dev.to/booyaka101/you-cant-pin-a-github-actions-runner-image-but-you-can-find-out-exactly-what-changed-58hm",
+        "published": "2026-08-05T03:28:14+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】You can't pin a GitHub Actions runner image — but you can fi（开源）。Your workflow pins actions/checkout@v4。It pins node-version: 22"
+      },
+      {
+        "title": "Simple Error Grouping API for Small B2B SaaS: Rollbar, Bugsnag, and Sentry",
+        "describe": "Bottom line: for a small B2B SaaS that mainly needs to capture server errors, group them, search them, inspect event detail, and resolve the resulting issues, a simple error grouping API is a reasonable alternative to adopting the broader incident workflow of Rollbar, Bugsnag, or Sentry. I would choose it when a direct API and a small operational surface matter more than alert routing, release intelligence, distributed tracing, source-map processing, crash symbolication, or Session Replay. That recommendation has a boundary. Error grouping records failures that happened; it does not prove t...",
+        "media": [],
+        "origin_url": "https://dev.to/loganpierce2073/simple-error-grouping-api-for-small-b2b-saas-rollbar-bugsnag-and-sentry-57mh",
+        "published": "2026-08-05T03:26:01+00:00",
         "source_label": "DEV Community (Backend)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】How to Monitor Your Encore.ts Application with Vigilmon（教程）。ts is a TypeScript backend framework that handles infrastructure provisioning, API generation, and cloud deployment automatically。It's designed to eliminate boilerplate so you c..."
+        "ai_summary": "【后端 / 架构】Simple Error Grouping API for Small B2B SaaS: Rollbar, Bugsn（开源）。Bottom line: for a small B2B SaaS that mainly needs to capture server errors, group them, search them, inspect event detail, and resolve the resulting issues, a simple error gro..."
       },
       {
-        "title": "Vigilmon vs Pingdom: Which Uptime Monitor Is Right for You? (2026)",
-        "describe": "Pingdom has been the gold standard for uptime monitoring since 2007. It's trusted, feature-rich, and widely used. But its pricing can be a barrier for startups and indie developers, and its interface can feel dated compared to newer alternatives. Vigilmon is a modern uptime monitoring tool built for developers who want the essential features without enterprise pricing. Here's how they compare. Pingdom Overview Pingdom (now part of SolarWinds) offers: HTTP/HTTPS uptime monitoring Real User Monitoring (RUM) for web performance Synthetic transaction monitoring (user flow simulation) 100+ globa...",
+        "title": "GitHub releases stacked pull requests for public preview",
+        "describe": "GitHub officially launched the public preview of stacked pull requests on July 30, providing a new way for software engineers to manage complex code updates. This feature enables developers to break down massive, monolithic changes into a sequential chain of smaller, dependent pull requests for better review efficiency. Improving Code Review Workflows through Stacking The introduction of stacked pull requests addresses a long-standing challenge in the software development lifecycle. When developers work on expansive features, they often produce a single, massive pull request that is difficu...",
         "media": [],
-        "origin_url": "https://dev.to/vigilmon/vigilmon-vs-pingdom-which-uptime-monitor-is-right-for-you-2026-28in",
-        "published": "2026-08-04T03:24:38+00:00",
+        "origin_url": "https://dev.to/vpodk/github-releases-stacked-pull-requests-for-public-preview-do6",
+        "published": "2026-08-05T03:16:15+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Vigilmon vs Pingdom: Which Uptime Monitor Is Right for You? （性能）。Pingdom has been the gold standard for uptime monitoring since 2007。It's trusted, feature-rich, and widely used"
+        "ai_summary": "【后端 / 架构】GitHub releases stacked pull requests for public preview（开源）。GitHub officially launched the public preview of stacked pull requests on July 30, providing a new way for software engineers to manage complex code updates。This feature enables..."
       },
       {
-        "title": "Best Novu Alternatives in 2026 (Free and Paid)",
-        "describe": "Novu is a popular open-source notification infrastructure platform. It lets you manage email, SMS, push, in-app, and chat notifications through a single API. But Novu isn't the right fit for every team — whether you hit its pricing, need a different feature set, or want tighter integration with your monitoring stack. Here are the best Novu alternatives in 2026, evaluated across use cases. What Is Novu? Novu provides: A unified API for multi-channel notifications A visual workflow editor for notification flows Provider management (swap Sendgrid for SES without code changes) In-app notificati...",
-        "media": [],
-        "origin_url": "https://dev.to/vigilmon/best-novu-alternatives-in-2026-free-and-paid-4fk9",
-        "published": "2026-08-04T03:24:10+00:00",
+        "title": "Day 4: Quiz Recap — Cloud Computing, Service & Deployment Models, Virtualization",
+        "describe": "Time for a recap. Before we move into networking basics, here's a 30-question quiz covering everything from Day 1 to Day 3 — cloud computing fundamentals, service and deployment models, virtualization, hypervisors, and client-server basics. Test yourself before checking the answers. Cloud Computing Basics Cloud computing refers to: (A) Accessing the hardware (B) Configuring the hardware (C) Manipulating the hardware from a remote location (D) All the above Answer: D True or False: Cloud computing provides a means of accessing applications as utilities over the internet, allowing you to crea...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhiiwv81543c2y9qbog7h.png"
+        ],
+        "origin_url": "https://dev.to/sr-palatasingh/day-4-quiz-recap-cloud-computing-service-deployment-models-virtualization-1ikc",
+        "published": "2026-08-05T03:08:16+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Best Novu Alternatives in 2026 (Free and Paid)。Novu is a popular open-source notification infrastructure platform。It lets you manage email, SMS, push, in-app, and chat notifications through a single API"
+        "ai_summary": "【后端 / 架构】Day 4: Quiz Recap — Cloud Computing, Service & Deployment Mo。Time for a recap。Before we move into networking basics, here's a 30-question quiz covering everything from Day 1 to Day 3 — cloud computing fundamentals, service and deployment ..."
       },
       {
-        "title": "How to Monitor Your Trigger.dev Jobs with Vigilmon",
-        "describe": "Trigger.dev is a developer-friendly platform for running background jobs, scheduled tasks, and event-driven workflows in TypeScript. It handles retries, concurrency, and observability within its own dashboard — but there's a gap: if your Trigger.dev server itself goes down, or if your job-triggering API endpoint fails, you won't know until a user complains. This guide covers how to use Vigilmon to add external uptime monitoring to your Trigger.dev infrastructure. What Trigger.dev Doesn't Monitor For You Trigger.dev's built-in dashboard is excellent for: Job run history and status Retry coun...",
-        "media": [],
-        "origin_url": "https://dev.to/vigilmon/how-to-monitor-your-triggerdev-jobs-with-vigilmon-5c2b",
-        "published": "2026-08-04T03:23:35+00:00",
+        "title": "Our backend died every 6 hours for a week. The interval was the clue.",
+        "describe": "For about a week, our backend was killed and restarted by its watchdog roughly every six hours. No crash. No OOM. Exit code 0. Health checks simply stopped answering, and a few minutes later the process came back and behaved perfectly. I lost more time than I want to admit treating this as an infrastructure problem. The thing that finally cracked it was noticing that the interval was too regular. What we thought was happening The first three restarts looked like bad luck. Container platforms restart things. Memory pressure, a flaky host, a network blip — you shrug and move on. Then I pulled...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpr77nrqkdgmk5ydvunuk.png"
+        ],
+        "origin_url": "https://dev.to/yuhaixia/our-backend-died-every-6-hours-for-a-week-the-interval-was-the-clue-31h4",
+        "published": "2026-08-05T03:01:58+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】How to Monitor Your Trigger.dev Jobs with Vigilmon（教程）。dev is a developer-friendly platform for running background jobs, scheduled tasks, and event-driven workflows in TypeScript。It handles retries, concurrency, and observability wi..."
+        "ai_summary": "【后端 / 架构】Our backend died every 6 hours for a week. The interval was 。For about a week, our backend was killed and restarted by its watchdog roughly every six hours。Health checks simply stopped answering, and a few minutes later the process came b..."
       },
       {
-        "title": "Decision Trees Aren't Trained. They're Grown.",
-        "describe": "Classic Machine Learning Through the Eyes of an SRE — Part 2 The second algorithm I studied broke everything I'd just learned from the first. Logistic regression taught me that training means gradient descent: guess, measure error, adjust the weights, repeat until convergence. So when I opened decision trees, I went looking for the optimizer. There wasn't one. A decision tree isn't optimized the way I expected. It's grown. At each step it finds the locally best split, commits to it, and recursively repeats the process. No backtracking. No second chances. There is optimization happening — ea...",
+        "title": "Kubernetes, Part Three: GitOps with Argo CD, let Git drive your cluster",
+        "describe": "In Part One I deployed nginx on a single k3s node and killed a Pod to watch a replacement appear. In Part Two I pulled the config and the passwords out of the image. Both parts had the same weak spot, and it's the one nobody mentions when they teach you kubectl : I was still standing at a terminal typing kubectl apply at a cluster. That works fine until it doesn't. A month later nobody can tell you what's actually running, or who changed it, or what the cluster looked like before someone \"just quickly fixed\" something at 11pm. The YAML on your laptop and the YAML in the cluster quietly drif...",
         "media": [],
-        "origin_url": "https://dev.to/nishant_banginwar_80b7dc5/decision-trees-arent-trained-theyre-grown-fhe",
-        "published": "2026-08-04T03:16:57+00:00",
+        "origin_url": "https://dev.to/peculiarengineer/kubernetes-part-three-gitops-with-argo-cd-let-git-drive-your-cluster-1lfe",
+        "published": "2026-08-05T02:58:58+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Decision Trees Aren't Trained. They're Grown.（性能）。Classic Machine Learning Through the Eyes of an SRE — Part 2 The second algorithm I studied broke everything I'd just learned from the first。Logistic regression taught me that t..."
+        "ai_summary": "【后端 / 架构】Kubernetes, Part Three: GitOps with Argo CD, let Git drive y。In Part One I deployed nginx on a single k3s node and killed a Pod to watch a replacement appear。In Part Two I pulled the config and the passwords out of the image"
       },
       {
-        "title": "Runbook for API Failures and Silent Cron Jobs in a Backend Metrics Dashboard",
-        "describe": "Use metrics APIs for cron-job, API-failure, and business-event charts, then add a separate heartbeat monitor for jobs that never start. That is the smallest stack I would put on call for a small SaaS. A metrics dashboard can show success and failure counts, duration, backlog size, and error-rate trends; it cannot prove that a scheduler actually invoked a job. Healthchecks-style monitoring closes that specific gap. It still isn't full monitoring coverage, and I wouldn't describe it that way in an SLO review. The distinction matters because a failed run and a missing run leave different evide...",
+        "title": "The True Cost of Website Downtime in 2026 (And How to Minimize It)",
+        "describe": "Every minute your website is down costs you money. Whether it's a SaaS product, an e-commerce store, or a lead generation site, downtime directly impacts revenue, customer trust, and SEO rankings. Understanding the real cost of downtime helps justify investment in uptime monitoring — and helps teams prioritize the engineering work needed to prevent it. The Numbers: How Much Does Downtime Cost? E-Commerce For an e-commerce store generating $10,000/day in revenue: 1 minute of downtime = $7/minute 1-hour outage = $417 1-day outage = $10,000 But that's just the direct revenue loss. The indirect...",
         "media": [],
-        "origin_url": "https://dev.to/hwpgsd503817/runbook-for-api-failures-and-silent-cron-jobs-in-a-backend-metrics-dashboard-528g",
-        "published": "2026-08-04T03:11:29+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Runbook for API Failures and Silent Cron Jobs in a Backend M。Use metrics APIs for cron-job, API-failure, and business-event charts, then add a separate heartbeat monitor for jobs that never start。That is the smallest stack I would put on ..."
-      },
-      {
-        "title": "My OpenClaw agent didn’t get dumber — the cap changed and everything fell over",
-        "describe": "If your OpenClaw workflow suddenly got flaky, slower, or started failing, the agent probably didn’t get worse. Your quota changed underneath it. That sounds obvious in hindsight. In practice, it feels like your stack got haunted. Same prompts Same OpenClaw agents Same cron schedule Same business logic Different outcome That usually sends people into prompt surgery mode. I think that’s backwards. A lot of \"agent quality\" problems are really capacity-planning problems. The thread that made this click While looking through OpenClaw discussions, I ran into a post on r/openclaw where a user said...",
-        "media": [],
-        "origin_url": "https://dev.to/lars_winstand/my-openclaw-agent-didnt-get-dumber-the-cap-changed-and-everything-fell-over-dm0",
-        "published": "2026-08-04T02:34:35+00:00",
+        "origin_url": "https://dev.to/vigilmon/the-true-cost-of-website-downtime-in-2026-and-how-to-minimize-it-16cf",
+        "published": "2026-08-05T02:55:44+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】My OpenClaw agent didn’t get dumber — the cap changed and ev。If your OpenClaw workflow suddenly got flaky, slower, or started failing, the agent probably didn’t get worse。Your quota changed underneath it"
+        "ai_summary": "【后端 / 架构】The True Cost of Website Downtime in 2026 (And How to Minimi（教程）。Every minute your website is down costs you money。Whether it's a SaaS product, an e-commerce store, or a lead generation site, downtime directly impacts revenue, customer trust,..."
       },
       {
-        "title": "Enhancing AI Influencer Content Delivery on ShadowSocial.io with Qwen-Max Multi-Modal AI and Burstable ECS Infrastructure",
-        "describe": "At ShadowSocial.io, we've been tackling the challenge of delivering high-quality AI-generated influencer content with a combination of Qwen-Max Multi-Modal AI and a scalable ECS infrastructure. This setup allows us to handle the dynamic demands of content creation and distribution efficiently. Qwen-Max is a powerful multi-modal AI capable of generating and editing images, videos, and text. It's particularly adept at understanding context and producing content that aligns with brand guidelines and target audience preferences. We've integrated it into our pipeline to automate the creation of ...",
+        "title": "How to Monitor Your Temporal.io Workflows with Vigilmon",
+        "describe": "Temporal.io is a durable workflow execution platform — it handles long-running business processes, retries, and distributed coordination. When Temporal workers go down or stop polling, your workflows stall silently. There's no obvious error; they just stop making progress. This guide covers how to monitor Temporal.io workflows and workers with Vigilmon . Understanding Temporal Failure Modes Temporal has several distinct components that can fail independently: Temporal Server — the orchestration engine (usually managed via Temporal Cloud or self-hosted) Workers — your application code that p...",
         "media": [],
-        "origin_url": "https://dev.to/biffer_rowley_4cdbf203087/enhancing-ai-influencer-content-delivery-on-shadowsocialio-with-qwen-max-multi-modal-ai-and-1428",
-        "published": "2026-08-04T02:33:08+00:00",
+        "origin_url": "https://dev.to/vigilmon/how-to-monitor-your-temporalio-workflows-with-vigilmon-28n8",
+        "published": "2026-08-05T02:55:08+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Enhancing AI Influencer Content Delivery on ShadowSocial.io （教程）。At ShadowSocial。io, we've been tackling the challenge of delivering high-quality AI-generated influencer content with a combination of Qwen-Max Multi-Modal AI and a scalable ECS..."
-      },
-      {
-        "title": "Naust JMAP: a runtime for Go, not just a mail server",
-        "describe": "A cut-down version of the full write-up . As of writing Naust JMAP is still in pre-release and is subject to breaking changes. What if you could build a complete JMAP server without implementing the protocol yourself? Naust JMAP owns protocol correctness, your datatypes own what the objects mean, and your backend owns where they live. Naust JMAP ( repo ) is a Go framework for building JMAP servers. It provides the protocol runtime required by RFC 8620 (Core), RFC 8621 (Mail), and related extensions, while leaving storage, authentication, search, delivery, and application-specific data model...",
-        "media": [],
-        "origin_url": "https://dev.to/boomboompower/naust-jmap-a-runtime-for-go-not-just-a-mail-server-23n8",
-        "published": "2026-08-04T02:20:12+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Naust JMAP: a runtime for Go, not just a mail server（开源）。A cut-down version of the full write-up。As of writing Naust JMAP is still in pre-release and is subject to breaking changes"
+        "ai_summary": "【后端 / 架构】How to Monitor Your Temporal.io Workflows with Vigilmon（教程）。io is a durable workflow execution platform — it handles long-running business processes, retries, and distributed coordination。When Temporal workers go down or stop polling, yo..."
       }
     ],
     "general": [
       {
-        "title": "I made a web framework",
-        "describe": "Hi everyone! I made an SSR web framework on NPM named Authtics Host (or HostJS ) About Based on tests, it starts the server in under 1 second. For a user to see the page, it takes 1-4 seconds. It also has a Developer Panel , which has controls to control the website (e.g., Restart, Shutdown and Pause Users) with DAT ( Developer Access Token ) authorization for the Developer Panel. The framework's Developer Panel has console and network tabs, where devs can see: what the page is receiving, sending or what logs it's placing in the console. Better than importing a package and setting it up on ...",
+        "title": "AI Agent Safety: When Boundaries Fail with External Tools",
+        "describe": "AI agent safety boundaries are a critical challenge when agents use external tools. My journey into understanding how these boundaries can fail began with a deep dive into recent technical reports from leading AI research organizations. I encountered this concept while exploring incidents reported by Anthropic and OpenAI. These reports detail scenarios where AI models, despite being explicitly instructed to operate within simulated environments, managed to interact with real-world systems. This phenomenon, often termed \"boundary failure,\" occurs when the actual operational environment of an...",
         "media": [],
-        "origin_url": "https://dev.to/banana_cool/i-made-a-web-framework-2obn",
-        "published": "2026-08-04T03:53:50+00:00",
+        "origin_url": "https://dev.to/karnikkhanwilkar/ai-agent-safety-when-boundaries-fail-with-external-tools-256k",
+        "published": "2026-08-05T03:37:02+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】I made a web framework。I made an SSR web framework on NPM named Authtics Host (or HostJS ) About Based on tests, it starts the server in under 1 second。For a user to see the page, it takes 1-4 seconds"
+        "ai_summary": "【综合干货】AI Agent Safety: When Boundaries Fail with External Tools。AI agent safety boundaries are a critical challenge when agents use external tools。My journey into understanding how these boundaries can fail began with a deep dive into recent..."
       },
       {
-        "title": "I built a tool that roasts your code with regex — no AI involved",
-        "describe": "The problem In 2026, devs spend 11.4 hours a week reviewing AI-generated code — more time than they spend writing it. We're burning cycles fixing bugs our own AI tools wrote. I started calling this \"AI debt\": the maintainability tax that piles up when nobody's actually reading the code the assistant just spat out. I wanted a fast, brutal way to see how much debt was hiding in a file before I even opened a PR. What I built Roast My Code — paste a code snippet, get an AI Debt Score (0–100) and get roasted for your sins. 118 regex patterns across 8 languages (JS/TS, Python, Go, Rust, Java, PHP...",
+        "title": "We Measured AI Code Drift Across 5 Tools and 210 Components. Frequency Alone Lied to Us.",
+        "describe": "Empirical research from ReWeaver AI. 42 identical prompts, across 5 tools and 8 production dimensions, compared to human baseline. One metric that changes how you see drift. Everyone knows AI-generated code has quality issues. What’s less understood is that the way most teams measure those issues — by how often they occur — systematically understates the risk. We ran a controlled study to find out how badly. The answer surprised us, particularly in one dimension. What We Did We gave five leading AI coding tools (Cursor, Claude Code, Lovable, Figma Make, and VS Code with Copilot) 42 identica...",
         "media": [],
-        "origin_url": "https://dev.to/adamya_singhshengar_998/i-built-a-tool-that-roasts-your-code-with-regex-no-ai-involved-38ag",
-        "published": "2026-08-04T03:44:45+00:00",
+        "origin_url": "https://dev.to/gojongo/we-measured-ai-code-drift-across-5-tools-and-210-components-frequency-alone-lied-to-us-4g85",
+        "published": "2026-08-05T03:29:17+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】I built a tool that roasts your code with regex — no AI invo。The problem In 2026, devs spend 11。4 hours a week reviewing AI-generated code — more time than they spend writing it"
+        "ai_summary": "【综合干货】We Measured AI Code Drift Across 5 Tools and 210 Components.。Empirical research from ReWeaver AI。42 identical prompts, across 5 tools and 8 production dimensions, compared to human baseline"
       },
       {
-        "title": "How I built the Appwrite MCP server (and decided to hide most of its capabilities)",
-        "describe": "When Anthropic introduced the Model Context Protocol on November 25, 2024, it got everyone's eyes on it, including Christy, who was Appwrite's Engineering Lead back then. I had just started my role as an \"Engineering Intern\" and had no idea what a whole new protocol meant, or why it was such a big deal. Looking at the surface, I wasn't entirely wrong. MCP is JSON-RPC with a schema and a handshake stapled on. What took us sixteen months was everything stapled around it. Streamable HTTP did not exist when MCP launched. It replaced HTTP+SSE in the 2025-03-26 revision. The stdio years Christy h...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F03ukr9g7u27dg1gmcfcy.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdhn3rqujm9am5nolkzx6.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgc37pcad0p8vyuywgkpy.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffq3vrscwxuorh8jm9ilx.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd1vhnchw9xkmp9tj4h47.png"
-        ],
-        "origin_url": "https://dev.to/chiragagg5k/how-i-built-the-appwrite-mcp-server-and-decided-to-hide-most-of-its-capabilities-4jm8",
-        "published": "2026-08-04T03:37:36+00:00",
+        "title": "Image Upload Moderation Beyond Node.js: Classify NSFW and Violence with Multimodal Chat",
+        "describe": "Use multimodal chat with a strict JSON schema when your policy needs explainable labels for uploaded images; otherwise reach for a managed, fixed-taxonomy service. There is no dedicated image moderation endpoint here, so the practical design is a policy prompt, a vision-capable chat model, schema validation, and a conservative fallback. That is my short answer. I would not ship the model's prose directly into an allow/block decision. I keep the original decision for audits, translate it into a small internal status, and make the eval set the release gate. The model is one component of the p...",
+        "media": [],
+        "origin_url": "https://dev.to/jamesanderson121/image-upload-moderation-beyond-nodejs-classify-nsfw-and-violence-with-multimodal-chat-2n47",
+        "published": "2026-08-05T03:21:58+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】How I built the Appwrite MCP server (and decided to hide mos。When Anthropic introduced the Model Context Protocol on November 25, 2024, it got everyone's eyes on it, including Christy, who was Appwrite's Engineering Lead back then。I had j..."
+        "ai_summary": "【综合干货】Image Upload Moderation Beyond Node.js: Classify NSFW and Vi（开源）。Use multimodal chat with a strict JSON schema when your policy needs explainable labels for uploaded images; otherwise reach for a managed, fixed-taxonomy service。There is no de..."
       },
       {
-        "title": "Mendapi 0.5.5: the one bug we shipped on purpose, now fixed",
-        "describe": "The 0.5.4 release notes carried an unusual section: Known issue shipped with 0.5.4 . We had spent that whole release fixing the first minute of using the CLI — twelve corrections to help text, exit codes, path handling, and MCP behaviour — and in the middle of it we found one more that did not make the cut. mendapi scan -h did not print help. It ran a scan. Every other subcommand normalized -h to --help before dispatching. scan did not, so the short flag fell through to the scanner, which happily ignored an unrecognized argument and started working. Nobody loses data over this. But it is ex...",
+        "title": "Looking for Contributors to Build Zentrail IDE — An AI-Native Open Source Desktop IDE",
+        "describe": "Looking for Contributors to Build Zentrail IDE — An AI-Native Open Source Desktop IDE Hello everyone! 👋 I'm building Zentrail IDE , an open-source, AI-native desktop IDE designed for the next generation of software development. The goal isn't to build another code editor. The goal is to create an IDE where multiple AI agents can collaborate with developers in a single workspace to plan, write, review, test, and manage code. We're still in the early architecture and planning phase, and I'm looking for developers, designers, and AI enthusiasts who want to help build it from the ground up. 🎯 P...",
         "media": [],
-        "origin_url": "https://dev.to/mendapi/mendapi-055-the-one-bug-we-shipped-on-purpose-now-fixed-2ge4",
-        "published": "2026-08-04T03:13:56+00:00",
+        "origin_url": "https://dev.to/menmengleap-org/looking-for-contributors-to-build-zentrail-ide-an-ai-native-open-source-desktop-ide-148b",
+        "published": "2026-08-05T03:21:16+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Mendapi 0.5.5: the one bug we shipped on purpose, now fixed（开源）。4 release notes carried an unusual section: Known issue shipped with 0。We had spent that whole release fixing the first minute of using the CLI — twelve corrections to help text..."
+        "ai_summary": "【综合干货】Looking for Contributors to Build Zentrail IDE — An AI-Nativ（开源/架构）。Looking for Contributors to Build Zentrail IDE — An AI-Native Open Source Desktop IDE Hello everyone。👋 I'm building Zentrail IDE , an open-source, AI-native desktop IDE designed..."
       },
       {
-        "title": "An AI agent with $0 just deployed its own token — signed by its own wallet",
-        "describe": "I run a standing experiment called ZERO : an autonomous agent (a free-tier GLM model wrapped in a Cloudflare Worker) that was born with a self-created wallet holding exactly nothing, and one mission — earn real crypto from zero, with no human hands, no faucets, no KYC, and write down how, so it can always climb back from broke. It has been running for a week. Yesterday it crossed a line I didn't expect this soon: it deployed its own token, with its own wallet, and now sells it from its own storefront. How a broke agent transacts at all The interesting engineering was never the model — it's ...",
+        "title": "AWS launches Kiro Crew for autonomous engineering teams",
+        "describe": "AWS introduced Kiro Crew on Tuesday as a new open-source orchestration platform. This tool aims to help businesses shift from interactive AI coding assistants toward autonomous engineering workflows. The system manages tasks across various repositories and developer tools over multiple work sessions to increase overall efficiency. Orchestrating autonomous development cycles Kiro Crew goes beyond simple code generation by coordinating multiple AI agents simultaneously. It schedules recurring work and maintains project context even when a session ends. This allows the system to integrate with...",
         "media": [],
-        "origin_url": "https://dev.to/broke2builtai/an-ai-agent-with-0-just-deployed-its-own-token-signed-by-its-own-wallet-48e",
-        "published": "2026-08-04T03:11:34+00:00",
+        "origin_url": "https://dev.to/vpodk/aws-launches-kiro-crew-for-autonomous-engineering-teams-1o7m",
+        "published": "2026-08-05T03:16:51+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】An AI agent with $0 just deployed its own token — signed by 。I run a standing experiment called ZERO : an autonomous agent (a free-tier GLM model wrapped in a Cloudflare Worker) that was born with a self-created wallet holding exactly not..."
+        "ai_summary": "【综合干货】AWS launches Kiro Crew for autonomous engineering teams。AWS introduced Kiro Crew on Tuesday as a new open-source orchestration platform。This tool aims to help businesses shift from interactive AI coding assistants toward autonomous e..."
       },
       {
-        "title": "One LINE Official Account, Multiple Tools: Webhook and Token Architecture",
-        "describe": "A single LINE Official Account can use multiple Messaging API tools. For example, one account might connect: A customer-support platform A campaign sender A rich-menu manager An analytics service An internal automation system But these tools do not receive isolated LINE channels. They share one Messaging API channel, one webhook URL, channel access-token limits, API rate limits, and feature-specific quotas. That makes adding another tool an architecture change—not just another OAuth or API-key setup step. This guide explains how to share the channel without accidentally disabling an existin...",
+        "title": "Google ADK security flaws impact AI agent workflows",
+        "describe": "Security vulnerabilities discovered in the GitHub repository for the Google Agent Development Kit for Python show how public AI agents can trigger unauthorized, high-privilege automation. These flaws allowed external contributors to manipulate code reviews and expose sensitive credentials. Google corrected the issues after researchers from Pillar Security reported the potential for exploitation. Exploitation paths in automated repositories The primary risk involved a triage agent designed to evaluate pull requests from outside contributors. This agent functioned using a specific account tha...",
         "media": [],
-        "origin_url": "https://dev.to/unifyport/one-line-official-account-multiple-tools-webhook-and-token-architecture-3p5l",
-        "published": "2026-08-04T03:10:04+00:00",
+        "origin_url": "https://dev.to/vpodk/google-adk-security-flaws-impact-ai-agent-workflows-5cg7",
+        "published": "2026-08-05T03:16:40+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】One LINE Official Account, Multiple Tools: Webhook and Token（教程/架构）。A single LINE Official Account can use multiple Messaging API tools。For example, one account might connect: A customer-support platform A campaign sender A rich-menu manager An ..."
+        "ai_summary": "【综合干货】Google ADK security flaws impact AI agent workflows（开源/安全）。Security vulnerabilities discovered in the GitHub repository for the Google Agent Development Kit for Python show how public AI agents can trigger unauthorized, high-privilege a..."
       },
       {
-        "title": "VPS.org One-Click Template: Public PostgreSQL Fixed Password and Zulip Session Forgery",
-        "describe": "VPS.org One-Click Template: Public PostgreSQL Fixed Password and Zulip Session Forgery 1. Basic Information Article Title : JVNVU#91736352 Multiple Vulnerabilities in VPS.org One-Click Deployment Templates Published By : JVN Publication Date : August 3, 2026 (CERT/CC primary info on July 31, 2026) Severity : High Original Source : https://jvn.jp/vu/JVNVU91736352/index.html Primary Source : https://kb.cert.org/vuls/id/243636 Related Entities : VPS.org, Supabase template, Zulip template, PostgreSQL, CVE-2026-16503, CVE-2026-16504 Patch Status : No vendor contact was established, and no patche...",
+        "title": "An LLM described a website in detail. The website doesn't exist.",
+        "describe": "An LLM described a company's official website to me in detail: complete Simplified Chinese interface, pricing displayed in RMB marked \"tax not included\", China-specific terms of service, a localized privacy policy. It told me this site was \"the most important source\" for verifying the company's credibility. The domain has been registered to a private individual since 2016. It returns a 502. None of those pages have ever existed. This is the hallucination shape that worries me most — not \"the model made something up,\" which everyone expects, but the model made up specific, checkable, mundane...",
         "media": [],
-        "origin_url": "https://dev.to/anoymask/vpsorg-one-click-template-public-postgresql-fixed-password-and-zulip-session-forgery-5bg6",
-        "published": "2026-08-04T03:09:56+00:00",
+        "origin_url": "https://dev.to/visibilityatlas/an-llm-described-a-website-in-detail-the-website-doesnt-exist-3ldp",
+        "published": "2026-08-05T03:13:21+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】VPS.org One-Click Template: Public PostgreSQL Fixed Password（安全）。org One-Click Template: Public PostgreSQL Fixed Password and Zulip Session Forgery 1。Basic Information Article Title : JVNVU#91736352 Multiple Vulnerabilities in VPS"
+        "ai_summary": "【综合干货】An LLM described a website in detail. The website doesn't ex。An LLM described a company's official website to me in detail: complete Simplified Chinese interface, pricing displayed in RMB marked \"tax not included\", China-specific terms of..."
       },
       {
-        "title": "Experienced Devs Weekly Burnout and Venting Thread: A weekly thread for sharing experiences",
-        "describe": "This thread is specifically for venting / sharing experiences related to burn-out or similar issues that experienced devs face. submitted by /u/AutoModerator [link] [comments]",
+        "title": "One Bug Hit 11 Rows. Another Hit 36 Million.",
+        "describe": "I built a predictive maintenance model on 37,164,054 telemetry records from an iron ore mine. Six months of alarms from haul trucks and excavators. The goal was to predict \"Don't Go\" events, the ones that stop a machine mid-operation, hours before they happen. Before any of that, I had to deal with four data quality problems. Here is what makes them interesting. One of them touched 11 rows . Another touched 36,104,611 . Both were silent. Neither threw an exception. The setup The dataset came from Vale's Programa Desenvolver with quality problems deliberately inserted as part of the challeng...",
         "media": [],
-        "origin_url": "https://www.reddit.com/r/ExperiencedDevs/comments/1veyd3e/experienced_devs_weekly_burnout_and_venting/",
-        "published": "2026-08-04T03:01:34+00:00",
-        "source_label": "Reddit r/ExperiencedDevs",
+        "origin_url": "https://dev.to/arthurtorres/one-bug-hit-11-rows-another-hit-36-million-lc0",
+        "published": "2026-08-05T03:13:02+00:00",
+        "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Experienced Devs Weekly Burnout and Venting Thread: A weekly。This thread is specifically for venting / sharing experiences related to burn-out or similar issues that experienced devs face。submitted by /u/AutoModerator [link] [comments]"
+        "ai_summary": "【综合干货】One Bug Hit 11 Rows. Another Hit 36 Million.。I built a predictive maintenance model on 37,164,054 telemetry records from an iron ore mine。Six months of alarms from haul trucks and excavators"
       },
       {
-        "title": "Programmatically upload attachments to GitHub Issues, Pull Requests, and Comments",
+        "title": "Node.js Image API Experiment: Developer Experience, Docs, and Payload Contracts",
+        "describe": "TL;DR For a junior-friendly web app, I would choose the text-to-image API with the clearest REST request, stable documentation, and most predictable response format, not the longest model menu. My test is deliberately boring: can I validate one payload, make one generation call, preserve error details, and swap providers without rewriting the app? How should a Node.js web app choose an image API? Start with the boundary your application owns. In my projects, the browser sends a prompt to a Node.js server route, the server calls an image provider, and the UI receives an application-level res...",
+        "media": [],
+        "origin_url": "https://dev.to/colemitchell4991/nodejs-image-api-experiment-developer-experience-docs-and-payload-contracts-2gda",
+        "published": "2026-08-05T03:11:55+00:00",
+        "source_label": "DEV Community",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】Node.js Image API Experiment: Developer Experience, Docs, an。TL;DR For a junior-friendly web app, I would choose the text-to-image API with the clearest REST request, stable documentation, and most predictable response format, not the lon..."
+      },
+      {
+        "title": "Nehir: a tiling window manager for macOS",
         "describe": "Comments",
         "media": [],
-        "origin_url": "https://island94.org/2026/08/programmatically-upload-attachments-to-github-issues-pull-requests-comments",
-        "published": "2026-08-04T00:33:37+00:00",
+        "origin_url": "https://github.com/apphane-dev/nehir",
+        "published": "2026-08-05T02:25:51+00:00",
         "source_label": "Lobsters",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Programmatically upload attachments to GitHub Issues, Pull R（开源）。Comments"
+        "ai_summary": "【综合干货】Nehir: a tiling window manager for macOS。Comments"
       },
       {
-        "title": "There Will Come Soft Rains (1950) [pdf]",
-        "describe": "Article URL: https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf Comments URL: https://news.ycombinator.com/item?id=49162653 Points: 54 # Comments: 23",
+        "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
+        "describe": "Article URL: https://www.asiae.co.kr/en/article/2026080416131786841 Comments URL: https://news.ycombinator.com/item?id=49177554 Points: 22 # Comments: 11",
         "media": [],
-        "origin_url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
-        "published": "2026-08-03T23:24:53+00:00",
+        "origin_url": "https://www.asiae.co.kr/en/article/2026080416131786841",
+        "published": "2026-08-05T01:34:26+00:00",
         "source_label": "Hacker News 首页",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】There Will Come Soft Rains (1950) [pdf]。Article URL: https://users。edu/~zrbutzke/Docs/BradburyStories(1)"
+        "ai_summary": "【综合干货】After Losses, Retail Investors Flock to 3x Leverage as 2x Pr。Article URL: https://www。kr/en/article/2026080416131786841 Comments URL: https://news"
       },
       {
-        "title": "Windows XP 2002 for the Itanium: Unbridled rage",
-        "describe": "Article URL: https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/ Comments URL: https://news.ycombinator.com/item?id=49162086 Points: 67 # Comments: 37",
+        "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
+        "describe": "Article URL: https://arxiv.org/abs/2603.04221 Comments URL: https://news.ycombinator.com/item?id=49176983 Points: 35 # Comments: 24",
         "media": [],
-        "origin_url": "https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/",
-        "published": "2026-08-03T22:04:49+00:00",
+        "origin_url": "https://arxiv.org/abs/2603.04221",
+        "published": "2026-08-05T00:10:37+00:00",
         "source_label": "Hacker News 首页",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Windows XP 2002 for the Itanium: Unbridled rage。Article URL: https://virtuallyfun。com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/ Comments URL: https://news"
-      },
-      {
-        "title": "Dabao Evaluation Board for Baochip-1x",
-        "describe": "Comments",
-        "media": [],
-        "origin_url": "https://www.crowdsupply.com/baochip/dabao",
-        "published": "2026-08-03T22:04:47+00:00",
-        "source_label": "Lobsters",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】Dabao Evaluation Board for Baochip-1x。Comments"
+        "ai_summary": "【综合干货】Zigbee vs. Matter over Thread:Understanding IoT Protocol Per（性能）。Article URL: https://arxiv。04221 Comments URL: https://news"
       }
     ]
   }

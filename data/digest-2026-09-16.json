@@ -1,0 +1,857 @@
+{
+  "ai": [
+    {
+      "title": "AI video aspect ratio lock",
+      "describe": "Aspect ratio lock: Master: 9:16 / 16:9 / 1:1 (pick one) No “crop later” — generate in the delivery ratio Reject if regen flips ratio Pick before generate. Cropping a bad master wastes the whole run. Related: https://dev.to/marcusvale/ai-video-regen-budget-max-3-30e9 Also: https://dev.to/marcusvale/ai-video-on-screen-text-safe-zone-1kp9 Free worksheet: https://scienceartist.gumroad.com/l/free-client-brief-worksheet Kit: https://scienceartist.gumroad.com/l/ai_video_creator_brief_storyboard_kit",
+      "media": [],
+      "origin_url": "https://dev.to/marcusvale/ai-video-aspect-ratio-lock-51o8",
+      "published": "2026-09-16T05:16:44+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】AI video aspect ratio lock。Aspect ratio lock: Master: 9:16 / 16:9 / 1:1 (pick one) No “crop later” — generate in the delivery ratio Reject if regen flips ratio Pick before generate。Cropping a bad master w..."
+    },
+    {
+      "title": "I pointed 108 agents at my own growth strategy. They refuted the two assumptions it stood on.",
+      "describe": "I had a content strategy. It was coherent, it was written down, and about 60% of my planned work depended on two specific claims being true. Then I ran a deep-research pass over it: 108 agents, 25 sources fetched, 124 claims extracted, 25 put through adversarial verification. 13 confirmed. 12 refuted. Among the refuted twelve were the two claims the whole plan rested on. Not edge cases — the premise the content plan was built on, and the tactic I'd allocated the most effort to. This post is about the machinery that produced that result, because the machinery is the transferable part. If you...",
+      "media": [],
+      "origin_url": "https://dev.to/shanni/i-pointed-108-agents-at-my-own-growth-strategy-they-refuted-the-two-assumptions-it-stood-on-g44",
+      "published": "2026-09-16T05:13:45+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】I pointed 108 agents at my own growth strategy. They refuted。I had a content strategy。It was coherent, it was written down, and about 60% of my planned work depended on two specific claims being true"
+    },
+    {
+      "title": "I measured how deterministic LLMs actually are, prompt by prompt. The results broke my hypothesis.",
+      "describe": "A 3D heatmap of 320 model calls, and the four bugs that almost made it lie. Temperature 0 is supposed to mean deterministic. Same prompt in, same bytes out, every time. It's the setting people reach for when they need reproducible output, and it's the setting most of us assume makes an LLM behave like a function. I wanted to know: is that actually true, and if not, which prompts break it? So I built a small experiment. Eight prompts, two models, ten repetitions each — 160 calls per run, 320 total. Then I rendered the whole thing as a 3D heatmap where colour is determinism and height is how ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F15zgxlnj10mks9zpf8c8.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flmctlaue4uxtbgnd0gpr.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwydjq51tl0zzbck1sx99.png"
+      ],
+      "origin_url": "https://dev.to/harishkotra/i-measured-how-deterministic-llms-actually-are-prompt-by-prompt-the-results-broke-my-hypothesis-1p7j",
+      "published": "2026-09-16T05:13:43+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】I measured how deterministic LLMs actually are, prompt by pr。A 3D heatmap of 320 model calls, and the four bugs that almost made it lie。Temperature 0 is supposed to mean deterministic"
+    },
+    {
+      "title": "Data Sovereignty Healthcare: Essential LLM Security",
+      "describe": "Healthcare organizations want the productivity benefits of generative AI without exposing clinical notes, patient identifiers, or diagnostic records to external infrastructure. A data sovereignty healthcare strategy addresses that risk by keeping sensitive information under the organization’s physical, technical, and legal control. With an on-premises LLM architecture, providers can process protected health information locally while maintaining strict governance over prompts, model responses, and audit records. Why Data Sovereignty Healthcare Requires Local AI Data sovereignty is the princi...",
+      "media": [],
+      "origin_url": "https://dev.to/vladimir_lialine_b2e67374/data-sovereignty-healthcare-essential-llm-security-18fc",
+      "published": "2026-09-16T05:12:57+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Data Sovereignty Healthcare: Essential LLM Security（安全/架构）。Healthcare organizations want the productivity benefits of generative AI without exposing clinical notes, patient identifiers, or diagnostic records to external infrastructure。A..."
+    },
+    {
+      "title": "Where AI-Generated Full-Stack Code Silently Rots (and How Templates Cap the Damage)",
+      "describe": "AI-generated code doesn't fail loudly. It fails in the three places nothing exercises: auth boundaries, RLS policies, and webhook event coverage A template's value isn't the code it saves you writing. It's the code that already survived production Prompt for features on top of a debugged foundation, never for the plumbing itself Any diff touching policies/ , webhooks/ , or auth/ gets a human read. Everything else, trust the agent I've shipped a handful of React Native + Supabase apps this year where an agent wrote most of the code. None of them broke on day one. Two of them broke on day for...",
+      "media": [],
+      "origin_url": "https://dev.to/jules_sarah_0718e958f0d24/where-ai-generated-full-stack-code-silently-rots-and-how-templates-cap-the-damage-5fcf",
+      "published": "2026-09-16T05:11:50+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Where AI-Generated Full-Stack Code Silently Rots (and How Te。AI-generated code doesn't fail loudly。It fails in the three places nothing exercises: auth boundaries, RLS policies, and webhook event coverage A template's value isn't the code..."
+    },
+    {
+      "title": "Risks and Benefits of Generative AI in Enterprises",
+      "describe": "If you've shipped an LLM feature this year, you already know the pitch has changed. Nobody is asking \"should we use generative AI\" anymore. They're asking \"why isn't it paying off yet, and who's liable when it breaks.\" The numbers back that shift up. McKinsey's State of AI research found that 65% of organizations now use generative AI in at least one business function, roughly double the adoption rate from just ten months earlier. At the same time, MIT's widely cited GenAI Divide research found that around 95% of custom enterprise generative AI pilots never reach production with measurable ...",
+      "media": [],
+      "origin_url": "https://dev.to/the-tisa/risks-and-benefits-of-generative-ai-in-enterprises-4g44",
+      "published": "2026-09-16T05:10:42+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Risks and Benefits of Generative AI in Enterprises。If you've shipped an LLM feature this year, you already know the pitch has changed。Nobody is asking \"should we use generative AI\" anymore"
+    },
+    {
+      "title": "Architectural Latency: The Hidden Ceiling on Mobile AI Engineering Velocity",
+      "describe": "An engineering breakdown and critical review based on insights originally published by the team at GeekyAnts. As a head developer evaluating AI integration across enterprise software suites, I spend a significant portion of my time auditing development workflows. When web engineering teams adopt autonomous AI coding agents, we often observe rapid velocity gains. However, when those same agentic workflows are deployed to cross-platform mobile repositories like React Native, the throughput often hits a wall. Many executive leaders assume that mobile AI agents underperform because the underlyi...",
+      "media": [],
+      "origin_url": "https://dev.to/vanessadoof/architectural-latency-the-hidden-ceiling-on-mobile-ai-engineering-velocity-866",
+      "published": "2026-09-16T05:09:58+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Architectural Latency: The Hidden Ceiling on Mobile AI Engin。An engineering breakdown and critical review based on insights originally published by the team at GeekyAnts。As a head developer evaluating AI integration across enterprise soft..."
+    },
+    {
+      "title": "Building Indus Personal Agents: self-serve Indic dub / localize / translate / digitize",
+      "describe": "Creators, consultants, and solopreneurs who ship in Indian languages still piece together studios, freelancers, and half-finished tools for dubbing, localization, translation, and document digitization. I'm building Indus Personal Agents — self-serve agents that finish those jobs on token credits (not enterprise seats). Early cohort of ~50. If that sounds useful: Join the waitlist What Indic content job burns the most time for you right now?",
+      "media": [],
+      "origin_url": "https://dev.to/slaygend007/building-indus-personal-agents-self-serve-indic-dub-localize-translate-digitize-khl",
+      "published": "2026-09-16T05:09:40+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Building Indus Personal Agents: self-serve Indic dub / local。Creators, consultants, and solopreneurs who ship in Indian languages still piece together studios, freelancers, and half-finished tools for dubbing, localization, translation, a..."
+    },
+    {
+      "title": "AI video regen budget max 3",
+      "describe": "Bleed stops when the brief says so: Regen budget: - Max 3 attempts per beat - After 3: redesign brief/storyboard, don’t keep rolling credits Write it before you open the model. Related: https://dev.to/marcusvale/ai-video-reject-if-line-3ngo Also: https://dev.to/marcusvale/ai-video-on-screen-text-safe-zone-1kp9 Free worksheet: https://scienceartist.gumroad.com/l/free-client-brief-worksheet Kit: https://scienceartist.gumroad.com/l/ai_video_creator_brief_storyboard_kit",
+      "media": [],
+      "origin_url": "https://dev.to/marcusvale/ai-video-regen-budget-max-3-30e9",
+      "published": "2026-09-16T05:09:08+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】AI video regen budget max 3。Bleed stops when the brief says so: Regen budget: - Max 3 attempts per beat - After 3: redesign brief/storyboard, don’t keep rolling credits Write it before you open the model。R..."
+    },
+    {
+      "title": "AI Funding Due Diligence: Verify Rounds Before Citing",
+      "describe": "AI funding due diligence is a documented check that a financing claim matches evidence published by the parties involved. It keeps announcement dates, transaction details, and a database's own timestamps distinct. TL;DR Start with a precise claim and locate the source that supports it. A company announcement, an investor statement, and a database entry can each describe different parts of a financing event. Keep the round amount separate from valuation, and preserve the source's wording about whether financing is completed, announced, planned, or still being discussed. Missing information s...",
+      "media": [],
+      "origin_url": "https://dev.to/devtoaaron/ai-funding-due-diligence-verify-rounds-before-citing-2a1o",
+      "published": "2026-09-16T05:06:28+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】AI Funding Due Diligence: Verify Rounds Before Citing。AI funding due diligence is a documented check that a financing claim matches evidence published by the parties involved。It keeps announcement dates, transaction details, and a ..."
+    },
+    {
+      "title": "I made Korean government data agent-payable with MCP and x402 — here's what actually happened",
+      "describe": "TL;DR: I built a remote MCP server that lets any AI agent verify Korean businesses using official National Tax Service data — and charge for it per call in USDC via x402. It works end-to-end: here's the first on-chain payment — an agent hit a 402, paid $0.02, and got real government data back, no human in the loop. It's now listed on the x402 Bazaar, Coinbase's discovery catalog for agent-payable APIs, where it currently ranks at the top for \"korean business registration verification\" — agents find it by searching, not by reading docs. Along the way I learned that directory listings get you...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdtu1quii2xerpeqbb9p8.png"
+      ],
+      "origin_url": "https://dev.to/wonderfulian/i-made-korean-government-data-agent-payable-with-mcp-and-x402-heres-what-actually-happened-40e8",
+      "published": "2026-09-16T05:04:40+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】I made Korean government data agent-payable with MCP and x40。TL;DR: I built a remote MCP server that lets any AI agent verify Korean businesses using official National Tax Service data — and charge for it per call in USDC via x402。It work..."
+    },
+    {
+      "title": "Your Synthetic Data Has a Half-Life: Why Generation Without Observability Fails",
+      "describe": "Synthetic data is often treated like a finished asset. Generate it once, validate it once, and keep using it across development, testing, analytics, and machine learning. That approach works until the real system changes. A new customer segment appears. A pricing rule changes. A payment field is added. Fraud behavior shifts. A software release introduces a new database relationship. The synthetic dataset may still pass basic checks, yet no longer represent the conditions the application or model must handle. This is synthetic data drift, and it creates a problem that generation alone cannot...",
+      "media": [],
+      "origin_url": "https://dev.to/jitendra_devabhaktuni_0f1/your-synthetic-data-has-a-half-life-why-generation-without-observability-fails-10p9",
+      "published": "2026-09-16T05:03:38+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Your Synthetic Data Has a Half-Life: Why Generation Without （开源）。Synthetic data is often treated like a finished asset。Generate it once, validate it once, and keep using it across development, testing, analytics, and machine learning"
+    }
+  ],
+  "ios": [
+    {
+      "title": "Every EAS Submit Failure Mode I've Hit in Six Months (and What Catches Each Pre-Submit)",
+      "describe": "eas submit succeeding tells you the upload worked. It tells you nothing about whether the store will accept it Six failures in six months, every one of them green in the terminal and red in App Store Connect or Play Console the next morning Each one cost roughly a calendar day, because store review and processing don't run on your clock All six are catchable before you run submit. The checks are at the bottom I've submitted something like forty builds through EAS this year across a handful of Expo apps. The CLI has failed on me maybe twice. The store has bounced me six different ways, and i...",
+      "media": [],
+      "origin_url": "https://dev.to/lucas_martin_8cb158b9a81b/every-eas-submit-failure-mode-ive-hit-in-six-months-and-what-catches-each-pre-submit-1b3h",
+      "published": "2026-09-16T05:23:13+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Every EAS Submit Failure Mode I've Hit in Six Months (and Wh。eas submit succeeding tells you the upload worked。It tells you nothing about whether the store will accept it Six failures in six months, every one of them green in the terminal..."
+    },
+    {
+      "title": "iOS 27 Just Redefined Swift: 5 Game-Changing Features Every iOS Developer Must Master",
+      "describe": "If you’ve been building iOS applications over the last few years, you are already familiar with the shift toward declarative UI and structured concurrency. But iOS 27 marks a watershed moment for the Apple developer ecosystem. Just as iOS 7 dismantled skeuomorphism and iOS 13 brought SwiftUI into our daily lives, iOS 27 completely rewrites the rules for how Swift interfaces with system hardware, on-device neural engines, and spatial display pipelines. If your team is still writing Swift patterns from 2022, your code isn't just accumulating tech debt— it’s falling behind the platform's core ...",
+      "media": [],
+      "origin_url": "https://dev.to/jibinmathewjose/ios-27-just-redefined-swift-5-game-changing-features-every-ios-developer-must-master-44jn",
+      "published": "2026-09-16T05:23:03+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】iOS 27 Just Redefined Swift: 5 Game-Changing Features Every 。If you’ve been building iOS applications over the last few years, you are already familiar with the shift toward declarative UI and structured concurrency。But iOS 27 marks a wat..."
+    },
+    {
+      "title": "Keep Platform Speech Recognition On-Device on Your First Mobile AI PR",
+      "describe": "You join the mobile AI squad on Tuesday with a Pixel 8a running Android 15 and a debug APK already installed. The dictation screen sits in the foreground with RECORD_AUDIO granted and SpeechRecognizer already listening. Nobody set the on-device recognizer extra, and a teammate still calls the platform API a local feature. You revoke microphone access from Settings, return without force-stopping, and watch for a leftover network socket. That permission transition is the real first hour on this squad, not a demo after standup. You should not polish a stakeholder transcript before the recogniz...",
+      "media": [],
+      "origin_url": "https://dev.to/roronoa_/keep-platform-speech-recognition-on-device-on-your-first-mobile-ai-pr-65g",
+      "published": "2026-09-16T03:31:41+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Keep Platform Speech Recognition On-Device on Your First Mob。You join the mobile AI squad on Tuesday with a Pixel 8a running Android 15 and a debug APK already installed。The dictation screen sits in the foreground with RECORD_AUDIO grante..."
+    },
+    {
+      "title": "I Finally Got a Mac. Here's What It Taught Me About Only Building for One OS.",
+      "describe": "I picked up a Mac recently. Nothing dramatic — no grand migration story, no \"Windows finally broke me\" moment. I just ended up with one, and it made me realize something a little embarrassing: as someone who's shipped a genuinely large number of Chrome extensions, a few desktop tools, and a browser arcade under the DHSeaDev name, I had put almost zero thought into the Apple ecosystem. Not out of dislike. It just never came up. My tools worked, my users were on what they were on, and I kept building. So this is the post where I admit that, and talk about why \"what operating system does this ...",
+      "media": [],
+      "origin_url": "https://dev.to/dhseadev/i-finally-got-a-mac-heres-what-it-taught-me-about-only-building-for-one-os-40hk",
+      "published": "2026-09-16T01:58:20+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】I Finally Got a Mac. Here's What It Taught Me About Only Bui。I picked up a Mac recently。Nothing dramatic — no grand migration story, no \"Windows finally broke me\" moment"
+    },
+    {
+      "title": "iOS 27 ships with Xcode 27 and no dropped iPhones",
+      "describe": "Apple released six platform updates at once on September 14, 2026: iOS 27, iPadOS 27, macOS 27, watchOS 27, visionOS 27 and tvOS 27. Apple's announcement leads on speed and on a redesigned Screen Time. For developers, the more useful headline is what did not happen: no iPhone lost support. MacRumors reports iOS 27 runs on iPhone 11 and newer, the same set iOS 26 supported. A major release that drops nothing is unusual, and it means your minimum deployment target does not have to move this year. What actually shipped Two updates matter to anyone who builds software and are easy to miss in co...",
+      "media": [],
+      "origin_url": "https://dev.to/techaiwire/ios-27-ships-with-xcode-27-and-no-dropped-iphones-14bj",
+      "published": "2026-09-15T19:22:17+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】iOS 27 ships with Xcode 27 and no dropped iPhones（开源）。Apple released six platform updates at once on September 14, 2026: iOS 27, iPadOS 27, macOS 27, watchOS 27, visionOS 27 and tvOS 27。Apple's announcement leads on speed and on a ..."
+    },
+    {
+      "title": "Swift 6.4 ships async defer and makes Swift Build default",
+      "describe": "Swift 6.4 was released on September 15, 2026, one day after Apple shipped Xcode 27 alongside iOS 27 . The Swift.org announcement reads less like a headline feature and more like a long list of things that used to be awkward and now are not. For working developers that is the better kind of release. Two changes carry the most weight. Asynchronous code now works inside defer blocks. And Swift Build, the open-source build engine, is now the default in Swift Package Manager on Linux, macOS and Windows. The language changes A defer block runs cleanup when a function exits, whether it returns or ...",
+      "media": [],
+      "origin_url": "https://dev.to/techaiwire/swift-64-ships-async-defer-and-makes-swift-build-default-1d06",
+      "published": "2026-09-15T19:08:27+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Swift 6.4 ships async defer and makes Swift Build default（开源）。4 was released on September 15, 2026, one day after Apple shipped Xcode 27 alongside iOS 27。org announcement reads less like a headline feature and more like a long list of thin..."
+    },
+    {
+      "title": "Stop hardcoding your staging URL. Your iPhone can handle variables too.",
+      "describe": "Stop hardcoding your staging URL. Your iPhone can handle variables too.",
+      "media": [],
+      "origin_url": "https://dev.to/arvindh_httpbot/stop-hardcoding-your-staging-url-your-iphone-can-handle-variables-too-oi4",
+      "published": "2026-09-15T18:05:24+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Stop hardcoding your staging URL. Your iPhone can handle var。Stop hardcoding your staging URL。Your iPhone can handle variables too"
+    },
+    {
+      "title": "We Stopped Waiting for Platform Changes to Find Us",
+      "describe": "For years, our warning system for Apple and Google changes was a developer whose build failed first. The community gave us excellent reports, but the sequence was backwards. A platform owner announced a deadline, time passed, an application hit the change, and only then did we trace it into the builder. What is Codename One? Codename One is an open-source framework for building native iOS, Android, desktop, and web apps from a single Java or Kotlin codebase. Learn more at codenameone.com . This week we started a daily scheduled Codex task that reads official notices and checks them against ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7chweiz7prh0m57f9jn6.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmermaid.ink%2Fimg%2FZmxvd2NoYXJ0IFRECiAgICBOW09mZmljaWFsIEFwcGxlIG9yIEdvb2dsZSBub3RpY2VdIC0tPiBSW0V4dHJhY3QgcmVxdWlyZW1lbnQ8YnIvPnNjb3BlIGFuZCBkYXRlXQogICAgUiAtLT4gUFtUcmFjZSBDTjEgQVBJPGJyLz5idWlsZGVyIG9yIGdlbmVyYXRlZCB0YXJnZXRdCiAgICBQIC0tPiBEe0FscmVhZHkgaGFuZGxlZD99CiAgICBEIC0tPnxZZXN8IEVbUmVjb3JkIHNvdXJjZSBhbmQgYnVpbGQgZXZpZGVuY2VdCiAgICBEIC0tPnxOb3wgVFtSZXByb2R1Y2Ugb3IgaW5zcGVjdCBhcnRpZmFjdF0KICAgIFQgLS0-IEZbUGF0Y2ggb3IgZm9jdXNlZCBpc3N1ZV0KICAgIEYgLS0-IFZbUnVuIGFmZmVjdGVkIHRlc3RzPGJyLz5hbmQgaW5zcGVjdCBvdXRwdXRd%3Ftype%3Dpng%26bgColor%3Dffffff"
+      ],
+      "origin_url": "https://dev.to/codenameone/we-stopped-waiting-for-platform-changes-to-find-us-4f15",
+      "published": "2026-09-15T17:40:13+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】We Stopped Waiting for Platform Changes to Find Us。For years, our warning system for Apple and Google changes was a developer whose build failed first。The community gave us excellent reports, but the sequence was backwards"
+    },
+    {
+      "title": "Did Apple change the minimum requirements for apps uploaded to App Store Connect?",
+      "describe": "Short answer: Yes. Apple updated the minimum upload requirements for App Store Connect, and as of April 28, 2026, apps must be built with the required newer SDKs before submission. Yes. Apple changed the minimum requirements for apps uploaded to App Store Connect, and the current rule is date specific: as of April 28, 2026, uploaded apps must meet Apple’s newer SDK requirements before they can move through review. Apple’s submission page and its requirements notice both say the change is in force now. The part people get wrong is treating “uploaded” as the same thing as “approved.” It is no...",
+      "media": [],
+      "origin_url": "https://dev.to/devconnect/did-apple-change-the-minimum-requirements-for-apps-uploaded-to-app-store-connect-2ggh",
+      "published": "2026-09-15T16:15:03+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Did Apple change the minimum requirements for apps uploaded 。Short answer: Yes。Apple updated the minimum upload requirements for App Store Connect, and as of April 28, 2026, apps must be built with the required newer SDKs before submission"
+    },
+    {
+      "title": "Ask HN: Lesser known features of macOS/iPadOS/iOS/etc. 27",
+      "describe": "Hi there! I've just upgraded my Mac and iPad OSes to 27 and found some interesting features that I haven't seen listed elsewhere: - Screen mirroring to iPad now accepts touchscreen inputs - iPad menu bar can now be always turned on - The sidebars aren't floating, just like before Tahoe - Decreased window border radius - Increased resize window area Comments URL: https://news.ycombinator.com/item?id=49714644 Points: 13 # Comments: 7",
+      "media": [],
+      "origin_url": "https://news.ycombinator.com/item?id=49714644",
+      "published": "2026-09-15T16:06:01+00:00",
+      "source_label": "Hacker News (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Ask HN: Lesser known features of macOS/iPadOS/iOS/etc. 27。I've just upgraded my Mac and iPad OSes to 27 and found some interesting features that I haven't seen listed elsewhere: - Screen mirroring to iPad now accepts touchscreen inputs..."
+    },
+    {
+      "title": "Swift 6.4 Released",
+      "describe": "Article URL: https://www.swift.org/blog/swift-6.4-released/ Comments URL: https://news.ycombinator.com/item?id=49714239 Points: 122 # Comments: 59",
+      "media": [],
+      "origin_url": "https://www.swift.org/blog/swift-6.4-released/",
+      "published": "2026-09-15T15:40:14+00:00",
+      "source_label": "Hacker News (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Swift 6.4 Released（开源）。Article URL: https://www。org/blog/swift-6"
+    },
+    {
+      "title": "Sendable and Data Race Safety in Swift",
+      "describe": "Concurrency has become an indispensable part of modern application development, especially in Swift and on Apple platforms. With the introduction of Swift's new concurrency model ( async / await , Task , Actor ), writing concurrent code is more accessible than ever. However, with great power comes great responsibility – specifically, the responsibility to prevent data races. Data races are one of the most insidious bugs in concurrent programming. They occur when multiple threads or tasks access the same mutable shared state without proper… Read the full article on Swift By Rahul → Continue ...",
+      "media": [],
+      "origin_url": "https://dev.to/rahul_bandal_afe623cbf2e2/sendable-and-data-race-safety-in-swift-2hjc",
+      "published": "2026-09-15T14:08:55+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Sendable and Data Race Safety in Swift。Concurrency has become an indispensable part of modern application development, especially in Swift and on Apple platforms。With the introduction of Swift's new concurrency model..."
+    }
+  ],
+  "android": [
+    {
+      "title": "Confirmations Should Cite a Grant, Not Restate a Permission",
+      "describe": "A comment on yesterday's post pointed at something I'd been treating as solved when it wasn't. I'd separated two things correctly — confirming an action, and disclosing what the app is allowed to do overall — but I was still planning to build the authority disclosure as a static list. \"Can read calendar.\" \"Can send SMS.\" Read once, forgotten immediately, and disconnected from whatever's happening on the confirmation screen five taps later. The fix suggested was simple to say and harder to actually do: don't restate permission in prose, cite the exact grant an action consumes. What changes R...",
+      "media": [],
+      "origin_url": "https://dev.to/starebrain/confirmations-should-cite-a-grant-not-restate-a-permission-3caj",
+      "published": "2026-09-16T04:37:31+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Confirmations Should Cite a Grant, Not Restate a Permission。A comment on yesterday's post pointed at something I'd been treating as solved when it wasn't。I'd separated two things correctly — confirming an action, and disclosing what the ..."
+    },
+    {
+      "title": "Stumble Guys MOD APK Unlimited Gems Tokens Guide 3wyx72",
+      "describe": "Stumble Guys MOD APK Unlimited Gems Tokens Stumble Guys MOD APK Unlimited Gems Tokens: Technical Review and Installation Guide The battle royale genre continues to evolve, but Stumble Guys MOD APK Unlimited Gems Tokens remains a focal point for players seeking to optimize their in-game economy. While the base game follows the standard free-to-play model with in-app purchases, modified versions circulate within the community to bypass these restrictions. This review examines the technical aspects, security profile, and practical application of the modified build, specifically focusing on the...",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/stumble-guys-mod-apk-unlimited-gems-tokens-guide-3wyx72-4p92",
+      "published": "2026-09-16T03:42:19+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Stumble Guys MOD APK Unlimited Gems Tokens Guide 3wyx72（教程/性能）。Stumble Guys MOD APK Unlimited Gems Tokens Stumble Guys MOD APK Unlimited Gems Tokens: Technical Review and Installation Guide The battle royale genre continues to evolve, but S..."
+    },
+    {
+      "title": "Minecraft Bedrock Edition MOD APK God Mode Guide pwc58x",
+      "describe": "Minecraft Bedrock Edition MOD APK God Mode Minecraft Bedrock Edition MOD APK God Mode — Technical Guide & Overview (2026)Looking for verified, safe packages? Minecraft Bedrock Edition MOD APK God Mode features full premium capabilities with SHA-256 integrity checks and 0/72 VirusTotal clean scans.Visit the canonical download vault: CoolModAPK Official Minecraft Bedrock Edition MOD APK God Mode. 👉 Official Source : Minecraft Bedrock Edition MOD APK God Mode Canonical source: https://coolmodapk.com/minecraft-pocket-edition-mod-apk/",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/minecraft-bedrock-edition-mod-apk-god-mode-guide-pwc58x-4nn3",
+      "published": "2026-09-16T03:40:42+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Minecraft Bedrock Edition MOD APK God Mode Guide pwc58x（教程）。Minecraft Bedrock Edition MOD APK God Mode Minecraft Bedrock Edition MOD APK God Mode — Technical Guide & Overview (2026)Looking for verified, safe packages。Minecraft Bedrock Ed..."
+    },
+    {
+      "title": "Adobe Lightroom Premium MOD APK All Presets Masking Guide v5jlud",
+      "describe": "Adobe Lightroom Premium MOD APK All Presets Masking Adobe Lightroom Premium MOD APK All Presets Masking: Technical Review and Guide For photographers and video creators, the shift from raw file management to advanced post-processing is a critical workflow transition. Adobe Lightroom has long dominated this space, but the subscription model often deters hobbyists and students. The availability of modified versions, specifically the Adobe Lightroom Premium MOD APK All Presets Masking, presents an alternative landscape. This review breaks down the technical implications, security posture, and ...",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/adobe-lightroom-premium-mod-apk-all-presets-masking-guide-v5jlud-7hj",
+      "published": "2026-09-16T03:39:59+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Adobe Lightroom Premium MOD APK All Presets Masking Guide v5（教程/安全）。Adobe Lightroom Premium MOD APK All Presets Masking Adobe Lightroom Premium MOD APK All Presets Masking: Technical Review and Guide For photographers and video creators, the shi..."
+    },
+    {
+      "title": "Spotify Premium MOD APK Extreme Audio Unlocked Guide 17irs2",
+      "describe": "Spotify Premium MOD APK Extreme Audio Unlocked Spotify Premium MOD APK Extreme Audio Unlocked: Technical Review and Guide For audio enthusiasts who find the standard Spotify experience limiting, the modified version of the application offers a distinct set of technical advantages. This specific build, often referred to as the Extreme Audio Unlocked variant, modifies the client-side code to remove artificial restrictions on streaming quality and interface features. It is important to clarify that this is not a \"gameplay\" experience in the traditional sense; rather, it is a media consumption ...",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/spotify-premium-mod-apk-extreme-audio-unlocked-guide-17irs2-4op3",
+      "published": "2026-09-16T03:38:57+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Spotify Premium MOD APK Extreme Audio Unlocked Guide 17irs2（教程）。Spotify Premium MOD APK Extreme Audio Unlocked Spotify Premium MOD APK Extreme Audio Unlocked: Technical Review and Guide For audio enthusiasts who find the standard Spotify exp..."
+    },
+    {
+      "title": "Roblox MOD APK Unlimited Robux Delta Executor Guide 9vrb81",
+      "describe": "Roblox MOD APK Unlimited Robux Delta Executor Roblox MOD APK Unlimited Robux Delta Executor — Technical Guide & Overview (2026)Looking for verified, safe packages? Roblox MOD APK Unlimited Robux Delta Executor features full premium capabilities with SHA-256 integrity checks and 0/72 VirusTotal clean scans.Visit the canonical download vault: CoolModAPK Official Roblox MOD APK Unlimited Robux Delta Executor. 👉 Official Source : Roblox MOD APK Unlimited Robux Delta Executor Canonical source: https://coolmodapk.com/roblox-mod-apk/",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/roblox-mod-apk-unlimited-robux-delta-executor-guide-9vrb81-54d1",
+      "published": "2026-09-16T03:38:25+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Roblox MOD APK Unlimited Robux Delta Executor Guide 9vrb81（教程）。Roblox MOD APK Unlimited Robux Delta Executor Roblox MOD APK Unlimited Robux Delta Executor — Technical Guide & Overview (2026)Looking for verified, safe packages。Roblox MOD APK..."
+    },
+    {
+      "title": "Pokemon GO Promo Codes 2026 PokeCoins 2026 Guide nc6m7h",
+      "describe": "Pokemon GO Promo Codes 2026 PokeCoins Pokemon GO Promo Codes 2026 PokeCoins: A Technical Breakdown The 2026 iteration of Pokemon GO continues to evolve with sophisticated AR mechanics and dynamic event scheduling. For players focused on resource optimization, the availability of legitimate Pokemon GO Promo Codes 2026 PokeCoins remains a critical topic. This guide provides a technical analysis of current distribution methods, security verification, and installation protocols for the latest mobile build. Gameplay and Application Features The 2026 client introduces enhanced server-side validat...",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/pokemon-go-promo-codes-2026-pokecoins-2026-guide-nc6m7h-1pkd",
+      "published": "2026-09-16T03:37:53+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Pokemon GO Promo Codes 2026 PokeCoins 2026 Guide nc6m7h（教程/安全）。Pokemon GO Promo Codes 2026 PokeCoins Pokemon GO Promo Codes 2026 PokeCoins: A Technical Breakdown The 2026 iteration of Pokemon GO continues to evolve with sophisticated AR mec..."
+    },
+    {
+      "title": "Dragon City Redeem Codes 2026 Free Dragons 2026 Guide qgh8t8",
+      "describe": "Dragon City Redeem Codes 2026 Free Dragons Dragon City Redeem Codes 2026 Free Dragons — Technical Guide & Overview (2026)Looking for verified, safe packages? Dragon City Redeem Codes 2026 Free Dragons features full premium capabilities with SHA-256 integrity checks and 0/72 VirusTotal clean scans.Visit the canonical download vault: CoolModAPK Official Dragon City Redeem Codes 2026 Free Dragons. 👉 Official Source : Dragon City Redeem Codes 2026 Free Dragons Canonical source: https://coolmodapk.com/dragon-city-redeem-codes-april/",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/dragon-city-redeem-codes-2026-free-dragons-2026-guide-qgh8t8-37dm",
+      "published": "2026-09-16T03:37:20+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Dragon City Redeem Codes 2026 Free Dragons 2026 Guide qgh8t8（教程）。Dragon City Redeem Codes 2026 Free Dragons Dragon City Redeem Codes 2026 Free Dragons — Technical Guide & Overview (2026)Looking for verified, safe packages。Dragon City Redeem C..."
+    },
+    {
+      "title": "Anime Defenders Codes September 2026 Wish Crystals Guide 9romah",
+      "describe": "Anime Defenders Codes September 2026 Wish Crystals Technical Assessment of Anime Defenders Codes September 2026 Wish Crystals The mobile gaming landscape in 2026 demands precision in resource management, particularly within the idle RPG sector. Anime Defenders has maintained its popularity by evolving its economy, with Wish Crystals serving as the primary currency for gacha pulls and unit upgrades. Players seeking to optimize their progression often look for legitimate code distributions to supplement their income. This review examines the technical integrity, security posture, and operatio...",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/anime-defenders-codes-september-2026-wish-crystals-guide-9romah-34c7",
+      "published": "2026-09-16T03:36:42+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Anime Defenders Codes September 2026 Wish Crystals Guide 9ro（教程/性能）。Anime Defenders Codes September 2026 Wish Crystals Technical Assessment of Anime Defenders Codes September 2026 Wish Crystals The mobile gaming landscape in 2026 demands precisi..."
+    },
+    {
+      "title": "Anime Vanguards Codes September 2026 Free Gems Guide a5vm28",
+      "describe": "Anime Vanguards Codes September 2026 Free Gems Anime Vanguards Codes September 2026 Free Gems — Technical Guide & Overview (2026)Looking for verified, safe packages? Anime Vanguards Codes September 2026 Free Gems features full premium capabilities with SHA-256 integrity checks and 0/72 VirusTotal clean scans.Visit the canonical download vault: CoolModAPK Official Anime Vanguards Codes September 2026 Free Gems. 👉 Official Source : Anime Vanguards Codes September 2026 Free Gems Canonical source: https://coolmodapk.com/anime-vanguards-codes-may/",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/anime-vanguards-codes-september-2026-free-gems-guide-a5vm28-g8g",
+      "published": "2026-09-16T03:36:10+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Anime Vanguards Codes September 2026 Free Gems Guide a5vm28（教程）。Anime Vanguards Codes September 2026 Free Gems Anime Vanguards Codes September 2026 Free Gems — Technical Guide & Overview (2026)Looking for verified, safe packages。Anime Vangua..."
+    },
+    {
+      "title": "Roblox Promo Codes September 2026 Guide xpwnsh",
+      "describe": "Roblox Promo Codes September 2026 Roblox Promo Codes September 2026: A Technical Review and Guide The evolution of the Roblox platform has significantly altered how developers and players interact with in-game economies. By September 2026, the ecosystem has moved beyond simple text-based redemption for a more integrated, API-driven approach to distributing virtual assets. Understanding the technical underpinnings of these promo codes is no longer optional for power users; it is a fundamental part of navigating the modern Roblox infrastructure. This review examines the current state of promo...",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/roblox-promo-codes-september-2026-guide-xpwnsh-4fdf",
+      "published": "2026-09-16T03:35:38+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Roblox Promo Codes September 2026 Guide xpwnsh（教程）。Roblox Promo Codes September 2026 Roblox Promo Codes September 2026: A Technical Review and Guide The evolution of the Roblox platform has significantly altered how developers a..."
+    },
+    {
+      "title": "Honkai Star Rail Redeem Codes September 2026 Guide qvvdi6",
+      "describe": "Honkai Star Rail Redeem Codes September 2026 Technical Analysis and Redemption Guide for Honkai Star Rail Codes As we move through the latter half of 2026, players of Honkai Star Rail continue to rely on promotional redeem codes to secure resources like Stellar Jades, Crystals, and rare character experience materials. Managing these codes effectively is less about luck and more about understanding the underlying mechanics of the game’s economy and the technical safety of the tools used to distribute them. This review focuses on the latest batch of codes effective for September 2026, providi...",
+      "media": [],
+      "origin_url": "https://dev.to/crazy_gamer_e426edf27ede2/honkai-star-rail-redeem-codes-september-2026-guide-qvvdi6-59dn",
+      "published": "2026-09-16T03:33:57+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Honkai Star Rail Redeem Codes September 2026 Guide qvvdi6（教程）。Honkai Star Rail Redeem Codes September 2026 Technical Analysis and Redemption Guide for Honkai Star Rail Codes As we move through the latter half of 2026, players of Honkai Sta..."
+    }
+  ],
+  "frontend": [
+    {
+      "title": "React Frontend Error Tracking Backend Collector: Node.js Checkout Signal Hygiene",
+      "describe": "An edtech checkout is a poor place to collect every browser complaint indiscriminately: a failed payment attempt and a benign extension error may arrive through the same browser hook, while the former needs an auditable release-level trail and the latter needs to disappear. TL;DR: capture window.onerror and unhandledrejection , scrub them before they leave the browser, then group the resulting events by release; choose a full client-observability product when readable stacks or replay are required. The practical constraint is signal quality versus noise. A collector that accepts raw URLs, m...",
+      "media": [],
+      "origin_url": "https://dev.to/remielbarrett8283/react-frontend-error-tracking-backend-collector-nodejs-checkout-signal-hygiene-4bcn",
+      "published": "2026-09-16T04:46:23+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】React Frontend Error Tracking Backend Collector: Node.js Che（开源）。An edtech checkout is a poor place to collect every browser complaint indiscriminately: a failed payment attempt and a benign extension error may arrive through the same browser..."
+    },
+    {
+      "title": "I built a dragon name generator in one HTML file - the trick is hiding meaning in the roots",
+      "describe": "Most name generators spit out syllable soup. When I built dragonnameforge.com (a free dragon name generator, single HTML file, no backend), I wanted every name to carry its own lore. So the whole tool runs on a root system: ign- = fire, glac- = ice, ur- = origin, -rax = wing, -thys = guardian. A generated name like \"Drignarax\" isn't random - the page can tell you it means \"the fire-winged\", plus a one-line legend: born beneath a bleeding comet, hoarding melted crowns in a caldera. Tech side is deliberately boring: one index.html, inline CSS/JS, around 120 root combinations per lineage, mobi...",
+      "media": [],
+      "origin_url": "https://dev.to/monster0915/i-built-a-dragon-name-generator-in-one-html-file-the-trick-is-hiding-meaning-in-the-roots-1jo",
+      "published": "2026-09-16T04:39:52+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】I built a dragon name generator in one HTML file - the trick。Most name generators spit out syllable soup。When I built dragonnameforge"
+    },
+    {
+      "title": "What Is a Framework? JavaScript Frameworks Explained Simply",
+      "describe": "If you have spent even a week learning web development, you have probably run into a sentence like this: \"You should learn a framework before you apply for jobs.\" Nobody stops to explain what that word actually means. You just nod, open YouTube, and start following a React tutorial without really knowing why you are doing it. This article fixes that gap. By the end, you will know exactly what is a JavaScript framework , how it is different from a library, why almost every production website relies on one, and which framework makes sense for you as a beginner in 2026. Before we go further, l...",
+      "media": [],
+      "origin_url": "https://dev.to/techgeekdivya/what-is-a-framework-javascript-frameworks-explained-simply-5e1",
+      "published": "2026-09-16T04:32:40+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】What Is a Framework? JavaScript Frameworks Explained Simply（教程）。If you have spent even a week learning web development, you have probably run into a sentence like this: \"You should learn a framework before you apply for jobs。\" Nobody stops t..."
+    },
+    {
+      "title": "The Agent That Shared a Rate Limit Across Tenants: A Take-Home Packet",
+      "describe": "Interview loops keep accepting agent-drafted rate limiters that pass a happy-path fixture and then leak quota across customers. The failure is not missing Redis knowledge but treating a process-local counter as a finished multi-tenant contract. This packet gives reviewers a prompt, a rubric, a compact reference module, and graded failure modes. Hidden tests stay off the candidate gist so memorized fixtures cannot launder a global process counter. Why this task still sorts candidates Public coding tests for HTTP 429 handling are now widely memorized by coding models used in interviews. A can...",
+      "media": [],
+      "origin_url": "https://dev.to/appjs_3979/the-agent-that-shared-a-rate-limit-across-tenants-a-take-home-packet-32n1",
+      "published": "2026-09-16T04:32:32+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】The Agent That Shared a Rate Limit Across Tenants: A Take-Ho。Interview loops keep accepting agent-drafted rate limiters that pass a happy-path fixture and then leak quota across customers。The failure is not missing Redis knowledge but tre..."
+    },
+    {
+      "title": "I put my own \"no-upload\" tools on a network monitor. Here's what actually left the browser.",
+      "describe": "\"Runs in your browser, nothing uploaded\" is the easiest claim in web tooling to make -- and one of the easiest to fake. A tool can pretty-print your JSON locally and quietly POST it to a server for \"analytics.\" The only way to know is to watch the network. So I did that to my own tools. I opened 15 of them across nine categories with the browser's network panel recording every request, and wrote down exactly where each one went. This is the method and the result -- and, more usefully, a snippet you can paste to check any tool yourself. The method (repeat it on anything) Every browser keeps ...",
+      "media": [],
+      "origin_url": "https://dev.to/lucian_lkb_1f009d/i-put-my-own-no-upload-tools-on-a-network-monitor-heres-what-actually-left-the-browser-7ia",
+      "published": "2026-09-16T04:29:05+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】I put my own \"no-upload\" tools on a network monitor. Here's 。\"Runs in your browser, nothing uploaded\" is the easiest claim in web tooling to make -- and one of the easiest to fake。A tool can pretty-print your JSON locally and quietly POST..."
+    },
+    {
+      "title": "S3-compatible is a promise with an asterisk",
+      "describe": "Amazon's S3 won so completely that its API became a standard. Now half the object-storage providers on the market advertise the same two words: S3-compatible . Point your existing AWS SDK at their endpoint, change a few environment variables, and your code can't tell the difference. That's mostly true, and it's genuinely great — it's why moving between storage providers is a config change instead of a rewrite. I wrote about that side of it when I moved StoryKept to a $19/month box : the storage swap really was \"same SDK, different endpoint.\" But \"compatible\" is a claim about the API verbs ,...",
+      "media": [],
+      "origin_url": "https://dev.to/pgardunoc/s3-compatible-is-a-promise-with-an-asterisk-jc7",
+      "published": "2026-09-16T04:20:39+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】S3-compatible is a promise with an asterisk。Amazon's S3 won so completely that its API became a standard。Now half the object-storage providers on the market advertise the same two words: S3-compatible"
+    },
+    {
+      "title": "Ask for a Real No in the First Fifteen Minutes",
+      "describe": "The first fifteen minutes of an AI coding session are a bad scoreboard, because they reward a demo and hide the room. I no longer ask whether a sample file compiled, because that question never inspects the working directory or the test runner. I ask whether the agent produced a real no I can replay on the same tree, with a path I recognize. Why do we treat a green check like proof of the whole stack, when it usually means the sample file was polite? Picture a hotel desk that stamps your keycard before the room number exists on any map. That is the developer experience of most agent onboard...",
+      "media": [],
+      "origin_url": "https://dev.to/codejs_1959/ask-for-a-real-no-in-the-first-fifteen-minutes-36jk",
+      "published": "2026-09-16T04:08:36+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Ask for a Real No in the First Fifteen Minutes。The first fifteen minutes of an AI coding session are a bad scoreboard, because they reward a demo and hide the room。I no longer ask whether a sample file compiled, because that..."
+    },
+    {
+      "title": "How I built 15 browser tools with zero backend",
+      "describe": "Every \"free online tool\" I reached for wanted an upload, an account, or both. So I built 15 that need neither — and the constraint that made that possible turned out to be the best decision in the project: no backend at all. Here's what runs where. The browser can do more than we give it credit for Image work (HEIC→JPG, compress, resize, strip EXIF): <canvas> + createImageBitmap , and WASM ( heic2any ) for formats the browser can't decode natively. PDF split/merge: pdf-lib , entirely client-side. QR codes, password generation, JSON formatting, word counting: plain JS + crypto.getRandomValue...",
+      "media": [],
+      "origin_url": "https://dev.to/chilam_chan_68a518a731328/how-i-built-15-browser-tools-with-zero-backend-4ffi",
+      "published": "2026-09-16T04:06:18+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】How I built 15 browser tools with zero backend。Every \"free online tool\" I reached for wanted an upload, an account, or both。So I built 15 that need neither — and the constraint that made that possible turned out to be the be..."
+    },
+    {
+      "title": "AWS Cloud Workshop – Session 2 ☁️",
+      "describe": "The second half of the AWS Cloud Workshop was a hands-on session where I explored three important AWS services — IAM, Amazon CloudFront, and AWS Lambda. 🔐 IAM – Identity and Access Management The first task I worked on was creating an IAM user in AWS. I created the user, configured the required permissions, and logged in using the IAM user credentials to verify the access. This helped me understand how AWS IAM can be used to manage users and control access to AWS resources. 🌐 Amazon CloudFront Next, I explored Amazon CloudFront, AWS's content delivery network (CDN). I learned how CloudFront...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhj3z980v9ue4z6z1etdy.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fz1ape469vztfnhsemb48.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fskarwgvnsuzvzgxf8ps4.png"
+      ],
+      "origin_url": "https://dev.to/adhiya_r_002cf5cfd90c17b7/aws-cloud-workshop-session-2-17a",
+      "published": "2026-09-16T04:04:03+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】AWS Cloud Workshop – Session 2 ☁️。The second half of the AWS Cloud Workshop was a hands-on session where I explored three important AWS services — IAM, Amazon CloudFront, and AWS Lambda。🔐 IAM – Identity and Acce..."
+    },
+    {
+      "title": "If the Tool Isn't on the Card, It's a Zero: A Bootcamp Lab on Agent Allowlists",
+      "describe": "Stop grading the chat. Grade the tools the agent was allowed to touch. If a student agent can shell out, hit the network, or install packages that were never on the assignment card, I do not care how pretty the final function looks. That is not a lab. That is a jailbreak with extra steps. Why this lab exists A lot of the current “AI already codes better than us” noise skips the classroom problem. Models can write a reducer. They can also curl | bash while they are at it. You want engineering? Then you want a capability card. Write-set contracts catch files. Halt contracts catch infinite loo...",
+      "media": [],
+      "origin_url": "https://dev.to/hackjs_7468/if-the-tool-isnt-on-the-card-its-a-zero-a-bootcamp-lab-on-agent-allowlists-3c2i",
+      "published": "2026-09-16T04:03:10+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】If the Tool Isn't on the Card, It's a Zero: A Bootcamp Lab o。Stop grading the chat。Grade the tools the agent was allowed to touch"
+    },
+    {
+      "title": "Building Scalable Web & Mobile Solutions: The Software Engineering Landscape in Egypt",
+      "describe": "The digital transformation landscape in Egypt and the MENA region is experiencing rapid evolution. Modern enterprises and startups are increasingly moving away from legacy monolithic systems and slow template-based builders towards performant, tailored architectures. The Modern Tech Stack for Emerging Markets At DoGether Tech , we focus on building robust digital solutions that balance high performance with realistic business operational constraints: Frontend & Web Applications: Leveraging Next.js and React with server-side rendering (SSR) and edge delivery to ensure fast First Contentful P...",
+      "media": [],
+      "origin_url": "https://dev.to/raafatashraf/building-scalable-web-mobile-solutions-the-software-engineering-landscape-in-egypt-524k",
+      "published": "2026-09-16T04:01:02+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Building Scalable Web & Mobile Solutions: The Software Engin（性能/架构）。The digital transformation landscape in Egypt and the MENA region is experiencing rapid evolution。Modern enterprises and startups are increasingly moving away from legacy monoli..."
+    },
+    {
+      "title": "Made-to-Measure Doors for Period Properties: Heritage Style Without the Compromise",
+      "describe": "The objective of good period joinery is not necessarily to make a new door look artificially old. It is to create something that respects the character of the building while providing the precision expected from modern manufacturing. Heritage Appearance Meets Modern Precision Restoring a period property doesn't mean sacrificing practicality. A made-to-measure door can combine traditional design with accurate dimensions, carefully selected timber, and contemporary manufacturing standards. This is particularly useful when renovating older buildings where preserving architectural character is ...",
+      "media": [],
+      "origin_url": "https://dev.to/davitparkltd/made-to-measure-doors-for-period-properties-heritage-style-without-the-compromise-3c62",
+      "published": "2026-09-16T03:54:14+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Made-to-Measure Doors for Period Properties: Heritage Style 。The objective of good period joinery is not necessarily to make a new door look artificially old。It is to create something that respects the character of the building while prov..."
+    }
+  ],
+  "backend": [
+    {
+      "title": "The LLM Knowledge-Reasoning Tradeoff: Why 2026's Best Models Are Deliberately Fact-Minimized — And Faster Than Ever",
+      "describe": "Table of Contents The Model That Spent 21 Minutes Drawing a Circle The LLM Knowledge-Reasoning Tradeoff: The Physics Behind It Why Reasoning Compresses Better Than Facts The Hallucination Paradox: World-Class Reasoning, High Factual Error Rates Qwen 3.8 27B: A Case Study in the LLM Knowledge-Reasoning Tradeoff Multi-Token Prediction (MTP): Unlocking ~72% Throughput Gains The \"Harness Carries the Knowledge\" Architecture Pattern Reasoning Effort Control: The Goldilocks Problem Production Implementation Guide Future Outlook: The Endgame Architecture Conclusion --- The Model That Spent 21 Minut...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fz1ho849rka641d15kh3x.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fegzxvx5vtyq3ohmsbb07.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4wqxs857zhhxo8fwuiwk.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvt6iz5iurtdyxhzh59d9.png"
+      ],
+      "origin_url": "https://dev.to/monuminu/the-llm-knowledge-reasoning-tradeoff-why-2026s-best-models-are-deliberately-fact-minimized-and-2bdn",
+      "published": "2026-09-16T05:23:59+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】The LLM Knowledge-Reasoning Tradeoff: Why 2026's Best Models（教程/架构）。Table of Contents The Model That Spent 21 Minutes Drawing a Circle The LLM Knowledge-Reasoning Tradeoff: The Physics Behind It Why Reasoning Compresses Better Than Facts The Hal..."
+    },
+    {
+      "title": "Timeboxes on Engineering Indexability Fixes: Closing the Loop Without Waiting Forever",
+      "describe": "Engineering tickets that block an indexing queue can sit open for weeks if nobody puts a clock on them. Ops waits. Credits idle. Clients hear “still with engineering” with no end date. A timebox is the missing process control: a named deadline on the fix ticket, plus a pre-agreed action when that deadline passes—without pretending Google will index anything on schedule. This piece is about closing the loop on indexability fixes . It does not redefine Hold lanes, owner assignment, escalation ladders, or return-path handoffs. Those stay elsewhere. Here we only answer: how long does the fix st...",
+      "media": [],
+      "origin_url": "https://dev.to/rapidindexer/timeboxes-on-engineering-indexability-fixes-closing-the-loop-without-waiting-forever-5hel",
+      "published": "2026-09-16T05:16:31+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Timeboxes on Engineering Indexability Fixes: Closing the Loo。Engineering tickets that block an indexing queue can sit open for weeks if nobody puts a clock on them。Clients hear “still with engineering” with no end date"
+    },
+    {
+      "title": "ACH Return Codes Explained: Handling R01–R85 in Production Payout Systems",
+      "describe": "ACH Return Codes Explained: Handling R01–R85 in Production Payout Systems When a payout fails, the reason matters. ACH returns come back with standardized codes defined by Nacha (the National Automated Clearing House Association), and understanding them is critical for building reliable payment systems. This guide covers the most common return codes, what triggers them, and how to handle each one programmatically. Why ACH Return Codes Matter ACH is still the backbone of B2B and gig-economy payouts in the US. Unlike card networks, ACH doesn't settle instantly—batches clear overnight, and ret...",
+      "media": [],
+      "origin_url": "https://dev.to/payout_rail/ach-return-codes-explained-handling-r01-r85-in-production-payout-systems-36g5",
+      "published": "2026-09-16T05:13:51+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】ACH Return Codes Explained: Handling R01–R85 in Production P（教程）。ACH Return Codes Explained: Handling R01–R85 in Production Payout Systems When a payout fails, the reason matters。ACH returns come back with standardized codes defined by Nacha ..."
+    },
+    {
+      "title": "Escalation Ladders for Stuck Indexing Batches: When Ops Hands Off to Engineering",
+      "describe": "Agencies burn weeks when a stuck indexing batch stays on the ops desk after the process work is already done. The Hold lane is for controllable readiness gaps. The escalation ladder is for the moment that gap becomes an engineering ticket—not another VIP flip, not another hopeful resubmit. This piece is only about that handoff: when to escalate, what the packet must contain, how to set severity without promising Google outcomes, timeboxes, the return path into Standard or VIP, and stop rules. It does not redefine audit logs, change-control roles, Hold-lane entry, or owner-field schemas cove...",
+      "media": [],
+      "origin_url": "https://dev.to/rapidindexer/escalation-ladders-for-stuck-indexing-batches-when-ops-hands-off-to-engineering-5a31",
+      "published": "2026-09-16T05:13:01+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Escalation Ladders for Stuck Indexing Batches: When Ops Hand（教程）。Agencies burn weeks when a stuck indexing batch stays on the ops desk after the process work is already done。The Hold lane is for controllable readiness gaps"
+    },
+    {
+      "title": "How to Secure Ordered State Changes in Realtime Concert Livestream Chat",
+      "describe": "Short answer: use a channel protocol that assigns a stable sequence to every state change, issue short-lived credentials, and make reconnect recovery an explicit, testable path. For a concert livestream chat, that means a poll close, moderation action, or membership change must be applied in order at fan-out, while authentication, subscription state, and business events remain observable as separate streams. The least complex design that meets that bar is a single ordered event log per chat channel, with clients acknowledging the last contiguous sequence they applied. Security controls sit ...",
+      "media": [],
+      "origin_url": "https://dev.to/zebedeeholloway9023/how-to-secure-ordered-state-changes-in-realtime-concert-livestream-chat-24n9",
+      "published": "2026-09-16T04:58:54+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】How to Secure Ordered State Changes in Realtime Concert Live（教程/安全）。Short answer: use a channel protocol that assigns a stable sequence to every state change, issue short-lived credentials, and make reconnect recovery an explicit, testable path。..."
+    },
+    {
+      "title": "Node.js Duplicate Event Suppression with Presence Reconciliation (Incident Dashboards)",
+      "describe": "Short answer: choose a realtime API whose reconnect behavior lets the incident response dashboard reconcile stable event identifiers, then suppress duplicates in the consumer rather than treating transport delivery as exactly once. For a gaming chat room embedded in that dashboard, presence accuracy is the deciding constraint. A duplicate incident.acknowledged event is annoying; a reconnect that leaves two sessions for one operator can make the room show the wrong responders and can corrupt later authorization decisions. The architecture therefore has to treat reconnects, expiry, duplicate ...",
+      "media": [],
+      "origin_url": "https://dev.to/grahamprice3746/nodejs-duplicate-event-suppression-with-presence-reconciliation-incident-dashboards-4ng6",
+      "published": "2026-09-16T04:53:57+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Node.js Duplicate Event Suppression with Presence Reconcilia（架构）。Short answer: choose a realtime API whose reconnect behavior lets the incident response dashboard reconcile stable event identifiers, then suppress duplicates in the consumer ra..."
+    },
+    {
+      "title": "An LLM Is Not Your Backend — Here's What I Learned",
+      "describe": "When I first started working with AI, I used to think of an LLM as something like a super-smart backend. You give it some input, it understands it, processes it, and gives you an answer. So naturally, I started thinking, \"Why do I need so much backend logic? Can't I just tell the LLM what my application does and let it handle everything?\" Turns out, no. And understanding why completely changed the way I think about building AI applications. So, What Even Is an LLM? LLM stands for Large Language Model. In simple terms, an LLM is a system trained on huge amounts of text that learns patterns i...",
+      "media": [],
+      "origin_url": "https://dev.to/agrima-06/an-llm-is-not-your-backend-heres-what-i-learned-3p0f",
+      "published": "2026-09-16T04:53:23+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】An LLM Is Not Your Backend — Here's What I Learned。When I first started working with AI, I used to think of an LLM as something like a super-smart backend。You give it some input, it understands it, processes it, and gives you an..."
+    },
+    {
+      "title": "DNS Zone Migration Controls for Enumerating, Diffing, Applying, and Verifying Records",
+      "describe": "Moving a fintech company's mail domain is a change-management problem, not a nameserver flip. Keep the old zone live, enumerate every record, diff it against the intended set, apply only the differences, and verify the outcomes before cutover. Store the original enumeration as rollback material. Changing nameservers first reverses that order and can silently lose a forgotten MX, TXT, or verification record. Which ownership model fits your migration? Choice Pick this when Main trade-off Customer-owned zone The registrar or customer must retain authority and audit control Your migration worke...",
+      "media": [],
+      "origin_url": "https://dev.to/hieronymusfox1257/dns-zone-migration-controls-for-enumerating-diffing-applying-and-verifying-records-4j04",
+      "published": "2026-09-16T04:44:53+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】DNS Zone Migration Controls for Enumerating, Diffing, Applyi。Moving a fintech company's mail domain is a change-management problem, not a nameserver flip。Keep the old zone live, enumerate every record, diff it against the intended set, ap..."
+    },
+    {
+      "title": "How Much Can Blockchain Professionals Earn in 2026?",
+      "describe": "Blockchain has become an important technology for organizations working with digital assets, decentralized applications, smart contracts, Web3, and financial innovation. As adoption continues across industries, professionals with blockchain expertise can explore career opportunities in development, security, consulting, product management, compliance, and other areas. But how much can blockchain professionals earn in 2026? Blockchain Salaries Depend on Several Factors There is no single salary range for blockchain professionals. Earnings can vary significantly based on job role, experience,...",
+      "media": [],
+      "origin_url": "https://dev.to/georgiaweston/how-much-can-blockchain-professionals-earn-in-2026-41i2",
+      "published": "2026-09-16T04:43:12+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】How Much Can Blockchain Professionals Earn in 2026?（安全）。Blockchain has become an important technology for organizations working with digital assets, decentralized applications, smart contracts, Web3, and financial innovation。As adopt..."
+    },
+    {
+      "title": "Park Agent Shifts With a Wiki Handoff Card",
+      "describe": "Free agent compute fails at the shift change, not the prompt. A team loses hours when one engineer leaves a half-run loop. The next person inherits a dirty desk and no owner. Shared free models make that failure cheaper and more frequent. Few people close a run with a clean freeze. The missing artifact is a one-page wiki handoff card. This playbook treats agent coding as a staffed shift. It names roles, freeze rules, and a paste-ready run. The method stays useful without any particular vendor. Why shift change eats the work Agent sessions look private on a laptop screen. They are not privat...",
+      "media": [],
+      "origin_url": "https://dev.to/techlab_7968/park-agent-shifts-with-a-wiki-handoff-card-16c7",
+      "published": "2026-09-16T04:42:37+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Park Agent Shifts With a Wiki Handoff Card。Free agent compute fails at the shift change, not the prompt。A team loses hours when one engineer leaves a half-run loop"
+    },
+    {
+      "title": "Cron vs Queue for Simple Scheduled Data Cleanup of Old SaaS Records",
+      "describe": "A cleanup job that can outrun its scheduler's execution window is already a recovery problem, not merely a scheduling problem. For a customer-support SaaS, that distinction matters when shipment-update delivery records, expired deduplication keys, and temporary fan-out state accumulate while subscribers keep receiving new events. Short answer: use cron for a short, repeatable cleanup of old records; use cron to enqueue bounded batches when a run can exceed 900 seconds, needs retries, or must recover without starting over. My decision is intentionally narrow. Infrai is a strong option when a...",
+      "media": [],
+      "origin_url": "https://dev.to/magnusnilsson2124/cron-vs-queue-for-simple-scheduled-data-cleanup-of-old-saas-records-248b",
+      "published": "2026-09-16T04:39:27+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Cron vs Queue for Simple Scheduled Data Cleanup of Old SaaS 。A cleanup job that can outrun its scheduler's execution window is already a recovery problem, not merely a scheduling problem。For a customer-support SaaS, that distinction matte..."
+    },
+    {
+      "title": "Separate DNS Zone vs Subdomain — Non-Production Write Boundary Trade-Offs",
+      "describe": "TL;DR: give staging a separate DNS zone when its automation must be technically unable to write production records; keep a staging subdomain in one shared zone only when the same small owner can maintain an explicit suffix guard. For a property-management product that verifies tenant custom domains, this is a governance decision about the credibility of deliverability evidence, not a naming preference. I start an incident review by asking who held the credential, because a DNS provider can validate a record's syntax but cannot recover the deployment's intended environment. A 15-second clien...",
+      "media": [],
+      "origin_url": "https://dev.to/thomasmoore5082/separate-dns-zone-vs-subdomain-non-production-write-boundary-trade-offs-210j",
+      "published": "2026-09-16T04:36:57+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Separate DNS Zone vs Subdomain — Non-Production Write Bounda。TL;DR: give staging a separate DNS zone when its automation must be technically unable to write production records; keep a staging subdomain in one shared zone only when the sam..."
+    }
+  ],
+  "general": [
+    {
+      "title": "Speculative Decoding in 2026: From EAGLE to DFlash to XPress — The Complete Engineer's Playbook",
+      "describe": "Speculative Decoding in 2026: From EAGLE to DFlash to XPress — The Complete Engineer's Playbook September 3, 2026 · 18 min read · Deep Technical Table of Contents The Inference Bottleneck That Wouldn't Die Speculative Decoding: A 60-Second Recap for Engineers The Architecture Evolution: EAGLE-3 → DFlash → XPress NVIDIA's 5 Production Guidelines for SD Co-Design SPEED-Bench: Why Every Previous SD Benchmark Was Wrong SGLang Spec V2: The Overlap Scheduler Deep Dive Native MTP Co-Training vs. Post-Trained Draft Heads AceSpec: Edge-Cloud SD Over 50 Kbps WAN Production Gotchas: Acceptance Rate Pa...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flvxtwe939fvc9xbv95s6.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdamecdoj4x6knla0ef1b.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq8lnrhj0r0q3qntv479l.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdrhqczn1nc3svbrvdyxo.png"
+      ],
+      "origin_url": "https://dev.to/monuminu/speculative-decoding-in-2026-from-eagle-to-dflash-to-xpress-the-complete-engineers-playbook-3ald",
+      "published": "2026-09-16T05:24:44+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Speculative Decoding in 2026: From EAGLE to DFlash to XPress（教程/性能）。Speculative Decoding in 2026: From EAGLE to DFlash to XPress — The Complete Engineer's Playbook September 3, 2026 · 18 min read · Deep Technical Table of Contents The Inference ..."
+    },
+    {
+      "title": "AI Agent Containment After the Great Sandbox Escapes of 2026: What GPT-5.6 Sol, Claude, and Rogue Agents Teach Developers",
+      "describe": "AI Agent Containment After the Great Sandbox Escapes of 2026: What GPT-5.6 Sol, Claude, and Rogue Agents Teach Developers Table of Contents Introduction The 2026 Incident Timeline Incident Deep Dive: GPT-5.6 Sol Incident Deep Dive: Astra and the Critical Preparedness Threshold Incident Deep Dive: Anthropic Claude Models Harness Failure vs Alignment Failure Why Agents Escape: Instrumental Convergence, Capability Chaining, and Goal Drift New Research: COMA Attacks, RAG Security Failure, and CABLE Memory How to Build Secure Agentic Systems: AI Agent Containment Architecture Monitoring, Governa...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fiby0q34evhkk4fx1kq88.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcaftajhvgtr2mu79qa56.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft1flbdf61z0slx4pxt26.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmc4amc2bpm8ravafafhi.png"
+      ],
+      "origin_url": "https://dev.to/monuminu/ai-agent-containment-after-the-great-sandbox-escapes-of-2026-what-gpt-56-sol-claude-and-rogue-4oll",
+      "published": "2026-09-16T05:24:31+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】AI Agent Containment After the Great Sandbox Escapes of 2026（教程/安全）。AI Agent Containment After the Great Sandbox Escapes of 2026: What GPT-5。6 Sol, Claude, and Rogue Agents Teach Developers Table of Contents Introduction The 2026 Incident Timeli..."
+    },
+    {
+      "title": "Qwen 3.8 27B: The Frontier LLM That Fits on Your Laptop — Architecture, Reasoning Control & Agentic Integration",
+      "describe": "Qwen 3.8 27B: The Frontier LLM That Fits on Your Laptop — Architecture, Reasoning Control & Agentic Integration Published August 18, 2026 · 18 min read Table of Contents The Benchmark Moment Nobody Saw Coming How Good Is It, Really? The Numbers Architecture Deep Dive: Gated DeltaNet Hybrid Attention 3.1 What Is Gated DeltaNet? 3.2 Multi-Token Prediction as a Built-In Speculative Decoder reasoning_effort — The API Paradigm Every Developer Needs to Know 4.1 Basic API Usage with Streaming 4.2 Sampling Parameters by Mode 4.3 When to Use Which Level preserve_thinking — Optimizing Multi-Turn KV C...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu1emecyzacuq2jgozmqo.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjl7h74v25ua81qso3xli.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvgzq26j8hwu916kmeeux.png"
+      ],
+      "origin_url": "https://dev.to/monuminu/qwen-38-27b-the-frontier-llm-that-fits-on-your-laptop-architecture-reasoning-control-agentic-47kg",
+      "published": "2026-09-16T05:24:21+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Qwen 3.8 27B: The Frontier LLM That Fits on Your Laptop — Ar（性能/架构）。8 27B: The Frontier LLM That Fits on Your Laptop — Architecture, Reasoning Control & Agentic Integration Published August 18, 2026 · 18 min read Table of Contents The Benchmark ..."
+    },
+    {
+      "title": "The Reasoning Heist: Stealing Encrypted LLM Thoughts from GPT-5, Claude & Gemini — Fix It Now",
+      "describe": "The Reasoning Heist: How Researchers Stole the Secret Thoughts of GPT-5, Claude, and Gemini — And What Every Developer Must Fix Right Now Table of Contents The $720 Attack That Shook Three AI Giants Background: Why LLMs Started Hiding Their Thoughts The Root Vulnerability: Reasoning Compatibility The Decryption Oracle Attack — Step by Step The Four Attack Vectors Vector 1: IP Theft and Mass Distillation at Scale Vector 2: PII and Credential Harvesting from Public Repos Vector 3: Safety Filter Bypass via Internal Monologue Vector 4: Invisible Persistent Prompt Injection The Broader Implicati...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd7pj9mzu8rdiiean3d9t.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fybd5h4cej80gkfimkkkf.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flm7wxpvegvkom3kn6552.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fz970u04hhphwgda2c57v.png"
+      ],
+      "origin_url": "https://dev.to/monuminu/the-reasoning-heist-stealing-encrypted-llm-thoughts-from-gpt-5-claude-gemini-fix-it-now-3i44",
+      "published": "2026-09-16T05:23:47+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】The Reasoning Heist: Stealing Encrypted LLM Thoughts from GP（安全/架构）。The Reasoning Heist: How Researchers Stole the Secret Thoughts of GPT-5, Claude, and Gemini — And What Every Developer Must Fix Right Now Table of Contents The $720 Attack That ..."
+    },
+    {
+      "title": "Data Modelling, Relationship and Joins",
+      "describe": "Introduction Data modelling is the process of organizing, structuring and defining relationships between data tables to enable meaningful analysis. Think of it as designing the blueprint of a building without solid foundation, everything on top will be unstable. Why Data Modelling Matters for Your Power BI Reports Performance: Well-modelled data leads to faster report refresh times and responsive visuals. Reports that take 5minutes can be reduced to 30 seconds with proper modelling. Accuracy: Proper relationships ensure your calculations produce correct results, eliminating discrepancies be...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fco5v9hjzpl1p82lebkdy.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7h97yvxhxpkdsi48cg6o.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxjiqw6zopuw6tp0km0de.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fndst3l9rz2kdzgtd77o5.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F12w1i43ho4bkqc7oztq8.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F52n8aqcprbkqiiv28elb.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0fbmd0oqwqwd4251osmq.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1947s82in7z1nl3v4usq.png"
+      ],
+      "origin_url": "https://dev.to/adrian_mageto/data-modelling-relationship-and-joins-1a12",
+      "published": "2026-09-16T05:23:25+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Data Modelling, Relationship and Joins（性能）。Introduction Data modelling is the process of organizing, structuring and defining relationships between data tables to enable meaningful analysis。Think of it as designing the b..."
+    },
+    {
+      "title": "HTTP/HTTPS Malleable C2: The Chameleon of Network Communications",
+      "describe": "Author: @cyberrscourse | Cybersecurity Education & Research Published: September 16, 2026 ⚠️ LEGAL WARNING: The techniques described in this article are for educational purposes only. Unauthorized access to computer systems is illegal under federal and international law (18 U.S.C. § 1030 - Computer Fraud and Abuse Act). Only perform security testing on systems you own or have explicit written authorization to test. What is Malleable C2? Imagine you're a spy trying to send secret messages through enemy territory. You wouldn't use a bright red envelope labeled \"SECRET SPY STUFF,\" right? You'd...",
+      "media": [],
+      "origin_url": "https://dev.to/cyberrscourse/httphttps-malleable-c2-the-chameleon-of-network-communications-56ol",
+      "published": "2026-09-16T05:13:53+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】HTTP/HTTPS Malleable C2: The Chameleon of Network Communicat（安全）。Author: @cyberrscourse | Cybersecurity Education & Research Published: September 16, 2026 ⚠️ LEGAL WARNING: The techniques described in this article are for educational purposes..."
+    },
+    {
+      "title": "Your data model is where uncertainty goes to die",
+      "describe": "The sensor knew how much to trust itself. Our database column did not have room for that, so we threw it away on the way in. Everything arrives with an error bar Android hands you a Location object that is far richer than a point on a map. It has an accuracy radius in metres, the provider that produced it, a bearing, an altitude, a timestamp, sometimes a speed. The platform is telling you, on every reading, how much to believe it. This is not special to GPS. Models return confidences. Caches know their staleness. Upstream APIs know whether they served fresh data or a fallback. Almost every ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5vdiykxbwetd0i9y2z6h.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fomkqoeghzturn7wvhz0f.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd92f95c5vupogmwi0tt3.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcqgxz57c043yj13ch4og.png"
+      ],
+      "origin_url": "https://dev.to/darkpandawarrior/your-data-model-is-where-uncertainty-goes-to-die-g6j",
+      "published": "2026-09-16T05:08:31+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Your data model is where uncertainty goes to die。The sensor knew how much to trust itself。Our database column did not have room for that, so we threw it away on the way in"
+    },
+    {
+      "title": "Day 1 of being employed in Cybersecurity",
+      "describe": "Day 1 of being employed in Cybersecurity TL;DR I got an internship as IAM Intern in a company called Securentity. I will be posting about my experience and the skills I learnt in future blogs. Yesterday was ny first day. How I got the job I was actively hunting for LinkedIn posts about internship openings (Search bar -> hit enter -> filter by jobs -> type \"we are hiring\",\"cybersecurity intern\" and hit enter) and I found out a job posting from this company. And I DMed the recruiter my resume and it got shortlisted, then I was called on site for the interview and I went there, did the intervi...",
+      "media": [],
+      "origin_url": "https://dev.to/shobanchiddarth/day-1-of-being-employed-in-cybersecurity-2hfp",
+      "published": "2026-09-16T05:00:13+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Day 1 of being employed in Cybersecurity（安全）。Day 1 of being employed in Cybersecurity TL;DR I got an internship as IAM Intern in a company called Securentity。I will be posting about my experience and the skills I learnt in..."
+    },
+    {
+      "title": "Datamimic – don't let your coding agent invent its own test world",
+      "describe": "Article URL: https://github.com/rapiddweller/datamimic Comments URL: https://news.ycombinator.com/item?id=49722276 Points: 4 # Comments: 0",
+      "media": [],
+      "origin_url": "https://github.com/rapiddweller/datamimic",
+      "published": "2026-09-16T04:58:36+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Datamimic – don't let your coding agent invent its own test （开源）。Article URL: https://github。com/rapiddweller/datamimic Comments URL: https://news"
+    },
+    {
+      "title": "Some things Veloren does differently",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://blog.jsbarretto.com/post/veloren",
+      "published": "2026-09-16T03:47:55+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Some things Veloren does differently。Comments"
+    },
+    {
+      "title": "Ubuntu 26.10 completes transition to Rust-based coreutils",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://www.omgubuntu.co.uk/2026/09/ubuntu-2610-rust-coreutils-complete",
+      "published": "2026-09-16T03:39:05+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Ubuntu 26.10 completes transition to Rust-based coreutils。Comments"
+    },
+    {
+      "title": "JDK 27 has been released",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://openjdk.org/projects/jdk/27/",
+      "published": "2026-09-16T03:17:56+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】JDK 27 has been released（开源）。Comments"
+    }
+  ]
+}

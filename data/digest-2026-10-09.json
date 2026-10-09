@@ -1,0 +1,829 @@
+{
+  "ai": [
+    {
+      "title": "Building Team Memory for AI Agents",
+      "describe": "Open-source project: TencentDB Agent Memory Author: Tencent Cloud Database Team (腾讯云数据库团队) As agents become deeply embedded in software development, the most immediate change is speed: writing code, fixing bugs, calling tools, and executing workflows all become noticeably faster. But real team collaboration is revealing another bottleneck. Models are gaining execution capacity faster than teams are gaining collaboration bandwidth. What slows delivery is often not whether a piece of code can be generated. It is whether the next person, agent, or session can accurately inherit why a task was ...",
+      "media": [],
+      "origin_url": "https://dev.to/ellytan/building-team-memory-for-ai-agents-8jm",
+      "published": "2026-10-09T06:55:12+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Building Team Memory for AI Agents。Open-source project: TencentDB Agent Memory Author: Tencent Cloud Database Team (腾讯云数据库团队) As agents become deeply embedded in software development, the most immediate change is..."
+    },
+    {
+      "title": "'Running an LLM as a Pipeline Step Without 2am Surprises'",
+      "describe": "Teams are dropping LLM calls into data pipelines everywhere now — to classify tickets, extract fields from messy text, summarize records, tag content. It feels like adding one more transform. It isn't. A SQL transform is a pure function: same input, same output, every time. An LLM step is a slow, rate-limited call to an external service that can return something different each run, or something that isn't even valid. Treat it like the unreliable network dependency it is, and the 2am surprises mostly go away. Here's the short playbook. 1. Force structure, then validate it Never let free-form...",
+      "media": [],
+      "origin_url": "https://dev.to/vaishnavprabhu/running-an-llm-as-a-pipeline-step-without-2am-surprises-4g2n",
+      "published": "2026-10-09T06:55:07+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】'Running an LLM as a Pipeline Step Without 2am Surprises'。Teams are dropping LLM calls into data pipelines everywhere now — to classify tickets, extract fields from messy text, summarize records, tag content。It feels like adding one mo..."
+    },
+    {
+      "title": "Wy - a Rust terminal tool for understanding why AI-generated code changed",
+      "describe": "I have been building wy , an open-source terminal tool for reviewing AI-generated code. A Git diff shows what changed, but the context behind a change often lives somewhere in a long coding-agent conversation. wy connects your diffs with saved Codex and Claude Code conversations, so you can review the code, read the stated reason, and open the supporting evidence together. For example, if an agent adds a cache, I want to understand why it was added, what assumptions it depends on, and whether invalidation was considered. With wy, you can: Browse changes and relevant agent notes in a termina...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fe3wult1yfhfiounkeq3u.png"
+      ],
+      "origin_url": "https://dev.to/grandimam/wy-a-rust-terminal-tool-for-understanding-why-ai-generated-code-changed-385n",
+      "published": "2026-10-09T06:54:56+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Wy - a Rust terminal tool for understanding why AI-generated。I have been building wy , an open-source terminal tool for reviewing AI-generated code。A Git diff shows what changed, but the context behind a change often lives somewhere in a ..."
+    },
+    {
+      "title": "AI-Driven Risk Management for Crypto Traders — 2026-10-09 #4",
+      "describe": "Volatility in cryptocurrency markets presents a unique challenge for traders: traditional risk models often fail due to the 24/7 trading cycle, extreme liquidity shifts, and algorithmic market manipulation. AI-driven risk management offers a solution by processing vast datasets in real-time, identifying patterns invisible to human analysts, and executing protective measures with millisecond precision. The core of an AI-driven risk framework lies in predictive analytics and anomaly detection. Instead of relying solely on historical volatility, machine learning models analyze order book depth...",
+      "media": [],
+      "origin_url": "https://dev.to/rogt7/ai-driven-risk-management-for-crypto-traders-2026-10-09-4-1a05",
+      "published": "2026-10-09T06:53:27+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】AI-Driven Risk Management for Crypto Traders — 2026-10-09 #4。Volatility in cryptocurrency markets presents a unique challenge for traders: traditional risk models often fail due to the 24/7 trading cycle, extreme liquidity shifts, and alg..."
+    },
+    {
+      "title": "From AI Demo to Production: 6 Things We Add Before Shipping an LLM Feature",
+      "describe": "Getting an LLM feature to work in a demo takes an afternoon. Getting it to keep working when real users, real data and real traffic arrive is a different job. Most AI pilots I see stall at the same point: the prototype calls a model API directly from a route handler, and everything \"works\" until the first timeout, malformed response or surprise bill. Here are six things worth adding before you ship. Examples use Node.js/TypeScript, but the ideas apply to any stack (Python, .NET, Java). Put a timeout and retry policy around every model call Model APIs are network calls. They will be slow or ...",
+      "media": [],
+      "origin_url": "https://dev.to/codvik/from-ai-demo-to-production-6-things-we-add-before-shipping-an-llm-feature-c0p",
+      "published": "2026-10-09T06:52:00+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】From AI Demo to Production: 6 Things We Add Before Shipping 。Getting an LLM feature to work in a demo takes an afternoon。Getting it to keep working when real users, real data and real traffic arrive is a different job"
+    },
+    {
+      "title": "What Does an AI Automation Agency Actually Do? (Process, Projects, Costs)",
+      "describe": "Originally published on the Djangix blog . This is a condensed version — the full article is linked at the end. The label sounds grand, but the day-to-day work is practical: find a repetitive process, connect the tools involved, add AI only where it genuinely helps, and keep a person in charge of the outcome. What a typical engagement looks like Audit first. Map where time is actually lost, check the quality of the underlying data, and pick one workflow with a measurable payoff. Build a scoped project. Common examples include document handling, enquiry follow-up, internal search over compan...",
+      "media": [],
+      "origin_url": "https://dev.to/uaahacker/what-does-an-ai-automation-agency-actually-do-process-projects-costs-3j2b",
+      "published": "2026-10-09T06:51:27+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】What Does an AI Automation Agency Actually Do? (Process, Pro。Originally published on the Djangix blog。This is a condensed version — the full article is linked at the end"
+    },
+    {
+      "title": "Pocket Wild: AI that ends with your phone in your pocket",
+      "describe": "What I Built Most AI interfaces invite another message. I wanted this one to end with the phone in my pocket. Pocket Wild turns a little context about your surroundings into three short nature-noticing missions: something to listen for, something to look at, and something to watch. Read the card, start a 10-, 20-, or 30-minute pause, then put the phone away. A seated outdoor pause counts too. When you return, write what you actually noticed. Gemma can turn those observations into an editable field note, or you can keep your exact words. Optional photographs and completed notes become a loca...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fswsu0rtbx4wui1i8r509.png"
+      ],
+      "origin_url": "https://dev.to/god_complex/pocket-wild-three-things-to-notice-then-put-your-phone-away-36oj",
+      "published": "2026-10-09T06:51:02+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Pocket Wild: AI that ends with your phone in your pocket。What I Built Most AI interfaces invite another message。I wanted this one to end with the phone in my pocket"
+    },
+    {
+      "title": "AI Automation for Small Business: 7 Workflows Worth Automating First",
+      "describe": "Originally published on the Djangix blog . This is a condensed version — the full article is linked at the end. A small business rarely needs a grand AI strategy first. It needs one repetitive workflow given back. The original article picks seven starting points and explains, for each, what it does and where human judgement should stay. The seven, summarised Lead capture and follow-up — record new enquiries automatically and make sure first responses and reminders do not depend on someone remembering. Inbox triage and reply drafts — sort incoming mail by topic and urgency and draft answers ...",
+      "media": [],
+      "origin_url": "https://dev.to/uaahacker/ai-automation-for-small-business-7-workflows-worth-automating-first-k4n",
+      "published": "2026-10-09T06:50:45+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】AI Automation for Small Business: 7 Workflows Worth Automati。Originally published on the Djangix blog。This is a condensed version — the full article is linked at the end"
+    },
+    {
+      "title": "NoAdivines: When Valid JSON Still Gets the Order Wrong",
+      "describe": "This is a submission for the Kaggle Benchmarking Challenge . What I Benchmarked “Buenas, mandame dos bolsas de café mañana a Residencial Los Pinos, casa 14.” In English: “Please send me two bags of coffee tomorrow to house 14.” It sounds like a complete order. It has a quantity, a delivery instruction, a date, and an address. But the fictional store in my benchmark sells coffee in two sizes: 340 g and 1 kg. The customer never chose one. A safe assistant should ask which size they want. An assistant that silently selects one may appear more helpful, but it has created an order the customer d...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fojyc93som7sb61dmzkga.jpg"
+      ],
+      "origin_url": "https://dev.to/henrysrdz/noadivines-when-valid-json-still-gets-the-order-wrong-m8e",
+      "published": "2026-10-09T06:49:54+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】NoAdivines: When Valid JSON Still Gets the Order Wrong（性能）。This is a submission for the Kaggle Benchmarking Challenge。What I Benchmarked “Buenas, mandame dos bolsas de café mañana a Residencial Los Pinos, casa 14"
+    },
+    {
+      "title": "Boost",
+      "describe": "NatureFit: Turn Going Outside Into an AI-Powered Nature Quest 🌿 Drishya Singhal Drishya Singhal Drishya Singhal Follow Oct 8 NatureFit: Turn Going Outside Into an AI-Powered Nature Quest 🌿 # hf26challenge # devchallenge # weekendchallenge # ai 29 reactions 4 comments 5 min read",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4156763%2F1144cd29-00ce-462e-8b7b-851187544667.webp",
+        "https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg",
+        "https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg",
+        "https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+      ],
+      "origin_url": "https://dev.to/drishya/boost-2cbj",
+      "published": "2026-10-09T06:48:55+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Boost。NatureFit: Turn Going Outside Into an AI-Powered Nature Quest 🌿 Drishya Singhal Drishya Singhal Drishya Singhal Follow Oct 8 NatureFit: Turn Going Outside Into an AI-Powered Nat..."
+    },
+    {
+      "title": "Streaming OpenAI API Responses: How It Works, in Python, Django & FastAPI",
+      "describe": "Originally published on the Djangix blog . This is a condensed version — the full article, with complete code, is linked at the end. A non-streamed chat answer leaves the user staring at a spinner for the whole generation. Streaming changes the feel, not the total time: the first tokens arrive in under a second and the answer appears to type itself. What is actually sent The transport is Server-Sent Events — one HTTP response that stays open and delivers small data: messages. Each message carries a JSON chunk, and the useful text lives in a tiny delta field. Most chunks are fragments, not w...",
+      "media": [],
+      "origin_url": "https://dev.to/uaahacker/streaming-openai-api-responses-how-it-works-in-python-django-fastapi-30a5",
+      "published": "2026-10-09T06:48:36+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Streaming OpenAI API Responses: How It Works, in Python, Dja。Originally published on the Djangix blog。This is a condensed version — the full article, with complete code, is linked at the end"
+    },
+    {
+      "title": "[Boost]",
+      "describe": "Find My Thingy: A Local-First AI Memory Assistant Powered by Gemma 3 4B Drishya Singhal Drishya Singhal Drishya Singhal Follow Oct 4 Find My Thingy: A Local-First AI Memory Assistant Powered by Gemma 3 4B # devchallenge # weekendchallenge # ai # hf26challenge 41 reactions 16 comments 3 min read",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4156763%2F1144cd29-00ce-462e-8b7b-851187544667.webp",
+        "https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg",
+        "https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg",
+        "https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+      ],
+      "origin_url": "https://dev.to/drishya/-16oi",
+      "published": "2026-10-09T06:48:17+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】[Boost]。Find My Thingy: A Local-First AI Memory Assistant Powered by Gemma 3 4B Drishya Singhal Drishya Singhal Drishya Singhal Follow Oct 4 Find My Thingy: A Local-First AI Memory Assi..."
+    }
+  ],
+  "ios": [
+    {
+      "title": "On-device by default: what I learned building a storage cleaner and a medical records app for iPhone",
+      "describe": "Two of my iPhone apps handle very different data: one handles photos and videos, the other medical records. They ended up with the same architecture decision: everything runs on the device, and we run no server that ever receives user files. Here's why, and what that changes in practice. The storage problem nobody's cleaner actually solves Most \"phone storage cleaner\" apps show you your whole photo library sorted by size. That's the wrong list. With iCloud Photos and Optimize iPhone Storage turned on, your library might be 800 GB at full size while only 12 GB actually sits on the device. De...",
+      "media": [],
+      "origin_url": "https://dev.to/xin_jiang_0586987bb7e572c/on-device-by-default-what-i-learned-building-a-storage-cleaner-and-a-medical-records-app-for-iphone-1d95",
+      "published": "2026-10-09T05:45:54+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】On-device by default: what I learned building a storage clea（性能/架构）。Two of my iPhone apps handle very different data: one handles photos and videos, the other medical records。They ended up with the same architecture decision: everything runs on ..."
+    },
+    {
+      "title": "Habit apps shouldn't punish you: design rules from shipping four small iPhone apps",
+      "describe": "Twenty-five out of twenty-six days is not zero. But open almost any habit tracker, miss one Tuesday, and that's exactly what it shows you: a big, bright 0 . That number isn't neutral UI. For many users, especially people with ADHD or anyone whose week doesn't run on rails, the reset is the moment they delete the app. As an indie iOS developer, I've shipped four small apps around this problem. Here are the product and engineering rules I ended up with. Rule 1: Model \"forgiveness\" in the data, not just the UI In StreaksChain , you get one grace day a week . Miss a day and the streak keeps goi...",
+      "media": [],
+      "origin_url": "https://dev.to/xin_jiang_0586987bb7e572c/habit-apps-shouldnt-punish-you-design-rules-from-shipping-four-small-iphone-apps-1l5f",
+      "published": "2026-10-09T05:45:48+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Habit apps shouldn't punish you: design rules from shipping 。Twenty-five out of twenty-six days is not zero。But open almost any habit tracker, miss one Tuesday, and that's exactly what it shows you: a big, bright 0"
+    },
+    {
+      "title": "How to use Live Translation with AirPods",
+      "describe": "Set up Live Translation on AirPods, start it from the stems or Siri, and check what to fix when it won't turn on: models, iOS version, languages, EU. URL: https://freelivecaption.com/en/posts/airpods-live-translation Published: 2026-10-09 Updated: 2026-10-09 Author: Priya Nair ( https://freelivecaption.com/en/about ) Topic: Travel ( https://freelivecaption.com/en/topics/travel ) Summary You need an iPhone 15 Pro or later on iOS 26 with Apple Intelligence on, and AirPods 4 (ANC), AirPods 5, Pro 2, Pro 3 or Max 2. Download both languages under Settings, your AirPods, Live Translation. Then pr...",
+      "media": [],
+      "origin_url": "https://dev.to/freelivecaption/how-to-use-live-translation-with-airpods-4cmh",
+      "published": "2026-10-09T02:39:00+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How to use Live Translation with AirPods（教程）。Set up Live Translation on AirPods, start it from the stems or Siri, and check what to fix when it won't turn on: models, iOS version, languages, EU。URL: https://freelivecaption"
+    },
+    {
+      "title": "Xclawd Duo: an early iPhone Duo IDE preview",
+      "describe": "I’m building Xclawd Duo, an AI-enabled IDE for iPhone Duo. This early preview explores a coding workspace that changes with the device: choose a project while folded, open it for chat and code, and use the keyboard in tabletop mode. And yes, those are Mac OS X Aqua and Windows NT-inspired themes. A small coding workspace can still have some personality. Watch the full 57-second preview · Direct MP4 What the recording shows A folded project picker with an “Open your Duo to continue” prompt. Chat, Code and Changes views, with chat and the editor side by side in the wider layout. An on-screen ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fefeff0grg71h63yhef8f.jpg"
+      ],
+      "origin_url": "https://dev.to/robinwinters/xclawd-duo-an-early-iphone-duo-ide-preview-3n3i",
+      "published": "2026-10-08T23:23:16+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Xclawd Duo: an early iPhone Duo IDE preview。I’m building Xclawd Duo, an AI-enabled IDE for iPhone Duo。This early preview explores a coding workspace that changes with the device: choose a project while folded, open it for..."
+    },
+    {
+      "title": "WhatsApp bloquea el acceso: sistema desactualizado frena el inicio de sesión",
+      "describe": "WhatsApp bloquea el acceso cuando detecta un sistema desactualizado en tu teléfono, mostrando una pantalla que congela el inicio de sesión y no permite omitir el aviso. Abres la aplicación y te topas con un muro infranqueable. La orden no proviene de un paquete descargado desde Google Play o la App Store; proviene de los propios centros de datos de la compañía. Si tu Android o tu iPhone conservan una versión con parches antiguos, el servicio detiene la conexión antes de enviar el código de verificación por mensaje de texto. El aviso fue documentado en el análisis técnico publicado en WABeta...",
+      "media": [],
+      "origin_url": "https://dev.to/henryramireztech/whatsapp-bloquea-el-acceso-sistema-desactualizado-frena-el-inicio-de-sesion-2h8a",
+      "published": "2026-10-08T20:26:33+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】WhatsApp bloquea el acceso: sistema desactualizado frena el 。WhatsApp bloquea el acceso cuando detecta un sistema desactualizado en tu teléfono, mostrando una pantalla que congela el inicio de sesión y no permite omitir el aviso。Abres la ..."
+    },
+    {
+      "title": "HealthKit to JSONL vs JSON: one snapshot survives a cut sync, the other gives you nothing",
+      "describe": "Two apps can write the exact same Apple Health records to disk and behave nothing alike the moment a sync gets interrupted. I benchmarked it on 2026-10-08: 3,200 daily records, 400 days across 8 metrics, written once as a JSON array and once as JSONL, then both truncated at 100,000 bytes to simulate a cut-off iCloud sync. The JSON array returned a parse error and 0 recoverable records. The JSONL file gave back 1,355. The two files differed by 1 byte. The reason is structural. A JSON array is one document, valid only once the closing bracket lands, so a half-written snapshot is not JSON at a...",
+      "media": [],
+      "origin_url": "https://dev.to/philipad/healthkit-to-jsonl-vs-json-one-snapshot-survives-a-cut-sync-the-other-gives-you-nothing-2jem",
+      "published": "2026-10-08T20:22:57+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】HealthKit to JSONL vs JSON: one snapshot survives a cut sync（性能）。Two apps can write the exact same Apple Health records to disk and behave nothing alike the moment a sync gets interrupted。I benchmarked it on 2026-10-08: 3,200 daily records, 4..."
+    },
+    {
+      "title": "Native Desktop Themes for Production Apps",
+      "describe": "A desktop app needs more than larger versions of its phone controls. Dialogs need their own windows. Title bars, scrollbars, and keyboard focus need to behave as desktop users expect. What is Codename One? Codename One is an open-source framework for building native iOS, Android, desktop, and web apps from a single Java or Kotlin codebase. Learn more at codenameone.com . Last week we introduced the native desktop theme experiment . This week we bring those themes into production use. Fluent, Aqua, and Adwaita include refined controls in light and dark appearances, plus the window and dialog...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8ms6t48cehkdje8id6cz.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feg7yskulcnwdrikz8oub.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi0ebz3crc7z5wb72opmc.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdjnwmpnb6shnyw1z2biy.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff5ecta5qj449160elih9.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9bpla8e6quy4wz15dhjr.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fapoqd32xjb0fmt2uwqy4.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmermaid.ink%2Fimg%2FZmxvd2NoYXJ0IFRECiAgICBIb3N0W0Rlc2t0b3AgaG9zdF0gLS0-IFNlbGVjdFtDaG9vc2UgRmx1ZW50LCBBcXVhLCBvciBBZHdhaXRhXQogICAgU2VsZWN0IC0tPiBSb2xlc1tOYXRpdmUgVUlJRHMgYW5kIHBhbGV0dGUgcm9sZXNdCiAgICBCcmFuZFtBcHBsaWNhdGlvbiBhY2NlbnQgYW5kIG92ZXJyaWRlc10gLS0-IEFwcENTU1tBcHBsaWNhdGlvbiB0aGVtZS5jc3NdCiAgICBSb2xlcyAtLT4gQXBwQ1NTCiAgICBBcHBDU1MgLS0-IEZvcm1bVGhlIHNhbWUgSmF2YSBmb3JtXQogICAgU2VsZWN0IC0tPiBXaW5kb3dzW0Rlc2t0b3Agd2luZG93IGFuZCBkaWFsb2cgYmVoYXZpb3Jd%3Ftype%3Dpng%26bgColor%3Dffffff"
+      ],
+      "origin_url": "https://dev.to/codenameone/native-desktop-themes-for-production-apps-4nfa",
+      "published": "2026-10-08T19:21:49+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Native Desktop Themes for Production Apps。A desktop app needs more than larger versions of its phone controls。Dialogs need their own windows"
+    },
+    {
+      "title": "Google Play and App Store reviews in one table, with one API call",
+      "describe": "If you ship a mobile app, your users are telling you what broke in two places: Google Play and the Apple App Store. Product managers, support leads and indie developers usually want the same thing from both: the newest reviews, especially the one and two star ones, with the app version they were written on and whether anyone replied. The two stores make that awkward. They publish reviews in different formats, through different pages and feeds, with different fields. Google Play reviews have no title; App Store reviews do. The app version sits in a different place on each store, and so does ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa2nw6lz36vnbq2txe1ft.png"
+      ],
+      "origin_url": "https://dev.to/hiver/google-play-and-app-store-reviews-in-one-table-with-one-api-call-2lgi",
+      "published": "2026-10-08T16:03:30+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Google Play and App Store reviews in one table, with one API。If you ship a mobile app, your users are telling you what broke in two places: Google Play and the Apple App Store。Product managers, support leads and indie developers usually w..."
+    },
+    {
+      "title": "Reading Step Counts on iOS and Android with Capacitor",
+      "describe": "Showing a user's daily step count sounds like a one-liner: read the step records for today and add them up. In practice that number comes out higher than the one in the Health app, because the phone, a watch and fitness apps all record the same walk. In this guide, you'll see how to read step counts in a Capacitor app from Apple HealthKit and Health Connect, get today's total and a 7-day chart, and avoid counting steps twice. Prerequisites A Capacitor 8 app. The Capacitor Health plugin . Full disclosure: we build this plugin at Capawesome, and it's part of Capawesome Insiders , a paid subsc...",
+      "media": [],
+      "origin_url": "https://dev.to/capawesome/reading-step-counts-on-ios-and-android-with-capacitor-5bgo",
+      "published": "2026-10-08T15:30:11+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Reading Step Counts on iOS and Android with Capacitor（教程）。Showing a user's daily step count sounds like a one-liner: read the step records for today and add them up。In practice that number comes out higher than the one in the Health ap..."
+    },
+    {
+      "title": "EAS Submit in 2026: What It Automates, What It Doesn't, and the Release Pipeline That Covers Both",
+      "describe": "EAS Submit in 2026: What It Automates, What It Doesn't, and the Release Pipeline That Covers Both",
+      "media": [],
+      "origin_url": "https://dev.to/lucas_martin_8cb158b9a81b/eas-submit-in-2026-what-it-automates-what-it-doesnt-and-the-release-pipeline-that-covers-both-1m2d",
+      "published": "2026-10-08T14:59:49+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】EAS Submit in 2026: What It Automates, What It Doesn't, and （开源）。EAS Submit in 2026: What It Automates, What It Doesn't, and the Release Pipeline That Covers Both"
+    },
+    {
+      "title": "iPhone Videos Won't Play or Take Forever to Load from iCloud? Here's Why and What to Do",
+      "describe": "Short Answer: With Optimize iPhone Storage enabled, older videos are not fully stored on your iPhone. The original file lives in iCloud while your device keeps a smaller preview version. When you tap play, Photos must download the original first. A photo takes a fraction of a second; a long 4K video can be several gigabytes, taking minutes on slow connections, stalling completely offline, or throwing \"Unable to Load Video.\" When switching back to Download and Keep Originals is impossible due to limited local storage, the most effective way to make chosen videos play instantly offline withou...",
+      "media": [],
+      "origin_url": "https://dev.to/vaultbeat/iphone-videos-wont-play-or-take-forever-to-load-from-icloud-heres-why-and-what-to-do-ga3",
+      "published": "2026-10-08T14:56:35+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】iPhone Videos Won't Play or Take Forever to Load from iCloud（性能）。Short Answer: With Optimize iPhone Storage enabled, older videos are not fully stored on your iPhone。The original file lives in iCloud while your device keeps a smaller preview ..."
+    },
+    {
+      "title": "Live streaming Web, Android, and iOS E2E test runs over WebRTC",
+      "describe": "Article URL: https://www.qawolf.com/blog/live-streaming-test-runs Comments URL: https://news.ycombinator.com/item?id=50006190 Points: 15 # Comments: 0",
+      "media": [],
+      "origin_url": "https://www.qawolf.com/blog/live-streaming-test-runs",
+      "published": "2026-10-08T14:23:58+00:00",
+      "source_label": "Hacker News (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Live streaming Web, Android, and iOS E2E test runs over WebR。Article URL: https://www。com/blog/live-streaming-test-runs Comments URL: https://news"
+    }
+  ],
+  "android": [
+    {
+      "title": "Why Your AI Agent Thinks It Succeeded (And How to Catch When It Didn’t)",
+      "describe": "Getting an AI agent to take an action is the easy part. Getting it to know whether the action actually worked — that’s the problem nobody talks about until something goes wrong. When I built the first multi-step actions for StareBrain (Google search, messaging, email — all running on-device via Android’s accessibility layer), I hit the same failure every time: the agent would complete its steps, report success, and be wrong. Not maliciously. Just confidently wrong. The root problem An agent dispatches an action — say, sending a message. It checks: did I complete the steps? Yes. So it report...",
+      "media": [],
+      "origin_url": "https://dev.to/starebrain/why-your-ai-agent-thinks-it-succeeded-and-how-to-catch-when-it-didnt-3k6l",
+      "published": "2026-10-09T04:12:38+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Why Your AI Agent Thinks It Succeeded (And How to Catch When（教程）。Getting an AI agent to take an action is the easy part。Getting it to know whether the action actually worked — that’s the problem nobody talks about until something goes wrong"
+    },
+    {
+      "title": "Hand over the keys. Get the car back.",
+      "describe": "Some drivers don't want to find parking at all. They want to pull up at the door, hand over the keys, and walk into the restaurant. In most Indian cities that's a hotel or wedding-hall luxury. ParkEase makes it a job anyone verified can do. Yesterday you saw what happens when a valet's phone loses signal. Today: what the valet actually does. Four things you can do as a valet (the video is thirty seconds) 1. See the job before you touch the car. Every job shows the pickup address and exactly what you'll earn for it. No guessing, no negotiating at the kerb. 2. One tap per step. I'm on the way...",
+      "media": [],
+      "origin_url": "https://dev.to/rakno/hand-over-the-keys-get-the-car-back-2gij",
+      "published": "2026-10-09T03:30:00+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Hand over the keys. Get the car back.。Some drivers don't want to find parking at all。They want to pull up at the door, hand over the keys, and walk into the restaurant"
+    },
+    {
+      "title": "I Reopened My Own APK in JADX After Hardening It",
+      "describe": "I Reopened My Own APK in JADX After Hardening It I develop Android applications that include authorization and payment functionality. Before every release, I have a habit of opening the release APK in JADX and searching through the package names. It started as a way to check whether obfuscation had missed anything. Eventually, it became a reason to worry about my own code. In the unprotected version, searching for an authorization class name immediately found it. I could expand a payment callback and read its implementation. String constants were still in plaintext. Obfuscation had changed ...",
+      "media": [],
+      "origin_url": "https://dev.to/_02872163a196e011/i-reopened-my-own-apk-in-jadx-after-hardening-it-16fl",
+      "published": "2026-10-09T02:20:14+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】I Reopened My Own APK in JADX After Hardening It（开源）。I Reopened My Own APK in JADX After Hardening It I develop Android applications that include authorization and payment functionality。Before every release, I have a habit of open..."
+    },
+    {
+      "title": "Architecting a Low-Power Geofencing Engine: Lessons from Battery Optimization in Muffle",
+      "describe": "It was the second time that week. I was sitting in the back row of a lecture hall when my phone decided to announce my presence to the entire room with a high-pitched ringtone. It was a call from a recruiter, and in my rush to silence the device, I fumbled the lock screen, accidentally declining the call and leaving the ringer volume cranked to maximum. The embarrassment was immediate and sharp. I looked around, feeling every pair of eyes on me, wishing I had just left the phone in my bag or, better yet, that it had known exactly where I was. That recurring frustration is the foundation of ...",
+      "media": [],
+      "origin_url": "https://dev.to/haseebthedev0/architecting-a-low-power-geofencing-engine-lessons-from-battery-optimization-in-muffle-1hbd",
+      "published": "2026-10-09T02:17:35+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Architecting a Low-Power Geofencing Engine: Lessons from Bat。It was the second time that week。I was sitting in the back row of a lecture hall when my phone decided to announce my presence to the entire room with a high-pitched ringtone"
+    },
+    {
+      "title": "I Analyzed an XopProtector-Protected APK with apktool: The Shell Was There, but the Business Code Wasn't",
+      "describe": "I Analyzed an XopProtector-Protected APK with apktool: The Shell Was There, but the Business Code Wasn't My Android reverse-engineering workflow has stayed largely the same for years: unpack the APK with apktool , open it in jadx , inspect the Application entry point, and then search for business logic related to login, payments, and authorization. With an unprotected Release APK, this workflow can often reveal meaningful business code in just a few minutes. This time, I analyzed an APK protected by XopProtector . I used exactly the same tools, and the analysis windows were full of content....",
+      "media": [],
+      "origin_url": "https://dev.to/_02872163a196e011/i-analyzed-an-xopprotector-protected-apk-with-apktool-the-shell-was-there-but-the-business-code-2h5p",
+      "published": "2026-10-09T01:57:30+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】I Analyzed an XopProtector-Protected APK with apktool: The S（开源）。I Analyzed an XopProtector-Protected APK with apktool: The Shell Was There, but the Business Code Wasn't My Android reverse-engineering workflow has stayed largely the same for ..."
+    },
+    {
+      "title": "Oppo Find X10: y una de cámara de 200 mp",
+      "describe": "El Oppo Find X10 aterriza con su cámara de 200 mp en Mallorca el 21 de octubre para romper el tablero de la fotografía en teléfonos inteligentes . La marca eligió las Islas Baleares, en España, como escenario para la presentación internacional de sus dos nuevos buques insignia: el modelo base y el Find X10 Pro Max. Este último estrena una configuración inédita en el mercado con tres sensores traseros de 200 megapíxeles montados en el lente principal, el gran angular y el teleobjetivo periscópico. La confirmación publicada por el fabricante en la sala de prensa de OPPO Global ratifica que la...",
+      "media": [],
+      "origin_url": "https://dev.to/henryramireztech/oppo-find-x10-y-una-de-camara-de-200-mp-19lg",
+      "published": "2026-10-09T00:45:38+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Oppo Find X10: y una de cámara de 200 mp。El Oppo Find X10 aterriza con su cámara de 200 mp en Mallorca el 21 de octubre para romper el tablero de la fotografía en teléfonos inteligentes。La marca eligió las Islas Balear..."
+    },
+    {
+      "title": "Sideloading APKs on Fire TV Stick and Android TV: A Developer's Guide (Featuring Xuper TV)",
+      "describe": "If you build or tinker with Android apps, you have probably sideloaded an APK at some point. Sideloading — installing an app package manually instead of through the Play Store or Amazon Appstore — is a core skill for Android developers and power users alike. In this guide, I will walk through the full process using Xuper TV, a streaming app distributed as an APK, as a real-world example. Why sideload? Apps end up outside the official stores for all kinds of legitimate reasons: beta testing, regional availability, or simply because the developer distributes independently. Xuper TV, for insta...",
+      "media": [],
+      "origin_url": "https://dev.to/xupertvguide/sideloading-apks-on-fire-tv-stick-and-android-tv-a-developers-guide-featuring-xuper-tv-186e",
+      "published": "2026-10-08T23:35:24+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Sideloading APKs on Fire TV Stick and Android TV: A Develope（教程）。If you build or tinker with Android apps, you have probably sideloaded an APK at some point。Sideloading — installing an app package manually instead of through the Play Store or..."
+    },
+    {
+      "title": "Help Me Test My Cooking Game — Forging Cuisine (Android Closed Test)",
+      "describe": "I'm Keith Mullins. I built an Android cooking game called Forging Cuisine , and I need your help testing it. What is it? Forging Cuisine is a cooking game for everyday home cooks — not experts. You run a kitchen, learn real cooking techniques (doneness temps, flavor pairing, the kind of stuff that makes you think like a cook), and share dish cards of what you create. No ads, no in-app purchases — it's a $4.99 game, and testers get it free during the closed test. What I need Google Play requires 12 testers opted in for 14 days before I can apply for production access. I'm at 7 of 12 right no...",
+      "media": [],
+      "origin_url": "https://dev.to/rk_mullins_9e9a87a255b5/help-me-test-my-cooking-game-forging-cuisine-android-closed-test-14l7",
+      "published": "2026-10-08T21:35:48+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Help Me Test My Cooking Game — Forging Cuisine (Android Clos。I'm Keith Mullins。I built an Android cooking game called Forging Cuisine , and I need your help testing it"
+    },
+    {
+      "title": "Anime-style action FX in Compose Multiplatform, no shaders, one codebase",
+      "describe": "You know the look. A sword swing trails a glowing ribbon of water. A bolt of lightning forks across the frame. Speed lines snap inward on the impact beat, and a shower of embers drifts up behind it. That is anime action, and it usually implies a game engine, platform shaders, or a pile of dependencies. This post builds that look in plain Compose Multiplatform. The exact same Kotlin runs on Android and iOS, there are no shaders, and nothing extra is pulled into your app. Every snippet is from KMPMedia , an open-source library on Maven Central: implementation ( \"se.solidkey:kmpmedia-lib:1.32....",
+      "media": [],
+      "origin_url": "https://dev.to/solidkey/anime-style-action-fx-in-compose-multiplatform-no-shaders-one-codebase-2m6g",
+      "published": "2026-10-08T20:51:10+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Anime-style action FX in Compose Multiplatform, no shaders, 。You know the look。A sword swing trails a glowing ribbon of water"
+    },
+    {
+      "title": "Trying a New Android App Every Day for a Week: What Stuck",
+      "describe": "I spend most of my working day in a browser and a code editor, so my phone had quietly become a very boring place: messages, maps, a notes app I never open, and the same three time-wasting games. Last week I set myself a small rule — install one new Android app every evening, actually use it the next day, and be honest about whether it earned its place on my home screen. Day one was a game, because that felt like the easiest win. It was fun for exactly two commutes. The art was charming and the puzzles were clever, but by day three the energy timers and constant nudges to buy gems had worn ...",
+      "media": [],
+      "origin_url": "https://dev.to/mikehassi96/trying-a-new-android-app-every-day-for-a-week-what-stuck-pef",
+      "published": "2026-10-08T20:09:24+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Trying a New Android App Every Day for a Week: What Stuck。I spend most of my working day in a browser and a code editor, so my phone had quietly become a very boring place: messages, maps, a notes app I never open, and the same three t..."
+    }
+  ],
+  "frontend": [
+    {
+      "title": "Content Security Policy Blocking Your Scripts? Fix \"Refused to Execute Inline Script\" Properly",
+      "describe": "Originally published on the Djangix blog . This is a condensed version — the full article is linked at the end. You add a Content Security Policy, deploy, and the site looks fine but nothing responds. That is not the policy failing — it is the policy working. Your own inline code simply is not allowed yet. What the policy is doing CSP is a browser-enforced allowlist for scripts, styles, images and connections. Its main security value is against injected scripts, and injected code is usually inline — so a strict policy blocks inline code by default, including yours. Five fixes, in the order ...",
+      "media": [],
+      "origin_url": "https://dev.to/uaahacker/content-security-policy-blocking-your-scripts-fix-refused-to-execute-inline-script-properly-hjn",
+      "published": "2026-10-09T06:49:23+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Content Security Policy Blocking Your Scripts? Fix \"Refused （安全）。Originally published on the Djangix blog。This is a condensed version — the full article is linked at the end"
+    },
+    {
+      "title": "JavaScript Promises for Beginners 🚀",
+      "describe": "When I started learning JavaScript, I learned about variables, functions, arrays, and DOM manipulation. Then I came across Promises. At first, Promises looked confusing, but simple examples helped me understand them. What is a Promise? A Promise is a JavaScript object that represents the eventual success or failure of an asynchronous operation. For example, imagine ordering food online 🍕. Your order may be accepted, rejected, or still processing. Promises have three states: Pending – The operation is still in progress. Fulfilled – The operation completed successfully. Rejected – The operati...",
+      "media": [],
+      "origin_url": "https://dev.to/narasimma/javascript-promises-for-beginners-9im",
+      "published": "2026-10-09T06:45:43+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】JavaScript Promises for Beginners 🚀。When I started learning JavaScript, I learned about variables, functions, arrays, and DOM manipulation。Then I came across Promises"
+    },
+    {
+      "title": "Blocked by CORS Policy: Every Console Message and Its Real Fix",
+      "describe": "Originally published on the Djangix blog: Blocked by CORS Policy: Every Console Message and Its Real Fix That red CORS message in the browser console feels like one error, but the sentence that follows it changes everything. Read the exact wording first: it tells you whether an origin was rejected, a header or method was not allowed, credentials were involved, or a preflight request failed — and each of those has a different fix on the server, not in the browser code making the request. Start with origins. Browsers compare the calling site exactly, including scheme, host, and port, and wild...",
+      "media": [],
+      "origin_url": "https://dev.to/uaahacker/blocked-by-cors-policy-every-console-message-and-its-real-fix-3227",
+      "published": "2026-10-09T06:40:07+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Blocked by CORS Policy: Every Console Message and Its Real F。Originally published on the Djangix blog: Blocked by CORS Policy: Every Console Message and Its Real Fix That red CORS message in the browser console feels like one error, but t..."
+    },
+    {
+      "title": "One call, from fetch to a validated object — streaming structured output without the plumbing",
+      "describe": "You asked the model for a JSON object and set stream: true , because you want the UI (or the next step) to start the moment the first field lands instead of blocking on the last token. Then you're here: const res = await fetch ( url , { method : \" POST \" , body }); const reader = res . body ! . getReader (); const decoder = new TextDecoder (); let buf = \"\" , json = \"\" ; for (;;) { const { value , done } = await reader . read (); if ( done ) break ; buf += decoder . decode ( value , { stream : true }); for ( const line of buf . split ( \" \\n \" )) { if ( ! line . startsWith ( \" data: \" )) cont...",
+      "media": [],
+      "origin_url": "https://dev.to/h1manshu01/one-call-from-fetch-to-a-validated-object-streaming-structured-output-without-the-plumbing-2jko",
+      "published": "2026-10-09T06:35:27+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】One call, from fetch to a validated object — streaming struc。You asked the model for a JSON object and set stream: true , because you want the UI (or the next step) to start the moment the first field lands instead of blocking on the last..."
+    },
+    {
+      "title": "cloud computing",
+      "describe": "Unlocking Potential: A Deep Dive into Cloud Computing In today's rapidly evolving digital landscape, cloud computing has emerged as a transformative technology, fundamentally reshaping how businesses operate and innovate. Far from being a mere buzzword, it represents a paradigm shift in resource delivery, offering unparalleled flexibility, scalability, and efficiency. At its core, cloud computing involves the delivery of on-demand computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet (\"the cloud\"). Instead of owning and...",
+      "media": [],
+      "origin_url": "https://dev.to/shivani_gupta_fde46c38eb3/cloud-computing-2cc",
+      "published": "2026-10-09T06:31:07+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】cloud computing。Unlocking Potential: A Deep Dive into Cloud Computing In today's rapidly evolving digital landscape, cloud computing has emerged as a transformative technology, fundamentally re..."
+    },
+    {
+      "title": "Node.js Caching Strategies: Build Faster and More Scalable APIs",
+      "describe": "Caching is one of the simplest ways to make a Node.js application faster without immediately scaling the underlying infrastructure. Instead of repeatedly performing expensive database queries, API requests, or computations, a cache allows frequently requested data to be served from a faster storage layer. The challenge is choosing the right caching strategy. Cache-aside, write-through, TTL-based expiration, and in-memory caching each solve different problems, and using the wrong approach can create stale data or unnecessary memory usage. In this article, we will build a practical Node.js ca...",
+      "media": [],
+      "origin_url": "https://dev.to/ansh_sheladiya/nodejs-caching-strategies-build-faster-and-more-scalable-apis-3p0",
+      "published": "2026-10-09T06:30:00+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Node.js Caching Strategies: Build Faster and More Scalable A。Caching is one of the simplest ways to make a Node。js application faster without immediately scaling the underlying infrastructure"
+    },
+    {
+      "title": "Stop Using WebSockets for AI Chat Apps: Why We Switched to Server-Sent Events (SSE) in Production",
+      "describe": "TL;DR: When building an AI chat assistant with LLM token streaming, most tutorials recommend WebSockets or short polling. In production, WebSockets introduce stateful connection complexity, load balancer friction, and proxy issues, while polling creates unnecessary server load. Here is why we migrated IntelliDesk AI from WebSockets to Server-Sent Events (SSE) , how it brought our Time-to-First-Token under 180ms, and the four concrete engineering challenges we solved in our code. The Initial Architectural Decision and Its Limits In our initial version of IntelliDesk AI, we used WebSockets (v...",
+      "media": [],
+      "origin_url": "https://dev.to/pruthviraj_janwade_180b10/stop-using-websockets-for-ai-chat-apps-why-we-switched-to-server-sent-events-sse-in-production-1k54",
+      "published": "2026-10-09T06:29:57+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Stop Using WebSockets for AI Chat Apps: Why We Switched to S（教程）。TL;DR: When building an AI chat assistant with LLM token streaming, most tutorials recommend WebSockets or short polling。In production, WebSockets introduce stateful connection ..."
+    },
+    {
+      "title": "Best In-Browser Video Compressor: We Tested 4 That Never Upload Your Video",
+      "describe": "Originally published on the RedPanda Compress blog . A growing number of video compressors promise that your file never leaves your computer. Instead of uploading the video to a server, they compress it inside the browser tab. That's good for privacy and it means no upload wait, but \"runs in your browser\" covers some very different technology. We ran the same video through the four in-browser compressors that actually get search traffic and measured what came back. Disclosure: I build RedPanda Compress, which is one of the four tools tested. It went through the same procedure as everyone el...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff59u8u7zfhbu51lwcccs.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuwbf5jactmyms1riap7d.jpg"
+      ],
+      "origin_url": "https://dev.to/feiy_redpanda/best-in-browser-video-compressor-we-tested-4-that-never-upload-your-video-4d6i",
+      "published": "2026-10-09T06:14:30+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Best In-Browser Video Compressor: We Tested 4 That Never Upl。Originally published on the RedPanda Compress blog。A growing number of video compressors promise that your file never leaves your computer"
+    },
+    {
+      "title": "Hoisting in Javascript",
+      "describe": "What is Hoisting? Hoisting is the name for a JavaScript behavior where variable and function declarations act as if they were moved to the top of their containing scope. Nothing is physically moved: the engine registers every declaration in a scope before it runs any code in that scope , and the rest of this post is consequences of that one fact. This means that you can use variables and functions before they are declared in the code. Understanding hoisting is crucial for mastering JavaScript, as it can lead to unexpected results if not properly understood. How Hoisting Works In JavaScript,...",
+      "media": [],
+      "origin_url": "https://dev.to/0xadityaa/hoisting-in-javascript-76h",
+      "published": "2026-10-09T06:11:22+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Hoisting in Javascript。What is Hoisting。Hoisting is the name for a JavaScript behavior where variable and function declarations act as if they were moved to the top of their containing scope"
+    },
+    {
+      "title": "Your Cancel Button Might Only Be Canceling the Spinner",
+      "describe": "Click Cancel . The spinner disappears. The button becomes clickable again. Meanwhile, the request is still running. This is easy to miss in a UI review because the screen looks correct. You only notice when an old response overwrites newer results, a batch keeps starting jobs, or an upstream service continues processing work the user no longer wants. For an API tool with AI-assisted operations, cancellation is part of the user's control over the work. Disclosure: this article was prepared for the Powerduck team. Here is how to reason about it without pretending one browser call can stop eve...",
+      "media": [],
+      "origin_url": "https://dev.to/jeff_pdc/your-cancel-button-might-only-be-canceling-the-spinner-b7f",
+      "published": "2026-10-09T06:09:08+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Your Cancel Button Might Only Be Canceling the Spinner（教程）。The spinner disappears。The button becomes clickable again"
+    },
+    {
+      "title": "WildLens 🌱 — AI Nature Companion that Tells You to Put Your Phone Away",
+      "describe": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass 🌿 What I Built Most AI applications try to maximize the amount of time users spend interacting with AI. WildLens does the exact opposite. WildLens is an AI-powered nature exploration companion that encourages people to go outdoors by turning ordinary walks into small discovery missions. The core guiding principle of WildLens is simple: \"Use AI to help people explore the real world, then get them off the screen.\" \"The goal isn't more screen time. The goal is more world time.\" How it works: Snap & Analyze ...",
+      "media": [
+        "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg"
+      ],
+      "origin_url": "https://dev.to/keerthisree25/wildlens-ai-nature-companion-that-tells-you-to-put-your-phone-away-bmf",
+      "published": "2026-10-09T06:09:06+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】WildLens 🌱 — AI Nature Companion that Tells You to Put Your 。This is a submission for the Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass 🌿 What I Built Most AI applications try to maximize the amount of time users spend intera..."
+    },
+    {
+      "title": "How Javascript Works",
+      "describe": "Javascript is a Synchronous and Single Threaded language. Meaning that it executes one line of code at a time and in the order that it is written. It cannot run in parallel. The model this post builds: every piece of JavaScript runs inside an execution context, which is created in two passes. First the engine sets aside memory for every declaration, then it runs the code. Once you can trace those two passes by hand, hoisting, scope, and the call stack stop being surprising. Execution Context Everything in Javascript happens inside an execution context . Execution context consists of 2 main ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsx0d04p35pxi59vu7927.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftzwe1872ppxwwwa863v9.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F72h5rinmgsmjzybs1bgy.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fc84hl377uxrqgjyxvc06.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frgpj2vlxltsoymdidpp0.png"
+      ],
+      "origin_url": "https://dev.to/0xadityaa/how-javascript-works-2fel",
+      "published": "2026-10-09T06:08:42+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】How Javascript Works。Javascript is a Synchronous and Single Threaded language。Meaning that it executes one line of code at a time and in the order that it is written"
+    }
+  ],
+  "backend": [
+    {
+      "title": "Python Logging in Production: dictConfig, Log Rotation, and Performance Tips (Part 4)",
+      "describe": "📌 This article is Part 4 of a multi-part series: * \"Logging in Django: From Basics to Production\"* . Catch up on previous parts: Part 1: Why Logging? | Part 2: Python Logging Fundamentals | Part 3: Logging Architecture & Pipelines Advanced Python Logging: Declarative Configs, Disk Management, and Performance As systems scale into modular, distributed architectures, hardcoding log configurations imperatively across application logic becomes unmaintainable. The engineering best practice is to adopt Declarative Configuration . Python provides two primary mechanisms for this purpose: dictConfig...",
+      "media": [],
+      "origin_url": "https://dev.to/reza_moon/python-logging-in-production-dictconfig-log-rotation-and-performance-tips-part-4-18md",
+      "published": "2026-10-09T06:48:29+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Python Logging in Production: dictConfig, Log Rotation, and （性能/架构）。📌 This article is Part 4 of a multi-part series: * \"Logging in Django: From Basics to Production\"*。Catch up on previous parts: Part 1: Why Logging"
+    },
+    {
+      "title": "GstarCAD vs ZWCAD vs BricsCAD: Choosing the Right AutoCAD Alternative in 2026",
+      "describe": "GstarCAD vs ZWCAD vs BricsCAD: Choosing the Right AutoCAD Alternative in 2026 All three run AutoLISP and read native DWG without translation layers. The real differences — perpetual licensing structure, cross-platform requirements (macOS/Linux), and 3D/BIM trajectories — are where the actual procurement decision lives. The AutoCAD alternative market has consolidated around three serious contenders: GstarCAD , ZWCAD , and BricsCAD . All three read and write native DWG files. All three support custom legacy AutoLISP routines ( .lsp / .vlx ), so your corporate drafting shortcuts survive migrat...",
+      "media": [],
+      "origin_url": "https://dev.to/willsun/gstarcad-vs-zwcad-vs-bricscad-choosing-the-right-autocad-alternative-in-2026-56m0",
+      "published": "2026-10-09T06:46:49+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】GstarCAD vs ZWCAD vs BricsCAD: Choosing the Right AutoCAD Al。GstarCAD vs ZWCAD vs BricsCAD: Choosing the Right AutoCAD Alternative in 2026 All three run AutoLISP and read native DWG without translation layers。The real differences — perpet..."
+    },
+    {
+      "title": "How to Run a Mail Server on Ubuntu 24.04 with Postfix, Dovecot and OpenDKIM",
+      "describe": "Running your own mail server gives you control over your email infrastructure, dedicated IP address, sending limits, and mailbox data. But getting Postfix and Dovecot running is only part of the job. The real challenge is making sure your emails are trusted by receiving mail servers. Missing DNS records, incorrect reverse DNS (PTR), failed email authentication, and poor IP reputation can cause legitimate messages to land in spam—or get rejected entirely. In this guide, we'll walk through how to set up a mail server on Ubuntu 24.04 LTS using Postfix, Dovecot, and OpenDKIM, then configure the...",
+      "media": [],
+      "origin_url": "https://dev.to/kw_servers/how-to-run-a-mail-server-on-ubuntu-2404-with-postfix-dovecot-and-opendkim-1kdb",
+      "published": "2026-10-09T06:44:57+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】How to Run a Mail Server on Ubuntu 24.04 with Postfix, Dovec（教程）。Running your own mail server gives you control over your email infrastructure, dedicated IP address, sending limits, and mailbox data。But getting Postfix and Dovecot running is ..."
+    },
+    {
+      "title": "Deploying Django on AWS with Zero Downtime",
+      "describe": "Originally published on the Djangix blog: Deploying Django on AWS with Zero Downtime Zero downtime on a single small server does not require Kubernetes or a second machine. The practical pattern in the full guide is blue-green on one host: keep two complete copies of your Django app, run only one of them live at a time, and let Nginx decide which one receives traffic. In that setup each colour has its own code directory, virtual environment, Gunicorn service, and local port, while both share the same database, media storage, and environment configuration. You deploy by updating the inactive...",
+      "media": [],
+      "origin_url": "https://dev.to/uaahacker/deploying-django-on-aws-with-zero-downtime-a19",
+      "published": "2026-10-09T06:40:48+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Deploying Django on AWS with Zero Downtime（教程）。Originally published on the Djangix blog: Deploying Django on AWS with Zero Downtime Zero downtime on a single small server does not require Kubernetes or a second machine。The p..."
+    },
+    {
+      "title": "n8n Not Working? Why Workflows Stop, and the Fix for Each Cause",
+      "describe": "Most broken n8n workflows aren't broken by n8n. I read 398 public reports from n8n's community forum and Reddit where someone's automation stopped working, and in 317 of them the thread found the cause. Only about 1 in 10 was a bug in n8n. The rest were a setting, another app's rules, or the workflow itself. That sounds like good news, but it's also why these problems drag on. n8n can't warn you about a setting it doesn't know is wrong, and many of these failures make no noise at all: a schedule that never fires, a webhook pointing at an address nobody can reach, a Google sign-in that expir...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F985wqd5g2j7wdr1juy0c.webp",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4nwn17oopj2id6tiv5zi.webp"
+      ],
+      "origin_url": "https://dev.to/tushar_bhendarkar_ac19c67/n8n-not-working-why-workflows-stop-and-the-fix-for-each-cause-3hfd",
+      "published": "2026-10-09T06:40:00+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】n8n Not Working? Why Workflows Stop, and the Fix for Each Ca。Most broken n8n workflows aren't broken by n8n。I read 398 public reports from n8n's community forum and Reddit where someone's automation stopped working, and in 317 of them the..."
+    },
+    {
+      "title": "Bake images and smoke PRs in your own KILN🔥",
+      "describe": "kiln v0.2.5: self-hosted GitHub Actions on hardware you already own, with one fresh rootless QEMU/KVM VM per job. Why build this Two of our repositories ran their PR smoke gates on Google Cloud Build. Over a 27-day window that came to 396 builds and 2,192 build-minutes: about 81 minutes a day, or roughly $39 a month on E2_HIGHCPU_8 . That is not a big number. But a box with an i9-14900KF (32 threads) and 61 GB of RAM was already sitting on the tailnet, mostly idle, and the hosted bill grows with every repo you add. Money was only half of it. The other half was isolation. A long-lived self-h...",
+      "media": [],
+      "origin_url": "https://dev.to/bunty9/bake-images-and-smoke-prs-in-your-own-kiln-582d",
+      "published": "2026-10-09T06:39:14+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Bake images and smoke PRs in your own KILN🔥（开源）。5: self-hosted GitHub Actions on hardware you already own, with one fresh rootless QEMU/KVM VM per job。Why build this Two of our repositories ran their PR smoke gates on Google ..."
+    },
+    {
+      "title": "SafeLine WAF vs Fail2ban: App-Layer vs Host-Level Defense",
+      "describe": "SafeLine WAF vs Fail2ban: App-Layer vs Host-Level Defense Fail2ban is one of the first tools people reach for when a server goes live — and for good reason. But it solves a different problem than a WAF. If you're wondering whether SafeLine replaces Fail2ban (or vice versa), the short answer is: they guard different layers, and you'll likely want both. Here's the breakdown. What each one does Fail2ban is an open-source intrusion-prevention tool. It watches your log files — SSH, web server, mail, whatever you point it at — and when an IP shows malicious behavior (repeated failed logins, burst...",
+      "media": [],
+      "origin_url": "https://dev.to/lialiago/safeline-waf-vs-fail2ban-app-layer-vs-host-level-defense-19ap",
+      "published": "2026-10-09T06:34:38+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】SafeLine WAF vs Fail2ban: App-Layer vs Host-Level Defense。SafeLine WAF vs Fail2ban: App-Layer vs Host-Level Defense Fail2ban is one of the first tools people reach for when a server goes live — and for good reason。But it solves a diffe..."
+    },
+    {
+      "title": "SafeLine WAF vs CrowdSec: WAF vs Behavior-Based Protection",
+      "describe": "SafeLine WAF vs CrowdSec: WAF vs Behavior-Based Protection If you're hardening a server, you'll run into both SafeLine and CrowdSec — and it's easy to assume they're rivals. They're not, really. They protect different layers, and most teams that take security seriously run both. Here's where each one fits so you can decide what you actually need. What each one does SafeLine is a self-hosted web application firewall (WAF) by Chaitin. It sits in reverse-proxy mode in front of your web app and inspects every HTTP request — blocking SQL injection, cross-site scripting (XSS), and malicious bots ...",
+      "media": [],
+      "origin_url": "https://dev.to/lialiago/safeline-waf-vs-crowdsec-waf-vs-behavior-based-protection-2gk4",
+      "published": "2026-10-09T06:31:46+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】SafeLine WAF vs CrowdSec: WAF vs Behavior-Based Protection（安全）。SafeLine WAF vs CrowdSec: WAF vs Behavior-Based Protection If you're hardening a server, you'll run into both SafeLine and CrowdSec — and it's easy to assume they're rivals。They..."
+    },
+    {
+      "title": "What is Moogo?",
+      "describe": "Moogo is a hosted backend that gives every project its own SQLite database and its own object storage , reachable over plain HTTP. There is no connection string, no driver, and no database client to install. You create a project, and Moogo hands you three values: MOOGO_PROJECT_URL=https://api.moogo.dev/p/8f3c1a20-5b7e-4a91-9d3c-2f6b81e4a7d0 MOOGO_PROJECT_ID=8f3c1a20-5b7e-4a91-9d3c-2f6b81e4a7d0 MOOGO_SECRET_KEY=moogo_... Put those in your application's environment and it can read and write data: curl $MOOGO_PROJECT_URL /query \\ -H \"Authorization: Bearer $MOOGO_SECRET_KEY \" \\ -H \"Content-Type...",
+      "media": [],
+      "origin_url": "https://dev.to/moogodev/what-is-moogo-594h",
+      "published": "2026-10-09T06:26:02+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】What is Moogo?。Moogo is a hosted backend that gives every project its own SQLite database and its own object storage , reachable over plain HTTP。There is no connection string, no driver, and n..."
+    },
+    {
+      "title": "Django Tasks vs Celery: Which Should You Use?",
+      "describe": "Originally published on the Djangix blog: Django Tasks vs Celery: Which Should You Use? Django now has a built-in Tasks framework, which raises a fair question for new and existing projects: do you still need Celery for background work such as sending email, generating reports, or calling slow third-party APIs? The built-in Tasks framework gives you a standard way to define background tasks in Django itself, with a simple mental model and far less setup than a separate system. For many projects that is enough: you define the task, enqueue it, and let a worker run it, without adding and oper...",
+      "media": [],
+      "origin_url": "https://dev.to/uaahacker/django-tasks-vs-celery-which-should-you-use-203m",
+      "published": "2026-10-09T06:26:00+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Django Tasks vs Celery: Which Should You Use?。Originally published on the Djangix blog: Django Tasks vs Celery: Which Should You Use。Django now has a built-in Tasks framework, which raises a fair question for new and existi..."
+    },
+    {
+      "title": "Email Infrastructure for Open-Source Maintainers",
+      "describe": "If you maintain an open-source project, you already have enough things to worry about. Issues. PRs. Releases. Documentation. Contributors. Servers. The last thing you probably want is to spend your time maintaining email infrastructure. But sooner or later, your project needs email. Welcome emails. Password resets. Notifications. GitHub alerts. Product updates. Maybe even emails from an AI agent. And suddenly, you're choosing between paying another SaaS vendor or building an SMTP stack yourself. There should be a better option. Email should be infrastructure, not another project Reloop is a...",
+      "media": [],
+      "origin_url": "https://dev.to/twinkalp10/email-infrastructure-for-open-source-maintainers-56ne",
+      "published": "2026-10-09T06:25:05+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Email Infrastructure for Open-Source Maintainers（开源）。If you maintain an open-source project, you already have enough things to worry about。Documentation"
+    },
+    {
+      "title": "How to Choose the Right Technology Partner for a Growing Business",
+      "describe": "There comes a point in every growing business when technology stops being something one person handles on the side. The email system needs managing, the website needs to stay secure, data starts piling up in different places and new software tools appear faster than anyone can evaluate them. At that point, many leaders start looking for outside help. Choosing a technology partner is one of the more consequential decisions a mid-sized company can make. The right partner can help the business scale smoothly. The wrong one can lock it into expensive, inflexible systems. Here's a practical way ...",
+      "media": [],
+      "origin_url": "https://dev.to/amina17zx/how-to-choose-the-right-technology-partner-for-a-growing-business-3ngl",
+      "published": "2026-10-09T06:20:01+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】How to Choose the Right Technology Partner for a Growing Bus（教程/架构）。There comes a point in every growing business when technology stops being something one person handles on the side。The email system needs managing, the website needs to stay sec..."
+    }
+  ],
+  "general": [
+    {
+      "title": "Taking a look under your agent’s hood",
+      "describe": "Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software development and production workflows, and navigating emerging challenges in AI security and tokenomics.",
+      "media": [],
+      "origin_url": "https://stackoverflow.blog/2026/10/09/taking-a-look-under-your-agent-s-hood/",
+      "published": "2026-10-09T07:40:00+00:00",
+      "source_label": "Stack Overflow Blog",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Taking a look under your agent’s hood（安全）。Ryan is joined by Yanbing Li, Chief Product Officer at Datadog, to talk about applying observability to non-deterministic AI agents, blurring the boundaries between software dev..."
+    },
+    {
+      "title": "Hướng dẫn triển khai Docker cho ứng dụng Node.js (Cho người mới bắt đầu)",
+      "describe": "Docker đã trở thành một công cụ không thể thiếu giúp chuẩn hóa môi trường phát triển và triển khai ứng dụng. Đối với các lập trình viên Node.js, việc đưa ứng dụng vào container giúp tránh được lỗi \"chạy được trên máy tôi nhưng lỗi trên server\". Trong bài viết này, chúng ta sẽ từng bước xây dựng một Dockerfile cơ bản, build image, chạy container và cấu hình các biến môi trường một cách an toàn. 1. Chuẩn bị ứng dụng Node.js đơn giản Giả sử bạn có một ứng dụng Node.js cơ bản sử dụng Express. File package.json : { \"name\" : \"node-docker-demo\" , \"version\" : \"1.0.0\" , \"main\" : \"index.js\" , \"script...",
+      "media": [],
+      "origin_url": "https://dev.to/lam_duc_5c2dc399e5f92f4bb/huong-dan-trien-khai-docker-cho-ung-dung-nodejs-cho-nguoi-moi-bat-dau-3383",
+      "published": "2026-10-09T06:55:40+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Hướng dẫn triển khai Docker cho ứng dụng Node.js (Cho người 。Docker đã trở thành một công cụ không thể thiếu giúp chuẩn hóa môi trường phát triển và triển khai ứng dụng。Đối với các lập trình viên Node"
+    },
+    {
+      "title": "Stop Treating Base64 Like Black Magic: A Veteran's Candid Guide",
+      "describe": "Let’s be honest for a second: Base64 is one of those primitives almost every developer touches every week, yet an alarming number of people still treat it like mysterious wizardry. I’ve lost count of how many PRs I’ve reviewed where someone said, \"Don't worry, the sensitive token is encrypted with Base64,\" or watched a junior engineer spend half an afternoon staring at their screen because window.btoa() blew up on a simple emoji. Let’s pull up a chair, skip the academic jargon, and talk about what Base64 actually is, how the math works in plain English, and the real-world traps you need to ...",
+      "media": [],
+      "origin_url": "https://dev.to/elias_miller/stop-treating-base64-like-black-magic-a-veterans-candid-guide-mdb",
+      "published": "2026-10-09T06:52:47+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Stop Treating Base64 Like Black Magic: A Veteran's Candid Gu（教程）。Let’s be honest for a second: Base64 is one of those primitives almost every developer touches every week, yet an alarming number of people still treat it like mysterious wizard..."
+    },
+    {
+      "title": "'Why Your Orchestrator Task \"Succeeded\" But Your Data Is Wrong'",
+      "describe": "A green checkmark means your task ran without throwing an exception. It does not mean the data it produced is correct. These are two very different guarantees, and confusing them is one of the most common ways bad data reaches production dashboards undetected. The gap between \"ran\" and \"right\" Most orchestrators judge success on exit code: the process finished, nothing threw, mark it green. But a task can exit cleanly while: loading half the expected rows (an upstream feed was incomplete), duplicating rows because a dimension join fanned out, writing values that are internally consistent bu...",
+      "media": [],
+      "origin_url": "https://dev.to/vaishnavprabhu/why-your-orchestrator-task-succeeded-but-your-data-is-wrong-1gde",
+      "published": "2026-10-09T06:52:46+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】'Why Your Orchestrator Task \"Succeeded\" But Your Data Is Wro。A green checkmark means your task ran without throwing an exception。It does not mean the data it produced is correct"
+    },
+    {
+      "title": "SaaS Product Development: From Idea to Launch, Step by Step",
+      "describe": "Originally published on the Djangix blog . This is a condensed version — the full article is linked at the end. Building a SaaS product is less a single build than a sequence of decisions. Doing them in the wrong order is what makes projects expensive, according to the original article. The sequence, summarised Validate the problem first. Talk to the people who would pay, and confirm the pain is frequent and costly enough to justify software. Define the smallest useful version. Separate the core workflow that must work on day one from everything that can wait. Design around the workflow, no...",
+      "media": [],
+      "origin_url": "https://dev.to/uaahacker/saas-product-development-from-idea-to-launch-step-by-step-l34",
+      "published": "2026-10-09T06:52:32+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】SaaS Product Development: From Idea to Launch, Step by Step。Originally published on the Djangix blog。This is a condensed version — the full article is linked at the end"
+    },
+    {
+      "title": "Deeper dive: Keyboard differences between Windows and Macs",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "published": "2026-10-09T06:51:52+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Deeper dive: Keyboard differences between Windows and Macs。Comments"
+    },
+    {
+      "title": "'A Repeatable RCA Framework for Data Incidents'",
+      "describe": "description: 'Turn data-incident firefighting into a routine: Localize, Characterize, Root-cause, Remediate, Prevent.' tags: dataengineering, devops, sre, dataquality series: In the Pipeline Most data incidents get debugged by vibes: someone opens logs, scrolls, guesses, reruns something, and hopes. That works until it doesn't — and it never produces a learning the team can reuse. A repeatable root-cause framework turns firefighting into a routine. Here's one that holds up: Localize → Characterize → Root-cause → Remediate → Prevent. 1. Localize Find where the wrongness enters before asking ...",
+      "media": [],
+      "origin_url": "https://dev.to/vaishnavprabhu/a-repeatable-rca-framework-for-data-incidents-5a9p",
+      "published": "2026-10-09T06:51:19+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】'A Repeatable RCA Framework for Data Incidents'。description: 'Turn data-incident firefighting into a routine: Localize, Characterize, Root-cause, Remediate, Prevent。' tags: dataengineering, devops, sre, dataquality series: In..."
+    },
+    {
+      "title": "Stripe API Integration for SaaS: Connect Payments Without the Usual Mistakes",
+      "describe": "Originally published on the Djangix blog . This is a condensed version — the full article is linked at the end. Adding payments to a SaaS product looks simple until the first edge case: a card fails after access was granted, a customer is charged twice, or a cancellation never reaches your database. The original article treats billing as a state problem, not just a checkout form. The core sequence, in my summary Model billing in your own data first. Keep the customer and subscription identifiers and the current status on your side, so your product does not depend on a live call to decide wh...",
+      "media": [],
+      "origin_url": "https://dev.to/uaahacker/stripe-api-integration-for-saas-connect-payments-without-the-usual-mistakes-dc7",
+      "published": "2026-10-09T06:51:06+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Stripe API Integration for SaaS: Connect Payments Without th。Originally published on the Djangix blog。This is a condensed version — the full article is linked at the end"
+    },
+    {
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "describe": "Article URL: https://quake-srp.pages.dev/ Comments URL: https://news.ycombinator.com/item?id=50016312 Points: 109 # Comments: 83",
+      "media": [],
+      "origin_url": "https://quake-srp.pages.dev/",
+      "published": "2026-10-09T05:22:58+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Show HN: Quake ported to safe Rust, playable in browser。Article URL: https://quake-srp。dev/ Comments URL: https://news"
+    },
+    {
+      "title": "Cloudflare K2 Builds Event Streams on R2 Object Storage, at a Second of Produce Latency",
+      "describe": "Cloudflare has launched K2 in public beta, a serverless event streaming service implementing a durable log on R2 object storage. Cloudflare states produce latency of about one second at p99; a tester reported end-to-end p99 of 7.5 seconds, which a commenter answering for the team said was higher than expected. Consume charges match produce charges per GB. By Steef-Jan Wiggers",
+      "media": [
+        "https://res.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/en/headerimage/generatedHeaderImage-1791040228747.jpg"
+      ],
+      "origin_url": "https://www.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "published": "2026-10-09T05:06:00+00:00",
+      "source_label": "InfoQ",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Cloudflare K2 Builds Event Streams on R2 Object Storage, at 。Cloudflare has launched K2 in public beta, a serverless event streaming service implementing a durable log on R2 object storage。Cloudflare states produce latency of about one se..."
+    },
+    {
+      "title": "Keyboard differences between Windows and Macs",
+      "describe": "Article URL: https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/ Comments URL: https://news.ycombinator.com/item?id=50015515 Points: 72 # Comments: 68",
+      "media": [],
+      "origin_url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "published": "2026-10-09T03:08:05+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Keyboard differences between Windows and Macs。Article URL: https://unsung。org/deeper-dive-keyboard-differences-between-windows-and-macs/ Comments URL: https://news"
+    },
+    {
+      "title": "What should we tell our students?",
+      "describe": "Article URL: https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/ Comments URL: https://news.ycombinator.com/item?id=50015236 Points: 81 # Comments: 81",
+      "media": [],
+      "origin_url": "https://terrytao.wordpress.com/2026/10/08/what-should-we-tell-our-students/",
+      "published": "2026-10-09T02:27:45+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】What should we tell our students?。Article URL: https://terrytao。com/2026/10/08/what-should-we-tell-our-students/ Comments URL: https://news"
+    }
+  ]
+}

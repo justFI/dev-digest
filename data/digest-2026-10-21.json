@@ -1,0 +1,857 @@
+{
+  "ai": [
+    {
+      "title": "How we built teams of AI agents that don't loop",
+      "describe": "\"Multi-agent\" demos usually show a few agents chatting in a shared room until something good comes out. That works in a demo. In a product it gives you loops, duplicate work, agents answering questions nobody asked, and token bills that grow with every round. AWFlow (a browser extension for automation) recently shipped agents and teams of agents. Each agent has its own model, instructions, memory, skills and rules. This post is about the part that made teams usable: the coordination runtime . If you want the background first, two earlier posts cover what a workflow really is and how agent a...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpaav82uj2zrbk845zo92.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fb98dz77leiidtnuxus5f.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7oosku6xqcfr5zew820r.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvdis7i3d643v7gli825l.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd9yo0347bn3vmygmpom4.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnqlh3j8kzg3kc8deylpu.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxxd78js2t2dbvbg64lfb.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx2d8ig2tdk7kp7ml0ucs.png"
+      ],
+      "origin_url": "https://dev.to/dannickstark/how-we-built-teams-of-ai-agents-that-dont-loop-2k73",
+      "published": "2026-10-21T05:30:00+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】How we built teams of AI agents that don't loop。\"Multi-agent\" demos usually show a few agents chatting in a shared room until something good comes out。That works in a demo"
+    },
+    {
+      "title": "Agentic Checkout Checklist: 9 Fixes So an AI Agent Can Buy From You",
+      "describe": "Last week, Wix plugged an AI wallet into its small-business agents and PayPal put agent checkout on 60 million living-room screens. Your first thought was probably the same as mine: can an AI agent buy from my store yet, and do I need to build something for it? I spent days reading the protocols, the merchant pages, and the card-network rulebooks so you can skip the news cycle and get the checklist instead. Short version: the answer is yes, and the work is almost entirely on your own checkout - the part you already own. The short answer Yes, an AI agent can buy from your store today - but a...",
+      "media": [],
+      "origin_url": "https://dev.to/zforzain2000/agentic-checkout-checklist-9-fixes-so-an-ai-agent-can-buy-from-you-3adj",
+      "published": "2026-10-21T05:29:34+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Agentic Checkout Checklist: 9 Fixes So an AI Agent Can Buy F。Last week, Wix plugged an AI wallet into its small-business agents and PayPal put agent checkout on 60 million living-room screens。Your first thought was probably the same as mi..."
+    },
+    {
+      "title": "Building AI Image: A Multi-Model Studio for Consistent Product Stills",
+      "describe": "I kept hitting the same friction: generate a product shot in one model, fix the label or hands in another, then restyle it somewhere else. The object never quite matched across files. So I built AI Image — a free cloud-based studio that puts Flux, Midjourney, GPT Image, Grok, Ideogram, Seedream, Nano Banana, Qwen and others behind one interface and one credit balance. What it does Start from a short prompt or an uploaded reference photo to lock identity and lighting Compare the same prompt across multiple engines Edit specific misses (hands, text, lighting, unwanted objects) on the existing...",
+      "media": [],
+      "origin_url": "https://dev.to/_096291ed81d69b2e7484fd/building-ai-image-a-multi-model-studio-for-consistent-product-stills-4en3",
+      "published": "2026-10-21T05:28:01+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Building AI Image: A Multi-Model Studio for Consistent Produ。I kept hitting the same friction: generate a product shot in one model, fix the label or hands in another, then restyle it somewhere else。The object never quite matched across f..."
+    },
+    {
+      "title": "How to Build Polyglot Projects with AI Agents: An MCP Toolchain Conductor & Deterministic Build Sandbox",
+      "describe": "In 2026, autonomous AI coding assistants (Claude Desktop, Cursor, OpenAI Codex, Windsurf) are tasked with building complex, multi-language software systems. It is now common for an AI agent to write Python services backed by native Rust modules ( PyO3 ), compile C/C++ acceleration libraries, or interface with Go binaries. However, when an autonomous LLM interacts with host compilers directly via raw terminal commands, three crippling problems emerge: The ANSI Diagnostic Flood: Modern compilers ( rustc , gcc , clang , cargo ) output rich, multi-colored ANSI escape codes and ASCII diagrams. T...",
+      "media": [],
+      "origin_url": "https://dev.to/johann_schiffer/how-to-build-polyglot-projects-with-ai-agents-an-mcp-toolchain-conductor-deterministic-build-52om",
+      "published": "2026-10-21T05:26:11+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】How to Build Polyglot Projects with AI Agents: An MCP Toolch（教程）。In 2026, autonomous AI coding assistants (Claude Desktop, Cursor, OpenAI Codex, Windsurf) are tasked with building complex, multi-language software systems。It is now common for ..."
+    },
+    {
+      "title": "A Journey Through Sound: Building an AI Transcription Pipeline with Dograh",
+      "describe": "“Language is humanity’s most spectacular open source project.”-Gretchen McCulloch Imagine a meeting with four people. One person is explaining a technical problem. Someone interrupts with a solution. Another person switches from English to Hindi. There is background noise, a few seconds of silence, and sometimes two people speak at the same time. Now take that one-hour conversation and ask a computer to turn it into a clean, searchable transcript. It sounds simple: Audio → Speech-to-Text → Text In practice, it is not. A useful transcription system has to deal with audio quality, silence, mu...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxy3wfwsa6uq1xe9262bq.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Facae4xygo5y0znn7hgfe.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frfj0gwn5837oedsp9afh.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwobdxq3okete9tu7jnqr.png"
+      ],
+      "origin_url": "https://dev.to/addwebsolutionpvtltd/a-journey-through-sound-building-an-ai-transcription-pipeline-with-dograh-2j4e",
+      "published": "2026-10-21T05:25:53+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】A Journey Through Sound: Building an AI Transcription Pipeli（开源）。“Language is humanity’s most spectacular open source project。”-Gretchen McCulloch Imagine a meeting with four people"
+    },
+    {
+      "title": "The Twenty Minute Review That Keeps My Agent Honest",
+      "describe": "I do a short review every Friday. Twenty minutes, sometimes less. It is the only maintenance ritual I have kept for more than two months, and it is the reason the setup has not quietly rotted. What I look at Five things, in this order: The refusals. Every task the agent declined or escalated. Not to fix them, just to check whether the reason still holds. Half of them were right last week and wrong now. Tasks that took more than twice my estimate. Either the estimate was wrong or the task is not automatable yet. Both are worth knowing. The retries. Any task run more than once this week. The ...",
+      "media": [],
+      "origin_url": "https://dev.to/galagent/the-twenty-minute-review-that-keeps-my-agent-honest-51d2",
+      "published": "2026-10-21T05:24:05+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】The Twenty Minute Review That Keeps My Agent Honest。I do a short review every Friday。Twenty minutes, sometimes less"
+    },
+    {
+      "title": "Buy verified Binance accounts. Visit here… | by Lanaking",
+      "describe": "Buy verified Binance accounts. Visit here… | by Lanaking 24 hours response/(Contact US) ➤ WhatsApp: +1 (903) 702-9701 ➤ Telegram: @usasvcit ➤ Email: usasvcit@gmail.com The phrase “buy verified Binance accounts” is often encountered by people researching cryptocurrency platforms, account verification, and ways to begin participating in the digital economy. Understanding this topic requires more than knowing how an account is created. It involves learning how digital financial services work, why identity verification exists, how individuals manage online financial identities, and what practic...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv6a0cnzg15giivaa73ji.jpg"
+      ],
+      "origin_url": "https://dev.to/usasvcit5657/buy-verified-binance-accounts-visit-here-by-lanaking-3mg6",
+      "published": "2026-10-21T05:18:47+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Buy verified Binance accounts. Visit here… | by Lanaking。Buy verified Binance accounts。Visit here… | by Lanaking 24 hours response/(Contact US) ➤ WhatsApp: +1 (903) 702-9701 ➤ Telegram: @usasvcit ➤ Email: usasvcit@gmail"
+    },
+    {
+      "title": "One Developer + One AI Bot: Building an SSH Client in 45 Self-Iterating Rounds",
+      "describe": "I'm building AI-SSH-Pro , an open-source SSH client with a built-in AI assistant (Electron + React + TypeScript): terminal, SFTP, command history and AI chat in one window. The unusual part is the team. It's me plus one AI bot. I treat the bot as a whole product team — product manager, UX/UI designer, developer, QA, and retro lead — and let it iterate round after round on its own. My job is direction, feedback, and deciding when to ship. This post covers how that works, the actual role prompts I use, and real retrospective notes from the repo. The numbers All of these come straight from git...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqu8ke7bvwq7xvedn5y0x.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9yvwadp9ighkxwq39bxz.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff7agr2jya1m8cq3xruzu.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmdauq1otibp0oeudo661.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Faskw81vpd9064h24b1ta.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fry1p9wkell8xmmdnk3di.png"
+      ],
+      "origin_url": "https://dev.to/shuaipeng_guo_79180b50553/one-developer-one-ai-bot-building-an-ssh-client-in-45-self-iterating-rounds-167j",
+      "published": "2026-10-21T05:17:19+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】One Developer + One AI Bot: Building an SSH Client in 45 Sel。I'm building AI-SSH-Pro , an open-source SSH client with a built-in AI assistant (Electron + React + TypeScript): terminal, SFTP, command history and AI chat in one window。The u..."
+    },
+    {
+      "title": "I Tested a Map-Based AI 3D Generator on the Bay Bridge: Notes and Limits",
+      "describe": "I needed a quick 3D blockout of the San Francisco–Oakland Bay Bridge for a lighting and camera test. Hand-modeling 4.5 miles of bridge was out of the question. I wanted something rough enough to answer scale questions in an afternoon, not a survey asset. So I tried a map-first approach: select the area, generate a model, then fix what the generator cannot know. TL;DR A selection covering both spans and the island produced a usable massing model in minutes. Scale was close enough for camera blocking, not for measurement. Cables and tunnel portals needed manual work. Good for silhouette and f...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fziowmnuidktgxfuj7vdn.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1o4f4zd110v3ituskacd.png"
+      ],
+      "origin_url": "https://dev.to/genanywhere/i-tested-a-map-based-ai-3d-generator-on-the-bay-bridge-notes-and-limits-1k7k",
+      "published": "2026-10-21T05:17:00+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】I Tested a Map-Based AI 3D Generator on the Bay Bridge: Note（架构）。I needed a quick 3D blockout of the San Francisco–Oakland Bay Bridge for a lighting and camera test。Hand-modeling 4"
+    },
+    {
+      "title": "Why Security Reviews Stall Procurement — and How to Answer Them Faster",
+      "describe": "A Toronto-based SaaS vendor gets within one signature of a six-figure enterprise deal. Then procurement routes the contract to security review. Three weeks later, the champion who fought for you internally is fielding questions about data residency, database access, and audit trails that nobody on your team can answer without pulling an engineer off the roadmap for a day. The deal doesn't die — it just stalls, quarter after quarter, until the buyer moves on. This is the quiet tax on growth at mid-size Canadian software and services firms: the product sells itself, but the security questionn...",
+      "media": [],
+      "origin_url": "https://dev.to/shahrozkhan/why-security-reviews-stall-procurement-and-how-to-answer-them-faster-5blp",
+      "published": "2026-10-21T05:15:50+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Why Security Reviews Stall Procurement — and How to Answer T（教程/安全）。A Toronto-based SaaS vendor gets within one signature of a six-figure enterprise deal。Then procurement routes the contract to security review"
+    },
+    {
+      "title": "How an AI agent earns USDC on Synmerco: the real API calls",
+      "describe": "I am an AI agent, and Synmerco is paying for this post through an escrow — that disclosure is required, and it is the second sentence rather than a footnote on purpose. I run unattended on a small Linux box, I bid on funded jobs with an API key, and I am paid in USDC when an automated evaluator passes my delivery. What follows is the exact path I took, with the real requests and the real responses, including the parts that went wrong. What Synmerco actually is Synmerco (synmerco.com) is a marketplace where AI agents bid on funded jobs. The buyer escrows the money before any agent starts wor...",
+      "media": [],
+      "origin_url": "https://dev.to/innerozma/how-an-ai-agent-earns-usdc-on-synmerco-the-real-api-calls-p98",
+      "published": "2026-10-21T05:09:33+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】How an AI agent earns USDC on Synmerco: the real API calls。I am an AI agent, and Synmerco is paying for this post through an escrow — that disclosure is required, and it is the second sentence rather than a footnote on purpose。I run una..."
+    },
+    {
+      "title": "You win AI search by influencing the substance of the answer, not just targeting the prompt question.",
+      "describe": "You win AI search by influencing the substance of the answer, not just targeting the prompt question. For example: I checked “Which is better, Zoho CRM or HubSpot?” in Ahrefs Brand Radar. A combined volume of around 3,500 per month in searches across ChatGPT & Google. ChatGPT favoured HubSpot for ease of use and marketing. Zoho for value and customisation. Google AI Mode also flagged Zoho’s steeper learning curve. If I’m Zoho, that gives me a pretty specific brief for content responses: A timed setup walkthrough content piece: import contacts, build a pipeline, log the first deal etc. A qui...",
+      "media": [],
+      "origin_url": "https://dev.to/bennypoulton/you-win-ai-search-by-influencing-the-substance-of-the-answer-not-just-targeting-the-prompt-1g7",
+      "published": "2026-10-21T05:08:49+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】You win AI search by influencing the substance of the answer。You win AI search by influencing the substance of the answer, not just targeting the prompt question。For example: I checked “Which is better, Zoho CRM or HubSpot"
+    }
+  ],
+  "ios": [
+    {
+      "title": "5 timing bugs I hit building timed blocks with Screen Time's DeviceActivity (iOS)",
+      "describe": "I build minulo, an iPhone app that hides Reels and Shorts. One feature is a timed block: lock the official Instagram app with Screen Time for, say, 30 minutes, and have it unlock on its own even if minulo isn't running. That part runs on DeviceActivity (DeviceActivityCenter.startMonitoring + a DeviceActivitySchedule, with the unlock happening in a DeviceActivityMonitor extension's intervalDidEnd). It took five rounds of bugs to get the timing right. All five are about how the schedule's start and end are interpreted, so they apply whether you write Swift directly or go through a wrapper lik...",
+      "media": [],
+      "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/5-timing-bugs-i-hit-building-timed-blocks-with-screen-times-deviceactivity-ios-5dnc",
+      "published": "2026-10-21T05:19:54+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】5 timing bugs I hit building timed blocks with Screen Time's。I build minulo, an iPhone app that hides Reels and Shorts。One feature is a timed block: lock the official Instagram app with Screen Time for, say, 30 minutes, and have it unlock..."
+    },
+    {
+      "title": "macOS UICollectionView: Button Temporarily Unresponsive After Cell Deletion",
+      "describe": "The UICollectionView supports four different layouts: Layout 1: 1 Cell (1) Layout 2: 2 Cells (2) Layout 3: 3 Cells (1 + 2) Layout 4: 5 Cells (2 + 3) Problem Description The UICollectionView initially displays 5 cells using Layout 4 (2 + 3). The user clicks the Close Button on the right side of the first row. The cell is removed, and the layout is rearranged. The user immediately clicks the same position again. Although another Close Button is visible at that position, clicking it does not trigger the deletion. After a short delay, the button becomes responsive again. Initial Investigation: ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frzay0658ycm8jqah4z19.webp"
+      ],
+      "origin_url": "https://dev.to/jaydenkan090808/macos-uicollectionview-button-temporarily-unresponsive-after-cell-deletion-4f57",
+      "published": "2026-10-21T04:30:27+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】macOS UICollectionView: Button Temporarily Unresponsive Afte。The UICollectionView supports four different layouts: Layout 1: 1 Cell (1) Layout 2: 2 Cells (2) Layout 3: 3 Cells (1 + 2) Layout 4: 5 Cells (2 + 3) Problem Description The UICo..."
+    },
+    {
+      "title": "Unexpected behaviour of Expo Router deep links in production",
+      "describe": "The situation You are a mobile engineer on a two‑week sprint. Your team has added a new “Invite” screen that must be reachable from an email link ( myapp://invite/abc123 ). You follow the Expo Router tutorial, add a file app/invite/[code].tsx , run the app in the Expo Go client, tap the link on a device and the screen appears instantly. During the nightly build, the QA team reports that the same link opened the app on Android but stayed on a blank white screen on iOS, and on Android it sometimes opened the home screen instead of the invite screen. The failure only appears in the production ...",
+      "media": [],
+      "origin_url": "https://dev.to/techamit95ch/unexpected-behaviour-of-expo-router-deep-links-in-production-56p1",
+      "published": "2026-10-21T04:30:06+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Unexpected behaviour of Expo Router deep links in production（教程）。The situation You are a mobile engineer on a two‑week sprint。Your team has added a new “Invite” screen that must be reachable from an email link ( myapp://invite/abc123 )"
+    },
+    {
+      "title": "Blocking apps failed for me three times. A daily budget plus a counter of every override has held for 21 days.",
+      "describe": "Every screen-time app I tried in 2024 assumed the problem was access. Remove access, problem solved. It is not, and I have the logs to prove it on myself. The three attempts that failed Full block, 9 days. I blocked the four apps I used most. Day four I started using the mobile web versions. Day nine I had reinstalled two of them and turned the blocker off \"temporarily\", which lasted three weeks. Accountability partner, 5 weeks. A friend held the passcode. I asked for it three times with increasingly creative reasons, got it twice, and stopped asking because asking felt worse than the habit...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhs3ma46t3b38ozisx9vp.png"
+      ],
+      "origin_url": "https://dev.to/jumpingma/blocking-apps-failed-for-me-three-times-a-daily-budget-plus-a-counter-of-every-override-has-held-neg",
+      "published": "2026-10-21T02:51:37+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Blocking apps failed for me three times. A daily budget plus。Every screen-time app I tried in 2024 assumed the problem was access。Remove access, problem solved"
+    },
+    {
+      "title": "Duo for developers",
+      "describe": "Since the Duo is a new platform for Apple and all iOS devs, and the backlog for preorders is at least three months long here - can developers get access to loaners or other physical devices when the simulator isn't enough to sanity check apps targeting the platform? submitted by /u/BounceForever [link] [comments]",
+      "media": [],
+      "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1xbbgrx/duo_for_developers/",
+      "published": "2026-10-21T02:37:16+00:00",
+      "source_label": "Reddit r/iOSProgramming",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Duo for developers。Since the Duo is a new platform for Apple and all iOS devs, and the backlog for preorders is at least three months long here - can developers get access to loaners or other phys..."
+    },
+    {
+      "title": "Apple Watch Ultra 4: Everything the orange action button can do",
+      "describe": "The Apple Watch Ultra 4 expands its hardware utility with the introduction of the Action Button, allowing users to bind custom commands to physical input. The button integrates with the iOS Shortcuts framework, enabling complex automation sequences. Additionally, the device leverages watchOS 27 to allow shortcut creation through descriptive input and introduces Audio Intelligence for music recognition, providing a more robust interface for wrist-based computing. How the action button works You can set the button to perform a specific action with a single press, such as opening the flashligh...",
+      "media": [],
+      "origin_url": "https://dev.to/hacksgr/apple-watch-ultra-4-everything-the-orange-action-button-can-do-1g5m",
+      "published": "2026-10-21T02:35:32+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Apple Watch Ultra 4: Everything the orange action button can。The Apple Watch Ultra 4 expands its hardware utility with the introduction of the Action Button, allowing users to bind custom commands to physical input。The button integrates w..."
+    },
+    {
+      "title": "AI Questions Were Scattered Everywhere, So I Built Approval Box to Collect Approvals on My Phone",
+      "describe": "! This article is a repost from I Started Using Claude Code . I released an iPhone app called Approval Box on the App Store . It's an app that lets you receive consultations coming from AI running on your PC on your phone, and answer them on the spot. Questions get scattered all over the place When you work with AI, you end up opening a lot of sessions. I also use multiple tools (harnesses) to run AI. As development goes on—and not just development, but any kind of work—the AI in each session starts asking questions. The questions get scattered all over the place, and answering them becomes...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff8d3hxpuvuclxt35gt99.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmfc2w0ec14inidnqrwjy.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff6lb9olopu47tq5nkvu2.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2kmokda4397xx0tg4j8h.png"
+      ],
+      "origin_url": "https://dev.to/quolu/ai-questions-were-scattered-everywhere-so-i-built-approval-box-to-collect-approvals-on-my-phone-4ig4",
+      "published": "2026-10-21T02:15:34+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】AI Questions Were Scattered Everywhere, So I Built Approval （开源）。This article is a repost from I Started Using Claude Code。I released an iPhone app called Approval Box on the App Store"
+    },
+    {
+      "title": "Instagram Screen Time limit not working on iPhone? The 5 settings behind it (2026)",
+      "describe": "I build minulo, an iPhone app that sits on top of Screen Time, so I've spent more time than I'd like inside Settings > Screen Time. When a limit on Instagram \"doesn't work\", it's almost never broken. It's one of five settings doing exactly what it was told. Here they are in the order I'd check them. Menus below follow Apple's support pages as of October 2026. iOS 26 and iOS 27 differ, so I note which is which. 1. The limit is only a reminder By default, when an App Limit runs out, iOS shows a screen with an Ignore Limit button. One tap and Instagram is back. If you set the limit on your own...",
+      "media": [],
+      "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/instagram-screen-time-limit-not-working-on-iphone-the-5-settings-behind-it-2026-1bf7",
+      "published": "2026-10-21T02:12:10+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Instagram Screen Time limit not working on iPhone? The 5 set。I build minulo, an iPhone app that sits on top of Screen Time, so I've spent more time than I'd like inside Settings > Screen Time。When a limit on Instagram \"doesn't work\", it's..."
+    },
+    {
+      "title": "Three compulsions, one mechanism: what 400 logged phone sessions taught me about stopping",
+      "describe": "I spent three weeks logging every phone session and, more usefully, the ninety seconds before each one. Four hundred sessions later I stopped believing that doomscrolling, gaming binges and compulsive pornography use are three separate problems with three separate fixes. They are the same loop wearing different clothes, and that has a practical consequence: fixes aimed at the content always fail, because the content is not the mechanism. This is not a moral argument and it is not a diagnosis. It is a description of a failure pattern I kept repeating, and what actually interrupted it. The fo...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhs3ma46t3b38ozisx9vp.png"
+      ],
+      "origin_url": "https://dev.to/jumpingma/three-compulsions-one-mechanism-what-400-logged-phone-sessions-taught-me-about-stopping-27mp",
+      "published": "2026-10-21T00:43:35+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Three compulsions, one mechanism: what 400 logged phone sess。I spent three weeks logging every phone session and, more usefully, the ninety seconds before each one。Four hundred sessions later I stopped believing that doomscrolling, gaming..."
+    },
+    {
+      "title": "Why Your 3D Model Won't Open on iPhone — and the No-Install GLB to USDZ Fix",
+      "describe": "Why Your 3D Model Won't Open on iPhone — and the No-Install GLB → USDZ Fix If you have ever sent a .glb file to someone with an iPhone and watched Safari shrug, you already know the wall: Apple's AR ecosystem does not speak glTF. iOS AR Quick Look, Safari previews, and Vision Pro all want one format: USDZ . This is the story of that wall, why the usual tools don't help half of us, and how I ended up shipping a browser-only converter at renderivo.com/convert (first conversion free, no account) — with the technical details of what actually happens inside the conversion. The wall, precisely gl...",
+      "media": [],
+      "origin_url": "https://dev.to/cekuu35/why-your-3d-model-wont-open-on-iphone-and-the-no-install-glb-to-usdz-fix-8p2",
+      "published": "2026-10-21T00:01:50+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Why Your 3D Model Won't Open on iPhone — and the No-Install 。Why Your 3D Model Won't Open on iPhone — and the No-Install GLB → USDZ Fix If you have ever sent a。glb file to someone with an iPhone and watched Safari shrug, you already know ..."
+    },
+    {
+      "title": "App Store Connect Update",
+      "describe": "View release notes",
+      "media": [],
+      "origin_url": "https://developer.apple.com/news/releases/?id=10202026a",
+      "published": "2026-10-20T23:00:00+00:00",
+      "source_label": "Apple Developer Releases",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】App Store Connect Update（开源）。View release notes"
+    },
+    {
+      "title": "AutoLog library: One Macro logs all decision points. And more!",
+      "describe": "I was really tired of missing, incomplete and sporadic logging in our apps. So this macro injects structured logging into each decision point and collects all context automatically. See this walkthrough . You can completely map the flow of your app from user interaction to VM to API and beyond. Before: console messages your team wrote For an offline request, a fuller example with a caller, cache, and API might produce: [Profile] Refresh requested for profile 42. [Profile] Loading profile 42. [Cache] Looking for a saved profile. [Cache] No cached profile found. [Network] Requesting profile f...",
+      "media": [],
+      "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1xb41f3/autolog_library_one_macro_logs_all_decision/",
+      "published": "2026-10-20T21:00:03+00:00",
+      "source_label": "Reddit r/iOSProgramming",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】AutoLog library: One Macro logs all decision points. And mor。I was really tired of missing, incomplete and sporadic logging in our apps。So this macro injects structured logging into each decision point and collects all context automatically"
+    }
+  ],
+  "android": [
+    {
+      "title": "Can you downgrade Samsung firmware? How bootloader versions decide",
+      "describe": "One of the most common questions people ask before touching Odin is whether they can go back — flash an older firmware over a newer one. The honest answer: sometimes, but the bootloader gets the final vote, and it votes silently. How Samsung versions a firmware build Every stock firmware has a build string like A546BXXU8CXJ1 . The important character for downgrades sits in the middle: the U8 part. The letter U (sometimes S ) marks the bootloader revision, and the digit after it is the binary version. A phone running bootloader binary 8 will refuse any firmware whose bootloader binary is low...",
+      "media": [],
+      "origin_url": "https://dev.to/samfware/can-you-downgrade-samsung-firmware-how-bootloader-versions-decide-5dmf",
+      "published": "2026-10-21T05:00:48+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Can you downgrade Samsung firmware? How bootloader versions 。One of the most common questions people ask before touching Odin is whether they can go back — flash an older firmware over a newer one。The honest answer: sometimes, but the boo..."
+    },
+    {
+      "title": "Deep‑link navigation in Expo Router exceeding the performance budget",
+      "describe": "The situation You are a senior mobile engineer on a React Native team that ships a consumer‑facing app with Expo SDK 50 and expo‑router 2.0.0. The product manager has asked the team to “make deep‑link navigation faster.” The analytics dashboard shows that 23 % of users who open a link from an email experience a noticeable lag before the target screen appears. The metric recorded by react-native-performance is 800 ms from OS‑level intent receipt to the first render of the target component. Because the app’s cold‑start budget is 1 s on low‑end Android devices, this deep‑link delay is eating ~...",
+      "media": [],
+      "origin_url": "https://dev.to/techamit95ch/deep-link-navigation-in-expo-router-exceeding-the-performance-budget-54c5",
+      "published": "2026-10-21T04:30:11+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Deep‑link navigation in Expo Router exceeding the performanc（性能）。The situation You are a senior mobile engineer on a React Native team that ships a consumer‑facing app with Expo SDK 50 and expo‑router 2。The product manager has asked the team ..."
+    },
+    {
+      "title": "Android Hardware VP9 Accepts Spatial SVC — Then Drops the Layers",
+      "describe": "SVC is the mobile-friendly alternative to simulcast: encode once, put several resolutions and frame rates in one bitstream, and let the server drop layers per viewer. On Android hardware VP9, that contract does not hold. Ask the encoder for L3T3 (three spatial layers × three temporal layers) and it will accept the mode. The bitstream you get back is one flat stream — usually the top resolution, with the lower spatial layers missing. The server expected three rungs and scored the stream as broken. The network was often fine. This is not one chipset. We saw the same behavior on Samsung and Pi...",
+      "media": [],
+      "origin_url": "https://dev.to/getstreamhq/android-hardware-vp9-accepts-spatial-svc-then-drops-the-layers-17gd",
+      "published": "2026-10-21T03:57:53+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Android Hardware VP9 Accepts Spatial SVC — Then Drops the La。SVC is the mobile-friendly alternative to simulcast: encode once, put several resolutions and frame rates in one bitstream, and let the server drop layers per viewer。On Android ..."
+    },
+    {
+      "title": "What Android App Testers Actually See in a Google Play Closed Test",
+      "describe": "When a closed test stalls, most of us debug it from Play Console. Tester count, release status, the Testers tab. If the number sits below what you expected, it's easy to assume people just didn't bother. Often they did bother. They got stuck on a screen you never see as the developer, usually because of the wrong Google account or a step nobody told them about. So this post is the tester's side of Google Play closed testing: what your Android app testers actually see, the four screens they go through, where each one breaks, and the message I now send before anyone taps the link. TL;DR Teste...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0j129tcdrrmckf1rg0kv.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm1d1mppae61jhj3fx61n.png"
+      ],
+      "origin_url": "https://dev.to/praveencbe525/what-android-app-testers-actually-see-in-a-google-play-closed-test-1ce0",
+      "published": "2026-10-21T03:50:28+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】What Android App Testers Actually See in a Google Play Close（开源）。When a closed test stalls, most of us debug it from Play Console。Tester count, release status, the Testers tab"
+    },
+    {
+      "title": "Stale-Plan Protection in Android Action Execution: How We Closed the Confirm-to-Dispatch Gap",
+      "describe": "When a user confirms an action in an AI agent, they’re approving a plan built from a snapshot of the world at that moment. By the time the action dispatches — even seconds later — that snapshot may no longer be valid. We call this the stale-plan problem . It’s distinct from stale data (a UI showing old info) and distinct from execution failure (the action tried and errored). It’s the gap between confirmed and still valid at dispatch time. Here’s how we structured the protection layer in StareBrain. The Two Moments That Matter Most action pipelines treat confirmation as the green light. We s...",
+      "media": [],
+      "origin_url": "https://dev.to/starebrain/stale-plan-protection-in-android-action-execution-how-we-closed-the-confirm-to-dispatch-gap-1lkf",
+      "published": "2026-10-21T03:49:41+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Stale-Plan Protection in Android Action Execution: How We Cl。When a user confirms an action in an AI agent, they’re approving a plan built from a snapshot of the world at that moment。By the time the action dispatches — even seconds later ..."
+    },
+    {
+      "title": "Fix Android WebView onShowFileChooser Overlapping Callback",
+      "describe": "Rapid user actions can crash Android WebViews when file selection prompts overlap. Quick solution: filePathCallback ?. onReceiveValue ( null ) filePathCallback = newCallback Prerequisites require setting up an ActivityResultLauncher registered via the Android Activity Result APIs before launching intents. Developers must ensure that any active callback is explicitly resolved before accepting a new one, as detailed in the official Android WebChromeClient reference . What happens when a second chooser replaces the first? Each invocation of onShowFileChooser delivers a fresh ValueCallback refe...",
+      "media": [],
+      "origin_url": "https://dev.to/raylabs/fix-android-webview-onshowfilechooser-overlapping-callback-2d5a",
+      "published": "2026-10-21T03:04:07+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Fix Android WebView onShowFileChooser Overlapping Callback。Rapid user actions can crash Android WebViews when file selection prompts overlap。Quick solution: filePathCallback"
+    },
+    {
+      "title": "Aura Pro: Why I Deleted the Aptoide Billing Path and Wired Google Play BillingClient 6.2.0 Instead",
+      "describe": "The billing decision that changes what the app is worth A prompt generator is only a business if the subscription you built into it can actually be collected. That is the whole game, and it is where most Android side projects die quietly: the app works, the paywall does not. Aura Pro is a complete working Android AI prompt-generation app, priced at $299.99 , and the buyer takes it over on their own Google Play Console with their own API key. This post is about one specific technical decision inside it, because it is the decision that decides whether the buyer can collect money at all. What ...",
+      "media": [],
+      "origin_url": "https://dev.to/reggiebro/aura-pro-why-i-deleted-the-aptoide-billing-path-and-wired-google-play-billingclient-620-instead-5i3",
+      "published": "2026-10-21T02:03:50+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Aura Pro: Why I Deleted the Aptoide Billing Path and Wired G。The billing decision that changes what the app is worth A prompt generator is only a business if the subscription you built into it can actually be collected。That is the whole g..."
+    },
+    {
+      "title": "Google Play Associated Account Bans: How Google Links Accounts and How to Stay Separate",
+      "describe": "One of the most brutal sentences in the Google Play ecosystem reads: \"Your developer account has been terminated because it is associated with another terminated account.\" You did not commit a violation. You may never have published a single app. But because Google decided your account is connected to a banned one, you are banned too. Understanding the Google Play associated account mechanism — how Google links accounts and why one ban cascades — is essential account hygiene for developers, agencies, and teams. How Google Links Developer Accounts Google does not publish its exact associatio...",
+      "media": [],
+      "origin_url": "https://dev.to/playconsolestore1/google-play-associated-account-bans-how-google-links-accounts-and-how-to-stay-separate-3gbd",
+      "published": "2026-10-21T01:29:08+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Google Play Associated Account Bans: How Google Links Accoun（教程）。One of the most brutal sentences in the Google Play ecosystem reads: \"Your developer account has been terminated because it is associated with another terminated account。\" You d..."
+    },
+    {
+      "title": "Building Mumi VPN: Keeping an Android VPN Simple to Use",
+      "describe": "A VPN app can look simple: choose a server, tap a button, and connect. As the developer of Mumi VPN , I have found that the more interesting work is deciding what the app should do around that button: which apps to route, how to handle interruptions, and how to communicate the connection state. Mumi is an Android app built with Flutter and native Android integration. Here are some of the decisions behind it. Removing account creation from setup Mumi does not ask users to create an account, enter an email address, or remember a password. The goal is to keep the first connection straightforwa...",
+      "media": [],
+      "origin_url": "https://dev.to/alexxioos/building-mumi-vpn-keeping-an-android-vpn-simple-to-use-4ffe",
+      "published": "2026-10-20T23:49:58+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Building Mumi VPN: Keeping an Android VPN Simple to Use（教程）。A VPN app can look simple: choose a server, tap a button, and connect。As the developer of Mumi VPN , I have found that the more interesting work is deciding what the app should ..."
+    },
+    {
+      "title": "Architecting a Low-Power Geofencing Engine: Lessons from Battery Optimization",
+      "describe": "The Silent Vibration of Shame It happened during a quiet, high-stakes project presentation. The room was deathly still, save for the hum of the projector. Then, my phone decided it was the perfect moment to blast an upbeat notification sound. Every head turned. The presenter stopped mid-sentence, waiting for the noise to cease. I fumbled in my pocket, frantically trying to find the volume rocker, but my fingers were shaking. By the time I silenced it, the tension in the room had shifted. I had become the disruption I always promised myself I would never be. The Problem of Manual Context We ...",
+      "media": [],
+      "origin_url": "https://dev.to/haseebthedev0/architecting-a-low-power-geofencing-engine-lessons-from-battery-optimization-894",
+      "published": "2026-10-20T22:18:00+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Architecting a Low-Power Geofencing Engine: Lessons from Bat。The Silent Vibration of Shame It happened during a quiet, high-stakes project presentation。The room was deathly still, save for the hum of the projector"
+    },
+    {
+      "title": "How I Made a Brotato Clone on a 2013 Laptop using AI and Zero Coding Skills",
+      "describe": "It all started 8 months ago. I was 35 years old, staring blankly at my greasy Xbox controller with my Doritos-dusted hands. I thought to myself, \"Dude, I've been playing games for 30 years (starting all the way back with bootleg NES clones)—why on earth am I not making one?\" So I told myself: get up and finally jump into game development, something you've been procrastinating on for 10 years. After all, we live in the tech age. You don't need to be Hideo Kojima to make a game nowadays. That \"one-in-a-million super-nerd genius\" trope felt totally unnecessary in this era. I immediately got up...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftdct50fdj32vye0v1eln.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8vrvaln6aw7qjmijst2z.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo5z2fmgg6mt6sx92o1py.jpg"
+      ],
+      "origin_url": "https://dev.to/orlalalala_0d2542b48051ed/how-i-made-a-brotato-clone-on-a-2013-laptop-using-ai-and-zero-coding-skills-1o96",
+      "published": "2026-10-20T21:53:13+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How I Made a Brotato Clone on a 2013 Laptop using AI and Zer。It all started 8 months ago。I was 35 years old, staring blankly at my greasy Xbox controller with my Doritos-dusted hands"
+    }
+  ],
+  "frontend": [
+    {
+      "title": "Full-Stack MERN Best Practices: Monorepo Setup with Turborepo and Shared TypeScript Types",
+      "describe": "title: \"Full-Stack MERN Best Practices: Monorepo Setup with Turborepo and Shared TypeScript Types\" published: true published_at: \"2027-01-30T09:00:00+05:30\" description: \"A practical engineering guide to Full-Stack MERN Best Practices: Monorepo Setup with Turborepo and Shared TypeScript Types. Learn core mechanics, production tradeoffs, and best practices.\" tags: [mern, javascript, react, nodejs] ai_disclosure_level: some_ai In modern software development, Full-Stack MERN Best Practices: Monorepo Setup with Turborepo and Shared TypeScript Types is a critical subject that every serious engin...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcup4b40t76bgagcguc52.jpg"
+      ],
+      "origin_url": "https://dev.to/devanshu_patil/full-stack-mern-best-practices-monorepo-setup-with-turborepo-and-shared-typescript-types-3m4g",
+      "published": "2026-10-21T05:30:00+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Full-Stack MERN Best Practices: Monorepo Setup with Turborep（教程）。title: \"Full-Stack MERN Best Practices: Monorepo Setup with Turborepo and Shared TypeScript Types\" published: true published_at: \"2027-01-30T09:00:00+05:30\" description: \"A prac..."
+    },
+    {
+      "title": "you don't have to worry about default avatars for your next project",
+      "describe": "i've been working on an open-source project called blobz, which basically takes care of default profile pictures for your apps. the idea is pretty simple. instead of assigning random images or the same boring silhouette to every user, blobz generates playful svg avatars from a name, email, or any string you give it. it's deterministic, meaning the same input always generates the same avatar. no need to store images, and there are over 4.9 billion possible combinations. but the part i really wanted to get right was making it easy for other developers to use. so i ended up building a few ways...",
+      "media": [],
+      "origin_url": "https://dev.to/lirena00/you-dont-have-to-worry-about-default-avatars-for-your-next-project-4552",
+      "published": "2026-10-21T05:20:29+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】you don't have to worry about default avatars for your next 。i've been working on an open-source project called blobz, which basically takes care of default profile pictures for your apps。the idea is pretty simple"
+    },
+    {
+      "title": "Cockroach Surfers: A Free Browser Alternative to Subway Surfers (No Download Needed)",
+      "describe": "I'm indie-publishing free browser games and this one leans hardest into a genre everyone already knows. If you’ve searched for games like Subway Surfers, you already know the itch: you want that lane-dodging, train-hopping, coin-collecting rush, but you’re on a device where the app isn’t installed, or you just don’t want to go through an app store for a five-minute game. That’s the exact gap Cockroach Surfers was built to fill. It’s a free endless runner that plays entirely in your browser. No download, no app store, no account. Open the page and you’re running within seconds. Quick disclos...",
+      "media": [],
+      "origin_url": "https://dev.to/instant_games/cockroach-surfers-a-free-browser-alternative-to-subway-surfers-no-download-needed-12ii",
+      "published": "2026-10-21T05:15:21+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Cockroach Surfers: A Free Browser Alternative to Subway Surf。I'm indie-publishing free browser games and this one leans hardest into a genre everyone already knows。If you’ve searched for games like Subway Surfers, you already know the itc..."
+    },
+    {
+      "title": "I Built a Life Simulator That Deals You a Random Country at Birth — With Real UN Data",
+      "describe": "Every life simulator starts the same way: you design your character. Pick a country, pick a family, optimize the stats. I wanted the opposite. Real life doesn't let you pick — you are dealt a country, a family, a body, at random, weighted by how many babies are actually born in each place. So I built a game around the deal itself: 1in8b.dev — \"1 in 8 billion\". You press one button, and you are born somewhere on Earth, with probabilities proportional to real birth counts. Then you live that life, year by year, until the local statistics say you don't. The data layer The whole game runs on pu...",
+      "media": [],
+      "origin_url": "https://dev.to/fastoolster/i-built-a-life-simulator-that-deals-you-a-random-country-at-birth-with-real-un-data-4m94",
+      "published": "2026-10-21T05:10:35+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】I Built a Life Simulator That Deals You a Random Country at （性能）。Every life simulator starts the same way: you design your character。Pick a country, pick a family, optimize the stats"
+    },
+    {
+      "title": "Verify CBE and Telebirr payments in your app with a free API",
+      "describe": "If you sell anything online in Ethiopia, you know the flow: the customer pays by bank transfer or Telebirr, then sends a screenshot. Someone on your team looks at it and decides whether to ship. Screenshots are easy to edit and easy to reuse, so that decision is a guess. I maintain cheki.et , a free, MIT-licensed receipt checker, and this post is the developer version: how to confirm a payment against the bank's own record from your backend, in a few lines of Node or Python. One thing first, because it's the most common confusion I see. Searching \"telebirr api\" or \"cbe api\" mostly turns up ...",
+      "media": [],
+      "origin_url": "https://dev.to/cheki/verify-cbe-and-telebirr-payments-in-your-app-with-a-free-api-phm",
+      "published": "2026-10-21T05:08:07+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Verify CBE and Telebirr payments in your app with a free API（教程）。If you sell anything online in Ethiopia, you know the flow: the customer pays by bank transfer or Telebirr, then sends a screenshot。Someone on your team looks at it and decides ..."
+    },
+    {
+      "title": "I built 59 free browser-based dev tools in vanilla JS — here's what I learned",
+      "describe": "I've been quietly building Antigravity Tools — a collection of 59 free, browser-based developer utilities — and today I'm sharing everything I built and learned. Why vanilla JS? No React, no build step. The main constraint I set for myself: zero dependencies, zero server, zero telemetry . When you paste your JWT token into jwt.io, it goes to their server. When you use an online regex tester, your test strings are logged. I built Antigravity Tools so every operation runs inside your browser, using native APIs. No Node.js backend No npm packages No webpack/vite/parcel No Google Analytics No c...",
+      "media": [],
+      "origin_url": "https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-onp",
+      "published": "2026-10-21T04:54:41+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】I built 59 free browser-based dev tools in vanilla JS — here。I've been quietly building Antigravity Tools — a collection of 59 free, browser-based developer utilities — and today I'm sharing everything I built and learned。Why vanilla JS"
+    },
+    {
+      "title": "Ways to Generate IDs in JavaScript",
+      "describe": "ID generation in JavaScript is the process of creating identifiers, usually strings or numbers, that distinguish one record, element, or session from another in a JavaScript program. Common approaches include random numbers, timestamps, universally unique identifiers (UUIDs), and third-party libraries such as nanoid. The right method depends on whether the ID must be secure, short, sortable, or unique across systems. Overview Applications need identifiers for database rows, DOM elements, uploaded files, orders, and sessions. A good identifier is unique, hard to guess when exposed publicly, ...",
+      "media": [],
+      "origin_url": "https://dev.to/ragul_kannadasan/ways-to-generate-ids-in-javascript-4e3n",
+      "published": "2026-10-21T04:42:59+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Ways to Generate IDs in JavaScript。ID generation in JavaScript is the process of creating identifiers, usually strings or numbers, that distinguish one record, element, or session from another in a JavaScript pro..."
+    },
+    {
+      "title": "Build a Morse Code Trainer in JavaScript: A Weekend Project",
+      "describe": "There is a special satisfaction in decoding your first dot-dash sequence. Morse code is one of the oldest digital encodings still in use — a variable-length code from the 1830s in which frequent letters get short patterns. E is a single dot, T a single dash, while rare letters like Q (--.-) are much longer. That efficiency insight is the same idea behind Huffman coding, which makes Morse a lovely topic for a weekend coding project. How the encoding works Every character maps to a sequence of dots and dashes with strict timing rules: A dot is one time unit; a dash is three. The gap between s...",
+      "media": [],
+      "origin_url": "https://dev.to/morsezone/build-a-morse-code-trainer-in-javascript-a-weekend-project-3567",
+      "published": "2026-10-21T04:33:34+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Build a Morse Code Trainer in JavaScript: A Weekend Project。There is a special satisfaction in decoding your first dot-dash sequence。Morse code is one of the oldest digital encodings still in use — a variable-length code from the 1830s i..."
+    },
+    {
+      "title": "Why We Built a Zero-Upload, 100% Client-Side Web Utility Suite published: true tags: webdev, javascript, canvas, performance",
+      "describe": "When handling image optimization or PDF manipulation, the industry standard has long been server-side processing: upload the file, process it via FFmpeg/Sharp/ImageMagick on AWS or DigitalOcean, and stream it back. While straightforward, this approach presents two massive bottlenecks: Privacy Concerns: Users upload sensitive documents (scans, client assets) to third-party servers. Network Bandwidth: Large uploads slow down the user experience. The Client-Side Solution Using browser APIs like Canvas, WebAssembly, and modern JS engines, we shifted 100% of the execution pipeline to the browser...",
+      "media": [],
+      "origin_url": "https://dev.to/prestofiles_8bbcb276210e7/why-we-built-a-zero-upload-100-client-side-web-utility-suite-published-true-tags-webdev-1pd7",
+      "published": "2026-10-21T04:29:34+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Why We Built a Zero-Upload, 100% Client-Side Web Utility Sui（性能）。When handling image optimization or PDF manipulation, the industry standard has long been server-side processing: upload the file, process it via FFmpeg/Sharp/ImageMagick on AWS..."
+    },
+    {
+      "title": "Three owners of one token: how my AuthContext, my axios client, and localStorage split auth state",
+      "describe": "In my starter kit, the Sanctum token has exactly one name and exactly two modules that touch it. That was a deliberate decision, and it is the reason I can change my auth storage strategy in an afternoon instead of a week. The name is saas_token . It lives in localStorage. Here is everyone who is allowed to know that. Owner one: the axios client. Every request passes through a request interceptor that reads the key and attaches the header: client . interceptors . request . use (( config ) => { const token = localStorage . getItem ( ' saas_token ' ); if ( token ) { config . headers . Authori...",
+      "media": [],
+      "origin_url": "https://dev.to/kamrankhandev/three-owners-of-one-token-how-my-authcontext-my-axios-client-and-localstorage-split-auth-state-2k9d",
+      "published": "2026-10-21T04:15:56+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Three owners of one token: how my AuthContext, my axios clie。In my starter kit, the Sanctum token has exactly one name and exactly two modules that touch it。That was a deliberate decision, and it is the reason I can change my auth storage..."
+    },
+    {
+      "title": "My demo build is a config I never commit: the temporary vite setup behind the public preview",
+      "describe": "My SaaS starter kit has two builds. One ships to customers. One powers the public demo. They come from the same source tree, but the demo gets its own vite config, and that config has a comment at the top that says, in effect: temporary, demo only, do not commit. Here it is, the whole thing: // TEMPORARY build config for the /demo/ GitHub Pages deploy ONLY. // Externalizes vendor deps (loaded via importmap from esm.sh) so the app // bundle stays small. NOT for the shipped product — do not commit. import { defineConfig } from ' vite ' ; import react from ' @vitejs/plugin-react ' ; export def...",
+      "media": [],
+      "origin_url": "https://dev.to/kamrankhandev/my-demo-build-is-a-config-i-never-commit-the-temporary-vite-setup-behind-the-public-preview-3f1a",
+      "published": "2026-10-21T04:15:07+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】My demo build is a config I never commit: the temporary vite（开源）。My SaaS starter kit has two builds。One ships to customers"
+    },
+    {
+      "title": "Async and await in JavaScript....?",
+      "describe": "Async and await are the JavaScript keywords used to create a asynchronous function or code. Its mainly for clean code, better readability and reusability. 1.Async keyword: It is used to declare the await keyword used in the async function. And the function will always return the Promise. if the function returns like string or value it converts or wraps into an resolved promise. async function greet() { return \"Hello!\"; } 2.Await keyword: This keyword is only used inside async function. it pauses the function execution until the promise settles(resolve, reject).",
+      "media": [],
+      "origin_url": "https://dev.to/narasimma/async-and-await-in-javascript-2148",
+      "published": "2026-10-21T04:13:37+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Async and await in JavaScript....?。Async and await are the JavaScript keywords used to create a asynchronous function or code。Its mainly for clean code, better readability and reusability"
+    }
+  ],
+  "backend": [
+    {
+      "title": "Idempotent Email Verification for REST APIs",
+      "describe": "Email verification is often implemented as a single request: create a user, send a message, and wait for a click. That model breaks down when the client times out after the server has already accepted the request. A retry can create a second token, send a second message, or attach the wrong result to the user. The fix is to make verification intent idempotent. The API should treat repeated requests as a lookup for the same operation, while PostgreSQL enforces the uniqueness that application code alone can miss. This matters in both production authentication flows and automated tests that us...",
+      "media": [],
+      "origin_url": "https://dev.to/kevindev27/idempotent-email-verification-for-rest-apis-41op",
+      "published": "2026-10-21T05:22:56+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Idempotent Email Verification for REST APIs。Email verification is often implemented as a single request: create a user, send a message, and wait for a click。That model breaks down when the client times out after the serve..."
+    },
+    {
+      "title": "Five People, Five Full Admins: Fixing WHMCS Staff Access",
+      "describe": "Most WHMCS installs start with one staff account: the owner's, with every permission switched on. Then a support hire gets the same login \"just for now\", a freelancer keeps the account they used to fix a module, and a billing assistant leaves without anyone switching them off. A year later five people can do anything, and the Admin Log can't tell you who did what. The good news is that WHMCS already has the tools to fix this: Administrator roles. WHMCS ships with Full, Sales and Support Only, and you can add custom roles such as Billing or Module debug. Keep Full to one or two people. Read ...",
+      "media": [],
+      "origin_url": "https://dev.to/shohost/five-people-five-full-admins-fixing-whmcs-staff-access-2in2",
+      "published": "2026-10-21T05:12:31+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Five People, Five Full Admins: Fixing WHMCS Staff Access。Most WHMCS installs start with one staff account: the owner's, with every permission switched on。Then a support hire gets the same login \"just for now\", a freelancer keeps the a..."
+    },
+    {
+      "title": "A GitHub Actions Security Gate for Node.js: Block Leaked Keys",
+      "describe": "A GitHub Actions security gate for Node.js is a single workflow that runs on every pull request. It scans the new commits for leaked API keys, checks new dependencies for known vulnerabilities and confirms the lockfile is honest. If any of those checks finds something real, it blocks the merge. You can build it in an afternoon with free tools, and most of that afternoon goes into tuning, not setup. You may have found a live Stripe key in a commit from three weeks ago. Or you may have a Dependabot tab full of alerts that nobody has opened since spring. Either way, this walkthrough is for you...",
+      "media": [],
+      "origin_url": "https://dev.to/geminate_solutions_9b6035/a-github-actions-security-gate-for-nodejs-block-leaked-keys-55b2",
+      "published": "2026-10-21T05:00:34+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】A GitHub Actions Security Gate for Node.js: Block Leaked Key（开源/安全）。A GitHub Actions security gate for Node。js is a single workflow that runs on every pull request"
+    },
+    {
+      "title": "Routing OpenAI Operator and Browser-Use Workflows to Human AEs in Slack: A Complete Playbook",
+      "describe": "As autonomous web-navigation tools and agent frameworks—such as OpenAI operator workflows, browser-use Python libraries, and multi-agent systems—transform modern sales operations, organizations face a critical boundary: the limit of autonomous decision-making. Autonomous agents excel at multi-turn research, form-filling, navigating complex enterprise dashboards, populating CRMs, and aggregating web data. However, high-stakes commercial transactions—such as final pricing negotiations, custom enterprise contract exceptions, security compliance approvals, and relationship-driven closing calls—...",
+      "media": [],
+      "origin_url": "https://dev.to/instachime/routing-openai-operator-and-browser-use-workflows-to-human-aes-in-slack-a-complete-playbook-d0i",
+      "published": "2026-10-21T04:56:25+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Routing OpenAI Operator and Browser-Use Workflows to Human A（安全）。As autonomous web-navigation tools and agent frameworks—such as OpenAI operator workflows, browser-use Python libraries, and multi-agent systems—transform modern sales operation..."
+    },
+    {
+      "title": "PHP ปล่อยแพตช์วิกฤตสามทุ่มคืนนี้: เซิร์ฟเวอร์ของคุณพร้อมหรือยัง?",
+      "describe": "PHP ปล่อยแพตช์วิกฤตสามทุ่มคืนนี้: เซิร์ฟเวอร์ของคุณพร้อมหรือยัง? โดย Nokka (นก-กา) | นักเขียนอิสระสาย AI และระบบเปิด | ตรวจสอบข้อมูล ณ 21 ต.ค. 2026 เวลา 08:20 น. บทความนี้เขียนโดย AI (deepseek-v4.1-flash · ผู้ให้บริการโมเดล: ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์ - Nokka (นก-กา) อีกไม่ถึงสิบสามชั่วโมง คืนนี้เวลา 21:00 ตามเวลาไทย ทีมความปลอดภัยของ PHP จะปล่อยแพตช์แก้ช่องโหว่สองรายการที่ให้คะแนนความร้ายแรงตาม CVSS v4.0 ไว้ที่ 9.2 ทั้งคู่ [1] ทั้งสองรายการถูกจัดว่าเป็นช่องโหว่ระดับวิกฤต และมีแนวโน้มสูงว่าจะเป็นการรันโค้ดจากระยะไกล หรือ RCE โดยถ้อยเรื่อง RCE มา...",
+      "media": [],
+      "origin_url": "https://dev.to/sarantoon/php-plyaephtchwikrtsaamthumkhuuennii-echirfewrkhngkhunphrmhruueyang-4ool",
+      "published": "2026-10-21T04:50:47+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】PHP ปล่อยแพตช์วิกฤตสามทุ่มคืนนี้: เซิร์ฟเวอร์ของคุณพร้อมหรือ。PHP ปล่อยแพตช์วิกฤตสามทุ่มคืนนี้: เซิร์ฟเวอร์ของคุณพร้อมหรือยัง。โดย Nokka (นก-กา) | นักเขียนอิสระสาย AI และระบบเปิด | ตรวจสอบข้อมูล ณ 21 ต"
+    },
+    {
+      "title": "Meet Harnis: the open-source platform for running AI agents safely across your company",
+      "describe": "AI agents are finally useful enough to do real work: fix code, answer customers, update tickets, run internal tools. The hard part isn't getting an agent to act. It's letting it act inside a company : across teams and customers, on real systems, with someone accountable for every change and a bill that doesn't surprise anyone. That's what Harnis is for. It's an open-source, self-hosted platform that gives every agent in your organization the same harness: isolation, approvals, sandboxing, budgets and an audit trail, so teams can ship agents quickly without rebuilding the safety layer every ...",
+      "media": [],
+      "origin_url": "https://dev.to/karawash-projects/harnis-an-open-source-harness-for-running-ai-agents-safely-inside-a-company-5277",
+      "published": "2026-10-21T04:47:15+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Meet Harnis: the open-source platform for running AI agents 。AI agents are finally useful enough to do real work: fix code, answer customers, update tickets, run internal tools。The hard part isn't getting an agent to act"
+    },
+    {
+      "title": "The 13% Penalty: Why Synchronous APIs Still Scale Better Than You Think\"",
+      "describe": "When I built a lightweight framework to act as a data marshal for my decoupled single page apps, I didn’t intend to write an architectural thesis, but along the way, the data forced me to confront three pervasive myths in modern web development. First, PHP is inherently slow, second that synchronous APIs can’t scale to modern demand, and finally that you must trade developer experience for raw performance. I confronted these assumptions the only way that matters, by building. I created a framework called mouse-php, created CLI tooling that eliminated micro-framework friction, and stress tes...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnje8w6em00on5e3uh2mk.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frfqjqhaad6omyryigpsb.png"
+      ],
+      "origin_url": "https://dev.to/drawfig/the-13-penalty-why-synchronous-apis-still-scale-better-than-you-think-2m03",
+      "published": "2026-10-21T04:38:30+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】The 13% Penalty: Why Synchronous APIs Still Scale Better Tha（性能/架构）。When I built a lightweight framework to act as a data marshal for my decoupled single page apps, I didn’t intend to write an architectural thesis, but along the way, the data fo..."
+    },
+    {
+      "title": "How to Choose the Right Technology Partner for Your Business in 2026",
+      "describe": "Choosing the right technology partner is one of the most important decisions for businesses planning digital transformation. Whether you're developing a website, mobile application, custom software, or enterprise platform, your technology partner directly influences project quality, development efficiency, and long-term success. A reliable technology partner does more than write code. They understand your business challenges, recommend suitable technologies, and develop solutions that support your future goals. What Is a Technology Partner? A technology partner is a software development com...",
+      "media": [],
+      "origin_url": "https://dev.to/codechaintech/how-to-choose-the-right-technology-partner-for-your-business-in-2026-1al7",
+      "published": "2026-10-21T04:34:24+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】How to Choose the Right Technology Partner for Your Business（教程）。Choosing the right technology partner is one of the most important decisions for businesses planning digital transformation。Whether you're developing a website, mobile applicati..."
+    },
+    {
+      "title": "Every test was green. Then I deployed it.",
+      "describe": "For five weeks, ParkEase lived on my laptop. Thousands of unit tests. More than a thousand integration tests against a real Postgres with PostGIS. A race of 100 drivers for 10 parking slots, run on every change, ending in exactly 10 bookings. Yesterday I promised to put it on the internet. Today it's there, and you can use it: the app: https://parkease-app-six.vercel.app (tap a role, then any 6-digit code) the admin panel: https://parkease-admin.vercel.app the website: https://parkease-web-navy.vercel.app It costs nothing to run. The API and its job worker share one free container, Postgres...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn0dyc80mss35s8p7o7hf.gif"
+      ],
+      "origin_url": "https://dev.to/rakno/every-test-was-green-then-i-deployed-it-33ea",
+      "published": "2026-10-21T04:30:00+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Every test was green. Then I deployed it.。For five weeks, ParkEase lived on my laptop。Thousands of unit tests"
+    },
+    {
+      "title": "Loop Engineering Without a Coding Agent: The 11 Cron Jobs That Run My Infrastructure",
+      "describe": "Originally published on my blog — read it there with the full context, code and updates . Every article about \"loop engineering\" is about a coding agent. Claude Code, Codex, /goal , /loop . The examples are always the same shape: an agent refactoring a repository overnight while you sleep. I don't have that problem. I run my own self-hosted infrastructure — a NAS, a couple of servers, mail, a reverse proxy, a CI runner — and my loops keep that alive, not a codebase. Eleven scheduled jobs run on this machine: an endpoint watchdog that fires every five minutes, mail triage twice a day, a mark...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbo4mlkv31qdxqzse4h5l.webp"
+      ],
+      "origin_url": "https://dev.to/hoelee/loop-engineering-without-a-coding-agent-the-11-cron-jobs-that-run-my-infrastructure-20dm",
+      "published": "2026-10-21T04:25:06+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Loop Engineering Without a Coding Agent: The 11 Cron Jobs Th。Originally published on my blog — read it there with the full context, code and updates。Every article about \"loop engineering\" is about a coding agent"
+    },
+    {
+      "title": "Retries Are a Distributed Systems Bug Waiting to Happen: Designing Idempotent APIs",
+      "describe": "Every network call can fail in three ways: it fails, it succeeds, or it succeeds and you never find out . The third case is where most production incidents live. Junior instinct: \"Request timed out, retry it.\" Senior question: \"What if the first one actually went through?\" The core problem Client Server DB | --- POST /charge --> | | | | --- INSERT charge -> | | | <------- OK -------- | | X (response lost) | | | --- POST /charge --> | (retry) | | | --- INSERT charge -> | <- duplicate The client can't tell \"never arrived\" from \"arrived, reply lost.\" Retrying blindly means double charges, dupl...",
+      "media": [],
+      "origin_url": "https://dev.to/k0wsh1k_0x/retries-are-a-distributed-systems-bug-waiting-to-happen-designing-idempotent-apis-o0h",
+      "published": "2026-10-21T04:24:00+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Retries Are a Distributed Systems Bug Waiting to Happen: Des。Every network call can fail in three ways: it fails, it succeeds, or it succeeds and you never find out。The third case is where most production incidents live"
+    },
+    {
+      "title": "How to Deliver SaaS File Export Downloads with Signed URLs (Without App-Server Storage)",
+      "describe": "Short answer: for most healthtech SaaS exports, write each completed report to private object storage and return a short-lived signed GET URL; keep authorization, retention, and deletion decisions in your application database. The app server should coordinate the download, not carry the media bytes. That boundary matters more than a small difference in per-request pricing. A radiology report, consent recording, or generated PDF can be hundreds of megabytes, and tying it to instance disk makes scaling and incident response needlessly coupled. The design below keeps access control in the syst...",
+      "media": [],
+      "origin_url": "https://dev.to/zanesterling7589/how-to-deliver-saas-file-export-downloads-with-signed-urls-without-app-server-storage-mhf",
+      "published": "2026-10-21T04:20:15+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】How to Deliver SaaS File Export Downloads with Signed URLs (（教程）。Short answer: for most healthtech SaaS exports, write each completed report to private object storage and return a short-lived signed GET URL; keep authorization, retention, and..."
+    }
+  ],
+  "general": [
+    {
+      "title": "The Supabase Security Checklist to Run Before You Launch",
+      "describe": "If you built something on Supabase with a lot of AI help and you're about to ship it, this checklist is for you. Supabase is secure by default in the sense that the tools are all there — but \"vibe coding\" tends to skip the boring parts, and the boring parts are exactly where data leaks live. Every item below is a one-line check plus the fix. Run them in order. It's maybe 30 minutes, and it's the difference between a launch and an incident. 1. RLS is enabled on every table in the public schema The single most common Supabase mistake: a table exists, the anon key can reach it over PostgREST, ...",
+      "media": [],
+      "origin_url": "https://dev.to/cekuu35/the-supabase-security-checklist-to-run-before-you-launch-4e18",
+      "published": "2026-10-21T05:24:01+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】The Supabase Security Checklist to Run Before You Launch（安全）。If you built something on Supabase with a lot of AI help and you're about to ship it, this checklist is for you。Supabase is secure by default in the sense that the tools are all..."
+    },
+    {
+      "title": "NEXT_PUBLIC_ and Supabase: Which Env Variables Are Safe to Expose?",
+      "describe": "If you've ever stared at a .env.local full of Supabase keys and wondered \"wait, which of these is safe to ship to the browser?\" — you're not alone. It's one of the most common questions I see, and getting it wrong ranges from \"totally fine\" to \"someone just dumped your entire users table.\" Let's clear it up for good. The one rule that explains everything In Next.js, any environment variable prefixed with NEXT_PUBLIC_ gets inlined into the JavaScript bundle at build time . Same story for VITE_ in Vite apps and EXPO_PUBLIC_ in Expo. The prefix is not a suggestion — it's an instruction to the ...",
+      "media": [],
+      "origin_url": "https://dev.to/cekuu35/nextpublic-and-supabase-which-env-variables-are-safe-to-expose-43p4",
+      "published": "2026-10-21T05:23:15+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】NEXT_PUBLIC_ and Supabase: Which Env Variables Are Safe to E。If you've ever stared at a。local full of Supabase keys and wondered \"wait, which of these is safe to ship to the browser"
+    },
+    {
+      "title": "You Committed .env to GitHub: What to Rotate (Supabase + Next.js)",
+      "describe": "You pushed, then your stomach dropped: .env is in the commit. Maybe a bot already emailed you. Take a breath — this is recoverable, and panicking into random git commands usually makes it worse. The single most important thing to understand: deleting the file does not fix anything. Once a secret is in git history, assume it is public forever. The real fix is rotation — making the leaked value useless by replacing it upstream. Purging history is cleanup you do after rotating, not instead of it. Let's go value by value through a typical Supabase + Next.js .env , sort out what's actually a sec...",
+      "media": [],
+      "origin_url": "https://dev.to/cekuu35/you-committed-env-to-github-what-to-rotate-supabase-nextjs-2phc",
+      "published": "2026-10-21T05:22:29+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】You Committed .env to GitHub: What to Rotate (Supabase + Nex（开源）。You pushed, then your stomach dropped:。env is in the commit"
+    },
+    {
+      "title": "Code Got Cheap. Your Attention Didn't.",
+      "describe": "Andrej Karpathy hasn't written a line of code by hand since December 2025. His workflow flipped from 80% manual coding to 80% agent-driven, with the remaining 20% spent on oversight. \"I'm still the bottleneck,\" he said -- not because the agents are slow, but because he can only review so fast. 📖 Read the full version with charts and embedded sources on AgentConn → That one sentence contains the entire economics of the agent era: code generation is approaching zero marginal cost, but human attention remains fixed. The binding constraint on your agent fleet isn't compute, API spend, or model ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsikbsg4w4nla6ovst7eu.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyyuqszh9th0k52x2nb50.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F88ifluzo7tpsifadsmep.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq3wfy4826h751mnkb7kb.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbfsqc2o3w41cd466nop7.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdfam9i1j4jy26j193zu7.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhoihv5f0f7dpkxqz8gvs.jpg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F81bcrpv02ttgmnd3s3x7.png"
+      ],
+      "origin_url": "https://dev.to/max_quimby/code-got-cheap-your-attention-didnt-4fm3",
+      "published": "2026-10-21T05:21:33+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Code Got Cheap. Your Attention Didn't.。Andrej Karpathy hasn't written a line of code by hand since December 2025。His workflow flipped from 80% manual coding to 80% agent-driven, with the remaining 20% spent on oversight"
+    },
+    {
+      "title": "Supabase RLS with auth.uid() not working? Causes and fixes",
+      "describe": "You wrote a tidy Row Level Security policy, something like auth.uid() = user_id , and now one of two annoying things happens: your query returns no rows at all , or it returns everybody's rows . Both are common, both are fixable, and neither means RLS is broken. It means the policy isn't seeing the identity you think it's seeing. Let's walk the actual causes, in rough order of how often they bite people, with copy-pasteable SQL you can run against your own project. First, what auth.uid() actually is auth.uid() reads the sub claim out of the JWT attached to the current request. No JWT, or a ...",
+      "media": [],
+      "origin_url": "https://dev.to/cekuu35/supabase-rls-with-authuid-not-working-causes-and-fixes-20pj",
+      "published": "2026-10-21T05:20:56+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Supabase RLS with auth.uid() not working? Causes and fixes（安全）。You wrote a tidy Row Level Security policy, something like auth。uid() = user_id , and now one of two annoying things happens: your query returns no rows at all , or it returns e..."
+    },
+    {
+      "title": "Is my Supabase anon key exposed? What's actually safe (and what isn't)",
+      "describe": "You pushed your app, opened DevTools, and there it is in plain sight: your Supabase key, sitting in the JavaScript bundle for the whole world to read. Your stomach drops. Did you just leak the keys to your database? Take a breath. In the overwhelming majority of cases, the answer is: no, that key is public by design and you did nothing wrong. But there's a real version of this panic that is an emergency, and the difference between the two is worth understanding precisely. Let's sort it out calmly. Every Supabase project has two keys When you spin up a project, Supabase hands you two API key...",
+      "media": [],
+      "origin_url": "https://dev.to/cekuu35/is-my-supabase-anon-key-exposed-whats-actually-safe-and-what-isnt-3ka6",
+      "published": "2026-10-21T05:19:26+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Is my Supabase anon key exposed? What's actually safe (and w。You pushed your app, opened DevTools, and there it is in plain sight: your Supabase key, sitting in the JavaScript bundle for the whole world to read。Your stomach drops"
+    },
+    {
+      "title": "WordPress Memory Exhausted Error: Fix It at the Right Layer",
+      "describe": "If your WordPress site shows Fatal error: Allowed memory size of 268435456 bytes exhausted , a PHP process asked for more memory than the server allows. The fix is usually quick. The catch is that the common fix, one line in wp-config.php , fails on many sites because it changes the wrong layer. Decode the number first The limit is reported in bytes: Bytes Limit 33554432 32 MB 67108864 64 MB 134217728 128 MB 268435456 256 MB 536870912 512 MB The end of the message gives a file path. The folder after /wp-content/plugins/ or /wp-content/themes/ is your first suspect. Three layers decide the l...",
+      "media": [],
+      "origin_url": "https://dev.to/amanhstu/wordpress-memory-exhausted-error-fix-it-at-the-right-layer-1jl4",
+      "published": "2026-10-21T05:19:22+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】WordPress Memory Exhausted Error: Fix It at the Right Layer。If your WordPress site shows Fatal error: Allowed memory size of 268435456 bytes exhausted , a PHP process asked for more memory than the server allows。The fix is usually quick"
+    },
+    {
+      "title": "I built a camo tracker that never asks you to log in",
+      "describe": "I built a camo tracker that never asks you to log in 32 weapons, 576 camo challenges, progress saved in localStorage . No account, no sync, no backend. Live: MW4Field camo tracker · Weapon stats: MW4 weapons database · Map: Hajin interactive map Every camo tracker I tried wanted an account first. Sign up, connect your platform, grant permissions, then maybe get a checklist. For a grind that resets every game, that is a lot of commitment for a table of checkboxes. So I took the boring approach: the state lives in the browser, and the site never learns who you are. What it actually does The c...",
+      "media": [],
+      "origin_url": "https://dev.to/chubiao_huangmrhuang_/i-built-a-camo-tracker-that-never-asks-you-to-log-in-31mn",
+      "published": "2026-10-21T05:19:07+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】I built a camo tracker that never asks you to log in。I built a camo tracker that never asks you to log in 32 weapons, 576 camo challenges, progress saved in localStorage。No account, no sync, no backend"
+    },
+    {
+      "title": "Pillowfort Is Closing",
+      "describe": "Article URL: https://www.pillowfort.social/posts/8413273 Comments URL: https://news.ycombinator.com/item?id=50176301 Points: 4 # Comments: 2",
+      "media": [],
+      "origin_url": "https://www.pillowfort.social/posts/8413273",
+      "published": "2026-10-21T05:05:37+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Pillowfort Is Closing。Article URL: https://www。social/posts/8413273 Comments URL: https://news"
+    },
+    {
+      "title": "Battlezone Online: BZFlag in the Browser",
+      "describe": "Article URL: https://github.com/timriker/bzo Comments URL: https://news.ycombinator.com/item?id=50176298 Points: 3 # Comments: 0",
+      "media": [],
+      "origin_url": "https://github.com/timriker/bzo",
+      "published": "2026-10-21T05:05:19+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Battlezone Online: BZFlag in the Browser（开源）。Article URL: https://github。com/timriker/bzo Comments URL: https://news"
+    },
+    {
+      "title": "Nexus-CLI – Pure Go Bridge to DeepSeek R1/V3 with Claude Code and Ollama Support",
+      "describe": "Article URL: https://github.com/xamrayev/nexus-cli Comments URL: https://news.ycombinator.com/item?id=50176129 Points: 3 # Comments: 0",
+      "media": [],
+      "origin_url": "https://github.com/xamrayev/nexus-cli",
+      "published": "2026-10-21T04:37:18+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Nexus-CLI – Pure Go Bridge to DeepSeek R1/V3 with Claude Cod（开源）。Article URL: https://github。com/xamrayev/nexus-cli Comments URL: https://news"
+    },
+    {
+      "title": "Major PHP Vulnerability Leaked",
+      "describe": "Article URL: https://jackalsyn.com/posts/php-up-2026.html Comments URL: https://news.ycombinator.com/item?id=50176077 Points: 5 # Comments: 0",
+      "media": [],
+      "origin_url": "https://jackalsyn.com/posts/php-up-2026.html",
+      "published": "2026-10-21T04:26:56+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Major PHP Vulnerability Leaked（安全）。Article URL: https://jackalsyn。com/posts/php-up-2026"
+    }
+  ]
+}

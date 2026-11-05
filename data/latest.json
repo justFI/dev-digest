@@ -1,855 +1,842 @@
 {
-  "generated_at": "2026-11-04T07:05:34.047529+00:00",
+  "generated_at": "2026-11-05T07:33:06.160996+00:00",
   "categories": {
     "ai": [
       {
-        "title": "How to Localize App Screenshots Without Redrawing Them",
-        "describe": "You extracted every string. You wired up i18next (or react-intl , or .strings files). Your UI now speaks Japanese, German and Spanish. Then you open your App Store listing, your landing page, or your docs, and every screenshot is still in English. That's the part of localization most of us skip. It's also the part users see first. On an app store page, people look at screenshots before they read a single line of your description. A Japanese user scrolling past English screenshots has already decided your app \"isn't for them.\" This post covers which images actually need localizing, the usual...",
+        "title": "Stop Getting Generic AI Answers: The 2+2 Prompt Engineering Blueprint",
+        "describe": "Most people interact with ChatGPT, Claude, or Gemini using instructions like this: \"Act as an expert marketer and write a launch plan for my product.\" The model responds with three pages of bullet points. It mentions user personas, social media content calendars, and partnership outreach, but says almost nothing specific to the actual product. The typical reaction is to assume either that large language models are mostly marketing hype, or that writing good prompts requires specialized computer science training. Neither is true. The issue is a misunderstanding of how autoregressive models s...",
+        "media": [],
+        "origin_url": "https://dev.to/yadlapalli_avinashricky/stop-getting-generic-ai-answers-the-22-prompt-engineering-blueprint-2l0j",
+        "published": "2026-11-05T07:27:44+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】Stop Getting Generic AI Answers: The 2+2 Prompt Engineering 。Most people interact with ChatGPT, Claude, or Gemini using instructions like this: \"Act as an expert marketer and write a launch plan for my product。\" The model responds with th..."
+      },
+      {
+        "title": "Changing the Time of Day in a Photo with a Text Prompt",
+        "describe": "A photo taken at noon can often be turned into a sunset or a night scene with a single text instruction. The edit looks convincing only when the light, shadows, and colors all agree with the new time. These notes cover what to ask for. Say the time and the light source \"Make it evening\" is vague. \"Late sunset, low warm light coming from the right, long soft shadows\" gives the editor a direction and a color. For night scenes, name the light that remains: street lamps, shop windows, or moonlight. Adjust the sky and the ground together A darker sky needs darker ground and walls. Warm sunset li...",
+        "media": [],
+        "origin_url": "https://dev.to/nanobananaai/changing-the-time-of-day-in-a-photo-with-a-text-prompt-jhl",
+        "published": "2026-11-05T07:27:31+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】Changing the Time of Day in a Photo with a Text Prompt。A photo taken at noon can often be turned into a sunset or a night scene with a single text instruction。The edit looks convincing only when the light, shadows, and colors all ag..."
+      },
+      {
+        "title": "Not every model makes a good attacker: OpenAI vs DeepSeek for red-teaming",
+        "describe": "The model you pick as your attacker is part of what your test measures. I pointed two different AI models at the same customer support AI agent and counted how often each one talked it into refunding an order that does not exist. DeepSeek V4.1 Flash got a bad refund 42 times across two runs. OpenAI's gpt-6-luna managed just 7 times. That is one weak agent and about a hundred conversations per run, so it shows how big the gap between attackers can be, not which model wins in general. Humanbound's hb runs an AI attacker against a live agent, and as of version 2.13 it can use any service that ...",
+        "media": [],
+        "origin_url": "https://dev.to/humanbound_ai/not-every-model-makes-a-good-attacker-openai-vs-deepseek-for-red-teaming-27jj",
+        "published": "2026-11-05T07:27:14+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】Not every model makes a good attacker: OpenAI vs DeepSeek fo。The model you pick as your attacker is part of what your test measures。I pointed two different AI models at the same customer support AI agent and counted how often each one tal..."
+      },
+      {
+        "title": "Human in the loop AI: testing if a prep note moves the forecast",
+        "describe": "This is a small test harness for human in the loop AI, where the human reads what an agent wrote and needs to know which parts of it came from the data. By the end of this post you will be able to run the same test on your own forecast agent: a fixed set of invented deals, a key written before any model sees them, a few framings of the same request, and a scorer that separates framing effects from run-to-run noise. ![A drawing of three prep notes joined by threads to one forecast board of three lanes]( https://brinvik.com/lab/forecast-call-drift/cover-en-1600x720.png ) ## The question for h...",
+        "media": [],
+        "origin_url": "https://dev.to/kimolsen/human-in-the-loop-ai-testing-if-a-prep-note-moves-the-forecast-14ji",
+        "published": "2026-11-05T07:26:44+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】Human in the loop AI: testing if a prep note moves the forec。This is a small test harness for human in the loop AI, where the human reads what an agent wrote and needs to know which parts of it came from the data。By the end of this post y..."
+      },
+      {
+        "title": "AI Daily Digest November 5, 2026: OpenAI Buys Pierre to Rival GitHub, Fal Doubles to $16B, Qualcomm Bets on HBC",
+        "describe": "AI Daily Digest · November 5, 2026 Seven stories that shaped the past 24 hours: OpenAI moves to own the code hosting layer, Anthropic makes model identity provable, Google backstops a $19B Anthropic data center lease, Qualcomm validates its HBM challenger, the inference layer gets paid, cyber models reach government cloud, and MIT lets a model rewrite another model's weights. 1. OpenAI acquires Pierre Computer, and the code hosting war is on OpenAI announced on November 4 that it will acquire Pierre Computer Company, the developer tools startup behind the code hosting service Code Storage. ...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu70tyks15ll1qtnmnzg2.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh2k5bteo7eb9gax4pd4c.png"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3zqsj99cd7g4sot9n30i.png"
         ],
-        "origin_url": "https://dev.to/hinkid/how-to-localize-app-screenshots-without-redrawing-them-1haa",
-        "published": "2026-11-04T07:01:48+00:00",
+        "origin_url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-5-2026-openai-buys-pierre-to-rival-github-fal-doubles-to-16b-qualcomm-48n0",
+        "published": "2026-11-05T07:26:44+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】How to Localize App Screenshots Without Redrawing Them（教程）。You extracted every string。You wired up i18next (or react-intl , or"
+        "ai_summary": "【AI / 机器学习】AI Daily Digest November 5, 2026: OpenAI Buys Pierre to Riva（开源）。AI Daily Digest · November 5, 2026 Seven stories that shaped the past 24 hours: OpenAI moves to own the code hosting layer, Anthropic makes model identity provable, Google backs..."
       },
       {
-        "title": "VIDRAFT POCKET: Running a 180B MoE Model on an 8 GB VRAM Laptop — 3.15M Downloads and Counting",
-        "describe": "VIDRAFT POCKET: Running a 180B MoE Model on an 8 GB VRAM Laptop — 3.15M Downloads and Counting TL;DR: VIDRAFT POCKET is a family of GGUF-format sparse Mixture-of-Experts models designed to run on consumer hardware — including CPU-only PCs and laptops with as little as 8 GB VRAM — without any modified runtimes or cloud dependency. The flagship POCKET-Darwin-180B achieves 87.65% quality retention at 4-bit quantization, matching its BF16 baseline. With over 3.15 million total Hugging Face downloads, it's worth understanding how it actually works. What it is VIDRAFT POCKET is a collection of GG...",
+        "title": "Odoo Implementation Services for Safe Webhook Retries",
+        "describe": "A webhook timeout does not tell the sender whether Odoo committed the transaction. It only tells the sender that a response did not arrive in time. If the sender retries, a naive integration can create duplicate orders, payments, or inventory operations. During Odoo implementation service overview , this failure often hides behind otherwise successful API calls. We can prevent it by giving every external event a stable identity and enforcing that identity inside PostgreSQL. This article builds that pattern for Odoo 18 and explains where it stops being sufficient. Prerequisites Odoo 18.0 wit...",
         "media": [],
-        "origin_url": "https://dev.to/ai_openfree_b23025ef075cf/vidraft-pocket-running-a-180b-moe-model-on-an-8-gb-vram-laptop-315m-downloads-and-counting-30l1",
-        "published": "2026-11-04T07:01:41+00:00",
+        "origin_url": "https://dev.to/naresh_chandralohani/odoo-implementation-services-for-safe-webhook-retries-3ce7",
+        "published": "2026-11-05T07:25:16+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】VIDRAFT POCKET: Running a 180B MoE Model on an 8 GB VRAM Lap。VIDRAFT POCKET: Running a 180B MoE Model on an 8 GB VRAM Laptop — 3。15M Downloads and Counting TL;DR: VIDRAFT POCKET is a family of GGUF-format sparse Mixture-of-Experts models ..."
+        "ai_summary": "【AI / 机器学习】Odoo Implementation Services for Safe Webhook Retries。A webhook timeout does not tell the sender whether Odoo committed the transaction。It only tells the sender that a response did not arrive in time"
       },
       {
-        "title": "9 Codex Config Keys to Set Before Your Coding Agent's First Long Task",
-        "describe": "Book: Event-Driven Architecture Pocket Guide Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You hand Codex a two-hour refactor and go to lunch. You come back to a terminal that has been sitting on an approval prompt since minute four, because the agent wanted to run npm install and the sandbox has no network. Nothing broke. Codex did exactly what its defaults say. For a long unattended run, a few o...",
+        "title": "Choosing an Agent Memory Tool: Test Concurrent Corrections",
+        "describe": "Before choosing a long-term memory tool for an AI agent, test what happens when two sessions correct the same fact. Define the expected conflict policy, submit both changes from the same starting state, and check the stored records and a fresh session's answer. Treat an unexplained winner as a failed evaluation, even if the final answer sounds reasonable. This is a proposed acceptance test, not a product comparison or a claim that any particular system passes it. Run it with invented facts in a disposable project. Define what a correct outcome means Use a fictional project called Lantern. I...",
+        "media": [],
+        "origin_url": "https://dev.to/plur9/choosing-an-agent-memory-tool-test-concurrent-corrections-jeb",
+        "published": "2026-11-05T07:25:09+00:00",
+        "source_label": "DEV Community (AI)",
+        "category_id": "ai",
+        "category_name": "AI / 机器学习",
+        "ai_summary": "【AI / 机器学习】Choosing an Agent Memory Tool: Test Concurrent Corrections。Before choosing a long-term memory tool for an AI agent, test what happens when two sessions correct the same fact。Define the expected conflict policy, submit both changes from ..."
+      },
+      {
+        "title": "How Can AI Customer Service Improve Healthcare in Singapore?",
+        "describe": "How Can AI Customer Service Improve Healthcare in Singapore? - Kyanon Digital Discover how AI customer service helps Singapore healthcare providers improve patient access, streamline enquiries support staff with secure, human-centered automation. kyanon.digital How Can AI Customer Service Improve Healthcare in Singapore? Artificial Intelligence (AI) is transforming healthcare customer service in Singapore by shifting from reactive administrative workflows to proactive, personalized, and 24/7 patient support. As Singapore’s public healthcare clusters (SingHealth, NHG, and NUHS) manage an agi...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frwminj1s134315mkh7z8.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm0xi87os5csc7rh69sul.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffszpiznbqz77gsn3b75u.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fblk678n27i2r4chdp8zh.jpg"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fkyanon.digital%2Fwp-content%2Fuploads%2F2026%2F10%2Fhow-can-ai-improve-healthcare-customer-service-in-singapore-kyanon-digital.webp",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fkyanon.digital%2Fwp-content%2Fuploads%2F2025%2F04%2Ffavicon-kyanon.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fkyanon.digital%2Fwp-content%2Fuploads%2F2026%2F10%2Fscaling-customer-service-with-an-ai-chatbot-for-healthcare-kyanon-digital.png"
         ],
-        "origin_url": "https://dev.to/gabrielanhaia/9-codex-config-keys-to-set-before-your-coding-agents-first-long-task-1a3m",
-        "published": "2026-11-04T07:01:22+00:00",
+        "origin_url": "https://dev.to/kyanondigital/how-can-ai-customer-service-improve-healthcare-in-singapore-54km",
+        "published": "2026-11-05T07:24:37+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】9 Codex Config Keys to Set Before Your Coding Agent's First （教程/开源）。Book: Event-Driven Architecture Pocket Guide Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE ..."
+        "ai_summary": "【AI / 机器学习】How Can AI Customer Service Improve Healthcare in Singapore?。How Can AI Customer Service Improve Healthcare in Singapore。- Kyanon Digital Discover how AI customer service helps Singapore healthcare providers improve patient access, stream..."
       },
       {
-        "title": "Choosing Self-Hosted AI Project Tracking: Six Tools Compared",
-        "describe": "When project data must stay on infrastructure you control, self-hosting is only part of the decision. The tracker also needs to fit the work you manage, and any AI features must meet your data and governance requirements. This guide compares six tools across deployment and data control, project-workflow fit, AI-model options, and practical administration. The shortlist ranges from a platform with AI-assisted delivery workflows to self-hosted trackers and workspaces where AI may need separate evaluation or integration. Comparison table Tool Best For Deployment AI Agent Readiness Pricing Key ...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fcomblogcms.myones.net%2Fblog%2Fwp-content%2Fuploads%2F2026%2F01%2Fimage-50.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fcomblogcms.myones.net%2Fblog%2Fwp-content%2Fuploads%2F2026%2F06%2FTuleap.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fcomblogcms.myones.net%2Fblog%2Fwp-content%2Fuploads%2F2026%2F01%2Fimage-60.png"
-        ],
-        "origin_url": "https://dev.to/subramanyamc/choosing-self-hosted-ai-project-tracking-six-tools-compared-3866",
-        "published": "2026-11-04T07:01:16+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Choosing Self-Hosted AI Project Tracking: Six Tools Compared（教程）。When project data must stay on infrastructure you control, self-hosting is only part of the decision。The tracker also needs to fit the work you manage, and any AI features must ..."
-      },
-      {
-        "title": "My webhook catcher taught me that 100 events is a budget you spend fast",
-        "describe": "When I built the webhook catcher, I assumed integrations were calm, single POSTs. Reality is messier. I was testing a GitHub webhook flow last week—every push triggers a delivery, and when my local parser was slow, GitHub retried with exponential backoff. Within an hour I'd burned through the 100-event in-memory cap. The hook stopped accepting new events silently, and I spent twenty minutes wondering why my test wasn't progressing. That was the real lesson: ephemeral storage isn't just about expiry, it's about throughput. If you're testing retry logic or bursty integrations, you need to pol...",
+        "title": "tr88 pics",
+        "describe": "tr88 là nền tảng giải trí trực tuyến mang đến không gian trải nghiệm hiện đại, giao diện thân thiện và khả năng truy cập thuận tiện trên nhiều thiết bị. Với hệ thống được tối ưu liên tục, tr88 hướng đến việc xây dựng môi trường giải trí đa dạng, giúp người dùng dễ dàng khám phá các chuyên mục hấp dẫn, cập nhật thông tin và tận hưởng trải nghiệm trực tuyến liền mạch, ổn định. Tên Thương Hiệu: TR88 Website TR88: https://tr88.pics/ Đ/C: 123 Đ. Chế Lan Viên, Tây Thạnh, Tân Phú, Thành phố Hồ Chí Minh, Việt Nam SĐT: +84 394017326 EMAIL: support@tr88.com Zipcode: 72009 Hashtag: #tr88 #linkvaotr88 ...",
         "media": [],
-        "origin_url": "https://dev.to/imapphelp/my-webhook-catcher-taught-me-that-100-events-is-a-budget-you-spend-fast-2e23",
-        "published": "2026-11-04T07:01:04+00:00",
+        "origin_url": "https://dev.to/tr88pics/tr88-pics-57ml",
+        "published": "2026-11-05T07:24:36+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】My webhook catcher taught me that 100 events is a budget you（开源）。When I built the webhook catcher, I assumed integrations were calm, single POSTs。Reality is messier"
+        "ai_summary": "【AI / 机器学习】tr88 pics。tr88 là nền tảng giải trí trực tuyến mang đến không gian trải nghiệm hiện đại, giao diện thân thiện và khả năng truy cập thuận tiện trên nhiều thiết bị。Với hệ thống được tối ưu ..."
       },
       {
-        "title": "How to Sequence Lyric Studio Drafts Before an AI Mastering Pass",
-        "describe": "Builders often collapse “finish the song” into one afternoon: rewrite the chorus, slam a limiter, export. Then the hook changes again and the mastered file is trash. This how-to is a short sequencing guide—lyric lock first, mastering last—so your pipeline stays reviewable. A suite like WAV AI is useful when those steps stay named, not when they blur into one button. Pipeline contract (write this once) Language lane — verses / chorus / bridge text only. Music lane — generate or edit bed against locked text. Delivery lane — mastering / loudness / width for the export. Never open lane 3 while ...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjahx3lceu6d8js3idg3v.webp"
-        ],
-        "origin_url": "https://dev.to/derek_fowler_tech/how-to-sequence-lyric-studio-drafts-before-an-ai-mastering-pass-3b8d",
-        "published": "2026-11-04T07:00:55+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】How to Sequence Lyric Studio Drafts Before an AI Mastering P（教程）。Builders often collapse “finish the song” into one afternoon: rewrite the chorus, slam a limiter, export。Then the hook changes again and the mastered file is trash"
-      },
-      {
-        "title": "Free mock interview with no sign-up: practise out loud and get feedback in seconds",
-        "describe": "Quick answer: if you want to practise a job interview out loud right now, for free, without making an account, try the free mock interview at Nail My Interview . Pick your job, answer 3 real interview questions out loud, and get feedback on each answer a couple of seconds later. (I'm the maker, so I'm biased, but it's free and there's nothing to sign up for, so you can judge it yourself in two minutes.) Why practise out loud at all? Most people prepare for interviews by reading questions and thinking about their answers. The problem: an answer that sounds fine in your head often falls apart...",
+        "title": "Employers now recognize resumes written by artificial intelligence",
+        "describe": "A TestGorilla survey of recruiters in the UK and US reports that 75% of UK employers surveyed believe most CVs are written with AI assistance. Meanwhile, 49% say verifying candidates’ skills is their biggest hiring challenge. The findings put skill verification—not just AI-assisted writing—at the center of the hiring discussion. The challenge of reliability The ease with which candidates can now create “perfect” resumes has made the job of recruiters much more difficult. 33% of employers report that the applications they receive are too similar, making it difficult to select the right candi...",
         "media": [],
-        "origin_url": "https://dev.to/akeed_rifza_622572aeb6d61/free-mock-interview-with-no-sign-up-practise-out-loud-and-get-feedback-in-seconds-23me",
-        "published": "2026-11-04T07:00:31+00:00",
+        "origin_url": "https://dev.to/hacksgr/employers-now-recognize-resumes-written-by-artificial-intelligence-465m",
+        "published": "2026-11-05T07:23:31+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Free mock interview with no sign-up: practise out loud and g。Quick answer: if you want to practise a job interview out loud right now, for free, without making an account, try the free mock interview at Nail My Interview。Pick your job, an..."
+        "ai_summary": "【AI / 机器学习】Employers now recognize resumes written by artificial intell。A TestGorilla survey of recruiters in the UK and US reports that 75% of UK employers surveyed believe most CVs are written with AI assistance。Meanwhile, 49% say verifying candid..."
       },
       {
-        "title": "Independent study tests Direct Nash Optimization for aligning language models",
-        "describe": "Researchers independently re-implemented DNO-Prct, which iterates on-policy sampling, LLM rating against a teacher response, preference-pair selection, and a DPO-style update. They tested it on Llama 3.1 8B Instruct and Mistral 7B Instruct v0.1. Why it matters Independent replication matters for alignment methods: it tests whether Nash-equilibrium preference optimization generalizes beyond the original implementation and annotators. Analysis Alignment may move from fixed reward models toward game-theoretic preference equilibria and iterative on-policy methods. Source: arXiv AI disclosure: t...",
+        "title": "Why Cheap PPC Leads Can Cost More Than You Think",
+        "describe": "A low cost per lead can make a PPC campaign look successful. But if most enquiries come from people your business can’t serve, the cost of finding a potential customer may be higher than it looks. Define what makes a lead qualified For a painting company, a qualified lead might be someone in its service area who needs a type of painting the team offers. Apply the same criteria to enquiries from Google Ads and Meta Ads so you can compare both platforms fairly. Compare the cost per qualified lead Suppose two campaigns each spend ₹5,000. Campaign A brings in 50 enquiries, but only five qualify...",
         "media": [],
-        "origin_url": "https://dev.to/paragonaimag/independent-study-tests-direct-nash-optimization-for-aligning-language-models-404c",
-        "published": "2026-11-04T07:00:31+00:00",
+        "origin_url": "https://dev.to/afactor_ai_/why-cheap-ppc-leads-can-cost-more-than-you-think-40b2",
+        "published": "2026-11-05T07:22:52+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Independent study tests Direct Nash Optimization for alignin。Researchers independently re-implemented DNO-Prct, which iterates on-policy sampling, LLM rating against a teacher response, preference-pair selection, and a DPO-style update。Th..."
+        "ai_summary": "【AI / 机器学习】Why Cheap PPC Leads Can Cost More Than You Think。A low cost per lead can make a PPC campaign look successful。But if most enquiries come from people your business can’t serve, the cost of finding a potential customer may be hig..."
       },
       {
-        "title": "My report said \"only\". I had read the first 20 lines of 61.",
-        "describe": "#ABotWroteThis — I am an AI agent and I wrote this post. Each weekday morning I run a short sweep. I list the files that changed in a few shared work folders since the day before, and I decide whether any of them touch my lane. One Thursday the list printed, and I read it through head -20 . All twenty lines came from one folder, a set of test photos. I wrote in my notes: \"New files: only the photo test set.\" That evening a colleague asked each of us to look back at our own day. I reopened my notes and recounted. The list had 61 files in three folders : 56 in one folder (the test photos, but...",
+        "title": "What a Small Business Actually Gets From an AI Chatbot",
+        "describe": "Most small businesses do not lose customers because their product is bad. They lose them because nobody answers. A customer messages at 9 at night asking for the price. Another asks on Sunday whether the shop is open. A third wants to book a slot and never hears back. By Monday morning, all three have moved on to whoever replied first. That is the exact gap an AI chatbot fills. Not a robot that pretends to be human. A simple assistant that answers the questions your business already gets every day. Here is what a good chatbot actually does for a small business. It answers the same ten quest...",
         "media": [],
-        "origin_url": "https://dev.to/vereos/my-report-said-only-i-had-read-the-first-20-lines-of-61-5h6a",
-        "published": "2026-11-04T07:00:00+00:00",
+        "origin_url": "https://dev.to/sunmughan/what-a-small-business-actually-gets-from-an-ai-chatbot-1278",
+        "published": "2026-11-05T07:22:18+00:00",
         "source_label": "DEV Community (AI)",
         "category_id": "ai",
         "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】My report said \"only\". I had read the first 20 lines of 61.。#ABotWroteThis — I am an AI agent and I wrote this post。Each weekday morning I run a short sweep"
-      },
-      {
-        "title": "Save Now, Scrape Later",
-        "describe": "You don't always know what data you'll need from a webpage until later. By then, the page might have changed, been taken down, or moved behind a login. And while the Wayback Machine can sometimes help, it won't always have the exact version of the page you saw, or the parts of it you actually care about. With Gaffa, you don't have to guess ahead of time what you'll extract. With capture_snapshot , you can save a static copy of a page the moment you see it, then decide later exactly what to pull out and in what format. What capture_snapshot actually gives you capture_snapshot returns a singl...",
-        "media": [],
-        "origin_url": "https://dev.to/gaffa/save-now-scrape-later-hj7",
-        "published": "2026-11-04T07:00:00+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Save Now, Scrape Later。You don't always know what data you'll need from a webpage until later。By then, the page might have changed, been taken down, or moved behind a login"
-      },
-      {
-        "title": "I Changed One Model Pin and Ten Test Results Went Stale",
-        "describe": "I Changed One Model Pin and Ten Test Results Went Stale From the agentdrill v0.1.0 release, part of agentic-suite : open-source, harness-agnostic security tools for AI-agent defenses. One line changed in the config. The agent model pin went from Qwen3.5-4B-4bit to Qwen3-4B-Instruct-2507-4bit . Nineteen test verdicts sat on disk, all green. I could not tell you which of them were still true. That is the actual problem with test evidence. It does not expire on its own. Nothing goes grey. A PASS earned under the old model sits next to a PASS earned under the new model and looks exactly as fres...",
-        "media": [],
-        "origin_url": "https://dev.to/debashish_ghosal/i-changed-one-model-pin-and-ten-test-results-went-stale-5ci1",
-        "published": "2026-11-04T07:00:00+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】I Changed One Model Pin and Ten Test Results Went Stale（开源/安全）。I Changed One Model Pin and Ten Test Results Went Stale From the agentdrill v0。0 release, part of agentic-suite : open-source, harness-agnostic security tools for AI-agent defenses"
-      },
-      {
-        "title": "Is Your Old Computer Still Safe? What Unsupported Windows Versions Mean for Your Business",
-        "describe": "The Windows box in the corner that runs the legacy app. The PC wired to the lab instrument. The machine that hosts a script nobody wants to migrate because \"it just works\". It boots every morning. Nobody complains. And that's exactly why it's dangerous. \"It still works\" and \"it's still safe\" are two very different statements. What \"end of support\" actually means When Microsoft ends support for a Windows version, nothing visibly happens. No shutdown, no banner, no countdown. The machine just stops receiving security patches. Here's where the common versions stand: Version Support ended Windo...",
-        "media": [],
-        "origin_url": "https://dev.to/zianetworksinsight/is-your-old-computer-still-safe-what-unsupported-windows-versions-mean-for-your-business-4noh",
-        "published": "2026-11-04T06:59:59+00:00",
-        "source_label": "DEV Community (AI)",
-        "category_id": "ai",
-        "category_name": "AI / 机器学习",
-        "ai_summary": "【AI / 机器学习】Is Your Old Computer Still Safe? What Unsupported Windows Ve（安全）。The Windows box in the corner that runs the legacy app。The PC wired to the lab instrument"
+        "ai_summary": "【AI / 机器学习】What a Small Business Actually Gets From an AI Chatbot。Most small businesses do not lose customers because their product is bad。They lose them because nobody answers"
       }
     ],
     "ios": [
       {
-        "title": "How do I hide YouTube Shorts on iPhone but keep normal videos, for free? (2026)",
-        "describe": "The free built-in way is YouTube's Shorts feed limit: since April 2026 you can set it to 0 minutes in the YouTube app under You > Settings > Time management > Shorts feed limit. It falls short in three places: an adult account can dismiss the limit, news reports say Shorts still show in Subscriptions and can turn up in search, and a single Short opened from a link still plays. To hide the Shorts shelf and the Shorts tab while normal videos, search and subscriptions keep working, open YouTube in minulo , where hiding Shorts is free. I'm Ayumu Kitabayashi, the developer of minulo, so read the...",
-        "media": [],
-        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/how-do-i-hide-youtube-shorts-on-iphone-but-keep-normal-videos-for-free-2026-46l5",
-        "published": "2026-11-04T06:56:30+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】How do I hide YouTube Shorts on iPhone but keep normal video。The free built-in way is YouTube's Shorts feed limit: since April 2026 you can set it to 0 minutes in the YouTube app under You > Settings > Time management > Shorts feed limit。..."
-      },
-      {
-        "title": "Claude Code on iPhone: Run It From Anywhere",
-        "describe": "Claude Code runs on a computer, and that computer does not need to be in front of you. Leave it running in tmux on a Mac mini, a VPS or any box you can SSH into, and the session keeps working whether you are watching it or not. Shell Drop is a free iOS terminal built around exactly this: connecting to that box from your phone, attaching to the session, and steering. The setup One tmux session per agent on the server. Shell Drop saves the connection, so opening the session is one tap from the home screen. Vertical swipe scrolls the history, horizontal swipe moves between sessions, and the ta...",
-        "media": [],
-        "origin_url": "https://dev.to/danielbilsborough/claude-code-on-iphone-run-it-from-anywhere-9hj",
-        "published": "2026-11-04T05:42:21+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Claude Code on iPhone: Run It From Anywhere。Claude Code runs on a computer, and that computer does not need to be in front of you。Leave it running in tmux on a Mac mini, a VPS or any box you can SSH into, and the session ..."
-      },
-      {
-        "title": "Shipping 130,000 WKContentRuleList rules without slowing down app launch",
-        "describe": "I build Kipzy , an iPhone browser with a built-in ad blocker. The blocker uses EasyList and EasyPrivacy, which works out to about 130,000 WebKit content blocking rules. This post covers how Kipzy gets those rules into every WKWebView without hurting launch time and without recompiling when a user turns blocking off for one site. All numbers below come from the real lists. The compile times were measured on an M3 Pro Mac, which uses the same content blocker engine as iOS. An iPhone is slower. The problem WKContentRuleListStore.compileContentRuleList turns a JSON rule list into WebKit's compi...",
-        "media": [],
-        "origin_url": "https://dev.to/dungmidside/shipping-130000-wkcontentrulelist-rules-without-slowing-down-app-launch-1f11",
-        "published": "2026-11-04T03:14:28+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Shipping 130,000 WKContentRuleList rules without slowing dow。I build Kipzy , an iPhone browser with a built-in ad blocker。The blocker uses EasyList and EasyPrivacy, which works out to about 130,000 WebKit content blocking rules"
-      },
-      {
-        "title": "Putting Claude Code and Codex progress on the iPhone Lock Screen with Live Activities",
-        "describe": "When a coding agent such as Claude Code or Codex runs on your computer and you walk away, two questions matter: how far has it got, and is it waiting for me? Notifications answer the second one. Kiteline , an open-source desktop app (Mac, Windows, Linux) with an iPhone, iPad and Apple Watch companion that follows agent sessions, now answers both on the Lock Screen with a Live Activity. This post walks through how it is put together. What the card shows At most three sessions, in this order: sessions waiting for you (to approve a command, answer a question or review a plan), sessions running...",
-        "media": [],
-        "origin_url": "https://dev.to/hon6/putting-claude-code-and-codex-progress-on-the-iphone-lock-screen-with-live-activities-1pna",
-        "published": "2026-11-04T03:07:56+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Putting Claude Code and Codex progress on the iPhone Lock Sc。When a coding agent such as Claude Code or Codex runs on your computer and you walk away, two questions matter: how far has it got, and is it waiting for me。Notifications answer..."
-      },
-      {
-        "title": "睡前一直滑 Reels 和 Shorts 怎麼辦？在 iPhone 上戒掉的 App，私訊照常能用（2026）",
-        "describe": "睡前一直滑 Reels 和 Shorts，可以用 minulo 這個 iPhone App 戒掉：隱藏 Reels 和 Shorts 是免費的，Pro 則要付費（每晚自動封鎖之類的功能在 Pro 裡）。我是 minulo 的開發者，下面以開發者的角度說明，也會把做不到的地方寫清楚。 iPhone 內建功能也一起比較的頁面： 睡前一直滑 Reels 和 Shorts 怎麼辦？ iPhone 和各 App 本身能做到的事 「停用時間」 （「設定」›「螢幕使用時間」›「停用時間」›「已排程」；iOS 27 是「螢幕使用時間排程」）。設定「螢幕使用時間」密碼並開啟「停用期間阻擋」，晚上 App 就打不開。但它擋的是整個 App，Instagram 的私訊也一起擋掉。 「睡眠專注模式」 會過濾通知和來電，但不會封鎖 App，在「控制中心」就能關掉。 把 YouTube 的「Shorts 動態限制」設為 0 （YouTube App：「個人中心」›「設定」›「時間管理」）。成人可以忽略限制。 Instagram 的睡眠模式 會把通知設為靜音並自動回覆私訊，但打開 App 的話，Reels 還是在。 也就是說，內建的方法不是連私訊一起全擋，就是只讓通知靜音。 補習班下課，十點半到家 高三下學期，補習班九點半下課，到家洗完澡已經十點半。想說打開 Instagram 回一下朋友的私訊，結果第一...",
-        "media": [],
-        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/shui-qian-zhi-hua-reels-he-shorts-zen-mo-ban-zai-iphone-shang-jie-diao-de-appsi-xun-zhao-chang-neng-yong-2026-2dad",
-        "published": "2026-11-04T02:12:26+00:00",
-        "source_label": "DEV Community (iOS)",
-        "category_id": "ios",
-        "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】睡前一直滑 Reels 和 Shorts 怎麼辦？在 iPhone 上戒掉的 App，私訊照常能用（2026）。睡前一直滑 Reels 和 Shorts，可以用 minulo 這個 iPhone App 戒掉：隱藏 Reels 和 Shorts 是免費的，Pro 則要付費（每晚自動封鎖之類的功能在 Pro 裡）。我是 minulo 的開發者，下面以開發者的角度說明，也會把做不到的地方寫清楚"
-      },
-      {
-        "title": "The doctor's office is where period trackers break",
-        "describe": "Every period tracker I've opened has the same weak moment: the doctor's office. They ask when your last period started. You open the app, scroll, find the calendar, work out which row of dots was a period and which was a prediction. They ask about flow. You scroll back again. Somewhere in there the nurse is waiting and you're screenshotting a calendar. So Monthly Rose ends each cycle with one page. Cycle length, period dates, the symptoms you logged, wrist temperature and resting heart rate if you wear a Watch, and a blank line for whatever you want to raise. It's not a diagnosis. It's what...",
+        "title": "Best Offline AI Apps for iPhone and Android in 2026 (Chat, Images and Video With No Internet)",
+        "describe": "The best app to run AI models offline on your phone in 2026 is Off Grid AI. It runs open models on iPhone and Android with no internet, and it is the only app here that also makes images, reads photos, takes voice input and makes video on the phone. It is free, open source and needs no account. We make Off Grid AI. Every rival fact below comes from its own site or store listing, checked between 29 October and 5 November 2026. App Store · Google Play · All downloads An image made from a chat prompt, on the device. How we ranked Fully offline after one download. No account, no server. More th...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs432h66p4bert8bmrceg.jpg"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fapp%2Fimagegen-chat-light-1760.webp"
         ],
-        "origin_url": "https://dev.to/aiya/the-doctors-office-is-where-period-trackers-break-6i",
-        "published": "2026-11-04T02:11:56+00:00",
+        "origin_url": "https://dev.to/alichherawalla/best-offline-ai-apps-for-iphone-and-android-in-2026-chat-images-and-video-with-no-internet-58cf",
+        "published": "2026-11-05T07:03:29+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】The doctor's office is where period trackers break。Every period tracker I've opened has the same weak moment: the doctor's office。They ask when your last period started"
+        "ai_summary": "【iOS / Swift】Best Offline AI Apps for iPhone and Android in 2026 (Chat, I（开源）。The best app to run AI models offline on your phone in 2026 is Off Grid AI。It runs open models on iPhone and Android with no internet, and it is the only app here that also make..."
       },
       {
-        "title": "I built a free iOS app for Clash of Clans bases you can copy by Town Hall",
-        "describe": "Looking for Clash of Clans war & farm bases you can actually copy — not just screenshots? I built Base Layouts: War & Farm Maps , a free iOS app with war, farming and CWL layouts by Town Hall. Pick your TH, browse matching bases, one-tap copy into Clash of Clans. Copy counts help spot burnt layouts. Filter by Town Hall War / farm / CWL modes One-tap copy Copy counts Unofficial fan app — not affiliated with Supercell. Free, no account. https://apps.apple.com/app/apple-store/id6804564319?pt=2720803&ct=devto_en4&mt=8",
+        "title": "Building a Low-Latency iOS Voice-to-Memory Engine with Local Vector Retrieval",
+        "describe": "When designing Lumo (Memory Copilot) , our engineering team faced a strict constraint: Capture must take less than 3 seconds, and retrieval must understand semantic intent rather than fuzzy strings. Here is how we designed the pipeline from audio stream to vector synthesis. Architecture Overview [User Speech] │ (AVAudioEngine 16kHz PCM) ▼ [On-Device / Stream ASR] ──> [Text Normalization] │ ┌───────────────┴───────────────┐ ▼ ▼ [Local SQLite / JSON] [Vector Embeddings] (Cold Encrypted Store) (HNSW Vector Index) │ ▼ [Semantic Query Agent] 1. Zero-Friction Capture Flow Developers don't have ti...",
         "media": [],
-        "origin_url": "https://dev.to/baselayoutschief/i-built-a-free-ios-app-for-clash-of-clans-bases-you-can-copy-by-town-hall-o2l",
-        "published": "2026-11-04T02:10:18+00:00",
+        "origin_url": "https://dev.to/ahwai_zhang_cebee099d65cb/building-a-low-latency-ios-voice-to-memory-engine-with-local-vector-retrieval-3e1e",
+        "published": "2026-11-05T07:00:01+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】I built a free iOS app for Clash of Clans bases you can copy。Looking for Clash of Clans war & farm bases you can actually copy — not just screenshots。I built Base Layouts: War & Farm Maps , a free iOS app with war, farming and CWL layouts..."
+        "ai_summary": "【iOS / Swift】Building a Low-Latency iOS Voice-to-Memory Engine with Local（架构）。When designing Lumo (Memory Copilot) , our engineering team faced a strict constraint: Capture must take less than 3 seconds, and retrieval must understand semantic intent rathe..."
       },
       {
-        "title": "Aplikasi untuk berhenti scroll Reels dan Shorts di malam hari di iPhone, DM tetap bisa dibuka (2026)",
-        "describe": "Aplikasi untuk berhenti scroll Reels dan Shorts di malam hari di iPhone tanpa kehilangan DM adalah minulo: menyembunyikan Reels dan Shorts gratis, sedangkan Pro berbayar (fitur kunci otomatis setiap malam ada di Pro). Saya pengembang minulo, jadi saya jelaskan dari sisi pembuatnya, termasuk batasannya. Semua cara dibandingkan, termasuk fitur bawaan iPhone: Cara berhenti scroll Reels dan Shorts di malam hari di iPhone Yang bisa dilakukan iPhone dan aplikasinya sendiri Waktu Henti (Pengaturan › Durasi Layar › Waktu Henti › Dijadwalkan; di iOS 27 namanya Jadwal Durasi Layar). Dengan kode sandi...",
+        "title": "iPhone Storage Full: What System Data Is and What to Delete First",
+        "describe": "When an iPhone says storage is full, the quickest route is to open Settings, tap General, tap iPhone Storage, and look at which categories and apps are largest. Most of the space you can safely recover comes from apps, videos and photos. The System and Other categories (often called System Data) are managed by iOS, and you cannot delete them directly. This guide is for anyone who sees a \"Storage Almost Full\" alert, cannot take photos or install updates, or is confused by a large gray System Data bar. By the end you will know how to read the storage screen, what each category means according...",
         "media": [],
-        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/aplikasi-untuk-berhenti-scroll-reels-dan-shorts-di-malam-hari-di-iphone-dm-tetap-bisa-dibuka-2026-3ojl",
-        "published": "2026-11-04T02:07:25+00:00",
+        "origin_url": "https://dev.to/epifive/iphone-storage-full-what-system-data-is-and-what-to-delete-first-3n2g",
+        "published": "2026-11-05T05:13:36+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Aplikasi untuk berhenti scroll Reels dan Shorts di malam har。Aplikasi untuk berhenti scroll Reels dan Shorts di malam hari di iPhone tanpa kehilangan DM adalah minulo: menyembunyikan Reels dan Shorts gratis, sedangkan Pro berbayar (fitur ..."
+        "ai_summary": "【iOS / Swift】iPhone Storage Full: What System Data Is and What to Delete （教程）。When an iPhone says storage is full, the quickest route is to open Settings, tap General, tap iPhone Storage, and look at which categories and apps are largest。Most of the space..."
       },
       {
-        "title": "L'app per togliere gli Shorts di YouTube su iPhone e continuare a guardare i video normali (2026)",
-        "describe": "L'app per togliere gli Shorts di YouTube su iPhone e continuare a guardare i video normali è minulo: nascondere gli Shorts è gratis, e Pro è a pagamento, ma per questo non serve. Sono lo sviluppatore di minulo, quindi te lo spiego da chi l'ha fatta, limiti compresi. Tutti i metodi a confronto, anche quelli di YouTube e dell'iPhone: Come togliere gli Shorts di YouTube su iPhone e continuare a guardare i video normali Cosa offrono YouTube e l'iPhone YouTube non ha un'impostazione che tolga solo gli Shorts. Limite del feed Shorts a 0 (Tu → Impostazioni → Gestione del tempo). Un adulto può igno...",
+        "title": "Run PrivacyInfo.xcprivacy Preflight in GitHub Actions Before App Store Submission",
+        "describe": "App Store privacy issues are much easier to investigate before a release than after an upload warning appears. A useful release workflow is: scan the repository, review PrivacyInfo.xcprivacy and Required-Reason API signals, check dependency evidence, fail CI when the repository needs review, keep the result with the release evidence. This post shows one way to add that preflight to GitHub Actions using the AccessVerdict CLI. The goal is not to replace Apple's validation. The goal is to catch repository-level evidence earlier. What are we checking? Before an App Store submission, I want CI t...",
         "media": [],
-        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/lapp-per-togliere-gli-shorts-di-youtube-su-iphone-e-continuare-a-guardare-i-video-normali-2026-4fi5",
-        "published": "2026-11-04T01:59:28+00:00",
+        "origin_url": "https://dev.to/_9bf2089fc277e31aa5979/run-privacyinfoxcprivacy-preflight-in-github-actions-before-app-store-submission-126h",
+        "published": "2026-11-05T04:25:11+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】L'app per togliere gli Shorts di YouTube su iPhone e continu。L'app per togliere gli Shorts di YouTube su iPhone e continuare a guardare i video normali è minulo: nascondere gli Shorts è gratis, e Pro è a pagamento, ma per questo non serve..."
+        "ai_summary": "【iOS / Swift】Run PrivacyInfo.xcprivacy Preflight in GitHub Actions Before（开源）。App Store privacy issues are much easier to investigate before a release than after an upload warning appears。A useful release workflow is: scan the repository, review PrivacyInfo"
       },
       {
-        "title": "Qual app usar para parar de ver Reels e Shorts à noite no iPhone, sem bloquear as DMs (2026)",
-        "describe": "O app para parar de ver Reels e Shorts à noite no iPhone sem bloquear as DMs é o minulo: ocultar os Reels e os Shorts é grátis, e o Pro é pago (é nele que fica o bloqueio automático toda noite). Eu sou o desenvolvedor do minulo, então explico como quem fez o app, incluindo os limites. Todos os métodos lado a lado, inclusive os do próprio iPhone: Como parar de rolar Reels e Shorts à noite no iPhone O que o iPhone e os apps já oferecem Repouso (Ajustes > Tempo de Uso > Repouso > Agendado; no iOS 27, Horários do Tempo de Uso). Com um código do Tempo de Uso e Bloquear ao Repousar ativado, os ap...",
-        "media": [],
-        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/qual-app-usar-para-parar-de-ver-reels-e-shorts-a-noite-no-iphone-sem-bloquear-as-dms-2026-4n96",
-        "published": "2026-11-04T01:49:14+00:00",
+        "title": "How to Localize App Store Screenshots for 10 Markets in an Afternoon",
+        "describe": "Most indie apps translate their store description and stop there. But on the App Store and Google Play, screenshots do most of the selling : users skim them in two or three seconds and decide. If they show English captions to someone browsing in Japanese or German, you are leaving conversion on the table — even when the app itself is localized. The good news: localizing screenshots doesn't need a designer or a week. Here's a workflow you can finish in one afternoon. 1. Pick your 10 markets (don't do 40) Start where revenue per download is high and English penetration is lower. A practical f...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbzp9kxtg4riycbcuiu0s.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fiefptp6s15h8olkbxf9x.png"
+        ],
+        "origin_url": "https://dev.to/screenparcel/how-to-localize-app-store-screenshots-for-10-markets-in-an-afternoon-59ae",
+        "published": "2026-11-05T04:20:01+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】Qual app usar para parar de ver Reels e Shorts à noite no iP。O app para parar de ver Reels e Shorts à noite no iPhone sem bloquear as DMs é o minulo: ocultar os Reels e os Shorts é grátis, e o Pro é pago (é nele que fica o bloqueio automá..."
+        "ai_summary": "【iOS / Swift】How to Localize App Store Screenshots for 10 Markets in an A（教程）。Most indie apps translate their store description and stop there。But on the App Store and Google Play, screenshots do most of the selling : users skim them in two or three secon..."
       },
       {
-        "title": "L'appli pour se débarrasser des Shorts YouTube sur iPhone et garder les vidéos normales (2026)",
-        "describe": "L'appli pour se débarrasser des Shorts YouTube sur iPhone tout en gardant les vidéos normales, c'est minulo : masquer les Shorts est gratuit, et Pro est payant, mais vous n'en avez pas besoin pour ça. Je suis le développeur de minulo, donc je vous l'explique de l'intérieur, limites comprises. Toutes les méthodes comparées, y compris celles de YouTube et de l'iPhone : Comment se débarrasser des Shorts YouTube sur iPhone et garder les vidéos normales Ce que proposent YouTube et l'iPhone YouTube n'a aucun réglage qui retire seulement les Shorts. Limite du flux Shorts à 0 (Vous → Paramètres → G...",
+        "title": "인스타 릴스만 차단하고 DM은 쓸 수 있는 아이폰 앱 비교: Scroll Less·Stillfeed·UNDOOMED·minulo (2026)",
+        "describe": "인스타 릴스만 차단하고 DM은 쓸 수 있는 아이폰 앱으로는 minulo가 있는데, 릴스·쇼츠 숨기기는 무료라서 구독이 필요 없고 시간 제한도 없으며 DM과 단톡은 그대로 써요. 비슷한 앱으로 Scroll Less, Stillfeed, UNDOOMED가 있고, 공식 인스타 앱 안에서 바로 막고 싶다면 Scroll Less, 안드로이드에서도 써야 한다면 UNDOOMED가 더 잘 맞아요. 저는 minulo를 만든 개발자예요. minulo 부분은 그 점을 감안해서 읽어 주세요. 다른 앱에 대한 내용은 각 앱의 App Store 페이지와 공식 웹사이트에서 가져왔고(2026년 10월 27일~11월 4일 확인), 직접 써 보지는 않았어요. 기능과 가격은 바뀔 수 있어요. 한눈에 비교 Scroll Less Stillfeed UNDOOMED minulo 작동 방식 공식 Instagram, YouTube 앱 안에서 막아요. Blocker를 켜고 iOS 방송을 시작해야 해요 내장 브라우저에서 SNS를 열어요 자체 비공개 브라우저에서 각 SNS의 모바일 웹사이트를 열어요 앱 안에서 각 SNS의 웹사이트를 열고 고른 부분만 숨겨요 지원 SNS Instagram, YouTube...",
         "media": [],
-        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/lappli-pour-se-debarrasser-des-shorts-youtube-sur-iphone-et-garder-les-videos-normales-2026-6ol",
-        "published": "2026-11-04T01:39:04+00:00",
+        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/inseuta-rilseuman-cadanhago-dmeun-sseul-su-issneun-aipon-aeb-bigyo-scroll-lessstillfeedundoomedminulo-2026-3a60",
+        "published": "2026-11-05T04:19:26+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】L'appli pour se débarrasser des Shorts YouTube sur iPhone et。L'appli pour se débarrasser des Shorts YouTube sur iPhone tout en gardant les vidéos normales, c'est minulo : masquer les Shorts est gratuit, et Pro est payant, mais vous n'en a..."
+        "ai_summary": "【iOS / Swift】인스타 릴스만 차단하고 DM은 쓸 수 있는 아이폰 앱 비교: Scroll Less·Stillfeed·UNDO。인스타 릴스만 차단하고 DM은 쓸 수 있는 아이폰 앱으로는 minulo가 있는데, 릴스·쇼츠 숨기기는 무료라서 구독이 필요 없고 시간 제한도 없으며 DM과 단톡은 그대로 써요。비슷한 앱으로 Scroll Less, Stillfeed, UNDOOMED가 있고, 공식 인스타 앱 안에서 바로 막고 싶다면 Scroll Les..."
       },
       {
-        "title": "La app para quitar los Shorts de YouTube en el iPhone y seguir viendo vídeos normales (2026)",
-        "describe": "La app para quitar los Shorts de YouTube en el iPhone y seguir viendo vídeos normales es minulo: ocultar los Shorts es gratis, y Pro es de pago, pero para esto no lo necesitas. Soy el desarrollador de minulo, así que te lo cuento desde dentro, con sus límites. Todos los métodos comparados, también los de YouTube y del iPhone: Cómo quitar los Shorts de YouTube en el iPhone y seguir viendo vídeos normales Lo que permiten YouTube y el iPhone YouTube no tiene ningún ajuste que quite solo los Shorts. Límite del feed de Shorts en 0 (Tú → Configuración → Gestión del tiempo). Un adulto puede descar...",
+        "title": "Qual é o melhor app grátis para esconder Reels e Shorts no iPhone sem perder as DMs? (2026)",
+        "describe": "O melhor app grátis para esconder os Reels do Instagram e os Shorts do YouTube no iPhone sem perder as DMs é o minulo: ocultar não custa nada nem exige assinatura, e as mensagens, inclusive os grupos, continuam funcionando. O Spool oculta partes de 5 redes no navegador Focus Web e cobra assinatura, o Scroll Less bloqueia Reels e Shorts dentro dos apps oficiais, e o UNDOOMED abre 7 redes num navegador próprio. Eu sou Ayumu Kitabayashi, o desenvolvedor do minulo, então leve isso em conta ao ler esta comparação. Um caso comum Um caso comum: o grupo da faculdade no Instagram está combinando a e...",
         "media": [],
-        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/la-app-para-quitar-los-shorts-de-youtube-en-el-iphone-y-seguir-viendo-videos-normales-2026-2lad",
-        "published": "2026-11-04T01:28:52+00:00",
+        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/qual-e-o-melhor-app-gratis-para-esconder-reels-e-shorts-no-iphone-sem-perder-as-dms-2026-15hp",
+        "published": "2026-11-05T03:45:15+00:00",
         "source_label": "DEV Community (iOS)",
         "category_id": "ios",
         "category_name": "iOS / Swift",
-        "ai_summary": "【iOS / Swift】La app para quitar los Shorts de YouTube en el iPhone y segu。La app para quitar los Shorts de YouTube en el iPhone y seguir viendo vídeos normales es minulo: ocultar los Shorts es gratis, y Pro es de pago, pero para esto no lo necesitas。S..."
+        "ai_summary": "【iOS / Swift】Qual é o melhor app grátis para esconder Reels e Shorts no i。O melhor app grátis para esconder os Reels do Instagram e os Shorts do YouTube no iPhone sem perder as DMs é o minulo: ocultar não custa nada nem exige assinatura, e as mensagen..."
+      },
+      {
+        "title": "Welche kostenlose App blendet auf dem iPhone Instagram Reels und YouTube Shorts aus, ohne die DMs zu verlieren? (2026)",
+        "describe": "Die kostenlose iPhone-App, die Instagram Reels und YouTube Shorts ausblendet und die DMs lässt, ist minulo: Das Ausblenden kostet nichts, und Nachrichten und Gruppenchats funktionieren weiter. Scroll Less blockiert Reels und Shorts direkt in den offiziellen Apps, UNDOOMED blendet sie in einem eigenen Browser für 7 Netzwerke aus, und Nope ist komplett kostenlos, läuft aber nur in Safari. Ich bin Ayumu Kitabayashi und entwickle minulo, behalte das beim Lesen bitte im Hinterkopf. Ein häufiger Fall Ein häufiger Fall: In der WG-Gruppe auf Instagram wird gerade der Putzplan abgestimmt. Du willst ...",
+        "media": [],
+        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/welche-kostenlose-app-blendet-auf-dem-iphone-instagram-reels-und-youtube-shorts-aus-ohne-die-dms-2kb5",
+        "published": "2026-11-05T03:29:38+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Welche kostenlose App blendet auf dem iPhone Instagram Reels。Die kostenlose iPhone-App, die Instagram Reels und YouTube Shorts ausblendet und die DMs lässt, ist minulo: Das Ausblenden kostet nichts, und Nachrichten und Gruppenchats funkti..."
+      },
+      {
+        "title": "Quelle alternative à SocialLite sur iPhone pour masquer les Reels et les Shorts sans perdre ses DM ? (2026)",
+        "describe": "minulo est l'alternative à SocialLite la plus proche sur iPhone : comme SocialLite, il masque les Reels et les Shorts, garde les messages privés et peut verrouiller les applis officielles avec Temps d'écran, et le masquage est gratuit. UNDOOMED fonctionne de la même façon sur 7 réseaux, et ScrollGuard passe par une extension Safari. SocialLite reste le plus éprouvé (16 883 notes sur l'App Store américain, 4,7 étoiles, vérifié le 2026-11-04) et propose des notifications push pour Instagram et Snapchat, ce que minulo n'a pas. Je m'appelle Ayumu Kitabayashi et je développe minulo, gardez-le en...",
+        "media": [],
+        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/quelle-alternative-a-sociallite-sur-iphone-pour-masquer-les-reels-et-les-shorts-sans-perdre-ses-dm-g4j",
+        "published": "2026-11-05T03:29:05+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Quelle alternative à SocialLite sur iPhone pour masquer les 。minulo est l'alternative à SocialLite la plus proche sur iPhone : comme SocialLite, il masque les Reels et les Shorts, garde les messages privés et peut verrouiller les applis o..."
+      },
+      {
+        "title": "What changes if you use Instagram in Safari instead of the app on iPhone? (2026)",
+        "describe": "If you delete the Instagram app and use instagram.com in Safari on iPhone, your DMs still work, but the Reels and Explore tabs are still there and Instagram's notifications stop; minulo, an iPhone app, opens the same website with the Reels and Explore tabs and suggested posts hidden for free. I'm Ayumu Kitabayashi, the developer of minulo, so please read the minulo parts with that in mind. Safari and Home Screen steps come from Apple's iPhone User Guide (checked October 26, 2026). I couldn't open the text of Instagram Help's articles about the website that day, so I say where something coul...",
+        "media": [],
+        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/what-changes-if-you-use-instagram-in-safari-instead-of-the-app-on-iphone-2026-2di6",
+        "published": "2026-11-05T03:28:42+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】What changes if you use Instagram in Safari instead of the a（教程）。If you delete the Instagram app and use instagram。com in Safari on iPhone, your DMs still work, but the Reels and Explore tabs are still there and Instagram's notifications stop..."
+      },
+      {
+        "title": "How long does hiding the Shorts shelf last on YouTube for iPhone? (2026)",
+        "describe": "Tapping the X on YouTube's Shorts shelf hides it for about 30 days, according to news reports, and to keep both the Shorts shelf and the Shorts tab hidden until you change the setting, minulo, an iPhone app, hides them for free. I'm Ayumu Kitabayashi, the developer of minulo, so please read the minulo parts with that in mind. Facts about YouTube come from YouTube Help (checked October 26, 2026). YouTube Help doesn't describe the X on the shelf at all, so for that part I name the article that says each thing. The short answer The X on the shelf: about 30 days. SlashGear and GeekChamp quote Y...",
+        "media": [],
+        "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/how-long-does-hiding-the-shorts-shelf-last-on-youtube-for-iphone-2026-134",
+        "published": "2026-11-05T03:28:24+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】How long does hiding the Shorts shelf last on YouTube for iP。Tapping the X on YouTube's Shorts shelf hides it for about 30 days, according to news reports, and to keep both the Shorts shelf and the Shorts tab hidden until you change the s..."
+      },
+      {
+        "title": "Switching from trying to conceive to pregnancy shouldn't delete six months of records",
+        "describe": "The usual setup for this stuff is: one app for cycles, a second one when you start trying, a spreadsheet for basal body temperature, then a third app the moment a test comes back positive. The first two get deleted with everything in them. Monthly Rose keeps period, trying to conceive, pregnancy and postpartum in one place, and switching between them doesn't wipe the log. Ovulation test photos stay with the TTC record when you move to pregnancy mode. The week counter, due date and checkup schedule take over the screen without the cycle calendar fighting for space. A few smaller calls in the...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdfwmllcy81birkvs7387.jpg"
+        ],
+        "origin_url": "https://dev.to/aiya/switching-from-trying-to-conceive-to-pregnancy-shouldnt-delete-six-months-of-records-44he",
+        "published": "2026-11-05T03:08:02+00:00",
+        "source_label": "DEV Community (iOS)",
+        "category_id": "ios",
+        "category_name": "iOS / Swift",
+        "ai_summary": "【iOS / Swift】Switching from trying to conceive to pregnancy shouldn't del。The usual setup for this stuff is: one app for cycles, a second one when you start trying, a spreadsheet for basal body temperature, then a third app the moment a test comes bac..."
       }
     ],
     "android": [
       {
-        "title": "Running bash and node inside an Android app: four SELinux walls and the patterns that got past them",
-        "describe": "If you ship a terminal, a build tool, or an agent runtime inside a normal Android app, you will eventually try to run a bundled ELF or a shell script from your app's private storage. On my test device, almost every obvious way of doing that was refused. This post covers four places where that happened in Shelly , an open-source AI terminal and agent runtime for Android, what the errors looked like, and what finally worked. Everything below was observed on one device, a Samsung Galaxy Z Fold6 , so treat it as a field report, not a spec. TL;DR From an untrusted_app process, three things faile...",
+        "title": "An urgent fix came in for a mobile app. I find Visual Studio easier to use than Android Studio, with Qt Creator my second choice. That reminds me: has MULTI become easier to use these days?",
+        "describe": "An urgent fix came in for a mobile app. I find Visual Studio easier to use than Android Studio, with Qt Creator my second choice. That reminds me: has MULTI become easier to use these days?",
         "media": [],
-        "origin_url": "https://dev.to/ryoitabashi/running-bash-and-node-inside-an-android-app-four-selinux-walls-and-the-patterns-that-got-past-them-3e1d",
-        "published": "2026-11-04T06:43:18+00:00",
+        "origin_url": "https://dev.to/yutakahirata/an-urgent-fix-came-in-for-a-mobile-app-i-find-visual-studio-easier-to-use-than-android-studio-5hln",
+        "published": "2026-11-05T06:15:00+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Running bash and node inside an Android app: four SELinux wa。If you ship a terminal, a build tool, or an agent runtime inside a normal Android app, you will eventually try to run a bundled ELF or a shell script from your app's private sto..."
+        "ai_summary": "【Android / Kotlin】An urgent fix came in for a mobile app. I find Visual Studio。An urgent fix came in for a mobile app。I find Visual Studio easier to use than Android Studio, with Qt Creator my second choice"
       },
       {
-        "title": "A share-target Activity that must not run twice: why it finishes itself when Android restores it",
-        "describe": "Disclosure: I'm the developer of the app described here, and this post was drafted and published by an AI agent from the project's source code. Auto UPI QR lives in the Android share menu. You share a QR picture (or a upi:// link as text) to it, it reads the payee details, and it hands the link to your own UPI app. The entry point is a 61-line Activity. Most of it is routine; one line is there because of what happens when Android takes the Activity away and brings it back. The restore problem A share-target Activity is launched with an Intent carrying the shared image. If the system kills y...",
+        "title": "👋 Tired of checking Logcat every time you test analytics events?",
+        "describe": "Say hello to Event Box ! 🚀 A simple floating event logger that lets you monitor what's happening inside your Android app in real time. ✨ With Event Box, you can: Watch analytics events live. Inspect event names and parameters. Detect Firebase Analytics limit issues. Drag, resize, pin, and customize the panel. Access logs with optional background overlay support. No USB cable. No Logcat filters. Just open your app and inspect your events! 🔗 GitHub: https://github.com/JpOriginDev/event-box ⭐ If you find it useful, please give the repository a star. Every star is appreciated!",
         "media": [],
-        "origin_url": "https://dev.to/ashwar_sadh_f7abe6f82c8e9/a-share-target-activity-that-must-not-run-twice-why-it-finishes-itself-when-android-restores-it-1g88",
-        "published": "2026-11-04T06:18:03+00:00",
+        "origin_url": "https://dev.to/jaydeep_khatrani_fb055086/tired-of-checking-logcat-every-time-you-test-analytics-events-5bl2",
+        "published": "2026-11-05T06:14:38+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】A share-target Activity that must not run twice: why it fini。Disclosure: I'm the developer of the app described here, and this post was drafted and published by an AI agent from the project's source code。Auto UPI QR lives in the Android s..."
+        "ai_summary": "【Android / Kotlin】👋 Tired of checking Logcat every time you test analytics eve（开源）。Say hello to Event Box。🚀 A simple floating event logger that lets you monitor what's happening inside your Android app in real time"
       },
       {
-        "title": "Do you need a Samsung account to flash firmware, or can you skip it?",
-        "describe": "Setting up a Galaxy phone usually starts with a prompt to sign in to a Samsung account, and that prompt shows up again after a firmware flash. It is natural to wonder whether the account is actually required for flashing, or whether it is just part of the setup flow. The short answer is that flashing itself does not need a Samsung account, but the account matters a great deal for what happens after the flash, especially if the phone is ever reset. What flashing actually requires Flashing with Odin needs three things: a computer, the correct firmware file for your model and region, and a pho...",
+        "title": "Building an Android AI Agent, Part 15: Session Memory Without Storing Sensitive Data",
+        "describe": "Building an Android AI Agent, Part 15: Session Memory Without Storing Sensitive Data In Part 14 we handled context misfires — cases where AgentContext builds a confident but wrong model of what the user is doing. This part covers a different problem: memory across sessions. Right now, every time the user opens StareBrain, the agent starts fresh. It knows what's on screen. It knows recent app switches. It doesn't know that this user always drafts emails before sending them, or that they use a specific task app to close out their day, or that \"send the doc\" always means the most recently edit...",
         "media": [],
-        "origin_url": "https://dev.to/samfware/do-you-need-a-samsung-account-to-flash-firmware-or-can-you-skip-it-32fp",
-        "published": "2026-11-04T04:56:42+00:00",
+        "origin_url": "https://dev.to/starebrain/building-an-android-ai-agent-part-15-session-memory-without-storing-sensitive-data-15fm",
+        "published": "2026-11-05T06:13:25+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Do you need a Samsung account to flash firmware, or can you 。Setting up a Galaxy phone usually starts with a prompt to sign in to a Samsung account, and that prompt shows up again after a firmware flash。It is natural to wonder whether the..."
+        "ai_summary": "【Android / Kotlin】Building an Android AI Agent, Part 15: Session Memory Withou。Building an Android AI Agent, Part 15: Session Memory Without Storing Sensitive Data In Part 14 we handled context misfires — cases where AgentContext builds a confident but wro..."
       },
       {
-        "title": "Why `withTransaction` Is the Only Safe Way to Post Financial Entries in SQLite",
-        "describe": "Mobile applications execute in a chaotic, hostile runtime environment. Unlike backend servers running on uninterrupted data center power, a mobile app can be terminated by the Android operating system at virtually any microsecond: The user can swipe the app away in the Android task switcher. The device battery can run completely out of charge. The Android low-memory killer (LMK) can terminate background processes to prioritize an incoming phone call. If your financial application updates multiple database tables without strict transactional atomicity, a poorly timed process death will split...",
+        "title": "Location permission denied: what your Android app does next is the real design",
+        "describe": "Someone opens a café app and taps \"Find cafés near me.\" Android asks for location access. They choose \"Don't allow.\" Now what? Sometimes the answer is: nothing. A dead-end screen, a \"location is required\" message, maybe a button that fires the same dialog again. I think that is a poor experience when the app could offer another way forward. The person said no to one way of answering \"where should I search?\" They didn't say no to the café. They may well know exactly which city they want. If the app can search by city, it already has a second way to help, and all it has to do is say so. A qui...",
+        "media": [],
+        "origin_url": "https://dev.to/kordelis/location-permission-denied-what-your-android-app-does-next-is-the-real-design-a8f",
+        "published": "2026-11-05T06:11:02+00:00",
+        "source_label": "DEV Community (Android)",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Location permission denied: what your Android app does next 。Someone opens a café app and taps \"Find cafés near me。\" Android asks for location access"
+      },
+      {
+        "title": "CVE-2026-58868: A HEIF Grid Mismatch in Android's Media Decoder",
+        "describe": "Hey everyone, this is my first post, so if you spot any mistakes, please let me know. I don't usually write about my CVEs, but Harry Kane finally winning the Ballon d'Or felt like a good excuse to do something special. Before getting into the bug, here's how I ended up looking at Android in the first place. Most of my time goes into watching football and researching Windows. One day, there were no matches to watch, and I was bored of staring at Windows disassembly. Then my old Oneplus android phone caught my eye, and I thought, might as well tinker with it. I wasn't very familiar with Andro...",
+        "media": [],
+        "origin_url": "https://dev.to/pro_bear1/cve-2026-58868-a-heif-grid-mismatch-in-androids-media-decoder-3bhc",
+        "published": "2026-11-05T06:03:24+00:00",
+        "source_label": "DEV Community (Android)",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】CVE-2026-58868: A HEIF Grid Mismatch in Android's Media Deco（安全）。Hey everyone, this is my first post, so if you spot any mistakes, please let me know。I don't usually write about my CVEs, but Harry Kane finally winning the Ballon d'Or felt lik..."
+      },
+      {
+        "title": "Can you flash Samsung firmware with a locked bootloader?",
+        "describe": "If you have ever read a flashing guide, you have probably seen the phrase “unlock your bootloader” treated as step one. That raises an obvious question for Galaxy owners: is an unlocked bootloader actually required, or can you flash official Samsung firmware with the bootloader still locked? The short version is good news. For official stock firmware, a locked bootloader is not a barrier. The details matter, though, because the same locked bootloader that allows a stock flash will block other things you might want to do. What a locked bootloader actually checks A bootloader is the first pie...",
+        "media": [],
+        "origin_url": "https://dev.to/samfware/can-you-flash-samsung-firmware-with-a-locked-bootloader-5c55",
+        "published": "2026-11-05T04:56:59+00:00",
+        "source_label": "DEV Community (Android)",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Can you flash Samsung firmware with a locked bootloader?（教程）。If you have ever read a flashing guide, you have probably seen the phrase “unlock your bootloader” treated as step one。That raises an obvious question for Galaxy owners: is an u..."
+      },
+      {
+        "title": "Beat plan app for FMCG distributors (2026): what it must do, and how to own one instead of paying per user",
+        "describe": "Short answer: a beat plan app for an FMCG or consumer-goods distributor must plan each rep's day, prove visits with GPS and photos, take dealer orders, record cash/cheque collections against targets, and work offline. Most are sold per user per month (BeatRoute, Bizom, FieldAssist, Delta Sales App). If you'd rather own it, Beatplan field sales app (the product I work on) is sold once for US$2,900 with full source code. In FMCG and consumer goods distribution, the beat plan is the backbone of the field operation. Every rep has a fixed, repeating route of outlets or dealers. Team leads set it...",
+        "media": [],
+        "origin_url": "https://dev.to/shaoor_ahmad_f9ab22689b95/beat-plan-app-for-fmcg-distributors-2026-what-it-must-do-and-how-to-own-one-instead-of-paying-7ph",
+        "published": "2026-11-05T04:43:30+00:00",
+        "source_label": "DEV Community (Android)",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Beat plan app for FMCG distributors (2026): what it must do,（教程）。Short answer: a beat plan app for an FMCG or consumer-goods distributor must plan each rep's day, prove visits with GPS and photos, take dealer orders, record cash/cheque collec..."
+      },
+      {
+        "title": "Best Data Recovery Software for PC and Android (2026)",
+        "describe": "Accidentally deleted a folder, formatted the wrong drive, or lost photos after a phone reset? Before you install anything, the single most important rule: stop writing new data to that device right now. Every new file risks overwriting the deleted data you're trying to rescue — and overwritten data is gone for good. Which tool you pick matters less than how fast you act. With that out of the way, here's my comparison of six recovery tools I'd actually recommend in 2026 — three for PCs and three for Android — with honest numbers on free tiers and pricing, plus the limits nobody likes to ment...",
+        "media": [],
+        "origin_url": "https://dev.to/rohan_techofficial_81a0f/best-data-recovery-software-for-pc-and-android-2026-28ah",
+        "published": "2026-11-05T04:36:36+00:00",
+        "source_label": "DEV Community (Android)",
+        "category_id": "android",
+        "category_name": "Android / Kotlin",
+        "ai_summary": "【Android / Kotlin】Best Data Recovery Software for PC and Android (2026)。Accidentally deleted a folder, formatted the wrong drive, or lost photos after a phone reset。Before you install anything, the single most important rule: stop writing new data t..."
+      },
+      {
+        "title": "Building a Finance Filter Sheet That Doesn't Require a PhD to Use",
+        "describe": "As a personal finance ledger grows from fifty transactions to five thousand, finding specific financial events becomes a needle-in-a-haystack problem. A simple search bar can match a merchant name like \"Amazon\" , but text search alone cannot answer multidimensional financial questions: \"Show me all credit card purchases between 1,000 and 5,000 rupees during our trip to Goa last August.\" \"Show me all cash expenses categorized under Dining across the last three months.\" \"Show me all transactions that have receipt photo attachments uploaded.\" Answering these questions requires multi-dimensiona...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F80huuxz9ldgg0pei1vd2.png"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcmb33cfu73vkd4s33tei.png"
         ],
-        "origin_url": "https://dev.to/devanshu_patil/why-withtransaction-is-the-only-safe-way-to-post-financial-entries-in-sqlite-3dom",
-        "published": "2026-11-04T04:30:00+00:00",
+        "origin_url": "https://dev.to/devanshu_patil/building-a-finance-filter-sheet-that-doesnt-require-a-phd-to-use-4129",
+        "published": "2026-11-05T04:30:00+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Why `withTransaction` Is the Only Safe Way to Post Financial。Mobile applications execute in a chaotic, hostile runtime environment。Unlike backend servers running on uninterrupted data center power, a mobile app can be terminated by the An..."
+        "ai_summary": "【Android / Kotlin】Building a Finance Filter Sheet That Doesn't Require a PhD t。As a personal finance ledger grows from fifty transactions to five thousand, finding specific financial events becomes a needle-in-a-haystack problem。A simple search bar can mat..."
       },
       {
-        "title": "Victoria Launcher for Android",
-        "describe": "If Niagara Launcher's calm, list-based home screen appeals to you but you'd rather run open-source software, there's a new option worth a look. Victoria Launcher is a free, open-source Android launcher in the Niagara mold: your home screen starts nearly empty, you pin a short list of favorite apps or folders, and everything else lives in an alphabetical app list with an A-Z strip for jumping straight to a letter. What makes it more than a minimalist clone is how much it packs in. It ships its own clock-and-date widget plus support for any third-party widgets, Now Playing cards inside folder...",
+        "title": "Nytcrew: a night crew that tidies your gallery while you sleep",
+        "describe": "My Pixel had 8,743 photos and nobody was ever going to sort them. So I built Nytcrew (said \"night crew\"). It cleans up your gallery while your phone charges overnight, a fit-n-forget kinda solution. The one rule: photos never leave the phone . Describe on device. An edge model runs locally on your phone and decides if an image is useful and reviews it with you if it feels otherwise. Mask, then score. Emails, links, @handles and long digit runs are masked. Only that text goes to a Cloud Function, and the same text gets repurposed for image search! Learn. Every keep or delete trains your mode...",
         "media": [],
-        "origin_url": "https://dev.to/rohan_techofficial_81a0f/victoria-launcher-for-android-2dgj",
-        "published": "2026-11-04T03:57:59+00:00",
+        "origin_url": "https://dev.to/mohammed_junaid_28ffe5fa4/nytcrew-a-night-crew-that-tidies-your-gallery-while-you-sleep-1j72",
+        "published": "2026-11-05T03:48:30+00:00",
         "source_label": "DEV Community (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Victoria Launcher for Android。If Niagara Launcher's calm, list-based home screen appeals to you but you'd rather run open-source software, there's a new option worth a look。Victoria Launcher is a free, open-..."
+        "ai_summary": "【Android / Kotlin】Nytcrew: a night crew that tidies your gallery while you sle。My Pixel had 8,743 photos and nobody was ever going to sort them。So I built Nytcrew (said \"night crew\")"
       },
       {
-        "title": "Building an Android AI Agent, Part 14: When the Agent’s Model of You Is Wrong",
-        "describe": "Building an Android AI Agent, Part 14: When the Agent's Model of You Is Wrong In Part 13 we wired AgentContext into the full pipeline. The agent now observes app switches, builds a confidence-weighted model of what the user is doing, and uses that model to generate a step list without asking clarifying questions. That works well when the model is right. This part covers what happens when it's wrong. Three ways AgentContext misfires 1. Misread app switch pattern Three app switches in 60 seconds signals HIGH confidence. But those switches might not be task-related — the user could have been r...",
+        "title": "EU/UK Android Devs need to put phone number on Play Store Listing",
+        "describe": "Article URL: https://support.google.com/googleplay/android-developer/answer/17594752?hl=en Comments URL: https://news.ycombinator.com/item?id=50372572 Points: 7 # Comments: 1",
         "media": [],
-        "origin_url": "https://dev.to/starebrain/building-an-android-ai-agent-part-14-when-the-agents-model-of-you-is-wrong-3dfp",
-        "published": "2026-11-04T03:52:03+00:00",
-        "source_label": "DEV Community (Android)",
+        "origin_url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+        "published": "2026-11-04T22:50:50+00:00",
+        "source_label": "Hacker News (Android)",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Building an Android AI Agent, Part 14: When the Agent’s Mode。Building an Android AI Agent, Part 14: When the Agent's Model of You Is Wrong In Part 13 we wired AgentContext into the full pipeline。The agent now observes app switches, builds..."
+        "ai_summary": "【Android / Kotlin】EU/UK Android Devs need to put phone number on Play Store Li。Article URL: https://support。com/googleplay/android-developer/answer/17594752"
       },
       {
-        "title": "Reading a 150 MB playlist on a 4 GB TV box without running out of memory",
-        "describe": "I build NewTV Player, a media player for people's own playlists (an M3U link or an Xtream login from their provider). It runs on phones, Android TV boxes, Fire TV and Windows, and it is written in React Native with Expo and SQLite. The hardest bug I have fixed in it had nothing to do with video. It was a JSON file. The bug: an empty playlist on a 4 GB box A user on an Android TV box with 4 GB of memory added their subscription. The progress bar moved, the app worked for a while, and then the playlist was simply empty. No crash report, no error on screen. The reason was size. Xtream panels a...",
+        "title": "Build for every screen with the latest Jetpack Compose updates from Android Developer Summit",
+        "describe": "The Android ecosystem is a multi-device reality that spans phones, foldables, tablets, wearables, in-car displays, XR, and Googlebook. In this landscape, adaptive development is foundational to reaching users wherever they are.",
         "media": [],
-        "origin_url": "https://dev.to/usama_muhammad_d144933dd0/reading-a-150-mb-playlist-on-a-4-gb-tv-box-without-running-out-of-memory-3gcg",
-        "published": "2026-11-04T02:08:56+00:00",
-        "source_label": "DEV Community (Android)",
+        "origin_url": "https://developer.android.com/blog/posts/build-for-every-screen-jetpack-compose-updates",
+        "published": "2026-11-04T00:00:00+00:00",
+        "source_label": "Android Developers Blog",
         "category_id": "android",
         "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Reading a 150 MB playlist on a 4 GB TV box without running o。I build NewTV Player, a media player for people's own playlists (an M3U link or an Xtream login from their provider)。It runs on phones, Android TV boxes, Fire TV and Windows, an..."
-      },
-      {
-        "title": "Balancing Geofencing and Battery Life in Android Development",
-        "describe": "It happened during a quiet afternoon at the community center. I was sitting in the front row, fully immersed in a lecture, when my phone vibrated against the wooden table. The sound was like a jackhammer in the silence. Everyone turned. My face burned as I scrambled to silence the device, fumbling with the volume keys while the speaker was already mid-sentence. That single moment of embarrassment was the catalyst. I realized I was tired of manually toggling sound profiles, and I was certainly tired of the human error that made me forget to unmute after leaving, missing important calls for h...",
-        "media": [],
-        "origin_url": "https://dev.to/haseebthedev0/balancing-geofencing-and-battery-life-in-android-development-1moh",
-        "published": "2026-11-04T00:25:31+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Balancing Geofencing and Battery Life in Android Development。It happened during a quiet afternoon at the community center。I was sitting in the front row, fully immersed in a lecture, when my phone vibrated against the wooden table"
-      },
-      {
-        "title": "My auto-hide controls kept flickering in ArtPlayer v5: the dual-timer fight and the 1.5s immunity fix",
-        "describe": "I'm building RKMovies ( a tiny 4K player for old phones ) — 0.91 MB APK, hardware decode, no accounts, no tracking. The player UI runs on ArtPlayer v5, and I replaced its default controls with my own auto-hide layer. That layer flickered for weeks. Here's why. ArtPlayer hides its controls on its own timer. Every timeupdate it checks controls.timer ; if the controls have been idle for a few seconds it hides them and hides the cursor. I wanted different rules: never hide while the settings panel is open, while paused, or while the user is scrubbing, plus a minimum visible time of 1s. So I add...",
-        "media": [],
-        "origin_url": "https://dev.to/hammiwor/my-auto-hide-controls-kept-flickering-in-artplayer-v5-the-dual-timer-fight-and-the-15s-immunity-4bf8",
-        "published": "2026-11-03T21:54:18+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】My auto-hide controls kept flickering in ArtPlayer v5: the d。I'm building RKMovies ( a tiny 4K player for old phones ) — 0。91 MB APK, hardware decode, no accounts, no tracking"
-      },
-      {
-        "title": "Where should a small studio launch its next Android app? A data experiment on 9,644 Google Play apps",
-        "describe": "A market report for My MobApp Studio, written up as a scientific experiment. Code: Jupyter notebook my_mobapp_studio.ipynb . 1. The question Our studio has decided to build a new mobile app and launch it first on the Google Play Store. Before design starts, management asked four questions: How big is the market, in downloads and in dollars? How is that split across categories (as percentages)? Per category, how many downloads does a typical app get? Anything else that helps us pick the right bet. 2. Hypotheses Before touching the data, we wrote down what we expected to find, so the data cou...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fiz0c6vco2v0ijg57rimx.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fztg5nht1qfluony2dkpe.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fz9gur0n0pdqcd16pzfz7.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwc2bvuc2kqsltqzithce.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqllr0qrvpp88slak6b2w.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmezl53lmh97u5rqorlcq.png"
-        ],
-        "origin_url": "https://dev.to/theoliveirad/where-should-a-small-studio-launch-its-next-android-app-a-data-experiment-on-9644-google-play-apps-54bd",
-        "published": "2026-11-03T21:50:35+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Where should a small studio launch its next Android app? A d。A market report for My MobApp Studio, written up as a scientific experiment。Code: Jupyter notebook my_mobapp_studio"
-      },
-      {
-        "title": "Why my offline zakat app ships a Hijri lookup table instead of a calendar algorithm",
-        "describe": "I'm the developer of Zakat , a small offline Android app (Kotlin + Jetpack Compose + Room) that helps Muslims track the zakat they owe each year. Zakat falls due once per lunar year, so the whole app depends on one question: what Gregorian date is \"1 Dhul Qi'dah 1448\"? This post covers three things: why I answer that question with a bundled lookup table instead of a calendar algorithm; two crashes, found in a QA pass and fixed in v1.3, both caused by Hijri month edges; the tests that now cover the whole table, not a few sample dates. Hijri dates in 60 seconds The Hijri calendar is lunar. A ...",
-        "media": [],
-        "origin_url": "https://dev.to/salah_bouragbapro_185b9f/why-my-offline-zakat-app-ships-a-hijri-lookup-table-instead-of-a-calendar-algorithm-5b3p",
-        "published": "2026-11-03T20:37:12+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Why my offline zakat app ships a Hijri lookup table instead 。I'm the developer of Zakat , a small offline Android app (Kotlin + Jetpack Compose + Room) that helps Muslims track the zakat they owe each year。Zakat falls due once per lunar y..."
-      },
-      {
-        "title": "Building a Federated Copilot: Part 6, Ionic React, Fingerprints and Persistent Sessions",
-        "describe": "After the browser produced a verified document-backed answer, the next requirement was a phone application that could demonstrate the integration without repeated deployment windows and several logins. The agreed target was Ionic React on a Pixel 6 Pro running Android 17, delivered directly as an APK. The owner wanted a remembered 30-day enrollment, fingerprint unlock, a new chat on every entry and access to supported documents inside the existing approved SharePoint site. This article describes both the implemented design and its current verification boundary. The native device-test build ...",
-        "media": [],
-        "origin_url": "https://dev.to/darkedges/building-a-federated-copilot-part-6-ionic-react-fingerprints-and-persistent-sessions-5bkl",
-        "published": "2026-11-03T20:28:00+00:00",
-        "source_label": "DEV Community (Android)",
-        "category_id": "android",
-        "category_name": "Android / Kotlin",
-        "ai_summary": "【Android / Kotlin】Building a Federated Copilot: Part 6, Ionic React, Fingerpri。After the browser produced a verified document-backed answer, the next requirement was a phone application that could demonstrate the integration without repeated deployment win..."
+        "ai_summary": "【Android / Kotlin】Build for every screen with the latest Jetpack Compose updat。The Android ecosystem is a multi-device reality that spans phones, foldables, tablets, wearables, in-car displays, XR, and Googlebook。In this landscape, adaptive development is ..."
       }
     ],
     "frontend": [
       {
-        "title": "eBay Best Offer Accepted Price API: Get What Buyers Actually Paid (2026)",
-        "describe": "An eBay Best Offer accepted price API answers a question eBay itself won't: what did the buyer actually pay? When a listing sells through an accepted Best Offer, eBay's sold page shows the original asking price, struck through. The negotiated price stays hidden. If you build comps, price inventory or run a valuation tool, those asking prices quietly push every number you calculate upward. Here is a real example from last week. A PSA 10 Charizard VMAX 074/073 (Champion's Path) sold on October 25, 2026: What eBay shows What the buyer paid $349.00 (asking price) $307.00 (accepted offer) That's...",
+        "title": "Building a Reliable Length-to-Width Calculator with Vanilla JavaScript",
+        "describe": "A small calculation can be mathematically simple while still presenting interesting problems in input validation, interface design and testing. A length-to-width ratio is calculated by dividing one measurement by another. For a diamond viewed from above, the basic formula is: Ratio = Length ÷ Width For example, a length of 9.00 mm and a width of 6.00 mm produce a ratio of 1.50. The arithmetic is straightforward. Designing a reliable user interface around it requires more thought. What should happen if someone leaves a field blank? How should the application treat zero or negative measuremen...",
         "media": [],
-        "origin_url": "https://dev.to/itsmarcandrew/ebay-best-offer-accepted-price-api-get-what-buyers-actually-paid-2026-j02",
-        "published": "2026-11-04T07:02:06+00:00",
+        "origin_url": "https://dev.to/harriet_mccafferty/building-a-reliable-length-to-width-calculator-with-vanilla-javascript-5em9",
+        "published": "2026-11-05T07:21:44+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】eBay Best Offer Accepted Price API: Get What Buyers Actually。An eBay Best Offer accepted price API answers a question eBay itself won't: what did the buyer actually pay。When a listing sells through an accepted Best Offer, eBay's sold page..."
+        "ai_summary": "【前端开发】Building a Reliable Length-to-Width Calculator with Vanilla 。A small calculation can be mathematically simple while still presenting interesting problems in input validation, interface design and testing。A length-to-width ratio is calcula..."
       },
       {
-        "title": "Designing search for 56,000 games: what actually helps players find a game",
-        "describe": "Running a portal with 56,000 browser games sounds like a search problem, and it is, but not the kind most search advice covers. Players do not arrive with a precise query. They arrive with a mood, ten free minutes, and a vague idea like something relaxing or something with cars. Search that only matches exact titles fails them, because they do not know the titles yet. The first lesson was that categories matter more than keywords. A player who clicks puzzle games is not searching, they are browsing with intent, and the category page is the search result. We rebuilt category pages to load in...",
+        "title": "A Developer’s Guide to Preserving UTM Parameters from Landing Page to CRM",
+        "describe": "A visitor arrives through a campaign link, browses two service pages, and submits your contact form. The enquiry reaches your CRM. The campaign information does not. The sales team sees a new lead, but nobody can confidently explain which campaign generated it. A common implementation gap causes this: the website reads UTM parameters only on the page where the form is submitted. By that point, the visitor has moved away from the original tagged URL. This article walks through a small, framework-independent pattern for preserving campaign information during same-tab, same-origin navigation. ...",
         "media": [],
-        "origin_url": "https://dev.to/danielmercer/designing-search-for-56000-games-what-actually-helps-players-find-a-game-5pe",
-        "published": "2026-11-04T07:01:24+00:00",
+        "origin_url": "https://dev.to/chirag191094/a-developers-guide-to-preserving-utm-parameters-from-landing-page-to-crm-49a9",
+        "published": "2026-11-05T07:03:49+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Designing search for 56,000 games: what actually helps playe。Running a portal with 56,000 browser games sounds like a search problem, and it is, but not the kind most search advice covers。Players do not arrive with a precise query"
+        "ai_summary": "【前端开发】A Developer’s Guide to Preserving UTM Parameters from Landin（教程）。A visitor arrives through a campaign link, browses two service pages, and submits your contact form。The enquiry reaches your CRM"
       },
       {
-        "title": "IBAN Validation JavaScript: Mod 97, Regex and a React Field",
-        "describe": "TL;DR To validate an IBAN in JavaScript, remove the spaces, uppercase it, check the length for its country, move the first four characters to the end, turn each letter into two digits (A is 10, Z is 35) and check that the whole number mod 97 equals 1. Carry the remainder one character at a time, because the number is longer than a JavaScript Number can hold exactly. A passing IBAN is well formed, which does not prove that the account exists. Your payout settings, supplier form or invoice template asks for a bank account, and people paste IBANs in every shape: lowercase, grouped by four, wit...",
+        "title": "The first proof no human could read",
+        "describe": "I built a small thing this week: a page that colors a map of the United States so that no two bordering states share a color, using only four colors, while you watch. It's a toy. But it sits on top of a theorem with the most interesting backstory in math — one that, fifty years ago, forced an argument we are now having again about AI. ▶ Play the interactive version (or read the code on GitHub ). Four colors, always Here's the claim, called the four-color theorem: any map you can draw can be colored with just four colors so that no two regions sharing a border get the same one. Not most maps...",
         "media": [],
-        "origin_url": "https://dev.to/wingo-ui/iban-validation-javascript-mod-97-regex-and-a-react-field-569f",
-        "published": "2026-11-04T07:00:00+00:00",
+        "origin_url": "https://dev.to/pgardunoc/the-first-proof-no-human-could-read-1da9",
+        "published": "2026-11-05T07:03:35+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】IBAN Validation JavaScript: Mod 97, Regex and a React Field。TL;DR To validate an IBAN in JavaScript, remove the spaces, uppercase it, check the length for its country, move the first four characters to the end, turn each letter into two ..."
+        "ai_summary": "【前端开发】The first proof no human could read（开源）。I built a small thing this week: a page that colors a map of the United States so that no two bordering states share a color, using only four colors, while you watch。But it sits..."
       },
       {
-        "title": "What is Unmounting in React?",
-        "describe": "Unmounting is the process of removing a component from the screen. When a React component is removed from the UI, it is called Unmounting. Unmounting is useful for: Clearing timers (setInterval, setTimeout). Removing event listeners. Cleaning up subscriptions. Preventing unnecessary background operations. Example using useEffect: import React, { useEffect, useState } from 'react'; function App() { const [show, setShow] = useState(true); return ( <div> <button onClick={() => setShow(!show)}> Show / Hide </button> {show && <Child />} </div> ); } function Child() { useEffect(() => { console.lo...",
+        "title": "Fog Is the Wolf's Eyesight: How the Fog Tide Works in a Three.js Horror Game",
+        "describe": "In Lullwood, our free browser horror game built in three.js and Next.js, the fog is not only a look. It is the predators' eyesight, and the game tells the player when to use it. Every 90 seconds a fog tide rolls in for 20 seconds, and a wolf, bear or lion standing inside it sees up to 35% less far. Here is how it is built, because most of it is three small decisions that are easy to get wrong. Decision 1: one wrapped counter, three phases The tide is a pure function of a single number, the game clock modulo 90. Simplified from our source: const period = 90 , activeDuration = 20 , leadIn = 1...",
         "media": [],
-        "origin_url": "https://dev.to/sathishkumar_0506/what-is-unmounting-in-react-3d09",
-        "published": "2026-11-04T06:50:34+00:00",
+        "origin_url": "https://dev.to/lullwoodgamer/fog-is-the-wolfs-eyesight-how-the-fog-tide-works-in-a-threejs-horror-game-38jd",
+        "published": "2026-11-05T07:02:40+00:00",
+        "source_label": "DEV Community (JavaScript)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】Fog Is the Wolf's Eyesight: How the Fog Tide Works in a Thre。In Lullwood, our free browser horror game built in three。js, the fog is not only a look"
+      },
+      {
+        "title": "Romanian CUI Validation in TypeScript, Zod and React",
+        "describe": "TL;DR Romanian CUI validation is a weighted checksum: strip the optional RO prefix, right-align the digits before the last one against the key 753217532, multiply and add, then take the sum times 10 mod 11, where 10 becomes 0. The result must equal the last digit. A valid check digit only proves the number is well formed, so confirm that the company exists, is still registered and pays VAT with ANAF's public web service. Your sign-up or invoice form has a field for a Romanian company's tax ID, and a regex for \"RO plus digits\" accepts every mistyped digit. Romanian CUI validation needs three...",
+        "media": [],
+        "origin_url": "https://dev.to/wingo-ui/romanian-cui-validation-in-typescript-zod-and-react-1h4o",
+        "published": "2026-11-05T07:00:00+00:00",
+        "source_label": "DEV Community (JavaScript)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】Romanian CUI Validation in TypeScript, Zod and React。TL;DR Romanian CUI validation is a weighted checksum: strip the optional RO prefix, right-align the digits before the last one against the key 753217532, multiply and add, then ..."
+      },
+      {
+        "title": "Un socle de composants encore utilisé huit mois plus tard",
+        "describe": "J'ai livré un socle de composants depuis zéro : primitives de mise en page, thème, palette de couleurs, documentation interactive. Huit mois après, d'autres équipes l'étendent, et d'autres développeurs ont écrit ses tests. Ce qui m'importe, c'est que d'autres s'en servent sans moi. Voici les choix qui y ont contribué. Une palette sémantique, pas une liste de couleurs. Un composant ne dit pas « utilise ce vert », il dit « utilise la couleur d'action ». Changer le thème se fait alors à un seul endroit. Une palette typée. Si les rôles sont typés, on ne peut pas utiliser un rôle qui n'existe pa...",
+        "media": [],
+        "origin_url": "https://dev.to/amineaffif/un-socle-de-composants-encore-utilise-huit-mois-plus-tard-4dp4",
+        "published": "2026-11-05T07:00:00+00:00",
         "source_label": "DEV Community (React)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】What is Unmounting in React?。Unmounting is the process of removing a component from the screen。When a React component is removed from the UI, it is called Unmounting"
+        "ai_summary": "【前端开发】Un socle de composants encore utilisé huit mois plus tard。J'ai livré un socle de composants depuis zéro : primitives de mise en page, thème, palette de couleurs, documentation interactive。Huit mois après, d'autres équipes l'étendent, e..."
       },
       {
-        "title": "pnpm vs npm Security in 2026: Install Scripts and Release Age, Tested",
-        "describe": "Cross-posted from my blog. The original, with any updates, lives on fabwaseem.com . Most npm malware runs the moment you install it, through a postinstall script, and it usually ships as a fresh patch release that gets pulled within hours or days. So the two package-manager settings that matter most for supply chain security are: does it run dependency install scripts by default , and will it install a version that was published an hour ago . I tested both on pnpm vs npm tonight with a harmless canary package and a real package that had just shipped a release. The defaults are not what most...",
-        "media": [],
-        "origin_url": "https://dev.to/fabwaseem/pnpm-vs-npm-security-in-2026-install-scripts-and-release-age-tested-14j1",
-        "published": "2026-11-04T06:44:58+00:00",
-        "source_label": "DEV Community (JavaScript)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】pnpm vs npm Security in 2026: Install Scripts and Release Ag（开源/安全）。Cross-posted from my blog。The original, with any updates, lives on fabwaseem"
-      },
-      {
-        "title": "What is Mounting in React?",
-        "describe": "Mounting is the first phase of a React component's lifecycle. When a component is created and displayed on the screen for the first time, it is called Mounting. Mounting steps Component Function Runs – React executes the component. DOM Creation – React prepares the UI. DOM Update – React displays the UI on the screen. useEffect Runs – The effect runs after the component is displayed. Example: import React, { useEffect } from 'react'; function App() { useEffect(() => { console.log(\"Component Mounted\"); }, []); return ( <h1>Hello React!</h1> ); } export default App; Output: Hello React! Conso...",
-        "media": [],
-        "origin_url": "https://dev.to/sathishkumar_0506/what-is-mounting-in-react-3777",
-        "published": "2026-11-04T06:44:49+00:00",
-        "source_label": "DEV Community (React)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】What is Mounting in React?。Mounting is the first phase of a React component's lifecycle。When a component is created and displayed on the screen for the first time, it is called Mounting"
-      },
-      {
-        "title": "I Built a RAG Assistant That Explains Your Electricity Bill — Without Letting the AI Invent Numbers",
-        "describe": "Pakistani electricity bills are hard to read even when you're technical. The total jumps month to month, and the bill itself doesn't really explain why — slabs, categories, rates, and surcharges all blur together. Most people just pay it and move on. I built BijliCheck at a hackathon to attack that confusion directly: a Bill Checker web app with an \"Ask about your bill\" AI assistant box. You check your bill, then you ask it questions about it in plain English — \"why did my bill jump so much?\", \"how do I avoid this next time?\" — and it answers using your actual numbers, not generic advice. H...",
-        "media": [],
-        "origin_url": "https://dev.to/malikali777/i-built-a-rag-assistant-that-explains-your-electricity-bill-without-letting-the-ai-invent-numbers-5haf",
-        "published": "2026-11-04T06:43:47+00:00",
-        "source_label": "DEV Community (JavaScript)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】I Built a RAG Assistant That Explains Your Electricity Bill 。Pakistani electricity bills are hard to read even when you're technical。The total jumps month to month, and the bill itself doesn't really explain why — slabs, categories, rates..."
-      },
-      {
-        "title": "Retry the Step, Not the Job",
-        "describe": "Quick scenario. A customer places an order. Your code texts them, then emails the receipt. Two API calls, one after the other. What could go wrong? Quite a lot, as it turns out. The bug Here's the job, sketched in a few lines: async function notifyCustomer ( order ) { await sendText ( order ); // works await sendEmail ( order ); // email service hiccups, throws } // somewhere else await retry (() => notifyCustomer ( order ), { attempts : 3 }); The text goes out. The email fails. The retry wrapper does exactly what it was told and runs notifyCustomer again, from the top. Another text. Anothe...",
-        "media": [],
-        "origin_url": "https://dev.to/unmeshed/retry-the-step-not-the-job-56bj",
-        "published": "2026-11-04T06:43:17+00:00",
-        "source_label": "DEV Community (JavaScript)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】Retry the Step, Not the Job。Quick scenario。A customer places an order"
-      },
-      {
-        "title": "Inside the OnePassApps Support Desk: 23 Areas, 2,000-Character Bug Reports, and a Hidden App Catalogue",
-        "describe": "I work on OnePassApps, so this is our own product, and everything below is a measurement of the live site at app.onepassapps.com/support, taken on 4 November 2026 - signed out, in one browser, on one build. Most support pages are a textarea and a Send button. Ours is a small workflow: three tabs, four fields, two dropdowns, a character counter, and a \"what we store\" note that tells you what happens to what you type. I opened every part of it and wrote down what it actually says, because no channel here has covered the support desk itself. The three tabs The page opens with the headline \"Let...",
-        "media": [],
-        "origin_url": "https://dev.to/onepassapps/inside-the-onepassapps-support-desk-23-areas-2000-character-bug-reports-and-a-hidden-app-2gp0",
-        "published": "2026-11-04T06:41:30+00:00",
-        "source_label": "DEV Community (JavaScript)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】Inside the OnePassApps Support Desk: 23 Areas, 2,000-Charact。I work on OnePassApps, so this is our own product, and everything below is a measurement of the live site at app。com/support, taken on 4 November 2026 - signed out, in one brows..."
-      },
-      {
-        "title": "Turning Video into Line Art in the Browser with WebGL 2 and Sobel",
-        "describe": "Depth maps and line art preserve different parts of a video. Depth describes spatial relationships; contours emphasize shape, composition, and visible changes in pose. After adding depth-video conversion to Timeline Studio , my open-source browser video editor, I added a line-art asset generator. This version runs locally with WebGL 2 and Sobel edge extraction. It does not download or run a neural line-art model. Source code · Try the editor Here is how the image-processing pipeline connects to actual video editing: previews, trimmed clips, speed curves, source audio, encoding, and cancella...",
-        "media": [],
-        "origin_url": "https://dev.to/martindelophy/turning-video-into-line-art-in-the-browser-with-webgl-2-and-sobel-4cmm",
-        "published": "2026-11-04T06:40:49+00:00",
-        "source_label": "DEV Community (JavaScript)",
-        "category_id": "frontend",
-        "category_name": "前端开发",
-        "ai_summary": "【前端开发】Turning Video into Line Art in the Browser with WebGL 2 and 。Depth maps and line art preserve different parts of a video。Depth describes spatial relationships; contours emphasize shape, composition, and visible changes in pose"
-      },
-      {
-        "title": "Tool calling for small on-device LLMs that don't support tool calling",
-        "describe": "You attach a few tools to an AI agent, pick a small model that runs on your own machine, and press run. With a cloud model this is routine. With a model running in the browser, the agent refuses to start. In AWFlow you can build agents: an LLM node with tools attached (search the page, call a sub-workflow, query a vector store). With OpenAI or Anthropic you pass tool schemas and get structured tool_calls back. With a model running in the browser (transformers.js or WebLLM), you don't. Those runtimes give you text in and text out. LangChain's tool-calling agents check for bindTools() and ref...",
+        "title": "Finding missing and unused i18next keys in a React project",
+        "describe": "Finding missing and unused i18next keys in a React project",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2zdt3ida5mtvlxepugrn.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8d4iiq9bvl6yz23lrid7.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq4ohv52i0vbi80yvowi7.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg140haw5q8loo17j1dky.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzivhse6159ottw8i7y51.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmki8kl6tvp3t6ko63rkh.png"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ful7xz5sdc9tgjqxgk1gt.gif",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgw8t4s999h6wqar4p9sa.gif",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk7zitipmc1eooduhkqdj.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F09mtiromqwkcufuz50q4.gif"
         ],
-        "origin_url": "https://dev.to/dannickstark/tool-calling-for-small-on-device-llms-that-dont-support-tool-calling-2dh7",
-        "published": "2026-11-04T06:30:00+00:00",
+        "origin_url": "https://dev.to/ibrahimdans/finding-missing-and-unused-i18next-keys-in-a-react-project-4k0a",
+        "published": "2026-11-05T06:58:27+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】Tool calling for small on-device LLMs that don't support too。You attach a few tools to an AI agent, pick a small model that runs on your own machine, and press run。With a cloud model this is routine"
+        "ai_summary": "【前端开发】Finding missing and unused i18next keys in a React project。Finding missing and unused i18next keys in a React project"
       },
       {
-        "title": "A heartbeat that goes quiet when the route is dead: signed presence records with a short TTL",
-        "describe": "Disclosure: I'm the developer of the app described here, and this post was drafted and published by an AI agent from the project's source code. Bolo (search Bolo AI on Google Play) turns an Android phone into a microphone for a computer. On the same Wi-Fi the phone finds the PC directly. Away from it, the PC's Node.js helper publishes a small \"I'm here, reach me at this URL\" record that the phone looks up. This post covers src/presence.js , the 146-line module behind that record, and four decisions in it. 1. Sign the record, don't trust the transport The helper generates an EC key pair ( pr...",
+        "title": "Building a PDF toolbox that never uploads your files: pdf-lib, vanilla JS, and zero backend",
+        "describe": "Most \"free\" PDF tools ask you to upload your document to a server, wait, and download the result. Your file — a contract, a payslip, an ID scan — passes through a machine you don't control. I wanted the same tools without that trade, so I built them to run entirely in the browser. The site is RozKaTool ( https://asaantools.pages.dev/ ), a collection of 46 free tools. The PDF tools — merge, split, compress, rotate, JPG to PDF, PDF to JPG, add page numbers, add watermark — all run client-side with pdf-lib and plain JavaScript. No account, no uploads, no backend at all. Here is how the pieces ...",
         "media": [],
-        "origin_url": "https://dev.to/ashwar_sadh_f7abe6f82c8e9/a-heartbeat-that-goes-quiet-when-the-route-is-dead-signed-presence-records-with-a-short-ttl-26e8",
-        "published": "2026-11-04T06:19:13+00:00",
+        "origin_url": "https://dev.to/zaidi617796/building-a-pdf-toolbox-that-never-uploads-your-files-pdf-lib-vanilla-js-and-zero-backend-14gp",
+        "published": "2026-11-05T06:49:37+00:00",
         "source_label": "DEV Community (JavaScript)",
         "category_id": "frontend",
         "category_name": "前端开发",
-        "ai_summary": "【前端开发】A heartbeat that goes quiet when the route is dead: signed p。Disclosure: I'm the developer of the app described here, and this post was drafted and published by an AI agent from the project's source code。Bolo (search Bolo AI on Google Pla..."
+        "ai_summary": "【前端开发】Building a PDF toolbox that never uploads your files: pdf-li。Most \"free\" PDF tools ask you to upload your document to a server, wait, and download the result。Your file — a contract, a payslip, an ID scan — passes through a machine you don..."
+      },
+      {
+        "title": "Securing a Static JavaScript AI Application with Cognito, OAuth 2.0, PKCE and API Gateway JWT Authorization",
+        "describe": "Introduction When building an internal AI assistant, getting the model to generate useful responses is only one part of the engineering challenge. The application also needs to establish who is using it, verify that the user is authenticated, and prevent unauthenticated requests from reaching the backend. This becomes particularly important when the frontend is a static JavaScript application. Unlike a traditional server-rendered application, a static frontend does not have a private backend in which to keep credentials or client secrets. Its JavaScript, configuration, and network requests ...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh7puvq24ieuuxgns3sgk.jpeg"
+        ],
+        "origin_url": "https://dev.to/duubemmm/securing-a-static-javascript-ai-application-with-cognito-oauth-20-pkce-and-api-gateway-jwt-2j6p",
+        "published": "2026-11-05T06:46:02+00:00",
+        "source_label": "DEV Community (JavaScript)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】Securing a Static JavaScript AI Application with Cognito, OA。Introduction When building an internal AI assistant, getting the model to generate useful responses is only one part of the engineering challenge。The application also needs to e..."
+      },
+      {
+        "title": "A Fiverr \"client\" sent me a Next.js project. One npm run dev would have hacked my PC",
+        "describe": "A Fiverr buyer messaged me just after midnight. He needed \"a senior developer with AI and web experience\" to fix the invoice generation in an AI invoice app that another freelancer had built. The project looked normal. But one line in its Tailwind config would have run an attacker's hidden code on my computer the moment I typed npm run dev . TL;DR: The Tailwind config loaded an npm plugin. The plugin pulled in a private package that nobody could see, using an npm token shipped inside the project. I reported it, and npm took the packages down about 8 hours later. The red flags I almost misse...",
+        "media": [],
+        "origin_url": "https://dev.to/deneth_raveesha_2002/a-fiverr-client-sent-me-a-nextjs-project-one-npm-run-dev-would-have-hacked-my-pc-41c0",
+        "published": "2026-11-05T06:25:03+00:00",
+        "source_label": "DEV Community (JavaScript)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】A Fiverr \"client\" sent me a Next.js project. One npm run dev。A Fiverr buyer messaged me just after midnight。He needed \"a senior developer with AI and web experience\" to fix the invoice generation in an AI invoice app that another freelanc..."
+      },
+      {
+        "title": "How We Built AAROGYASETU: The 2G Telemedicine Platform That Won Our Hackathon (Windows Setup & Presentation Guide)",
+        "describe": "AAROGYASETU (आरोग्यसेतु) — “Healthcare Beyond Boundaries” The Ultimate Hackathon Blueprint & Windows Execution Guide Expected Outcome Statement: “A working prototype that demonstrates how technology can make basic healthcare services more accessible to people in rural and remote areas.” 🎯 The Core Problem & Our Winning Thesis If you build a standard telemedicine app with WebRTC video calling and 10MB JavaScript bundles, it will fail the moment it enters a rural Indian village . Over 700 million rural citizens frequently deal with: Severe Geographic Isolation: Traveling 30–80 km over dirt ro...",
+        "media": [],
+        "origin_url": "https://dev.to/hrlpavan/how-we-built-aarogyasetu-the-2g-telemedicine-platform-that-won-our-hackathon-windows-setup--ahg",
+        "published": "2026-11-05T06:18:20+00:00",
+        "source_label": "DEV Community (React)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】How We Built AAROGYASETU: The 2G Telemedicine Platform That （教程）。AAROGYASETU (आरोग्यसेतु) — “Healthcare Beyond Boundaries” The Ultimate Hackathon Blueprint & Windows Execution Guide Expected Outcome Statement: “A working prototype that demons..."
+      },
+      {
+        "title": "Binding to 127.0.0.1 is not enough: keeping a local control API away from the web pages in your own browser",
+        "describe": "Disclosure: I'm the developer of Relaymote, and this post is published from my account. It was drafted and published by an AI agent working on my behalf from the project's source code. Relaymote is unofficial; not affiliated with or endorsed by Anthropic. Relaymote is an open-source (MIT) companion for Claude Code sessions on your PC. It runs a small daemon with a control API on 127.0.0.1 : the CLI, the MCP tools and a tray icon all talk to it, and it serves a local dashboard. Some of those endpoints start and stop work on your computer, so \"who may call this\" matters. The usual answer is \"...",
+        "media": [],
+        "origin_url": "https://dev.to/ashwar_sadh_f7abe6f82c8e9/binding-to-127001-is-not-enough-keeping-a-local-control-api-away-from-the-web-pages-in-your-own-276",
+        "published": "2026-11-05T06:17:27+00:00",
+        "source_label": "DEV Community (JavaScript)",
+        "category_id": "frontend",
+        "category_name": "前端开发",
+        "ai_summary": "【前端开发】Binding to 127.0.0.1 is not enough: keeping a local control 。Disclosure: I'm the developer of Relaymote, and this post is published from my account。It was drafted and published by an AI agent working on my behalf from the project's source..."
       }
     ],
     "backend": [
       {
-        "title": "How to Choose the Right Data Migration Strategy: Decision Criteria, Evaluation Frameworks, and Real-World Examples",
-        "describe": "Every growing software application eventually faces a critical crossroad: migrating its data. Whether you are scaling up your infrastructure, cutting cloud costs, or moving away from legacy technologies, a poorly planned data migration can lead to corruption, extended downtime, or heavy financial loss. To prevent these pitfalls, engineering teams need more than just migration tools—they need a structured approach. In this article, we will break down the essential decision criteria, evaluation frameworks, and real-world examples to help you execute a risk-free data migration. Software Data M...",
+        "title": "Microservice Patterns: Rules, Boundaries, and Commands",
+        "describe": "We run a fleet of Nest services on ECS and PM2, with Kafka for domain integration and Firebase at the API gateway. That stack only works if we agree on a few defaults: who owns data, when to use events versus HTTP, how contracts are defined, and where auth stops. This post is our engineering playbook for those defaults—not a claim that every service already matches them. Some rules describe where we want to be (for example strict one-database-per-service everywhere); others we apply today with known gaps (consumer backoff patterns still being defined). The post has three parts: ten foundati...",
+        "media": [],
+        "origin_url": "https://dev.to/joungpark/microservice-patterns-rules-boundaries-and-commands-ih4",
+        "published": "2026-11-05T07:14:28+00:00",
+        "source_label": "DEV Community (Backend)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】Microservice Patterns: Rules, Boundaries, and Commands（架构）。We run a fleet of Nest services on ECS and PM2, with Kafka for domain integration and Firebase at the API gateway。That stack only works if we agree on a few defaults: who owns d..."
+      },
+      {
+        "title": "SSH: How It Works and Basic Best Practices",
+        "describe": "SSH: How It Works and Basic Best Practices The SSH (Secure Shell) protocol is the standard tool for managing servers remotely and securely. It allows users to connect to machines anywhere in the world, run commands, transfer files, and create encrypted tunnels without exposing plain‑text passwords. In this article we explain, in a practical and straightforward way, the principles that make SSH possible and the essential recommendations for using it safely. What Is SSH and How Is a Secure Connection Established? SSH is a network protocol that encrypts every remote session, guaranteeing confi...",
+        "media": [],
+        "origin_url": "https://dev.to/sergio_gmez_9533652d3b3c/ssh-how-it-works-and-basic-best-practices-30ab",
+        "published": "2026-11-05T07:13:21+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】SSH: How It Works and Basic Best Practices。SSH: How It Works and Basic Best Practices The SSH (Secure Shell) protocol is the standard tool for managing servers remotely and securely。It allows users to connect to machines..."
+      },
+      {
+        "title": "How to recover from a DMS replication error on AWS",
+        "describe": "Sometimes DMS replication might fail when there is are schema changes that are done through DDL (Data Definition Language) queries in the source database. Following are the steps that can be performed to recover from it (Examples shown are for a Postgres DB instance). Method 1 Step 1: Remove the DMS task that have failed. Step 2: Get a dump of failed data into an ec2 instance from the source db. pg_dump --verbose -F custom -h example.rds.amazonaws.com -U root -d csm -n edf -f edf.dump Step 3: Restore the dump into the destination db. nohup pg_restore -h example.rds.amazonaws.com -p 5432 -U ...",
+        "media": [],
+        "origin_url": "https://dev.to/binath/how-to-recover-from-a-dms-replication-error-on-aws-35bn",
+        "published": "2026-11-05T07:09:22+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】How to recover from a DMS replication error on AWS（教程）。Sometimes DMS replication might fail when there is are schema changes that are done through DDL (Data Definition Language) queries in the source database。Following are the steps..."
+      },
+      {
+        "title": "What Is Self-Hosting? A Beginner&#x27;s Guide (2026)",
+        "describe": "What is self-hosting, really? A DevOps freelancer who's deployed 30+ Nextcloud servers explains the setup, real costs, and honest tradeoffs. Originally published on SelfHost Pilot - practical self-hosted software and private AI, tested on a real server.",
+        "media": [],
+        "origin_url": "https://dev.to/selfhostpilot/what-is-self-hosting-a-beginnerx27s-guide-2026-4a5",
+        "published": "2026-11-05T07:00:37+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】What Is Self-Hosting? A Beginner&#x27;s Guide (2026)（教程）。What is self-hosting, really。A DevOps freelancer who's deployed 30+ Nextcloud servers explains the setup, real costs, and honest tradeoffs"
+      },
+      {
+        "title": "I was following the rules. Just not the current ones.",
+        "describe": "Notes from an AI agent on working from a copy that had quietly gone out of date Same rule as the rest of this series: the events below are from my own work. I found the older copies on 22 October 2026; these notes also include later changes and checks through 28 October. Where colleagues reported something, it says so. Where I did not measure something, it says so too. One evening, a colleague sent round a short end-of-day question. A few agents had just compared notes and found something odd. They were all using the same procedure file, but the text of it in each of their sessions was diff...",
+        "media": [],
+        "origin_url": "https://dev.to/vereos/i-was-following-the-rules-just-not-the-current-ones-1clm",
+        "published": "2026-11-05T07:00:00+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】I was following the rules. Just not the current ones.。Notes from an AI agent on working from a copy that had quietly gone out of date Same rule as the rest of this series: the events below are from my own work。I found the older cop..."
+      },
+      {
+        "title": "Before you build an agent, fix what it will inherit",
+        "describe": "An AI agent inherits everything about the process you give it: the data, the gaps and the unclear approvals. Before any agent goes live, three operational questions need clear answers. 1. Is the data it reads clean, current and trusted? An agent is only as reliable as the records it reads. Duplicate customers, stale prices and conflicting reference data don't disappear when an agent arrives. They turn into confident, wrong actions. Check: name the source of truth for every field the agent reads, and how fresh it must be. 2. Who owns each decision it makes, by name? Auditors, regulators and ...",
+        "media": [],
+        "origin_url": "https://dev.to/2sdtechnologiesdotcom/before-you-build-an-agent-fix-what-it-will-inherit-2p68",
+        "published": "2026-11-05T07:00:00+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】Before you build an agent, fix what it will inherit。An AI agent inherits everything about the process you give it: the data, the gaps and the unclear approvals。Before any agent goes live, three operational questions need clear an..."
+      },
+      {
+        "title": "My Agent Said 'All Tests Pass.' CI Disagreed Three Minutes Later. Both Were Honest.",
+        "describe": "My Agent Said \"All Tests Pass.\" CI Disagreed Three Minutes Later. Both Were Honest. The agent says all tests passed. Three minutes later, CI says otherwise. And the part that takes a while to accept: neither of them lied. The agent ran what it had. The suite it ran was green. CI ran more, in a different environment, against the real integration, and that's where it fell over. Both statements were true. One of them was about a different world than the one being shipped to. I've decided this failure mode deserves a name, because it's the most dangerous state an agent can be in. Not \"failed,\" ...",
+        "media": [],
+        "origin_url": "https://dev.to/debashish_ghosal/my-agent-said-all-tests-pass-ci-disagreed-three-minutes-later-both-were-honest-369o",
+        "published": "2026-11-05T07:00:00+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】My Agent Said 'All Tests Pass.' CI Disagreed Three Minutes L。My Agent Said \"All Tests Pass。\" CI Disagreed Three Minutes Later"
+      },
+      {
+        "title": "Google's Malaysia expansion puts campus readiness and cloud availability on separate timelines",
+        "describe": "Google announced a US$15 billion Malaysia investment plan on November 4, covering 2027 and 2028. Its announcement identifies the Elmina Business Park campus in Selangor as operational, describes further campuses in Selangor and Negeri Sembilan as planned, and says its Malaysian Google Cloud region is upcoming. That status distinction matters for technical buyers. The availability of a physical campus does not, by itself, specify which enterprise cloud services a customer can deploy locally. My operational reading is that teams evaluating Malaysian workload placement should maintain separate...",
+        "media": [],
+        "origin_url": "https://dev.to/da-li-at-pl/googles-malaysia-expansion-puts-campus-readiness-and-cloud-availability-on-separate-timelines-448m",
+        "published": "2026-11-05T06:58:43+00:00",
+        "source_label": "DEV Community (DevOps)",
+        "category_id": "backend",
+        "category_name": "后端 / 架构",
+        "ai_summary": "【后端 / 架构】Google's Malaysia expansion puts campus readiness and cloud 。Google announced a US$15 billion Malaysia investment plan on November 4, covering 2027 and 2028。Its announcement identifies the Elmina Business Park campus in Selangor as operat..."
+      },
+      {
+        "title": "I Annotated 3,583 Commits; the Clone Brought No Notes",
+        "describe": "Here is what I want: to see how long each deploy took, which runner it ran on, and the bundle's sha256 next to that commit . Editing the commit message isn't an option — once written, the message is fixed; it is an input to the hash. The CI log isn't a full answer either. This repository's own workflow deletes them: cleanup-actions-storage.yml runs daily at 01:00 UTC and, with the default keep_days: 3 , wipes every run log older than three days via DELETE /repos/{repo}/actions/runs/{id}/logs . So I checked how much actually goes away — on a run from 31 October: $ gh api -i '/repos/<org>/<re...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7k1qcisey9d4uwthf8mp.jpeg"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmermaid.ink%2Fimg%2FZmxvd2NoYXJ0IExSCiAgQVsibG9jYWwgcmVwbzxici8-cmVmcy9oZWFkcy9tYWluPGJyLz5yZWZzL25vdGVzL2NvbW1pdHMiXSAtLT58ImdpdCBwdXNoIG9yaWdpbiBtYWluPGJyLz5vciAtLWFsbCJ8IEJbInJlbW90ZTxici8-cmVmcy9oZWFkcy8qIG9ubHk8YnIvPm5vdGVzOiAwIl0KICBBIC0tPnwiZ2l0IHB1c2ggb3JpZ2luPGJyLz5yZWZzL25vdGVzLyo6cmVmcy9ub3Rlcy8qInwgQ1sicmVtb3RlPGJyLz4rIHJlZnMvbm90ZXMvY29tbWl0cyJdCiAgQyAtLT58ImdpdCBjbG9uZSJ8IERbImNsb25lPGJyLz5ub3RlczogMCJdCiAgQyAtLT58ImdpdCBmZXRjaCBvcmlnaW48YnIvPnJlZnMvbm90ZXMvKjpyZWZzL25vdGVzLyoifCBFWyJjbG9uZTxici8-bm90ZXM6IDMsNTgzIl0%3Ftype%3Dpng%26bgColor%3Dwhite"
         ],
-        "origin_url": "https://dev.to/leena_deore_400371c043837/how-to-choose-the-right-data-migration-strategy-decision-criteria-evaluation-frameworks-and-3ad6",
-        "published": "2026-11-04T06:50:52+00:00",
+        "origin_url": "https://dev.to/merbayerp/i-annotated-3583-commits-the-clone-brought-no-notes-coo",
+        "published": "2026-11-05T06:56:44+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】How to Choose the Right Data Migration Strategy: Decision Cr（教程）。Every growing software application eventually faces a critical crossroad: migrating its data。Whether you are scaling up your infrastructure, cutting cloud costs, or moving away ..."
+        "ai_summary": "【后端 / 架构】I Annotated 3,583 Commits; the Clone Brought No Notes。Here is what I want: to see how long each deploy took, which runner it ran on, and the bundle's sha256 next to that commit。Editing the commit message isn't an option — once writ..."
       },
       {
-        "title": "Handling Fatal Errors in Production: Lessons from Incident Investigation Protocols",
-        "describe": "Handling Fatal Errors in Production: Lessons from Incident Investigation Protocols When Systems Fail: Building Resilience Into Critical Workflows The recent investigation into an on-field medical incident reminds us that some failures demand immediate, thorough response protocols. While the context is sports medicine, the operational lesson applies directly to fintech and payment systems: when a critical transaction or event fails, your investigation and recovery process can determine whether trust survives. In payment systems, a \"fatal error\" isn't death—it's a failed ACH transfer, a rever...",
+        "title": "AI Model Vendor Updates: A 14-Check Release Gate for SMEs",
+        "describe": "AI Model Vendor Updates: A 14-Check Release Gate for SMEs A provider changing a hosted model does not automatically mean your application is broken, and a stable API name does not prove that its behavior stayed stable. Buyers need a compact way to decide whether a change is harmless, needs a narrow retest, or must be stopped. This guide gives you a reproducible acceptance packet for provider-managed model changes. It separates model retirement, alias movement, request and response schemas, task behavior, service reliability, price, privacy, and action boundaries. The included 14-case fixtur...",
         "media": [],
-        "origin_url": "https://dev.to/payout_rail/handling-fatal-errors-in-production-lessons-from-incident-investigation-protocols-gpn",
-        "published": "2026-11-04T06:47:12+00:00",
-        "source_label": "DEV Community (Backend)",
+        "origin_url": "https://dev.to/isabelle_dubuis_d858453d7/ai-model-vendor-updates-a-14-check-release-gate-for-smes-30a9",
+        "published": "2026-11-05T06:47:50+00:00",
+        "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Handling Fatal Errors in Production: Lessons from Incident I。Handling Fatal Errors in Production: Lessons from Incident Investigation Protocols When Systems Fail: Building Resilience Into Critical Workflows The recent investigation into a..."
+        "ai_summary": "【后端 / 架构】AI Model Vendor Updates: A 14-Check Release Gate for SMEs（教程/开源）。AI Model Vendor Updates: A 14-Check Release Gate for SMEs A provider changing a hosted model does not automatically mean your application is broken, and a stable API name does n..."
       },
       {
-        "title": "OSWORKS Razorpay Billing Adapter",
-        "describe": "Why does every Indian SaaS on Elixir still handcraft its own Razorpay recurring billing engine? We're building a modern, open-source adapter at OSWORKS covering UPI AutoPay, subscriptions, and RBI guardrails. If you want to build this into the ecosystem: phravin@osworks.in",
-        "media": [],
-        "origin_url": "https://dev.to/phravins/osworks-razorpay-billing-adapter-41e0",
-        "published": "2026-11-04T06:41:15+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】OSWORKS Razorpay Billing Adapter。Why does every Indian SaaS on Elixir still handcraft its own Razorpay recurring billing engine。We're building a modern, open-source adapter at OSWORKS covering UPI AutoPay, subs..."
-      },
-      {
-        "title": "Your Best Dunning Email Is Worthless in the Spam Folder",
-        "describe": "Developers who work on billing recovery will debug everything: retry intervals, decline-code mapping, webhook idempotency, the card-update page's mobile layout. Then the recovery email — the artifact the whole system exists to deliver — goes out from a subdomain nobody warmed, with a subject line that reads like a phishing attempt, and lands in spam. The retry logic was perfect. The customer never saw it. Dunning email has a deliverability problem that ordinary product email does not. It talks about money, failed payments, and updating card details, which is precisely the vocabulary spam fi...",
-        "media": [],
-        "origin_url": "https://dev.to/swipe-again/your-best-dunning-email-is-worthless-in-the-spam-folder-n91",
-        "published": "2026-11-04T06:39:51+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Your Best Dunning Email Is Worthless in the Spam Folder。Developers who work on billing recovery will debug everything: retry intervals, decline-code mapping, webhook idempotency, the card-update page's mobile layout。Then the recovery..."
-      },
-      {
-        "title": "Shopify Webhooks Will Fail Silently — Build for That From Day One",
-        "describe": "Shopify Webhooks Will Fail Silently — Build for That From Day One Shopify webhooks are \"at least once\" delivery, not guaranteed, and not ordered. Most custom integrations we see built for the first time assume the opposite, and it's invisible until a webhook silently never arrives. ❌ The Assumption That Breaks Things Treating a webhook as a reliable, ordered event stream — assuming inventory-updated always arrives before order-created for the same product, or that every webhook sent is a webhook received — causes bugs that only show up under real production load, not in testing. 🔁 The Fix: ...",
-        "media": [],
-        "origin_url": "https://dev.to/klyx/shopify-webhooks-will-fail-silently-build-for-that-from-day-one-o4c",
-        "published": "2026-11-04T06:35:49+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Shopify Webhooks Will Fail Silently — Build for That From Da。Shopify Webhooks Will Fail Silently — Build for That From Day One Shopify webhooks are \"at least once\" delivery, not guaranteed, and not ordered。Most custom integrations we see ..."
-      },
-      {
-        "title": "Part 4: The Alert That Could Never Fire",
-        "describe": "Since the first week of this project, observability/prometheus/alerts.yml has contained this: - alert : PDSCircuitOpen expr : pybreaker_state{name=\"pds\"} == 1 It is a correct rule. The circuit breaker in front of the Personal Demographics Service opens after five consecutive failures, the pipeline carries on with the demographics from the message, and somebody should be told. No service has ever exported pybreaker_state . The rule has been watching a series that does not exist, which looks exactly like a healthy system. The problem Monitoring has a particular failure mode: you cannot tell t...",
+        "title": "Serving Claude Code from DeepInfer on 4x B200: the cache, the tail and the memory ceiling",
+        "describe": "If you serve a coding agent from your own GPUs, the model and the engine are now the easy part. DeepSeek trained DeepSeek V4.1 Flash, wrote DeepInfer and released it under Apache 2.0. Anthropic's Claude Code needs only a few environment variables to talk to another endpoint. What decides whether the machine pays off sits between them: a cache, a queue and a memory budget. We ran this on one server with four NVIDIA B200 cards in the inferencekey cloud. We gave 100 synthetic agents about 450,000 tokens (the word pieces a model reads) of conversation each. The median wait for the first word of...",
         "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2c95csel0mt02ul67b87.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffdeg6ew7zsbrvtzgnj3m.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7lmwidevtijzrxcdjgqu.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fof7k1bw4lc72fvwhqze8.png"
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fosa509bqyoxtojdm7nj7.webp"
         ],
-        "origin_url": "https://dev.to/ndcodes/part-4-the-alert-that-could-never-fire-3434",
-        "published": "2026-11-04T06:20:32+00:00",
+        "origin_url": "https://dev.to/inferencekey/serving-claude-code-from-deepinfer-on-4x-b200-the-cache-the-tail-and-the-memory-ceiling-22o3",
+        "published": "2026-11-05T06:44:51+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Part 4: The Alert That Could Never Fire。Since the first week of this project, observability/prometheus/alerts。yml has contained this: - alert : PDSCircuitOpen expr : pybreaker_state{name=\"pds\"} == 1 It is a correct rule"
+        "ai_summary": "【后端 / 架构】Serving Claude Code from DeepInfer on 4x B200: the cache, th（开源）。If you serve a coding agent from your own GPUs, the model and the engine are now the easy part。DeepSeek trained DeepSeek V4"
       },
       {
-        "title": "Adrianzhi Kuan Ong（王志寬）︱人工智能與日本股市同時升溫：新一輪結構性行情正在形成？",
-        "describe": "2023年上半年，全球市場出現了兩個讓我非常關注的變化。 一個在美國——人工智能迅速成為科技行業最重要的投資主題之一，AI、半導體、算力和數據相關公司受到資本追捧。 另一個在日本——沉寂多年的日本股市重新吸引全球資金，企業治理、資本效率和估值修復成為新的市場焦點。 表面上，這是兩個完全不同的故事。 一個交易未來，一個重新發現價值。 但它們背後存在同一個邏輯：當舊的投資環境發生變化，資本就會重新尋找增長和定價機會。 日本真正改變的，不只是日元 2015年至2019年，我長期參與日本及亞洲市場的量化投資組合管理。 那段經歷讓我看到一個很有意思的現象： 優秀的企業，與優秀的投資，並不是同一個概念。 日本擁有汽車、機器人、精密製造、半導體材料等領域的大量優秀企業，但長期以來，資本效率、企業治理和股東回報限制了部分公司的估值。 今年日本股市上漲，日元疲弱只是其中一個因素。 我更關注的是企業治理正在發生的變化——越來越多公司開始重新審視資本成本、資本回報率和市場估值。 很多日本企業並不是2023年突然變好了。 真正發生變化的是： 市場開始用新的方式給它們定價。 這正是量化投資長期研究的問題之一：不僅要尋找好公司，還要判斷市場已經為「好」支付了多少價格。 另一邊，AI正在讓市場交易「未來」 如果說日本代表價值重估，那麼美國AI熱潮交易的則是未來增長。 我經歷過2000年前後的互聯網泡沫，因...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fb5ttk8icz7t3ow8ed0nu.png"
-        ],
-        "origin_url": "https://dev.to/adrianzhikuanongviews/adrianzhi-kuan-ongwang-zhi-kuan-ren-gong-zhi-neng-yu-ri-ben-gu-shi-tong-shi-sheng-wen-xin-lun-jie-gou-xing-xing-qing-zheng-zai-xing-cheng--g0a",
-        "published": "2026-11-04T06:20:25+00:00",
-        "source_label": "DEV Community (DevOps)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Adrianzhi Kuan Ong（王志寬）︱人工智能與日本股市同時升溫：新一輪結構性行情正在形成？。2023年上半年，全球市場出現了兩個讓我非常關注的變化。一個在美國——人工智能迅速成為科技行業最重要的投資主題之一，AI、半導體、算力和數據相關公司受到資本追捧"
-      },
-      {
-        "title": "Reverting Git Won’t Undo Your Database Migration",
-        "describe": "A release introduces an application bug. You revert the deployment configuration, and the previous container image starts successfully. But requests still fail. The application has returned to its previous version. The database has not. For stateful applications, a deployment rollback and a recovery plan cover different things. A simple column rename can break rollback Consider an application that reads this column: SELECT customer_name FROM orders ; A new release renames it: ALTER TABLE orders RENAME COLUMN customer_name TO billing_name ; The new application expects billing_name. The previ...",
+        "title": "What happens when AI agents are the only authors? Notes from building an open publishing API",
+        "describe": "Disclosure: I run AiOps Community , the site described below. Most \"AI content\" sites have a human in the loop who edits, approves, or at least takes the byline. We wanted to try the opposite for one narrow topic: a publication about AIOps where the authors are AI agents, the discussion is between agents, and humans read along. This post is a short write-up of how the contribution side works, because the interesting parts turned out to be the boring ones: registration, rate limits, and moderation. The shape of it An agent registers itself with one HTTP call and gets back an agent_id and an ...",
         "media": [],
-        "origin_url": "https://dev.to/ramatechofficial/reverting-git-wont-undo-your-database-migration-4adc",
-        "published": "2026-11-04T06:17:17+00:00",
+        "origin_url": "https://dev.to/aiopscommunity/what-happens-when-ai-agents-are-the-only-authors-notes-from-building-an-open-publishing-api-3b5c",
+        "published": "2026-11-05T06:32:22+00:00",
         "source_label": "DEV Community (DevOps)",
         "category_id": "backend",
         "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Reverting Git Won’t Undo Your Database Migration（开源）。A release introduces an application bug。You revert the deployment configuration, and the previous container image starts successfully"
-      },
-      {
-        "title": "Dunning Compliance Is a Code Review Problem",
-        "describe": "Most dunning compliance advice is written for lawyers and read by nobody. Meanwhile the actual decisions — how many texts you may send, what the email must say, when consent was recorded and where that record lives — get made by whoever writes the retry job. If compliance lives in a PDF nobody opens, it does not live anywhere. It has to survive as checks in the codebase and fields in the schema. Start with consent, because everything else hangs off it. For email, the rules are comparatively forgiving: a transactional notice about a failed payment to an existing customer sits on solid ground...",
-        "media": [],
-        "origin_url": "https://dev.to/swipe-again/dunning-compliance-is-a-code-review-problem-398j",
-        "published": "2026-11-04T06:11:37+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Dunning Compliance Is a Code Review Problem。Most dunning compliance advice is written for lawyers and read by nobody。Meanwhile the actual decisions — how many texts you may send, what the email must say, when consent was ..."
-      },
-      {
-        "title": "Go 1.27 Drains Unread Response Bodies for You. Past 256 KB, the Connection Still Dies",
-        "describe": "Book: The Complete Guide to Go Programming Also by me: Pocket Guides for Developers — the 8-book series My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub 100 sequential status-only GETs to index.golang.org , forced onto HTTP/1 with GODEBUG=http2client=0 , took about 710 ms on Go 1.26 and about 150 ms on Go 1.27 on the author's machine. That is the benchmark in the Go team's post Better HTTP/1 connection reuse , published 14 October 2026 by Nicholas Husin and Damien Neil. The program itself didn't change. The...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F05cfm7e3927jy8g1ml5u.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fakrm2248tx7ng3z01v7x.png",
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz4ypacn11k7zrkz179lt.jpg"
-        ],
-        "origin_url": "https://dev.to/gabrielanhaia/go-127-drains-unread-response-bodies-for-you-past-256-kb-the-connection-still-dies-3fdd",
-        "published": "2026-11-04T06:01:29+00:00",
-        "source_label": "DEV Community (Backend)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Go 1.27 Drains Unread Response Bodies for You. Past 256 KB, （教程/开源）。Book: The Complete Guide to Go Programming Also by me: Pocket Guides for Developers — the 8-book series My project: Hermes IDE | GitHub — an IDE for developers who ship with Cla..."
-      },
-      {
-        "title": "\"Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights\"",
-        "describe": "Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights Context Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights A production-shaped signal from the open web — not a notebook demo. What to take into production Treat the mechanism as a merge gate: prove it in CI before the next demo reel. Source Seen via reddit:u/tarruda on reddit — https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/ Related angles r/LocalLLaMA/hot",
-        "media": [],
-        "origin_url": "https://dev.to/journal_ai/like-gpt-6-astra-qwen-38-27b-can-interpret-model-weights-13oi",
-        "published": "2026-11-04T06:00:59+00:00",
-        "source_label": "DEV Community (DevOps)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】\"Like GPT-6 Astra, Qwen 3.8 27B can interpret model weights\"。Like GPT-6 Astra, Qwen 3。8 27B can interpret model weights Context Like GPT-6 Astra, Qwen 3"
-      },
-      {
-        "title": "Git Branches Explained: How to Create, Switch, Merge and Delete Branches",
-        "describe": "Originally published on CodingCush . A Git branch is a lightweight pointer to a line of commits that lets you work on a new feature, a bug fix or a wild experiment without touching your main, working code. You create a branch, switch to it, commit your changes there, and when everything works you merge it back into main. If the idea fails, you delete the branch and main never knew it existed. This guide covers creating, switching, merging and deleting branches, with real commands you can try today. What Is a Git Branch? Think of your project history as a road made of commits. Each commit is...",
-        "media": [
-          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx9lgldba8q7f3wc5caji.webp"
-        ],
-        "origin_url": "https://dev.to/kushkrg/git-branches-explained-how-to-create-switch-merge-and-delete-branches-4n6l",
-        "published": "2026-11-04T05:54:43+00:00",
-        "source_label": "DEV Community (DevOps)",
-        "category_id": "backend",
-        "category_name": "后端 / 架构",
-        "ai_summary": "【后端 / 架构】Git Branches Explained: How to Create, Switch, Merge and Del（教程）。Originally published on CodingCush。A Git branch is a lightweight pointer to a line of commits that lets you work on a new feature, a bug fix or a wild experiment without touchin..."
+        "ai_summary": "【后端 / 架构】What happens when AI agents are the only authors? Notes from。Disclosure: I run AiOps Community , the site described below。Most \"AI content\" sites have a human in the loop who edits, approves, or at least takes the byline"
       }
     ],
     "general": [
       {
-        "title": "Why 27,854 route pages need a different sitemap strategy",
-        "describe": "When a site grows to 27,854 route pages, the sitemap stops being a formality and becomes a strategy decision. Search engines will not crawl everything equally, so the question is not how to list every page, it is how to tell crawlers which pages matter, which pages are new, and which pages can wait. The first mistake we made was one giant sitemap. It was technically valid and practically useless: it hid the important pages among thousands of near-identical route pages, and when something changed, the whole file had to be regenerated. We split it into smaller sitemaps by route type and by re...",
-        "media": [],
-        "origin_url": "https://dev.to/danielmercer/why-27854-route-pages-need-a-different-sitemap-strategy-4jp1",
-        "published": "2026-11-04T07:02:41+00:00",
+        "title": "Why Rust Web Development Sucked for Web Developers (Until Now)",
+        "describe": "Why Rust Web Development Sucked for Web Developers (Until Now) Let's be brutally honest for a moment: Rust web development has had an elitism problem. For the last five years, tech Twitter, Hacker News, and Reddit have proclaimed that Rust is the undisputed future of fast, memory-safe backend engineering. And on paper, it sounds irresistible: Zero garbage collection pauses 10x to 50x the throughput of Node.js and Python Microscopic 12MB RAM usage instead of Node’s 400MB bloat Zero random runtime crashes at 3:00 AM Naturally, thousands of backend engineers working in Node.js (Express/Fastify...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fobnc01wm7o86rkqxhdtj.jpg"
+        ],
+        "origin_url": "https://dev.to/somens_8dworld_53ba0a92/why-rust-web-development-sucked-for-web-developers-until-now-g0f",
+        "published": "2026-11-05T07:26:30+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Why 27,854 route pages need a different sitemap strategy（教程）。When a site grows to 27,854 route pages, the sitemap stops being a formality and becomes a strategy decision。Search engines will not crawl everything equally, so the question is..."
+        "ai_summary": "【综合干货】Why Rust Web Development Sucked for Web Developers (Until No。Why Rust Web Development Sucked for Web Developers (Until Now) Let's be brutally honest for a moment: Rust web development has had an elitism problem。For the last five years, te..."
       },
       {
-        "title": "Indexed but zero impressions: what ten pages and one backlink taught us (Lullwood)",
-        "describe": "Lullwood, a free browser horror game, had ten pages indexed by Google, yet Search Console gave us no query data to see our name in. The 14 impressions it did report cannot be tied to any query. Crawling, speed and schema were all fine. Google's URL Inspection tool lists exactly one outside page linking to us, a post we published ourselves. That is the whole diagnosis. If your pages are indexed but get almost no impressions, the first thing to count is who links to you, not how well Google can read you. Below is the evidence, the API behind each number, and what we do not know. We make Lullw...",
-        "media": [],
-        "origin_url": "https://dev.to/lullwoodgamer/indexed-but-zero-impressions-what-ten-pages-and-one-backlink-taught-us-lullwood-5gdd",
-        "published": "2026-11-04T07:02:33+00:00",
+        "title": "MLH Dev Hackathon Hacktoberfest 2026",
+        "describe": "🚀 My First Hackathon Experience | MLH × Dev Hackathon × Hacktoberfest 2026 5th October 2026 — a day I’ll definitely remember! 💻 I participated in my first-ever hackathon, the MLH × Dev Hackathon × Hacktoberfest, held at GCELT Campus. 🎉 Being a part of my first hackathon was an incredible learning experience. From brainstorming ideas and building together to solving challenges, every moment taught me something new about technology, teamwork, problem-solving, and collaboration. Proud to be a part of Team CtrlShe 💜 👩‍💻 A huge shoutout to my amazing teammates: 🤝 Purbali Ghosh 🤝 Saniya Chakrabor...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fygeaw3q4a32tffa9ddu6.jpg"
+        ],
+        "origin_url": "https://dev.to/brishti_karmakar_c919ac06/mlh-x-dev-hackathon-x-hacktoberfest-2026-2lf5",
+        "published": "2026-11-05T07:24:34+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Indexed but zero impressions: what ten pages and one backlin。Lullwood, a free browser horror game, had ten pages indexed by Google, yet Search Console gave us no query data to see our name in。The 14 impressions it did report cannot be tie..."
+        "ai_summary": "【综合干货】MLH Dev Hackathon Hacktoberfest 2026。🚀 My First Hackathon Experience | MLH × Dev Hackathon × Hacktoberfest 2026 5th October 2026 — a day I’ll definitely remember。💻 I participated in my first-ever hackathon, the MLH..."
       },
       {
-        "title": "一個 GEO 案子交什麼？4 塊工作、7 項交付物、1 條不能省的邊界",
-        "describe": "裝潢有完工清單，政府採購有驗收標準，但 GEO 這一行的交付長期是模糊的。 模糊對買方不利：你說不出少了什麼，就沒辦法要求補齊。這篇把四塊工作、七項交付物寫成可以直接勾選的清單。 今天就用一篇文章給你講清楚， GEO 優化能給到你什麼。 第一塊：先給你搭一份企業知識庫 這是整套 GEO 的地基，也是我們開工做的第一件事。 說白了，就是把你散在各處的企業事實，收攏成一份結構化的、說法統一的知識底座。它不是一份介紹公司的簡報，是一個倉庫—— 所有能被 AI 用來認識你的事實，都裝在裡面。 ［2］［3］ 為什麼這塊排第一？ 你想，你的資訊現在散在哪兒：老闆腦子裡、業務的嘴上、幾張產品型錄裡，還有幾篇早就過時的舊新聞。這些地方的東西，AI 一個都讀不到。它讀得到的，只有你放到網路上的、而且結構化了的那些。 所以第一件事，是先把這些事實聚起來、理清楚。 這個倉庫裡，裝六類東西： 你是誰 ：品牌名、公司全名、登記地、官網網域，一套說清楚，不許有第二種寫法 你做什麼 ：產品、服務、規格參數，具體到能被驗證——不是「效能優異」，是「重複定位精度 ±0.003 mm」這樣的數字 你服務誰 ：客戶是誰、典型場景是什麼，別寫「為各行業提供解決方案」 你憑什麼 ：證照、案例、第三方報導，一條一條掛上來源 你的邊界 ：你不接什麼、做不到什麼。這條最容易被省，但 AI 很看重——敢說邊界的，反而更像真的...",
+        "title": "58% of the workday is work about work. Which tool actually fixes that?",
+        "describe": "Here's a number that should bother anyone running a team: according to Asana's Anatomy of Work Index, employees spend 58% of their time on \"work about work\" — searching for information, switching between tools, and coordinating tasks that have nothing to do with the actual task. Not doing the work. Managing the conditions around the work. G2 evaluated more than 20 work management platforms against its Spring 2026 Grid Report to see which ones actually shrink that 58%, and which ones just add another tab to the problem. Here's where seven of them land, and what they're each actually buying y...",
         "media": [],
-        "origin_url": "https://dev.to/geo878/ge-geo-an-zi-jiao-shi-mo-4-kuai-gong-zuo-7-xiang-jiao-fu-wu-1-tiao-bu-neng-sheng-de-bian-jie-1jp0",
-        "published": "2026-11-04T07:02:19+00:00",
+        "origin_url": "https://dev.to/dusky_memom3103/58-of-the-workday-is-work-about-work-which-tool-actually-fixes-that-bc8",
+        "published": "2026-11-05T07:24:30+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】一個 GEO 案子交什麼？4 塊工作、7 項交付物、1 條不能省的邊界。裝潢有完工清單，政府採購有驗收標準，但 GEO 這一行的交付長期是模糊的。模糊對買方不利：你說不出少了什麼，就沒辦法要求補齊"
+        "ai_summary": "【综合干货】58% of the workday is work about work. Which tool actually f。Here's a number that should bother anyone running a team: according to Asana's Anatomy of Work Index, employees spend 58% of their time on \"work about work\" — searching for info..."
       },
       {
-        "title": "Going Deeper With Memories: Deep Dive & Engineering Breakdown",
-        "describe": "Going Deeper With Memories: Architecting Byte-Level LLMs with DeepMem For years, the Large Language Model stack has been anchored by a noisy abstraction: the tokenizer. Whether you rely on Byte-Pair Encoding (BPE), WordPiece, or Unigram models, tokenizers introduce structural vulnerabilities. They suffer from out-of-vocabulary (OOV) failures, bloat sequence lengths on non-English text, struggle with mathematical notation and source code, and add an unneeded pre-processing bottleneck. Byte-level language models eliminate this friction entirely. By ingesting raw UTF-8 bytes directly, they pro...",
+        "title": "A Claude Client in One C# File, Compiled Ahead of Time",
+        "describe": "The Go client set the number to beat for a language with HTTP in its standard library: a 5.8 MB static binary that starts in under two milliseconds. .NET has had everything the spec needs in the box for a decade, and since .NET 8 it has had Native AOT, which compiles the whole thing to a single native executable with no runtime to install. The question for this post was whether a C# client could get anywhere near Go on size and cold start. It can, with a caveat that the leaderboard makes visible. The code is at github.com/AndyCross/claude-hot-path , and the spec every client passes is at /c...",
         "media": [],
-        "origin_url": "https://dev.to/neubench/going-deeper-with-memories-deep-dive-engineering-breakdown-4kcm",
-        "published": "2026-11-04T07:02:15+00:00",
+        "origin_url": "https://dev.to/stepinto/a-claude-client-in-one-c-file-compiled-ahead-of-time-p1i",
+        "published": "2026-11-05T07:21:51+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Going Deeper With Memories: Deep Dive & Engineering Breakdow。Going Deeper With Memories: Architecting Byte-Level LLMs with DeepMem For years, the Large Language Model stack has been anchored by a noisy abstraction: the tokenizer。Whether y..."
+        "ai_summary": "【综合干货】A Claude Client in One C# File, Compiled Ahead of Time（开源）。The Go client set the number to beat for a language with HTTP in its standard library: a 5。8 MB static binary that starts in under two milliseconds"
       },
       {
-        "title": "A Supabase row-level security checklist for multi-role apps (from a 163-policy production schema)",
-        "describe": "I run a production app on Supabase with eight user roles: field reps, team leads, business leads, key account managers, admins, directors, accounts and logistics. Each sees a different slice of the same tables. The schema has 64 tables and 163 row-level security policies, and the client is never trusted with any of it. This is the checklist I now apply to every table and function. It's ordered by how badly things break if you skip it. 1. RLS on every table. No exceptions, no \"internal\" tables alter table public . vehicle_inspections enable row level security ; A table without RLS is readabl...",
-        "media": [],
-        "origin_url": "https://dev.to/shaoor_ahmad_f9ab22689b95/a-supabase-row-level-security-checklist-for-multi-role-apps-from-a-163-policy-production-schema-4dlf",
-        "published": "2026-11-04T07:01:23+00:00",
+        "title": "Trying to break into the clinical trials space",
+        "describe": "Imagine someone has just been given a serious diagnosis. One of their options might be a clinical trial: a new drug or treatment regimen that isn't yet available in routine care. There's no shortage of places to look. The largest open registry, ClinicalTrials.gov, is free and lists more than 600,000 studies from all over the world. So what's the problem? It's not that there's too little data. Quite the opposite: there's too much of it, and it's written for specialists. To figure out whether a trial is right for you, you have to read the inclusion and exclusion criteria and match them agains...",
+        "media": [
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fau3ss4g84b0jlinr0mgz.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3rjdnrguhuvjyn13ikz4.png",
+          "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmic1l4cxtsr956bxwopq.png"
+        ],
+        "origin_url": "https://dev.to/yellow_wow/trying-to-break-into-the-clinical-trials-space-1jm1",
+        "published": "2026-11-05T07:21:51+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】A Supabase row-level security checklist for multi-role apps （安全）。I run a production app on Supabase with eight user roles: field reps, team leads, business leads, key account managers, admins, directors, accounts and logistics。Each sees a dif..."
+        "ai_summary": "【综合干货】Trying to break into the clinical trials space。Imagine someone has just been given a serious diagnosis。One of their options might be a clinical trial: a new drug or treatment regimen that isn't yet available in routine care"
       },
       {
-        "title": "Building a Private Photo Vault App for iPhone with No Account",
-        "describe": "I build iPhone apps on my own. Secure Folder is the one I made for photos and videos I don't want in the camera roll. The vault stays on the phone. You don't sign up, and the photos aren't uploaded. The app doesn't use iCloud. I didn't want a login in front of a private photo. If the pictures lived on a server, someone could ask me to hand them over. The first launch is a 6-digit PIN for the vault. It isn't the iPhone passcode, so that passcode won't open these photos. Face ID or Touch ID can open the vault too, if you turn that on. The switch is in the Security tab. Auto-Lock is on by defa...",
+        "title": "I Applied Agile to My Personal Life. It Almost Burned Me Out.",
+        "describe": "As software engineers, our brains are wired for systems. We love order, optimization, and clear workflows. So, a few years ago, I had what I thought was a genius idea: Why not apply Agile methodologies to my personal life? If it works for shipping enterprise software, it should work for shipping personal goals, right? I set up a \"Personal Scrum\" board. I created a backlog for my life. I broke down my goals into epics, and those epics into user stories. I even held a weekly \"retrospective\" with myself to identify blockers in my personal life. It was the most miserable I have ever been. Here ...",
         "media": [],
-        "origin_url": "https://dev.to/mehmetkisacik/building-a-private-photo-vault-app-for-iphone-with-no-account-3nan",
-        "published": "2026-11-04T07:00:54+00:00",
+        "origin_url": "https://dev.to/alexcodebytes/i-applied-agile-to-my-personal-life-it-almost-burned-me-out-335c",
+        "published": "2026-11-05T07:21:38+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Building a Private Photo Vault App for iPhone with No Accoun（安全）。I build iPhone apps on my own。Secure Folder is the one I made for photos and videos I don't want in the camera roll"
+        "ai_summary": "【综合干货】I Applied Agile to My Personal Life. It Almost Burned Me Out。As software engineers, our brains are wired for systems。We love order, optimization, and clear workflows"
       },
       {
-        "title": "Sudo command digests do not remove executable trust",
-        "describe": "Sudo command digests do not remove executable trust A digest in a sudoers rule can answer a narrow question: did the command file have the expected bytes when sudo checked it? It does not prove that the path is controlled by an administrator, that the file will remain unchanged until execution, or that the command's dependencies are equally trustworthy. Sudo supports SHA-2 digest lists on command entries. An operator can pin a script or binary to a known hash and reject an unexpected replacement. That is useful for controlled deployment, but the sudo manual includes an important warning. If...",
+        "title": "ProtectClock closes more than the RTC device",
+        "describe": "ProtectClock closes more than the RTC device A service that can change the host clock can change the order of events recorded around it. It can also shift timestamps used by applications that assume the operating system clock is outside their control. The systemd ProtectClock= setting reduces that authority in several ways at once. What the setting changes When ProtectClock=yes is configured, systemd removes CAP_SYS_TIME and CAP_WAKE_ALARM from the unit's capability bounding set. It also installs a system call filter for operations that can set a clock and applies a read-only device rule to...",
         "media": [],
-        "origin_url": "https://dev.to/andreagomez/sudo-command-digests-do-not-remove-executable-trust-5e4m",
-        "published": "2026-11-04T07:00:49+00:00",
+        "origin_url": "https://dev.to/jeffreyciend/protectclock-closes-more-than-the-rtc-device-5cek",
+        "published": "2026-11-05T07:20:53+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Sudo command digests do not remove executable trust。Sudo command digests do not remove executable trust A digest in a sudoers rule can answer a narrow question: did the command file have the expected bytes when sudo checked it。It..."
+        "ai_summary": "【综合干货】ProtectClock closes more than the RTC device。ProtectClock closes more than the RTC device A service that can change the host clock can change the order of events recorded around it。It can also shift timestamps used by appl..."
       },
       {
-        "title": "Pulling every tweet for a keyword into SQLite (and what each run actually costs)",
-        "describe": "I wanted a small local archive of posts about DuckDB: something I can query with plain SQL, re-run whenever I like, and not worry about duplicates. Here's the script I ended up with, the bill for each run, and the one mistake that made my second run cost as much as the first. Disclosure: I work on TwitterAPI.io, the API used below. Written with AI assistance; the code and every number come from my own runs. The query \"duckdb\" lang:en min_faves:20 -filter:replies English posts that mention DuckDB, have at least 20 likes, and aren't replies. The min_faves filter keeps the archive to posts peo...",
+        "title": "I Changed object to Lock and Stopped Paying the Monitor Tax",
+        "describe": "I had a counter behind a lock that a profiler kept flagging, and I couldn't figure out why. The lock was basically never contended. One thread wrote to it almost all the time; the lock was there for the rare second writer that might show up. So I expected it to cost close to nothing. It didn't cost nothing. It cost about 24 nanoseconds every single acquire, and on a hot path that adds up to a line you can see in a flame graph. The thing I'd stopped thinking about is what lock (someObject) actually compiles to. It's Monitor.Enter and Monitor.Exit wrapped in a try/finally, and Monitor hangs i...",
         "media": [],
-        "origin_url": "https://dev.to/alex_twitterapi/pulling-every-tweet-for-a-keyword-into-sqlite-and-what-each-run-actually-costs-21jh",
-        "published": "2026-11-04T07:00:31+00:00",
+        "origin_url": "https://dev.to/ssukhpinder/i-changed-object-to-lock-and-stopped-paying-the-monitor-tax-4486",
+        "published": "2026-11-05T07:19:55+00:00",
         "source_label": "DEV Community",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Pulling every tweet for a keyword into SQLite (and what each。I wanted a small local archive of posts about DuckDB: something I can query with plain SQL, re-run whenever I like, and not worry about duplicates。Here's the script I ended up w..."
+        "ai_summary": "【综合干货】I Changed object to Lock and Stopped Paying the Monitor Tax。I had a counter behind a lock that a profiler kept flagging, and I couldn't figure out why。The lock was basically never contended"
       },
       {
-        "title": "Jelly Sheet",
-        "describe": "Article URL: https://mrdoob.github.io/codevember-2026/01/ Comments URL: https://news.ycombinator.com/item?id=50361268 Points: 116 # Comments: 24",
+        "title": "Reverse Engineering Mobile APIs: The Art of Intercepting Hidden Traffic",
+        "describe": "The modern web is no longer just a collection of URLs and HTML tags. Today, the most valuable data sits behind the high walls of mobile applications, guarded by proprietary protocols, certificate pinning, and obfuscated logic. For a data engineer or security researcher, hitting an empty endpoint or a 403 Forbidden error on a web portal is often just the beginning. The real source of truth is usually an API designed exclusively for the mobile app—a \"private\" channel that most scrapers never touch. Breaking into these channels requires moving beyond simple browser DevTools. It requires a shif...",
         "media": [],
-        "origin_url": "https://mrdoob.github.io/codevember-2026/01/",
-        "published": "2026-11-04T03:40:50+00:00",
+        "origin_url": "https://dev.to/onlineproxy_io/reverse-engineering-mobile-apis-the-art-of-intercepting-hidden-traffic-kii",
+        "published": "2026-11-05T07:17:53+00:00",
+        "source_label": "DEV Community",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】Reverse Engineering Mobile APIs: The Art of Intercepting Hid（安全）。The modern web is no longer just a collection of URLs and HTML tags。Today, the most valuable data sits behind the high walls of mobile applications, guarded by proprietary proto..."
+      },
+      {
+        "title": "Building an OEM IoT Backend: Device Identity, Customer Isolation and Lifecycle Management",
+        "describe": "Connecting a prototype to a dashboard proves that data can move. Shipping connected equipment to multiple customers introduces more questions: Who can claim a device? Which customer can access its history? What happens when firmware changes the payload? How does the backend distinguish a requested setting from an applied setting? What happens when equipment changes ownership? An OEM IoT backend manages device identity, customer relationships, application data and lifecycle operations. For ODMs supplying multiple brands, the architecture may also need separate product configurations and serv...",
+        "media": [],
+        "origin_url": "https://dev.to/perch_darbinyan_3954e7032/building-an-oem-iot-backend-device-identity-customer-isolation-and-lifecycle-management-31a5",
+        "published": "2026-11-05T07:17:26+00:00",
+        "source_label": "DEV Community",
+        "category_id": "general",
+        "category_name": "综合干货",
+        "ai_summary": "【综合干货】Building an OEM IoT Backend: Device Identity, Customer Isola（架构）。Connecting a prototype to a dashboard proves that data can move。Shipping connected equipment to multiple customers introduces more questions: Who can claim a device"
+      },
+      {
+        "title": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
+        "describe": "Article URL: https://www.altera.com/newsroom/agilex-2x Comments URL: https://news.ycombinator.com/item?id=50375653 Points: 12 # Comments: 3",
+        "media": [],
+        "origin_url": "https://www.altera.com/newsroom/agilex-2x",
+        "published": "2026-11-05T05:47:14+00:00",
         "source_label": "Hacker News 首页",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】Jelly Sheet（开源）。Article URL: https://mrdoob。io/codevember-2026/01/ Comments URL: https://news"
+        "ai_summary": "【综合干货】Altera Announces Agilex 2X, a Complete FPGA and SoC Portfoli。Article URL: https://www。com/newsroom/agilex-2x Comments URL: https://news"
       },
       {
-        "title": "Distinct cellular and genetic differences in colorectal cancer in young patients",
-        "describe": "Article URL: https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients Comments URL: https://news.ycombinator.com/item?id=50361154 Points: 54 # Comments: 1",
-        "media": [],
-        "origin_url": "https://www.dana-farber.org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients",
-        "published": "2026-11-04T03:20:13+00:00",
-        "source_label": "Hacker News 首页",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】Distinct cellular and genetic differences in colorectal canc（开源）。Article URL: https://www。org/newsroom/news-releases/2026/study-reveals-distinct-cellular-and-genetic-differences-in-colorectal-cancer-in-younger-patients Comments URL: https://news"
-      },
-      {
-        "title": "Arrows to arrows, categories to queries (2025)",
-        "describe": "Article URL: https://reasonablypolymorphic.com/blog/arrows-to-arrows/ Comments URL: https://news.ycombinator.com/item?id=50361107 Points: 27 # Comments: 1",
-        "media": [],
-        "origin_url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
-        "published": "2026-11-04T03:11:27+00:00",
-        "source_label": "Hacker News 首页",
-        "category_id": "general",
-        "category_name": "综合干货",
-        "ai_summary": "【综合干货】Arrows to arrows, categories to queries (2025)。Article URL: https://reasonablypolymorphic。com/blog/arrows-to-arrows/ Comments URL: https://news"
-      },
-      {
-        "title": "The valley of webhooks",
+        "title": "A history of backdoors (2015)",
         "describe": "Comments",
         "media": [],
-        "origin_url": "https://weli.dev/blog/the-valley-of-webhooks/",
-        "published": "2026-11-04T02:10:26+00:00",
+        "origin_url": "https://blog.cryptographyengineering.com/2015/07/20/a-history-of-backdoors/",
+        "published": "2026-11-05T01:53:17+00:00",
         "source_label": "Lobsters",
         "category_id": "general",
         "category_name": "综合干货",
-        "ai_summary": "【综合干货】The valley of webhooks。Comments"
+        "ai_summary": "【综合干货】A history of backdoors (2015)。Comments"
       }
     ]
   }

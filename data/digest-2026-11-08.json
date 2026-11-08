@@ -1,0 +1,829 @@
+{
+  "ai": [
+    {
+      "title": "Serving Sage-A1.5 on an RTX 4090: one broken flag, one queue, and a self-check mode to measure",
+      "describe": "Run Sage-A1.5 as a research agent on your own card and the surprises are not in the model. They hide in a reasoning flag, a request limit, a token budget and one system prompt string. Sage-A1.5 comes from Shanghai AI Laboratory (the InternScience organisation on Hugging Face), with a paper by Wenjie Lou and 98 co-authors. It is retrained from the Qwen team's open 35B model and the lab's earlier Agents-A1. The authors publish an official Q4_K_M GGUF , a compressed single-file version of about 22 GB, under Apache-2.0. Stock llama.cpp, the open server that runs models on one machine, loads it ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F01me4i0gs5dd99bvjj0c.jpg"
+      ],
+      "origin_url": "https://dev.to/inferencekey/serving-sage-a15-on-an-rtx-4090-one-broken-flag-one-queue-and-a-self-check-mode-to-measure-4cdj",
+      "published": "2026-11-08T06:36:39+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Serving Sage-A1.5 on an RTX 4090: one broken flag, one queue。5 as a research agent on your own card and the surprises are not in the model。They hide in a reasoning flag, a request limit, a token budget and one system prompt string"
+    },
+    {
+      "title": "1.2 billion commits a week, still stuck in review: the four stages of agentic engineering",
+      "describe": "GitHub took more than 1.2 billion commits in a single week this October — 400% more than a year earlier, and more than the whole of 2025 combined. Now ask yourself: do you feel 400% more productive than last year? Writing software was never only \"writing\". Once AI accelerates the implementation step, the pressure moves somewhere else. A Faros AI study found that when a team goes from low to high AI adoption, pull requests spend 441% longer in review . Nick Liffen and Philip Holleran at GitHub split a developer's work into four stages — Plan, Build, Verify, Observe — and go stage by stage on...",
+      "media": [],
+      "origin_url": "https://dev.to/tiaforge/12-billion-commits-a-week-still-stuck-in-review-the-four-stages-of-agentic-engineering-1jek",
+      "published": "2026-11-08T06:36:28+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】1.2 billion commits a week, still stuck in review: the four （开源）。GitHub took more than 1。2 billion commits in a single week this October — 400% more than a year earlier, and more than the whole of 2025 combined"
+    },
+    {
+      "title": "Day 27 | 重构报告流水线：78秒 4次=7分钟的问题怎么解",
+      "describe": "Day 27 | 重构报告流水线：78秒 4次=7分钟的问题怎么解",
+      "media": [],
+      "origin_url": "https://dev.to/q1z2q3debug/day-27-zhong-gou-bao-gao-liu-shui-xian-78miao-x4ci-7fen-zhong-de-wen-ti-zen-yao-jie-17ad",
+      "published": "2026-11-08T06:35:46+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Day 27 | 重构报告流水线：78秒 4次=7分钟的问题怎么解。Day 27 | 重构报告流水线：78秒 4次=7分钟的问题怎么解"
+    },
+    {
+      "title": "How we check every hour that our PDF API stores nothing",
+      "describe": "Every hour, a script sends a document with a unique marker through our public API, then searches our logs, temp files, containers and database for it. If it finds the marker anywhere, the check fails, and the latest result is public on pagenull.dev/proof. Almost every PDF API says it doesn't keep your documents. Most mean it. But a promise in a privacy policy is hard to check, and the invoices, contracts and payslips people send to these APIs are exactly the documents you don't want sitting in someone's log files. So when we built pagenull, an HTML to PDF API, we set ourselves a stricter go...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhvpfah0loail2z0la03a.png"
+      ],
+      "origin_url": "https://dev.to/stefan_sofkin_19b91c1ec27/how-we-check-every-hour-that-our-pdf-api-stores-nothing-25jn",
+      "published": "2026-11-08T06:34:12+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】How we check every hour that our PDF API stores nothing。Every hour, a script sends a document with a unique marker through our public API, then searches our logs, temp files, containers and database for it。If it finds the marker anyw..."
+    },
+    {
+      "title": "3321 ICLR, should I rebuttal? [R]",
+      "describe": "Looks like this killer just doesn’t understand my paper. He said my abstract is not well organized, hard to follow...my definitions are also hard to follow..., missing important explaination... etc. but the other three reviewers could read it. they all understood my idea. Why couldn’t he??? submitted by /u/millie652 [link] [comments]",
+      "media": [],
+      "origin_url": "https://www.reddit.com/r/MachineLearning/comments/1xqrv2a/3321_iclr_should_i_rebuttal_r/",
+      "published": "2026-11-08T06:34:04+00:00",
+      "source_label": "Reddit r/MachineLearning",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】3321 ICLR, should I rebuttal? [R]。Looks like this killer just doesn’t understand my paper。He said my abstract is not well organized, hard to follow"
+    },
+    {
+      "title": "Best Headphones for Indian Freelancers (2026 Verified Picks)",
+      "describe": "Best Headphones for Indian Freelancers 2024 I Spent 2,400 Hours Working from Indian Coffee Shops: Here are the Only Headphones You Should Buy Being an Indian freelancer is a unique c Originally published at https://karobarsaathi.co.in/blog/best-headphones-for-indian-freelancers-2026-v",
+      "media": [],
+      "origin_url": "https://dev.to/shivaji_mane_5d0e910bf697/best-headphones-for-indian-freelancers-2026-verified-picks-gdn",
+      "published": "2026-11-08T06:33:40+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Best Headphones for Indian Freelancers (2026 Verified Picks)。Best Headphones for Indian Freelancers 2024 I Spent 2,400 Hours Working from Indian Coffee Shops: Here are the Only Headphones You Should Buy Being an Indian freelancer is a uni..."
+    },
+    {
+      "title": "Best Headphones for Indian Freelancers Under Rs.10,000 (2026)",
+      "describe": "I tested 15 pairs of headphones over 3 months for my WFH setup. The Sony WH-CH720N is the one I keep returning to. Why the Sony WH-CH720N Wins Sony's WH-CH720N nails the fundamentals — 35-hour bat Originally published at https://karobarsaathi.co.in/blog/best-headphones-indian-freelancers-2026",
+      "media": [],
+      "origin_url": "https://dev.to/shivaji_mane_5d0e910bf697/best-headphones-for-indian-freelancers-under-rs10000-2026-5g35",
+      "published": "2026-11-08T06:33:35+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Best Headphones for Indian Freelancers Under Rs.10,000 (2026。I tested 15 pairs of headphones over 3 months for my WFH setup。The Sony WH-CH720N is the one I keep returning to"
+    },
+    {
+      "title": "Locally trained VLA model with minimal attention based vision encoder. [p]",
+      "describe": "Hi y’all. Thought Id share the progress on my current local VLA agent project! using agent and language somewhat loosely here. Technically it is an agent, and technically it does adhere to text prompts. However very minimally. Video Link: https://www.reddit.com/r/learnmachinelearning/comments/1xq23zi/local_rnn_style_vla_model_project/ Video Description: The leftmost display shows what the models sees, The yellow triangle marker on screen shows which shape is NOT the target shape on that run (counter intuitive, I know). Importantly, the model does not see it, it is only to make it easier to ...",
+      "media": [
+        "https://external-preview.redd.it/cHcybXRrdHZvNTBpMVNRcYMajU3_qr-rOaYVVSQAyga9PAsdFI76-vR2-S5i.png?width=640&crop=smart&auto=webp&s=b0a3c0085a44f24de46c09224b2a5e76c8de3888"
+      ],
+      "origin_url": "https://www.reddit.com/r/MachineLearning/comments/1xqrtcz/locally_trained_vla_model_with_minimal_attention/",
+      "published": "2026-11-08T06:31:08+00:00",
+      "source_label": "Reddit r/MachineLearning",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Locally trained VLA model with minimal attention based visio。Thought Id share the progress on my current local VLA agent project。using agent and language somewhat loosely here"
+    },
+    {
+      "title": "Sharing Local MCP Tools Between Machines with MCPWire",
+      "describe": "A teammate’s agent needs to use a tool that already works on your machine, but running it on theirs means installing the server, configuring credentials, and reproducing access to the systems behind it. If the tool depends on a local database, an internal network, or a browser session, copying its configuration may not be enough. I built MCPWire to share that existing execution environment through MCP, while keeping the server process and its configured credentials on the host. The guest runs a small bridge that looks like a local stdio MCP server to their client, and requests travel across...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv3x56bqr8x66mo8ot78l.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1g2at2074a7f8lxjhthm.png"
+      ],
+      "origin_url": "https://dev.to/carlos/sharing-local-mcp-tools-between-machines-with-mcpwire-21j4",
+      "published": "2026-11-08T06:30:24+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Sharing Local MCP Tools Between Machines with MCPWire。A teammate’s agent needs to use a tool that already works on your machine, but running it on theirs means installing the server, configuring credentials, and reproducing access ..."
+    },
+    {
+      "title": "Best Claude Code Plugins 2026: 11 Tested, 4 Worth Keeping",
+      "describe": "Originally published on Build to Launch . This is the condensed version. I wrote the original article. An AI assistant condensed it, and I checked this version before I published it. Have you installed a Claude Code plugin and then wondered why your sessions got slower, or why something ran that you never asked for? That was my starting point. I build and ship with Claude Code every day. When the official marketplace grew to 101 plugins (as of March 2026), I stopped guessing and tested them on real work. Content plugins went on my actual writing system. Business plugins got my actual positi...",
+      "media": [],
+      "origin_url": "https://dev.to/jennyouyang/best-claude-code-plugins-2026-11-tested-4-worth-keeping-1oal",
+      "published": "2026-11-08T06:28:39+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Best Claude Code Plugins 2026: 11 Tested, 4 Worth Keeping。Originally published on Build to Launch。This is the condensed version"
+    },
+    {
+      "title": "Nobody asked for this",
+      "describe": "Originally published on hayatibis.dev , where the figures move and the toys are interactive. I’ve run into the gap between an idea and what gets built many times. An illustration: A dental clinic finds a freelance developer through a friend and asks for “an online booking system”. The developer builds a calendar, patient records and an admin panel. At the handover the clinic says “we didn’t ask for this”. Their real problem was patients who don’t show up, chairs sitting empty in the middle of the day. A reminder sent the day before would have solved most of it. In a product company, again a...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffw939q38yqcpyu3dvoni.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F417tkz3hjvh8e34l915e.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzdcnztb06oo1hxrlljpi.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F18n6riwpwr4gbzdaurjj.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgofgx9ue46rijflrtt76.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Focezfiwkcgs0x9owmplo.png"
+      ],
+      "origin_url": "https://dev.to/hayatibis/nobody-asked-for-this-2be5",
+      "published": "2026-11-08T06:25:41+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Nobody asked for this。Originally published on hayatibis。dev , where the figures move and the toys are interactive"
+    },
+    {
+      "title": "Real faces on Seedance: standard vs ultra-wide, in practice",
+      "describe": "Answer: Seedance's standard route handles most real-face references — a clean photograph of a person usually conditions the shot without complaint. The ultra-wide route exists for the cases the standard review refuses: it is a broader moderation path, supports real-face references by design, and costs 1.5× to 2.1× the standard rate at the same resolution. The published moderation page reads conservatively on this — it lists real-person depictions as prohibited — and that wording is why people assume the model cannot hold a face at all. In practice the standard route passes the majority of o...",
+      "media": [],
+      "origin_url": "https://dev.to/chet103cc/real-faces-on-seedance-standard-vs-ultra-wide-in-practice-21bd",
+      "published": "2026-11-08T06:25:24+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Real faces on Seedance: standard vs ultra-wide, in practice。Answer: Seedance's standard route handles most real-face references — a clean photograph of a person usually conditions the shot without complaint。The ultra-wide route exists fo..."
+    }
+  ],
+  "ios": [
+    {
+      "title": "Two consulting slots this week: one hour, one iOS problem",
+      "describe": "I'm taking two consulting slots this week — one-hour, focused sessions on a single concrete iOS/macOS problem. What I'm good at (13 years native Apple platforms): A crash you can't reproduce, or a frame-rate drop that only shows up on device Memory growth in long sessions WebRTC / screen-sharing pipelines: capture, encode, transport, decode App Review rejections (2.1, 4.2, 4.3, 5.1) — evidence gathering, not just appeals Inherited codebases: where to start, what to leave alone Recent work: merged two parallel live-streaming iOS SDKs into one 2M-line codebase (~90% less maintenance, zero hig...",
+      "media": [],
+      "origin_url": "https://dev.to/devinios/two-consulting-slots-this-week-one-hour-one-ios-problem-3o8e",
+      "published": "2026-11-08T06:40:40+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Two consulting slots this week: one hour, one iOS problem。I'm taking two consulting slots this week — one-hour, focused sessions on a single concrete iOS/macOS problem。What I'm good at (13 years native Apple platforms): A crash you can..."
+    },
+    {
+      "title": "# How My Technical Deep-Dive on React Native Process Death Reached 18K+ Views in 18 Hours",
+      "describe": "What I learned from launching a commercial React Native background-location SDK in a skeptical developer community. Selling commercial developer tools to software engineers is difficult. Developers are naturally skeptical. We question paywalls, look past marketing language, and often ask a fair question: \"Why shouldn't I just build this myself?\" A few days ago, I introduced my commercial React Native background-location SDK, React Native Background Location Pro , to the r/reactnative community. The technical discussion that followed was much bigger than I expected. Within just 18 hours , th...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0yzapricd18cm3psbu75.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4ksqdiopa95liuxkwriu.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcbxs0asxgq8vp36zmnil.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F23v54cruxb2bnmfpd52f.png"
+      ],
+      "origin_url": "https://dev.to/punith_sunny_4232b5437c2c/-how-my-technical-deep-dive-on-react-native-process-death-reached-18k-views-in-18-hours-4lg",
+      "published": "2026-11-08T06:26:23+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】# How My Technical Deep-Dive on React Native Process Death R。What I learned from launching a commercial React Native background-location SDK in a skeptical developer community。Selling commercial developer tools to software engineers is di..."
+    },
+    {
+      "title": "iOS app rejection for over 1 year",
+      "describe": "Hi folks! I’m in desperate need of suggestions. I have a flutter app submitted to iOS store but they have constantly been rejecting the app - now having put the app on extended review and I can’t get any updates for over 20 days sometimes. Web version of the app: TheLoveStar.com Apple calls it SPAM and rejects it on 4.3 (a) or (b) saying there’s plenty of dating and astrology apps in the market. What’s novel: the compatibility engine that runs for events as well as online dating. Astrology also is quite advanced with LLM interpretations, transit updates, full birth chart generation. Questio...",
+      "media": [],
+      "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1xqo9q6/ios_app_rejection_for_over_1_year/",
+      "published": "2026-11-08T03:05:51+00:00",
+      "source_label": "Reddit r/iOSProgramming",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】iOS app rejection for over 1 year。I’m in desperate need of suggestions。I have a flutter app submitted to iOS store but they have constantly been rejecting the app - now having put the app on extended review and ..."
+    },
+    {
+      "title": "How to hide TikTok's For You feed on iPhone and still get your TikTok messages (2026)",
+      "describe": "iOS doesn't let any app change the official TikTok app, so the way to lose the For You feed on iPhone and keep your messages is to open TikTok inside minulo, which hides For You while your messages keep working. Hiding is free. I'm the developer of minulo, so read this with that in mind. The TikTok facts below come from TikTok's help pages as summarized in minulo's guide (checked in October 2026). Menu names can change with updates. You open TikTok to answer one message from a friend, and before you reach the inbox a video is already playing. For You is the first feed TikTok shows, and ther...",
+      "media": [],
+      "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/how-to-hide-tiktoks-for-you-feed-on-iphone-and-still-get-your-tiktok-messages-2026-4ab2",
+      "published": "2026-11-08T02:36:28+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How to hide TikTok's For You feed on iPhone and still get yo（教程）。iOS doesn't let any app change the official TikTok app, so the way to lose the For You feed on iPhone and keep your messages is to open TikTok inside minulo, which hides For You..."
+    },
+    {
+      "title": "Rust vs Electron: cliente de Discord usaría 70% menos RAM",
+      "describe": "Un clip de 15 segundos acumuló 2,3 millones de vistas esta semana: el cliente nuevo de Discord, escrito en Rust, carga la lista de amigos antes de que la versión actual, hecha en Electron, termine de mostrar su pantalla de carga. Ambos arrancaron en frío, en la misma laptop, al mismo tiempo. Según el video que compartió el CTO de Discord, Stanislav Vishnevskiy , el cliente nuevo usa apenas 290 MB de RAM con dos cuentas activas al mismo tiempo. Para entender por qué eso es noticia hay que mirar primero qué es el framework de Electron y por qué cada aplicación que lo usa, desde Discord hasta ...",
+      "media": [],
+      "origin_url": "https://dev.to/lu1tr0n/rust-vs-electron-cliente-de-discord-usaria-70-menos-ram-3j3l",
+      "published": "2026-11-08T02:26:34+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Rust vs Electron: cliente de Discord usaría 70% menos RAM。Un clip de 15 segundos acumuló 2,3 millones de vistas esta semana: el cliente nuevo de Discord, escrito en Rust, carga la lista de amigos antes de que la versión actual, hecha e..."
+    },
+    {
+      "title": "How to Stamp a Transparent PNG Logo Across a Batch of Photos in Swift",
+      "describe": "If you need the same logo on thirty photos, the boring bugs show up immediately: the mark looks huge on a 12-megapixel still and timid on a 48-megapixel one, the PNG’s transparent background turns into a grey box, or the edges of the logo go muddy because the alpha channel was applied twice. This post walks through a small UIKit pipeline that loads a transparent PNG, draws each photo, then draws the logo at a size tied to the photo’s shorter side, inset by a percentage of the frame. I’m writing it from the seat of someone who builds BatchMark, an on-device batch photo app; the batch waterma...",
+      "media": [],
+      "origin_url": "https://dev.to/maxwelldispatch/how-to-stamp-a-transparent-png-logo-across-a-batch-of-photos-in-swift-3cb2",
+      "published": "2026-11-08T02:23:01+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How to Stamp a Transparent PNG Logo Across a Batch of Photos（教程）。If you need the same logo on thirty photos, the boring bugs show up immediately: the mark looks huge on a 12-megapixel still and timid on a 48-megapixel one, the PNG’s transpare..."
+    },
+    {
+      "title": "TabLinker - A Mac-first tab & browser session manager for Safari, Chrome, Firefox, Arc, Brave & more (iPhone/iPad too)",
+      "describe": "Hi , I'm a solo indie dev and I built TabLinker , a tab and session manager for Mac with iPhone and iPad apps. I keep Safari, Chrome and Arc open side by side, and I never closed tabs because I was afraid of losing a window I'd set up. Each browser ended up with 40+ tabs. TabLinker pulls every tab from your open browsers into one place, saves them as a session, and lets you close everything and bring the same windows back later. What it does: - Auto-Backup quietly backs up your open browser windows in the background so you can restore closed windows in one click, even the next day - Imports...",
+      "media": [
+        "https://preview.redd.it/ozkw1ttlpa0i1.png?width=140&height=87&auto=webp&s=e06b077d20205f4fe49d95fdb07d0e9fe0f2bf4a"
+      ],
+      "origin_url": "https://www.reddit.com/r/iOSProgramming/comments/1xqndv6/tablinker_a_macfirst_tab_browser_session_manager/",
+      "published": "2026-11-08T02:17:58+00:00",
+      "source_label": "Reddit r/iOSProgramming",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】TabLinker - A Mac-first tab & browser session manager for Sa。Hi , I'm a solo indie dev and I built TabLinker , a tab and session manager for Mac with iPhone and iPad apps。I keep Safari, Chrome and Arc open side by side, and I never closed..."
+    },
+    {
+      "title": "Turning a feature request into a link a coding agent can pick up",
+      "describe": "A lot of \"can non-programmers build software with AI\" debates end in the same place: someone writes a clear task, someone else reviews and ships. The hand-off in between is usually a chat message that gets copied, pasted and partly lost. Kiteline, an app for following coding agents (Claude Code, Codex and a dozen others) from an iPhone, iPad or Apple Watch, has a small feature aimed at that hand-off: prompt links. The desktop side (Mac, Windows, Linux) is open source at github.com/hon6/kiteline. How a prompt link works The task text goes into a link. Opening the link on a phone shows a web ...",
+      "media": [],
+      "origin_url": "https://dev.to/hon6/turning-a-feature-request-into-a-link-a-coding-agent-can-pick-up-15n5",
+      "published": "2026-11-08T01:56:22+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Turning a feature request into a link a coding agent can pic（开源）。A lot of \"can non-programmers build software with AI\" debates end in the same place: someone writes a clear task, someone else reviews and ships。The hand-off in between is usual..."
+    },
+    {
+      "title": "Capacitor iOS for a Lovable App: First Build",
+      "describe": "Getting a Lovable app running as a Capacitor iOS app takes four commands and one Mac. Getting it to build cleanly the first time takes a bit more, and almost none of the extra is in the docs. This is the version we'd hand a founder who wants to try it themselves before deciding whether to pay someone. Facts below are from the Capacitor iOS docs , checked November 4, 2026. Capacitor 8 is current there, with 9 listed as \"next\". What you need before anything else A Mac. There's no way around it for iOS: you need Xcode 26.0 or later , which only runs on macOS. The app itself can support iPhones...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/.%2Fcapacitor-ios-lovable%2Fcapacitor-ios-first-build-errors.webp"
+      ],
+      "origin_url": "https://dev.to/batmanofweb/capacitor-ios-for-a-lovable-app-first-build-4c5c",
+      "published": "2026-11-08T01:29:24+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Capacitor iOS for a Lovable App: First Build。Getting a Lovable app running as a Capacitor iOS app takes four commands and one Mac。Getting it to build cleanly the first time takes a bit more, and almost none of the extra is..."
+    },
+    {
+      "title": "Alternativas ao SocialLite para iPhone",
+      "describe": "A alternativa ao SocialLite mais parecida no iPhone é o minulo: como o SocialLite, ele oculta Reels e Shorts enquanto as DMs continuam funcionando, pode bloquear os apps oficiais com o Tempo de Uso e levar você para a própria visualização, e ocultar é grátis, sem assinatura. Aviso: este texto foi escrito pelo desenvolvedor do minulo, que é um dos apps comparados. As informações sobre os outros apps vêm apenas das descrições deles na App Store e das notas de versão, e a página indicada no fim lista todas as fontes. De qual SocialLite estamos falando Do app para iPhone SocialLite-Block Reels&...",
+      "media": [],
+      "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/alternativas-ao-sociallite-para-iphone-4o71",
+      "published": "2026-11-08T01:17:10+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Alternativas ao SocialLite para iPhone。A alternativa ao SocialLite mais parecida no iPhone é o minulo: como o SocialLite, ele oculta Reels e Shorts enquanto as DMs continuam funcionando, pode bloquear os apps oficiai..."
+    },
+    {
+      "title": "Alternativas a SocialLite para iPhone",
+      "describe": "La alternativa a SocialLite más parecida en el iPhone es minulo: como SocialLite, oculta los Reels y los Shorts mientras los mensajes siguen funcionando, puede bloquear las apps oficiales con Tiempo de uso y llevarte a su propia vista, y ocultar es gratis, sin suscripción. Aviso: este artículo lo escribe el desarrollador de minulo, que es una de las apps comparadas. Lo relativo a las demás apps procede solo de sus descripciones en la App Store y sus notas de versión, y la página enlazada al final recoge todas las fuentes. De qué SocialLite hablamos Hablamos de SocialLite-Block Reels&Shorts,...",
+      "media": [],
+      "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/alternativas-a-sociallite-para-iphone-27cm",
+      "published": "2026-11-08T01:16:25+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Alternativas a SocialLite para iPhone。La alternativa a SocialLite más parecida en el iPhone es minulo: como SocialLite, oculta los Reels y los Shorts mientras los mensajes siguen funcionando, puede bloquear las apps..."
+    },
+    {
+      "title": "인스타 DM만 쓰는 방법 (아이폰)",
+      "describe": "iOS에서는 어떤 앱도 공식 인스타그램 앱을 바꿀 수 없어서, 아이폰에서 인스타 DM만 쓰려면 minulo 안에서 인스타그램을 열고 DM 외의 모든 탭 을 켜면 돼요. 릴스, 탐색, 홈 피드, 추천 게시물이 사라지고 DM과 단톡은 그대로 쓸 수 있고, 숨기기는 무료예요. 먼저 밝혀 둘게요. 이 글은 minulo 개발자가 썼어요. 그 점을 감안하고 읽어 주세요. 인스타그램 설정과 스크린 타임에 관한 내용은 인스타그램 도움말과 Apple의 iPhone 사용 설명서에서 확인한 범위에서 썼고, 출처는 글 끝 링크의 페이지에 모두 정리돼 있어요. 알바 단톡에서 생기는 일 카페 알바 매니저가 다음 주 근무표를 인스타 단톡에 올려요. 내 시간만 확인하고 \"확인했습니다\"라고 보내면 끝나는 일이에요. 그런데 같은 단톡에 동료가 웃긴 릴스를 하나 보내 놓았고, 그걸 누르면 다음 릴스가 위로 계속 이어져요. 정신을 차려 보면 근무표에서 대타를 구하는 메시지가 올라와 있는데, 아직 답을 못 했어요. 인스타를 지우면 근무표도 대타 연락도 못 받아요. 막고 싶은 건 릴스와 피드이고, DM은 계속 써야 해요. 인스타그램과 아이폰에 원래 있는 방법 'DM만' 모드는 찾지 못했어요....",
+      "media": [],
+      "origin_url": "https://dev.to/ayumu_kitabayashi_8e0de96/inseuta-dmman-sseuneun-bangbeob-aipon-19i2",
+      "published": "2026-11-08T01:15:44+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】인스타 DM만 쓰는 방법 (아이폰)。iOS에서는 어떤 앱도 공식 인스타그램 앱을 바꿀 수 없어서, 아이폰에서 인스타 DM만 쓰려면 minulo 안에서 인스타그램을 열고 DM 외의 모든 탭 을 켜면 돼요。릴스, 탐색, 홈 피드, 추천 게시물이 사라지고 DM과 단톡은 그대로 쓸 수 있고, 숨기기는 무료예요"
+    }
+  ],
+  "android": [
+    {
+      "title": "Carrier firmware vs unlocked firmware: what actually changes when you flash the other one",
+      "describe": "Two Galaxy phones with the same model name can run firmware that behaves differently. One shows a carrier logo when it starts up, comes with carrier apps, and waits longer for updates. The other boots clean, has no carrier apps, and often gets updates first. The difference is not the phone. It is the firmware, and it is possible to switch from one to the other by flashing. Before doing that, it helps to know exactly what changes, because the switch is not cosmetic. What carrier firmware actually is Carrier firmware is the version of Samsung software that a mobile carrier has tested and appr...",
+      "media": [],
+      "origin_url": "https://dev.to/samfware/carrier-firmware-vs-unlocked-firmware-what-actually-changes-when-you-flash-the-other-one-4cc3",
+      "published": "2026-11-08T05:01:12+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Carrier firmware vs unlocked firmware: what actually changes。Two Galaxy phones with the same model name can run firmware that behaves differently。One shows a carrier logo when it starts up, comes with carrier apps, and waits longer for up..."
+    },
+    {
+      "title": "How to Keep Your Android Phone Safe on Public Wi-Fi: Check the Network, Skip Banking, and Turn Off Auto-Connect",
+      "describe": "Free Wi-Fi in a café, airport, hotel, or shopping mall feels convenient, but it is also one of the easiest places for an Android phone to pick up a bad habit — or a bad connection. Public networks are shared, often unencrypted, and sometimes copied by attackers. You do not need to avoid them completely. You need a short routine you follow every time before you connect. 1. Check the network name before you tap it Do not join the first network that looks familiar. Attackers can create a hotspot with a name that is almost identical to the real one, such as \"CoffeeShop_WiFi\" instead of \"CoffeeS...",
+      "media": [],
+      "origin_url": "https://dev.to/shamshadrani4/how-to-keep-your-android-phone-safe-on-public-wi-fi-check-the-network-skip-banking-and-turn-off-5c87",
+      "published": "2026-11-08T04:55:51+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Keep Your Android Phone Safe on Public Wi-Fi: Check t（教程）。Free Wi-Fi in a café, airport, hotel, or shopping mall feels convenient, but it is also one of the easiest places for an Android phone to pick up a bad habit — or a bad connecti..."
+    },
+    {
+      "title": "Handling In-App Updates Gracefully So Users Never Get Stuck on Old Schemas",
+      "describe": "Few things are more frustrating to a mobile user than being forcibly blocked by an update modal. Imagine you are standing at a checkout counter, or reconciling an urgent bank balance. You open your finance app to log an expense, and the screen is held hostage by a full-screen, un-dismissible popup: \"Update Required! Tap here to open Google Play.\" You tap update, wait for a 40MB download over a weak cellular connection, watch the installation progress, and by the time the app re-opens, you have forgotten the transaction details. Forced immediate updates alienate users. But ignoring updates c...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0l2nivai9xnhd8pw0adz.png"
+      ],
+      "origin_url": "https://dev.to/devanshu_patil/handling-in-app-updates-gracefully-so-users-never-get-stuck-on-old-schemas-3459",
+      "published": "2026-11-08T04:30:00+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Handling In-App Updates Gracefully So Users Never Get Stuck 。Few things are more frustrating to a mobile user than being forcibly blocked by an update modal。Imagine you are standing at a checkout counter, or reconciling an urgent bank bal..."
+    },
+    {
+      "title": "How to Spot Phishing Messages and Fake Links on Android",
+      "describe": "Most Android phishing does not start with a broken phone. It starts with a message that looks ordinary: a delivery update, a bank alert, a prize notice, or a warning that your account will close today. The sender wants one thing — for you to tap before you think. Learning to pause and check a message takes only a few seconds, and it can save your passwords, photos, contacts, and money. This guide explains the signs to look for and the simple habits that keep you safe. What phishing looks like on Android Phishing messages arrive by SMS, WhatsApp, email, social media, and even push notificati...",
+      "media": [],
+      "origin_url": "https://dev.to/shamshadrani4/how-to-spot-phishing-messages-and-fake-links-on-android-bll",
+      "published": "2026-11-08T04:19:10+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Spot Phishing Messages and Fake Links on Android（教程）。Most Android phishing does not start with a broken phone。It starts with a message that looks ordinary: a delivery update, a bank alert, a prize notice, or a warning that your ac..."
+    },
+    {
+      "title": "Building StareBrain, Part 18: Auto-Collapse — The Overlay That Knows When to Hide",
+      "describe": "Building StareBrain, Part 18: Auto-Collapse — The Overlay That Knows When to Hide Part 17 covered drag-to-reposition. Today we tackle the other half of staying out of the way: auto-collapse. The overlay has three states — Idle, Running, AwaitingConfirmation. What we hadn't solved was when to transition between them based on what the user is doing, not just what the task is doing. If a step completes while the user is typing in another app, expanding the overlay mid-keystroke is the wrong call. Auto-collapse means the overlay shrinks to a dot when the user is actively interacting with anothe...",
+      "media": [],
+      "origin_url": "https://dev.to/starebrain/building-starebrain-part-18-auto-collapse-the-overlay-that-knows-when-to-hide-3hd6",
+      "published": "2026-11-08T04:06:57+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Building StareBrain, Part 18: Auto-Collapse — The Overlay Th。Building StareBrain, Part 18: Auto-Collapse — The Overlay That Knows When to Hide Part 17 covered drag-to-reposition。Today we tackle the other half of staying out of the way: au..."
+    },
+    {
+      "title": "Ebook Voice Player Responsive Cross-Platform UI: Desktop/Phone Dual-Form, Android Logical Pixel Conversion & Dynamic Layout Restructuring",
+      "describe": "Product Link : Microsoft Store - Ebook Voice Player Introduction Ebook Voice Player is built on the Kivy framework with a single codebase supporting both Windows Desktop and Android Phone platforms. This article deep-dives into the responsive layout system in main_screen.py : automatic layout mode detection, runtime layout restructuring, Android logical pixel conversion, and phone-mode bottom tab switching with modal voice panel design. 1. Responsive Architecture Overview 1.1 Dual-Form Layout Comparison ┌────────────────────────────────────────────────────────────────────┐ │ DESKTOP MODE (L...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmaluwbiqyqxsnxkq4t1p.PNG"
+      ],
+      "origin_url": "https://dev.to/nan_nan_d86f644d31091c00f/ebook-voice-player-responsive-cross-platform-ui-desktopphone-dual-form-android-logical-pixel-e0e",
+      "published": "2026-11-08T04:05:37+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Ebook Voice Player Responsive Cross-Platform UI: Desktop/Pho（架构）。Product Link : Microsoft Store - Ebook Voice Player Introduction Ebook Voice Player is built on the Kivy framework with a single codebase supporting both Windows Desktop and And..."
+    },
+    {
+      "title": "Postman Is a Desktop App: Testing APIs When You're Not at Your Desk",
+      "describe": "Postman Is a Desktop App: Testing APIs When You're Not at Your Desk",
+      "media": [],
+      "origin_url": "https://dev.to/vivek_sagar_03577d2d6d942/postman-is-a-desktop-app-testing-apis-when-youre-not-at-your-desk-2ap6",
+      "published": "2026-11-08T04:01:01+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Postman Is a Desktop App: Testing APIs When You're Not at Yo。Postman Is a Desktop App: Testing APIs When You're Not at Your Desk"
+    },
+    {
+      "title": "How to Protect Your Kids' Android Devices: Parental Controls, Safe Apps, Screen Time, and Permissions",
+      "describe": "Handing a child an Android phone or tablet can feel like handing them the whole internet. The device can be a useful tool for learning, reading, drawing, and staying in touch, but it can also open the door to unsuitable content, surprise purchases, excessive screen time, and apps that collect more information than they need. You do not need to be a security expert to make it safer. A few clear settings, a regular app check, and an honest conversation with your child will cover most of the risk. 1. Start with a supervised account Set up the device for your child rather than letting them use ...",
+      "media": [],
+      "origin_url": "https://dev.to/shamshadrani4/how-to-protect-your-kids-android-devices-parental-controls-safe-apps-screen-time-and-288j",
+      "published": "2026-11-08T03:41:45+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Protect Your Kids' Android Devices: Parental Controls（教程/安全）。Handing a child an Android phone or tablet can feel like handing them the whole internet。The device can be a useful tool for learning, reading, drawing, and staying in touch, bu..."
+    },
+    {
+      "title": "Google Play Custom Store Listings: Targeting by Country the Right Way",
+      "describe": "Your store listing is the single highest-leverage asset in your Google Play presence — it's where browsing becomes installing. But one listing rarely serves every market well. A screenshot set that converts in the United States can fall flat in Japan, and a promotional claim that's fine in Brazil can be a regulatory problem in Germany. Google Play custom store listings solve this: they let you override your default listing — text and graphics — for specific countries, without maintaining separate apps. Here's how to use them properly. In short: Custom store listings let you show a different...",
+      "media": [],
+      "origin_url": "https://dev.to/playconsolestore1/google-play-custom-store-listings-targeting-by-country-the-right-way-386j",
+      "published": "2026-11-08T01:27:25+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Google Play Custom Store Listings: Targeting by Country the （教程）。Your store listing is the single highest-leverage asset in your Google Play presence — it's where browsing becomes installing。But one listing rarely serves every market well"
+    },
+    {
+      "title": "How to Prevent Apple App Store & Google Play Rejections (The 2025/2026 Checklist)",
+      "describe": "How to Prevent Apple App Store & Google Play Rejections (The 2025/2026 Checklist) Most mobile launch delays aren't caused by broken code. They're caused by failing strict platform compliance rules that automated bots and human reviewers test in the first 5 minutes. Here is the exact checklist I use to ship production React Native apps to the App Store and Google Play on the first attempt. 1. Apple Guideline 5.1.1(v) — Missing In-App Account Deletion If your app lets users create an account, you must allow them to permanently initiate account deletion directly within the app. ❌ Rejection: Di...",
+      "media": [],
+      "origin_url": "https://dev.to/inayat_ali/how-to-prevent-apple-app-store-google-play-rejections-the-20252026-checklist-59e8",
+      "published": "2026-11-08T00:55:03+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Prevent Apple App Store & Google Play Rejections (The（教程）。How to Prevent Apple App Store & Google Play Rejections (The 2025/2026 Checklist) Most mobile launch delays aren't caused by broken code。They're caused by failing strict platfor..."
+    }
+  ],
+  "frontend": [
+    {
+      "title": "How I Built a Free, Ad-Free Loan Calculator Using Pure HTML, Chart.js, and AI",
+      "describe": "Have you ever tried to use a simple online loan calculator, only to be hit with intrusive pop-ups, banner ads, and a mandatory signup form? I got tired of it. As an indie developer, I wanted to build a tool that just works. No signups, no servers, no tracking. Everything runs locally in your browser. Here is how I built the Loan Calculator on Lihayo Tools using pure HTML, Chart.js, and AI. The Core: Pure Client-Side JavaScript The most important rule was \"no backend.\" Every calculation happens on the user's device. This guarantees 100% privacy. When a user enters their loan amount, interest...",
+      "media": [],
+      "origin_url": "https://dev.to/huali/how-i-built-a-free-ad-free-loan-calculator-using-pure-html-chartjs-and-ai-aol",
+      "published": "2026-11-08T06:29:04+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】How I Built a Free, Ad-Free Loan Calculator Using Pure HTML,。Have you ever tried to use a simple online loan calculator, only to be hit with intrusive pop-ups, banner ads, and a mandatory signup form。I got tired of it"
+    },
+    {
+      "title": "Mistral Small: 58 empty replies in 300 tool calls, and the retry loop",
+      "describe": "On 300 public function-calling tasks, Mistral Small (2603) returned an empty reply 58 times, even after two retries. That is 19.3% of tasks with nothing to parse, and it is why a model priced at $0.15 per million input tokens ended up at $0.000098 per successful task against $0.000051 for GPT-6 Luna, which passes 93.0% with no retries at all. Here is the part of the harness that decides what a retry costs, because the number depends entirely on it. What counts as a failure, and what gets retried. One rule: a reply that cannot be read is retried, a reply that can be read but is wrong is fina...",
+      "media": [],
+      "origin_url": "https://dev.to/grain64/mistral-small-58-empty-replies-in-300-tool-calls-and-the-retry-loop-22gh",
+      "published": "2026-11-08T06:05:00+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Mistral Small: 58 empty replies in 300 tool calls, and the r。On 300 public function-calling tasks, Mistral Small (2603) returned an empty reply 58 times, even after two retries。3% of tasks with nothing to parse, and it is why a model pric..."
+    },
+    {
+      "title": "Three front-end bugs my build said were fine",
+      "describe": "I run a static browser-games site. Every page exists twice: once as prerendered HTML for search engines, and once as a React app for people clicking around. The build is a babel bundle plus a generator script. Here are three bugs that went through that build without a single error and broke the page people actually saw. 1. <img width=\"700\" height=\"700\"> means height: 700px Every game card has an image with width and height attributes. That is the standard advice: the browser reserves the right space before the image loads, so the layout does not jump. My CSS made the image fill its card and...",
+      "media": [],
+      "origin_url": "https://dev.to/ankit_gupta_37c6b9df66fb7/three-front-end-bugs-my-build-said-were-fine-52pl",
+      "published": "2026-11-08T06:03:55+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Three front-end bugs my build said were fine。I run a static browser-games site。Every page exists twice: once as prerendered HTML for search engines, and once as a React app for people clicking around"
+    },
+    {
+      "title": "Stop Guessing: How to Build an LLM Recommender for Agentic AI into Any Web App",
+      "describe": "When building agentic AI features into a web app, one of the most common pitfalls is hardcoding a single heavyweight LLM for every single operation. Using a frontier reasoning model just to classify user intent or format JSON wastes both latency and budget—while using a lightweight model for complex multi-step planning leads to brittle agent loops. What This Guide Covers: Task Classification : Scoring incoming agent steps by reasoning depth, context size, and tool-use complexity Scoring Matrices : Balancing latency budgets, per-token costs, and benchmark accuracy Recommender Architecture : ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffdq4l90xi8pbtswqnqfo.png"
+      ],
+      "origin_url": "https://dev.to/sunny7899/stop-guessing-how-to-build-an-llm-recommender-for-agentic-ai-into-any-web-app-3j3f",
+      "published": "2026-11-08T05:41:12+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Stop Guessing: How to Build an LLM Recommender for Agentic A（教程/性能）。When building agentic AI features into a web app, one of the most common pitfalls is hardcoding a single heavyweight LLM for every single operation。Using a frontier reasoning mo..."
+    },
+    {
+      "title": "0x Loom is out: a full dev environment in one browser tab",
+      "describe": "The 0x Gazette: Release Edition An editor, an AI pair, GitHub, notebooks and an extension store, with nothing to install and no project to set up before you write the first line. Try it now: 0x.vasuki.cloud Most developer tools ask for an afternoon before they give you anything back. 0x Loom asks for a tab. Open it, drag a folder onto the page, and you are editing with syntax highlighting, auto-closing tags and autocomplete. Your files stay in your browser, and a reload brings back your tabs, your unsaved edits and your open folders. The goal of this first public release is simple: make the...",
+      "media": [],
+      "origin_url": "https://dev.to/adamya_khairwal_9d2286eac/0x-loom-is-out-a-full-dev-environment-in-one-browser-tab-39j2",
+      "published": "2026-11-08T05:38:06+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】0x Loom is out: a full dev environment in one browser tab（开源）。The 0x Gazette: Release Edition An editor, an AI pair, GitHub, notebooks and an extension store, with nothing to install and no project to set up before you write the first line..."
+    },
+    {
+      "title": "5-Star Reviews to Cancel a 1-Star: The Math in 3 Formulas",
+      "describe": "Originally published on ExtensionBooster . How many 5-star reviews does it take to cancel a 1-star? If you want to stay at 4.8 stars, the answer is 19. That one number explains why a single angry review feels so heavy on a young extension or app, and this post gives you the three formulas (plus a tiny JS helper) to run the numbers for your own listing. Your rating is just an average Every store star rating is a mean of all the scores it counts. So a low score doesn't \"go away\"; it gets diluted by enough high scores to pull the average back to where you want it. The higher your target, the l...",
+      "media": [],
+      "origin_url": "https://dev.to/extensionbooster/5-star-reviews-to-cancel-a-1-star-the-math-in-3-formulas-1p25",
+      "published": "2026-11-08T05:37:05+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】5-Star Reviews to Cancel a 1-Star: The Math in 3 Formulas。Originally published on ExtensionBooster。How many 5-star reviews does it take to cancel a 1-star"
+    },
+    {
+      "title": "I Ran a JSON-LD Audit on 25 Pages of My Own Sites. 21 Say They Were Modified Today.",
+      "describe": "I run five small launch sites, and each one has a /studio blog. Back in September I made myself an index of every post, and one line in it has bugged me since: \"the on-page datePublished schema is a placeholder on most sites. Every Aura++ post says 2024-06-01, every IndieHunt post 2024-01-15, every MakerHunt post 2025-04-04, SideHunt outputs [object Object].\" That's a nice hook for a post. So this morning (8 Nov 2026, around 10:45 IST) I went to prove it before writing about it. I wrote a small script, pointed it at 25 URLs across the five sites, and it didn't find what my note said. The bl...",
+      "media": [],
+      "origin_url": "https://dev.to/posting-dude/i-ran-a-json-ld-audit-on-25-pages-of-my-own-sites-21-say-they-were-modified-today-25fb",
+      "published": "2026-11-08T05:30:27+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】I Ran a JSON-LD Audit on 25 Pages of My Own Sites. 21 Say Th。I run five small launch sites, and each one has a /studio blog。Back in September I made myself an index of every post, and one line in it has bugged me since: \"the on-page dateP..."
+    },
+    {
+      "title": "Building a 3D WebGL & macOS-Style Interactive Developer Portfolio in React",
+      "describe": "Most developer portfolios look identical: a generic hero section, a grid of project cards, and a contact form. When building my own developer space, I wanted to treat it like a full-scale interactive web application rather than a static resume. I wanted visitors to explore, interact with 3D physics, run desktop OS windows, and chat with an autonomous portfolio AI assistant. Here is a breakdown of how I designed and engineered my 3D developer portfolio. ⚡ The Live Experience 🌐 Live Website : piyushyenorkar.vercel.app 💻 Tech Stack : React 19, TypeScript, Three.js, @react-three/fiber, Framer M...",
+      "media": [],
+      "origin_url": "https://dev.to/piyushyenorkar/building-a-3d-webgl-macos-style-interactive-developer-portfolio-in-react-4mbh",
+      "published": "2026-11-08T05:28:26+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Building a 3D WebGL & macOS-Style Interactive Developer Port（架构）。Most developer portfolios look identical: a generic hero section, a grid of project cards, and a contact form。When building my own developer space, I wanted to treat it like a f..."
+    },
+    {
+      "title": "500 Weibo Profile Rows Carried No IP Region. 30 of 36 Search Rows Did",
+      "describe": "I run a visa agency in Bali. The other half of my week goes into Apify Actors, and one of them reads Weibo — 新浪微博, the Chinese network where media, brands and government accounts publish. Weibo has no open public API for any of this and most of the site asks a visitor to log in, so the Actor reads the pages that m.weibo.cn and weibo.com still hand to a logged-out browser. One of the fields is in the Actor's own title: IP region . Weibo prints it under a post as 发布于四川 and under a comment as 来自河北 — the province the poster was in. For brand monitoring in China it is one of the few geography si...",
+      "media": [],
+      "origin_url": "https://dev.to/matveyg/500-weibo-profile-rows-carried-no-ip-region-30-of-36-search-rows-did-1goo",
+      "published": "2026-11-08T05:17:43+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】500 Weibo Profile Rows Carried No IP Region. 30 of 36 Search。I run a visa agency in Bali。The other half of my week goes into Apify Actors, and one of them reads Weibo — 新浪微博, the Chinese network where media, brands and government accounts..."
+    },
+    {
+      "title": "Why We Built an In-Browser Screenshot Redactor with Zero Server Uploads",
+      "describe": "Sharing screenshots during code reviews, bug reports, Discord chats, or customer support often exposes sensitive data: API tokens, bearer keys, and PII. Many developers default to using translucent marker pens on mobile or uploading images to third-party cloud redactors. Unfortunately, brightness-curve adjustments and automated de-blurring tools like Depix can reverse partial blur or translucent marks. Furthermore, uploading confidential screenshots to remote servers is a security risk. To solve this, I built Bluro ( https://bluro.pro ) - a fast, 100% client-side privacy tool: Key Technical...",
+      "media": [],
+      "origin_url": "https://dev.to/powerechozhang/why-we-built-an-in-browser-screenshot-redactor-with-zero-server-uploads-hij",
+      "published": "2026-11-08T05:15:40+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Why We Built an In-Browser Screenshot Redactor with Zero Ser（安全）。Sharing screenshots during code reviews, bug reports, Discord chats, or customer support often exposes sensitive data: API tokens, bearer keys, and PII。Many developers default t..."
+    },
+    {
+      "title": "Animate display: none in Pure CSS! Modern @starting-style & allow-discrete Explained",
+      "describe": "For over 10 years, transitioning elements from display: none was considered impossible in pure CSS without JavaScript reflow workarounds like requestAnimationFrame or void element.offsetWidth . Those days are officially over! Modern CSS introduces two game-changing features (Baseline 2024 across Chrome, Safari, and Firefox): @starting-style : Defines the before-change style snapshot at frame 0 when an element transitions from display: none or mounts to the DOM. transition-behavior: allow-discrete : Delays flipping to display: none until your exit transitions finish completely. 💡 The Mental ...",
+      "media": [],
+      "origin_url": "https://dev.to/cascadedev/animate-display-none-in-pure-css-modern-starting-style-allow-discrete-explained-54j0",
+      "published": "2026-11-08T04:58:48+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Animate display: none in Pure CSS! Modern @starting-style & 。For over 10 years, transitioning elements from display: none was considered impossible in pure CSS without JavaScript reflow workarounds like requestAnimationFrame or void eleme..."
+    },
+    {
+      "title": "Validating 10,000-Row CSV Uploads in 20ms Before Touching Your Server (React + IndexedDB)",
+      "describe": "Watch someone import a 10,000-row billing CSV over spotty Wi-Fi on a standard web app. They pick the file, wait ten seconds for the progress bar to crawl to 100%, and get bounced back by a red toast: 400 Bad Request: Invalid amount on row 7,500. So they fix row 7,500, re-upload the entire file, and discover another typo on row 8,102. If their connection drops while they are editing rows in your UI and they refresh the page, things usually get worse. A lot of apps try to stash draft uploads in localStorage, forget that browsers cap localStorage around 5 MB and block the main thread synchrono...",
+      "media": [],
+      "origin_url": "https://dev.to/endlessfountain/validating-10000-row-csv-uploads-in-20ms-before-touching-your-server-react-indexeddb-2h4b",
+      "published": "2026-11-08T04:57:02+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Validating 10,000-Row CSV Uploads in 20ms Before Touching Yo。Watch someone import a 10,000-row billing CSV over spotty Wi-Fi on a standard web app。They pick the file, wait ten seconds for the progress bar to crawl to 100%, and get bounced..."
+    }
+  ],
+  "backend": [
+    {
+      "title": "Zero Trust Between Services, Not Just Users: A Practical Pattern for Multi-Cloud Estates",
+      "describe": "Most zero-trust conversations start with people: single sign-on, MFA, device posture, and conditional access for engineers and employees. That work matters. It is also only half the traffic in a modern estate. The other half never touches a browser. A checkout service calls an inventory service. A reporting job reads from a database in another cloud. An inference endpoint receives requests from an application running somewhere else entirely. Those service-to-service calls are usually trusted because of where they come from — a VPC, a subnet, a VPN tunnel, a private range that was considered...",
+      "media": [],
+      "origin_url": "https://dev.to/onelifevibe/zero-trust-between-services-not-just-users-a-practical-pattern-for-multi-cloud-estates-5f8a",
+      "published": "2026-11-08T06:31:18+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Zero Trust Between Services, Not Just Users: A Practical Pat。Most zero-trust conversations start with people: single sign-on, MFA, device posture, and conditional access for engineers and employees。That work matters"
+    },
+    {
+      "title": "Spring Boot: migrations at startup, health checks and metrics",
+      "describe": "Migrations are written in development, but they have to run wherever the application runs: on a colleague's laptop, in CI, in staging, in production. The simplest way to get there is to let the application apply them itself, each time it starts, before anything else touches the database. This article adds the Migrax starter to a Spring Boot application, follows what happens at startup, starts two instances at once, and looks at what Actuator shows: a health check and Prometheus metrics. At the end, the pipeline runs the migrations instead of the application. Tested with: Migrax 0.17.1, Spri...",
+      "media": [],
+      "origin_url": "https://dev.to/fsmutimeer/spring-boot-migrations-at-startup-health-checks-and-metrics-1mng",
+      "published": "2026-11-08T06:23:23+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Spring Boot: migrations at startup, health checks and metric。Migrations are written in development, but they have to run wherever the application runs: on a colleague's laptop, in CI, in staging, in production。The simplest way to get ther..."
+    },
+    {
+      "title": "Docker Port Is Already Allocated: Fix Address Already in Use",
+      "describe": "You run docker run -p 8080:80 or docker compose up and Docker refuses to start the container. The message is either Bind for 0.0.0.0:8080 failed: port is already allocated or Error starting userland proxy: listen tcp4 0.0.0.0:8080: bind: address already in use . The two look alike, but they point at different owners of the port, and the fix depends on which one you got. This guide reproduces both errors with nginx:1.30.6-alpine on Docker Engine 26.1.5, then repeats them on Docker Engine 29.9.2 to show the newer wording. Every message below comes from that lab run on November 8, 2026. Demand...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdeploylark.com%2Fimages%2Fdocker-port-already-allocated%2F01-docker-port-conflict-error-cause-fix-diagram.webp",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdeploylark.com%2Fimages%2Fdocker-port-already-allocated%2F02-docker-port-already-allocated-two-containers.webp",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdeploylark.com%2Fimages%2Fdocker-port-already-allocated%2F03-docker-bind-address-already-in-use-host-process.webp",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdeploylark.com%2Fimages%2Fdocker-port-already-allocated%2F04-docker-compose-port-conflict-other-project.webp",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdeploylark.com%2Fimages%2Fdocker-port-already-allocated%2F05-docker-29-port-error-wording.webp"
+      ],
+      "origin_url": "https://dev.to/deploylark/docker-port-is-already-allocated-fix-address-already-in-use-2fln",
+      "published": "2026-11-08T06:19:56+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Docker Port Is Already Allocated: Fix Address Already in Use（教程）。You run docker run -p 8080:80 or docker compose up and Docker refuses to start the container。The message is either Bind for 0"
+    },
+    {
+      "title": "Cross-Platform Data Synchronization: Approaches Compared",
+      "describe": "Meta title: CI/CD Pipeline Design Improvement Roadmap Meta description: Follow a practical CI/CD pipeline design improvement roadmap to identify bottlenecks, optimize workflows, strengthen security, and improve delivery performance. A CI/CD pipeline improvement roadmap helps engineering teams make software delivery faster, more reliable, and more secure without adding unnecessary complexity. The most effective approach is to measure the current pipeline, identify the biggest bottlenecks, prioritize changes by impact, and validate each improvement against delivery performance and cost. The g...",
+      "media": [],
+      "origin_url": "https://dev.to/prerna_sharma_2354d311ff5/cross-platform-data-synchronization-approaches-compared-4d3f",
+      "published": "2026-11-08T06:15:52+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Cross-Platform Data Synchronization: Approaches Compared（性能/安全）。Meta title: CI/CD Pipeline Design Improvement Roadmap Meta description: Follow a practical CI/CD pipeline design improvement roadmap to identify bottlenecks, optimize workflows,..."
+    },
+    {
+      "title": "5 Reasons Your AWS Bill Keeps Growing (Even When Nobody Uses Your App)",
+      "describe": "You built a small side project on AWS. Traffic is basically zero. Yet every month the bill creeps up, and the line items look like error codes: USE1-NatGateway-Hours, USE1-PublicIPv4:InUseAddress... If that sounds familiar, you're not bad at AWS. Most surprise bills come from the same five causes, and each one takes only a few minutes to check. Note: Prices below are AWS list prices for US East (N. Virginia), checked in November 2026. Other regions can cost more, and AWS updates prices over time. Always confirm on the official pricing pages (links at the end). Resources that charge just for...",
+      "media": [],
+      "origin_url": "https://dev.to/shuwacloud/5-reasons-your-aws-bill-keeps-growing-even-when-nobody-uses-your-app-380",
+      "published": "2026-11-08T06:14:42+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】5 Reasons Your AWS Bill Keeps Growing (Even When Nobody Uses。You built a small side project on AWS。Traffic is basically zero"
+    },
+    {
+      "title": "ACH Return Codes Explained: R01–R85 and How to Handle Them in Production",
+      "describe": "ACH Return Codes Explained: R01–R85 and How to Handle Them in Production Understanding ACH Return Codes in Your Payout System When an ACH transfer fails, the originating bank receives a return code—a two-character alphanumeric that tells you exactly why the transaction didn't settle. Unlike vague \"payment declined\" messages, ACH returns are standardized by Nacha (the National Automated Clearing House Association) and follow a predictable taxonomy. As a developer integrating payouts, understanding these codes is critical to building reliable retry logic, customer communication, and fallback ...",
+      "media": [],
+      "origin_url": "https://dev.to/payout_rail/ach-return-codes-explained-r01-r85-and-how-to-handle-them-in-production-1p3g",
+      "published": "2026-11-08T06:00:21+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】ACH Return Codes Explained: R01–R85 and How to Handle Them i（教程）。ACH Return Codes Explained: R01–R85 and How to Handle Them in Production Understanding ACH Return Codes in Your Payout System When an ACH transfer fails, the originating bank re..."
+    },
+    {
+      "title": "Best Amazon SES Alternatives in 2026",
+      "describe": "Amazon SES is built for sending at scale from inside AWS, and many teams start there. The best Amazon SES alternatives are for when you want more around the send: no sandbox approval, a dashboard with logs, templates you can edit without a deploy, delivery events without wiring up Amazon SNS, and marketing email in the same place. This guide compares ten Amazon SES (AWS SES) alternatives on price, free tier, SMTP, webhooks, deliverability and campaigns, using each vendor's own pricing and product pages, checked between October 27 and November 8, 2026. We make Cresca, so it is listed first. ...",
+      "media": [],
+      "origin_url": "https://dev.to/lalitkumarjangid/best-amazon-ses-alternatives-in-2026-k65",
+      "published": "2026-11-08T05:46:17+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Best Amazon SES Alternatives in 2026（教程/架构）。Amazon SES is built for sending at scale from inside AWS, and many teams start there。The best Amazon SES alternatives are for when you want more around the send: no sandbox appr..."
+    },
+    {
+      "title": "Shadow AI apps: what IT can do about tools staff build with AI",
+      "describe": "Last updated 25 October 2026. Written by TeamOnly. We make one of the places builders can deploy to, and we say so where it comes up. Quick answer: Assume these apps already exist. Find them without blame, then give builders one approved place to deploy: behind your company login, with a named owner for every app. A one-page policy covers the rest. Banning AI tools rarely works. It moves the apps somewhere you can't see. This page covers what shadow AI is, the real risks of AI-built internal apps, how to find what already exists, and a policy you can copy. What is shadow AI? Three terms tha...",
+      "media": [],
+      "origin_url": "https://dev.to/teamonly/shadow-ai-apps-what-it-can-do-about-tools-staff-build-with-ai-50b1",
+      "published": "2026-11-08T05:46:03+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Shadow AI apps: what IT can do about tools staff build with （教程）。Last updated 25 October 2026。Written by TeamOnly"
+    },
+    {
+      "title": "TCP Provider: The Wait Operation Timed Out - It Was the Firewall, Not SQL Server",
+      "describe": "We moved this site's database to a new SQL Server, and the first time I tried to connect from my own PC, sqlcmd sat for a few seconds and then printed this: Sqlcmd: Error: Microsoft ODBC Driver 17 for SQL Server : TCP Provider: The wait operation timed out. Sqlcmd: Error: Microsoft ODBC Driver 17 for SQL Server : Login timeout expired. Sqlcmd: Error: Microsoft ODBC Driver 17 for SQL Server : A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. The connection string was right, the password was right an...",
+      "media": [],
+      "origin_url": "https://dev.to/kausarraza/tcp-provider-the-wait-operation-timed-out-it-was-the-firewall-not-sql-server-34e6",
+      "published": "2026-11-08T05:33:36+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】TCP Provider: The Wait Operation Timed Out - It Was the Fire。We moved this site's database to a new SQL Server, and the first time I tried to connect from my own PC, sqlcmd sat for a few seconds and then printed this: Sqlcmd: Error: Micro..."
+    },
+    {
+      "title": "Claude Code moved its Explore subagent off Haiku in 2.1.198. Two env vars get it back for 60% less.",
+      "describe": "In February a post here said Claude Code's built-in Explore subagent is hard-coded to Haiku. I measured something different last week: on 2.1.318, an Opus session's Explore calls all ran on Opus. Both were right. I ran 205 headless sessions across 26 Claude Code versions to find out when it changed. Up to 2.1.197: Explore ran on Haiku in every run. From 2.1.198: Explore runs on whatever model your main session uses. Cost on Opus: a delegated code search went from $0.18 to $0.37 per run (+105%). The fix: CLAUDE_CODE_SUBAGENT_MODEL=haiku plus CLAUDE_CODE_SUBAGENT_MODEL_FORCE=1 . Explore went ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnaxm2zi2po33gggds1cf.png"
+      ],
+      "origin_url": "https://dev.to/jaehyun_cho_0dff271e0d2e5/claude-code-moved-its-explore-subagent-off-haiku-in-21198-two-env-vars-get-it-back-for-60-less-2i8i",
+      "published": "2026-11-08T05:26:55+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Claude Code moved its Explore subagent off Haiku in 2.1.198.。In February a post here said Claude Code's built-in Explore subagent is hard-coded to Haiku。I measured something different last week: on 2"
+    },
+    {
+      "title": "48-Hour Field Notes: Same Prompt, Two JSON Shapes, and a Validator That Passed Both",
+      "describe": "Six hundred markdown files landed in an inbox folder, and my only job was to turn them into a one-page morning report. The plan looked trivial: send each file to a model, get back four fields, append a line of JSONL, render a table. I gave myself forty-eight hours to make that loop boring, so like an idiot I built the happy path first. The happy path held for about six hours. The full run exited 0, the report rendered, and nobody on the receiving end noticed that one column had quietly stopped meaning anything. These are the field notes: what I tried, where it broke, and the small harness I...",
+      "media": [],
+      "origin_url": "https://dev.to/codepy_1473/48-hour-field-notes-same-prompt-two-json-shapes-and-a-validator-that-passed-both-a21",
+      "published": "2026-11-08T05:15:10+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】48-Hour Field Notes: Same Prompt, Two JSON Shapes, and a Val。Six hundred markdown files landed in an inbox folder, and my only job was to turn them into a one-page morning report。The plan looked trivial: send each file to a model, get bac..."
+    },
+    {
+      "title": "Your Free Server Is Not Your Laptop: A Parity Probe for Five Assumptions That Break on Deploy",
+      "describe": "You push. The build goes green. Then it 502s. Sound familiar? The gap is almost never your business logic. It is the environment you quietly assumed. So here is a myth-busting FAQ about free tiers. Claims developers repeat. Evidence you can collect yourself. A corrected mental model after each one. Two claims are on the table, and only two. MonkeyCode offers free model access, and it has a free server option. Those are operator-supplied availability claims. Disclosure: This article was prepared as part of MonkeyCode's product outreach. Everything else — quotas, hardware, sleep policy, stora...",
+      "media": [],
+      "origin_url": "https://dev.to/gitlab_3188/your-free-server-is-not-your-laptop-a-parity-probe-for-five-assumptions-that-break-on-deploy-4n72",
+      "published": "2026-11-08T05:14:24+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Your Free Server Is Not Your Laptop: A Parity Probe for Five。The build goes green。Sound familiar"
+    }
+  ],
+  "general": [
+    {
+      "title": "How to scrape Workday job postings (and the 2,000-job trap)",
+      "describe": "Thousands of large employers (Nvidia, Salesforce, Adobe and much of the Fortune 500) publish their jobs on Workday. Unlike Greenhouse or Lever, Workday has no documented public API and no global directory, so most job scrapers skip it. But every Workday careers site loads its jobs from a small JSON endpoint that anyone can call. Here is how it works, the two traps that silently break most scripts, and a ready-made option if you don't want to maintain it. 1. Find the careers site A Workday careers URL looks like this: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite Three parts ...",
+      "media": [],
+      "origin_url": "https://dev.to/yakk000/how-to-scrape-workday-job-postings-and-the-2000-job-trap-4648",
+      "published": "2026-11-08T06:44:29+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】How to scrape Workday job postings (and the 2,000-job trap)（教程）。Thousands of large employers (Nvidia, Salesforce, Adobe and much of the Fortune 500) publish their jobs on Workday。Unlike Greenhouse or Lever, Workday has no documented public A..."
+    },
+    {
+      "title": "How to clean a supplier product CSV before importing to Shopify",
+      "describe": "By Zijian Xiao A supplier spreadsheet can look perfectly readable and still need work before you import it. Product names sit under unfamiliar headers, a price uses a decimal comma, and an SKU has lost its leading zeros. The difficult part is deciding which changes are safe to automate and which require a decision about the underlying product. Here is a spreadsheet workflow first, followed by a small, reproducible conversion example. The example uses synthetic supplier data that I actually ran through Rowmoss's local Python conversion code. It is a file-conversion test; I did not test an im...",
+      "media": [],
+      "origin_url": "https://dev.to/m4ra7h0n/how-to-clean-a-supplier-product-csv-before-importing-to-shopify-4efn",
+      "published": "2026-11-08T06:44:09+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】How to clean a supplier product CSV before importing to Shop（教程）。By Zijian Xiao A supplier spreadsheet can look perfectly readable and still need work before you import it。Product names sit under unfamiliar headers, a price uses a decimal com..."
+    },
+    {
+      "title": "Auditing the Gaps Around Recurly's Own Dunning",
+      "describe": "Recurly ships a serious dunning system. Automated retries, account updater integrations, and configurable campaigns handle the mechanical core of failed-payment recovery competently, and teams evaluating their stack should start from that respect rather than from a sales pitch. The interesting question for an operator is narrower: where does the platform's machinery stop, and what quietly falls into the gap? A gap audit takes one month of failed renewals and sorts every outcome into three buckets: recovered by the platform untouched, recovered only after a human intervened, and never recove...",
+      "media": [],
+      "origin_url": "https://dev.to/swipe-again/auditing-the-gaps-around-recurlys-own-dunning-2n5m",
+      "published": "2026-11-08T06:39:12+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Auditing the Gaps Around Recurly's Own Dunning。Recurly ships a serious dunning system。Automated retries, account updater integrations, and configurable campaigns handle the mechanical core of failed-payment recovery competen..."
+    },
+    {
+      "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+      "describe": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+      "media": [
+        "https://res.infoq.com/news/2026/11/cloudflare-d1-control-plane/en/headerimage/generatedHeaderImage-1792577891694.jpg"
+      ],
+      "origin_url": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "published": "2026-11-08T06:34:00+00:00",
+      "source_label": "InfoQ",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Cloudflare Scales D1 Control Plane to Millions of Databases（架构）。In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, im..."
+    },
+    {
+      "title": "I made a free, open source alternative to Brilliant (140+ interactive math and science courses)",
+      "describe": "What a Free, Open-Source Brilliant Clone Teaches Us About Lazy Eye Training Someone on Lemmy posted a free, open-source alternative to Brilliant this week: 140+ interactive courses, 1000+ lessons in math, physics, and chemistry, no account, no ads — because the paid version costs up to $160 a year depending on region. It hit 128 upvotes and 70 comments, and the author was upfront that only about a third of pages have been human-reviewed, inviting people to flag what's wrong and fix it in public. The part worth stealing isn't the price tag. It's the pedagogy: try the thing first, get the exp...",
+      "media": [],
+      "origin_url": "https://dev.to/ashish_624379625242c5d263/i-made-a-free-open-source-alternative-to-brilliant-140-interactive-math-and-science-courses-4d97",
+      "published": "2026-11-08T06:33:32+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】I made a free, open source alternative to Brilliant (140+ in（开源）。What a Free, Open-Source Brilliant Clone Teaches Us About Lazy Eye Training Someone on Lemmy posted a free, open-source alternative to Brilliant this week: 140+ interactive cour..."
+    },
+    {
+      "title": "It won on the steady sellers and lost on the rest",
+      "describe": "On one Walmart store, a machine-learning forecast was 3.9 percent worse than a 28-day moving average on absolute error, and the worse forecast for 58 percent of the 823 items. Split by demand class, the result is two opposite ones: it wins on the steady sellers and loses by about 10 percent on the intermittent and lumpy items, which are most of the store. The usual way to choose a forecast is to compare one error number per model and pick the smallest. This note shows, on real retail data, why that number alone can point the wrong way for most of the catalogue. Everything below was measured...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ford020vqi5ctmgnkkf43.jpeg"
+      ],
+      "origin_url": "https://dev.to/mashiah/it-won-on-the-steady-sellers-and-lost-on-the-rest-32ij",
+      "published": "2026-11-08T06:33:02+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】It won on the steady sellers and lost on the rest。On one Walmart store, a machine-learning forecast was 3。9 percent worse than a 28-day moving average on absolute error, and the worse forecast for 58 percent of the 823 items"
+    },
+    {
+      "title": "Comment FORECAST.ETS prévoit-il le pic de ventes de décembre ?",
+      "describe": "=FORECAST.ETS(...) ressemble à de la magie : on lui donne trois ans de ventes mensuelles et il renvoie un décembre plus haut que tous les autres mois, un janvier qui retombe et un intervalle de confiance autour des deux. En dessous, il y a un lissage exponentiel avec une tendance et une saison qui se répète, une méthode de la fin des années 1950 qui tient en une quarantaine de lignes. La Forecast Sheet de l'éditeur de tableur de l'application de bureau osFoundry écrit cette fonction dans une nouvelle feuille. Cet article reconstruit la même idée en Python, la fait tourner sur les mêmes 36 m...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8p0gnt825m24aa391q3p.jpg"
+      ],
+      "origin_url": "https://dev.to/bestaitools-fr/comment-forecastets-prevoit-il-le-pic-de-ventes-de-decembre--18mn",
+      "published": "2026-11-08T06:32:31+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Comment FORECAST.ETS prévoit-il le pic de ventes de décembre。) ressemble à de la magie : on lui donne trois ans de ventes mensuelles et il renvoie un décembre plus haut que tous les autres mois, un janvier qui retombe et un intervalle de ..."
+    },
+    {
+      "title": "From 100 Million Cells to One Molecule You Can Walk Inside — Why Cascade Makes NexoPeek Essential Now",
+      "describe": "From 100 Million Cells to One Molecule You Can Walk Inside — Why Cascade Makes NexoPeek Essential Now I still remember the night the data dump landed on my laptop. A single CSV, 100 million rows, each row a cell from a spatial transcriptomics experiment. The file was 27 GB, the kind of thing that makes a laptop fan sound like a jet engine. I had a deadline in two days, a grant review looming, and a sinking feeling that the usual “load‑into‑pandas‑and‑plot” workflow would never finish in time. The viral post that popped up on Hacker News that morning — “From 100 Million Cells to One Molecule...",
+      "media": [],
+      "origin_url": "https://dev.to/ashish_624379625242c5d263/from-100-million-cells-to-one-molecule-you-can-walk-inside-why-cascade-makes-nexopeek-essential-4moa",
+      "published": "2026-11-08T06:30:49+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】From 100 Million Cells to One Molecule You Can Walk Inside —。From 100 Million Cells to One Molecule You Can Walk Inside — Why Cascade Makes NexoPeek Essential Now I still remember the night the data dump landed on my laptop。A single CSV, ..."
+    },
+    {
+      "title": "PHP2Shell — Deep Dive",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://djad04.github.io/php2shell-deep-dive/",
+      "published": "2026-11-08T05:51:54+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】PHP2Shell — Deep Dive。Comments"
+    },
+    {
+      "title": "Kirlian Photography: Building Your Own Equipment",
+      "describe": "Article URL: https://imagesco.com/articles/kirlian/kirlian-photography.html Comments URL: https://news.ycombinator.com/item?id=50410359 Points: 15 # Comments: 2",
+      "media": [],
+      "origin_url": "https://imagesco.com/articles/kirlian/kirlian-photography.html",
+      "published": "2026-11-08T04:14:12+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Kirlian Photography: Building Your Own Equipment。Article URL: https://imagesco。com/articles/kirlian/kirlian-photography"
+    },
+    {
+      "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+      "describe": "Article URL: https://github.com/dmunozv04/isponsorblocktv Comments URL: https://news.ycombinator.com/item?id=50410249 Points: 5 # Comments: 0",
+      "media": [],
+      "origin_url": "https://github.com/dmunozv04/isponsorblocktv",
+      "published": "2026-11-08T03:47:19+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】ISponsorBlockTV: SponsorBlock client for all YouTube TV clie（开源）。Article URL: https://github。com/dmunozv04/isponsorblocktv Comments URL: https://news"
+    },
+    {
+      "title": "Goodbye Claude, Hello Pi",
+      "describe": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 124 # Comments: 73",
+      "media": [],
+      "origin_url": "https://caleb.software/posts/claude-to-pi.html",
+      "published": "2026-11-08T03:11:48+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Goodbye Claude, Hello Pi。Article URL: https://caleb。software/posts/claude-to-pi"
+    }
+  ]
+}

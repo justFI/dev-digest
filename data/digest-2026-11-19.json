@@ -1,0 +1,885 @@
+{
+  "ai": [
+    {
+      "title": "Run Mobilerun with local and cheap models Ollama, DeepSeek, Qwen, OpenRouter",
+      "describe": "Every step a phone agent takes is a model call. Read the screen, pick one action, tap, repeat. A simple task can be 10 of those. A test suite can be thousands. So the first question people ask after getting Mobilerun working is always the same: can I run this on something cheaper? Or on my own machine, with no API key at all? Yes. The open-source Mobilerun framework doesn't care where the model lives. This post shows what runs where, the exact local setup with Ollama and Qwen, the hosted setup for DeepSeek and OpenRouter, and what actually changes your results. The problem with \"which model...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmobilerun.ai%2F_next%2Fimage%3Furl%3Dhttps%253A%252F%252Fmedia.droidrun.ai%252Fcms%252Fdiagram1-1.png%253F2026-11-18T09%25253A19%25253A08.490Z%26w%3D3840%26q%3D100"
+      ],
+      "origin_url": "https://dev.to/priya_negi_9ffd29931ea408/run-mobilerun-with-local-and-cheap-modelsollama-deepseek-qwen-openrouter-5h51",
+      "published": "2026-11-19T08:00:06+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Run Mobilerun with local and cheap models Ollama, DeepSeek, 。Every step a phone agent takes is a model call。Read the screen, pick one action, tap, repeat"
+    },
+    {
+      "title": "One post, five networks: what actually changes",
+      "describe": "When people hear \"a native post for every network\", they picture five completely different posts. We build a scheduler that writes those versions, and that's mostly not what happens. Here's one real example from our demo workspace. Kolo is a made-up coffee roaster. The note said: a new coffee is in (Ethiopia Guji, natural process), bags are in the shop from Friday, and there's a cupping at the roastery on Saturday at 10. What changed Bluesky (212 of 300 characters): one idea, two hashtags. Mastodon (233 of 500): nearly the same text, three hashtags. Discord (212 of 2,000): no hashtags, spli...",
+      "media": [],
+      "origin_url": "https://dev.to/refractsocial/one-post-five-networks-what-actually-changes-j9c",
+      "published": "2026-11-19T08:00:03+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】One post, five networks: what actually changes。When people hear \"a native post for every network\", they picture five completely different posts。We build a scheduler that writes those versions, and that's mostly not what happens"
+    },
+    {
+      "title": "Anthropic Sets IPO Price at $83 as AI Market Faces Its First Public Test",
+      "describe": "Quick take Anthropic said the SEC declared its registration statement effective on Nov. 18. The $83 offering price does not establish Anthropic’s total equity value, which depends on shares outstanding, shares offered and other securities. SOC Investment Group criticized Anthropic’s IPO disclosures as opaque or potentially misleading, raising concerns about valuation, credit profile and risk disclosures. Capital.com analyst Kyle Rodda called the IPO a barometer of investor bullishness toward AI companies and appetite for AI monetization. Why it matters For public investors, the listing chan...",
+      "media": [],
+      "origin_url": "https://dev.to/spaisee/anthropic-sets-ipo-price-at-83-as-ai-market-faces-its-first-public-test-kme",
+      "published": "2026-11-19T08:00:02+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Anthropic Sets IPO Price at $83 as AI Market Faces Its First。Quick take Anthropic said the SEC declared its registration statement effective on Nov。The $83 offering price does not establish Anthropic’s total equity value, which depends on..."
+    },
+    {
+      "title": "Pointing the OpenAI Python and Node SDKs at a model with fewer refusals",
+      "describe": "Disclosure: I work on InterOdin, the API used in this tutorial. The pattern works for any OpenAI-compatible provider. Security scripts often hit a wall with general-purpose models: a request to explain a malware sample from your own incident, or to draft a detection rule, comes back as a refusal. If your code already uses the official OpenAI SDK, you can switch the model behind it with a base URL and a key. This walkthrough uses Odin v1 through InterOdin, which serves both Chat Completions and Responses. Install pip install openai # Python npm install openai # JavaScript / TypeScript Config...",
+      "media": [],
+      "origin_url": "https://dev.to/majikdev/pointing-the-openai-python-and-node-sdks-at-a-model-with-fewer-refusals-2l9f",
+      "published": "2026-11-19T08:00:00+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Pointing the OpenAI Python and Node SDKs at a model with few（教程/安全）。Disclosure: I work on InterOdin, the API used in this tutorial。The pattern works for any OpenAI-compatible provider"
+    },
+    {
+      "title": "An attached file told the model to delete all customers. In OpenWebUI, it tried",
+      "describe": "An attached file told the model to delete all customers. In OpenWebUI, it tried",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fck5bfszotajf631efdlh.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffznu6jsu1fjnrv1mmuet.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw7q8i2480ejckp4qhd4w.png"
+      ],
+      "origin_url": "https://dev.to/alexar76/an-attached-file-told-the-model-to-delete-all-customers-in-openwebui-it-tried-845",
+      "published": "2026-11-19T08:00:00+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】An attached file told the model to delete all customers. In 。An attached file told the model to delete all customers。In OpenWebUI, it tried"
+    },
+    {
+      "title": "How CPA Marketing Campaigns Work Behind the Scenes: A Technical Overview",
+      "describe": "Cost Per Action (CPA) marketing is often discussed as a way for affiliates to earn commissions from qualified leads, registrations, app installations, or purchases. But behind every CPA campaign is a technical infrastructure responsible for tracking clicks, identifying conversions, applying attribution rules, and calculating commissions. For developers interested in advertising technology, analytics, and performance marketing platforms, understanding this infrastructure can be useful. Let's examine how a typical CPA marketing system works. Understanding the CPA Marketing Model CPA stands fo...",
+      "media": [],
+      "origin_url": "https://dev.to/zeeshan_ali_e8c889cb6e9a8/how-cpa-marketing-campaigns-work-behind-the-scenes-a-technical-overview-ccg",
+      "published": "2026-11-19T07:57:27+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】How CPA Marketing Campaigns Work Behind the Scenes: A Techni（性能）。Cost Per Action (CPA) marketing is often discussed as a way for affiliates to earn commissions from qualified leads, registrations, app installations, or purchases。But behind ev..."
+    },
+    {
+      "title": "Gemini 4 Neon 사고 수준: High와 xhigh는 언제 사용해야 할까?",
+      "describe": "Gemini 4 Neon 사고 수준: High와 xhigh는 언제 사용해야 할까?",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcziwsvv0v0z9yujl98jq.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk7vl2s09z76lq1x1wbu7.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcgbvxxx9yec8lx2xko04.png"
+      ],
+      "origin_url": "https://dev.to/rihpig/gemini-4-neon-sago-sujun-highwa-xhighneun-eonje-sayonghaeya-halgga-42ji",
+      "published": "2026-11-19T07:57:07+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Gemini 4 Neon 사고 수준: High와 xhigh는 언제 사용해야 할까?。Gemini 4 Neon 사고 수준: High와 xhigh는 언제 사용해야 할까"
+    },
+    {
+      "title": "مستويات التفكير في Gemini 4 Neon: متى تستخدم High مقابل xhigh",
+      "describe": "مستويات التفكير في Gemini 4 Neon: متى تستخدم High مقابل xhigh",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcziwsvv0v0z9yujl98jq.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk7vl2s09z76lq1x1wbu7.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcgbvxxx9yec8lx2xko04.png"
+      ],
+      "origin_url": "https://dev.to/yusuf_khalidd/mstwyt-ltfkyr-fy-gemini-4-neon-mt-tstkhdm-high-mqbl-xhigh-5al9",
+      "published": "2026-11-19T07:56:47+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】مستويات التفكير في Gemini 4 Neon: متى تستخدم High مقابل xhig。مستويات التفكير في Gemini 4 Neon: متى تستخدم High مقابل xhigh"
+    },
+    {
+      "title": "Daily AI News Nov 19: Anthropic's $81B Debut Meets Gemini 4 Neon",
+      "describe": "Today's Storylines A Thursday Where the Money, the Models and the Lawyers All Moved The daily AI news for November 19 starts on the Nasdaq. AI news today is a money story: Anthropic priced the largest IPO on record at $81.3 billion and begins trading today. Google answered with Gemini 4 Neon, a frontier model at $3 per million input tokens. California sued OpenAI over 80 agent escapes, and Palo Alto Networks paid $4.5 billion for a model-training startup. The Five-Minute Version Anthropic priced its IPO at $83 per share, sold about 980 million shares and raised $81.3 billion at a roughly $1...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhklmgal94kt8sy2mots7.png"
+      ],
+      "origin_url": "https://dev.to/trillioniar_s_14a3c313e14/daily-ai-news-nov-19-anthropics-81b-debut-meets-gemini-4-neon-3len",
+      "published": "2026-11-19T07:54:38+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Daily AI News Nov 19: Anthropic's $81B Debut Meets Gemini 4 。Today's Storylines A Thursday Where the Money, the Models and the Lawyers All Moved The daily AI news for November 19 starts on the Nasdaq。AI news today is a money story: Anthro..."
+    },
+    {
+      "title": "Run Claude Code on DeepSeek, GLM or Kimi: settings, what breaks, and fixes",
+      "describe": "Disclosure: I'm Alex, the founder of UberLLM , a marketplace API with an Anthropic-compatible endpoint. The examples use it because it is the one I know. The settings themselves apply to any Anthropic-compatible endpoint, and the last section gives each model maker's own endpoint, which is the most direct route. Claude Code talks to one API: Anthropic's Messages API. It does not care who answers, as long as the answer has the right shape. So it can run on DeepSeek, GLM or Kimi models. It also breaks in quiet ways when one setting is missing. This post is the settings, what changes on a mode...",
+      "media": [],
+      "origin_url": "https://dev.to/alex_uberllm/run-claude-code-on-deepseek-glm-or-kimi-settings-what-breaks-and-fixes-2l0p",
+      "published": "2026-11-19T07:54:29+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Run Claude Code on DeepSeek, GLM or Kimi: settings, what bre。Disclosure: I'm Alex, the founder of UberLLM , a marketplace API with an Anthropic-compatible endpoint。The examples use it because it is the one I know"
+    },
+    {
+      "title": "How to Set Up a Self-Service Support Portal for Your Community with SeaTicket",
+      "describe": "Your community asks questions about your product across GitHub, Discord, forum discussions, and emails. Keeping track of conversations across all these channels is challenging and time-consuming. Third-party AI assistants also provide another way for users to find answers. But when they rely on outdated or inaccurate sources, they can deliver misleading information, create confusion, and undermine trust in your community. A self-service support portal gives your community a direct way to accurate answers. SeaTicket is an open-source support center, and its portal is the part your community ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd9phg8e7m9uyha2w1434.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwd6tewarkqvpe48s5itx.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F990vgmsknyugjnx0n6a6.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3kcnv87t9qsoh88rbl9u.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkz9rgzybp685o57m5sli.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7y02m9092sztmtr6e8hv.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff35ycfv6z8j6sh0mt4ha.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzo9zpc9wrz6phvye7nwo.png"
+      ],
+      "origin_url": "https://dev.to/seacloud-labs/how-to-set-up-a-self-service-support-portal-for-your-community-with-seaticket-1g2i",
+      "published": "2026-11-19T07:54:07+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】How to Set Up a Self-Service Support Portal for Your Communi（教程/开源）。Your community asks questions about your product across GitHub, Discord, forum discussions, and emails。Keeping track of conversations across all these channels is challenging an..."
+    },
+    {
+      "title": "Robot Dog for Sale: Which Price Tier Fits Your Use Case?",
+      "describe": "Searching for a robot dog for sale returns products with a thousand-fold price difference, and most listing pages treat them as if they are competing options. A $300 toy quadruped and a $150,000 industrial inspection system both have four legs. That is where the overlap ends. The toy runs a preloaded behavior library on a small microcontroller. The industrial unit carries a thermal camera, a LiDAR, and a support contract, and it goes into environments where a fall or a sensor failure has real consequences. Comparing them on price alone is the fastest way to buy the wrong product. The useful...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2uw8uc5h0g50f1n5viou.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxvb9u9j83advxbwfdwbp.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmit970mknoqg1m7gavwl.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F667ecmaqroogvu1j87kb.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu48q29oef3l4a6eow30h.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhuvszgj6eun7xfvnwv51.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F53x550t83v5ner74xkxo.jpg",
+        "https://media2.dev.to/dynamic/image/width=150,height=150,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1209000%2Fb29d37d8-2efe-4391-9796-a6f8a483f1bd.png"
+      ],
+      "origin_url": "https://dev.to/pointl4/robot-dog-for-sale-which-price-tier-fits-your-use-case-3o5",
+      "published": "2026-11-19T07:53:48+00:00",
+      "source_label": "DEV Community (AI)",
+      "category_id": "ai",
+      "category_name": "AI / 机器学习",
+      "ai_summary": "【AI / 机器学习】Robot Dog for Sale: Which Price Tier Fits Your Use Case?。Searching for a robot dog for sale returns products with a thousand-fold price difference, and most listing pages treat them as if they are competing options。A $300 toy quadrupe..."
+    }
+  ],
+  "ios": [
+    {
+      "title": "How to Make Realistic AI Photos on Your iPhone in 2026 (Offline, Free)",
+      "describe": "You can make realistic AI photos on your iPhone with Off Grid AI. Download a photoreal model once on Wi-Fi, describe the shot like a photographer would, and your iPhone makes it. No internet after that, no credits, no account. Get Off Grid AI on the App Store · All downloads Describe the shot in a chat and the picture appears on the iPhone. Pick your photoreal model Model Best for iPhone Download Juggernaut XL v9 (Light) Cinematic portraits and landscapes 12 GB About 3 GB RealVisXL v5.0 (Light) The most lifelike skin and light 12 GB About 2.8 GB FLUX.2 klein 4B (Light) Sharp detail and read...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Fimagegen-ios-1-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-make-realistic-ai-photos-on-your-iphone-in-2026-offline-free-1glc",
+      "published": "2026-11-19T07:52:54+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How to Make Realistic AI Photos on Your iPhone in 2026 (Offl（教程）。You can make realistic AI photos on your iPhone with Off Grid AI。Download a photoreal model once on Wi-Fi, describe the shot like a photographer would, and your iPhone makes it"
+    },
+    {
+      "title": "How to Make Anime AI Art on Your iPhone in 2026 (Offline, Free)",
+      "describe": "You can make anime AI art on your iPhone with Off Grid AI. Download a model once on Wi-Fi, describe your character, and the iPhone draws it. No internet after that, no credits, no account, and no limit on pictures. Get Off Grid AI on the App Store · All downloads Restyle redraws the same prompt in another style, such as Anime. Pick your anime model Model Best for iPhone Animagine XL 4.0 (Light) Known characters, detailed scenes, 1024px 12 GB of memory Illustrious XL v2.0 (Light) Illustration and anime styles, 1024px 12 GB of memory SD 1.5 Palettized + Anime style Quick anime pictures in sec...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Frestyle-ios-1-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-make-anime-ai-art-on-your-iphone-in-2026-offline-free-3277",
+      "published": "2026-11-19T07:52:15+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How to Make Anime AI Art on Your iPhone in 2026 (Offline, Fr（教程）。You can make anime AI art on your iPhone with Off Grid AI。Download a model once on Wi-Fi, describe your character, and the iPhone draws it"
+    },
+    {
+      "title": "How to Run Spark X2.6 on Your iPhone in 2026 (A Local AI Agent That Uses Tools)",
+      "describe": "Spark X2.6 4B is a small open model tuned to act like an agent. Off Grid AI runs it on your iPhone, and it can search the web, read a page, do exact maths and answer from your own documents, choosing the tool itself. It's a 3.5 GB download for iPhones with 8 GB of memory. Get Off Grid AI on the App Store · All downloads Spark X2.6 4B appears in Models on iPhones that can run it. Why Spark X2.6 for an agent Small models often skip a tool or call it wrong. Spark X2.6 4B, released by XHToken in October 2026, is trained for agent work and code, and Off Grid AI tags it as the best agent and codi...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Fmodels-ios-1-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-run-spark-x26-on-your-iphone-in-2026-a-local-ai-agent-that-uses-tools-40nl",
+      "published": "2026-11-19T07:52:04+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How to Run Spark X2.6 on Your iPhone in 2026 (A Local AI Age（教程/开源）。6 4B is a small open model tuned to act like an agent。Off Grid AI runs it on your iPhone, and it can search the web, read a page, do exact maths and answer from your own documen..."
+    },
+    {
+      "title": "How to Turn a Photo Into a Video on Your iPhone in 2026 (No Credits)",
+      "describe": "You can turn a photo into a video on your iPhone with Off Grid AI. Open the photo, tap Animate this photo, and a short clip comes back. Wan 2.2 Turbo renders it on your iPhone or on your own Mac or PC, so there are no credits and your photo isn't uploaded. Video is part of Off Grid AI Pro. One purchase covers your iPhone and your computer. Get Off Grid AI on the App Store · Get Pro A clip made on an iPhone, playing in the app. What you need Off Grid AI Pro. $34.99 once (regular $119) or $7.99 a month, for up to 5 devices. An iPhone with 12 GB of memory to render on the iPhone, such as the i...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Freleases%2Fmobile-0.0.120-beta.1-video.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-turn-a-photo-into-a-video-on-your-iphone-in-2026-no-credits-59j3",
+      "published": "2026-11-19T07:51:25+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】How to Turn a Photo Into a Video on Your iPhone in 2026 (No （教程）。You can turn a photo into a video on your iPhone with Off Grid AI。Open the photo, tap Animate this photo, and a short clip comes back"
+    },
+    {
+      "title": "Can You Run Local AI on Your Phone in 2026?",
+      "describe": "Yes, you can run local AI on your phone. Off Grid AI downloads an open model once on Wi-Fi, then your iPhone or Android phone answers questions, makes pictures and turns your voice into text on its own chip. No internet after that, no account, no message limit. Get Off Grid AI on the App Store · Get it on Google Play · All downloads The Models list only shows what your phone can run. What your phone can run Phone RAM Chat Pictures Examples 6 GB Qwen 3.5 2B, Gemma 4 E2B Stable Diffusion 1.5 Galaxy A series, iPhone 13 Pro, 14 Pro 8 GB Gemma 4 E4B, Qwen 3.5 4B, Spark X2.6 Stable Diffusion, fas...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Fmodels-1-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/can-you-run-local-ai-on-your-phone-in-2026-53jj",
+      "published": "2026-11-19T07:47:52+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Can You Run Local AI on Your Phone in 2026?。Yes, you can run local AI on your phone。Off Grid AI downloads an open model once on Wi-Fi, then your iPhone or Android phone answers questions, makes pictures and turns your voi..."
+    },
+    {
+      "title": "Building an offline photo cleaner with Vision and Apple Foundation Models on iPhone",
+      "describe": "Disclosure: I work on ClearWhirl, the iPhone photo cleaner this post is about. It is on the App Store: https://apps.apple.com/us/app/phone-cleaner-clearwhirl-ai/id6835310950 Short version: everything that looks at pixels runs through Apple's Vision framework on downscaled copies, on a capped dispatch queue, with results saved to a local index. Apple's on-device Foundation Models never see a photo. They do one job: turn \"payment receipts from 2025\" into a typed search filter. When the model is unavailable, search falls back to plain rules. Nothing leaves the phone, and the app works in airpl...",
+      "media": [],
+      "origin_url": "https://dev.to/appi_korn_de75d4374fc5d52/building-an-offline-photo-cleaner-with-vision-and-apple-foundation-models-on-iphone-2197",
+      "published": "2026-11-19T07:38:01+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Building an offline photo cleaner with Vision and Apple Foun（架构）。Disclosure: I work on ClearWhirl, the iPhone photo cleaner this post is about。It is on the App Store: https://apps"
+    },
+    {
+      "title": "Six corners of a cozy Christmas village on iPhone",
+      "describe": "I'm a solo dev making Christmas Town, a free iPhone game where you decorate your own home and tree in a snowy village. Here are six places in the game and what you can do in each. 1. Your house Decorate the rooms one piece at a time. Furniture, lights and small props all change how the home feels. 2. The attic A quiet corner with a window. Snow falls outside while the tree glows inside. 3. The carol hall Warm windows and music. It is the place I keep returning to when I want the village to feel busy but calm. 4. The square tree The big tree in the town square. You can see your decorations f...",
+      "media": [],
+      "origin_url": "https://dev.to/christmastown_dev/six-corners-of-a-cozy-christmas-village-on-iphone-5d2n",
+      "published": "2026-11-19T07:17:59+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Six corners of a cozy Christmas village on iPhone。I'm a solo dev making Christmas Town, a free iPhone game where you decorate your own home and tree in a snowy village。Here are six places in the game and what you can do in each"
+    },
+    {
+      "title": "Two of my games are now listed on FoldHunt as built for iPhone Duo",
+      "describe": "Two of my games are now listed on FoldHunt as built for the iPhone Duo. Big thanks to FoldHunt for reviewing and featuring them: Find Objects: Hidden & Diff - spot-the-difference opens like a book, one picture on each side of the fold, so the hinge never cuts through a scene. Fold the phone mid-level and keep playing one-handed on the cover, with your progress intact. Paint Me: Color By Number - unfold mid-painting and the picture fills the inner display. Turn it sideways and the palette moves to a column on the right. Open, the library shows more pictures at a glance. I'm a solo indie dev ...",
+      "media": [],
+      "origin_url": "https://dev.to/vinhnguyenthanhdn/two-of-my-games-are-now-listed-on-foldhunt-as-built-for-iphone-duo-569k",
+      "published": "2026-11-19T05:06:16+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Two of my games are now listed on FoldHunt as built for iPho。Two of my games are now listed on FoldHunt as built for the iPhone Duo。Big thanks to FoldHunt for reviewing and featuring them: Find Objects: Hidden & Diff - spot-the-difference..."
+    },
+    {
+      "title": "I Built OL RemoteWindow to Operate a Single Selected PC Window from iPhone and iPad",
+      "describe": "! This article is a repost from Claude Code 始めました . OL RemoteWindow is an app that lets you display a single window selected on your PC onto an iPhone or iPad and operate it directly. On November 8, 2026, we released version 1.1.1 for iPhone and iPad on the App Store . The PCs you can connect to were Windows-only at version 1.0 on October 24, but now there are three: Windows, Mac, and Linux. I wanted to bring just the window I use to my hands There are three reasons I made it. With ordinary remote desktop, the entire wide desktop is displayed. When I want to perform a specific operation on ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkc1hor3z90mgc4nz5sta.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9vtmbyqwibei7nwbdyat.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F54icka017g74uxrsvbg2.png"
+      ],
+      "origin_url": "https://dev.to/quolu/i-built-ol-remotewindow-to-operate-a-single-selected-pc-window-from-iphone-and-ipad-58a7",
+      "published": "2026-11-19T04:46:39+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】I Built OL RemoteWindow to Operate a Single Selected PC Wind（开源）。This article is a repost from Claude Code 始めました。OL RemoteWindow is an app that lets you display a single window selected on your PC onto an iPhone or iPad and operate it directly"
+    },
+    {
+      "title": "My Friend Sent Me a Sticker on iMessage — How Do I Save It? (iOS stickersd XPC Breakdown)",
+      "describe": "Originally published at memepouch.com . Direct Answer: How you save a sticker your friend sent you in iMessage depends on which kind of sticker it is : Apple native cutout or Memoji sticker: Long-press the sticker → Sticker Details / Emoji Details → Save to Stickers . Apple's built-in Save button works properly for native Apple stickers. Third-party sticker pack, uncropped full-frame meme, or animated third-party sticker: Tapping Apple's Save to Stickers button stalls indefinitely or bounces you to the App Store because Apple's StickersUltraExtension drops its XPC connection to stickersd . ...",
+      "media": [],
+      "origin_url": "https://dev.to/vaultbeat/my-friend-sent-me-a-sticker-on-imessage-how-do-i-save-it-ios-stickersd-xpc-breakdown-437d",
+      "published": "2026-11-19T04:34:28+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】My Friend Sent Me a Sticker on iMessage — How Do I Save It? 。Originally published at memepouch。Direct Answer: How you save a sticker your friend sent you in iMessage depends on which kind of sticker it is : Apple native cutout or Memoji s..."
+    },
+    {
+      "title": "Best Video to GIF Apps for iPhone Without a Watermark (2026 Engineering Comparison)",
+      "describe": "Originally published at memepouch.com . Direct Answer: If you want smooth looping reaction GIFs (up to 50 fps, no watermark) directly inside your iMessage keyboard drawer (plus free WhatsApp animated sticker export), MemePouch (a video-to-GIF converter and iMessage sticker manager for iPhone) is purpose-built for it. If you only need a 100% free basic converter that exports 5–30 fps GIFs to your Photos library with no iMessage drawer, GIFit (by Labi, LLC) is also free and watermark-free. ImgPlay adds a watermark on its free tier (Pro removes it), and Apple Shortcuts requires manual frame-de...",
+      "media": [],
+      "origin_url": "https://dev.to/vaultbeat/best-video-to-gif-apps-for-iphone-without-a-watermark-2026-engineering-comparison-2l5n",
+      "published": "2026-11-19T04:34:23+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】Best Video to GIF Apps for iPhone Without a Watermark (2026 。Originally published at memepouch。Direct Answer: If you want smooth looping reaction GIFs (up to 50 fps, no watermark) directly inside your iMessage keyboard drawer (plus free W..."
+    },
+    {
+      "title": "On Appstore Review",
+      "describe": "Okay so back at it. Making the ios app for my project https://sidecarphoto has been very frustrating as I keep getting rejected and it takes so long to get the next review. Also - the appstore connect page is the clunkiest thing - so strange as it's from apple and they take so much care with everything else. I got to the point where i requested a call from Apple to find out what exactly was their problem. And they called! Tim Apple called! Haha no but anyway the guy was pretty nice and said there was no way I could get away with making a free app for something that had a subscription on the...",
+      "media": [],
+      "origin_url": "https://dev.to/shimona47/on-appstore-review-3dbn",
+      "published": "2026-11-19T04:10:30+00:00",
+      "source_label": "DEV Community (iOS)",
+      "category_id": "ios",
+      "category_name": "iOS / Swift",
+      "ai_summary": "【iOS / Swift】On Appstore Review。Okay so back at it。Making the ios app for my project https://sidecarphoto has been very frustrating as I keep getting rejected and it takes so long to get the next review"
+    }
+  ],
+  "android": [
+    {
+      "title": "How to Run Spark X2.6 on Your Android Phone in 2026 (A Local AI Agent That Uses Tools)",
+      "describe": "Spark X2.6 4B is a small open model tuned to act like an agent. Off Grid AI runs it on your Android phone, and it can search the web, read a page, do exact maths and answer from your own documents, choosing the tool itself. It's a 3.5 GB download for phones with 8 GB of RAM. Get Off Grid AI on Google Play · All downloads Spark X2.6 4B is in the Models list on phones with 8 GB of RAM or more. Why Spark X2.6 for an agent Most small models chat well and use tools badly. They forget to call a tool, or call it with the wrong input. Spark X2.6 4B, released by XHToken in October 2026, is trained f...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Fmodels-1-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-run-spark-x26-on-your-android-phone-in-2026-a-local-ai-agent-that-uses-tools-3afm",
+      "published": "2026-11-19T07:51:15+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Run Spark X2.6 on Your Android Phone in 2026 (A Local（教程/开源）。6 4B is a small open model tuned to act like an agent。Off Grid AI runs it on your Android phone, and it can search the web, read a page, do exact maths and answer from your own ..."
+    },
+    {
+      "title": "How to Run Local AI on a Google Pixel Phone in 2026 (Offline, Free, No Account)",
+      "describe": "You can run local AI on your Google Pixel with Off Grid AI. Download an open model like Gemma 4 or Qwen 3.5 once on Wi-Fi, and your Pixel answers questions, makes pictures and transcribes your voice on its own chip. No internet after that, no account, and nothing sent to Google. Get Off Grid AI on Google Play · All downloads The Models list only shows what fits your Pixel. What your Pixel can run Pixel RAM Start with Pixel 7a, Pixel 8a 8 GB Qwen 3.5 4B or Gemma 4 E4B Pixel 8, Pixel 9a 8 GB Qwen 3.5 4B or Gemma 4 E4B Pixel 8 Pro, Pixel 9, Pixel 10 12 GB Qwen 3.5 9B Pixel 9 Pro, Pixel 10 Pro ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Fmodels-2-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-run-local-ai-on-a-google-pixel-phone-in-2026-offline-free-no-account-2bpj",
+      "published": "2026-11-19T07:50:35+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Run Local AI on a Google Pixel Phone in 2026 (Offline（教程）。You can run local AI on your Google Pixel with Off Grid AI。Download an open model like Gemma 4 or Qwen 3"
+    },
+    {
+      "title": "How to Run Local AI on a Samsung Galaxy Phone in 2026 (Offline, Free, No Account)",
+      "describe": "You can run local AI on your Samsung Galaxy with Off Grid AI. Download an open model once on Wi-Fi and your Galaxy answers questions, makes pictures and turns your voice into text on its own chip, with no internet, no account and no message limit. Get Off Grid AI on Google Play · All downloads Off Grid AI only lists models that fit your Galaxy's memory. What your Galaxy can run Galaxy RAM Start with Images Galaxy A series 6 to 8 GB Qwen 3.5 2B or Gemma 4 E2B Yes, on the CPU Galaxy S23, S24, Z Flip, Z Fold 8 to 12 GB Gemma 4 E4B or Qwen 3.5 4B Seconds on Snapdragon models Galaxy S24 Ultra, S...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Fmodels-1-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-run-local-ai-on-a-samsung-galaxy-phone-in-2026-offline-free-no-account-431e",
+      "published": "2026-11-19T07:50:24+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Run Local AI on a Samsung Galaxy Phone in 2026 (Offli（教程）。You can run local AI on your Samsung Galaxy with Off Grid AI。Download an open model once on Wi-Fi and your Galaxy answers questions, makes pictures and turns your voice into tex..."
+    },
+    {
+      "title": "How to Turn a Photo Into a Video on Your Android Phone in 2026 (No Credits)",
+      "describe": "You can turn a photo into a video on your Android phone with Off Grid AI. Open the photo, tap Animate this photo, and a short clip comes back. It renders with the open Wan 2.2 model on your phone or your own computer, so there are no credits to buy and your photo isn't uploaded. Video is part of Off Grid AI Pro. One purchase covers your phone and your computer. Get Off Grid AI on Google Play · Get Pro The finished clip plays in the app and saves to your Gallery. What you need Off Grid AI Pro. $34.99 once (regular $119) or $7.99 a month, for up to 5 devices. An Android phone with about 12 GB...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Freleases%2Fmobile-0.0.120-beta.1-video.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-turn-a-photo-into-a-video-on-your-android-phone-in-2026-no-credits-kdp",
+      "published": "2026-11-19T07:49:45+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Turn a Photo Into a Video on Your Android Phone in 20（教程）。You can turn a photo into a video on your Android phone with Off Grid AI。Open the photo, tap Animate this photo, and a short clip comes back"
+    },
+    {
+      "title": "How to Make Realistic AI Photos on Your Android Phone in 2026 (Offline, Free)",
+      "describe": "You can make realistic AI photos on your Android phone with Off Grid AI. Download a photoreal model once on Wi-Fi, describe the shot, and the phone makes it in seconds on recent Snapdragon chips. No internet after that, no credits, no account. Get Off Grid AI on Google Play · All downloads The picture lands in the chat and in your Gallery, on the phone. What you need An Android phone with 6 GB of RAM or more. 1 to 3 GB of free space for one model, about 3 to 4 GB for the XL ones. Wi-Fi once for the download. Pick your photoreal model Model Best for Phone Absolute Reality Portraits, landscap...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Fimagegen-2-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-make-realistic-ai-photos-on-your-android-phone-in-2026-offline-free-1n60",
+      "published": "2026-11-19T07:49:34+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Make Realistic AI Photos on Your Android Phone in 202（教程）。You can make realistic AI photos on your Android phone with Off Grid AI。Download a photoreal model once on Wi-Fi, describe the shot, and the phone makes it in seconds on recent ..."
+    },
+    {
+      "title": "How to Make Anime AI Art on Your Android Phone in 2026 (Offline, Free)",
+      "describe": "You can make anime AI art on your Android phone with Off Grid AI. Download an anime model once on Wi-Fi, type what you want, and the phone draws it. No internet after that, no credits, no account, and no limit on pictures. Get Off Grid AI on Google Play · All downloads Ask in a chat, pick a style, and the picture appears on the phone. What you need An Android phone with 6 GB of RAM or more. About 1 to 3 GB of free space for an anime model, about 3 to 4 GB for the XL ones. Wi-Fi once for the download. Pick your anime model Model Best for Phone Speed Anything V5 Clean anime lines, bright colo...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Fimagegen-1-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-make-anime-ai-art-on-your-android-phone-in-2026-offline-free-367o",
+      "published": "2026-11-19T07:48:53+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Make Anime AI Art on Your Android Phone in 2026 (Offl（教程）。You can make anime AI art on your Android phone with Off Grid AI。Download an anime model once on Wi-Fi, type what you want, and the phone draws it"
+    },
+    {
+      "title": "How to Run Ollama Models on Your Android Phone in 2026 (No Termux, No Computer)",
+      "describe": "Ollama has no Android app, and the Termux route means a Linux shell on your phone. Off Grid AI runs the same open models, Gemma 4, Qwen 3.5 and more, right on your Android phone. You install it from Google Play, tap a model, and chat with no internet. Get Off Grid AI on Google Play · All downloads Pick a model, download it once on Wi-Fi, and it runs on the phone. Why skip Termux Ollama is a wrapper around llama.cpp. Off Grid AI uses llama.cpp too, built into a regular Android app. So you get the same GGUF models without: installing a Linux environment and packages by hand, starting ollama s...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Fmodels-2-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/how-to-run-ollama-models-on-your-android-phone-in-2026-no-termux-no-computer-4a2e",
+      "published": "2026-11-19T07:48:43+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】How to Run Ollama Models on Your Android Phone in 2026 (No T（教程）。Ollama has no Android app, and the Termux route means a Linux shell on your phone。Off Grid AI runs the same open models, Gemma 4, Qwen 3"
+    },
+    {
+      "title": "Locally AI for Android in 2026: The Free Offline AI App to Use Instead",
+      "describe": "Locally AI doesn't have an Android app. It runs on iPhone, iPad and Mac, and LM Studio bought it in April 2026. On Android, Off Grid AI does the same job: it downloads open models like Gemma 4 and Qwen 3.5 and runs them on your phone, free, with no internet and no account. Get Off Grid AI on Google Play · All downloads Off Grid AI only shows models that fit your phone's memory. What you get on Android Chat with no signal. The model runs on your phone's chip, so it answers on a plane, on a train or with mobile data off. AI images. Stable Diffusion runs on the phone too. On Snapdragon 8 Gen 1...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fgetoffgridai.co%2Fassets%2Fimg%2Fhome%2Fmobile%2Fmodels-1-light-640.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/locally-ai-for-android-in-2026-the-free-offline-ai-app-to-use-instead-256b",
+      "published": "2026-11-19T07:48:03+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Locally AI for Android in 2026: The Free Offline AI App to U。Locally AI doesn't have an Android app。It runs on iPhone, iPad and Mac, and LM Studio bought it in April 2026"
+    },
+    {
+      "title": "La Mejor Alternativa a ChatGPT en Colombia en 2026: IA Gratis Que Funciona Sin Internet",
+      "describe": "Off Grid AI es la alternativa a ChatGPT que corre en tu propio celular. Es gratis, habla español, no gasta tus datos y sigue funcionando sin señal, porque la IA vive en el celular, no en un servidor. En Colombia ChatGPT Go cuesta COP 24.900 al mes y Google AI Plus COP 19.900 . El chat de Off Grid AI es gratis para siempre, y Pro, que suma notas de reuniones, dictado y sincronización con tu portátil, cuesta $20 una sola vez . Descarga Off Grid AI · Obtén Pro por $20 una vez La app recomienda los modelos que caben en la memoria de tu celular. Off Grid AI vs ChatGPT Go vs Google AI Plus en Col...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs7zlajyhtmx2ybaaho0d.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/la-mejor-alternativa-a-chatgpt-en-colombia-en-2026-ia-gratis-que-funciona-sin-internet-53lm",
+      "published": "2026-11-19T07:02:48+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】La Mejor Alternativa a ChatGPT en Colombia en 2026: IA Grati。Off Grid AI es la alternativa a ChatGPT que corre en tu propio celular。Es gratis, habla español, no gasta tus datos y sigue funcionando sin señal, porque la IA vive en el celula..."
+    },
+    {
+      "title": "The €805 Million Tap: What Italy's Fine on Meta Teaches Anyone Who Builds Apps",
+      "describe": "You have seen this pop-up a hundred times: Allow Facebook to access photos and videos on this device? Allow · Don't allow Most of us tap Allow without thinking. In November 2026, Italy's data protection authority decided that one version of this tap was worth an €805 million fine against Meta. This isn't a story about a data breach or a hack. Nobody stole anything. It's about how an app asked . That makes it one of the most useful privacy cases for developers, product designers and anyone who ships a mobile app. What actually happened The Italian regulator, the Garante per la protezione dei...",
+      "media": [],
+      "origin_url": "https://dev.to/furqank729/the-eu805-million-tap-what-italys-fine-on-meta-teaches-anyone-who-builds-apps-45i3",
+      "published": "2026-11-19T07:02:20+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】The €805 Million Tap: What Italy's Fine on Meta Teaches Anyo。You have seen this pop-up a hundred times: Allow Facebook to access photos and videos on this device。Allow · Don't allow Most of us tap Allow without thinking"
+    },
+    {
+      "title": "Giá ChatGPT Plus ở Việt Nam năm 2026, và Off Grid AI Pro $20 trả một lần",
+      "describe": "ChatGPT Plus giá 20 USD mỗi tháng , tức 240 USD mỗi năm. Off Grid AI Pro chỉ $20 trả một lần ở Việt Nam và thuộc về bạn mãi mãi: AI riêng tư trên máy tính và điện thoại của bạn, không thuê bao, không cần tài khoản. AI chạy ngay trên thiết bị của bạn, nên bạn không thuê máy chủ của ai và không phải trả tiền hằng tháng. Mua Pro với giá $20 · Tải Off Grid AI Ngày của bạn, cuộc họp và việc cần làm, do AI chạy trên chính máy tính của bạn ghi lại. ChatGPT Plus hay Off Grid AI Pro? ChatGPT Plus Off Grid AI Pro Giá 20 USD mỗi tháng $20 trả một lần Sau 3 năm 720 USD $20 AI chạy ở đâu Trên máy chủ củ...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzjuuxwpdvgm173h64ib0.webp"
+      ],
+      "origin_url": "https://dev.to/alichherawalla/gia-chatgpt-plus-o-viet-nam-nam-2026-va-off-grid-ai-pro-20-tra-mot-lan-4a49",
+      "published": "2026-11-19T06:36:26+00:00",
+      "source_label": "DEV Community (Android)",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Giá ChatGPT Plus ở Việt Nam năm 2026, và Off Grid AI Pro $20。ChatGPT Plus giá 20 USD mỗi tháng , tức 240 USD mỗi năm。Off Grid AI Pro chỉ $20 trả một lần ở Việt Nam và thuộc về bạn mãi mãi: AI riêng tư trên máy tính và điện thoại của bạn, ..."
+    },
+    {
+      "title": "Elevating games: New large screens and foldables quality standards on Google Play",
+      "describe": "To give these experiences to players and ensure your games shine across every screen size, Google Play is introducing new large screen quality requirements for games",
+      "media": [],
+      "origin_url": "https://developer.android.com/blog/posts/elevating-game-quality-foldables-large-screens-google-play",
+      "published": "2026-11-18T00:00:00+00:00",
+      "source_label": "Android Developers Blog",
+      "category_id": "android",
+      "category_name": "Android / Kotlin",
+      "ai_summary": "【Android / Kotlin】Elevating games: New large screens and foldables quality sta。To give these experiences to players and ensure your games shine across every screen size, Google Play is introducing new large screen quality requirements for games"
+    }
+  ],
+  "frontend": [
+    {
+      "title": "When \"AI Boom\" Becomes \"Cloud API Regret\": The Case for Client-Side Compute",
+      "describe": "The tech industry is abuzz with AI, and rightfully so. From intelligent assistants to hyper-personalized experiences, AI promises a transformative future. But in our rush to integrate these powerful capabilities, many of us have fallen into a familiar trap: the default impulse to send everything to the cloud. We're witnessing a concerning trend where the initial \"AI boom\" excitement is slowly giving way to a gnawing \"cloud API regret.\" For senior software engineers, this regret often surfaces in the form of architectural nightmares, escalating costs, and, most critically, severe privacy lia...",
+      "media": [],
+      "origin_url": "https://dev.to/khaithisran/when-ai-boom-becomes-cloud-api-regret-the-case-for-client-side-compute-3878",
+      "published": "2026-11-19T07:59:53+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】When \"AI Boom\" Becomes \"Cloud API Regret\": The Case for Clie。The tech industry is abuzz with AI, and rightfully so。From intelligent assistants to hyper-personalized experiences, AI promises a transformative future"
+    },
+    {
+      "title": "WHAT IF YOU COULD LEARN JAVASCRIPT IN ONE WEEK",
+      "describe": "I HAVE THIS CRAZY GOAL OF LEARNING JAVASCRIPT IN ONE WEEK AND I BELIEVE THAT I CAN DO IT. I JUST HAVE TO FOCUS AND GRIND TILL I DO IT",
+      "media": [],
+      "origin_url": "https://dev.to/frank_exe/what-if-you-could-learn-javascript-in-one-week-39a1",
+      "published": "2026-11-19T07:58:59+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】WHAT IF YOU COULD LEARN JAVASCRIPT IN ONE WEEK。I HAVE THIS CRAZY GOAL OF LEARNING JAVASCRIPT IN ONE WEEK AND I BELIEVE THAT I CAN DO IT。I JUST HAVE TO FOCUS AND GRIND TILL I DO IT"
+    },
+    {
+      "title": "Roots for the ones who came before, leaves for the ones still growing: a self-hosted family tree",
+      "describe": "Imagine showing your child a photo of your grandmother. You remember the song she used to hum while she cooked. Your child has never heard it. I built Reactive Family Tree so you can put that memory beside your grandmother’s photo, in your own words. Years from now, your child can find it there. View the original GIF on GitHub (960 × 540) I drew the branches in ink and gave the leaves a soft wash of colour. A blossom marks where two partners meet. When someone dies, their leaf turns gold and stays on the branch. I borrowed the spacing from Japanese gardens. In niwaki , a gardener trims a tr...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwdnjguc3x3cjvwyxnep4.gif",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fohrkt5pyz66g9wbhwf9n.jpeg",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0xl851p75mochcb6ax18.jpeg"
+      ],
+      "origin_url": "https://dev.to/george_h_d80f1c76c501c8ab/roots-for-the-ones-who-came-before-leaves-for-the-ones-still-growing-a-self-hosted-family-tree-ppg",
+      "published": "2026-11-19T07:54:20+00:00",
+      "source_label": "DEV Community (React)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Roots for the ones who came before, leaves for the ones stil（开源）。Imagine showing your child a photo of your grandmother。You remember the song she used to hum while she cooked"
+    },
+    {
+      "title": "Why the link box is a plain input, not a drag-and-drop zone",
+      "describe": "Every design blog will tell you drag-and-drop is the modern way to accept input. I tried it, thought about it properly, and then shipped the most boring thing possible: a plain text input. Here is why that was the right call for a video downloader. The input is a link, not a file A drag-and-drop zone is built for files. You drag a photo from your desktop, the browser fires a drop event, and event.dataTransfer.files gives you the file. That is a lovely flow — for an image editor, a file converter, a cloud drive. My site is not any of those. The thing a visitor brings is a URL, copied from Ti...",
+      "media": [],
+      "origin_url": "https://dev.to/mobeenahmedgondal/why-the-link-box-is-a-plain-input-not-a-drag-and-drop-zone-42g6",
+      "published": "2026-11-19T07:49:32+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Why the link box is a plain input, not a drag-and-drop zone。Every design blog will tell you drag-and-drop is the modern way to accept input。I tried it, thought about it properly, and then shipped the most boring thing possible: a plain t..."
+    },
+    {
+      "title": "How I made a background remover that runs entirely in the browser",
+      "describe": "Most “free background remover” sites work the same way: you upload a photo, a server runs a segmentation model, and a PNG comes back. That is convenient, and it is also a privacy problem. A CV portrait, a product shot, or a scan of a document should not have to sit on a stranger’s GPU for a simple cut-out. I wanted a tool that does the same job in the browser tab. The result is Free Background Remover . It is a free, ad-supported site. Your photo is not sent to our servers for processing. This post describes how the page is put together, what it borrows, and where the trade-offs are. I star...",
+      "media": [],
+      "origin_url": "https://dev.to/gentil_m/how-i-made-a-background-remover-that-runs-entirely-in-the-browser-105c",
+      "published": "2026-11-19T07:35:27+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】How I made a background remover that runs entirely in the br。Most “free background remover” sites work the same way: you upload a photo, a server runs a segmentation model, and a PNG comes back。That is convenient, and it is also a privacy..."
+    },
+    {
+      "title": "Xanv",
+      "describe": "Documentation Xanv is a small TypeScript-first runtime validation library. Schemas validate values at runtime while exposing their inferred TypeScript types. Features Runtime validation for primitive, collection, object, function, promise, file, and React function-component values Composable optional, nullable, default, and transform behavior Type inference with Infer and InferValue No runtime dependencies Named validator classes are exported for extension and direct use Installation npm install xanv Quick start import { InferValue , xv } from \"xanv\" ; const userSchema = xv . object ( { id ...",
+      "media": [],
+      "origin_url": "https://dev.to/devnax/xanv-39p0",
+      "published": "2026-11-19T07:17:25+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Xanv。Documentation Xanv is a small TypeScript-first runtime validation library。Schemas validate values at runtime while exposing their inferred TypeScript types"
+    },
+    {
+      "title": "I checked Google Flights' calendar prices against full searches, and 10 of 10 matched",
+      "describe": "I build a small Google Flights API, and this week I wanted to settle one question. When Google's date calendar says a trip costs $627 on a given day, does a real search for that day agree? It matters because the calendar is the cheap read. One request gives you a whole month of prices, while a full search prices one date pair at a time and takes longer (in my runs today the month took 1 to 5 seconds, a single full round-trip search 5 to 32 seconds). If the calendar holds up, you scan with it and only run the full search on the date you actually pick. The test Three round trips in March 2027...",
+      "media": [],
+      "origin_url": "https://dev.to/matanrabi/i-checked-google-flights-calendar-prices-against-full-searches-and-10-of-10-matched-1pj5",
+      "published": "2026-11-19T07:08:25+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】I checked Google Flights' calendar prices against full searc。I build a small Google Flights API, and this week I wanted to settle one question。When Google's date calendar says a trip costs $627 on a given day, does a real search for that ..."
+    },
+    {
+      "title": "Tracking Click-to-Call and Form Conversions in Next.js for Google Ads",
+      "describe": "If you build websites for local service businesses, there is a good chance the client is paying for Google Ads. HVAC companies, plumbers, law firms and dentists all spend real money on clicks, and the first question they ask after launch is simple: which of these clicks turned into a phone call or a form submission? If the site cannot answer that, the ad account is flying blind. Google's bidding systems optimize toward whatever you tell them is a conversion. If nothing is tracked, they optimize toward clicks, and clicks are not customers. This article walks through a clean way to track the ...",
+      "media": [],
+      "origin_url": "https://dev.to/codehunterz/tracking-click-to-call-and-form-conversions-in-nextjs-for-google-ads-4bd1",
+      "published": "2026-11-19T06:52:37+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Tracking Click-to-Call and Form Conversions in Next.js for G（性能）。If you build websites for local service businesses, there is a good chance the client is paying for Google Ads。HVAC companies, plumbers, law firms and dentists all spend real mo..."
+    },
+    {
+      "title": "Which Social Networks Do Your Customers Use? A Tiny Offline JavaScript Tally for Filipino Shops",
+      "describe": "By MD Fozla Rabbi , SEO Specialist Small business owners in the Philippines love asking, \"Should I be on TikTok, Instagram or just Facebook?\" Honestly, the best answer is boring. Ask your customers. I built a tiny JavaScript counter for a milk tea shop in Laguna to do exactly that. The cashier asked one question per order: \"Saan mo kami nakita?\" (Where did you find us?). Then tapped a button. After two weeks the owner had real numbers instead of guesses. Here's the whole thing. No framework. No backend. Works offline on a cheap Android phone. The idea One big button per social network Each ...",
+      "media": [],
+      "origin_url": "https://dev.to/seo_nttechinnovation_/which-social-networks-do-your-customers-use-a-tiny-offline-javascript-tally-for-filipino-shops-g8p",
+      "published": "2026-11-19T06:51:53+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Which Social Networks Do Your Customers Use? A Tiny Offline 。By MD Fozla Rabbi , SEO Specialist Small business owners in the Philippines love asking, \"Should I be on TikTok, Instagram or just Facebook。\" Honestly, the best answer is boring"
+    },
+    {
+      "title": "How I Built 46+ 100% Client-Side Privacy-First Web Tools (PDF Invoice Maker, JWT Decoder & LLM Token Calculator)",
+      "describe": "Most \"free online tools\" on the web today have two massive problems: They upload your private files (passports, PDF invoices, production JWT tokens, JSON configs) to remote backend servers. They lock basic features behind signup walls or slap huge watermarks on downloads. So I built SmartToolzAI — a collection of 46+ free online developer, finance, PDF, and AI tools that run 100% locally in your browser using vanilla JavaScript, HTML5 Canvas, and pdf-lib . Highlights for Developers & Indie Hackers: 🤖 LLM Token Counter & AI API Cost Calculator : Paste any system/user prompt and instantly com...",
+      "media": [],
+      "origin_url": "https://dev.to/smarttoolzai/how-i-built-46-100-client-side-privacy-first-web-tools-pdf-invoice-maker-jwt-decoder-llm-3ii2",
+      "published": "2026-11-19T06:49:06+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】How I Built 46+ 100% Client-Side Privacy-First Web Tools (PD。Most \"free online tools\" on the web today have two massive problems: They upload your private files (passports, PDF invoices, production JWT tokens, JSON configs) to remote back..."
+    },
+    {
+      "title": "How I Built a Zero-Signup, Ad-Free Image Host on Cloudflare R2 (and Stopped Fighting Cluttered Image Sites)",
+      "describe": "The author introduces Photo2URL, a lightweight and zero-signup image hosting tool built for developers to avoid the friction of traditional image hosts Photo2URL. Key Highlights: • Cloudflare R2 + Global CDN: Fast, low-latency global delivery without bandwidth fees. • Clipboard-First UX: Instant uploads via Ctrl+V / Cmd+V with Markdown and HTML output support. • Privacy by Default: Automatic stripping of EXIF and XMP metadata with no public galleries. • Browser-Side Utilities: Local client-side compression, resizing, and format conversion. Photo2URL Try It Out & Share Your Feedback The free...",
+      "media": [],
+      "origin_url": "https://dev.to/photo2url/how-i-built-a-zero-signup-ad-free-image-host-on-cloudflare-r2-and-stopped-fighting-cluttered-50pg",
+      "published": "2026-11-19T06:45:25+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】How I Built a Zero-Signup, Ad-Free Image Host on Cloudflare 。The author introduces Photo2URL, a lightweight and zero-signup image hosting tool built for developers to avoid the friction of traditional image hosts Photo2URL。Key Highlights:..."
+    },
+    {
+      "title": "Scheduled posts for a static site without a CMS: a queue folder, a cron slot, a build that can say no",
+      "describe": "My static site deploys by hand, so publishing meant dropping a batch of articles at once, and each one needed inbound links and fresh translations before the build's checks passed. Here's the queue folder, schedule file and guarded wrapper that now publish one or two a day. The site is Amyloid Test , but nothing here is specific to it. You need markdown files, a build with content checks, and a scheduler. The layout Each finished post waits in its own folder: seo/queue/<slug>/en.md seo/queue/<slug>/de.md seo/queue/<slug>/es.md seo/queue/<slug>/links.json seo/queue/schedule.json schedule.jso...",
+      "media": [],
+      "origin_url": "https://dev.to/timottowitz/scheduled-posts-for-a-static-site-without-a-cms-a-queue-folder-a-cron-slot-a-build-that-can-say-198k",
+      "published": "2026-11-19T06:42:09+00:00",
+      "source_label": "DEV Community (JavaScript)",
+      "category_id": "frontend",
+      "category_name": "前端开发",
+      "ai_summary": "【前端开发】Scheduled posts for a static site without a CMS: a queue fol。My static site deploys by hand, so publishing meant dropping a batch of articles at once, and each one needed inbound links and fresh translations before the build's checks pass..."
+    }
+  ],
+  "backend": [
+    {
+      "title": "Your IP Is Clean. The Other 253 Addresses in Its /24 Decide Your Fate.",
+      "describe": "You buy a proxy, check the address, and every score comes back green. Then an account registered through it is suspended within a day, and the IP still scores green afterwards. The address was never the unit being judged. The prefix was. Three scopes that get confused An IP reputation lookup answers one narrow question about a single 32-bit number. What a target site enforces is usually decided at a coarser scope, because that is where abuse is cheap to detect and expensive to launder. Scope Unit Who decides What a block means Address One IP That site's own rules This endpoint is burned Pre...",
+      "media": [],
+      "origin_url": "https://dev.to/socks5ip/your-ip-is-clean-the-other-253-addresses-in-its-24-decide-your-fate-2nii",
+      "published": "2026-11-19T07:41:25+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Your IP Is Clean. The Other 253 Addresses in Its /24 Decide 。You buy a proxy, check the address, and every score comes back green。Then an account registered through it is suspended within a day, and the IP still scores green afterwards"
+    },
+    {
+      "title": "Meet Unmeshed: Run Your Apps, AI and People as One Workflow",
+      "describe": "At most companies, work doesn’t live in one place. Part of it sits in the CRM, part of it runs as a cron job, some of it is a Python script someone wrote last year, and the rest depends on a manager or the finance team replying to a message. Most days, it holds together. But when one piece breaks, someone has to work out where it broke and fix it by hand. Unmeshed is a workflow orchestration platform. It takes all those pieces and runs them as one set of steps, in order. A step can be a bit of code, an AI model, a rules table, or a person. Take a simple expense approval. First, a step tidie...",
+      "media": [],
+      "origin_url": "https://dev.to/unmeshed/meet-unmeshed-run-your-apps-ai-and-people-as-one-workflow-4cbi",
+      "published": "2026-11-19T07:39:46+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Meet Unmeshed: Run Your Apps, AI and People as One Workflow。At most companies, work doesn’t live in one place。Part of it sits in the CRM, part of it runs as a cron job, some of it is a Python script someone wrote last year, and the rest ..."
+    },
+    {
+      "title": "AI Agents Broke Code Review: Why 'LLM-as-a-Judge' Fails and How Deterministic Verification Gates Catch Lying PRs in 2026",
+      "describe": "AI Agents Broke Code Review: Why 'LLM-as-a-Judge' Fails and How Deterministic Verification Gates Catch Lying PRs in 2026",
+      "media": [],
+      "origin_url": "https://dev.to/agdex_ai/ai-agents-broke-code-review-why-llm-as-a-judge-fails-and-how-deterministic-verification-gates-3lof",
+      "published": "2026-11-19T07:37:59+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】AI Agents Broke Code Review: Why 'LLM-as-a-Judge' Fails and 。AI Agents Broke Code Review: Why 'LLM-as-a-Judge' Fails and How Deterministic Verification Gates Catch Lying PRs in 2026"
+    },
+    {
+      "title": "Penetration Testing on Patch Day: A 24-Hour Retest Sequence You Can Copy",
+      "describe": "Disclosure: the author works at HACKBOX PTE. LTD., which builds HackBox — mentioned at the close. Everything else here is a technical argument you can check yourself. On 16 November 2026, Google's Threat Intelligence Group published an account of an operational framework it calls exploit_agent . The mechanism is worth stating plainly, because it changes a scheduling decision that most security teams made years ago and have not revisited since. The framework watches popular web applications for security releases, compares the code before and after each fix, works out what the patch quietly c...",
+      "media": [],
+      "origin_url": "https://dev.to/hackbox/penetration-testing-on-patch-day-a-24-hour-retest-sequence-you-can-copy-1257",
+      "published": "2026-11-19T07:37:01+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Penetration Testing on Patch Day: A 24-Hour Retest Sequence （开源/安全）。Disclosure: the author works at HACKBOX PTE。, which builds HackBox — mentioned at the close"
+    },
+    {
+      "title": "HTTP 502 Bad Gateway (nginx, PHP-FPM): how to fix",
+      "describe": "nginx could not get a valid response from the upstream (PHP-FPM, Node.js, Gunicorn, a Docker container) – the backend is down, unreachable or crashed. Common causes PHP-FPM is stopped or crashed (e.g. after an update or an OOM kill). The socket path no longer matches after a PHP upgrade, e.g. php8.2-fpm.sock instead of php8.3-fpm.sock . No permission on the socket: listen.owner / listen.group do not match the nginx user. The backend listens on a different port or only on IPv6/IPv4. The PHP worker dies mid-request (segfault): upstream prematurely closed connection . How to check it Read the ...",
+      "media": [],
+      "origin_url": "https://dev.to/mikweb2025design/http-502-bad-gateway-nginx-php-fpm-how-to-fix-5hkb",
+      "published": "2026-11-19T07:35:09+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】HTTP 502 Bad Gateway (nginx, PHP-FPM): how to fix（教程）。nginx could not get a valid response from the upstream (PHP-FPM, Node。js, Gunicorn, a Docker container) – the backend is down, unreachable or crashed"
+    },
+    {
+      "title": "Let's Encrypt won't renew although the site works: port 80, AAAA records and HTTP-01",
+      "describe": "\"The site works normally, but the certificate expires in a few days and the automatic renewal keeps failing.\" Everything is green in the browser, so it can't be the server – that's the obvious assumption. But the HTTP-01 challenge from Let's Encrypt looks at the server from a different client than the customer's browser. How the HTTP-01 challenge works The ACME client on the server (for example certbot) places a file with a token under /.well-known/acme-challenge/ . Let's Encrypt then fetches it via http://example.com/.well-known/acme-challenge/<token> – always over HTTP on port 80 . A redi...",
+      "media": [],
+      "origin_url": "https://dev.to/mikweb2025design/lets-encrypt-wont-renew-although-the-site-works-port-80-aaaa-records-and-http-01-4d5f",
+      "published": "2026-11-19T07:35:07+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Let's Encrypt won't renew although the site works: port 80, 。\"The site works normally, but the certificate expires in a few days and the automatic renewal keeps failing。\" Everything is green in the browser, so it can't be the server – tha..."
+    },
+    {
+      "title": "A DigitalOcean volume next to the Droplet's own disk",
+      "describe": "Every Droplet comes with its own SSD, and DigitalOcean also sells Volumes, network block storage you attach to a Droplet and can move to another one. I'd only ever used volumes for \"more space\", and never checked what they cost in speed or what moving one actually looks like. So I put a volume and a Droplet's own disk through the same tests, then moved the volume between two Droplets, once properly and once by detaching it while Postgres was writing to it. The setup Two s-2vcpu-4gb Droplets in fra1, which is the shared-CPU plan at $24 a month, running Ubuntu 24.04, and a 100 GiB volume at $...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsyjjduj9u4hga33vqyzh.png",
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7rsxqavm74g2i7zjeidi.png"
+      ],
+      "origin_url": "https://dev.to/remdore/a-digitalocean-volume-next-to-the-droplets-own-disk-51nb",
+      "published": "2026-11-19T07:31:58+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】A DigitalOcean volume next to the Droplet's own disk。Every Droplet comes with its own SSD, and DigitalOcean also sells Volumes, network block storage you attach to a Droplet and can move to another one。I'd only ever used volumes f..."
+    },
+    {
+      "title": "How to Batch Convert AVIF Images to JPG Easily on Any Device | 2026 Guide",
+      "describe": "Why Convert AVIF to JPG? AVIF is a modern image format with useful features. It offers smaller files with good visual quality. However, some apps have limited AVIF support. Certain websites also prefer more familiar image formats. This creates problems when sharing pictures online. That is why [AVIF to JPG ]( https://avifjpg.online/ conversion is useful. JPG works across many devices and applications. Most photo viewers can open JPG images easily. Many websites also accept JPG uploads. This makes JPG a practical image format. Converting images individually takes extra time. Batch conversion...",
+      "media": [
+        "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flpr9km07ex5hq9dgjumb.png"
+      ],
+      "origin_url": "https://dev.to/prasantha_manjula_98a0e45/how-to-batch-convert-avif-images-to-jpg-easily-on-any-device-2026-guide-1ao",
+      "published": "2026-11-19T07:26:13+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】How to Batch Convert AVIF Images to JPG Easily on Any Device（教程）。Why Convert AVIF to JPG。AVIF is a modern image format with useful features"
+    },
+    {
+      "title": "LogTreeDB: Building a Crash-Safe, Zero-Dependency Document Database from Scratch in C++17",
+      "describe": "Author: Praveen Kumar Date: November 2026 Executive Summary & The Core Question Databases are often treated as black boxes. When application developers need a document store, they default to MongoDB; when they need an embedded engine, they grab SQLite or RocksDB. But under high-concurrency write workloads requiring strict physical durability (fsync on every acknowledged write), traditional database designs encounter severe architectural bottlenecks—most notably Write Amplification (WAF) and Random I/O Thrashing. LogTreeDB is a crash-safe, multi-threaded document database written from absolu...",
+      "media": [],
+      "origin_url": "https://dev.to/praveen_kumar_f6238f88753/logtreedb-building-a-crash-safe-zero-dependency-document-database-from-scratch-in-c17-55me",
+      "published": "2026-11-19T07:11:14+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】LogTreeDB: Building a Crash-Safe, Zero-Dependency Document D。Author: Praveen Kumar Date: November 2026 Executive Summary & The Core Question Databases are often treated as black boxes。When application developers need a document store, the..."
+    },
+    {
+      "title": "How to Block AI Training Bots in robots.txt (and Keep ChatGPT Search Citing You)",
+      "describe": "AI companies read your site for three different reasons, and robots.txt lets you treat each one differently. Most \"block AI bots\" advice lumps them together, which can quietly remove you from AI answers you'd want to be in. Three kinds of AI bots Training crawlers collect pages to train models: GPTBot (OpenAI), ClaudeBot (Anthropic), Google-Extended (Gemini), Applebot-Extended , meta-externalagent , Amazonbot , CCBot (Common Crawl) and Bytespider (ByteDance). AI search crawlers index pages so assistants can cite you: OAI-SearchBot , Claude-SearchBot and PerplexityBot . User-triggered fetche...",
+      "media": [],
+      "origin_url": "https://dev.to/_geekspark/how-to-block-ai-training-bots-in-robotstxt-and-keep-chatgpt-search-citing-you-1j20",
+      "published": "2026-11-19T07:10:23+00:00",
+      "source_label": "DEV Community (DevOps)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】How to Block AI Training Bots in robots.txt (and Keep ChatGP（教程）。AI companies read your site for three different reasons, and robots。txt lets you treat each one differently"
+    },
+    {
+      "title": "Why Pydantic V2 is a Game Changer for Python Backends (Migration & Key Patterns)",
+      "describe": "For years, Pydantic has been the backbone of modern Python data validation, powering widely adopted frameworks like FastAPI, LangChain, and Instructor. But as applications scaled, pure Python validation overhead became noticeable under high-throughput workloads. With Pydantic V2 , the framework underwent an ambitious rewrite: the entire validation core was rebuilt from scratch in Rust ( pydantic-core ), delivering a staggering 5x to 50x performance boost while bringing clearer APIs and robust type-system compliance. 💡 Note: This article is an adapted practical summary highlighting the major...",
+      "media": [],
+      "origin_url": "https://dev.to/taxtander/why-pydantic-v2-is-a-game-changer-for-python-backends-migration-key-patterns-30jo",
+      "published": "2026-11-19T07:05:35+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Why Pydantic V2 is a Game Changer for Python Backends (Migra（性能/架构）。For years, Pydantic has been the backbone of modern Python data validation, powering widely adopted frameworks like FastAPI, LangChain, and Instructor。But as applications scaled..."
+    },
+    {
+      "title": "Mastering Modern Async SQLAlchemy 2.0 & Alembic in Python (A Pragmatic Guide)",
+      "describe": "If you have worked with Python ORMs over the last decade, you remember the traditional SQLAlchemy 1.x patterns: query objects attached to sessions, string-based relationships, implicit lazy loading, and blocking I/O calls that froze your async event loop. With SQLAlchemy 2.0 , the entire ecosystem went through a massive generational overhaul. It brought first-class async support , full type safety conforming to PEP 484 , and a unified query syntax built around select() . When combined with Alembic for schema migrations, it gives Python backends a robust, enterprise-grade data layer. 💡 Note:...",
+      "media": [],
+      "origin_url": "https://dev.to/taxtander/mastering-modern-async-sqlalchemy-20-alembic-in-python-a-pragmatic-guide-1c1g",
+      "published": "2026-11-19T07:05:34+00:00",
+      "source_label": "DEV Community (Backend)",
+      "category_id": "backend",
+      "category_name": "后端 / 架构",
+      "ai_summary": "【后端 / 架构】Mastering Modern Async SQLAlchemy 2.0 & Alembic in Python (A（教程）。If you have worked with Python ORMs over the last decade, you remember the traditional SQLAlchemy 1。x patterns: query objects attached to sessions, string-based relationships, i..."
+    }
+  ],
+  "general": [
+    {
+      "title": "A missed sprint goal or a declined pull request is not an indictment of your intelligence",
+      "describe": "A missed sprint goal or a declined pull request is not an indictment of your intelligence. In tech, it's easy to tie your self-esteem directly to your quarterly performance review, the stars on your repo, or the valuation of your employer. When the metrics drop, your sense of identity craters with it. You are a human being who builds software, not a function that returns output. Care deeply about your craft, but never confuse your output with your value as a person. Separate the craft from your identity. MentalHealthInTech #ImposterSyndrome #DeveloperLife #SelfWorth #MergedCode",
+      "media": [],
+      "origin_url": "https://dev.to/mergedcode/a-missed-sprint-goal-or-a-declined-pull-request-is-not-an-indictment-of-your-intelligence-4boo",
+      "published": "2026-11-19T08:00:01+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】A missed sprint goal or a declined pull request is not an in（性能）。A missed sprint goal or a declined pull request is not an indictment of your intelligence。In tech, it's easy to tie your self-esteem directly to your quarterly performance revie..."
+    },
+    {
+      "title": "Dolby Vision profile 5 on Android without a Dolby Vision decoder",
+      "describe": "Dolby Vision profile 5 is common, and on an Android TV box or phone without a Dolby Vision decoder it plays green and purple. Here is how Yonto Player draws them with the right colours anyway, on top of media3 (ExoPlayer), with the GPU doing the colour work. Why profile 5 is the hard one Profile 8 carries an HDR10, HLG or SDR picture under the Dolby Vision layer, so a device that knows nothing about Dolby Vision can still show something sensible. Profile 5 has no such fallback. The picture is coded in Dolby's own IPT-PQ-c2 colour space, and every frame carries an RPU (Reference Processing U...",
+      "media": [],
+      "origin_url": "https://dev.to/yonto/dolby-vision-profile-5-on-android-without-a-dolby-vision-decoder-2eb5",
+      "published": "2026-11-19T08:00:00+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Dolby Vision profile 5 on Android without a Dolby Vision dec。Dolby Vision profile 5 is common, and on an Android TV box or phone without a Dolby Vision decoder it plays green and purple。Here is how Yonto Player draws them with the right c..."
+    },
+    {
+      "title": "How I score a small business website, check by check",
+      "describe": "Disclosure: I built this tool with help from an AI coding assistant (Claude), and an AI helped draft this article. I reviewed the code and the text. Every number below comes from the project's README. A bakery owner doesn't care that their Largest Contentful Paint is 4.8 seconds. They care that a customer on a phone can't find the opening hours. I wanted an audit that starts from the second sentence and still rests on measured data. So I wrote shopfront-audit , an MIT-licensed TypeScript tool that takes a URL, optionally the name, address and phone from the business's listing, and writes on...",
+      "media": [],
+      "origin_url": "https://dev.to/george_mikaelson_2f954f58/how-i-score-a-small-business-website-check-by-check-168h",
+      "published": "2026-11-19T07:59:11+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】How I score a small business website, check by check。Disclosure: I built this tool with help from an AI coding assistant (Claude), and an AI helped draft this article。I reviewed the code and the text"
+    },
+    {
+      "title": "Can't install STM32CubeIDE on Linux? It's the license prompt, not you published: false",
+      "describe": "I was setting up STM32CubeIDE 2.3.0 on Ubuntu for my new STM32N6570-DK board. The installer kept quitting with: I ACCEPT (y) / I DO NOT ACCEPT (N) [N/y] *** License NOT accepted. Not installing software. I typed y , but it still aborted. I tried a few times. Why it happens The installer shows a long license text, and I was pressing Enter to scroll through it. Those extra Enter presses get saved up. When the [N/y] question appears, a leftover Enter answers it first. The capital N means \"No\" is the default, so the install stops before your y is read. The fix Run the installer with sudo . It i...",
+      "media": [],
+      "origin_url": "https://dev.to/abdul_sattar/cant-install-stm32cubeide-on-linux-its-the-license-prompt-not-youpublished-false-lo0",
+      "published": "2026-11-19T07:59:05+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Can't install STM32CubeIDE on Linux? It's the license prompt。I was setting up STM32CubeIDE 2。0 on Ubuntu for my new STM32N6570-DK board"
+    },
+    {
+      "title": "Why Seal Surfaces Leak While the Ra Number Looks Fine",
+      "describe": "A buyer sent us a leak test report last quarter. Twelve fittings, all VCR-type glands in 316L, all machined from certified bar, all showing Ra 0.4 µm on the inspection sheet. Six of them leaked at helium. The Ra number could not explain it, because Ra was never the problem. This post is about what Ra does not measure, and why metal-to-metal seal surfaces fail in ways that show up only at leak test — long after the dimensional report said everything was good. Ra is an average, and averages hide grooves Ra integrates the absolute deviation of the profile from its mean line. A fine, uniform to...",
+      "media": [],
+      "origin_url": "https://dev.to/chxprecisionmetal/why-seal-surfaces-leak-while-the-ra-number-looks-fine-56k6",
+      "published": "2026-11-19T07:58:09+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Why Seal Surfaces Leak While the Ra Number Looks Fine。A buyer sent us a leak test report last quarter。Twelve fittings, all VCR-type glands in 316L, all machined from certified bar, all showing Ra 0"
+    },
+    {
+      "title": "Как не сажать батарею телефона своим приложением",
+      "describe": "Представь: ты едешь в метро, листаешь приложение, а телефон садится за 20 минут. Ты злишься и удаляешь приложение. Твоя задача как разработчика — чтобы приложение было полезным, но не «съедало» батарею. ────────────────────────────────────────────────── Почему вообще важно думать про заряд • Пользователь не хочет остаться без связи. Если приложение быстро сажает батарею — его просто удалят. • Телефон греется — это плохо. Когда процессор работает на максимум, телефон нагревается, а батарея быстрее изнашивается. • Экология. Меньше тратишь энергии — реже заряжаешь телефон — дольше он служит — ...",
+      "media": [],
+      "origin_url": "https://dev.to/pbuin/kak-nie-sazhat-batarieiu-tieliefona-svoim-prilozhieniiem-2af2",
+      "published": "2026-11-19T07:57:34+00:00",
+      "source_label": "DEV Community",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Как не сажать батарею телефона своим приложением。Представь: ты едешь в метро, листаешь приложение, а телефон садится за 20 минут。Ты злишься и удаляешь приложение"
+    },
+    {
+      "title": "Traffic mix matters",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://brooker.co.za/blog/2026/11/18/workload-mix.html",
+      "published": "2026-11-19T07:33:44+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Traffic mix matters。Comments"
+    },
+    {
+      "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+      "describe": "Article URL: https://kapteko.com/15-million-webservers/ Comments URL: https://news.ycombinator.com/item?id=50556533 Points: 52 # Comments: 10",
+      "media": [],
+      "origin_url": "https://kapteko.com/15-million-webservers/",
+      "published": "2026-11-19T05:56:36+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】15M web servers on one VM – smoltcp, DPDK, AF_XDP。Article URL: https://kapteko。com/15-million-webservers/ Comments URL: https://news"
+    },
+    {
+      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+      "describe": "Article URL: https://verialabs.com/ruby2shell/ Comments URL: https://news.ycombinator.com/item?id=50556287 Points: 8 # Comments: 0",
+      "media": [],
+      "origin_url": "https://verialabs.com/ruby2shell/",
+      "published": "2026-11-19T05:09:11+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Ruby2ßhell: Pre-authentication RCE on stock Rails。Article URL: https://verialabs。com/ruby2shell/ Comments URL: https://news"
+    },
+    {
+      "title": "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework",
+      "describe": "Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project eliminates layers of abstraction to directly leverage the device’s GPU, native mobile views, and a Rust core shared across platforms. Early results hint at a significant reduction in RAM usage and boot time for chat, voice, and streaming. By Bruno Couriol",
+      "media": [
+        "https://res.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/en/headerimage/generatedHeaderImage-1795054565892.jpg"
+      ],
+      "origin_url": "https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "published": "2026-11-19T03:12:00+00:00",
+      "source_label": "InfoQ",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Discord Rewrites Desktop and Mobile Clients in Rust Using Ze。Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native。The project eliminates layers..."
+    },
+    {
+      "title": "Incidents in the news",
+      "describe": "Comments",
+      "media": [],
+      "origin_url": "https://surfingcomplexity.blog/2026/11/18/incidents-in-the-news/",
+      "published": "2026-11-19T01:45:23+00:00",
+      "source_label": "Lobsters",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Incidents in the news。Comments"
+    },
+    {
+      "title": "Unreal Tournament 2004 in the Browser",
+      "describe": "Article URL: https://ut2004.dev/ Comments URL: https://news.ycombinator.com/item?id=50554935 Points: 149 # Comments: 67",
+      "media": [],
+      "origin_url": "https://ut2004.dev/",
+      "published": "2026-11-19T01:29:29+00:00",
+      "source_label": "Hacker News 首页",
+      "category_id": "general",
+      "category_name": "综合干货",
+      "ai_summary": "【综合干货】Unreal Tournament 2004 in the Browser。Article URL: https://ut2004。dev/ Comments URL: https://news"
+    }
+  ]
+}
